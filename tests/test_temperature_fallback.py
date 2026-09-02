@@ -92,3 +92,52 @@ def test_models_that_accept_temperature_keep_sending_it(monkeypatch) -> None:  #
     asyncio.run(client.complete(system="s", user="u"))
 
     assert all("temperature" in c for c in calls)
+
+
+def test_skips_thinking_blocks(monkeypatch) -> None:  # type: ignore[no-untyped-def]
+    async def create(**_):  # type: ignore[no-untyped-def]
+        # Sonnet 5 and the Opus 5 family think by default, so the first block
+        # is a ThinkingBlock with no `.text`.
+        return SimpleNamespace(
+            content=[
+                SimpleNamespace(type="thinking", thinking="pondering"),
+                SimpleNamespace(type="text", text='{"score": 8}'),
+            ],
+            usage=SimpleNamespace(input_tokens=10, output_tokens=2),
+            stop_reason="end_turn",
+        )
+
+    client = _client(monkeypatch, create)
+
+    assert asyncio.run(client.complete(system="s", user="u")) == '{"score": 8}'
+
+
+def test_joins_multiple_text_blocks(monkeypatch) -> None:  # type: ignore[no-untyped-def]
+    async def create(**_):  # type: ignore[no-untyped-def]
+        return SimpleNamespace(
+            content=[
+                SimpleNamespace(type="thinking", thinking="..."),
+                SimpleNamespace(type="text", text="part one "),
+                SimpleNamespace(type="text", text="part two"),
+            ],
+            usage=SimpleNamespace(input_tokens=1, output_tokens=1),
+            stop_reason="end_turn",
+        )
+
+    client = _client(monkeypatch, create)
+
+    assert asyncio.run(client.complete(system="s", user="u")) == "part one part two"
+
+
+def test_a_textless_response_raises_with_the_stop_reason(monkeypatch) -> None:  # type: ignore[no-untyped-def]
+    async def create(**_):  # type: ignore[no-untyped-def]
+        return SimpleNamespace(
+            content=[SimpleNamespace(type="thinking", thinking="...")],
+            usage=SimpleNamespace(input_tokens=1, output_tokens=1),
+            stop_reason="refusal",
+        )
+
+    client = _client(monkeypatch, create)
+
+    with pytest.raises(ValueError, match="refusal"):
+        asyncio.run(client.complete(system="s", user="u"))

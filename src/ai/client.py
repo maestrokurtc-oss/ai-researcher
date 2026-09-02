@@ -200,7 +200,7 @@ class AnthropicClient(AIClient):
                 input_tokens=getattr(usage, "input_tokens", 0),
                 output_tokens=getattr(usage, "output_tokens", 0),
             )
-        return message.content[0].text
+        return _first_text(message)
 
     async def _do_request(
         self,
@@ -221,6 +221,29 @@ class AnthropicClient(AIClient):
         if include_temperature:
             params["temperature"] = temperature
         return await self.client.messages.create(**params)
+
+
+def _first_text(message) -> str:
+    """Join the text blocks of a Messages response.
+
+    Models with thinking enabled - the default on Claude Sonnet 5 and the
+    Opus 5 family - put a `thinking` block first, so indexing `content[0]`
+    raises `'ThinkingBlock' object has no attribute 'text'` on every call.
+    """
+    parts = [
+        block.text
+        for block in getattr(message, "content", []) or []
+        if getattr(block, "type", None) == "text" and getattr(block, "text", None)
+    ]
+    if parts:
+        return "".join(parts)
+
+    # No text block at all: a refusal or a thinking-only turn. Surface it as a
+    # clear error rather than letting an empty string parse as a bad response.
+    stop_reason = getattr(message, "stop_reason", None)
+    raise ValueError(
+        f"Response contained no text block (stop_reason={stop_reason!r})"
+    )
 
 
 def _is_temperature_deprecated(message: str) -> bool:
