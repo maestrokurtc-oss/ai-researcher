@@ -290,7 +290,20 @@ class HorizonOrchestrator:
             self.console.print("")
 
             # 6. Search related stories + enrich with background knowledge (2nd AI pass)
-            await self.enrich_items(important_items)
+            enrichment = await self.enrich_items(important_items)
+            if enrichment and enrichment.failed_count:
+                # Without enrichment an item falls back to its analysis summary,
+                # so the briefing still renders and the failure is invisible.
+                # Say so, and name the model and the first error.
+                model = self.config.ai.stage_models.get(
+                    "enrichment", self.config.ai.model
+                )
+                first_error = next(iter(enrichment.failures.values()), "unknown error")
+                self.console.print(
+                    f"[yellow]{self.icons['warning']} Enrichment failed for "
+                    f"{enrichment.failed_count}/{len(important_items)} items "
+                    f"(model {model}). First error: {first_error}[/yellow]\n"
+                )
 
             # 7. Generate and save daily summaries for each configured language
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
@@ -1013,7 +1026,10 @@ class HorizonOrchestrator:
             f"   Re-analyzing {len(expanded)} Twitter items with reply context...\n"
         )
         ai_client = create_ai_client(self.config.ai, stage="analysis")
-        analyzer = ContentAnalyzer(ai_client, self.profiles, console=self.console)
+        analyzer = ContentAnalyzer(
+            ai_client, self.profiles, console=self.console,
+            language=self.config.ai.languages[0] if self.config.ai.languages else "en",
+        )
         await analyzer.analyze_batch(expanded)
 
     async def enrich_items(self, items: List[ContentItem]) -> EnrichmentBatchResult:
@@ -1062,7 +1078,10 @@ class HorizonOrchestrator:
         self.console.print(f"{self.icons['ai']} Analyzing content with AI...")
 
         ai_client = create_ai_client(self.config.ai, stage="analysis")
-        analyzer = ContentAnalyzer(ai_client, self.profiles, console=self.console)
+        analyzer = ContentAnalyzer(
+            ai_client, self.profiles, console=self.console,
+            language=self.config.ai.languages[0] if self.config.ai.languages else "en",
+        )
 
         analyzed = await analyzer.analyze_batch(items)
 

@@ -150,6 +150,9 @@ class AnthropicClient(AIClient):
         self.model = config.model
         self.temperature = config.temperature
         self.max_tokens = config.max_tokens
+        # Claude Sonnet 5, Opus 5 and the 4.6+ family reject `temperature`
+        # outright. Learned once per client, then omitted from every later call.
+        self._supports_temperature = True
 
     async def complete(
         self,
@@ -172,13 +175,24 @@ class AnthropicClient(AIClient):
         temperature = self.temperature if temperature is None else temperature
         max_tokens = self.max_tokens if max_tokens is None else max_tokens
 
-        message = await self.client.messages.create(
-            model=self.model,
-            max_tokens=max_tokens,
-            temperature=temperature,
-            system=system,
-            messages=[{"role": "user", "content": user}]
-        )
+        try:
+            message = await self._do_request(
+                system, user, temperature, max_tokens,
+                include_temperature=self._supports_temperature,
+            )
+        except Exception as exc:
+            if not (self._supports_temperature and _is_temperature_deprecated(str(exc))):
+                raise
+            # Newer models 400 on `temperature`; drop it and keep the run going
+            # rather than failing every item on a configuration detail.
+            logger.info(
+                "Model %s rejects temperature; retrying without it.", self.model
+            )
+            self._supports_temperature = False
+            message = await self._do_request(
+                system, user, temperature, max_tokens, include_temperature=False
+            )
+
         usage = getattr(message, "usage", None)
         if usage is not None:
             record_usage(
@@ -187,6 +201,36 @@ class AnthropicClient(AIClient):
                 output_tokens=getattr(usage, "output_tokens", 0),
             )
         return message.content[0].text
+
+    async def _do_request(
+        self,
+        system: str,
+        user: str,
+        temperature: float,
+        max_tokens: int,
+        *,
+        include_temperature: bool,
+    ):
+        """Issue one Messages request, optionally omitting `temperature`."""
+        params: Dict[str, Any] = {
+            "model": self.model,
+            "max_tokens": max_tokens,
+            "system": system,
+            "messages": [{"role": "user", "content": user}],
+        }
+        if include_temperature:
+            params["temperature"] = temperature
+        return await self.client.messages.create(**params)
+
+
+def _is_temperature_deprecated(message: str) -> bool:
+    """Detect the 400 newer Claude models return for `temperature`."""
+    lowered = message.lower()
+    return "temperature" in lowered and (
+        "deprecated" in lowered
+        or "not supported" in lowered
+        or "unsupported" in lowered
+    )
 
 
 class OpenAIClient(AIClient):

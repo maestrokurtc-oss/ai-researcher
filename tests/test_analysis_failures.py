@@ -24,7 +24,11 @@ class _Analyzer:
 def _orchestrator(monkeypatch, analyzer, items):  # type: ignore[no-untyped-def]
     orchestrator = HorizonOrchestrator.__new__(HorizonOrchestrator)
     orchestrator.config = SimpleNamespace(
-        ai=SimpleNamespace(model="big-model", stage_models={"analysis": "small-model"})
+        ai=SimpleNamespace(
+            model="big-model",
+            stage_models={"analysis": "small-model"},
+            languages=["ko"],
+        )
     )
     orchestrator.profiles = SimpleNamespace()
     printed: list[str] = []
