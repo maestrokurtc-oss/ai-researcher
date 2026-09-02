@@ -19,7 +19,12 @@ _URL_SAFE_CHARS = ":/?#[]@!$&'*,;=~%+"
 
 def _escape_markdown(value: object) -> str:
     """Render untrusted text literally while retaining its readable content."""
-    escaped = html.escape(str(value), quote=True)
+    # quote=False on purpose. This output is Markdown prose, not an HTML
+    # attribute, so `<`, `>` and `&` still need escaping but quotes do not -
+    # and escaping them is actively harmful here, because the `#` in the
+    # resulting `&#x27;` is then Markdown-escaped to `&\#x27;`, which renders
+    # literally instead of as an apostrophe.
+    escaped = html.escape(str(value), quote=False)
     escaped = _MARKDOWN_SPECIAL.sub(r"\\\1", escaped)
     return _MARKDOWN_BLOCK_START.sub(r"\1\\\2", escaped)
 
