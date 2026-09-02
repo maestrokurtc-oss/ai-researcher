@@ -677,11 +677,15 @@ def _create_chained_client(config: AIConfig) -> ChainedAIClient:
     return ChainedAIClient(chain_configs)
 
 
-def create_ai_client(config: AIConfig) -> AIClient:
+def create_ai_client(config: AIConfig, stage: Optional[str] = None) -> AIClient:
     """Factory function to create appropriate AI client.
 
     Args:
         config: AI configuration
+        stage: Pipeline stage requesting the client. When `config.stage_models`
+            names this stage, its model replaces `config.model` for this client
+            only, so cheap bulk stages can run on a smaller model than the
+            reader-facing ones. Unknown or unset stages use `config.model`.
 
     Returns:
         AIClient: Initialized AI client
@@ -689,6 +693,18 @@ def create_ai_client(config: AIConfig) -> AIClient:
     Raises:
         ValueError: If provider is not supported
     """
+    config = _apply_stage_model(config, stage)
     if config.provider_chain:
         return _create_chained_client(config)
     return _create_single_client(config)
+
+
+def _apply_stage_model(config: AIConfig, stage: Optional[str]) -> AIConfig:
+    """Return `config` with the stage's model override applied, if any."""
+    if not stage:
+        return config
+    model = config.stage_models.get(stage)
+    if not model or model == config.model:
+        return config
+    logger.debug("Stage %s overrides model %s -> %s", stage, config.model, model)
+    return config.model_copy(update={"model": model})

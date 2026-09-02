@@ -16,9 +16,24 @@ GROUNDING_RULES = f"""- Treat the source item as the primary account of what hap
 - Cite only supplied tool result IDs, and only from the block that received those results."""
 
 
+# Naming the language explicitly produces markedly more idiomatic output than
+# handing the model a bare tag. Anything absent here still falls back to the tag.
+_LANGUAGE_NAMES = {
+    "zh": "Simplified Chinese (language tag `zh`)",
+    "ko": (
+        "Korean (한국어, language tag `ko`). Write natural Korean prose for a "
+        "technical reader: keep established English terms of art, model names, "
+        "and organisation names in the Latin alphabet rather than transliterating "
+        "them, and do not pad sentences with honorific filler."
+    ),
+    "ja": "Japanese (日本語, language tag `ja`)",
+}
+
+
 def target_language_instruction(language: str) -> str:
-    if language.lower() == "zh":
-        return "Simplified Chinese (language tag `zh`)"
+    named = _LANGUAGE_NAMES.get(language.lower())
+    if named:
+        return named
     return f"language `{language}`"
 
 

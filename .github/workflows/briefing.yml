@@ -1,0 +1,169 @@
+name: AI Briefing
+
+on:
+  schedule:
+    # Twice daily, in UTC. 00:00 UTC = 09:00 KST, 10:00 UTC = 19:00 KST.
+    # Both slots keep the UTC date equal to the Korean date, so the summary
+    # filename Horizon derives from the UTC date matches the reader's day.
+    # GitHub may start scheduled runs late; that only shifts them later, which
+    # keeps the date alignment intact.
+    - cron: '0 0 * * *'
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: 'Lookback window in hours (blank uses the config value)'
+        required: false
+        type: string
+
+concurrency:
+  # Never let a delayed morning run overlap the evening one.
+  group: briefing
+  cancel-in-progress: false
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.11.26'
+          enable-cache: true
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Resolve run slot
+        id: slot
+        run: |
+          # Runs start at 00:00 or 10:00 UTC and may be delayed; bucket generously.
+          HOUR=$(date -u +'%H')
+          if [ "$HOUR" -lt 5 ]; then SLOT=morning; else SLOT=evening; fi
+          DATE=$(date -u +'%Y-%m-%d')
+          echo "slot=$SLOT"          >> "$GITHUB_OUTPUT"
+          echo "date=$DATE"          >> "$GITHUB_OUTPUT"
+          echo "year=${DATE:0:4}"    >> "$GITHUB_OUTPUT"
+          echo "month=${DATE:5:2}"   >> "$GITHUB_OUTPUT"
+          echo "Running the $SLOT briefing for $DATE (UTC hour $HOUR)"
+
+      - name: Prepare config
+        run: cp data/config.github.json data/config.json
+
+      - name: Run Horizon
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          if [ -n "${{ inputs.hours }}" ]; then
+            uv run horizon --hours "${{ inputs.hours }}" --log-level INFO
+          else
+            uv run horizon --log-level INFO
+          fi
+
+      - name: Archive briefing
+        id: archive
+        env:
+          DATE: ${{ steps.slot.outputs.date }}
+          SLOT: ${{ steps.slot.outputs.slot }}
+          YEAR: ${{ steps.slot.outputs.year }}
+          MONTH: ${{ steps.slot.outputs.month }}
+        run: |
+          SRC="data/summaries/horizon-${DATE}-ko.md"
+          if [ ! -f "$SRC" ]; then
+            echo "No summary produced at $SRC"
+            echo "produced=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Horizon names summaries by date alone, so the evening run would
+          # otherwise overwrite the morning one. Archive under a slot-qualified
+          # path to keep both.
+          DEST_DIR="briefings/${YEAR}/${MONTH}"
+          DEST="${DEST_DIR}/${DATE}-${SLOT}.md"
+          mkdir -p "$DEST_DIR"
+          cp "$SRC" "$DEST"
+
+          # Same collision applies to the Jekyll post that feeds GitHub Pages.
+          POST="docs/_posts/${DATE}-summary-ko.md"
+          if [ -f "$POST" ]; then
+            mv "$POST" "docs/_posts/${DATE}-${SLOT}-summary-ko.md"
+          fi
+
+          ITEMS=$(grep -c '^### ' "$DEST" || true)
+          echo "produced=true"      >> "$GITHUB_OUTPUT"
+          echo "path=$DEST"         >> "$GITHUB_OUTPUT"
+          echo "items=${ITEMS:-0}"  >> "$GITHUB_OUTPUT"
+          echo "Archived $ITEMS items to $DEST"
+
+      - name: Commit briefing
+        if: steps.archive.outputs.produced == 'true'
+        env:
+          DATE: ${{ steps.slot.outputs.date }}
+          SLOT: ${{ steps.slot.outputs.slot }}
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add briefings/
+          if git diff --staged --quiet; then
+            echo "Nothing new to commit."
+            exit 0
+          fi
+          git commit -m "브리핑: ${DATE} ${SLOT}"
+          # A concurrent push is unlikely under the concurrency group, but the
+          # rebase keeps the job from failing if one happens.
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" && git push && exit 0
+            echo "Push attempt $attempt failed; retrying."
+            sleep 5
+          done
+          exit 1
+
+      - name: Deploy to GitHub Pages
+        if: steps.archive.outputs.produced == 'true'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          publish_branch: gh-pages
+          keep_files: true
+          enable_jekyll: true
+          commit_message: "브리핑: ${{ steps.slot.outputs.date }} ${{ steps.slot.outputs.slot }}"
+
+      - name: Push notification
+        if: steps.archive.outputs.produced == 'true'
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          DATE: ${{ steps.slot.outputs.date }}
+          SLOT: ${{ steps.slot.outputs.slot }}
+          ITEMS: ${{ steps.archive.outputs.items }}
+          BRIEF_PATH: ${{ steps.archive.outputs.path }}
+        run: |
+          if [ -z "$NTFY_TOPIC" ]; then
+            echo 'NTFY_TOPIC secret is unset; skipping the push notification.'
+            exit 0
+          fi
+          if [ "$SLOT" = "morning" ]; then LABEL='아침 브리핑'; else LABEL='저녁 브리핑'; fi
+          # Lead with the top few headlines so the notification is useful on its own.
+          BODY=$(grep -m 5 '^### ' "$BRIEF_PATH" \
+                 | sed -E 's/^### \[([^]]*)\].*/• \1/; s/^### //' \
+                 || echo '요약을 확인하세요.')
+          curl -fsS --max-time 20 \
+            -H "Title: ${LABEL} · ${ITEMS}건" \
+            -H "Tags: newspaper" \
+            -H "Click: https://github.com/${GITHUB_REPOSITORY}/blob/${GITHUB_REF_NAME}/${BRIEF_PATH}" \
+            -d "${BODY}" \
+            "https://ntfy.sh/${NTFY_TOPIC}" > /dev/null \
+            && echo "Notification sent." \
+            || echo "Notification failed; the briefing is still committed."

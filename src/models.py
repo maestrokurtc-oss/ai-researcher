@@ -20,6 +20,7 @@ class SourceType(str, Enum):
     OSSINSIGHT = "ossinsight"
     GDELT = "gdelt"
     GOOGLE_NEWS = "google_news"
+    ARXIV = "arxiv"
 
 
 class SourceDefinition(NamedTuple):
@@ -41,6 +42,7 @@ SOURCE_REGISTRY = {
     SourceType.OSSINSIGHT.value: SourceDefinition("ossinsight"),
     SourceType.GDELT.value: SourceDefinition("gdelt"),
     SourceType.GOOGLE_NEWS.value: SourceDefinition("google_news"),
+    SourceType.ARXIV.value: SourceDefinition("arxiv", item_fields=("categories",)),
 }
 
 ProfileRoute = Optional[Union[str, List[str]]]
@@ -198,6 +200,11 @@ class AIConfig(BaseModel):
     analysis_concurrency: int = 1
     enrichment_concurrency: int = 1
     languages: List[str] = Field(default_factory=lambda: ["en"])
+    # Per-stage model overrides, e.g. {"analysis": "claude-haiku-4-5-20251001"}.
+    # Any stage left unset falls back to `model`. Lets cheap bulk stages
+    # (scoring, classification) run on a small model while the reader-facing
+    # summary stage uses a stronger one.
+    stage_models: Dict[str, str] = Field(default_factory=dict)
     # Azure OpenAI specific; required when provider == AZURE
     azure_endpoint_env: Optional[str] = None
     api_version: Optional[str] = None
@@ -436,6 +443,39 @@ class GoogleNewsConfig(BaseModel):
     profile: ProfileRoute = None
 
 
+class ArxivConfig(BaseModel):
+    """arXiv preprint source configuration.
+
+    Queries the public arXiv Atom API (https://export.arxiv.org/api/query),
+    newest first. No API key is required. All categories go out as a single
+    `OR` query so the request count stays at one regardless of how many are
+    configured - arXiv rate-limits per caller, and a request per category
+    reliably trips it.
+    """
+
+    enabled: bool = False
+    categories: List[str] = Field(default_factory=lambda: ["cs.AI", "cs.CL", "cs.LG"])
+    max_results_per_category: int = 60
+    # Title/abstract keywords that mark an entry as extra relevant. Surfaced in
+    # metadata so downstream AI scoring can weigh them; never used to hard-filter.
+    boost_keywords: List[str] = Field(default_factory=list)
+    # Base for the retry backoff; arXiv asks callers to stay under one
+    # request every three seconds.
+    request_delay_sec: float = 3.0
+    category: Optional[str] = None
+    profile: ProfileRoute = None
+
+    @field_validator("categories")
+    @classmethod
+    def validate_categories(cls, categories: List[str]) -> List[str]:
+        """Reject anything that is not a plain arXiv category token."""
+        token = re.compile(r"^[a-zA-Z][a-zA-Z-]*(?:\.[a-zA-Z]{2})?$")
+        invalid = [c for c in categories if not token.fullmatch(c)]
+        if invalid:
+            raise ValueError(f"invalid arXiv category: {invalid[0]!r}")
+        return categories
+
+
 class SourcesConfig(BaseModel):
     """All sources configuration."""
 
@@ -449,6 +489,7 @@ class SourcesConfig(BaseModel):
     ossinsight: OSSInsightConfig = Field(default_factory=OSSInsightConfig)
     gdelt: Optional[GDELTConfig] = None
     google_news: Optional[GoogleNewsConfig] = None
+    arxiv: Optional[ArxivConfig] = None
 
 
 class WebhookConfig(BaseModel):

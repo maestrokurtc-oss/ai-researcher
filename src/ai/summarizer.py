@@ -88,6 +88,26 @@ LABELS = {
             "3. 检查 AI 模型是否正常工作\n"
         ),
     },
+    "ko": {
+        "header": "AI 리서처 브리핑",
+        "source": "출처",
+        "background": "배경",
+        "discussion": "커뮤니티 반응",
+        "references": "참고 링크",
+        "tags": "태그",
+        "selected_items": "수집한 {total}건 중 {selected}건을 골랐습니다.",
+        "empty_analyzed": "{total}건을 분석했지만 중요도 기준을 넘은 항목이 없습니다.",
+        "empty_body": (
+            "이번 회차에는 짚을 만한 소식이 없습니다. 가능한 원인:\n"
+            "- 지켜보는 소스가 조용한 시간대였음\n"
+            "- 중요도 임계값이 너무 높게 잡혀 있음\n"
+            "- 소스 구성이 좁음\n\n"
+            "해볼 것:\n"
+            "1. 프로필의 threshold 낮추기\n"
+            "2. 소스 추가하기\n"
+            "3. AI 모델이 정상 동작하는지 확인하기\n"
+        ),
+    },
 }
 
 
@@ -291,6 +311,12 @@ class DailySummarizer:
                 f"> 从 {total_fetched} 条内容中筛选出 {len(items)} 条重要资讯。\n\n"
                 "下面会按内容逐条发送详情，你可以只看感兴趣的标题。\n\n"
             )
+        elif language == "ko":
+            header = (
+                f"# {labels['header']} - {date}\n\n"
+                f"> 수집한 {total_fetched}건 중 {len(items)}건을 골랐습니다.\n\n"
+                "아래에 항목별로 이어서 보냅니다. 제목만 훑고 관심 있는 것만 보셔도 됩니다.\n\n"
+            )
         else:
             header = (
                 f"# {labels['header']} - {date}\n\n"
@@ -403,6 +429,11 @@ class DailySummarizer:
             if language == "zh":
                 source_parts.append(
                     f"{item.published_at.month}月{item.published_at.day}日 "
+                    f"{item.published_at:%H:%M}"
+                )
+            elif language == "ko":
+                source_parts.append(
+                    f"{item.published_at.month}월 {item.published_at.day}일 "
                     f"{item.published_at:%H:%M}"
                 )
             else:

@@ -26,6 +26,7 @@ from .scrapers.openbb import OpenBBScraper
 from .scrapers.ossinsight import OSSInsightScraper
 from .scrapers.gdelt import GDELTScraper
 from .scrapers.google_news import GoogleNewsScraper
+from .scrapers.arxiv import ArxivScraper
 from .ai.client import create_ai_client
 from .ai.analyzer import ContentAnalyzer
 from .ai.summarizer import DailySummarizer
@@ -482,6 +483,11 @@ class HorizonOrchestrator:
                 gn_scraper = GoogleNewsScraper(self.config.sources.google_news, client)
                 tasks.append(self._fetch_with_progress("Google News", gn_scraper, since))
 
+            # arXiv preprints (key-less Atom API)
+            if self.config.sources.arxiv and self.config.sources.arxiv.enabled:
+                arxiv_scraper = ArxivScraper(self.config.sources.arxiv, client)
+                tasks.append(self._fetch_with_progress("arXiv", arxiv_scraper, since))
+
             # Fetch all concurrently
             outcomes = await asyncio.gather(*tasks)
             self.last_fetch_report = FetchReport(outcomes=list(outcomes))
@@ -646,7 +652,7 @@ class HorizonOrchestrator:
         items_text = "\n\n".join(lines)
 
         try:
-            ai_client = create_ai_client(self.config.ai)
+            ai_client = create_ai_client(self.config.ai, stage="dedup")
             response = await ai_client.complete(
                 system=TOPIC_DEDUP_SYSTEM,
                 user=TOPIC_DEDUP_USER.format(items=items_text),
@@ -1006,7 +1012,7 @@ class HorizonOrchestrator:
         self.console.print(
             f"   Re-analyzing {len(expanded)} Twitter items with reply context...\n"
         )
-        ai_client = create_ai_client(self.config.ai)
+        ai_client = create_ai_client(self.config.ai, stage="analysis")
         analyzer = ContentAnalyzer(ai_client, self.profiles, console=self.console)
         await analyzer.analyze_batch(expanded)
 
@@ -1025,7 +1031,7 @@ class HorizonOrchestrator:
         self.console.print(
             f"{self.icons['enrich']} Enriching with background knowledge..."
         )
-        ai_client = create_ai_client(self.config.ai)
+        ai_client = create_ai_client(self.config.ai, stage="enrichment")
         enricher = ContentEnricher(
             ai_client,
             self.profiles,
@@ -1055,7 +1061,7 @@ class HorizonOrchestrator:
         """
         self.console.print(f"{self.icons['ai']} Analyzing content with AI...")
 
-        ai_client = create_ai_client(self.config.ai)
+        ai_client = create_ai_client(self.config.ai, stage="analysis")
         analyzer = ContentAnalyzer(ai_client, self.profiles, console=self.console)
 
         return await analyzer.analyze_batch(items)

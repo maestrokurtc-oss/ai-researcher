@@ -2,7 +2,8 @@
   "id": "tech-news",
   "name": "Technology News",
   "display_names": {
-    "zh": "科技新闻"
+    "zh": "科技新闻",
+    "ko": "업계 동향"
   },
   "match": "match.md",
   "analysis": "analysis.md",
@@ -18,12 +19,16 @@
       {
         "id": "background",
         "type": "section",
-        "tools": ["web_search"]
+        "tools": [
+          "web_search"
+        ]
       },
       {
         "id": "impact",
         "type": "section",
-        "tools": ["web_search"],
+        "tools": [
+          "web_search"
+        ],
         "optional": true
       },
       {
