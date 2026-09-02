@@ -116,7 +116,7 @@ uv run pytest -q
 
 ```bash
 cp data/config.github.json data/config.json
-ANTHROPIC_API_KEY=... uv run horizon --hours 13 --log-level INFO
+ANTHROPIC_API_KEY=... uv run python -m src.main --hours 13 --log-level INFO
 ```
 
 ## 이 포크가 upstream과 다른 점

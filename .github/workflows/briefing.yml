@@ -65,11 +65,16 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        # `uv run horizon` resolves the console script without the working
+        # directory on sys.path, where the profiles directory that the wheel
+        # force-includes at src/_builtin_profiles shadows the real src package
+        # and the entry point dies on "No module named src.main". `-m` puts the
+        # working directory first, so it works on every uv version.
         run: |
           if [ -n "${{ inputs.hours }}" ]; then
-            uv run horizon --hours "${{ inputs.hours }}" --log-level INFO
+            uv run python -m src.main --hours "${{ inputs.hours }}" --log-level INFO
           else
-            uv run horizon --log-level INFO
+            uv run python -m src.main --log-level INFO
           fi
 
       - name: Archive briefing
