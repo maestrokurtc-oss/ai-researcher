@@ -48,6 +48,14 @@ def _resolve_api_key(config: AIConfig, *, fallback: Optional[str] = None) -> str
     raise ValueError(_missing_api_key_message(config))
 
 
+def _resolve_workspace_id(config: AIConfig) -> Optional[str]:
+    """Return the configured Anthropic workspace id, if the operator set one."""
+    env_name = getattr(config, "workspace_id_env", None)
+    if not env_name:
+        return None
+    return (os.environ.get(env_name) or "").strip() or None
+
+
 def _missing_api_key_message(config: AIConfig) -> str:
     expected_env = _DEFAULT_API_KEY_ENVS.get(config.provider)
     if expected_env:
@@ -130,6 +138,13 @@ class AnthropicClient(AIClient):
         kwargs = {"api_key": api_key}
         if config.base_url:
             kwargs["base_url"] = config.base_url
+
+        # An identity-linked key fails every call with a 400 asking for
+        # `anthropic-workspace-id`. Ordinary keys reject the header, so send it
+        # only when the operator supplied one.
+        workspace_id = _resolve_workspace_id(config)
+        if workspace_id:
+            kwargs["default_headers"] = {"anthropic-workspace-id": workspace_id}
 
         self.client = AsyncAnthropic(**kwargs)
         self.model = config.model

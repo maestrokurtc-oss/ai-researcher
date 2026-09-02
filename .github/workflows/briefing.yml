@@ -85,6 +85,8 @@ jobs:
       - name: Run Horizon
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Only needed for identity-linked keys; empty is ignored.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         # `uv run horizon` resolves the console script without the working
         # directory on sys.path, where the profiles directory that the wheel

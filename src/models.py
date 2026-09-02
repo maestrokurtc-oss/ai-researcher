@@ -205,6 +205,11 @@ class AIConfig(BaseModel):
     # (scoring, classification) run on a small model while the reader-facing
     # summary stage uses a stronger one.
     stage_models: Dict[str, str] = Field(default_factory=dict)
+    # Anthropic identity-linked API keys reject every request unless the
+    # workspace is named in an `anthropic-workspace-id` header. Names the env
+    # var holding that id; ignored when the variable is unset, so ordinary
+    # keys need no configuration.
+    workspace_id_env: str = "ANTHROPIC_WORKSPACE_ID"
     # Azure OpenAI specific; required when provider == AZURE
     azure_endpoint_env: Optional[str] = None
     api_version: Optional[str] = None

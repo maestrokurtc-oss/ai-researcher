@@ -35,6 +35,8 @@ jobs:
         if: inputs.check == 'models' || inputs.check == 'both'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Only needed for identity-linked keys; empty is ignored.
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
         run: uv run python scripts/check-models.py
 
       - name: Check sources

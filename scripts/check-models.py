@@ -24,10 +24,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 CONFIG_PATH = Path("data/config.json")
 
 
-def configured_models() -> tuple[str, dict[str, str], str]:
+def configured_models() -> tuple[str, dict[str, str], str, str]:
     with CONFIG_PATH.open(encoding="utf-8") as f:
         ai = json.load(f)["ai"]
-    return ai["model"], ai.get("stage_models", {}), ai.get("api_key_env", "ANTHROPIC_API_KEY")
+    return (
+        ai["model"],
+        ai.get("stage_models", {}),
+        ai.get("api_key_env", "ANTHROPIC_API_KEY"),
+        ai.get("workspace_id_env", "ANTHROPIC_WORKSPACE_ID"),
+    )
 
 
 async def main() -> int:
@@ -35,17 +40,21 @@ async def main() -> int:
         print("data/config.json 이 없습니다. 먼저: cp data/config.github.json data/config.json")
         return 2
 
-    base_model, stage_models, key_env = configured_models()
+    base_model, stage_models, key_env, workspace_env = configured_models()
     key = os.environ.get(key_env)
     if not key:
         print(f"환경변수 {key_env} 가 비어 있습니다.")
         print(f"  export {key_env}='...'  후 다시 실행하세요.")
         return 2
-    print(f"{key_env}: 설정됨 (…{key[-4:]})\n")
+    print(f"{key_env}: 설정됨 (…{key[-4:]})")
+
+    workspace_id = (os.environ.get(workspace_env) or "").strip()
+    print(f"{workspace_env}: {workspace_id or '미설정'}\n")
 
     import anthropic
 
-    client = anthropic.AsyncAnthropic(api_key=key)
+    headers = {"anthropic-workspace-id": workspace_id} if workspace_id else None
+    client = anthropic.AsyncAnthropic(api_key=key, default_headers=headers)
 
     print("=== 계정에서 사용 가능한 모델 ===")
     available: set[str] = set()
@@ -54,8 +63,19 @@ async def main() -> int:
             available.add(model.id)
             print(f"  {model.id}")
     except Exception as e:
-        print(f"  모델 목록 조회 실패: {type(e).__name__}: {e}")
-        print("  키가 유효하지 않거나 권한이 없을 수 있습니다.")
+        message = str(e)
+        print(f"  모델 목록 조회 실패: {type(e).__name__}: {message}")
+        if "workspace" in message.lower():
+            # Identity-linked keys are scoped to a workspace and reject every
+            # request until that workspace is named in a header.
+            print(
+                f"\n  이 키는 워크스페이스 지정이 필요한 identity-linked 키입니다.\n"
+                f"  console.anthropic.com 에서 워크스페이스 id(wrkspc_... 형태)를 확인해\n"
+                f"  {workspace_env} 로 넣으세요. GitHub Actions 에서는 같은 이름의\n"
+                f"  시크릿을 등록하면 됩니다."
+            )
+        else:
+            print("  키가 유효하지 않거나 권한이 없을 수 있습니다.")
         return 1
 
     targets = {"요약(ai.model)": base_model}
