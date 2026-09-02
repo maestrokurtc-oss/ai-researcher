@@ -123,7 +123,7 @@ ANTHROPIC_API_KEY=... uv run horizon --hours 13 --log-level INFO
 
 | 변경 | 파일 |
 |---|---|
-| arXiv 스크레이퍼 (단일 결합 질의 + 재시도) | `src/scrapers/arxiv.py` |
+| arXiv 스크레이퍼 (카테고리별 질의 + 429 재시도) | `src/scrapers/arxiv.py` |
 | 단계별 모델 라우팅 (`ai.stage_models`) | `src/ai/client.py` |
 | 한국어 출력 | `src/ai/summarizer.py`, `src/ai/prompting/enrichment.py` |
 | 논문 전용 프로필 | `profiles/ai-paper/` |

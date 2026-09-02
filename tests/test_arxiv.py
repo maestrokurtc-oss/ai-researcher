@@ -105,11 +105,11 @@ def test_parses_entry_into_content_item() -> None:
     assert item.metadata["author_count"] == 1
 
 
-def test_id_excludes_version_so_cross_listings_merge() -> None:
-    # A cross-listed paper comes back once per matching category in the same
-    # combined result, sometimes at different version suffixes.
+def test_id_excludes_version_and_category_so_cross_listings_merge() -> None:
+    # Same paper returned under two categories, at different version suffixes.
     client = _mock_client(
-        _feed(_entry("2601.00001", version="v1") + _entry("2601.00001", version="v3"))
+        _feed(_entry("2601.00001", version="v1", primary="cs.AI")),
+        _feed(_entry("2601.00001", version="v3", primary="cs.AI")),
     )
     scraper = ArxivScraper(_config(categories=["cs.AI", "cs.CL"]), client)
 
@@ -117,32 +117,48 @@ def test_id_excludes_version_so_cross_listings_merge() -> None:
 
     assert len(items) == 1
     assert items[0].id == "arxiv:paper:2601.00001"
+    assert items[0].metadata["also_in"] == ["cs.CL"]
 
 
-def test_all_categories_are_fetched_in_one_request() -> None:
-    # arXiv rate-limits per caller, so the request count must not scale with
-    # the number of categories configured.
-    client = _mock_client(_feed(_entry("2601.00001")))
+def test_queries_one_category_at_a_time() -> None:
+    # arXiv answers a combined "cat:A OR cat:B" query with an immediate 429
+    # no matter how the requests are paced, so each category must go out as
+    # its own plain cat: query.
+    client = _mock_client(*[_feed(_entry(f"2601.0000{i}")) for i in range(1, 4)])
     scraper = ArxivScraper(
-        _config(categories=["cs.AI", "cs.CL", "cs.LG", "cs.CV", "cs.MA", "stat.ML"]),
-        client,
+        _config(categories=["cs.AI", "cs.CL", "cs.LG"]), client
     )
 
     asyncio.run(scraper.fetch(_now() - timedelta(hours=24)))
 
-    assert client.get.await_count == 1
-    query = client.get.await_args.kwargs["params"]["search_query"]
-    assert query == "cat:cs.AI OR cat:cs.CL OR cat:cs.LG OR cat:cs.CV OR cat:cs.MA OR cat:stat.ML"
+    assert client.get.await_count == 3
+    queries = [c.kwargs["params"]["search_query"] for c in client.get.await_args_list]
+    assert queries == ["cat:cs.AI", "cat:cs.CL", "cat:cs.LG"]
+    assert not any(" OR " in q for q in queries)
 
 
-def test_primary_category_comes_from_the_entry() -> None:
+def test_primary_category_prefers_the_entry_over_the_queried_category() -> None:
     client = _mock_client(_feed(_entry("2601.00001", primary="cs.LG")))
-    scraper = ArxivScraper(_config(categories=["cs.AI", "cs.LG"]), client)
+    scraper = ArxivScraper(_config(categories=["cs.AI"]), client)
 
     items = asyncio.run(scraper.fetch(_now() - timedelta(hours=24)))
 
     assert items[0].metadata["primary_category"] == "cs.LG"
     assert items[0].metadata["feed_name"] == "arXiv cs.LG"
+
+
+def test_a_failed_category_does_not_cost_the_others(monkeypatch) -> None:  # type: ignore[no-untyped-def]
+    _skip_backoff(monkeypatch)
+    client = AsyncMock()
+    client.get.side_effect = [
+        RuntimeError("arxiv is down"),
+        _response(_feed(_entry("2601.00002"))),
+    ]
+    scraper = ArxivScraper(_config(categories=["cs.AI", "cs.CL"]), client)
+
+    items = asyncio.run(scraper.fetch(_now() - timedelta(hours=24)))
+
+    assert [i.metadata["arxiv_id"] for i in items] == ["2601.00002"]
 
 
 def test_no_categories_means_no_request() -> None:

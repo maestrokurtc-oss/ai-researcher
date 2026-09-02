@@ -46,7 +46,7 @@
         "stat.ML"
       ],
       "max_results_per_category": 80,
-      "request_delay_sec": 3.0,
+      "request_delay_sec": 4.0,
       "category": "ai-research",
       "profile": "ai-paper",
       "boost_keywords": [

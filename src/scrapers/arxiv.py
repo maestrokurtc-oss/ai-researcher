@@ -22,8 +22,6 @@ API_URL = "https://export.arxiv.org/api/query"
 # Both are transient, and a category lost to one is a whole subject area missing
 # from the briefing, so retry before giving up.
 MAX_ATTEMPTS = 4
-# Upper bound on rows for the single combined request.
-MAX_RESULTS_CAP = 400
 
 
 class _Transient(Exception):
@@ -51,38 +49,68 @@ class ArxivScraper(BaseScraper):
     async def fetch(self, since: datetime) -> List[ContentItem]:
         """Fetch arXiv preprints submitted since the given time.
 
-        All configured categories are requested as one `OR` query. arXiv asks
-        callers to stay under one request every three seconds, and a request
-        per category burns that budget fast enough to get the whole source
-        rate-limited; one combined query costs a single request no matter how
-        many categories are configured.
+        One request per category, spaced by `request_delay_sec`. arXiv rejects
+        a combined `cat:A OR cat:B` query outright with a 429 regardless of
+        pacing, so batching is not an option; categories are not redundant
+        either - measured against a 150-row page, cs.AI alone covers about a
+        fifth of what the configured set returns.
 
         Args:
             since: Only fetch papers published after this time
 
         Returns:
-            List[ContentItem]: Fetched content items, newest first and
-            deduplicated by arXiv ID
+            List[ContentItem]: Fetched content items, deduplicated by arXiv ID
         """
         if not self.source.enabled or not self.source.categories:
             return []
 
-        try:
-            body = await self._get_with_retry(self._search_query())
-        except Exception as e:
-            # A non-retryable failure (a malformed query, say) must not take
-            # down the whole run - every other source still has news to report.
-            logger.warning("arXiv fetch failed: %s: %s", type(e).__name__, e)
-            return []
-        if body is None:
-            return []
+        # The same paper is often cross-listed; keep the first occurrence.
+        seen: dict[str, ContentItem] = {}
 
+        for index, category in enumerate(self.source.categories):
+            if index > 0 and self.source.request_delay_sec > 0:
+                # arXiv asks for no more than one request every three seconds.
+                await asyncio.sleep(self.source.request_delay_sec)
+
+            for item in await self._fetch_category(category, since):
+                existing = seen.get(item.id)
+                if existing is None:
+                    seen[item.id] = item
+                else:
+                    # Record the cross-listing rather than dropping it silently.
+                    others = existing.metadata.setdefault("also_in", [])
+                    if category not in others:
+                        others.append(category)
+
+        return list(seen.values())
+
+    async def _fetch_category(
+        self, category: str, since: datetime
+    ) -> List[ContentItem]:
+        """Fetch the newest preprints for a single arXiv category.
+
+        Args:
+            category: arXiv category token, e.g. "cs.AI"
+            since: Only fetch papers published after this time
+
+        Returns:
+            List[ContentItem]: Papers in this category newer than `since`
+        """
         items: List[ContentItem] = []
-        seen: set[str] = set()
 
         try:
-            feed = feedparser.parse(body)
-            for entry in feed.entries:
+            body = await self._get_with_retry(category)
+        except Exception as e:
+            # A non-retryable failure in one category must not cost the others.
+            logger.warning(
+                "arXiv category %s failed: %s: %s", category, type(e).__name__, e
+            )
+            return items
+        if body is None:
+            return items
+
+        try:
+            for entry in feedparser.parse(body).entries:
                 published_at = self._parse_date(entry)
                 if not published_at:
                     continue
@@ -90,46 +118,32 @@ class ArxivScraper(BaseScraper):
                 if published_at < since:
                     break
 
-                item = self._build_item(entry, published_at)
-                # A cross-listed paper can appear once per matching category.
-                if item and item.id not in seen:
-                    seen.add(item.id)
+                item = self._build_item(entry, category, published_at)
+                if item:
                     items.append(item)
         except Exception as e:
             logger.warning(
-                "Error parsing arXiv feed: %s: %s", type(e).__name__, e
+                "Error parsing arXiv category %s: %s: %s",
+                category, type(e).__name__, e,
             )
 
         return items
 
-    def _search_query(self) -> str:
-        """Build the combined `cat:` disjunction for all configured categories."""
-        return " OR ".join(f"cat:{c}" for c in self.source.categories)
-
-    def _max_results(self) -> int:
-        """Total rows to request for the combined query."""
-        # Categories overlap heavily, so the union needs far less than the
-        # naive per-category sum; the cap keeps one request from going huge.
-        return min(
-            self.source.max_results_per_category * len(self.source.categories),
-            MAX_RESULTS_CAP,
-        )
-
-    async def _get_with_retry(self, search_query: str) -> Optional[str]:
-        """Fetch the result page, retrying transient failures.
+    async def _get_with_retry(self, category: str) -> Optional[str]:
+        """Fetch one category page, retrying transient failures.
 
         Args:
-            search_query: arXiv `search_query` expression
+            category: arXiv category token
 
         Returns:
             Optional[str]: The Atom body, or None once the retries are spent.
         """
         params = {
-            "search_query": search_query,
+            "search_query": f"cat:{category}",
             "sortBy": "submittedDate",
             "sortOrder": "descending",
             "start": 0,
-            "max_results": self._max_results(),
+            "max_results": self.source.max_results_per_category,
         }
 
         for attempt in range(1, MAX_ATTEMPTS + 1):
@@ -147,8 +161,8 @@ class ArxivScraper(BaseScraper):
             except (_Transient, httpx.TransportError) as e:
                 if attempt == MAX_ATTEMPTS:
                     logger.warning(
-                        "arXiv fetch failed after %d attempts: %s: %s",
-                        MAX_ATTEMPTS, type(e).__name__, e,
+                        "arXiv category %s failed after %d attempts: %s: %s",
+                        category, MAX_ATTEMPTS, type(e).__name__, e,
                     )
                     return None
                 # Exponential backoff from the configured delay, jittered so
@@ -156,20 +170,21 @@ class ArxivScraper(BaseScraper):
                 base = max(self.source.request_delay_sec, 1.0)
                 delay = base * (2 ** (attempt - 1)) + random.uniform(0, 1)
                 logger.info(
-                    "arXiv attempt %d/%d failed (%s); retrying in %.1fs",
-                    attempt, MAX_ATTEMPTS, type(e).__name__, delay,
+                    "arXiv category %s attempt %d/%d failed (%s); retrying in %.1fs",
+                    category, attempt, MAX_ATTEMPTS, type(e).__name__, delay,
                 )
                 await asyncio.sleep(delay)
 
         return None
 
     def _build_item(
-        self, entry: dict, published_at: datetime
+        self, entry: dict, category: str, published_at: datetime
     ) -> Optional[ContentItem]:
         """Convert one Atom entry into a ContentItem.
 
         Args:
             entry: Feed entry data
+            category: Category this entry was fetched under
             published_at: Parsed submission time
 
         Returns:
@@ -186,9 +201,7 @@ class ArxivScraper(BaseScraper):
         authors = [a.get("name", "") for a in entry.get("authors", []) if a.get("name")]
 
         tags = [t.term for t in entry.get("tags", []) if getattr(t, "term", None)]
-        primary = entry.get("arxiv_primary_category", {}).get("term") or (
-            tags[0] if tags else "unknown"
-        )
+        primary = entry.get("arxiv_primary_category", {}).get("term") or category
 
         haystack = f"{title}\n{abstract}".lower()
         matched = [k for k in self._keywords if k in haystack]

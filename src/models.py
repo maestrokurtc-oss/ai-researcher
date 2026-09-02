@@ -447,10 +447,10 @@ class ArxivConfig(BaseModel):
     """arXiv preprint source configuration.
 
     Queries the public arXiv Atom API (https://export.arxiv.org/api/query),
-    newest first. No API key is required. All categories go out as a single
-    `OR` query so the request count stays at one regardless of how many are
-    configured - arXiv rate-limits per caller, and a request per category
-    reliably trips it.
+    one request per category, newest first. No API key is required. arXiv
+    rejects a combined `cat:A OR cat:B` query with an immediate 429, so the
+    categories cannot be batched; `request_delay_sec` paces the sequence
+    instead.
     """
 
     enabled: bool = False
