@@ -1,0 +1,188 @@
+---
+layout: default
+title: "Horizon Summary: 2026-09-02 (KO)"
+date: 2026-09-02
+lang: ko
+---
+
+> 수집한 129건 중 14건을 골랐습니다.
+
+---
+
+**업계 동향**
+1. [Atlas: A World Model for Spatial Intelligence](#item-tech-news-1) ⭐️ 8.0/10
+2. [langchain-ai/langchain released langchain==1.4.0a3](#item-tech-news-2) ⭐️ 7.0/10
+3. [Claude Fable 5.1 and Claude Mythos 5.1](#item-tech-news-3) ⭐️ 7.0/10
+4. [The Emergent Symbolic Structure of Artificial Neural Networks](#item-tech-news-4) ⭐️ 7.0/10
+5. [The efficient frontier of LLM inference](#item-tech-news-5) ⭐️ 7.0/10
+6. [Path to Astra: critical capabilities and frontier safeguards](#item-tech-news-6) ⭐️ 7.0/10
+7. [Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s](#item-tech-news-7) ⭐️ 7.0/10
+8. [Introducing agentic video understanding with Gemini](#item-tech-news-8) ⭐️ 7.0/10
+9. [BenchMIRT: What are LLM benchmarks actually measuring?](#item-tech-news-9) ⭐️ 7.0/10
+10. [We released TontaubeV1, a character-level TTS model for long-form generation \[P\]](#item-tech-news-10) ⭐️ 7.0/10
+11. [EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses \[R\]](#item-tech-news-11) ⭐️ 7.0/10
+
+**심층 분석 · 뉴스레터**
+1. [PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors](#item-tech-blog-1) ⭐️ 6.0/10
+2. [Claude Fable 5.1 made me a really nice animated pelican](#item-tech-blog-2) ⭐️ 6.0/10
+3. [Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses](#item-tech-blog-3) ⭐️ 6.0/10
+
+---
+
+## 업계 동향
+
+<a id="item-tech-news-1"></a>
+### [Atlas: A World Model for Spatial Intelligence](https://www.worldlabs.ai/blog/atlas) ⭐️ 8.0/10
+
+Atlas is a world model for spatial intelligence that generates coherent 3D environments, with applications in robotics simulation and game development, though current limitations include hallucination artifacts.
+
+hackernews · johnsutor · 9월 1일 17:36 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49525160)
+
+**태그**: `#spatial-ai`, `#world-models`, `#3d-generation`, `#robotics`, `#multimodal-ai`
+
+---
+
+<a id="item-tech-news-2"></a>
+### [langchain-ai/langchain released langchain==1.4.0a3](https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3) ⭐️ 7.0/10
+
+LangChain 1.4.0a3 introduces the \`langchain.mcp\` namespace for integrating Model Context Protocol servers as LangChain tools, featuring MCPAdapter for flexible server adaptation and client-side response caching.
+
+github · github-actions\[bot\] · 9월 1일 17:19
+
+**태그**: `#langchain`, `#mcp`, `#ai-tools`, `#python-libraries`, `#alpha-release`
+
+---
+
+<a id="item-tech-news-3"></a>
+### [Claude Fable 5.1 and Claude Mythos 5.1](https://www.anthropic.com/claude-fable-and-mythos-5-1) ⭐️ 7.0/10
+
+Anthropic releases Claude Fable 5.1 and Claude Mythos 5.1 with improved writing style, extended reasoning capabilities, and reduced pricing for cache operations.
+
+hackernews · denysvitali · 9월 1일 17:53 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49525378)
+
+**태그**: `#large-language-models`, `#claude-ai`, `#model-updates`, `#pricing-changes`, `#reasoning-capabilities`
+
+---
+
+<a id="item-tech-news-4"></a>
+### [The Emergent Symbolic Structure of Artificial Neural Networks](https://arxiv.org/abs/2608.29530) ⭐️ 7.0/10
+
+A research paper proposing methods to extract emergent symbolic representations from neural networks, with community discussion focusing on methodological soundness and practical computational implications.
+
+hackernews · schmuhblaster · 9월 2일 04:15 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49531651)
+
+**태그**: `#neural-network-interpretability`, `#symbolic-ai`, `#machine-learning-research`, `#causal-abstraction`
+
+---
+
+<a id="item-tech-news-5"></a>
+### [The efficient frontier of LLM inference](https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/) ⭐️ 7.0/10
+
+Technical analysis of optimization strategies along the efficiency frontier for LLM inference, covering quantization, speculative decoding, and batching trade-offs.
+
+hackernews · philipkiely · 9월 1일 23:48 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49529898)
+
+**태그**: `#LLM inference`, `#performance optimization`, `#quantization`, `#speculative decoding`, `#systems engineering`
+
+---
+
+<a id="item-tech-news-6"></a>
+### [Path to Astra: critical capabilities and frontier safeguards](https://openai.com/index/path-to-astra/) ⭐️ 7.0/10
+
+OpenAI announces Astra, a frontier AI model with advanced capabilities and associated safety safeguards, generating mixed community reception regarding access equity and alignment claims.
+
+hackernews · OpenAI · 9월 1일 20:20 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49527595)
+
+**태그**: `#AI models`, `#frontier AI`, `#AI safety`, `#multimodal systems`, `#AI governance`
+
+---
+
+<a id="item-tech-news-7"></a>
+### [Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s](https://github.com/carloslfu/slotstream) ⭐️ 7.0/10
+
+A practical tool enabling 104GB quantized language models to run on 48GB Macs at reasonable speed using memory-efficient techniques.
+
+hackernews · carloslfu · 9월 1일 16:42 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49524447)
+
+**태그**: `#language-models`, `#quantization`, `#mac-optimization`, `#open-source-tools`, `#inference-optimization`
+
+---
+
+<a id="item-tech-news-8"></a>
+### [Introducing agentic video understanding with Gemini](https://deepmind.google/blog/introducing-agentic-video-in-gemini/) ⭐️ 7.0/10
+
+Google DeepMind announces agentic video understanding capabilities integrated into Gemini, extending multimodal AI to handle video analysis with agent-like reasoning.
+
+rss · Google DeepMind · 9월 1일 17:08
+
+**태그**: `#multimodal-ai`, `#video-understanding`, `#gemini`, `#ai-agents`, `#google-deepmind`
+
+---
+
+<a id="item-tech-news-9"></a>
+### [BenchMIRT: What are LLM benchmarks actually measuring?](https://huggingface.co/blog/allenai/benchmirt) ⭐️ 7.0/10
+
+BenchMIRT investigates what LLM benchmarks actually measure, providing methodological insights into AI model evaluation.
+
+rss · Hugging Face · 9월 1일 21:39
+
+**태그**: `#LLM evaluation`, `#benchmarking methodology`, `#AI systems`, `#model assessment`, `#research analysis`
+
+---
+
+<a id="item-tech-news-10"></a>
+### [We released TontaubeV1, a character-level TTS model for long-form generation \[P\]](https://www.reddit.com/r/MachineLearning/comments/1w4afjn/we_released_tontaubev1_a_characterlevel_tts_model/) ⭐️ 7.0/10
+
+Open-source 2.9B-parameter TTS model emphasizing character-level tokenization, expressive speech, and efficient local inference with zero-shot voice cloning capabilities.
+
+reddit · r/MachineLearning · /u/EAVDR · 9월 1일 12:23
+
+**태그**: `#text-to-speech`, `#open-source`, `#multilingual-models`, `#voice-synthesis`, `#model-release`
+
+---
+
+<a id="item-tech-news-11"></a>
+### [EvoUndo: Recoverability-Constrained Self-Evolution for LLM Agent Harnesses \[R\]](https://www.reddit.com/r/MachineLearning/comments/1w4m0hq/evoundo_recoverabilityconstrained_selfevolution/) ⭐️ 7.0/10
+
+EvoUndo introduces a framework for verifying that self-modifications made by LLM agents can be safely reversed across different execution states, addressing a critical safety gap in autonomous agent systems.
+
+reddit · r/MachineLearning · /u/AccomplishedLeg1508 · 9월 1일 19:17
+
+**태그**: `#LLM agents`, `#AI safety`, `#self-modification`, `#formal verification`, `#autonomous systems`
+
+---
+
+## 심층 분석 · 뉴스레터
+
+<a id="item-tech-blog-1"></a>
+### [PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors](https://www.latent.space/p/pr-not-welcome) ⭐️ 6.0/10
+
+Documents how top AI open source projects are replacing external pull requests with internal AI agents and software factories, with examples from Vercel, Astro, Flue, and tldraw.
+
+rss · Latent Space · 9월 1일 16:17
+
+**태그**: `#open-source-management`, `#ai-agents`, `#software-factories`, `#community-contribution`, `#pull-request-policy`
+
+---
+
+<a id="item-tech-blog-2"></a>
+### [Claude Fable 5.1 made me a really nice animated pelican](https://simonwillison.net/2026/Sep/1/claude-fable-5-1/) ⭐️ 6.0/10
+
+An author tests Claude Fable 5.1&\#x27;s five reasoning effort levels on SVG generation, documenting costs, latency, and output quality, finding that higher reasoning levels produce more detailed results but at exponentially higher cost.
+
+rss · Simon Willison · 9월 1일 23:57
+
+**태그**: `#llm-benchmarking`, `#claude-fable-5.1`, `#reasoning-effort-levels`, `#cost-performance-tradeoff`, `#hands-on-evaluation`
+
+---
+
+<a id="item-tech-blog-3"></a>
+### [Korea’s Trillion-Dollar Sovereign AI Investment: Nvidia Wins, Hynix Loses](https://newsletter.semianalysis.com/p/koreas-trillion-dollar-sovereign) ⭐️ 6.0/10
+
+Analysis of South Korea&\#x27;s sovereign AI investment program and its implications for Nvidia, Samsung, and SK Hynix, mixing concrete program details with unverified claims and speculative business strategy.
+
+rss · Semianalysis · 9월 1일 20:14
+
+**태그**: `#sovereign-ai`, `#korea-ai-policy`, `#nvidia-strategy`, `#semiconductor-supply-chain`, `#speculative-claims`
+
+---
