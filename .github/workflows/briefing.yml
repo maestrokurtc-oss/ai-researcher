@@ -126,6 +126,24 @@ jobs:
           # Same collision applies to the Jekyll post that feeds GitHub Pages.
           POST="docs/_posts/${DATE}-summary-ko.md"
           if [ -f "$POST" ]; then
+            # Both runs land on the same date, so the slot has to reach the
+            # Jekyll title too or the two posts read as duplicates.
+            python - "$POST" "$SLOT" <<'PY'
+          import sys
+
+          path, slot = sys.argv[1], sys.argv[2]
+          label = "아침" if slot == "morning" else "저녁"
+          with open(path, encoding="utf-8") as f:
+              text = f.read()
+          lines = []
+          for line in text.split("\n"):
+              if line.startswith('title: "') and line.endswith('"'):
+                  line = f'{line[:-1]} {label}"'
+              lines.append(line)
+          with open(path, "w", encoding="utf-8") as f:
+              f.write("\n".join(lines))
+          print(f"Post title tagged: {label}")
+          PY
             mv "$POST" "docs/_posts/${DATE}-${SLOT}-summary-ko.md"
           fi
 
