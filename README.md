@@ -8,7 +8,7 @@ AI 관련 뉴스·논문·업계 동향을 자동으로 모아 **하루 두 번(
 
 ```
 GitHub Actions (00:00 · 10:00 UTC)
-  └─ 수집  arXiv · Hacker News · Reddit · RSS 22종 · GitHub 릴리스 · Google News
+  └─ 수집  arXiv(아침만) · Hacker News · Reddit · RSS 22종 · GitHub 릴리스 · Google News
   └─ 채점  Haiku 4.5 로 중요도 0~10 점수화 + 프로필 분류
   └─ 선별  프로필별 임계값 통과분만 남기고 주제 중복 제거
   └─ 요약  Sonnet 5 로 한국어 요약 작성
@@ -64,6 +64,17 @@ GitHub Actions (00:00 · 10:00 UTC)
 
 알림을 클릭해 파일을 바로 열고 싶다면 `brew install terminal-notifier`를 먼저 설치하세요. 없으면 클릭 동작 없는 기본 알림으로 동작합니다.
 
+## 소스 점검 (API 키 불필요)
+
+수집 단계만 돌려 어떤 소스가 몇 건을 주는지 확인합니다. 모델을 호출하지 않으므로 비용이 들지 않습니다.
+
+```bash
+cp data/config.github.json data/config.json
+uv run python scripts/check-sources.py            # 설정된 창으로 전체 수집
+uv run python scripts/check-sources.py --hours 24 # 창을 넓혀서
+uv run python scripts/check-sources.py --feeds    # RSS URL 응답만 빠르게
+```
+
 ## 수집 소스 바꾸기
 
 전부 [`data/config.github.json`](data/config.github.json) 한 곳에서 조정합니다. 코드 수정은 필요 없습니다.
@@ -100,6 +111,10 @@ GitHub Actions (00:00 · 10:00 UTC)
 - `apify` — [Apify](https://apify.com/) 유료 토큰이 필요합니다.
 
 Apify를 쓰시려면 `APIFY_TOKEN` 시크릿을 등록하고 `enabled`를 `true`로 바꾸면 됩니다. 그동안 X의 AI 담론은 Import AI, Interconnects, Latent Space, Simon Willison, Ahead of AI 등 뉴스레터 피드가 상당 부분 대신 덮습니다.
+
+### 논문은 아침 브리핑에만 들어갑니다
+
+arXiv는 하루 한 번, 18:00 UTC 직전 타임스탬프로 묶어서 공개합니다. 13시간 수집 창 기준으로 아침 실행(00:00 UTC)은 이 배치를 포함하지만 저녁 실행(10:00 UTC)은 창이 배치보다 뒤에서 시작해 논문을 하나도 못 잡습니다. 논문이 원래 하루 한 번 나오므로, 저녁 실행에서는 arXiv를 꺼서 헛돌지 않게 했습니다.
 
 ## 알려진 한계
 

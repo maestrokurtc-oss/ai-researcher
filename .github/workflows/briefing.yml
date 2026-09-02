@@ -59,7 +59,28 @@ jobs:
           echo "Running the $SLOT briefing for $DATE (UTC hour $HOUR)"
 
       - name: Prepare config
-        run: cp data/config.github.json data/config.json
+        env:
+          SLOT: ${{ steps.slot.outputs.slot }}
+        # arXiv announces in one daily batch stamped just before 18:00 UTC.
+        # The morning window (13h back from 00:00 UTC) contains that batch;
+        # the evening window (13h back from 10:00 UTC) starts after it, so the
+        # evening run can never contain papers. Papers arrive once a day, so
+        # they belong to the morning briefing and are switched off in the
+        # evening rather than left to silently return nothing.
+        run: |
+          cp data/config.github.json data/config.json
+          if [ "$SLOT" = "evening" ]; then
+            python - <<'PY'
+          import json
+
+          with open("data/config.json", encoding="utf-8") as f:
+              config = json.load(f)
+          config["sources"]["arxiv"]["enabled"] = False
+          with open("data/config.json", "w", encoding="utf-8") as f:
+              json.dump(config, f, ensure_ascii=False, indent=2)
+          print("Evening run: arXiv disabled.")
+          PY
+          fi
 
       - name: Run Horizon
         env:
