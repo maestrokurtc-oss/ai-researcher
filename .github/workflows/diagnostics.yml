@@ -1,0 +1,42 @@
+name: Diagnostics
+
+# Manual-only. Checks the API key and the configured model ids, and optionally
+# the collection stage. Costs a handful of tokens, not a full briefing.
+on:
+  workflow_dispatch:
+    inputs:
+      check:
+        description: 'What to check'
+        required: true
+        default: models
+        type: choice
+        options: [models, sources, both]
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.11.26'
+          enable-cache: true
+
+      - run: uv sync
+
+      - run: cp data/config.github.json data/config.json
+
+      - name: Check models
+        if: inputs.check == 'models' || inputs.check == 'both'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: uv run python scripts/check-models.py
+
+      - name: Check sources
+        if: inputs.check == 'sources' || inputs.check == 'both'
+        run: uv run python scripts/check-sources.py --hours 24
