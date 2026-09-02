@@ -1064,7 +1064,27 @@ class HorizonOrchestrator:
         ai_client = create_ai_client(self.config.ai, stage="analysis")
         analyzer = ContentAnalyzer(ai_client, self.profiles, console=self.console)
 
-        return await analyzer.analyze_batch(items)
+        analyzed = await analyzer.analyze_batch(items)
+
+        failures = getattr(analyzer, "failure_count", 0)
+        if failures:
+            detail = getattr(analyzer, "first_failure", None) or "unknown error"
+            model = self.config.ai.stage_models.get("analysis", self.config.ai.model)
+            if failures == len(items):
+                # Every scoring call failed, so nothing can clear the threshold
+                # and the run would otherwise finish "successfully" with an
+                # empty briefing - indistinguishable from a quiet news day.
+                raise RuntimeError(
+                    f"Analysis failed for all {failures} items using model "
+                    f"{model!r}. First error: {detail}"
+                )
+            self.console.print(
+                f"[yellow]{self.icons['warning']} Analysis failed for "
+                f"{failures}/{len(items)} items (model {model}). "
+                f"First error: {detail}[/yellow]\n"
+            )
+
+        return analyzed
 
     async def _generate_summary(
         self,

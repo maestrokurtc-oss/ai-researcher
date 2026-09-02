@@ -59,12 +59,21 @@ class ContentAnalyzer:
         concurrency = self._get_concurrency()
         semaphore = asyncio.Semaphore(concurrency)
 
+        # A failed item scores None and is silently dropped by the filter, so a
+        # wholly broken model call produces an empty briefing that looks exactly
+        # like a quiet news day. Count failures so the caller can tell them apart.
+        self.failure_count = 0
+        self.first_failure: Optional[str] = None
+
         async def _process(item: ContentItem, index: int, progress_task) -> ContentItem:
             async with semaphore:
                 try:
                     await self._analyze_item(item)
                 except Exception as e:
                     logger.error("Error analyzing item %s: %s", item.id, e)
+                    self.failure_count += 1
+                    if self.first_failure is None:
+                        self.first_failure = f"{type(e).__name__}: {e}"
                     if item.processing:
                         item.processing.analysis = ContentAnalysis(
                             score=None,
