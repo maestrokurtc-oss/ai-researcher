@@ -9,6 +9,9 @@ set -uo pipefail
 
 REPO_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 SEEN_FILE="$REPO_DIR/local/.seen-briefings"
+# Separate marker: an empty seen-file is a legitimate state (no briefings yet),
+# so it cannot itself signal "never baselined".
+BASELINE_MARKER="$REPO_DIR/local/.baselined"
 LOG_FILE="$REPO_DIR/local/poll.log"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*" >> "$LOG_FILE"; }
@@ -55,9 +58,13 @@ fi
 touch "$SEEN_FILE"
 
 # First run adopts whatever already exists rather than firing a burst of
-# notifications for the entire back catalogue.
-if [ ! -s "$SEEN_FILE" ]; then
+# notifications for the entire back catalogue. Keyed off a marker file so that
+# a genuinely empty briefings/ directory still baselines exactly once - keying
+# off the seen-file's size would re-baseline forever and swallow the first
+# briefing that ever arrives.
+if [ ! -f "$BASELINE_MARKER" ]; then
     find briefings -name '*.md' -type f 2>/dev/null | sort > "$SEEN_FILE"
+    date > "$BASELINE_MARKER"
     log "Baseline recorded: $(wc -l < "$SEEN_FILE" | tr -d ' ') existing briefings."
     exit 0
 fi
