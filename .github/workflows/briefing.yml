@@ -2,19 +2,36 @@ name: AI Briefing
 
 on:
   schedule:
-    # Twice daily, in UTC. 00:00 UTC = 09:00 KST, 10:00 UTC = 19:00 KST.
+    # Twice daily, in UTC. 00:17 UTC = 09:17 KST, 10:17 UTC = 19:17 KST.
     # Both slots keep the UTC date equal to the Korean date, so the summary
     # filename Horizon derives from the UTC date matches the reader's day.
-    # GitHub may start scheduled runs late; that only shifts them later, which
-    # keeps the date alignment intact.
-    - cron: '0 0 * * *'
-    - cron: '0 10 * * *'
+    #
+    # Scheduled runs are best-effort on shared runners: GitHub delays them
+    # under load and drops them outright at the busiest times. The top of the
+    # hour - midnight UTC above all - is the worst offender, so these sit at
+    # :17. Each slot then gets a second attempt two hours later; the guard
+    # below turns that into a no-op whenever the first attempt delivered.
+    - cron: '17 0 * * *'    # morning
+    - cron: '17 2 * * *'    # morning, retry
+    - cron: '17 10 * * *'   # evening
+    - cron: '17 12 * * *'   # evening, retry
   workflow_dispatch:
     inputs:
       hours:
         description: 'Lookback window in hours (blank uses the config value)'
         required: false
         type: string
+      slot:
+        description: 'Which briefing to produce'
+        required: false
+        default: auto
+        type: choice
+        options: [auto, morning, evening]
+      force:
+        description: 'Run even if this slot already has a briefing'
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
   # Never let a delayed morning run overlap the evening one.
@@ -47,18 +64,55 @@ jobs:
 
       - name: Resolve run slot
         id: slot
+        env:
+          CRON: ${{ github.event.schedule }}
+          REQUESTED: ${{ inputs.slot }}
         run: |
-          # Runs start at 00:00 or 10:00 UTC and may be delayed; bucket generously.
-          HOUR=$(date -u +'%H')
-          if [ "$HOUR" -lt 5 ]; then SLOT=morning; else SLOT=evening; fi
+          # Prefer the cron expression that triggered this run. Wall-clock
+          # bucketing misreads a badly delayed morning run as an evening one,
+          # which would silently switch arXiv off for the papers slot.
+          case "$CRON" in
+            '17 0 * * *'|'17 2 * * *')   SLOT=morning ;;
+            '17 10 * * *'|'17 12 * * *') SLOT=evening ;;
+            *)
+              case "$REQUESTED" in
+                morning|evening) SLOT="$REQUESTED" ;;
+                *)
+                  # Manual run with no slot named: fall back to the clock.
+                  HOUR=$(date -u +'%H')
+                  if [ "$HOUR" -lt 5 ]; then SLOT=morning; else SLOT=evening; fi
+                  ;;
+              esac
+              ;;
+          esac
           DATE=$(date -u +'%Y-%m-%d')
           echo "slot=$SLOT"          >> "$GITHUB_OUTPUT"
           echo "date=$DATE"          >> "$GITHUB_OUTPUT"
           echo "year=${DATE:0:4}"    >> "$GITHUB_OUTPUT"
           echo "month=${DATE:5:2}"   >> "$GITHUB_OUTPUT"
-          echo "Running the $SLOT briefing for $DATE (UTC hour $HOUR)"
+          echo "Running the $SLOT briefing for $DATE (cron '${CRON:-manual}')"
+
+      - name: Skip if this slot already delivered
+        id: guard
+        env:
+          EXISTING: briefings/${{ steps.slot.outputs.year }}/${{ steps.slot.outputs.month }}/${{ steps.slot.outputs.date }}-${{ steps.slot.outputs.slot }}.md
+          FORCE: ${{ inputs.force }}
+        run: |
+          # The retry cron exists only to cover a dropped run, so it must cost
+          # nothing when the first attempt already produced this briefing.
+          if [ "$FORCE" = "true" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "Forced; running even though $EXISTING may exist."
+          elif [ -f "$EXISTING" ]; then
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "$EXISTING already exists; nothing to do."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "No briefing at $EXISTING yet; proceeding."
+          fi
 
       - name: Prepare config
+        if: steps.guard.outputs.run == 'true'
         env:
           SLOT: ${{ steps.slot.outputs.slot }}
         # arXiv announces in one daily batch stamped just before 18:00 UTC.
@@ -83,6 +137,7 @@ jobs:
           fi
 
       - name: Run Horizon
+        if: steps.guard.outputs.run == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           # Only needed for identity-linked keys; empty is ignored.
@@ -101,6 +156,7 @@ jobs:
           fi
 
       - name: Archive briefing
+        if: steps.guard.outputs.run == 'true'
         id: archive
         env:
           DATE: ${{ steps.slot.outputs.date }}
@@ -154,7 +210,7 @@ jobs:
           echo "Archived $ITEMS items to $DEST"
 
       - name: Commit briefing
-        if: steps.archive.outputs.produced == 'true'
+        if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
         env:
           DATE: ${{ steps.slot.outputs.date }}
           SLOT: ${{ steps.slot.outputs.slot }}
@@ -177,7 +233,7 @@ jobs:
           exit 1
 
       - name: Deploy to GitHub Pages
-        if: steps.archive.outputs.produced == 'true'
+        if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -188,7 +244,7 @@ jobs:
           commit_message: "브리핑: ${{ steps.slot.outputs.date }} ${{ steps.slot.outputs.slot }}"
 
       - name: Push notification
-        if: steps.archive.outputs.produced == 'true'
+        if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           DATE: ${{ steps.slot.outputs.date }}
