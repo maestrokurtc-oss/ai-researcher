@@ -29,6 +29,7 @@ class ContentAnalyzer:
         profiles: ProfileRegistry,
         console: Optional[Console] = None,
         language: str = "en",
+        interests: str = "",
     ):
         self.client = ai_client
         self.profiles = profiles
@@ -37,6 +38,8 @@ class ContentAnalyzer:
         # The per-item summary produced here is what the reader sees whenever
         # enrichment is skipped or fails, so it follows the briefing language.
         self.language = language
+        # Rendered reader-preference section, empty when nothing is marked.
+        self.interests = interests
 
     @staticmethod
     def _parse_json_response(response: str) -> Optional[dict]:
@@ -166,14 +169,14 @@ class ContentAnalyzer:
 
         # Get AI completion
         response = await self.client.complete(
-            system=analysis_system_prompt(profile, self.language),
+            system=analysis_system_prompt(profile, self.language, self.interests),
             user=user_prompt,
         )
 
         result, failure = self._validate_analysis_response(response)
         if result is None:
             repair_response = await self.client.complete(
-                system=analysis_system_prompt(profile, self.language),
+                system=analysis_system_prompt(profile, self.language, self.interests),
                 user=(
                     user_prompt
                     + "\n\nYour previous response did not satisfy the output contract "

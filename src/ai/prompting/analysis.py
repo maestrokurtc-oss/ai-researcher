@@ -13,19 +13,27 @@ ANALYSIS_RULES = f"""You are a content curator evaluating an item under the supp
 - Apply the profile's evaluation policy consistently."""
 
 
-def analysis_system_prompt(profile: LoadedProfile, language: str = "en") -> str:
+def analysis_system_prompt(
+    profile: LoadedProfile,
+    language: str = "en",
+    interests: str = "",
+) -> str:
     # `summary` is shown to the reader whenever enrichment is skipped or fails,
     # so it has to be written in the briefing's language. `reason` is internal
     # and `tags` are slugs, so both stay English.
     summary_language = (
         f"<one-sentence summary, written in {target_language_instruction(language)}>"
     )
+    # Empty until the reader marks something, so the prompt stays unchanged
+    # for a fresh install.
+    interests_section = f"\n{interests}\n" if interests.strip() else ""
+
     return f"""{ANALYSIS_RULES}
 
 # Profile policy
 
 {profile.analysis_prompt}
-
+{interests_section}
 # Output contract
 
 Return valid JSON only. Write `summary` in {target_language_instruction(language)};

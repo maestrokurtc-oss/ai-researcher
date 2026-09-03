@@ -11,6 +11,7 @@ import httpx
 from rich.console import Console
 
 from .console_icons import get_icons
+from .processing.interests import load_interests
 from .models import Config, ContentItem
 from .storage.manager import StorageManager, safe_output_path
 from .services.email import EmailManager
@@ -1039,9 +1040,16 @@ class HorizonOrchestrator:
             f"   Re-analyzing {len(expanded)} Twitter items with reply context...\n"
         )
         ai_client = create_ai_client(self.config.ai, stage="analysis")
+        interests = load_interests()
+        if not interests.is_empty:
+            self.console.print(
+                f"   {self.icons['detail']} Applying reader interests from "
+                f"{interests.marked_count} marked items"
+            )
         analyzer = ContentAnalyzer(
             ai_client, self.profiles, console=self.console,
             language=self.config.ai.languages[0] if self.config.ai.languages else "en",
+            interests=interests.prompt_section(),
         )
         await analyzer.analyze_batch(expanded)
 
@@ -1139,9 +1147,16 @@ class HorizonOrchestrator:
         self.console.print(f"{self.icons['ai']} Analyzing content with AI...")
 
         ai_client = create_ai_client(self.config.ai, stage="analysis")
+        interests = load_interests()
+        if not interests.is_empty:
+            self.console.print(
+                f"   {self.icons['detail']} Applying reader interests from "
+                f"{interests.marked_count} marked items"
+            )
         analyzer = ContentAnalyzer(
             ai_client, self.profiles, console=self.console,
             language=self.config.ai.languages[0] if self.config.ai.languages else "en",
+            interests=interests.prompt_section(),
         )
 
         analyzed = await analyzer.analyze_batch(items)
