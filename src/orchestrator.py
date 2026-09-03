@@ -289,6 +289,20 @@ class HorizonOrchestrator:
                 self.console.print(f"      {self.icons['detail']} {source_key}: {count}")
             self.console.print("")
 
+            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+            # 5b. Keep the near-misses. Everything the filter drops is invisible
+            # otherwise, and the reader needs a way to say "this one mattered".
+            # Secondary to the briefing itself, so a failure here is reported
+            # but never costs the run its summaries.
+            try:
+                self.save_near_misses(analyzed_items, important_items, today)
+            except Exception as e:
+                self.console.print(
+                    f"[yellow]{self.icons['warning']} Could not save "
+                    f"near-misses: {type(e).__name__}: {e}[/yellow]\n"
+                )
+
             # 6. Search related stories + enrich with background knowledge (2nd AI pass)
             enrichment = await self.enrich_items(important_items)
             if enrichment and enrichment.failed_count:
@@ -306,7 +320,6 @@ class HorizonOrchestrator:
                 )
 
             # 7. Generate and save daily summaries for each configured language
-            today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             for lang in self.config.ai.languages:
                 summarizer = DailySummarizer(
                     profile_names=self.profiles.names,
@@ -1065,6 +1078,54 @@ class HorizonOrchestrator:
             )
         self.console.print("")
         return result
+
+    NEAR_MISS_FLOOR = 5.0
+
+    def save_near_misses(
+        self,
+        analyzed: List[ContentItem],
+        selected: List[ContentItem],
+        date: str,
+    ) -> Optional[str]:
+        """Record scored-but-dropped items so the reader can review them.
+
+        Only items at or above NEAR_MISS_FLOOR are kept. Below that the list
+        becomes a wall of noise nobody reads, and the point is to surface the
+        ones the filter nearly kept.
+        """
+        chosen = {item.id for item in selected}
+        rows = []
+        for item in analyzed:
+            if item.id in chosen:
+                continue
+            analysis = item.processing.analysis if item.processing else None
+            score = getattr(analysis, "score", None)
+            if score is None or score < self.NEAR_MISS_FLOOR:
+                continue
+            rows.append(
+                {
+                    "id": item.id,
+                    "title": item.title,
+                    "url": str(item.url),
+                    "score": score,
+                    "summary": getattr(analysis, "summary", "") or "",
+                    "reason": getattr(analysis, "reason", "") or "",
+                    "tags": list(getattr(analysis, "tags", []) or []),
+                    "source_type": item.source_type.value,
+                    "sub_source": self._sub_source_label(item),
+                    "author": item.author,
+                    "published_at": item.published_at.isoformat(),
+                    "profile": str(item.profile) if item.profile else None,
+                }
+            )
+
+        rows.sort(key=lambda row: row["score"], reverse=True)
+        path = self.storage.save_near_misses(date, rows)
+        self.console.print(
+            f"{self.icons['save']} Kept {len(rows)} near-misses "
+            f"(score >= {self.NEAR_MISS_FLOOR}) at: {path}\n"
+        )
+        return path
 
     async def analyze_items(self, items: List[ContentItem]) -> List[ContentItem]:
         """Analyze content items with AI.

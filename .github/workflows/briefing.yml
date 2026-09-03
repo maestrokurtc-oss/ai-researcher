@@ -203,6 +203,16 @@ jobs:
             mv "$POST" "docs/_posts/${DATE}-${SLOT}-summary-ko.md"
           fi
 
+          # The near-misses are what the review page reads, so they are
+          # archived under the same slot-qualified name as the briefing.
+          NEAR="data/near_misses/${DATE}.json"
+          if [ -f "$NEAR" ]; then
+            NEAR_DIR="near-misses/${YEAR}/${MONTH}"
+            mkdir -p "$NEAR_DIR"
+            cp "$NEAR" "${NEAR_DIR}/${DATE}-${SLOT}.json"
+            echo "Archived near-misses to ${NEAR_DIR}/${DATE}-${SLOT}.json"
+          fi
+
           ITEMS=$(grep -c '^### ' "$DEST" || true)
           echo "produced=true"      >> "$GITHUB_OUTPUT"
           echo "path=$DEST"         >> "$GITHUB_OUTPUT"
@@ -217,7 +227,7 @@ jobs:
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add briefings/
+          git add briefings/ near-misses/
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0

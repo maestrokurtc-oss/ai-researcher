@@ -129,6 +129,18 @@ class StorageManager:
 
         return filepath
 
+    def save_near_misses(self, date: str, rows: list) -> Path:
+        """Persist the scored-but-dropped items for one run."""
+        near_misses_dir = self.data_dir / "near_misses"
+        near_misses_dir.mkdir(parents=True, exist_ok=True)
+        filepath = safe_output_path(near_misses_dir, f"{date}.json")
+
+        _atomic_write_text(
+            filepath, json.dumps(rows, ensure_ascii=False, indent=2) + "\n"
+        )
+
+        return filepath
+
     def load_subscribers(self) -> list:
         """Loads the list of email subscribers."""
         subscribers_path = self.data_dir / "subscribers.json"
