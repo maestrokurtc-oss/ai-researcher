@@ -1,0 +1,373 @@
+{
+  "date": "2026-09-03",
+  "slot": "morning",
+  "sort_key": "2026-09-03-1",
+  "count": 22,
+  "items": [
+    {
+      "id": "hackernews:story:49541458",
+      "title": "Fable 5.1 World Modeling",
+      "url": "https://github.com/PhiloLabs/fable51-worlds",
+      "score": 6.0,
+      "summary": "Fable 5.1은 비전 언어 모델을 사용하여 게임 월드와 3D 자산을 생성하는 프로젝트로, 이미지 예측 기반의 월드 모델링 접근 방식을 시연하지만 고다각형 메시 생성과 최적화 문제 등 실무적 제약이 있다.",
+      "tags": [
+        "world-modeling",
+        "game-development",
+        "generative-ai",
+        "3d-graphics",
+        "vision-language-models"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "surreal_",
+      "published_at": "2026-09-02T19:49:01+00:00"
+    },
+    {
+      "id": "hackernews:story:49536177",
+      "title": "Poisson Disk Sampling",
+      "url": "https://stripeacross.com/posts/poisson-disk-sampling/",
+      "score": 6.0,
+      "summary": "Poisson disk sampling 알고리즘에 대한 기술 튜토리얼로, 게임 그래픽과 절차적 생성에서 균등하게 분산된 점 배치를 위한 실용적인 기법을 다룬다.",
+      "tags": [
+        "graphics-algorithms",
+        "procedural-generation",
+        "poisson-sampling",
+        "game-development",
+        "tutorial"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "vismit2000",
+      "published_at": "2026-09-02T13:47:49+00:00"
+    },
+    {
+      "id": "hackernews:story:49536411",
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "score": 6.0,
+      "summary": "WebLLM은 브라우저에서 LLM 추론을 실행하는 오픈소스 엔진이지만, WebGPU 지원 부족, 높은 대역폭 요구사항, 유지보수 중단 등의 실질적 제약으로 인해 커뮤니티에서 Transformers.js 같은 대안으로의 전환이 진행 중이다.",
+      "tags": [
+        "in-browser-inference",
+        "llm-inference",
+        "webgpu",
+        "open-source",
+        "machine-learning"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "saikatsg",
+      "published_at": "2026-09-02T14:02:35+00:00"
+    },
+    {
+      "id": "hackernews:story:49536114",
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "score": 6.0,
+      "summary": "AISLE가 curl에서 6개의 CVE를 발견했으며, 이는 OpenAI와 Anthropic의 도구가 발견하지 못한 것으로 주장되지만, 커뮤니티는 모든 CVE가 낮은 심각도이고 기술적 깊이가 부족하며 마케팅 성격이 강하다고 지적한다.",
+      "tags": [
+        "vulnerability-discovery",
+        "ai-security-tools",
+        "curl",
+        "cve",
+        "security-research"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "goobreee",
+      "published_at": "2026-09-02T13:43:14+00:00"
+    },
+    {
+      "id": "rss:deepmind.google_blog_rss.xml:d721843382f3485e",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "score": 6.0,
+      "summary": "Google DeepMind이 정부와 기업을 위한 사전 예방적 사이버 방어 접근 방식을 발표했다.",
+      "tags": [
+        "cybersecurity",
+        "ai-applications",
+        "google-deepmind",
+        "enterprise-security"
+      ],
+      "source_type": "rss",
+      "sub_source": "Google DeepMind",
+      "published_at": "2026-09-02T16:24:24+00:00"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:4fcfb3e3c9191b96",
+      "title": "The Trump administration is supporting OpenAI in the NYT copyright lawsuit",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit",
+      "score": 6.0,
+      "summary": "Trump 행정부가 New York Times의 OpenAI 저작권 소송에 개입하여 AI 연구소를 지지하는 입장을 표명했다.",
+      "tags": [
+        "ai-policy",
+        "copyright-law",
+        "openai",
+        "legal-developments",
+        "ai-governance"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "published_at": "2026-09-02T16:12:25+00:00"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1w5fuhm",
+      "title": "Deepity: A C++ library showing Predictive Coding Networks can match Backprop (97.73% on MNIST in 60s) [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5fuhm/deepity_a_c_library_showing_predictive_coding/",
+      "score": 6.0,
+      "summary": "C++ 기반 Deepity 라이브러리가 Predictive Coding Networks를 구현하여 MNIST에서 역전파와 유사한 성능(97.73%, 60초)을 달성했으며, 최근 연구와 알고리즘 캐싱을 활용해 성능 격차를 줄였다.",
+      "tags": [
+        "alternative-credit-assignment",
+        "predictive-coding",
+        "neural-networks",
+        "c-plus-plus",
+        "continual-learning"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/MachineLearning",
+      "published_at": "2026-09-02T16:49:13+00:00"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1w5cfv1",
+      "title": "CABiNet (ICRA 2021) vs YOLO26-sem on UAVid: accuracy, compute, and GPU latency [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w5cfv1/cabinet_icra_2021_vs_yolo26sem_on_uavid_accuracy/",
+      "score": 6.0,
+      "summary": "UAVid 데이터셋에서 2021년 CABiNet 효율 아키텍처와 2026년 YOLO26-sem 멀티태스크 모델의 의미론적 분할 성능을 비교하는 재현 가능한 실험으로, 동일한 데이터 전처리, 손실 함수, 평가 프로토콜을 적용하여 통제된 벤치마크를 수행했다.",
+      "tags": [
+        "semantic-segmentation",
+        "model-comparison",
+        "aerial-imagery",
+        "efficient-networks",
+        "benchmark"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/MachineLearning",
+      "published_at": "2026-09-02T14:46:43+00:00"
+    },
+    {
+      "id": "arxiv:paper:2609.02624",
+      "title": "Automated Vulnerability Injection in Smart Contracts Using Large Language Models",
+      "url": "https://arxiv.org/abs/2609.02624",
+      "score": 6.0,
+      "summary": "LLM을 사용하여 Solidity 스마트 계약에 자동으로 취약점을 주입하는 방법을 제안하며, OpenSCV의 49개 취약점 유형을 대상으로 실제 계약에서 약 1,000개의 후보를 생성했으나 검증 후 32개만 생존(16.58% 생존율)하여 LLM 기반 주입의 실현 가능성과 확장성 및 다양성의 한계를 드러냈다.",
+      "tags": [
+        "smart-contracts",
+        "vulnerability-detection",
+        "llm-applications",
+        "dataset-generation",
+        "solidity"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.SE",
+      "published_at": "2026-09-02T14:03:09+00:00"
+    },
+    {
+      "id": "arxiv:paper:2609.02620",
+      "title": "Collective creativity in hybrid societies",
+      "url": "https://arxiv.org/abs/2609.02620",
+      "score": 6.0,
+      "summary": "이 논문은 생성형 AI가 문화 창작에 미치는 영향을 개인의 창의성이 아닌 인간과 알고리즘의 하이브리드 집단의 창의성으로 재정의하며, 개별 산출물의 참신성(novelty)과 집단 수준의 다양성(diversity)을 구분하여 분석한다.",
+      "tags": [
+        "generative-ai",
+        "creativity",
+        "human-ai-collaboration",
+        "cultural-diversity",
+        "collective-intelligence"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "published_at": "2026-09-02T13:59:08+00:00"
+    },
+    {
+      "id": "arxiv:paper:2609.02580",
+      "title": "Competitive Market Behavior of LLMs",
+      "url": "https://arxiv.org/abs/2609.02580",
+      "score": 6.0,
+      "summary": "이 논문은 LLM 에이전트를 이중 경매(double auction) 환경에 배치하여 인간 피험자를 대체했을 때 시장 메커니즘이 효율적으로 작동하는지 검증하며, LLM이 인간보다 시장 균형으로의 수렴이 느리거나 수렴하지 않음을 보여준다.",
+      "tags": [
+        "llm-agents",
+        "market-mechanisms",
+        "economic-experiments",
+        "alignment",
+        "multi-agent-systems"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.MA",
+      "published_at": "2026-09-02T13:24:42+00:00"
+    },
+    {
+      "id": "hackernews:story:49536079",
+      "title": "Biggest dark matter detector spots a single weird particle",
+      "url": "https://www.science.org/content/article/world-s-biggest-dark-matter-detector-spots-single-weird-particle",
+      "score": 5.0,
+      "summary": "LZ 암흑물질 검출기가 단일 이상 입자를 포착했으나, 물리학자들은 확인 전에 더 많은 데이터 수집이 필요하며 입자물리학 역사상 유사한 3-시그마 신호들이 후속 관측에서 사라진 사례가 많다고 경고하고 있다.",
+      "tags": [
+        "dark-matter",
+        "particle-physics",
+        "experimental-physics",
+        "scientific-discovery"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "randycupertino",
+      "published_at": "2026-09-02T13:40:29+00:00"
+    },
+    {
+      "id": "hackernews:story:49537738",
+      "title": "SteamdDB Joins Nexus Mods",
+      "url": "https://www.nexusmods.com/news/15597",
+      "score": 5.0,
+      "summary": "SteamDB가 Nexus Mods에 인수되었으며, 커뮤니티는 Steam API 접근성 유지와 서비스 무료화 약속에 대한 우려를 제기하고 있다.",
+      "tags": [
+        "gaming-infrastructure",
+        "community-projects",
+        "api-access",
+        "modding-ecosystem",
+        "corporate-acquisition"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "HelloUsername",
+      "published_at": "2026-09-02T15:25:55+00:00"
+    },
+    {
+      "id": "rss:huggingface.co_blog_feed.xml:8c10bd00da2e478d",
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "url": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "score": 5.0,
+      "summary": "IBM Research와 Confluent의 협력으로 실시간 데이터 스트림 처리를 위한 시계열 모델을 제공하는 기술 통합에 관한 소식.",
+      "tags": [
+        "time-series-models",
+        "real-time-processing",
+        "ibm-research",
+        "confluent",
+        "machine-learning"
+      ],
+      "source_type": "rss",
+      "sub_source": "Hugging Face",
+      "published_at": "2026-09-02T13:49:14+00:00"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:4f37aac0fba9c035",
+      "title": "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
+      "url": "https://techcrunch.com/podcast/were-dangerously-close-to-dead-internet-theory-says-pangrams-ceo/",
+      "score": 5.0,
+      "summary": "AI 생성 텍스트와 이미지가 채용 지원서, 제품 리뷰, 보험 청구 등에 확산되면서 인터넷의 신뢰성 문제가 심화되고 있으며, Pangram CEO는 이를 'dead internet theory'에 가까운 상태로 평가하고 있다.",
+      "tags": [
+        "ai-generated-content",
+        "content-authenticity",
+        "trust-and-verification",
+        "internet-integrity"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "published_at": "2026-09-02T17:09:57+00:00"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:3f83d3dfadae8dfc",
+      "title": "PSA: Amazon’s shopping AI can now tell you if that message is a scam",
+      "url": "https://techcrunch.com/2026/09/02/psa-amazons-shopping-ai-can-now-tell-you-if-that-message-is-a-scam/",
+      "score": 5.0,
+      "summary": "Amazon이 Alexa for Shopping에 의심스러운 이메일, 문자, 기타 메시지가 실제로 Amazon에서 온 것인지 확인할 수 있는 사기 탐지 기능을 추가하고 있다.",
+      "tags": [
+        "consumer-ai",
+        "scam-detection",
+        "amazon-alexa",
+        "product-feature"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "published_at": "2026-09-02T14:56:34+00:00"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:ac9c5105f853f39a",
+      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash",
+      "score": 5.0,
+      "summary": "Google가 Gemini 3.8 Flash를 출시했으며, 이전 버전 대비 더 많은 추론 단계와 반복적 도구 호출을 통해 복잡한 작업에서 성능을 개선했다고 주장하지만, 구체적인 벤치마크나 기술적 세부사항은 제시되지 않았다.",
+      "tags": [
+        "gemini",
+        "large-language-models",
+        "google-ai",
+        "model-updates",
+        "pricing"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "published_at": "2026-09-02T20:11:40+00:00"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:483708797dc31565",
+      "title": "Amazon’s AI assistant can now spot fake emails from the company",
+      "url": "https://www.theverge.com/tech/988518/amazon-alexa-for-shopping-verify-emails",
+      "score": 5.0,
+      "summary": "Amazon이 Alexa for Shopping에 이메일, 문자, 전화 통화의 진위 여부를 판단하는 AI 기반 검증 기능을 추가하여 사칭 사기에 대응하고 있다.",
+      "tags": [
+        "security",
+        "ai-assistants",
+        "phishing-detection",
+        "consumer-tech"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "published_at": "2026-09-02T17:52:56+00:00"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:c1f8f0d4b42a8f1b",
+      "title": "NYC bans AI use for students until they reach high school",
+      "url": "https://www.theverge.com/policy/988228/nyc-ai-restrictions-in-schools-chatbot-ban",
+      "score": 5.0,
+      "summary": "뉴욕시가 초등학교부터 중학교까지 학생들의 AI 사용을 1년간 금지하는 정책을 발표했으며, 약 60만 명의 공립학교 학생이 영향을 받을 예정이다.",
+      "tags": [
+        "ai-policy",
+        "education-technology",
+        "ai-governance",
+        "regulation"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "published_at": "2026-09-02T14:30:00+00:00"
+    },
+    {
+      "id": "google_news:article:edaf502b64686ac0",
+      "title": "NYC public schools to ban AI for teaching students below 9th grade - Gothamist",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOElzUTBZeWQ3ZzBEVlBtc25YV29uRmYtaExQc3JBQmEzVTl5Y0IyckxyVzRIdVBHUUlqTFZpZGtWUzE2VGFDQlRqYWxQYllDZWtIMnB0SXEwLVRlem1pQkhrNE1aM3o0bEg3NUdfaEpndXFkLU11R3ExbFBSMDd6aEVaUzVCZUZ4SUdHcHhUUzdVZ0hNYi1PMw?oc=5",
+      "score": 5.0,
+      "summary": "뉴욕시 공립학교가 9학년 이하 학생 교육에 AI 사용을 금지하는 정책을 도입했다.",
+      "tags": [
+        "ai-policy",
+        "education",
+        "governance",
+        "ai-regulation"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Gothamist",
+      "published_at": "2026-09-02T21:18:00+00:00"
+    },
+    {
+      "id": "google_news:article:77fbada2562fa35a",
+      "title": "Mamdani expected to announce AI ban in NYC schools for young students - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPci12N0wxc2FmRHBZajJmbkZXcDJyMjJtN0JOQmxoRXJNdURmbnA2OEVFRWpDNFBYWGIweVlMcldmYk5nWThjMEJOcDhXaEVTYUJuSl9ueWZZOTBNd3hPSEhKYlFnQlVReDJOWlRJMjFrUlRPU0FPQjhoWU1tNmtJVG1YcjlYSFBJUm5lTUtETGJwaHdHMWpUT3Jpcm4yQkJmTU13bFRFaTFVcEZMVlE?oc=5",
+      "score": 5.0,
+      "summary": "뉴욕시 교육감이 어린 학생들을 위한 AI 금지 정책을 발표할 예정이라는 보도.",
+      "tags": [
+        "ai-policy",
+        "education",
+        "regulation",
+        "nyc"
+      ],
+      "source_type": "google_news",
+      "sub_source": "NBC News",
+      "published_at": "2026-09-02T15:51:30+00:00"
+    },
+    {
+      "id": "google_news:article:211a3410d9745e83",
+      "title": "NYC officials ban AI in the classroom until high school - kezi.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdWRsSlVMQk1pNGJPbmFFcjM0V00tRHVVUU9QOExUZmFtQ3IwcWZIRHdBWnlqWjJVQUhnSVloV1VDdlhsSE1BSFJTZ1pMd1ZnanA0QmV3RmVkbWVUT0dRSE1PVGp4ZTNGbTBtVURzSEp3dFp5RzZqVzUybXN2VnhGZDFWNUdvTW5iejh6aElPaXkxS1Z6c01JSHh4bzJrOUZ1YlV5YXVUdTl1eFV0Yzg0UUw0TlBMM0g1QTlZam5ucnJad0s0Qi1qSThueTgyYkswRUlzbW9nYw?oc=5",
+      "score": 5.0,
+      "summary": "뉴욕시 교육 당국이 고등학교 이전 단계에서 AI 사용을 금지하는 정책을 발표했다.",
+      "tags": [
+        "ai-policy",
+        "education-technology",
+        "regulation",
+        "k12-education"
+      ],
+      "source_type": "google_news",
+      "sub_source": "kezi.com",
+      "published_at": "2026-09-02T20:56:00+00:00"
+    }
+  ]
+}
