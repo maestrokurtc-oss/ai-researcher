@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rss:huggingface.co_blog_feed.xml:fffbcba03b0b217e",
+    "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+    "url": "https://huggingface.co/blog/Hcompany/neomme",
+    "score": 6.0,
+    "summary": "Hugging Face가 소개하는 NeoMME는 다중 언어를 지원하면서 효율적인 멀티모달 인코더로, 시각과 언어 정보를 동시에 처리하는 AI 시스템의 성능과 속도를 개선하는 기술이다.",
+    "reason": "NeoMME represents an incremental but solid contribution to multimodal AI systems with practical efficiency improvements. The work addresses real challenges in combining vision and language processing across multiple languages, but lacks evidence of paradigm-shifting breakthroughs. The Hugging Face publication venue and focus on a concrete model architecture make it technically credible and relevant to ML practitioners, though the impact appears bounded to a specific problem domain rather than broadly transformative.",
+    "tags": [
+      "multimodal-ai",
+      "multilingual-models",
+      "model-efficiency",
+      "computer-vision-nlp"
+    ],
+    "source_type": "rss",
+    "sub_source": "Hugging Face",
+    "author": "Hugging Face",
+    "published_at": "2026-09-03T13:13:48+00:00",
+    "profile": "tech-news"
+  }
+]
