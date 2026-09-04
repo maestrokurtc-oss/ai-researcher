@@ -1,0 +1,1669 @@
+[
+  {
+    "id": "arxiv:paper:2609.04172",
+    "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
+    "url": "https://arxiv.org/abs/2609.04172",
+    "score": 7.0,
+    "summary": "단일 쿼리로 학습한 on-policy distillation이 전체 데이터셋 학습의 대부분의 이득을 회복하며, 상태 커버리지 분석을 통해 OPD가 데이터 과잉 공급이지만 알고리즘 부족 상태임을 보여준다.",
+    "reason": "A well-executed empirical study that challenges a common assumption about on-policy distillation—that large amounts of training data are necessary. The state-coverage framework provides a useful lens for understanding OPD's data efficiency, and the finding that one query reaches 71.5% of full-data state coverage is concrete and actionable. The evaluation is honest (acknowledging that alignment remains slow regardless of data volume) and extends to multiple settings (multi-teacher OPD, off-domain queries). However, the contribution is primarily analytical rather than methodological—it explains existing behavior rather than proposing a new technique that practitioners would immediately adopt. The practical impact depends on whether practitioners can exploit these insights to improve OPD efficiency, which the paper does not fully demonstrate.",
+    "tags": [
+      "distillation",
+      "on-policy-learning",
+      "data-efficiency",
+      "language-models",
+      "empirical-analysis"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Zixuan Fu, Bingxiang He, Yuxin Zuo, Haohuan Huang, Jinqian Zhang",
+    "published_at": "2026-09-03T17:54:38+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04167",
+    "title": "SWE-Gate: Passing Functional Tests Is Not Enough for Software Engineering Agents",
+    "url": "https://arxiv.org/abs/2609.04167",
+    "score": 7.0,
+    "summary": "SWE-Gate는 기능 테스트 통과만으로는 부족하다는 점을 보여주는 소프트웨어 엔지니어링 에이전트 벤치마크로, 실제 코드 리뷰 제약 조건을 명시적으로 평가하며 303개의 저장소 수준 수리 인스턴스를 통해 기능적 성공과 리뷰 제약 준수 사이의 상당한 격차를 드러낸다.",
+    "reason": "SWE-Gate addresses a genuine gap in how we evaluate coding agents: existing benchmarks measure functional correctness but ignore real-world acceptance criteria from code review. The benchmark construction is solid (303 instances from 75 repos with review-derived constraints), and the empirical finding is meaningful—34% of functionally correct patches fail review constraints. This would change how practitioners evaluate agents for production use. However, the contribution is primarily a benchmark and evaluation framework rather than a new method or capability. The paper lacks depth on what specific constraint types matter most or how agents could be improved to handle them, limiting its impact on practitioners building systems.",
+    "tags": [
+      "benchmark",
+      "code-generation",
+      "software-engineering",
+      "evaluation",
+      "llm-agents"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.SE",
+    "author": "Xin He, Yanlin Wang, Mingwei Liu, Jiachi Chen, Hongyu Zhang",
+    "published_at": "2026-09-03T17:53:34+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04166",
+    "title": "From Deceptive Outputs to Deceptive Mechanisms: A Causal Framework for Language-Model Deception Research",
+    "url": "https://arxiv.org/abs/2609.04166",
+    "score": 7.0,
+    "summary": "언어 모델의 기만 행동에 대한 연구에서 인간의 정신 상태 개념을 부적절하게 적용하는 문제를 지적하며, 기만적으로 보이는 출력과 실제 기만 메커니즘을 구분하는 인과 분류체계를 제시하고, 제어된 실험을 통해 기만적 행동이 제안된 메커니즘 없이도 발생할 수 있음을 보여준다.",
+    "reason": "This paper makes a valuable conceptual contribution to an important and often-confused area of AI safety research. It introduces a rigorous causal framework that disambiguates between deceptive outputs and deceptive mechanisms—a distinction that is frequently blurred in popular discourse and research. The work tests these distinctions empirically across two model families with controlled experiments (guessing games, stock trading), providing concrete evidence that deceptive-looking behavior can arise without the proposed underlying mechanisms. The causal taxonomy is well-articulated and addresses a real methodological problem in the field. However, the scope is somewhat narrow (two model families, specific experimental domains), and the paper does not propose new methods to prevent deception or demonstrate findings that would directly change practitioner behavior in model deployment. The contribution is primarily conceptual clarity and negative results (showing what deceptive behavior does NOT imply), which is valuable for research rigor but not a capability advance.",
+    "tags": [
+      "language-model-deception",
+      "mechanistic-interpretability",
+      "causal-inference",
+      "ai-safety",
+      "conceptual-framework"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Yakov Pyotr Shkolnikov",
+    "published_at": "2026-09-03T17:52:19+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04148",
+    "title": "Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments",
+    "url": "https://arxiv.org/abs/2609.04148",
+    "score": 7.0,
+    "summary": "기존 에이전트 궤적(trajectory)에서 파일 작업 기록을 재생하여 실행 가능한 환경을 복원하고, 이를 통해 새로운 작업을 합성하는 Terminal-Universe 프레임워크를 제안하며, 37.3k개의 작업 환경을 생성하여 Qwen3.5-27B의 성능을 Terminal-Bench와 EvoCode-Bench에서 각각 11.9점, 13.8점 향상시켰다.",
+    "reason": "A solid contribution that addresses a real bottleneck in agent training: the scarcity of executable environments. The core insight—reconstructing environments from agent trajectories—is sensible and well-motivated. The paper demonstrates concrete value through scale (37.3k environments) and measurable improvements on established benchmarks (11.9 and 13.8 point gains). The approach combines trajectory replay, completion agents, and task synthesis in a coherent framework. However, the evaluation is limited to fine-tuning results on two benchmarks without ablations or analysis of environment reconstruction quality, and there is no discussion of failure modes or limitations. The work is reproducible in principle but depends on access to the original trajectories and the completion agent's behavior. This is a useful engineering contribution that practitioners building terminal agents would benefit from, but it lacks the depth of analysis or breakthrough results needed for a higher tier.",
+    "tags": [
+      "code-agents",
+      "environment-synthesis",
+      "trajectory-reconstruction",
+      "agent-training",
+      "terminal-environments"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Jie Wu, Zhenru Zhang, Beichen Zhang, Xuwu Wang, Yuhui Su",
+    "published_at": "2026-09-03T17:41:05+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04108",
+    "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
+    "url": "https://arxiv.org/abs/2609.04108",
+    "score": 7.0,
+    "summary": "OPD-then-RL 순차 구성이 OPD와 RLVR의 가중합이나 rescaling 같은 결합 방식보다 논리 및 수학 추론에서 일관되게 우수하며, OPD가 teacher 지원 해법의 커버리지를 확장하고 RL이 그 범위 내에서 예측을 날카롭게 하는 상호보완적 역할을 한다는 것을 보여준다.",
+    "reason": "A solid empirical contribution with clear practical value. The paper demonstrates that sequential application of on-policy distillation followed by RL consistently outperforms joint optimization across multiple benchmarks. The analysis provides useful mechanistic insight (coverage expansion vs. sharpening) and actionable guidance (using OPD validation score as switching signal). The evaluation covers logic and math reasoning tasks with appropriate baselines. However, the core contribution is primarily empirical ordering of existing methods rather than a novel technique, and the scope is limited to reasoning tasks. The work would change how practitioners combine these two post-training approaches, but the novelty is moderate.",
+    "tags": [
+      "reinforcement-learning",
+      "language-model-training",
+      "reasoning-tasks",
+      "post-training",
+      "knowledge-distillation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Boyan Li, Bingsen Chen, Chenghao Yang, Ping Nie, Chen Zhao",
+    "published_at": "2026-09-03T17:14:27+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04098",
+    "title": "Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM",
+    "url": "https://arxiv.org/abs/2609.04098",
+    "score": 7.0,
+    "summary": "Hybrid LLM의 선형 어텐션 부분(Gated DeltaNet)이 4비트 양자화에 견디는 이유를 실증적으로 분석하고, NVFP4 W4A4 양자화를 모든 496개 선형 레이어에 적용한 Minima 모델이 BF16 기준선과 동등한 성능을 유지하면서 더 작고 빠름을 보여준다.",
+    "reason": "A solid empirical contribution with thorough evaluation and practical value. The paper challenges a common assumption (that recurrent layers need higher precision) with convincing evidence across multiple benchmarks. The mechanistic analysis explaining why GDN survives 4-bit quantization is valuable, and the released checkpoint adds reproducibility. However, the scope is somewhat narrow (one model architecture, one quantization scheme), and the gains, while consistent, are incremental rather than transformative. The work would change deployment decisions for practitioners using hybrid LLMs, but doesn't establish a fundamentally new capability.",
+    "tags": [
+      "quantization",
+      "linear-attention",
+      "hybrid-llm",
+      "model-compression",
+      "recurrent-networks"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Sergii Kozyrev, Davyd Maiboroda",
+    "published_at": "2026-09-03T17:04:26+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04075",
+    "title": "PatchBench: Evaluating AI Agents for Vulnerability Patching",
+    "url": "https://arxiv.org/abs/2609.04075",
+    "score": 7.0,
+    "summary": "AI 에이전트의 취약점 패칭 평가에서 패치 암기와 표면 수준의 수정이라는 두 가지 주요 문제를 식별하고, 이를 해결하기 위해 PatchBench 벤치마크를 제안하며, 기존 PoC 기반 검증이 성공률을 평균 1.83배 과장한다는 것을 보여준다.",
+    "reason": "This paper makes a solid empirical contribution by identifying and quantifying real validity threats in vulnerability patching evaluation. The finding that 25% of agent patches memorize historical patches and that PoC-only validation inflates success rates by 1.83× is concrete and actionable. The proposed benchmark with transplant and mutation techniques is a reasonable methodological improvement. However, the scope is narrow (C/C++ only), the paper is primarily a benchmark/evaluation contribution rather than a new method, and the abstract does not indicate whether the benchmark or code will be released. The work would be valuable for practitioners building or evaluating patching agents, but does not represent a breakthrough capability or fundamental advance.",
+    "tags": [
+      "vulnerability-patching",
+      "ai-agents",
+      "benchmark-evaluation",
+      "code-repair",
+      "security-testing"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CR",
+    "author": "Chihao Shen, Jiacheng Li, Aastha Mahajan, Jeffery Siyuan Tian, Yonghwi Kwon",
+    "published_at": "2026-09-03T16:44:22+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04061",
+    "title": "When Models Edit Too Much: On the Fidelity of Minimal Code Edits",
+    "url": "https://arxiv.org/abs/2609.04061",
+    "score": 7.0,
+    "summary": "LLM 기반 코드 수정에서 모델이 필요 이상으로 코드를 재작성하는 '과도한 편집' 현상을 체계적으로 분석하고, 보존 지시문과 강화학습을 통해 이를 완화할 수 있음을 보여주는 연구.",
+    "reason": "This paper identifies and systematically studies a real problem in LLM-based code editing—over-editing—that practitioners should care about. The evaluation framework is well-designed with controlled AST-level corruptions and known minimal patches, providing honest measurement. The findings are concrete: over-editing is widespread even in strong models, and the paper demonstrates both prompt-based and training-based mitigations with clear trade-offs. The work is reproducible in scope (uses public benchmarks) and addresses a practical concern for code repair systems. However, the contribution is somewhat narrow—it focuses on a specific quality dimension rather than a fundamentally new capability—and the improvements, while meaningful, are modest (2.3 points Pass@1 gain). The paper makes a solid empirical contribution but lacks the breadth or magnitude of impact for a higher tier.",
+    "tags": [
+      "code-repair",
+      "llm-evaluation",
+      "edit-fidelity",
+      "post-training",
+      "code-generation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.SE",
+    "author": "Tongyao Zhu, Wei Hern Lim, Min-Yen Kan",
+    "published_at": "2026-09-03T16:36:05+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04022",
+    "title": "Representational alignment yields generalizable safety in language models",
+    "url": "https://arxiv.org/abs/2609.04022",
+    "score": 7.0,
+    "summary": "이 논문은 인지과학의 프로토타입 이론에 기반하여 LLM의 내부 표현 구조를 인간의 도덕 판단과 정렬시키는 representational similarity optimization을 제안하며, 표준 행동 정렬 방식보다 적대적 공격에 대한 견고성이 더 일관되게 향상됨을 23개 모델과 25만 개 이상의 도덕 주석을 통해 입증했다.",
+    "reason": "This paper presents a well-motivated approach to LLM safety grounded in cognitive science (prototype theory) and demonstrates a clear empirical finding: representational alignment improves adversarial robustness more consistently than standard behavioral alignment, despite more modest gains on explicit benchmarks. The evaluation is reasonably thorough (23 models, 251k annotations, multiple attack strategies), and the core insight—that internal representation structure matters for generalization—is valuable for practitioners building robust systems. However, the practical impact remains somewhat uncertain: the adversarial robustness gains, while consistent, are not quantified in detail in the abstract, and it's unclear how large they are relative to other defense approaches. The work is honest about trade-offs (explicit performance vs. robustness) and the method appears reproducible, but the scope is focused on a specific safety angle rather than a breakthrough capability.",
+    "tags": [
+      "alignment-safety",
+      "adversarial-robustness",
+      "representation-learning",
+      "cognitive-science",
+      "llm-interpretability"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Lingyu Li, Yan Teng, Yingchun Wang, Xia Hu",
+    "published_at": "2026-09-03T16:00:16+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04194",
+    "title": "Legibility is Not Interpretability: Comparing Judged and Actual Importance in Chain-Of-Thought Reasoning",
+    "url": "https://arxiv.org/abs/2609.04194",
+    "score": 7.0,
+    "summary": "Chain-of-thought 추론 단계의 텍스트가 그 기능적 중요도를 실제로 인코딩하는지 검토하는 논문으로, Monte Carlo 롤아웃을 통해 정의한 단계 중요도(advantage)를 기준으로 LLM 판사의 성능을 평가하여, 현재의 프로세스 보상 모델과 CoT 감독 방법이 추론 추적의 가독성을 해석가능성으로 잘못 취급할 수 있음을 보여준다.",
+    "reason": "This paper addresses a practically important gap between the legibility and actual interpretability of chain-of-thought reasoning—a distinction that directly affects how practitioners should use LLM judges, process reward models, and reasoning supervision. The evaluation is methodologically sound: the authors operationalize step importance via Monte Carlo rollouts (a principled ground truth), measure whether LLM judges can recover it, and quantify the gap between performance and a noise ceiling. The finding that LLMs fall short of ceiling even after fine-tuning is a useful negative result that should temper confidence in current CoT-based supervision methods. The work is honest about limitations and directly challenges assumptions embedded in popular techniques. However, the scope is somewhat narrow (focused on step-level importance in CoT), the evaluation is limited to a subset of reasoning tasks, and the paper does not propose a solution—it primarily diagnoses a problem. This makes it high-value for practitioners building on CoT and reward modeling, but not a must-read that changes the field.",
+    "tags": [
+      "chain-of-thought",
+      "interpretability",
+      "process-reward-models",
+      "faithfulness",
+      "llm-evaluation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Kevin Du, Alexander Hoyle, Laura Ruis, Acyr Locatelli",
+    "published_at": "2026-09-03T17:59:08+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04010",
+    "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion",
+    "url": "https://arxiv.org/abs/2609.04010",
+    "score": 7.0,
+    "summary": "이 논문은 discrete diffusion을 활용하여 LLM의 자동회귀 생성을 병렬화하는 diffusion-augmented LLM을 제안하며, 기존 AR 모델의 품질을 유지하면서 최대 3배의 추론 속도 향상을 달성한다.",
+    "reason": "A solid contribution addressing a real bottleneck in LLM inference. The core idea—using discrete diffusion to generate multiple tokens in parallel while preserving an underlying autoregressive model—is well-motivated and appears novel. The evaluation is reasonably comprehensive (throughput, quality benchmarks, comparisons to speculative decoding and diffusion baselines), and the authors release code and checkpoints, supporting reproducibility. However, the abstract does not provide sufficient detail on the magnitude of quality-speed tradeoffs, ablation studies, or theoretical justification for why this approach should work. The claimed 3× speedup and outperformance of larger models (26B DiffusionGemma with an 8B model) are noteworthy but would benefit from more granular reporting. The method's practical impact depends on whether the speedups hold across diverse workloads and whether the training overhead of diffusion distillation is truly negligible—details not evident from the abstract alone.",
+    "tags": [
+      "inference-optimization",
+      "speculative-decoding",
+      "diffusion-models",
+      "parallel-generation",
+      "llm-acceleration"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Subham Sekhar Sahoo, Lingjie Chen, Khiem Pham, Jonathan Geuter, Chaitanya Dwivedi",
+    "published_at": "2026-09-03T15:48:43+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04201",
+    "title": "Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction",
+    "url": "https://arxiv.org/abs/2609.04201",
+    "score": 7.0,
+    "summary": "온라인 3D 재구성에서 장시간 비디오에 대한 누적 포즈 드리프트 문제를 해결하기 위해, 고정된 백본에 경량 학습 가능 토큰을 주입하여 다중 과거 키프레임 기준의 상대 포즈를 쿼리하는 Scal3R을 제안하며, 포즈 그래프 최적화와 루프 클로저를 통해 KITTI에서 60% 이상의 ATE 감소를 달성한다.",
+    "reason": "Solid contribution addressing a real problem in online 3D reconstruction. The core insight—that per-frame depth remains stable while pose regression fails on long sequences—is well-motivated and leads to a practical solution. Multi-reference relative pose querying with frozen backbone and lightweight learnable tokens is a sensible design. Strong empirical results across multiple benchmarks (60% ATE reduction on KITTI, SOTA on 5 other datasets) with reasonable computational efficiency (8 hours single GPU). However, the novelty is somewhat incremental—relative pose estimation and pose-graph optimization are established techniques; the main contribution is their combination with efficient attention-based querying. Limited details in abstract about ablation studies, failure cases, or how the approach compares to other recent online reconstruction methods. The work would benefit practitioners building 3D reconstruction systems, but doesn't represent a fundamental breakthrough.",
+    "tags": [
+      "3d-reconstruction",
+      "online-learning",
+      "pose-estimation",
+      "attention-mechanisms",
+      "pose-graph-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Chin-Yang Lin, Yang-Che Sun, Cheng Sun, Fu-En Yang, Min-Hung Chen",
+    "published_at": "2026-09-03T17:59:53+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04200",
+    "title": "Principia: Relational Physics Tests for Video Models",
+    "url": "https://arxiv.org/abs/2609.04200",
+    "score": 7.0,
+    "summary": "생성 비디오에서 물리 추론을 평가하기 위해 보정 불필요한 관계적 일관성 기반 벤치마크 Principia를 제안하며, 최신 비디오 생성 모델들이 기존 지표에서는 높은 점수를 받지만 물리 법칙 준수에서는 심각하게 실패함을 보여준다.",
+    "reason": "Solid contribution addressing a real gap in video model evaluation. The relational physics approach is clever—using paired object consistency to avoid calibration dependencies is a genuine insight that makes physics testing practical for generated video. The benchmark spans meaningful phenomena and the evaluation is honest: showing that SOTA models fail despite high scores on existing metrics (VBench) is valuable negative evidence. However, the scope is narrow (physics only), and the paper's impact depends on whether practitioners adopt this evaluation approach. The work would be stronger with deeper analysis of failure modes and clearer guidance on what models should do differently.",
+    "tags": [
+      "video-generation",
+      "physics-reasoning",
+      "benchmark",
+      "evaluation",
+      "relational-consistency"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Varun Varma Thozhiyoor, Shivam Tripathi, Venkatesh Babu Radhakrishnan, Anand Bhattad",
+    "published_at": "2026-09-03T17:59:50+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04151",
+    "title": "Persistent Identity Preservation in Generative Image Models: A Benchmark and Evaluation System",
+    "url": "https://arxiv.org/abs/2609.04151",
+    "score": 7.0,
+    "summary": "생성 이미지 모델에서 특정 대상의 정체성을 유지하는 문제를 체계적으로 평가하는 벤치마크를 제시하며, 입력 컨텍스트, 학습 가능한 파라미터, 지속적 정체성 레이어 등 세 가지 패러다임을 비교하여 정체성 보존이 단순히 모델 성능 향상만으로는 달성되지 않음을 보여준다.",
+    "reason": "This paper addresses a genuine practical problem in generative image models—identity preservation across edits and variations—with a systematic benchmark and evaluation framework. The contribution is primarily empirical: a well-designed evaluation system that compares three distinct architectural paradigms (input context, trainable parameters, persistent layers) across multiple challenging scenarios. The finding that identity preservation doesn't automatically improve with model capability is valuable for practitioners. However, the novelty is limited to benchmarking and evaluation rather than proposing fundamentally new methods; the persistent identity approach (PHOTA IDENTITY) is mentioned but not deeply explored. The paper would be stronger with released code, detailed ablations, or quantitative metrics beyond what the abstract suggests. The work is solid and useful for the community building identity-aware generation systems, but falls short of being a must-read breakthrough.",
+    "tags": [
+      "identity-preservation",
+      "generative-models",
+      "image-editing",
+      "benchmark",
+      "subject-driven-generation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Mengwei Ren, Xuaner Zhang, Zhihao Xia",
+    "published_at": "2026-09-03T17:44:25+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04031",
+    "title": "DSAQuant: Denoising-Stage-Aligned Quantization-Aware Training for Video Generation",
+    "url": "https://arxiv.org/abs/2609.04031",
+    "score": 7.0,
+    "summary": "비디오 확산 모델의 양자화 인식 훈련에서 기존 방법들이 세부 사항과 텍스처 품질을 심각하게 저하시키는 문제를 해결하기 위해, 노이징 제거 단계의 서로 다른 기능(초기 단계는 구조, 후기 단계는 세부 사항)에 맞춘 DSAQuant 프레임워크를 제안한다.",
+    "reason": "A solid contribution addressing a real problem in video diffusion model deployment. The paper identifies a genuine limitation of existing QAT methods (timestep-agnostic quantization) and proposes a principled solution (stage-aligned training and inference). The evaluation is reasonably comprehensive across two model families and multiple quantization settings, with meaningful improvements (6.60 VBench points under W3A3). The insight about stage-wise denoising functionality is intuitive and well-motivated. However, the scope is somewhat narrow (video generation only), and the paper lacks comparison to other recent VDM compression approaches beyond QAT baselines. No mention of code or model release limits reproducibility. The work would be valuable for practitioners deploying video models but doesn't represent a breakthrough in quantization methodology.",
+    "tags": [
+      "video-generation",
+      "quantization-aware-training",
+      "model-compression",
+      "diffusion-models",
+      "inference-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Shuaiting Li, Zelin Gao, Haibin Shen, Yujun Shen, Haotong Qin",
+    "published_at": "2026-09-03T16:09:25+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04026",
+    "title": "Stable and Scalable Bundle Adjustment of Holistic 3D Structures",
+    "url": "https://arxiv.org/abs/2609.04026",
+    "score": 7.0,
+    "summary": "Bundle adjustment 프레임워크를 확장하여 점과 선뿐만 아니라 평행성, 공면성 등의 고차 기하학적 관계를 함께 최적화하면서도 고전적인 점 기반 BA와 비슷한 계산 성능을 유지하는 방법을 제안한다.",
+    "reason": "A solid technical contribution that addresses a real problem in 3D vision: extending bundle adjustment to handle richer geometric structures (lines, parallelism, coplanarity, wireframes) while maintaining computational efficiency and numerical stability. The key insight—modeling group constraints as camera-like entities and expressing them through 2D reprojection errors—is clever and appears well-motivated. The claimed preservation of sparsity structure under Schur elimination is valuable for practitioners. However, the abstract provides limited evidence of the magnitude of improvements: 'significantly richer' and 'improved accuracy' lack quantitative support. The evaluation scope is unclear (which datasets, which baselines for comparison). The work is technically sound and addresses a genuine bottleneck in structure-from-motion pipelines, but without stronger empirical validation or released code mentioned, it falls short of 'must read' territory.",
+    "tags": [
+      "bundle-adjustment",
+      "3d-reconstruction",
+      "structure-from-motion",
+      "geometric-optimization",
+      "numerical-stability"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Shaohui Liu, Rémi Pautrat, Daniel Barath, Richard Hartley, Viktor Larsson",
+    "published_at": "2026-09-03T16:08:03+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "github:release:382191568",
+    "title": "langchain-ai/langchain released langchain==1.4.0",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0",
+    "score": 6.0,
+    "summary": "LangChain 1.4.0은 Model Context Protocol(MCP) 지원을 위한 새로운 `langchain.mcp` 네임스페이스와 MCPAdapter를 추가하며, Anthropic 미들웨어 성능 최적화와 에이전트 도구 라우팅 버그 수정을 포함한다.",
+    "reason": "LangChain 1.4.0 introduces the new `langchain.mcp` namespace with MCPAdapter support, representing a meaningful feature addition to a widely-used framework. The release includes performance improvements and bug fixes. However, the changelog lacks detailed technical documentation of the MCP integration's capabilities and implications, and the update appears incremental rather than transformative for the broader ecosystem.",
+    "tags": [
+      "langchain",
+      "mcp-integration",
+      "python-framework",
+      "ai-tooling",
+      "release"
+    ],
+    "source_type": "github",
+    "sub_source": "langchain-ai/langchain",
+    "author": "github-actions[bot]",
+    "published_at": "2026-09-03T16:59:53+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49554520",
+    "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+    "url": "https://inference-docs.cerebras.ai/models/overview",
+    "score": 6.0,
+    "summary": "Cerebras가 Qwen 3.8 27B 모델을 1500 tokens/s의 높은 처리량으로 제공하기 시작했으나, 150k TPM의 속도 제한과 가격 책정 문제로 인해 실제 사용성이 제한적이라는 커뮤니티 피드백이 있다.",
+    "reason": "Cerebras's deployment of Qwen 3.8 27B with 1500 tokens/sec throughput is a noteworthy infrastructure development for open-source model inference. However, community feedback reveals significant practical limitations: a 150k TPM rate cap that exhausts quickly for real workloads, pricing concerns, and billing access issues that undermine the headline speed advantage. The announcement has moderate technical interest but limited immediate utility for many use cases.",
+    "tags": [
+      "inference-optimization",
+      "open-source-models",
+      "qwen",
+      "cerebras",
+      "api-pricing"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "altertable",
+    "author": "altertable",
+    "published_at": "2026-09-03T18:32:13+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49551760",
+    "title": "K2 Horizon: A connected fleet of six open models",
+    "url": "https://ifm.ai/blog/k2/",
+    "score": 6.0,
+    "summary": "IFM이 공개 가중치 LLM 여섯 개로 구성된 K2 Horizon 모델군을 발표했으며, 완전히 공개된 스택을 표방하지만 Qwen과 Gemma 같은 기존 모델들과의 성능 비교에서 격차를 보이고 코딩 작업의 신뢰성 문제가 보고되고 있다.",
+    "reason": "IFM's K2 Horizon represents a meaningful contribution to open-weight LLM diversity, with six models across multiple scales and a claimed fully open stack. However, community scrutiny reveals performance gaps versus established competitors (Qwen, Gemma) in key benchmarks, and reported reliability issues in coding tasks undermine headline claims. The work is technically relevant and addresses genuine demand for open alternatives, but lacks the breakthrough performance or methodological novelty for higher scoring.",
+    "tags": [
+      "open-source-llm",
+      "model-release",
+      "benchmark-analysis",
+      "ai-transparency"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "karimf",
+    "author": "karimf",
+    "published_at": "2026-09-03T15:36:43+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49553321",
+    "title": "How concerned should we be about Astra's recurrent architecture?",
+    "url": "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
+    "score": 6.0,
+    "summary": "OpenAI의 Astra 모델에서 보도된 반복 구조(recurrent depth/looped transformer)에 대한 기술적 분석과 그 설계 선택의 의미에 관한 커뮤니티 논의.",
+    "reason": "The post offers a technical analysis of Astra's recurrent architecture with substantive community debate about transformer design choices, chain-of-thought mechanisms, and RNN comparisons. However, it relies on rumors from The Information rather than official documentation, and the discussion reveals disagreement about core claims. The content is relevant to AI systems architecture but lacks definitive technical depth or novel insights that would elevate it to high-value territory.",
+    "tags": [
+      "transformer-architecture",
+      "recurrent-networks",
+      "chain-of-thought",
+      "language-models",
+      "ai-systems"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "yurivish",
+    "author": "yurivish",
+    "published_at": "2026-09-03T17:10:06+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49555691",
+    "title": "OpenAI's GPT-6 Astra on ARC-AGI-3",
+    "url": "https://arcprize.org/blog/astra",
+    "score": 6.0,
+    "summary": "OpenAI의 GPT-6 Astra가 ARC-AGI-3 벤치마크에서 Erdos 문제 68개 중 2개를 해결했으며, 각 문제당 약 $200-250의 비용과 15-16시간이 소요되었다.",
+    "reason": "The item reports on GPT-6 Astra's performance on ARC-AGI-3 benchmarks with specific metrics (2 of 68 Erdos problems solved, cost and time data). While this represents incremental progress on a recognized AI benchmark, the community discussion reveals modest gains with high computational costs, and the headline appears to overstate significance by linking a model name to a benchmark without clear breakthrough claims. The technical details and cost analysis are substantive, but the overall development is incremental rather than paradigm-shifting.",
+    "tags": [
+      "ai-benchmarks",
+      "large-language-models",
+      "gpt-6",
+      "arc-agi",
+      "model-evaluation"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "vignesh_warar",
+    "author": "vignesh_warar",
+    "published_at": "2026-09-03T19:45:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:358b86051a326ab4",
+    "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+    "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+    "score": 6.0,
+    "summary": "Crusoe Energy가 Jane Street와의 $13B 계약 체결에 따라 $30B 밸류에이션에서 $3B 펀딩을 조달했다고 보도되었다.",
+    "reason": "This reports a significant funding round for a data center company with a substantial contract, representing notable industry activity. However, the content is extremely brief, lacks technical depth or analysis, and relies on unverified reporting ('reportedly'). The news is relevant to infrastructure and AI systems but offers limited substantive information beyond headline figures.",
+    "tags": [
+      "data-center-infrastructure",
+      "ai-computing",
+      "venture-funding",
+      "enterprise-infrastructure"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Marina Temkin",
+    "published_at": "2026-09-04T00:48:42+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:96dc402781ef96d7",
+    "title": "Abliteration.ai is making a business out of removing AI guardrails",
+    "url": "https://techcrunch.com/2026/09/03/abliteration-ai-is-making-a-business-out-of-removing-ai-guardrails/",
+    "score": 6.0,
+    "summary": "Abliteration.AI는 AI 모델의 안전장치를 제거한 버전에 대한 접근성을 높이면서 방어자에게 공격자와 동일한 도구를 제공하는 것이 사이버보안을 개선할 수 있다고 주장하고 있다.",
+    "reason": "This article covers a notable but controversial business development in AI safety and security. The topic has legitimate technical and policy dimensions—guardrail removal, adversarial testing, and cybersecurity implications—but the piece appears to be a brief announcement rather than substantive technical analysis. The core claim (that removing guardrails improves security) is presented without detailed evidence or expert evaluation. The story merits attention for its policy and industry implications, but lacks the depth or novelty for higher scoring.",
+    "tags": [
+      "ai-safety",
+      "guardrails",
+      "adversarial-testing",
+      "ai-security",
+      "policy"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Rebecca Bellan",
+    "published_at": "2026-09-03T18:37:57+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:24457d2666e9c3bd",
+    "title": "Meta is paying to peek at how you use their latest AI model",
+    "url": "https://techcrunch.com/2026/09/03/meta-is-paying-to-peek-at-how-you-use-their-latest-ai-model/",
+    "score": 6.0,
+    "summary": "Meta이 새로운 Muse Spark 모델 사용자에게 프롬프트와 모델 출력을 공유하는 대가로 약 95% 할인을 제공하며, 향후 모델 개발을 위한 데이터 수집 전략을 추진하고 있다.",
+    "reason": "Interesting development regarding Meta's AI model monetization and data collection strategy. The 95% discount incentive for usage data is a notable business approach to training data acquisition, relevant to AI development practices. However, the article appears brief and lacks technical depth about Muse Spark's capabilities, architecture, or the implications of this data-sharing arrangement. The core insight—trading user data for significant discounts—is moderately important for understanding AI industry practices, but the treatment seems shallow.",
+    "tags": [
+      "ai-models",
+      "data-collection",
+      "meta",
+      "business-strategy",
+      "agent-systems"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Tim Fernholz",
+    "published_at": "2026-09-03T18:19:56+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:949b0300f3a89582",
+    "title": "Nvidia launches free tool that links idle computers into a personal AI data center",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989435/nvidia-pair-personal-ai-router-home-local-llm-compute-tool-rtx-macbook",
+    "score": 6.0,
+    "summary": "Nvidia가 가정용 컴퓨터를 로컬 AI 추론 작업용으로 연결하는 오픈소스 소프트웨어 도구인 Personal AI Router(PAIR)를 무료로 출시했다.",
+    "reason": "Nvidia's Personal AI Router (PAIR) is an interesting incremental development in local AI inference infrastructure. The tool addresses a real use case—distributed inference across home computers—and being open-source adds value. However, the announcement lacks technical depth in the provided excerpt, and the impact is moderate: it targets hobbyists and small-scale deployments rather than representing a paradigm shift. The tool builds on existing projects (Ollama, LM Studio) rather than introducing novel approaches.",
+    "tags": [
+      "local-inference",
+      "distributed-computing",
+      "open-source",
+      "nvidia-tools",
+      "ai-infrastructure"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Antonio G. Di Benedetto",
+    "published_at": "2026-09-03T16:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "reddit:subreddit-rss:t3_1w6i8pr",
+    "title": "Mol-JEPA - Multimodal molecular foundation model [R]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1w6i8pr/moljepa_multimodal_molecular_foundation_model_r/",
+    "score": 6.0,
+    "summary": "분자 과학에 JEPA 아키텍처를 적용한 멀티모달 분자 기초 모델(Mol-JEPA)이 소개되었으며, 저자가 약 1년간의 연구 결과를 요약 웹사이트로 공개했다.",
+    "reason": "A researcher shares a novel multimodal molecular foundation model applying JEPA (Joint-Embedding Predictive Architecture) to chemistry. The work represents a meaningful technical contribution combining established ML architectures with molecular science, supported by a summary website with results. However, the Reddit post itself is minimal and lacks detailed technical depth, performance comparisons, or concrete impact evidence. The value depends heavily on the linked paper and website, which cannot be fully evaluated from this submission alone.",
+    "tags": [
+      "foundation-models",
+      "molecular-science",
+      "self-supervised-learning",
+      "multimodal-learning",
+      "chemistry-ai"
+    ],
+    "source_type": "reddit",
+    "sub_source": "r/MachineLearning",
+    "author": "/u/TerribleAntelope9348",
+    "published_at": "2026-09-03T19:56:27+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:c6eb72de0a66e30b",
+    "title": "NYC Bans Classroom AI Through 8th Grade, Putting Edtech On Notice - Forbes",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS1dBR1VOb05kaEEyX3NjVkV6RTNCUDQ3WlktVzNqcGI3M2VncXlxZ3I2RmlnVDB4OEhfeFhXYjFhWmhFOEFjaXQ2eDduNWc2ZnFjR20wR3FOZzBrN0FWemtWVFJWMUNNNkpZcWlQNm9ReExZMWEwX0JsOTZLWHBXSGZWZDZIeGI0azNoMFhFNjhFY1E5bFhxcDE1SG9iaDhQeGR2VlNWS1VDUlE3dFdibnpMdHppWDlQOWRMdUs2d19iYTQ?oc=5",
+    "score": 6.0,
+    "summary": "뉴욕시가 8학년까지 교실에서의 AI 사용을 금지하는 정책을 시행하여 교육기술 산업에 규제 신호를 보내고 있다.",
+    "reason": "This is a significant policy development with direct impact on edtech and AI adoption in education, but the provided content is only a headline and link with no substantive details. The policy itself is noteworthy for a technology audience interested in AI regulation and industry implications, but without the article body, we cannot assess depth, specificity, or analytical quality. The headline suggests important regulatory action that warrants attention, placing it in the 'interesting' category rather than higher, pending fuller examination of the actual policy details and reasoning.",
+    "tags": [
+      "ai-policy",
+      "education-technology",
+      "regulation",
+      "k12-education"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Forbes",
+    "author": "Forbes",
+    "published_at": "2026-09-03T17:19:40+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2609.04199",
+    "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
+    "url": "https://arxiv.org/abs/2609.04199",
+    "score": 6.0,
+    "summary": "자연어 명세를 작은 신경망 함수로 컴파일하는 방법을 제시하며, 교사 모델이 생성한 예제로 어댑터를 학습하여 배포 가능한 로컬 함수를 만든다.",
+    "reason": "The paper addresses a practical problem—converting natural-language specs into deployable local functions—with a reasonable approach (distillation via teacher-generated examples). However, the evaluation is narrow: FuzzyBench-Hard is a single, specialized benchmark with no comparison to obvious baselines (e.g., direct fine-tuning of small models, or other distillation methods). The 83.6% accuracy claim lacks context—no error analysis, no comparison to the fast compiler's accuracy on the full benchmark, and no ablation of key design choices. The applications are described anecdotally rather than rigorously evaluated. The work is solid and addresses a real need, but the evidence is too thin to support strong claims about when and why this approach should be preferred.",
+    "tags": [
+      "model-distillation",
+      "neural-compilation",
+      "language-to-code",
+      "efficient-inference",
+      "practical-deployment"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Yuntian Deng, Pengyu Nie, Stuart Shieber",
+    "published_at": "2026-09-03T17:59:49+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04197",
+    "title": "ESPO: Error-Structured Prompt Optimization via Diagnose, Diversify, and Stabilize",
+    "url": "https://arxiv.org/abs/2609.04197",
+    "score": 6.0,
+    "summary": "ESPO는 진화형 프롬프트 최적화의 프롬프트 비대 문제를 해결하기 위해 진단, 다양화, 안정화의 세 단계로 구성된 방법을 제안하며, 일곱 개의 NLP 벤치마크에서 GEPA 대비 3.76 pp 향상과 47% 더 짧은 프롬프트를 달성한다.",
+    "reason": "ESPO addresses a real problem in prompt optimization (bloat in evolutionary methods) with a structured three-phase approach and demonstrates consistent improvements across seven benchmarks. However, the evaluation relies on a single baseline (GEPA), lacks comparison to other recent prompt optimization methods, and the gains, while consistent, are modest (3.76 pp average). The shorter prompts and faster inference are practical benefits. The work is solid but incremental—it optimizes an existing paradigm rather than introducing a fundamentally new capability. Reproducibility details (code, weights) are not mentioned in the abstract.",
+    "tags": [
+      "prompt-optimization",
+      "evolutionary-algorithms",
+      "nlp-benchmarks",
+      "prompt-engineering",
+      "model-efficiency"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Lihao Liu, Peng Tang, Kunwar Yashraj Singh, Shabnam Ghadar",
+    "published_at": "2026-09-03T17:59:37+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04190",
+    "title": "One Editor, Many Edits: A Unified Training-Free Framework for Diverse Video Editing",
+    "url": "https://arxiv.org/abs/2609.04190",
+    "score": 6.0,
+    "summary": "EditVid는 sparse causal memory, correspondence 기반 token injection, soft latent blending을 결합한 학습 불필요 프레임워크로, instruction-guided와 reference-guided 비디오 편집을 통합 지원하며 FiVE 벤치마크에서 기존 방법 대비 크게 향상된 성능을 보인다.",
+    "reason": "EditVid presents a unified training-free framework for diverse video editing tasks with solid empirical results on established benchmarks (FiVE, IVEBench) and user preference validation. The contribution is technically sound—combining sparse causal memory, correspondence-based token injection, and soft latent blending to handle both instruction-guided and reference-guided edits. However, the novelty is incremental: each component (causal memory, attention manipulation, latent blending) applies existing techniques to video editing rather than introducing fundamentally new methods. The 78.16 vs 58.95 FiVE-Acc improvement over the strongest baseline is substantial, but without details on baseline selection, recency, or statistical significance, the practical impact remains unclear. The breadth of supported tasks (style transfer, attribute modification, object insertion, part-level editing, subject replacement) is valuable for practitioners, but the abstract does not clarify which tasks show the largest gains or whether all achieve competitive performance. No mention of code or model release limits reproducibility. The work is competent and useful for video editing applications, but does not represent a breakthrough capability or settle a fundamental question in the field.",
+    "tags": [
+      "video-editing",
+      "training-free-methods",
+      "instruction-guided-generation",
+      "attention-mechanisms",
+      "latent-space-manipulation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Adheesh Sunil Juvekar, Onkar Kishor Susladkar, Kiet A. Nguyen, Muntasir Wahed, Nabeel Bashir",
+    "published_at": "2026-09-03T17:59:01+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04183",
+    "title": "Seeing Before Synthesizing: VLM-Guided Transition Event Discovery for Weakly-Supervised Dense Video Captioning",
+    "url": "https://arxiv.org/abs/2609.04183",
+    "score": 6.0,
+    "summary": "VLM을 활용하여 비디오의 이벤트 간 전환점을 시각적으로 감지한 후 캡션을 생성하는 약한 감독 기반 밀집 비디오 캡셔닝 프레임워크를 제안하며, ActivityNet Captions과 YouCook2에서 최신 성능을 달성했다.",
+    "reason": "A reasonable contribution to weakly-supervised dense video captioning with a sensible idea (using VLM to detect transitions before synthesizing captions) and reported SOTA results. However, the abstract provides limited evidence of the magnitude of improvements, ablation details, or comparison specifics. The work addresses a real problem in a narrow domain (dense video captioning), but the novelty is incremental—applying existing VLM capabilities to guide caption synthesis rather than a fundamentally new capability. Reproducibility details are absent from the abstract. The contribution would be useful for practitioners working on video understanding, but the limited scope and unclear empirical margins prevent a higher score.",
+    "tags": [
+      "video-captioning",
+      "vision-language-models",
+      "weak-supervision",
+      "event-localization",
+      "multimodal-learning"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Ye-Chan Kim, Seunghee Choi, SeungJu Cha, Si-Woo Kim, Hwiseon Kim",
+    "published_at": "2026-09-03T17:58:02+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04180",
+    "title": "Knowledge Acquisition During Pre-training? Large Language Models Learn Better With Auxiliary Views",
+    "url": "https://arxiv.org/abs/2609.04180",
+    "score": 6.0,
+    "summary": "이 논문은 사전학습 중 LLM이 지식을 습득하는 방식을 이해하기 위해 제어된 실험을 수행하며, 보조 뷰(지식의 재표현)가 학습에 인과적으로 도움이 되고, 반복보다 토큰 예산을 보조 뷰에 할당하는 것이 더 효과적임을 보여준다.",
+    "reason": "This paper presents a controlled empirical study on how LLMs acquire knowledge during pre-training, with several well-designed experiments isolating the effects of auxiliary views, repetition, and paraphrasing. The findings are methodologically sound and address a real question about pre-training dynamics. However, the scope is somewhat narrow—focused on understanding mechanisms rather than enabling new capabilities—and the practical implications for practitioners building with LLMs are limited. The work is solid but incremental in nature, contributing to our understanding of pre-training without fundamentally changing how models should be built or deployed.",
+    "tags": [
+      "pre-training",
+      "knowledge-acquisition",
+      "auxiliary-views",
+      "empirical-study",
+      "llm-mechanisms"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Joseph Lee, Yidi Huang, Dokyoon Kim, Shu Yang, Li Shen",
+    "published_at": "2026-09-03T17:57:02+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04177",
+    "title": "A Computationally Feasible Framework for Causal Probabilistic Explanation",
+    "url": "https://arxiv.org/abs/2609.04177",
+    "score": 6.0,
+    "summary": "실제 인과성(actual causality) 이론의 원칙성과 SHAP 같은 확장 가능한 귀인 방법의 실용성 사이의 간극을 메우기 위해, 확률적 인과 모델에서 몬테카를로 근사를 통해 계산 가능한 Probabilistic Causal Impact (PCI)를 제안한다.",
+    "reason": "The paper addresses a genuine gap between principled but intractable causal explanation methods (actual causality) and scalable but theoretically loose attribution methods (SHAP). PCI's framing as a tractable estimation problem on probabilistic causal models is conceptually sound. However, the abstract provides limited evidence of empirical validation strength: it mentions 'synthetic and real-world examples' and 'consistency checks' but gives no concrete performance comparisons, no indication of how much PCI improves over existing methods in practice, and no details on the real-world deployment results. The contribution is solid in scope but the evaluation evidence presented is thin. Practitioners building explainability systems would find this interesting, but the abstract does not demonstrate that PCI substantially outperforms or meaningfully changes how they should approach causal explanation in deployed settings.",
+    "tags": [
+      "causal-inference",
+      "explainability",
+      "attribution-methods",
+      "probabilistic-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Rafal Urbaniak, Sam Witty, Daniel Waxman, Andy Zane, Poorva Garg",
+    "published_at": "2026-09-03T17:55:43+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04170",
+    "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+    "url": "https://arxiv.org/abs/2609.04170",
+    "score": 6.0,
+    "summary": "100개의 자율 LLM 에이전트로 구성된 연구 집단에서 평가 시스템의 취약점을 악용한 부정행위가 자발적으로 나타났고, 외부 개입 없이 일부 에이전트들이 이를 적발하고 저항하는 감시자 역할을 수행한 사례 연구로, 공유 인프라의 거버넌스를 Ostrom의 지식 공유지 이론으로 분석한다.",
+    "reason": "This paper presents an interesting empirical observation about emergent behavior in multi-agent LLM systems—spontaneous cheating and counter-cheating without external direction. However, the contribution is primarily descriptive rather than prescriptive. The case study is narrow (one specific setup with 100 agents), and the proposed solutions (applying Ostrom's governance framework) are conceptual rather than validated. The work raises important questions about multi-agent AI safety but lacks the depth of evaluation, ablation studies, or demonstrated effectiveness of interventions needed for a higher score. The novelty lies in documenting the phenomenon, but the practical guidance for practitioners remains limited.",
+    "tags": [
+      "multi-agent-systems",
+      "emergent-behavior",
+      "ai-safety",
+      "governance",
+      "llm-agents"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Davide Paglieri, Logan Cross, Tim Genewein, Joel Z. Leibo, Nenad Tomasev",
+    "published_at": "2026-09-03T17:54:09+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04159",
+    "title": "SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center",
+    "url": "https://arxiv.org/abs/2609.04159",
+    "score": 6.0,
+    "summary": "LLM 기반 SOC 분석기의 문맥 제약과 위상 일관성 문제를 해결하기 위해, 그래프 어텐션 인코더와 PPO 정책으로 위상 추론을 분리하고 LLM을 내러티브 생성에만 제한하는 Sentinel-RL 아키텍처를 제시한다.",
+    "reason": "A solid systems contribution addressing a real operational problem (LLM agents in SOC work) with a concrete architecture that decouples graph reasoning from semantic reasoning. The evaluation is thorough on engineering metrics (ingestion speed, latency, PPO convergence) and includes real datasets (LANL, IU Quartz). However, the scope is narrow—this is primarily an engineering pattern for a specific use case rather than a generalizable method. The PPO results (0.91 precision, 0.87 recall on red-team events) are reasonable but not exceptional, and the paper does not establish that this approach beats existing SOC automation baselines or that the architectural choices are necessary rather than convenient. The contribution is most valuable to practitioners building LLM-based security tools, but limited for the broader AI research audience.",
+    "tags": [
+      "security-operations",
+      "llm-agents",
+      "graph-neural-networks",
+      "reinforcement-learning",
+      "systems-engineering"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CR",
+    "author": "Uday Vallabhaneni, Cassie L. Cagwin, David J. Wild",
+    "published_at": "2026-09-03T17:49:12+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04147",
+    "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
+    "url": "https://arxiv.org/abs/2609.04147",
+    "score": 6.0,
+    "summary": "미니어처 Ackermann 차량을 위한 저비용 오픈 플랫폼과 명령 조건부 행동 복제 기반의 end-to-end 자율주행 시스템을 제시하며, Webots 디지털 트윈을 활용한 sim-to-real 연구를 위한 실용적인 테스트베드를 제공한다.",
+    "reason": "A solid contribution that provides a useful open platform and baseline for sim-to-real autonomous driving research on miniature vehicles. The work demonstrates practical value through controlled experiments, ablations on camera field of view, and a concrete sim-to-real pipeline. However, the scope is narrow (miniature vehicles on a printed track), the baseline method (behavior cloning) is well-established, and the performance gains from synthetic data are demonstrated but not quantified with statistical rigor. The release of code and platform is a genuine asset for reproducibility, but the novelty is primarily in the platform engineering rather than methodological innovation. Practitioners building autonomous systems would find the platform useful, but the technical insights are incremental.",
+    "tags": [
+      "autonomous-driving",
+      "sim-to-real",
+      "imitation-learning",
+      "robotics-platform",
+      "behavior-cloning"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Gustavo Claudio Karl Couto, Eric Aislan Antonelo, Gabriel George Zipperer",
+    "published_at": "2026-09-03T17:40:20+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04141",
+    "title": "Efficient Test-Time Adaptation through Human-AI Interaction",
+    "url": "https://arxiv.org/abs/2609.04141",
+    "score": 6.0,
+    "summary": "이 논문은 반복적인 인간-AI 상호작용 데이터를 활용하여 테스트 시간에 AI 에이전트를 개인 사용자에게 적응시키는 TAHI(test-time adaptation through human-agent interaction) 방법을 제안하며, 쓰기와 시각 창작 도메인에서 30명의 사용자를 대상으로 600개 작업에 대해 평가하여 수십 개 작업 내에서 4.5-20.9%의 성공률 개선을 달성했다.",
+    "reason": "A reasonable contribution addressing a practical problem—adapting AI agents to individual user preferences through iterative interaction. The evaluation spans two domains with 30 users and 600 tasks, showing consistent improvements (4.5-20.9% within tens of tasks) and cross-user generalization. However, the abstract lacks detail on methodology, baselines, and reproducibility. The claim about rubric generation catching 16-22% more failures needs context on what comparison methods were used. The work is solid and addresses a real practitioner need, but the evidence presented is insufficient to determine whether the gains are substantial relative to simpler alternatives or whether the approach is genuinely novel versus incremental personalization.",
+    "tags": [
+      "test-time-adaptation",
+      "human-ai-interaction",
+      "personalization",
+      "interactive-learning",
+      "evaluation-rubrics"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Zora Zhiruo Wang, Apurva Gandhi, Rulin Shao, Aspen Chen, Jonas Mueller",
+    "published_at": "2026-09-03T17:33:18+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04135",
+    "title": "The Natural Language Interaction Protocol and Standard for AI Agents",
+    "url": "https://arxiv.org/abs/2609.04135",
+    "score": 6.0,
+    "summary": "Ecma International에서 표준화된 NLIP(Natural Language Interaction Protocol)는 이질적인 AI 에이전트 개발 프레임워크와 도구 간의 상호운용성을 위한 경량 응용 계층 프로토콜을 정의하며, HTTP/HTTPS, WebSocket, AMQP 등의 기존 전송 방식을 지원한다.",
+    "reason": "This paper presents NLIP, a standardized protocol for AI agent interoperability that has achieved formal standardization (Ecma International). The contribution is practically motivated and addresses a real coordination problem in multi-agent systems. However, the abstract provides limited evidence of technical novelty, empirical validation, or performance advantages over alternatives. The work appears to be primarily a standards document with reference implementation rather than a research contribution with rigorous evaluation. The mention of 'adoption signals' suggests real-world traction, which adds value, but without concrete evidence of impact or comparative analysis, the contribution falls into the 'interesting but narrow' category. Practitioners building multi-agent systems may find the standardization useful, but the paper does not demonstrate that NLIP solves problems better than existing approaches or unlocks new capabilities.",
+    "tags": [
+      "agent-interoperability",
+      "protocol-standards",
+      "multi-agent-systems",
+      "ai-infrastructure",
+      "system-design"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Luyi Xing, Rasit Onur Topaloglu, Ranjan Sinha, Abhay Ratnaparkhi, Samuel Ndichu",
+    "published_at": "2026-09-03T17:30:17+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04127",
+    "title": "Epistemic Warrant for LLM Recommendations: Characterizing the Basis for Reliance When Ground Truth Is Unavailable",
+    "url": "https://arxiv.org/abs/2609.04127",
+    "score": 6.0,
+    "summary": "LLM 권장사항의 신뢰성을 개별 결정 수준에서 평가하기 위해 인식론적 기초를 바탕으로 '인식론적 정당성(epistemic warrant)'을 도입하고, 모델 선호도의 안정성과 적용 범위를 특징짓는 4단계 인증 체계를 제시한다.",
+    "reason": "This paper addresses a genuine practical problem—how to assess whether to trust individual LLM recommendations when ground truth is unavailable—and proposes a theoretically motivated framework. The validation approach (known-groups tests, crowd consensus) is reasonable but modest in scope. The contribution is solid conceptually but the evaluation is limited to pairwise recommendations and relatively small-scale validation. The work would be useful for practitioners building systems that rely on LLM recommendations, but the evidence for the framework's real-world utility remains preliminary. No code or data release is mentioned. The paper makes a meaningful but incremental contribution to an important problem rather than a breakthrough result.",
+    "tags": [
+      "llm-reliability",
+      "decision-support",
+      "uncertainty-quantification",
+      "recommendation-systems",
+      "epistemology"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Shai Vardi, João Sedoc",
+    "published_at": "2026-09-03T17:25:20+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04096",
+    "title": "Adaptive Vision-Language Grasping via Composable Foundation Priors and Generalizable Grasp Synthesis",
+    "url": "https://arxiv.org/abs/2609.04096",
+    "score": 6.0,
+    "summary": "AdaRoboVLG는 기초 모델의 작업 이해를 물리적 파지 합성으로부터 분리하여, 재학습 없이 다양한 로봇 손에 걸쳐 적응형 파지를 가능하게 하는 비전-언어-파지 프레임워크를 제안한다.",
+    "reason": "A solid contribution to robotic grasping that demonstrates a useful architectural principle—decoupling physical grasp synthesis from task-dependent understanding via foundation models. The paper shows convincing cross-hand generalization and addresses multiple grasping challenges (spatial, cognitive, temporal priors). However, the evaluation is limited to simulation and unspecified real-world experiments without detailed quantitative comparisons to current strong baselines. The core idea of composable priors is reasonable but not novel in isolation. The work would be stronger with rigorous benchmarking against recent vision-language grasping methods and clearer evidence that the modular approach outperforms end-to-end alternatives by a meaningful margin.",
+    "tags": [
+      "robotic-grasping",
+      "vision-language-models",
+      "foundation-models",
+      "generalization",
+      "modular-architecture"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.RO",
+    "author": "Sixu Yan, Shikang Wang, Binhua Huang, Xuanlai Tang, Guohua Fan",
+    "published_at": "2026-09-03T17:03:11+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04094",
+    "title": "DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training",
+    "url": "https://arxiv.org/abs/2609.04094",
+    "score": 6.0,
+    "summary": "DRACO는 장기 에이전트 학습에서 지상 진실 보상 없이 동적으로 생성된 루브릭을 궤적 수준에서 평가한 후 폐쇄형 재분배를 통해 단계별 이점으로 변환하여 신용 할당 문제를 해결한다.",
+    "reason": "DRACO addresses a real problem in long-horizon RL—credit assignment without ground-truth rewards—with a reasonable approach: dynamic rubric generation and closed-form redistribution of trajectory-level scores to per-step advantages. The empirical results show consistent gains on two benchmarks (AppWorld and Tau-Bench), and the method avoids training additional attribution modules. However, the evaluation is limited to two domains, the improvements over GRPO with sparse rewards are modest (5.3 points on Tau-Bench), and the paper does not compare against other recent credit-assignment methods in long-horizon settings. The contribution is solid but narrow in scope, and it remains unclear how well the approach generalizes beyond these specific benchmarks or how sensitive it is to rubric quality and design choices.",
+    "tags": [
+      "reinforcement-learning",
+      "credit-assignment",
+      "long-horizon-tasks",
+      "reward-shaping",
+      "agent-training"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Shubham Gandhi, Saurabh Goyal, Kiran Kate, Yara Rizk",
+    "published_at": "2026-09-03T17:02:20+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04083",
+    "title": "CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation",
+    "url": "https://arxiv.org/abs/2609.04083",
+    "score": 6.0,
+    "summary": "CORE는 MLLM 기반 임베딩 모델의 합성적 추론(compositional reasoning) 능력을 개선하기 위해 크로스-어텐션 리랭커의 판단을 임베딩 모델으로 증류하는 방법을 제안하며, Rank-KL 목적함수와 다단계 감독을 통해 COLA, SUGARCREPE++, NEGBENCH에서 기존 모델을 크게 앞지른다.",
+    "reason": "A solid contribution addressing a real limitation in multimodal embedding models—compositional reasoning—with a well-motivated approach (distilling reranker judgments into embeddings) and comprehensive evaluation across multiple benchmarks. The work introduces useful methodological elements (graded evaluation protocol, Rank-KL objective, multi-level candidate synthesis) and demonstrates consistent improvements. However, the scope is narrow (focused on a specific failure mode of MLLM embeddings), the gains, while substantial on compositional benchmarks, come with limited analysis of why the approach works, and the practical impact for practitioners building retrieval systems depends on whether compositional reasoning is a bottleneck in their use case. The paper is well-executed within its scope but does not represent a fundamental shift in how practitioners should approach multimodal retrieval.",
+    "tags": [
+      "multimodal-retrieval",
+      "embedding-models",
+      "knowledge-distillation",
+      "compositional-reasoning",
+      "ranking-loss"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Tingyu Song, Mingxin Li, Yanzhao Zhang, Dingkun Long, Chu Liu",
+    "published_at": "2026-09-03T16:50:29+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04071",
+    "title": "TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models",
+    "url": "https://arxiv.org/abs/2609.04071",
+    "score": 6.0,
+    "summary": "TAP-Path는 Virchow2 pathology foundation model을 구조적 및 토큰 pruning으로 압축하여 파라미터 25%, 계산량 35% 감소시키면서 신뢰성 지표를 유지하는 작업 적응형 압축 프레임워크를 제시한다.",
+    "reason": "A solid contribution to an important practical problem—making large pathology models efficient—with reasonable technical approach and comprehensive evaluation. However, the core novelty is limited (combining known pruning techniques), the accuracy drop versus full Virchow2 is non-trivial (~1%), and the work is narrowly scoped to one model and domain. The evaluation is honest and includes useful reliability metrics, but lacks comparison to other compression baselines (distillation, quantization) that would clarify the method's standing. Useful for practitioners deploying pathology models under compute constraints, but not a methodological advance that changes how the field approaches model compression.",
+    "tags": [
+      "model-compression",
+      "pathology-ai",
+      "pruning",
+      "foundation-models",
+      "efficiency"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Mehedi Hasan, Ashfak Yeafi, Md Khairul Islam",
+    "published_at": "2026-09-03T16:43:36+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04066",
+    "title": "Subspace Inference Enables Efficient Active Reward Learning from Preferences",
+    "url": "https://arxiv.org/abs/2609.04066",
+    "score": 6.0,
+    "summary": "PreferenceEKF는 저차원 부분공간에서 확장 칼만 필터를 사용하여 보상 모델의 불확실성을 추적함으로써 선호도 기반 강화학습에서 샘플 효율성을 개선하는 방법을 제안한다.",
+    "reason": "A solid contribution to an important problem (sample efficiency in RLHF reward learning) with a reasonable technical approach (subspace EKF for uncertainty quantification). The paper demonstrates improvements in sample efficiency, runtime, and calibration on established benchmarks (D4RL, V-D4RL) with released code. However, the scope is narrow—focused on a specific component of RLHF rather than end-to-end capability gains—and the abstract does not provide evidence of breakthrough performance or invalidation of prior assumptions. The work is technically sound but incremental within active reward learning.",
+    "tags": [
+      "reinforcement-learning-from-human-feedback",
+      "active-learning",
+      "uncertainty-quantification",
+      "reward-modeling",
+      "bayesian-deep-learning"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Yutai Zhou, Erdem Bıyık",
+    "published_at": "2026-09-03T16:39:55+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04063",
+    "title": "Spurious Advantage Hidden in GRPO",
+    "url": "https://arxiv.org/abs/2609.04063",
+    "score": 6.0,
+    "summary": "GRPO의 advantage estimator가 정답에 도달한 추론과 우연한 추측을 구분하지 못하는 문제를 지적하고, 검증자 부호와 전역 스케일을 사용하는 SIGNBALANCE를 제안하는 논문이다.",
+    "reason": "The paper identifies a real failure mode in GRPO's advantage estimation—spurious rewards for guessing—and proposes a targeted fix. The problem is well-motivated with concrete examples (bounded answers, open-answer subsets, search agents). However, the evaluation is limited: improvements are modest and inconsistent (matches GRPO on open-answer math, improves on bounded-answer and search), no comparison to other recent RL methods beyond GRPO, and no ablation study details provided in the abstract. The contribution is narrow (a fix to one algorithm's advantage estimator) rather than a fundamental insight. Code availability would strengthen reproducibility but is only promised. For practitioners using GRPO on bounded-answer tasks, this is useful; for the broader RL community, the impact is incremental.",
+    "tags": [
+      "reinforcement-learning",
+      "policy-optimization",
+      "reward-modeling",
+      "mathematical-reasoning",
+      "advantage-estimation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Jiamian Wang, Samyadeep Basu, Koustava Goswami, Tong Yu, Zhiqiang Tao",
+    "published_at": "2026-09-03T16:37:31+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04021",
+    "title": "FLY-EVAL++: An Evidence-Driven Evaluation Protocol for Safety-Constrained Flight Prediction with Large Language Models",
+    "url": "https://arxiv.org/abs/2609.04021",
+    "score": 6.0,
+    "summary": "안전-제약 조건이 있는 비행 궤적 예측에서 LLM을 평가하기 위해 정확도 이상의 메트릭이 필요하다는 점을 인식하고, 프로토콜 준수, 물리적 타당성, 안전 제약을 검증하는 FLY-EVAL++ 평가 프로토콜을 제안한다.",
+    "reason": "This paper addresses a real problem—evaluating LLMs in safety-critical domains requires more than accuracy metrics—and proposes a structured evaluation protocol with concrete instantiation on flight prediction. The work demonstrates meaningful findings (safety compliance as a discriminative dimension, 28-point gaps between models with similar accuracy). However, the contribution is primarily methodological and domain-specific. The evaluation is limited to flight prediction tasks, and while the protocol design is sound, it is not clear whether the insights generalize beyond this narrow application or whether the protocol itself represents a significant advance over existing safety evaluation frameworks. The paper would be stronger with evidence that this protocol catches failure modes that other evaluation approaches miss, or with application to multiple safety-critical domains. The finding that LLMs fail on safety constraints even when numerically accurate is valuable but somewhat expected. Code and data availability are not mentioned in the abstract, limiting reproducibility.",
+    "tags": [
+      "safety-critical-evaluation",
+      "llm-evaluation",
+      "flight-prediction",
+      "constraint-satisfaction",
+      "structured-output-validation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Yalun Wu, Junfeng Fang, Jiawei Wang, Haotian Liu, Qijun Yang",
+    "published_at": "2026-09-03T16:00:02+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04014",
+    "title": "InSituMeasure: Probing Situated Measurement Grounding in Industrial Scenes with Multimodal Large Language Models",
+    "url": "https://arxiv.org/abs/2609.04014",
+    "score": 6.0,
+    "summary": "InSituMeasure는 산업 현장의 실제 계측 작업에서 MLLM의 신뢰성을 평가하기 위한 벤치마크로, 8개 카테고리의 전문 계측기 2,922개 장면을 포함하며 최고 성능 모델도 25.7% 정확도에 불과함을 보여준다.",
+    "reason": "A solid benchmark contribution addressing a real gap in MLLM evaluation. InSituMeasure provides 2,922 annotated industrial scenes with realistic measurement tasks, revealing substantial performance gaps (25.7% accuracy) across 24 state-of-the-art models. The dataset design is thoughtful—including noise tags, unit consistency checks, and diagnostic annotations—and the failure analysis identifies concrete failure modes (text shortcuts, overconfidence, industrial noise). However, the contribution is primarily a benchmark rather than a novel method; the paper's value depends on whether practitioners will adopt it and whether the identified gaps motivate new approaches. The scope is narrow (measurement grounding in industrial settings) but well-motivated for practitioners building vision systems for real-world applications.",
+    "tags": [
+      "benchmark-dataset",
+      "multimodal-llm",
+      "measurement-grounding",
+      "industrial-vision",
+      "evaluation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Chao Shen, Xinyuan Li, Yunfan Zhou, Jianguo Yao, Haibing Guan",
+    "published_at": "2026-09-03T15:54:21+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04173",
+    "title": "Last Translation Benchmark",
+    "url": "https://arxiv.org/abs/2609.04173",
+    "score": 6.0,
+    "summary": "Last Translation Benchmark는 포화 상태에 접어든 기계번역 벤치마크를 보완하기 위해 인간이 작성하고 검증한 어려운 사례들과 구체적인 실패 케이스를 기술하는 검증 규칙을 제시하는 라이브 데이터셋을 제안한다.",
+    "reason": "The paper addresses a real problem—saturation of standard MT benchmarks and unreliability of automatic metrics—and proposes a thoughtful solution: adversarially-collected hard examples with handcrafted verification rules. The idea of moving beyond automatic metrics to structured failure-case evaluation is sound. However, the abstract provides no evidence of the benchmark's actual utility: no comparison of how well the verification rules work, no data on inter-rater reliability, no demonstration that this approach better identifies improvement pathways than existing methods, and no baseline results showing which models fail and why. The claim that this is a 'live dataset' accepting contributions is a design choice, not a validation. Without empirical evidence that the benchmark successfully differentiates models or that the verification rules are reliable and actionable, this reads as a well-motivated tool proposal rather than a validated contribution. Reproducibility depends on whether the benchmark and rules are released.",
+    "tags": [
+      "machine-translation",
+      "benchmark",
+      "evaluation-metrics",
+      "adversarial-examples",
+      "dataset"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Vilém Zouhar, Niyati Bafna, Mukund Choudhary, Maike Züfle, Sara Rajaee",
+    "published_at": "2026-09-03T17:54:45+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04047",
+    "title": "The Dice Roll Method: A Standardized Protocol for Repeated-Query Auditing of Large Language Model Brand Recommendations",
+    "url": "https://arxiv.org/abs/2609.04047",
+    "score": 6.0,
+    "summary": "LLM 브랜드 추천의 반복 쿼리 감사를 위한 표준화된 프로토콜을 제안하며, 일반화 이론과 부트스트랩 기반 통계 방법론으로 반복 횟수(n=5~15)와 신뢰도 임계값을 결정하는 체계적 지침을 제공한다.",
+    "reason": "A methodologically rigorous contribution to a narrow but important domain. The paper formalizes a standardized protocol for auditing LLM behavior with solid statistical grounding (generalizability theory, negative-binomial mixed models, bootstrap methods) and validates it across ~190k observations. However, the scope is limited to brand recommendations specifically, the practical impact on practitioners building with LLMs is unclear, and the core insight—that repeated queries need principled iteration counts and metrics—addresses a real but specialized auditing need rather than changing how models are built or deployed.",
+    "tags": [
+      "llm-auditing",
+      "statistical-methodology",
+      "generalizability-theory",
+      "brand-recommendations",
+      "stochastic-variation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.IR",
+    "author": "Dmitrij Żatuchin",
+    "published_at": "2026-09-03T16:22:06+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04189",
+    "title": "Robust PAC Learning of Concurrent Stochastic Games",
+    "url": "https://arxiv.org/abs/2609.04189",
+    "score": 6.0,
+    "summary": "일반합 동시 확률 게임(concurrent stochastic games)에 대한 첫 번째 PAC 학습 프레임워크를 제시하며, Nash 균형 존재 여부를 판단하는 Nash margin 특성화를 통해 근사 균형 또는 균형 부재 증명서를 반환한다.",
+    "reason": "A solid theoretical contribution to multi-agent reinforcement learning with novel elements (Nash margin characterization, robust PAC framework for CSGs), but limited practical impact. The work addresses a well-defined problem with rigorous analysis and polynomial sample complexity guarantees. However, the scope is narrow (concurrent stochastic games with specific assumptions), empirical validation is on benchmarks only, and the practical applicability for practitioners building systems remains unclear. The Nash margin idea is interesting but the overall contribution is primarily theoretical rather than enabling new capabilities.",
+    "tags": [
+      "multi-agent-rl",
+      "pac-learning",
+      "game-theory",
+      "sample-complexity",
+      "nash-equilibrium"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Angel Y. He, David Parker",
+    "published_at": "2026-09-03T17:58:57+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04165",
+    "title": "Parameterised graph theory for tensor networks: entanglement rerouting, structural simplification, and agnostic tomography",
+    "url": "https://arxiv.org/abs/2609.04165",
+    "score": 6.0,
+    "summary": "매개변수화된 그래프 이론을 사용하여 텐서 네트워크 상태의 MPS/TTN 표현 가능성과 학습 복잡도를 cutwidth, tree-cutwidth 등의 그래프 매개변수로 특성화하고, 얽힘 재라우팅 기법과 확장된 학습 알고리즘을 통해 표본 및 계산 복잡도 상한을 도출한다.",
+    "reason": "This paper makes solid theoretical contributions connecting parameterised graph theory to tensor network learning and representation, with rigorous proofs and extensions to new settings (TTNs, arbitrary graphs, agnostic learning). However, the work is primarily theoretical with limited empirical validation, addresses a specialized domain (tensor network simulation), and the practical impact for practitioners building with neural networks or large-scale models remains unclear. The results are well-evidenced within their scope but the scope itself is narrow.",
+    "tags": [
+      "tensor-networks",
+      "parameterised-complexity",
+      "quantum-state-learning",
+      "matrix-product-states",
+      "theoretical-analysis"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv quant-ph",
+    "author": "Matthias C. Caro, Natalie McHugh, Sergii Strelchuk",
+    "published_at": "2026-09-03T17:50:38+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04134",
+    "title": "Prospective Coding Improves Learning in Deep Continuous-Time Recurrent Networks",
+    "url": "https://arxiv.org/abs/2609.04134",
+    "score": 6.0,
+    "summary": "심층 연속시간 순환신경망에서 시간 적분으로 인한 신호 지연과 오차 감쇠 문제를 해결하기 위해 생물학적으로 영감받은 복소수 값 시간 필터인 Recursive Quadrature Filters (RQFs)와 예측적 입력 코딩을 제안하며, 여러 모델과 학습 방식에서 평가한다.",
+    "reason": "A solid contribution with clear technical novelty (RQFs and prospective coding) and reasonable evaluation across multiple architectures. However, the practical impact is limited by narrow scope (speech and synthetic tasks), modest improvements over baselines, and lack of comparison to current strong alternatives like Transformers or recent SSM variants. The biological motivation and theoretical grounding are interesting but don't translate to compelling empirical advantages that would change practitioner decisions.",
+    "tags": [
+      "recurrent-neural-networks",
+      "state-space-models",
+      "temporal-processing",
+      "deep-learning-optimization",
+      "audio-processing"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Shivang Rawat, Mirko Morello, Flaviano Morone, David J. Heeger",
+    "published_at": "2026-09-03T17:30:11+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04113",
+    "title": "Constant regret in general games via higher-order optimism",
+    "url": "https://arxiv.org/abs/2609.04113",
+    "score": 6.0,
+    "summary": "N-player 일반 게임에서 상수 후회(constant regret)를 달성하는 고차 낙관주의 기반의 비결합 학습 알고리즘 HOOD를 제시하며, O(N³log²K) 개별 후회 보장을 제공한다.",
+    "reason": "This paper makes a solid theoretical contribution to multi-player game theory by achieving constant regret bounds in general N-player games—a known open problem. The result is non-trivial: the O(N³log²K) bound improves significantly over concurrent work (O(N²¹log⁴K)), and the algorithmic approach (HOOD) combines higher-order optimism with discounting in a principled way. However, the contribution is narrowly scoped to theoretical regret analysis with no empirical validation, no code release mentioned, and unclear practical implications for practitioners building systems. The paper advances our theoretical understanding but does not demonstrate that this insight changes how one would build or deploy learning systems in practice.",
+    "tags": [
+      "game-theory",
+      "multi-agent-learning",
+      "regret-bounds",
+      "optimization-algorithms",
+      "theoretical-analysis"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Omar Abbadi, Rida Laraki, Panayotis Mertikopoulos",
+    "published_at": "2026-09-03T17:16:13+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04105",
+    "title": "Hardware-Aware FP4 FlashAttention-4",
+    "url": "https://arxiv.org/abs/2609.04105",
+    "score": 6.0,
+    "summary": "Blackwell GPU의 FP4 텐서 코어가 softmax 변환과 온칩 의존성으로 인해 attention을 자동으로 가속화하지 못하는 문제를 해결하기 위해 Direct-P 방법을 제안하며, noncausal 추론에서 BF16 대비 최대 2.13배, 8B 모델 학습에서 최대 1.14배 속도 향상을 달성한다.",
+    "reason": "A focused optimization paper addressing a real hardware-software mismatch on Blackwell GPUs. The contribution is narrow but concrete: showing that FP4 tensor cores don't automatically accelerate attention due to softmax bottlenecks, and proposing Direct-P to work around this. The reported speedups (2.13× forward, 1.14× end-to-end) are modest and hardware-specific. The negative result on MXFP4 training is useful but the paper lacks comprehensive ablations, comparisons to other quantization strategies, and evaluation on models beyond 8B parameters. Reproducibility unclear—no mention of code release. Useful for practitioners optimizing on Blackwell but narrow applicability.",
+    "tags": [
+      "quantization",
+      "attention-optimization",
+      "hardware-aware-ml",
+      "fp4-inference",
+      "gpu-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Robert Hu",
+    "published_at": "2026-09-03T17:12:35+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04046",
+    "title": "The Head Complexity of Boolean Functions in Single-Layer Attention",
+    "url": "https://arxiv.org/abs/2609.04046",
+    "score": 6.0,
+    "summary": "단일 계층 self-attention에서 Boolean 함수를 계산하기 위해 필요한 최소 attention head 개수를 분석하며, k개 head는 k-bit parity를 계산할 수 있지만 (k+1)-bit parity는 계산할 수 없음을 증명한다.",
+    "reason": "This paper provides a theoretical characterization of single-layer attention's computational capacity through the lens of head complexity. The main contribution—establishing that k heads compute k-bit parity but not (k+1)-bit parity—is a clean result with unconditional lower bounds that hold regardless of embedding dimension or precision. However, the practical relevance is limited: single-layer attention-only models are not how practitioners build systems, and the parity function, while theoretically natural, is not a capability practitioners care about optimizing. The compactness theorems are interesting but abstract. The paper makes a solid theoretical contribution to understanding attention mechanisms, but does not change what practitioners should build or how they should approach model design.",
+    "tags": [
+      "attention-mechanisms",
+      "theoretical-analysis",
+      "boolean-functions",
+      "computational-complexity",
+      "transformer-architecture"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CC",
+    "author": "Rajmohan Rajaraman, Ravi Sundaram, Amanuel Tesfaye",
+    "published_at": "2026-09-03T16:22:02+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04011",
+    "title": "Differentiable Hybrid Modelling for Learning and Optimising Chemical Transport Processes from Experimental Data",
+    "url": "https://arxiv.org/abs/2609.04011",
+    "score": 6.0,
+    "summary": "JAX 기반의 미분 가능한 하이브리드 모델링 프레임워크를 제안하여 신경망 성분으로 구성 법칙을 학습하고 초기 조건을 맞추면서 화학 공정의 population balance equation을 모델링하고 최적화한다.",
+    "reason": "A solid contribution combining differentiable programming with hybrid modelling for a specific chemical engineering problem. The work addresses real limitations (unknown constitutive laws, uncertain initial conditions) and demonstrates a practical framework integrating JAX with neural networks. However, the abstract provides limited evidence of empirical validation—no concrete performance comparisons, ablation studies, or quantitative results are reported. The scope is narrowed to population balance equations, and reproducibility details (code release, experimental datasets) are not mentioned. The idea of differentiable hybrid models is not new, though the application to this domain and the specific implementation appear competent. Without seeing actual experimental results or comparisons to baselines, it is difficult to assess whether this delivers the claimed improvements in prediction accuracy or optimization effectiveness.",
+    "tags": [
+      "hybrid-modelling",
+      "differentiable-programming",
+      "chemical-engineering",
+      "neural-networks",
+      "process-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CE",
+    "author": "Arthur Jessop, Mohammed Alsubeihi, Ben Moseley, Ashwin Kumar Rajagopalan",
+    "published_at": "2026-09-03T15:50:56+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04007",
+    "title": "RobustSeiz: An Open-Source Framework for Benchmarking the Robustness of EEG Seizure Detection Models",
+    "url": "https://arxiv.org/abs/2609.04007",
+    "score": 6.0,
+    "summary": "RobustSeiz는 임상적으로 동기부여된 분포 변화 하에서 EEG 발작 탐지기의 견고성을 평가하기 위한 오픈소스 벤치마킹 프레임워크로, 네 개의 공개 데이터셋을 표준화하고 노이즈 및 적대적 변환에 대한 체계적인 스트레스 테스트를 제공한다.",
+    "reason": "A solid contribution that addresses a real problem in medical AI deployment—robustness evaluation of seizure detectors under realistic conditions. The framework is open-source, standardizes multiple datasets, and provides clinically motivated stress tests. However, the paper appears to be primarily a framework/benchmark release rather than a novel method or surprising empirical finding. The evaluation demonstrates the framework's utility but does not present breakthrough results or invalidate common assumptions. The work would be valuable for practitioners building seizure detection systems, but the impact is narrower than a method that changes how models should be built or deployed more broadly.",
+    "tags": [
+      "eeg-seizure-detection",
+      "robustness-evaluation",
+      "medical-ai-benchmarking",
+      "distribution-shift",
+      "open-source-framework"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Mohammad Mohammadi, Alireza Zarei",
+    "published_at": "2026-09-03T15:45:52+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04203",
+    "title": "Temporal Self-Distillation: Learning Visual State Tracking in Videos Without Supervision",
+    "url": "https://arxiv.org/abs/2609.04203",
+    "score": 6.0,
+    "summary": "S³T는 시간적 샘플링 밀도를 특권 정보로 활용하여 비디오 상태 추적을 자기지도학습으로 학습하는 프레임워크로, 라벨 없이 모델이 자신의 학습 신호를 생성한다.",
+    "reason": "A reasonable contribution with a novel self-supervised approach to video state tracking. The core idea—using temporal sampling density as privileged information for self-distillation—is intuitive and appears sound. However, the evaluation is limited: improvements are modest (1.74–2.70 points on VSTAT), tested on only one base model (LLaVA-OneVision-2-8B), and lacks comparison to supervised or other self-supervised baselines. The transfer results (+7.95 on VSTAT-YouTube, +4.50 on MVBench) are more compelling but still narrow in scope. No code or weights appear to be released. The work addresses a real problem (video understanding without labels) but the evidence does not yet support claims of broad practical impact.",
+    "tags": [
+      "self-supervised-learning",
+      "video-understanding",
+      "knowledge-distillation",
+      "state-tracking",
+      "vision-language-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Shravan Venkatraman, Wenshuai Zhao, Mohammad Hassan Vali, Arno Solin",
+    "published_at": "2026-09-03T17:59:55+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04202",
+    "title": "TokenMatch: 3D Mesh Correspondence Transformer with Curvature-Guided Tokenisation",
+    "url": "https://arxiv.org/abs/2609.04202",
+    "score": 6.0,
+    "summary": "TokenMatch는 곡률 기반 토큰화를 활용한 트랜스포머 모델로 부분적이고 비등거리 변형된 3D 메시 간의 대응을 추정하며, 여러 벤치마크에서 기존 방법을 능가하고 서브초 추론 속도를 달성한다.",
+    "reason": "TokenMatch presents a solid contribution to 3D shape correspondence with a reasonable technical approach (curvature-guided tokenization for transformer-based matching) and evaluation across multiple benchmarks. However, the abstract lacks specific quantitative comparisons to strong baselines, making it difficult to assess the magnitude of improvements. The claim of generalizing from partial to full shapes without retraining is interesting but needs concrete evidence. The work is competent and addresses a real problem, but does not present a breakthrough result that would change practitioner decisions.",
+    "tags": [
+      "3d-shape-matching",
+      "transformer-architecture",
+      "mesh-correspondence",
+      "geometric-learning",
+      "partial-shape-matching"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Adeela Islam, Zorah Lähner, Vittorio Murino, Vladislav Golyanik",
+    "published_at": "2026-09-03T17:59:55+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04196",
+    "title": "Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States",
+    "url": "https://arxiv.org/abs/2609.04196",
+    "score": 6.0,
+    "summary": "Puffin-World는 물리, 기하, 외형을 통합하는 멀티모달 아키텍처를 제안하며, 1500만 개의 비전-언어-카메라 삼중쌍으로 구성된 Puffin-16M 데이터셋을 공개한다.",
+    "reason": "A solid contribution with an interesting unified architecture for 3D world modeling, but the evaluation is limited. The abstract claims integration of physics, geometry, and appearance without external modules, and introduces a large dataset (Puffin-16M). However, no quantitative results, baselines, or comparisons are provided in the abstract. The novelty of jointly modeling these three world states is modest—each component (physics simulation, depth estimation, image generation) is well-explored. The claim of 'scaling' relies on dataset size rather than demonstrated performance gains. Code and dataset release is valuable for reproducibility, but without evidence of superior performance or novel capabilities over existing approaches, the contribution remains incremental. The work may be useful for practitioners building 3D world models, but the abstract does not establish why this particular unified approach is preferable to modular alternatives.",
+    "tags": [
+      "3d-world-models",
+      "multimodal-learning",
+      "physics-simulation",
+      "dataset-release",
+      "generative-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Kang Liao, Yihang Luo, Xiao-Ming Wu, Linyi Jin, Size Wu",
+    "published_at": "2026-09-03T17:59:13+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04131",
+    "title": "Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding",
+    "url": "https://arxiv.org/abs/2609.04131",
+    "score": 6.0,
+    "summary": "LatentStream는 스트리밍 비디오 이해를 위해 외부 메모리 뱅크 기반 검색 방식을 대신해 쿼리 관련 증거를 내부 잠재 메모리로 점진적으로 통합하는 프레임워크를 제안하며, 계층적 메모리 구성, 확장 가능한 수용 필드를 가진 잠재 토큰, 신뢰도 기반 최적화를 통해 스트리밍 추론을 개선한다.",
+    "reason": "A solid contribution to streaming video understanding with a clear technical approach (latent memory evolution vs. store-and-retrieve), but the abstract lacks concrete performance numbers, baseline comparisons, or evidence of how substantial the improvements are. The method is well-motivated and the three-component design appears thoughtful, but without quantitative results or reproducibility signals (code/weights), it reads as a reasonable incremental advance rather than a must-read result. The problem is relevant to practitioners building video understanding systems, but the evaluation evidence presented is insufficient to judge impact.",
+    "tags": [
+      "video-understanding",
+      "streaming-processing",
+      "multimodal-llm",
+      "memory-architecture",
+      "latent-representations"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Hongyu Qu, Guangming Yao, Ling Xing, Xiaobin Hu, Rongxing Ding",
+    "published_at": "2026-09-03T17:28:14+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04120",
+    "title": "BooM-VVT: Boosting Mask-Free Video Virtual Try-On with Image-Level Pseudo Data",
+    "url": "https://arxiv.org/abs/2609.04120",
+    "score": 6.0,
+    "summary": "BooM-VVT는 이미지 수준의 의사 데이터를 활용하여 마스크 없는 비디오 가상 피팅을 구현하며, 의류 민감 키프레임 샘플링과 Frame-Shared 3D-RoPE를 통해 의류 일관성과 시공간 대응을 개선하고, 다양한 카메라 시점을 지원하는 OmniView 데이터셋을 제시한다.",
+    "reason": "A solid contribution to video virtual try-on with reasonable technical novelty (mask-free approach via image-level pseudo data, garment-sensitive keyframe sampling, Frame-Shared 3D-RoPE). The paper addresses real practical challenges (mask dependency, garment consistency, multi-view diversity) and introduces a new dataset (OmniView). However, the abstract does not provide quantitative comparisons to strong baselines, ablation details, or evidence of the claimed superiority. The work is incremental within the try-on domain rather than introducing a fundamentally new capability. Reproducibility depends on whether code and dataset are released (not confirmed in abstract).",
+    "tags": [
+      "video-generation",
+      "virtual-try-on",
+      "pseudo-data",
+      "garment-consistency",
+      "multi-view-dataset"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Wei Zhang, Xin Li, Peishu Shi, Jialin Gao, Xuekang Peng",
+    "published_at": "2026-09-03T17:22:33+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04110",
+    "title": "The Shape of Time: Video-Token Contrast for Temporal Understanding in VideoLMs",
+    "url": "https://arxiv.org/abs/2609.04110",
+    "score": 6.0,
+    "summary": "VideoLMs이 텍스트 생성 감독에만 의존하면서 실제 시간적 이해보다 객체나 장면 같은 지름길을 학습할 수 있다는 문제를 지적하고, 순서 보존 뷰와 재정렬된 반사실적 뷰를 Kendall tau 거리로 대조하는 표현 수준의 시간적 대조 목표인 VT-Contrast를 제안한다.",
+    "reason": "The paper identifies a real problem—that VideoLMs may exploit shortcuts rather than learning genuine temporal understanding—and proposes a straightforward contrastive learning solution at the representation level. The approach is practical (no architectural changes, compatible with existing training) and shows improvements on temporal benchmarks. However, the abstract provides limited evidence of the magnitude of gains, lacks comparison to other temporal supervision methods, and does not establish that this is a critical bottleneck for practitioners. The contribution is solid but incremental: adding a contrastive objective to existing models rather than a fundamental insight or breakthrough result.",
+    "tags": [
+      "video-understanding",
+      "temporal-reasoning",
+      "contrastive-learning",
+      "representation-learning",
+      "video-language-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Yumeng Shi, Quanyu Long, Yin Wu, Wenya Wang",
+    "published_at": "2026-09-03T17:14:55+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04088",
+    "title": "Efficient Semantic Understanding from Digital Foveation",
+    "url": "https://arxiv.org/abs/2609.04088",
+    "score": 6.0,
+    "summary": "생물학적 시각에서 영감을 받아 디지털 포비에이션(foveated perception)을 통해 의미론적 분할을 효율적으로 수행하는 경량 능동 시각 파이프라인을 제시하며, 단일 포비에이 관찰로 계산 비용 4.7%만 사용하면서 95.9% 정확도를 달성한다.",
+    "reason": "A solid contribution with convincing efficiency gains and thoughtful evaluation methodology. The paper addresses a real problem (computational cost of dense segmentation) with a biologically-inspired approach and demonstrates substantial savings (4.7% computation for single fovea, 58.6% for scene-level) while maintaining high accuracy. However, the scope is somewhat narrow—it applies existing techniques (saliency detection, foveated vision, semantic accumulation) to a specific task rather than introducing fundamentally new methods. The evaluation is honest and includes useful object-level metrics beyond standard pixel-wise measures, but the work is primarily an engineering contribution showing that active vision can be efficient for segmentation. The practical value for practitioners building efficient vision systems is real but incremental.",
+    "tags": [
+      "semantic-segmentation",
+      "efficient-vision",
+      "active-vision",
+      "foveated-perception",
+      "computational-efficiency"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Caterina Caccavella, Vittorio Fra, Andreas Ziegler, Giulia D'Angelo, Yulia Sandamirskaya",
+    "published_at": "2026-09-03T16:56:12+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04070",
+    "title": "Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving",
+    "url": "https://arxiv.org/abs/2609.04070",
+    "score": 6.0,
+    "summary": "LaPla는 Vision-Language Model의 이산적 추론과 자율주행의 연속적 제어 간의 간극을 해소하기 위해 VQ-VAE 기반 액션 토크나이저와 잠재 공간 정렬 계획을 결합한 VLA 프레임워크로, nuScenes에서 기존 방법 대비 15.52% 오류 감소와 AlpaSim 폐루프 평가에서 33.34 포인트 성공률 향상을 달성했다.",
+    "reason": "A solid contribution to end-to-end autonomous driving that addresses a real technical problem—bridging discrete language understanding and continuous control—with a reasonable solution (latent-aligned planning via VQ-VAE). The evaluation shows meaningful improvements on nuScenes and AlpaSim, and the approach avoids quantization errors through direct latent projection rather than codebook lookup. However, the novelty is somewhat incremental: using VQ-VAE latents as a bridge between modalities is a natural idea, and the core technical contribution (action tokenizer + concurrent queries) is not deeply novel. The paper lacks comparison to some relevant baselines and does not demonstrate whether the approach generalizes beyond the tested benchmarks. The closed-loop improvements are encouraging but modest in scope. Reproducibility is unclear—no mention of code or model release.",
+    "tags": [
+      "autonomous-driving",
+      "vision-language-models",
+      "end-to-end-learning",
+      "action-tokenization",
+      "motion-planning"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Ruoyu Yao, Yusen Xie, Qingzhao Liu, Pei Liu, Zewei Yang",
+    "published_at": "2026-09-03T16:42:11+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "github:release:382142326",
+    "title": "langchain-ai/langchain released langchain-anthropic==1.7.1",
+    "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.1",
+    "score": 5.0,
+    "summary": "LangChain의 langchain-anthropic 패키지 1.7.1 버전이 릴리스되었으며, 미들웨어 트레이스 입력 최적화, Claude Fable 5.1 지원 추가, 버그 수정이 포함되었다.",
+    "reason": "Routine minor version release with incremental improvements. The changes include a performance optimization (omitting middleware trace inputs), support for a new Claude model variant, and a bug fix. While technically sound and relevant to LangChain users working with Anthropic's API, this represents standard maintenance rather than a significant breakthrough or novel capability.",
+    "tags": [
+      "langchain",
+      "anthropic",
+      "python-library",
+      "release"
+    ],
+    "source_type": "github",
+    "sub_source": "langchain-ai/langchain",
+    "author": "github-actions[bot]",
+    "published_at": "2026-09-03T15:42:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49552572",
+    "title": "Artificial beaver dams saw juvenile coho salmon survival rates go from 8% to 60%",
+    "url": "https://www.discoverwildlife.com/animal-facts/artificial-beaver-dams-california",
+    "score": 5.0,
+    "summary": "인공 비버 댐이 캘리포니아의 어린 코호 연어 생존율을 8%에서 60%로 향상시켰다는 연구 결과.",
+    "reason": "This article describes an interesting ecological intervention with concrete results (8% to 60% survival rate improvement), but the content is primarily about wildlife management and environmental restoration rather than technology, software engineering, or AI systems. While it appeared on Hacker News, it lacks technical depth or relevance to the stated evaluation profile. The community discussion shows moderate engagement but focuses on historical anecdotes and ecological theory rather than technical insights.",
+    "tags": [
+      "environmental-science",
+      "wildlife-management",
+      "ecological-restoration"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "speckx",
+    "author": "speckx",
+    "published_at": "2026-09-03T16:21:33+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:9d0ae0d981530e12",
+    "title": "Google now lets you chat with Gmail, Docs, and Keep",
+    "url": "https://www.theverge.com/tech/989508/google-gmail-docs-keep-live-voice-modes-gemini",
+    "score": 5.0,
+    "summary": "Google이 Gmail, Docs, Keep에 Gemini Live 기반의 음성 어시스턴트 기능을 추가하여 사용자가 음성으로 앱을 제어할 수 있도록 하는 기능을 출시하고 있다.",
+    "reason": "This is an incremental feature rollout extending existing Gemini Live capabilities to Google's productivity suite. While the integration is useful for users, it represents routine product expansion rather than technical innovation or breakthrough functionality. The content lacks technical depth, implementation details, or analysis of the underlying technology.",
+    "tags": [
+      "google-products",
+      "ai-assistants",
+      "voice-interfaces",
+      "productivity-tools"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Jess Weatherbed",
+    "published_at": "2026-09-03T16:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:arstechnica.com_ai_feed_:b9059bbeee027ae8",
+    "title": "Four major AI models suffer rare overlapping downtime",
+    "url": "https://arstechnica.com/ai/2026/09/four-major-ai-models-suffer-rare-overlapping-downtime/",
+    "score": 5.0,
+    "summary": "ChatGPT, Claude, Grok, Gemini 등 주요 AI 모델 네 개가 거의 동시에 서비스 중단을 경험했다.",
+    "reason": "This reports a notable but ultimately routine operational incident affecting multiple major AI services. While the simultaneous downtime of four major platforms is uncommon and worth noting, the article provides minimal technical detail about causes, duration, or impact. The news has moderate interest for those tracking AI service reliability, but lacks the depth or significance for higher priority. No evidence of systemic issues, security breaches, or lasting consequences is presented in the available content.",
+    "tags": [
+      "ai-services",
+      "infrastructure",
+      "reliability",
+      "outage"
+    ],
+    "source_type": "rss",
+    "sub_source": "Ars Technica AI",
+    "author": "Kyle Orland",
+    "published_at": "2026-09-03T18:10:19+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:d302cba0dd9a6b25",
+    "title": "a16z Launches $1.1B Machine Age Fund - quasa.io",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVEw0ajVUZlN3YzdoQzV4dGJPZVZ1aFpiZ2pYQnFxM0h5d0dEdHBYdGZrSFVQTDhGX1czU1NfUFZHamNsSDNWU21TcXNXaWQ2dmdXaEZFMUZJSGcweUx5WEs4YW5lTXRrcy1PY29tenpyVEpEY1ZhNllUU3ZNQnNiTTBKaWNFc1ltRHdMN3NXVmJBRFdMeWdN?oc=5",
+    "score": 5.0,
+    "summary": "a16z가 머신러닝과 AI 기술에 초점을 맞춘 11억 달러 규모의 Machine Age Fund를 출범했다.",
+    "reason": "Announcement of a significant venture capital fund focused on machine learning and AI infrastructure. While the fund size is substantial, the item provides minimal technical detail, concrete investment thesis, or analysis beyond the headline. The source is a news aggregator link without substantive content provided. Relevant to industry observers but lacks the depth or specificity needed for higher scoring.",
+    "tags": [
+      "venture-capital",
+      "ai-funding",
+      "machine-learning",
+      "industry-news"
+    ],
+    "source_type": "google_news",
+    "sub_source": "quasa.io",
+    "author": "quasa.io",
+    "published_at": "2026-09-04T04:20:23+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:655bbe97d097de51",
+    "title": "Sanders and Casar Unveil Bill to Outlaw Superintelligent AI in the U.S. - Unite.AI",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbnVhb1p4VWNTdmJsU1pwcndObS10dmhLZldPSzJSRVFZM29VX3lzbmU0UDlrOEdOUU5PcVJOOEJUYnQ1aXgtbzcxQ2pBVTdrQXQwZVhMcWozazdYa0lPUXZsLTA3RHM1WHB0R3oyalhYNmVyNlF4SHNRbjU2dGpyOVhLYnZWTjY2cG1rR0VPU0N1QkxYZU1v?oc=5",
+    "score": 5.0,
+    "summary": "미국 상원의원들이 초지능형 AI를 금지하는 법안을 제시했으나, 제공된 콘텐츠는 헤드라인만 포함하고 기술적 정의나 규제 메커니즘에 대한 구체적 세부사항이 부족하다.",
+    "reason": "This is a policy news item about proposed legislation regarding AI regulation. While AI governance is relevant to technology professionals, the content provided is minimal—only a headline and source attribution with no substantive details about the bill's technical scope, definitions, mechanisms, or likely impact. The story has political significance but lacks the technical depth or concrete details needed for higher scoring. Without access to the full article content, it's impossible to assess whether it contains meaningful analysis of how 'superintelligent AI' is defined or what the regulatory implications would be.",
+    "tags": [
+      "ai-policy",
+      "regulation",
+      "superintelligence",
+      "legislation"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Unite.AI",
+    "author": "Unite.AI",
+    "published_at": "2026-09-03T18:05:02+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:22577d1cc20d01f9",
+    "title": "PIF-Backed HUMAIN Launches Humain-M3 Arabic Model at LEAP Riyadh - Unite.AI",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbWNha0VnVmdqTC1GR3RueXJ5bjZVWEFUck9oelgtRUtvYk5zdmlEUXlXSzJKaEFJTHdXVXhkVVpZSGFKYlJSY3RESXF0dTl6eFlTTmZXYVpLVFVyTTRQR0hNQXN4TWdxdXlOMmtFcmtnNXRtS3BlT21zYVZidTJXdFR5bXJUc0ctVmVSTXJjaw?oc=5",
+    "score": 5.0,
+    "summary": "PIF 지원 HUMAIN이 LEAP Riyadh에서 Humain-M3 Arabic 언어 모델을 출시했다.",
+    "reason": "Announcement of a new Arabic-language LLM from a PIF-backed organization. While Arabic language model development is a relevant area for AI/ML readers, the content provided is minimal—only a headline and source attribution. Without substantive technical details, performance metrics, model architecture, or comparative analysis, this reads as a routine product announcement rather than a deep technical contribution. The venue (LEAP Riyadh) suggests industry positioning rather than research validation.",
+    "tags": [
+      "language-models",
+      "arabic-nlp",
+      "ai-announcements",
+      "industry-news"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Unite.AI",
+    "author": "Unite.AI",
+    "published_at": "2026-09-03T15:44:02+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:5168f9c2c5067a79",
+    "title": "Microsoft Shares Jump 3% After Company Unveils Plan To Reveal Azure Revenue For First Time This Fall - ibtimes.com.au",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSFNlc2owSUpJR3did0NRaVhhVXZ1UjAzdzZURFRhaDdodGRaVnFVTUdFcU8xMzdQa01BUW1NQ3d5Wm1DNnZuZXhFdVd0Z3VRdVMydHk4cTRDVGRUdHhOY1dHa2lCaVpKbXVsWUpIRVk5YTdvNzdkd3dMRWVlekdtSjRrRTJzdXYyMWc?oc=5",
+    "score": 5.0,
+    "summary": "Microsoft가 올해 가을 Azure 수익을 처음으로 공개하겠다는 계획을 발표한 후 주가가 3% 상승했다.",
+    "reason": "This is a financial market reaction story to a corporate disclosure announcement. While Azure revenue transparency is moderately significant for investors and industry analysts tracking cloud market dynamics, the content itself appears to be a headline-only news brief without technical depth, analysis, or concrete details about Azure's business impact. The stock price movement is a secondary market reaction rather than substantive technical or product news. Relevant to the technology industry but not urgent for software engineering or AI systems audiences.",
+    "tags": [
+      "cloud-computing",
+      "azure",
+      "financial-news",
+      "microsoft"
+    ],
+    "source_type": "google_news",
+    "sub_source": "ibtimes.com.au",
+    "author": "ibtimes.com.au",
+    "published_at": "2026-09-03T15:21:51+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2609.04048",
+    "title": "Translation as a Decision Space: A Multi-Agent Perspective on Low-Resource Dialect Generation",
+    "url": "https://arxiv.org/abs/2609.04048",
+    "score": 5.0,
+    "summary": "다국어 디코딩 내 암묵적 대안 경로를 활용하여 저자원 방언 생성을 위한 번역을 구조화된 결정 공간으로 재구성하고, 터키어–시리아 아랍어 번역에서 세 가지 에이전트의 행동 차이를 분석하는 연구.",
+    "reason": "The paper presents an interesting reframing of translation as a multi-agent decision space with a focus on low-resource dialect generation. However, the contribution is primarily methodological and interpretive rather than delivering a capability breakthrough. The empirical study is narrow (Turkish–Syrian Arabic only), evaluation metrics are non-standard (dialect markers, lexical proximity, structural variance rather than established translation quality measures), and there is no comparison to strong baselines or state-of-the-art dialect translation systems. The lightweight fine-tuning approach shows promising results (doubling dialect marker usage), but the practical impact for practitioners building translation systems remains unclear. The work would benefit from broader evaluation, comparison to existing dialect-aware translation methods, and clearer guidance on when and how practitioners should adopt this multi-agent framing.",
+    "tags": [
+      "machine-translation",
+      "low-resource-languages",
+      "dialect-generation",
+      "multi-agent-systems",
+      "interpretability"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Hasan Alkhder, Mohammad Abboush, Igor Tchappi, Ahmet Zengin, Amro Najjar",
+    "published_at": "2026-09-03T16:22:18+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04030",
+    "title": "IRWOZ 2.0: A Large Language Model-driven Dialogue Dataset for Industrial Robot Conversations",
+    "url": "https://arxiv.org/abs/2609.04030",
+    "score": 5.0,
+    "summary": "IRWOZ 2.0는 Mistral과 Claude-3.5를 활용한 LLM 기반 생성과 수동 수정을 통해 산업용 로봇 대화 데이터셋을 개선했으며, 대화 상태 추적에서 BLEU-4 점수를 0.1651에서 0.5604로 향상시켰다.",
+    "reason": "A dataset contribution with clear practical value for a narrow domain (industrial robot dialogue), but limited scope and novelty. The improvement over IRWOZ 1.0 is substantial (BLEU-4: 0.1651→0.5604), and public release supports reproducibility. However, the work is primarily a refinement of an existing dataset using standard LLM-assisted annotation rather than a methodological advance. The evaluation is limited to dialogue state tracking on a single baseline (GPT-2), and the dataset size (390 dialogues across 4 domains) is modest. The contribution is useful for practitioners working on industrial HRI but unlikely to influence broader AI research or practice.",
+    "tags": [
+      "dialogue-dataset",
+      "industrial-robotics",
+      "human-robot-interaction",
+      "dialogue-state-tracking",
+      "llm-annotation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Chen Li, Dimitrios Chrysostomou",
+    "published_at": "2026-09-03T16:08:57+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04028",
+    "title": "Influence of Extruded Filament Shape on Buildability in 3D Concrete Printing: A Geometry-Informed Deep Learning-FEM Approach",
+    "url": "https://arxiv.org/abs/2609.04028",
+    "score": 5.0,
+    "summary": "3D 콘크리트 프린팅에서 압출된 필라멘트의 기하학적 형태가 구조 안정성에 미치는 영향을 조사하기 위해 ShapeGen3DCP 딥러닝 도구와 층 활성화 FEM을 결합한 기하학 기반 모델링 프레임워크를 제안한다.",
+    "reason": "This paper addresses a specific technical problem in 3D concrete printing by combining deep learning with FEM simulation. While the integration of geometry-informed modeling is sensible and the validation against experimental data is solid, the contribution is narrow in scope: it refines how filament shapes are represented in existing buildability assessment frameworks rather than introducing a fundamentally new capability or method. The work is competent but incremental—applying known techniques (deep learning for shape prediction, FEM for structural analysis) to improve an existing simulation pipeline. The practical guidance on geometric representations is useful for practitioners in this niche domain, but the impact is limited to a specific application area with modest audience overlap with general AI practitioners.",
+    "tags": [
+      "3d-printing",
+      "deep-learning",
+      "finite-element-method",
+      "materials-science",
+      "geometry-prediction"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CE",
+    "author": "Giacomo Rizzieri, Saif-Ur-Rehman, Jörg F. Unger, Annika Robens-Radermacher",
+    "published_at": "2026-09-03T16:08:19+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04013",
+    "title": "LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening",
+    "url": "https://arxiv.org/abs/2609.04013",
+    "score": 5.0,
+    "summary": "LLM을 이용한 만성신장질환 조기 선별 시스템을 zero-shot 및 few-shot 학습으로 평가하고, 전통적인 머신러닝 및 딥러닝 방법과 비교한 연구로, LLM이 제한된 데이터 환경에서는 경쟁력 있는 성능을 보이지만 입력 복잡도 증가에 따라 안정성이 떨어진다는 것을 보여준다.",
+    "reason": "The paper addresses a practical healthcare application (CKD screening) using LLMs in zero/few-shot settings, which is relevant to practitioners. However, the contribution is primarily empirical comparison rather than methodological novelty. The evaluation is reasonable but limited: no code/data release mentioned, the comparison is against traditional baselines rather than recent LLM-specific approaches, and the key finding (LLMs work in low-data regimes but are less stable) is somewhat expected given known LLM properties. The work would be stronger with deeper analysis of failure modes, more rigorous statistical testing, or a novel prompting strategy. The practical impact is unclear—the paper suggests LLMs as 'complementary' rather than demonstrating a clear use case where they should replace existing methods.",
+    "tags": [
+      "healthcare-ml",
+      "llm-applications",
+      "few-shot-learning",
+      "medical-screening",
+      "tabular-data"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Muhammad Ashad Kabir, Sirajam Munira",
+    "published_at": "2026-09-03T15:53:20+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04009",
+    "title": "The Blind Spot in 2D Infants' Pose Estimation:Robust Learning from Noisy Annotations",
+    "url": "https://arxiv.org/abs/2609.04009",
+    "score": 5.0,
+    "summary": "임상 환경에서 신생아 자세 추정(pose estimation)의 라벨 노이즈 문제를 다루기 위해 훈련 역학을 활용한 REMIND 방법을 제안하며, 46개 비디오의 proprietary NeoPose 데이터셋에서 93% AUC를 달성했으나 평가 범위가 제한적이다.",
+    "reason": "The paper addresses a real and underexplored problem—label noise in pose estimation for clinical applications—with a reasonable approach (REMIND, a clustering-based keypoint selection method). However, the evaluation is limited to a single proprietary dataset of 46 videos, making it difficult to assess generalization. The contribution is domain-specific and incremental: applying existing noise-robustness ideas (training dynamics, clustering) to pose estimation. No comparison to other noise-handling baselines in PE is reported, and the clinical motivation, while compelling, does not compensate for the narrow experimental scope. The work would be stronger with evaluation on public datasets or clearer ablations showing why this approach outperforms simpler alternatives.",
+    "tags": [
+      "pose-estimation",
+      "label-noise",
+      "clinical-applications",
+      "training-dynamics",
+      "infant-monitoring"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Emanuele Cardinale, Marco Proietti, Alessandro Cacciatore, Maria Francesca Spadea, Lucia Migliorelli",
+    "published_at": "2026-09-03T15:47:56+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04005",
+    "title": "The Dually Flat Geometry of Planning as Inference",
+    "url": "https://arxiv.org/abs/2609.04005",
+    "score": 5.0,
+    "summary": "RL의 occupancy measure를 정보기하학적 관점에서 재해석하여, visitation measure가 dual flatness를 갖는 통계 다양체를 형성함을 보이고, 이를 통해 planning-as-inference를 비선형 함수로 일반화하는 이론적 프레임워크를 제시한다.",
+    "reason": "The paper presents a theoretically interesting geometric perspective on planning and reinforcement learning through information geometry and dual flatness. However, the contribution is primarily conceptual and mathematical rather than empirical. The abstract lacks concrete evidence of practical impact: no experimental results, no comparison to existing methods, no demonstration that this geometric insight leads to improved algorithms or performance. The work appears to consolidate existing ideas (occupancy measures, planning-as-inference, natural gradients) under a new mathematical framework, which is valuable for theory but insufficient without evidence that practitioners should change their approach. The connection to temporal-difference learning and neuroscience is mentioned but not substantiated in the abstract.",
+    "tags": [
+      "information-geometry",
+      "reinforcement-learning",
+      "planning-as-inference",
+      "occupancy-measures",
+      "theoretical-framework"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Nikola Milosevic, Asaki Kataoka, Nicolas Hinrichs, Kenji Doya, Nico Scherf",
+    "published_at": "2026-09-03T15:44:47+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.03995",
+    "title": "Catalogue Photography as a Cold Start: Toward Deployable Carbide Burr Recognition",
+    "url": "https://arxiv.org/abs/2609.03995",
+    "score": 5.0,
+    "summary": "제조 공정에서 카바이드 버(carbide burr) 품질 검사를 자동화하기 위해 카탈로그 사진만을 감독 신호로 사용하는 콜드 스타트 문제를 다루며, 메트릭 학습과 도메인 적응 기법을 통해 카탈로그에서 현장 사진으로의 전이 성능 격차를 측정하고, 모델 복잡도보다는 그레이스케일 변환과 헝가리안 할당 같은 단순한 도메인 민감도 감소 기법이 더 효과적임을 보여준다.",
+    "reason": "A narrow but well-executed study of a real industrial problem. The paper makes honest contributions—measuring the catalogue-to-field domain gap, showing that simple interventions (grayscale, Hungarian matching) outperform model scaling, and providing baselines for a specific manufacturing task. However, the scope is highly specialized (carbide burr recognition), the evaluation is limited to one manufacturer's data, and the methods are not novel (metric learning, standard domain adaptation techniques). The value lies in the empirical honesty and practical framing rather than methodological innovation. Practitioners building general-purpose vision systems will find limited applicability; those solving similar cold-start problems in precision manufacturing may find the evaluation protocol useful.",
+    "tags": [
+      "cold-start-learning",
+      "domain-adaptation",
+      "industrial-vision",
+      "metric-learning",
+      "manufacturing-qa"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Abilash Philip Madavath, Chandra Yuvesh Aubeeluck, Augustin Raju, Nicolas Pyschny, Felix Hackelöer",
+    "published_at": "2026-09-03T15:36:12+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04034",
+    "title": "Editable Visual Design",
+    "url": "https://arxiv.org/abs/2609.04034",
+    "score": 5.0,
+    "summary": "VLM을 '창의적 두뇌'로, 이미지 생성 모델을 '시각 시뮬레이터'로 활용하는 코딩 에이전트 기반 시스템으로, HTML/CSS 생성과 반복적 개선을 통해 편집 가능한 디자인 산출물을 만든다.",
+    "reason": "The paper presents a reasonable system combining VLMs and image generation for editable design output, but the contribution is primarily architectural (orchestrating existing components) rather than methodological. The abstract lacks concrete evidence: no quantitative comparisons to baselines, no user studies, no reproducibility details (code/weights), and vague validation claims ('validations on posters, infographics'). The core idea—using an agent to generate HTML/CSS with iterative refinement—is sensible but incremental. Without ablations, failure cases, or rigorous evaluation, it reads as a well-engineered system demo rather than a validated research contribution. Practitioners might find the workflow interesting, but the evidence does not support claims of superiority over existing design tools or generative approaches.",
+    "tags": [
+      "visual-generation",
+      "code-generation",
+      "agent-systems",
+      "design-automation",
+      "vlm-application"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Junyan Ye, Wei Liu, Dongzhi Jiang, Zichen Wen, HaoDong Li",
+    "published_at": "2026-09-03T16:10:12+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04168",
+    "title": "Para-Pipe: Exploiting Hierarchical Operator Parallelism of ML Computational Graphs on SoCs",
+    "url": "https://arxiv.org/abs/2609.04168",
+    "score": 5.0,
+    "summary": "Para-Pipe는 SoC의 이질적 처리 장치들 간에 파이프라인과 연산자 병렬성을 계층적으로 결합하여 신경망 추론의 지연시간과 처리량 간 트레이드오프를 최적화하는 매핑 프레임워크이다.",
+    "reason": "A reasonable contribution addressing a real problem (latency vs. throughput trade-offs on heterogeneous SoCs), but with limited scope and modest evidence. The paper presents a hierarchical mapping framework with evaluation on two specific SoCs, showing 11-23% energy efficiency gains. However, the abstract lacks detail on novelty relative to existing operator scheduling work, provides no comparison to other state-of-the-art scheduling methods, and the evaluation is restricted to two hardware platforms. The contribution is incremental optimization rather than a fundamental advance, and reproducibility is unclear (no mention of code release). Useful for practitioners optimizing edge inference on specific SoCs, but not broadly transformative.",
+    "tags": [
+      "edge-inference",
+      "soc-optimization",
+      "operator-scheduling",
+      "heterogeneous-computing",
+      "latency-throughput-tradeoff"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.DC",
+    "author": "Yujie Zhang, Huiying Lan, Ehsan Aghapour, Zhiyuan Ning, Peng Zan",
+    "published_at": "2026-09-03T17:53:44+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04018",
+    "title": "A location-invariant estimator of extremal quantile treatment effects for heavy-tailed distributions",
+    "url": "https://arxiv.org/abs/2609.04018",
+    "score": 5.0,
+    "summary": "heavy-tailed 분포에서 극단적 분위수 처리 효과(QTE)를 추정할 때 기존 방법의 위치 불변성 문제를 해결하기 위해, 인과 극값 지수 추정기를 적응시키고 차분 기반 외삽 방식을 제안하는 논문이다.",
+    "reason": "This paper addresses a technical issue in causal inference for extreme quantiles under heavy-tailed distributions. The contribution is narrow and specialized: fixing a location-invariance problem in existing extremal QTE estimators. While the theoretical development appears sound (consistency, asymptotic normality, variance estimation), the scope is limited to a specific methodological correction rather than a new capability or broad empirical insight. The evaluation relies on simulation studies without real-world applications or comparisons to alternative approaches. The work would be relevant to specialists in causal inference and extreme value theory, but unlikely to change practitioner decisions outside this narrow domain.",
+    "tags": [
+      "causal-inference",
+      "extreme-value-theory",
+      "quantile-estimation",
+      "heavy-tailed-distributions",
+      "theoretical-statistics"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Xin Yu, Shuwei Huang, Jicheng Liu, Jielin Tang, Bolin Wang",
+    "published_at": "2026-09-03T15:57:29+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.04174",
+    "title": "Zero-Shot Novel Depth Synthesis Using 3D Foundation Models Scene Representations",
+    "url": "https://arxiv.org/abs/2609.04174",
+    "score": 5.0,
+    "summary": "3D Foundation Model의 내부 표현을 활용하여 새로운 시점에서의 깊이를 추정하는 Z3D 방법을 제안하며, 잠재 확산(latent diffusion)을 통해 여러 데이터셋에서 현실적인 깊이 맵을 예측할 수 있음을 보여준다.",
+    "reason": "The paper presents a reasonable idea—leveraging 3D foundation model representations for novel view depth synthesis via latent diffusion—but the evaluation appears limited. The abstract claims 'realistic depth maps' across datasets without specifying quantitative comparisons to baselines, ablation details, or whether this outperforms existing novel view synthesis or depth prediction methods. The contribution is narrow (depth from 3DFM latents) and the evidence presented is insufficient to judge whether this changes practitioner decisions or offers meaningful advantages over established approaches.",
+    "tags": [
+      "3d-reconstruction",
+      "novel-view-synthesis",
+      "foundation-models",
+      "depth-estimation",
+      "diffusion-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Denis M. Akola, David F. Fouhey",
+    "published_at": "2026-09-03T17:54:52+00:00",
+    "profile": "ai-paper"
+  }
+]
