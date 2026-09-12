@@ -292,6 +292,13 @@
         "content_extractor": "trafilatura"
       },
       {
+        "name": "GeekNews",
+        "url": "https://news.hada.io/rss/news",
+        "category": "community",
+        "profile": "tech-news",
+        "content_extractor": "trafilatura"
+      },
+      {
         "name": "GitHub Trending - Daily",
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "category": "github-trending",
