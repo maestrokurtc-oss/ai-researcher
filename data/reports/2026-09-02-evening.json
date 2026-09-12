@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-02-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 2,
+    "more": 0
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "f2e4326ec6899d860caff5207a178a1c5706193a391d8677731256fd577b406c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "신경망의 상징적 구조를 폐곡선으로 근사하는 새로운 연구",
+      "url": "https://arxiv.org/abs/2608.29530",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "neural-network-interpretability",
+        "symbolic-approximation",
+        "llm-safety",
+        "model-compression",
+        "causal-abstraction"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "0805fe7a7e10aa6dc0a9bab1536887e48067b058f5f890245dffc67da62e182a",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "오픈소스 AI 탐지기 6종, 0.5% 오탐률 유지 실패로 성능 붕괴",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w58erw/most_opensource_ai_detectors_cant_hold_a_05/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "ai-detection",
+        "empirical-evaluation",
+        "open-source-tools",
+        "machine-learning",
+        "benchmark"
+      ]
+    }
+  ],
+  "manifest_id": "5c64ba9a6b1dcb3389cc648d953470400962205aa3d7bb6261404a68daa90788"
+}

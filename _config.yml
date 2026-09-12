@@ -3,6 +3,7 @@ title: AI 리서처 브리핑
 description: AI 뉴스·논문·업계 동향을 하루 두 번 한국어로 정리한 브리핑
 baseurl: "/ai-researcher" # the subpath of your site, e.g. /blog
 url: "https://maestrokurtc-oss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+feedback_api_url: "https://ai-researcher-feedback.kurtchoi.chatgpt.site/api/v1/feedback"
 
 # Build settings
 markdown: kramdown
