@@ -1,0 +1,79 @@
+[
+  {
+    "id": "hackernews:story:49668706",
+    "title": "Navier-Stokes Announcement",
+    "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+    "score": 6.0,
+    "summary": "Clay Mathematics Institute가 Navier-Stokes 문제의 해결을 공식 인정하는 중립적 성명을 발표했으며, 상금 수여까지는 2년의 동료 검토 기간이 필요하다.",
+    "reason": "This is a significant mathematical development with genuine importance to the field, but the item itself is a brief, neutral institutional statement rather than substantive technical content. The community discussion reveals meaningful context about prize eligibility and peer review processes, adding value. However, the announcement lacks technical depth, concrete details about the solution, or analysis of its implications. The story's importance derives from the underlying mathematical breakthrough, not from this particular statement.",
+    "tags": [
+      "mathematics",
+      "navier-stokes",
+      "peer-review",
+      "millennium-prize",
+      "openai"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "rvz",
+    "author": "rvz",
+    "published_at": "2026-09-12T04:09:43+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49668386",
+    "title": "google.com/goto: Google's anti-scraping update",
+    "url": "https://www.autom.dev/blog/google-search-goto-links",
+    "score": 6.0,
+    "summary": "Google이 웹 스크래핑을 방지하기 위해 google.com/goto 리다이렉트를 통한 URL 난독화를 구현한 기술적 변화를 다루며, 검색 결과 투명성과 데이터 접근성에 대한 커뮤니티의 우려를 반영한다.",
+    "reason": "The article documents a concrete technical development—Google's implementation of goto-style URL obfuscation as an anti-scraping measure—with substantive community discussion about its implications for web search, privacy, and information access. While the topic has moderate technical interest and reflects broader industry trends around data protection and scraping prevention, it represents an incremental defensive measure rather than a breakthrough. The high engagement suggests community concern about search quality and corporate control, but the core technical novelty is limited.",
+    "tags": [
+      "web-scraping",
+      "search-engines",
+      "url-obfuscation",
+      "anti-scraping",
+      "google"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "1e1a",
+    "author": "1e1a",
+    "published_at": "2026-09-12T03:14:20+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:48d46bfa6a41ef32",
+    "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+    "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+    "score": 5.0,
+    "summary": "로봇 학습 데이터 분야에서 Sequoia가 주도하는 자금 조달 라운드를 통해 Mecka AI가 약 5억 달러 규모의 기업가치 평가를 앞두고 있다.",
+    "reason": "This is a funding announcement for a robotics training data startup with a notable valuation milestone and established VC backing. While it reflects genuine industry interest in robot training infrastructure, the content provided is minimal—only a headline and a single sentence. Without substantive details about Mecka's technology, competitive positioning, market impact, or technical innovations, this reads as routine venture news rather than a development with immediate technical significance for software engineers or AI researchers. The topic is relevant but the treatment is shallow.",
+    "tags": [
+      "robotics",
+      "ai-training-data",
+      "venture-funding",
+      "machine-learning-infrastructure"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Marina Temkin",
+    "published_at": "2026-09-11T22:58:17+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:81f26d601f0d3119",
+    "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+    "score": 5.0,
+    "summary": "Bill Gates가 AI 시대의 중요한 선택지들에 대해 논의하는 의견 기고문.",
+    "reason": "Opinion piece on AI's societal implications from a prominent figure. While the topic is relevant to technology readers, the content provided is only a headline and link with no substantive details, technical depth, or concrete analysis. The framing suggests broad commentary rather than specific developments, research findings, or actionable insights for software engineers and AI practitioners.",
+    "tags": [
+      "artificial-intelligence",
+      "ai-ethics",
+      "industry-commentary"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Gates Notes",
+    "author": "Gates Notes",
+    "published_at": "2026-09-12T06:48:29+00:00",
+    "profile": "tech-news"
+  }
+]
