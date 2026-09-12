@@ -1,16 +1,55 @@
 [
   {
+    "id": "hackernews:story:49671329",
+    "title": "Fuck it, make it anyway",
+    "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+    "score": 6.0,
+    "summary": "개발자가 LLM을 활용한 개발에 대한 관점을 다룬 글로, 커뮤니티에서 AI 도구가 개발 경험과 개발자 정체성에 미치는 영향에 대해 실질적인 논의가 이루어졌다. 일부 개발자는 과거에 미루던 프로젝트를 빠르게 구현할 수 있게 되어 개발이 더 즐거워졌다고 보고하는 반면, 다른 의견들은 수공예적 기술 습득과 개발자로서의 정체성 상실에 대한 우려를 제기한다. 이는 AI 시대 소프트웨어 엔지니어링의 역할과 가치에 대한 광범위한 업계 논의를 반영한다.",
+    "reason": "Substantive community discussion about AI's impact on developer motivation and craft, with genuine technical and philosophical perspectives. The post and comments explore meaningful tensions around tool-assisted development, but lacks concrete technical details, novel research, or industry announcements.",
+    "tags": [
+      "ai-development",
+      "developer-experience",
+      "llm-tools",
+      "software-craftsmanship"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "JayOtter",
+    "author": "JayOtter",
+    "published_at": "2026-09-12T11:42:32+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49668386",
+    "title": "google.com/goto: Google's anti-scraping update",
+    "url": "https://www.autom.dev/blog/google-search-goto-links",
+    "score": 6.0,
+    "summary": "Google이 google.com/goto 리다이렉트를 통해 검색 결과 URL을 난독화하는 방식을 업데이트했으며, 이는 스크래핑과 프록시 기반 URL 재작성을 방지하기 위한 조치다. 기술 커뮤니티는 이를 Google의 장기적인 웹 투명성 감소 추세의 일부로 보고 있으며, 특히 JavaScript 의존성 증가와 URL 추적 강화가 개발자와 사용자의 웹 접근성을 제한한다는 점을 지적하고 있다.",
+    "reason": "Substantive technical analysis of Google's URL obfuscation strategy with concrete implementation details and significant community engagement. The topic addresses real changes to web infrastructure that affect developers and researchers, though the impact is primarily defensive rather than innovative.",
+    "tags": [
+      "web-infrastructure",
+      "url-obfuscation",
+      "anti-scraping",
+      "search-engines",
+      "developer-tools"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "1e1a",
+    "author": "1e1a",
+    "published_at": "2026-09-12T03:14:20+00:00",
+    "profile": "tech-news"
+  },
+  {
     "id": "hackernews:story:49668706",
     "title": "Navier-Stokes Announcement",
     "url": "https://www.claymath.org/news/navier-stokes-announcement/",
     "score": 6.0,
-    "summary": "Clay Mathematics Institute가 Navier-Stokes 문제의 해결을 공식 인정하는 중립적 성명을 발표했으며, 상금 수여까지는 2년의 동료 검토 기간이 필요하다.",
-    "reason": "This is a significant mathematical development with genuine importance to the field, but the item itself is a brief, neutral institutional statement rather than substantive technical content. The community discussion reveals meaningful context about prize eligibility and peer review processes, adding value. However, the announcement lacks technical depth, concrete details about the solution, or analysis of its implications. The story's importance derives from the underlying mathematical breakthrough, not from this particular statement.",
+    "summary": "Clay Mathematics Institute가 Navier-Stokes 문제가 해결되었다는 발표를 인정하는 중립적 성명을 발표했다. 커뮤니티 논의에 따르면 CMI의 규칙상 공식 출판 후 최소 2년이 경과해야 Millennium Prize 수상 자격이 생기며, OpenAI의 증명은 아직 공식 출판되지 않아 검증 시계가 시작되지 않았다. 성명의 신중한 표현(\"apparently\")과 OpenAI 언급 부재는 수학 커뮤니티의 검토 과정을 존중하는 기관의 신중한 입장을 반영한다.",
+    "reason": "Moderately interesting announcement about a claimed solution to a major unsolved problem in mathematics, with substantive community discussion about verification timelines and institutional processes. However, the source is a neutral institutional statement rather than technical analysis, and the actual mathematical content and validity remain unverified.",
     "tags": [
       "mathematics",
       "navier-stokes",
-      "peer-review",
       "millennium-prize",
+      "verification-process",
       "openai"
     ],
     "source_type": "hackernews",
@@ -20,60 +59,81 @@
     "profile": "tech-news"
   },
   {
-    "id": "hackernews:story:49668386",
-    "title": "google.com/goto: Google's anti-scraping update",
-    "url": "https://www.autom.dev/blog/google-search-goto-links",
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:539e0d2c04d7c271",
+    "title": "OpenAI just wants to win",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
     "score": 6.0,
-    "summary": "Google이 웹 스크래핑을 방지하기 위해 google.com/goto 리다이렉트를 통한 URL 난독화를 구현한 기술적 변화를 다루며, 검색 결과 투명성과 데이터 접근성에 대한 커뮤니티의 우려를 반영한다.",
-    "reason": "The article documents a concrete technical development—Google's implementation of goto-style URL obfuscation as an anti-scraping measure—with substantive community discussion about its implications for web search, privacy, and information access. While the topic has moderate technical interest and reflects broader industry trends around data protection and scraping prevention, it represents an incremental defensive measure rather than a breakthrough. The high engagement suggests community concern about search quality and corporate control, but the core technical novelty is limited.",
-    "tags": [
-      "web-scraping",
-      "search-engines",
-      "url-obfuscation",
-      "anti-scraping",
-      "google"
-    ],
-    "source_type": "hackernews",
-    "sub_source": "1e1a",
-    "author": "1e1a",
-    "published_at": "2026-09-12T03:14:20+00:00",
-    "profile": "tech-news"
-  },
-  {
-    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:48d46bfa6a41ef32",
-    "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
-    "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
-    "score": 5.0,
-    "summary": "로봇 학습 데이터 분야에서 Sequoia가 주도하는 자금 조달 라운드를 통해 Mecka AI가 약 5억 달러 규모의 기업가치 평가를 앞두고 있다.",
-    "reason": "This is a funding announcement for a robotics training data startup with a notable valuation milestone and established VC backing. While it reflects genuine industry interest in robot training infrastructure, the content provided is minimal—only a headline and a single sentence. Without substantive details about Mecka's technology, competitive positioning, market impact, or technical innovations, this reads as routine venture news rather than a development with immediate technical significance for software engineers or AI researchers. The topic is relevant but the treatment is shallow.",
-    "tags": [
-      "robotics",
-      "ai-training-data",
-      "venture-funding",
-      "machine-learning-infrastructure"
-    ],
-    "source_type": "rss",
-    "sub_source": "TechCrunch AI",
-    "author": "Marina Temkin",
-    "published_at": "2026-09-11T22:58:17+00:00",
-    "profile": "tech-news"
-  },
-  {
-    "id": "google_news:article:81f26d601f0d3119",
-    "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
-    "score": 5.0,
-    "summary": "Bill Gates가 AI 시대의 중요한 선택지들에 대해 논의하는 의견 기고문.",
-    "reason": "Opinion piece on AI's societal implications from a prominent figure. While the topic is relevant to technology readers, the content provided is only a headline and link with no substantive details, technical depth, or concrete analysis. The framing suggests broad commentary rather than specific developments, research findings, or actionable insights for software engineers and AI practitioners.",
+    "summary": "OpenAI가 수학의 밀레니엄 상 문제 중 하나를 해결했다고 주장했으며, 이는 역사적 성과로 여겨질 수 있다. 그러나 기사는 실제 수학적 기여, 검증 상태, 또는 해결된 구체적인 문제에 대한 기술적 세부사항을 제공하지 않으며, 대신 경쟁적 위치 지정에 초점을 맞추고 있다.",
+    "reason": "OpenAI's claimed solution to a Millennium Prize Problem is technically significant and newsworthy, but the article provides limited concrete technical detail about the actual mathematical contribution, the verification status, or the specific problem solved. The framing emphasizes competitive positioning over substantive technical analysis.",
     "tags": [
       "artificial-intelligence",
-      "ai-ethics",
-      "industry-commentary"
+      "mathematics",
+      "openai",
+      "research-claims"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Robert Hart",
+    "published_at": "2026-09-12T11:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:46353eea0718ccc7",
+    "title": "OpenAI claims $1M math breakthrough but gets hit with plagiarism allegations - Dagens.com",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOFd0cXdzcDRKRWQwQnhndDI1WjBUUmZNN1ZVMjlFV2MzeF9ScVJQWVgxa045UWxkY2NUa3V0Vk1VODk0VTR3ejRRV0FDMDBqOVdEQWlINVlWUmQ4QlUtRXJ4RXJaYnVvWlpPT2NUaDRrOWV4a25iZ096M2trZjN1dnRFOEZVMlBfeVZ6aWVRSzMwSHRXNXU0UFVpTlhiaDFTcVRfMGN4Vk5sMkgwS21LeUtB?oc=5",
+    "score": 6.0,
+    "summary": "OpenAI가 수학 분야에서 100만 달러 규모의 돌파구를 주장했으나 표절 혐의에 직면했다. 구체적인 기술 세부사항이나 혐의의 근거가 제목에 명시되지 않았지만, 주요 AI 연구소의 연구 신뢰성과 성과 검증 문제를 다루는 중요한 논쟁이다.",
+    "reason": "Substantive controversy involving a major AI lab's claimed breakthrough and credibility allegations. The plagiarism claim adds significant weight beyond routine news, though the headline alone provides limited technical detail. Warrants attention for those tracking OpenAI's research integrity and mathematical AI capabilities.",
+    "tags": [
+      "openai",
+      "research-integrity",
+      "mathematics",
+      "ai-breakthroughs",
+      "plagiarism"
     ],
     "source_type": "google_news",
-    "sub_source": "Gates Notes",
-    "author": "Gates Notes",
-    "published_at": "2026-09-12T06:48:29+00:00",
+    "sub_source": "Dagens.com",
+    "author": "Dagens.com",
+    "published_at": "2026-09-12T11:06:19+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:6f191393cc3238cc",
+    "title": "Gemini Guided Vision brings spoken descriptions to Android camera views - iNews Zoombangla",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbFlQcjFiSGNSQWMzTDgxTk5hNEFiaGFYNFNoWm1sSDR1MXowX3dMQ3dmeS04azBiWThoc3IzU042d0I2QlJHazBldkF6NUJmejNHdk9Mc09MZlI4a3ptRnQ4U1dfTl9fYlZJR3VmNDRIZTF5X3pwQkJ2em1rS0RLT3hzeUs?oc=5",
+    "score": 6.0,
+    "summary": "Google이 Android 카메라에 Gemini Guided Vision 기능을 추가했으며, 이는 카메라 뷰에 대한 음성 설명을 제공한다. 이 기능은 시각 장애 사용자를 포함한 접근성 개선을 목표로 하며, Google의 멀티모달 AI 모델을 활용하여 실시간 카메라 입력을 설명한다.",
+    "reason": "Incremental accessibility feature announcement for Android. Gemini Guided Vision appears to be a new capability adding spoken descriptions to camera views, which is useful for accessibility but represents a feature addition rather than a major technical breakthrough. Limited technical detail available from the headline and source alone.",
+    "tags": [
+      "accessibility",
+      "android",
+      "gemini",
+      "ai-features",
+      "mobile"
+    ],
+    "source_type": "google_news",
+    "sub_source": "iNews Zoombangla",
+    "author": "iNews Zoombangla",
+    "published_at": "2026-09-12T11:21:04+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49668777",
+    "title": "Usenet rewind archive search engine",
+    "url": "https://www.usenet-rewind.com/",
+    "score": 5.0,
+    "summary": "Usenet-rewind은 1979년부터의 Usenet 게시물을 검색할 수 있는 아카이브 엔진으로, Google Groups의 접근성 문제를 우회하는 대안을 제공한다. 커뮤니티 피드백에 따르면 Google Groups에서 \"too many requests\" 오류가 발생할 때도 Rewind에서는 결과를 찾을 수 있으며, 특히 레트로 컴퓨팅이나 역사적 기술 논의 같은 틈새 주제의 오래된 게시물 검색에 유용하다.",
+    "reason": "A functional Usenet archive search engine addressing a real gap in historical technical documentation access. Community engagement confirms practical utility for retrieving old technical discussions, though this is primarily a tool announcement rather than novel technical development.",
+    "tags": [
+      "usenet-archive",
+      "search-engine",
+      "historical-data",
+      "technical-documentation"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "cstadler1869",
+    "author": "cstadler1869",
+    "published_at": "2026-09-12T04:19:52+00:00",
     "profile": "tech-news"
   }
 ]
