@@ -175,19 +175,26 @@ class AnthropicClient(AIClient):
         temperature = self.temperature if temperature is None else temperature
         max_tokens = self.max_tokens if max_tokens is None else max_tokens
 
+        # Capture the choice per request. Several enrichment calls share this
+        # client concurrently; another call may flip the learned capability
+        # while this request is still in flight.
+        include_temperature = self._supports_temperature
         try:
             message = await self._do_request(
                 system, user, temperature, max_tokens,
-                include_temperature=self._supports_temperature,
+                include_temperature=include_temperature,
             )
         except Exception as exc:
-            if not (self._supports_temperature and _is_temperature_deprecated(str(exc))):
+            if not (
+                include_temperature and _is_temperature_deprecated(str(exc))
+            ):
                 raise
             # Newer models 400 on `temperature`; drop it and keep the run going
             # rather than failing every item on a configuration detail.
-            logger.info(
-                "Model %s rejects temperature; retrying without it.", self.model
-            )
+            if self._supports_temperature:
+                logger.info(
+                    "Model %s rejects temperature; retrying without it.", self.model
+                )
             self._supports_temperature = False
             message = await self._do_request(
                 system, user, temperature, max_tokens, include_temperature=False

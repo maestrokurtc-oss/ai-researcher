@@ -70,6 +70,37 @@ def test_retries_without_temperature_and_remembers(monkeypatch) -> None:  # type
     assert "temperature" not in calls[2]
 
 
+def test_concurrent_requests_each_retry_without_temperature(monkeypatch) -> None:  # type: ignore[no-untyped-def]
+    calls: list[dict] = []
+    all_initial_requests_started = asyncio.Event()
+    initial_request_count = 0
+
+    async def create(**kwargs):  # type: ignore[no-untyped-def]
+        nonlocal initial_request_count
+        calls.append(kwargs)
+        if "temperature" in kwargs:
+            initial_request_count += 1
+            if initial_request_count == 3:
+                all_initial_requests_started.set()
+            await all_initial_requests_started.wait()
+            raise RuntimeError(DEPRECATED)
+        return _message()
+
+    client = _client(monkeypatch, create)
+
+    async def complete_all() -> list[str]:
+        return await asyncio.gather(
+            client.complete(system="s", user="one"),
+            client.complete(system="s", user="two"),
+            client.complete(system="s", user="three"),
+        )
+
+    assert asyncio.run(complete_all()) == ["ok", "ok", "ok"]
+    assert len(calls) == 6
+    assert sum("temperature" in call for call in calls) == 3
+    assert client._supports_temperature is False
+
+
 def test_unrelated_errors_still_propagate(monkeypatch) -> None:  # type: ignore[no-untyped-def]
     async def create(**_):  # type: ignore[no-untyped-def]
         raise RuntimeError("Error code: 529 - overloaded_error")
