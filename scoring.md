@@ -81,9 +81,10 @@ the profile's settings:
 }
 ```
 
-A threshold passed to an MCP operation overrides all configured profile
-thresholds for that operation. Analysis still produces scores when filtering is
-disabled; only the selection step is bypassed.
+An RSS feed may set `selection_threshold` to override the profile threshold for
+that feed. A threshold passed to an MCP operation takes precedence over both
+source and profile thresholds for that operation. Analysis still produces
+scores when filtering is disabled; only the selection step is bypassed.
 
 Collection and balanced digest settings remain in the runtime configuration:
 
