@@ -1,21 +1,21 @@
 [
   {
-    "id": "hackernews:story:49671329",
-    "title": "Fuck it, make it anyway",
-    "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
+    "id": "hackernews:story:49668777",
+    "title": "Usenet rewind archive search engine",
+    "url": "https://www.usenet-rewind.com/",
     "score": 6.0,
-    "summary": "개발자가 LLM을 활용한 개발에 대한 관점을 다룬 글로, 커뮤니티에서 AI 도구가 개발 경험과 개발자 정체성에 미치는 영향에 대해 실질적인 논의가 이루어졌다. 일부 개발자는 과거에 미루던 프로젝트를 빠르게 구현할 수 있게 되어 개발이 더 즐거워졌다고 보고하는 반면, 다른 의견들은 수공예적 기술 습득과 개발자로서의 정체성 상실에 대한 우려를 제기한다. 이는 AI 시대 소프트웨어 엔지니어링의 역할과 가치에 대한 광범위한 업계 논의를 반영한다.",
-    "reason": "Substantive community discussion about AI's impact on developer motivation and craft, with genuine technical and philosophical perspectives. The post and comments explore meaningful tensions around tool-assisted development, but lacks concrete technical details, novel research, or industry announcements.",
+    "summary": "Usenet-rewind은 1980년대부터 1990년대 Usenet 게시물을 검색할 수 있는 아카이브 엔진이다. 커뮤니티 반응에서 Google Groups의 접근 제한 문제를 우회하고 기술 관련 오래된 논의를 찾는 데 실용적 가치가 있음을 보여준다. 디지털 보존과 기술 역사 자료 접근성 측면에서 의미 있지만, 구현 기술이나 새로운 방법론은 공개되지 않았다.",
+    "reason": "A functional archive search engine for historical Usenet posts represents a useful preservation tool with genuine community value. The comments demonstrate practical utility (finding old technical discussions, circumventing Google Groups rate-limiting) and interest in digital preservation. However, this is incremental infrastructure rather than a novel technical breakthrough, and the item itself provides no technical details about the implementation.",
     "tags": [
-      "ai-development",
-      "developer-experience",
-      "llm-tools",
-      "software-craftsmanship"
+      "digital-preservation",
+      "usenet-archive",
+      "search-infrastructure",
+      "community-tools"
     ],
     "source_type": "hackernews",
-    "sub_source": "JayOtter",
-    "author": "JayOtter",
-    "published_at": "2026-09-12T11:42:32+00:00",
+    "sub_source": "cstadler1869",
+    "author": "cstadler1869",
+    "published_at": "2026-09-12T04:19:52+00:00",
     "profile": "tech-news"
   },
   {
@@ -23,14 +23,14 @@
     "title": "google.com/goto: Google's anti-scraping update",
     "url": "https://www.autom.dev/blog/google-search-goto-links",
     "score": 6.0,
-    "summary": "Google이 google.com/goto 리다이렉트를 통해 검색 결과 URL을 난독화하는 방식을 업데이트했으며, 이는 스크래핑과 프록시 기반 URL 재작성을 방지하기 위한 조치다. 기술 커뮤니티는 이를 Google의 장기적인 웹 투명성 감소 추세의 일부로 보고 있으며, 특히 JavaScript 의존성 증가와 URL 추적 강화가 개발자와 사용자의 웹 접근성을 제한한다는 점을 지적하고 있다.",
-    "reason": "Substantive technical analysis of Google's URL obfuscation strategy with concrete implementation details and significant community engagement. The topic addresses real changes to web infrastructure that affect developers and researchers, though the impact is primarily defensive rather than innovative.",
+    "summary": "Google이 google.com/goto 리다이렉트를 통해 검색 결과 URL을 난독화하는 새로운 방식을 도입했으며, 이는 스크래핑 방지와 클릭 추적을 목표로 한다. 기술적으로는 JavaScript 없이는 실제 URL에 접근할 수 없도록 설계되었으며, 이는 검색 투명성 감소와 사용자 프라이버시 우려를 야기한다. 커뮤니티에서는 Google의 장기적 검색 품질 저하와 URL 난독화 역사에 대한 광범위한 비판이 제기되고 있다.",
+    "reason": "Substantive technical analysis of Google's URL obfuscation strategy with concrete implementation details and meaningful community debate about search quality and privacy implications, though the core topic (anti-scraping measures) is incremental rather than novel.",
     "tags": [
-      "web-infrastructure",
+      "google-search",
+      "web-scraping",
       "url-obfuscation",
-      "anti-scraping",
-      "search-engines",
-      "developer-tools"
+      "search-quality",
+      "privacy"
     ],
     "source_type": "hackernews",
     "sub_source": "1e1a",
@@ -43,13 +43,13 @@
     "title": "Navier-Stokes Announcement",
     "url": "https://www.claymath.org/news/navier-stokes-announcement/",
     "score": 6.0,
-    "summary": "Clay Mathematics Institute가 Navier-Stokes 문제가 해결되었다는 발표를 인정하는 중립적 성명을 발표했다. 커뮤니티 논의에 따르면 CMI의 규칙상 공식 출판 후 최소 2년이 경과해야 Millennium Prize 수상 자격이 생기며, OpenAI의 증명은 아직 공식 출판되지 않아 검증 시계가 시작되지 않았다. 성명의 신중한 표현(\"apparently\")과 OpenAI 언급 부재는 수학 커뮤니티의 검토 과정을 존중하는 기관의 신중한 입장을 반영한다.",
-    "reason": "Moderately interesting announcement about a claimed solution to a major unsolved problem in mathematics, with substantive community discussion about verification timelines and institutional processes. However, the source is a neutral institutional statement rather than technical analysis, and the actual mathematical content and validity remain unverified.",
+    "summary": "Clay Mathematics Institute가 Navier-Stokes 문제의 해결 가능성을 공식 인정했으며, 이는 백년 이상 미해결 상태였던 밀레니엄 문제 중 하나다. CMI의 규정에 따르면 공식 출판 후 최소 2년의 검증 기간이 필요하므로 상금 수여는 상당히 뒤로 미뤄질 것이다. 이 발표는 의도적으로 중립적이며 해결자나 진행 중인 신용 분쟁에 대해 언급하지 않는다.",
+    "reason": "Moderately important development in mathematics with significant community interest. The Clay Mathematics Institute's formal acknowledgment of a potential Navier-Stokes solution represents a notable milestone, though the announcement itself is deliberately neutral and non-committal. The two-year publication review requirement and ongoing credit disputes add procedural complexity but do not diminish the technical significance of the claimed breakthrough. Community discussion reflects substantive engagement with the verification process and institutional rules.",
     "tags": [
       "mathematics",
       "navier-stokes",
       "millennium-prize",
-      "verification-process",
+      "peer-review",
       "openai"
     ],
     "source_type": "hackernews",
@@ -59,22 +59,101 @@
     "profile": "tech-news"
   },
   {
-    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:539e0d2c04d7c271",
-    "title": "OpenAI just wants to win",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/994255/openai-millennium-prize-problem-tristan-buckmaster-competition",
+    "id": "rss:news.hada.io_rss_news:84ef556f5856791c",
+    "title": "젠장, 그래도 만들어라",
+    "url": "https://news.hada.io/topic?id=33582",
     "score": 6.0,
-    "summary": "OpenAI가 수학의 밀레니엄 상 문제 중 하나를 해결했다고 주장했으며, 이는 역사적 성과로 여겨질 수 있다. 그러나 기사는 실제 수학적 기여, 검증 상태, 또는 해결된 구체적인 문제에 대한 기술적 세부사항을 제공하지 않으며, 대신 경쟁적 위치 지정에 초점을 맞추고 있다.",
-    "reason": "OpenAI's claimed solution to a Millennium Prize Problem is technically significant and newsworthy, but the article provides limited concrete technical detail about the actual mathematical contribution, the verification status, or the specific problem solved. The framing emphasizes competitive positioning over substantive technical analysis.",
+    "summary": "생성형 AI가 코드 생성 능력을 갖추면서 개발자들이 창작 의욕과 자부심을 잃는 심리적 위기를 다룬다. 저자는 LLM의 기술적 능력은 실제로 뛰어나지만, 프롬프트로 누구나 비슷한 도구를 만들 수 있게 되면서 직접 만드는 과정에서 얻던 보람과 동료의 인정이 흔들린다고 지적한다. 결국 경쟁 속도보다 배움과 창작의 즐거움을 이유로 계속 만드는 선택이 중요하다는 메시지를 전한다.",
+    "reason": "Thoughtful personal essay on developer motivation and creative satisfaction amid generative AI adoption. Offers genuine insight into the psychological and professional tensions developers face, with concrete examples (Shad's Uncamera, custom game engines), but lacks technical depth or novel research findings.",
     "tags": [
-      "artificial-intelligence",
-      "mathematics",
-      "openai",
-      "research-claims"
+      "generative-ai",
+      "developer-experience",
+      "software-craftsmanship",
+      "ai-adoption"
     ],
     "source_type": "rss",
-    "sub_source": "The Verge AI",
-    "author": "Robert Hart",
-    "published_at": "2026-09-12T11:00:00+00:00",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T13:33:21+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:0ad51a679fc70898",
+    "title": "Litelm - 비대함을 덜어낸 LiteLLM",
+    "url": "https://news.hada.io/topic?id=33580",
+    "score": 6.0,
+    "summary": "litelm은 LiteLLM의 모델 라우팅과 메시지 변환 기능만 추출하여 약 2,900줄, openai와 httpx 두 개의 기본 의존성으로 구현한 경량 라이브러리입니다. LiteLLM과 동일한 함수 인터페이스를 제공하지만 프록시, 캐싱, 비용 추적 등의 기능은 제외했으며, 현재 Alpha 단계로 선언된 라우팅과 포맷 변환 범위에서만 호환성을 보장합니다. 최소 의존성을 원하는 개발자나 임베딩된 LLM 호출이 필요한 경우 유용할 수 있습니다.",
+    "reason": "Litelm is a lightweight alternative to LiteLLM that strips down the library to core routing and message transformation functionality (~2,900 lines vs 100k+), making it useful for developers seeking minimal dependencies. The project demonstrates solid engineering discipline (262 tests, documented scope limitations) but remains in alpha stage with partial compatibility guarantees, limiting immediate production impact.",
+    "tags": [
+      "llm-libraries",
+      "python-tools",
+      "lightweight-alternatives",
+      "open-source"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T11:31:40+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:53ccad707cd1b7b2",
+    "title": "Pandas는 멸종해야 한다",
+    "url": "https://news.hada.io/topic?id=33576",
+    "score": 6.0,
+    "summary": "Pandas가 느리다는 이유만으로 분산 처리 시스템으로 전환할 필요는 없다는 주장. Amazon Redshift 데이터에 따르면 쿼리의 86.9%는 80GB 이하 데이터를 다루며, 10억 행 CSV 벤치마크에서 Polars와 DuckDB는 Pandas보다 각각 50배 이상 빠르면서 메모리 효율도 우수함. Apache Arrow를 활용하면 도구 간 전환 비용을 줄일 수 있으며, 실제 작업 특성에 맞춰 선택해야 한다는 실용적 조언을 제시함.",
+    "reason": "Substantive technical analysis identifying a real gap in the data processing tool ecosystem between Pandas and distributed systems, with concrete benchmarks and practical guidance. However, the argument relies partly on assumptions rather than direct measurements, and the provocative title oversells the nuanced conclusion.",
+    "tags": [
+      "pandas",
+      "data-processing",
+      "polars",
+      "duckdb",
+      "performance-analysis"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T08:36:49+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:d381917ad1cd5132",
+    "title": "Google 검색, 목적지 주소를 바로 읽을 수 없는 리디렉션 링크 확대",
+    "url": "https://news.hada.io/topic?id=33571",
+    "score": 6.0,
+    "summary": "Google 검색이 검색 결과의 링크를 google.com/goto?url=... 형식의 리디렉션으로 변경하고 있으며, 기존과 달리 링크 문자열만으로는 목적지 주소를 복원할 수 없게 되었다. url 파라미터가 단순 base64가 아닌 Google 고유 인코딩으로 변경되어, 목적지를 확인하려면 Google에 추가 요청을 보내 Location 헤더를 읽어야 한다. 이는 웹 스크래핑과 자동화 도구의 효율성을 저하시키고 탐지 위험을 높이는 변화로, 2026년 8월 말 로그아웃/비공개 브라우징에서 광범위하게 관찰되었지만 전체 적용이 확정되지는 않았다.",
+    "reason": "Incremental but technically significant change to Google Search's link handling that affects web scraping and automation tools. The shift from transparent to opaque URL encoding represents a meaningful technical development with concrete implications for developers and researchers, though it appears to be an ongoing experiment rather than a finalized feature.",
+    "tags": [
+      "google-search",
+      "web-scraping",
+      "url-encoding",
+      "link-redirection",
+      "search-infrastructure"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T05:32:34+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:d096d3021da4b2fd",
+    "title": "RTK는 토큰 절감을 보고하지만, 비용 벤치마크 결과는 다르다",
+    "url": "https://news.hada.io/topic?id=33569",
+    "score": 6.0,
+    "summary": "RTK(Rust Token Killer)는 터미널 출력을 압축해 AI 에이전트의 토큰 사용을 줄인다고 주장하지만, Terminal-Bench 2.1의 1,740회 비교 결과는 다른 그림을 보여준다. Fable은 총비용이 5% 줄었으나 작업별 평균 비용은 1% 증가했고, DeepSeek은 총비용이 5% 늘었으며 작업별 평균 비용은 17% 증가했다. RTK의 '토큰 절감' 지표는 실제 청구 토큰이 아니라 출력 바이트 차이를 기반으로 계산되며, 추가 턴 증가와 캐시 할인 같은 다른 요인들이 압축 효과를 상쇄하므로 범용 비용 절감 도구로 권장하기 어렵다.",
+    "reason": "Substantive technical analysis of a popular tool's claimed benefits versus measured real-world performance. The article presents concrete benchmark data (Terminal-Bench 2.1, 1,740 comparisons) that contradicts marketing claims about RTK's cost savings, with specific findings about token reduction not translating to billing reduction. This is valuable for practitioners evaluating AI agent optimization tools, though the analysis is limited to one benchmark and two models.",
+    "tags": [
+      "ai-agents",
+      "cost-optimization",
+      "benchmarking",
+      "tool-evaluation",
+      "token-efficiency"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T03:34:38+00:00",
     "profile": "tech-news"
   },
   {
@@ -82,12 +161,11 @@
     "title": "OpenAI claims $1M math breakthrough but gets hit with plagiarism allegations - Dagens.com",
     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOFd0cXdzcDRKRWQwQnhndDI1WjBUUmZNN1ZVMjlFV2MzeF9ScVJQWVgxa045UWxkY2NUa3V0Vk1VODk0VTR3ejRRV0FDMDBqOVdEQWlINVlWUmQ4QlUtRXJ4RXJaYnVvWlpPT2NUaDRrOWV4a25iZ096M2trZjN1dnRFOEZVMlBfeVZ6aWVRSzMwSHRXNXU0UFVpTlhiaDFTcVRfMGN4Vk5sMkgwS21LeUtB?oc=5",
     "score": 6.0,
-    "summary": "OpenAI가 수학 분야에서 100만 달러 규모의 돌파구를 주장했으나 표절 혐의에 직면했다. 구체적인 기술 세부사항이나 혐의의 근거가 제목에 명시되지 않았지만, 주요 AI 연구소의 연구 신뢰성과 성과 검증 문제를 다루는 중요한 논쟁이다.",
-    "reason": "Substantive controversy involving a major AI lab's claimed breakthrough and credibility allegations. The plagiarism claim adds significant weight beyond routine news, though the headline alone provides limited technical detail. Warrants attention for those tracking OpenAI's research integrity and mathematical AI capabilities.",
+    "summary": "OpenAI가 수학 분야의 주요 돌파구를 주장했으나 표절 혐의로 비판받고 있다. 구체적인 기술 세부사항이나 혐의 내용이 제목에 명시되지 않았으나, 주요 AI 연구소의 연구 신뢰성과 관련된 논쟁이므로 소프트웨어 엔지니어링과 AI 커뮤니티에서 주목할 만하다.",
+    "reason": "Substantive controversy involving a major AI lab's claimed breakthrough and credibility concerns. The plagiarism allegation adds significant weight, though the headline alone provides limited technical detail. Warrants attention for those tracking OpenAI's research integrity and mathematical capabilities claims.",
     "tags": [
       "openai",
       "research-integrity",
-      "mathematics",
       "ai-breakthroughs",
       "plagiarism"
     ],
@@ -102,13 +180,13 @@
     "title": "Gemini Guided Vision brings spoken descriptions to Android camera views - iNews Zoombangla",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbFlQcjFiSGNSQWMzTDgxTk5hNEFiaGFYNFNoWm1sSDR1MXowX3dMQ3dmeS04azBiWThoc3IzU042d0I2QlJHazBldkF6NUJmejNHdk9Mc09MZlI4a3ptRnQ4U1dfTl9fYlZJR3VmNDRIZTF5X3pwQkJ2em1rS0RLT3hzeUs?oc=5",
     "score": 6.0,
-    "summary": "Google이 Android 카메라에 Gemini Guided Vision 기능을 추가했으며, 이는 카메라 뷰에 대한 음성 설명을 제공한다. 이 기능은 시각 장애 사용자를 포함한 접근성 개선을 목표로 하며, Google의 멀티모달 AI 모델을 활용하여 실시간 카메라 입력을 설명한다.",
-    "reason": "Incremental accessibility feature announcement for Android. Gemini Guided Vision appears to be a new capability adding spoken descriptions to camera views, which is useful for accessibility but represents a feature addition rather than a major technical breakthrough. Limited technical detail available from the headline and source alone.",
+    "summary": "Google이 Android 카메라 앱에 Gemini Guided Vision 기능을 추가했으며, 이는 카메라 뷰의 내용을 음성으로 설명해준다. 이 기능은 시각 장애인 사용자의 접근성을 개선하는 것을 목표로 하며, 기존 Gemini 모델의 멀티모달 능력을 활용한 것이다.",
+    "reason": "Incremental accessibility feature for Android using existing Gemini capabilities. Useful for users with visual impairments but represents routine product feature expansion rather than technical breakthrough.",
     "tags": [
       "accessibility",
       "android",
       "gemini",
-      "ai-features",
+      "computer-vision",
       "mobile"
     ],
     "source_type": "google_news",
@@ -118,22 +196,41 @@
     "profile": "tech-news"
   },
   {
-    "id": "hackernews:story:49668777",
-    "title": "Usenet rewind archive search engine",
-    "url": "https://www.usenet-rewind.com/",
+    "id": "hackernews:story:49671329",
+    "title": "Fuck it, make it anyway",
+    "url": "https://www.joelotter.com/posts/2026/09/make-it-anyway/",
     "score": 5.0,
-    "summary": "Usenet-rewind은 1979년부터의 Usenet 게시물을 검색할 수 있는 아카이브 엔진으로, Google Groups의 접근성 문제를 우회하는 대안을 제공한다. 커뮤니티 피드백에 따르면 Google Groups에서 \"too many requests\" 오류가 발생할 때도 Rewind에서는 결과를 찾을 수 있으며, 특히 레트로 컴퓨팅이나 역사적 기술 논의 같은 틈새 주제의 오래된 게시물 검색에 유용하다.",
-    "reason": "A functional Usenet archive search engine addressing a real gap in historical technical documentation access. Community engagement confirms practical utility for retrieving old technical discussions, though this is primarily a tool announcement rather than novel technical development.",
+    "summary": "개발자들이 LLM 도구의 등장이 창작 동기와 기술 실천에 미치는 영향에 대해 논의하고 있다. 댓글들은 AI 지원으로 더 복잡한 프로젝트를 실현할 수 있게 된 점과, 수공예적 만족감 상실 사이의 긴장을 탐색한다. 개발자 정체성과 기술 생태계 전체가 AI로 구축될 때 '순수한' 개발의 의미에 대한 근본적인 질문을 제기한다.",
+    "reason": "Substantive community discussion about AI's impact on creative motivation and technical practice, with thoughtful debate about whether tool-assisted development diminishes craftsmanship. Relevant to software engineering culture but lacks concrete technical details or novel insights.",
     "tags": [
-      "usenet-archive",
-      "search-engine",
-      "historical-data",
-      "technical-documentation"
+      "ai-tools",
+      "developer-culture",
+      "llm-impact",
+      "creative-practice"
     ],
     "source_type": "hackernews",
-    "sub_source": "cstadler1869",
-    "author": "cstadler1869",
-    "published_at": "2026-09-12T04:19:52+00:00",
+    "sub_source": "JayOtter",
+    "author": "JayOtter",
+    "published_at": "2026-09-12T11:42:32+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:d8fd71847f2fc4f3",
+    "title": "Λ Snap - 어린이와 성인 모두 친근하게 접근할 수 있는 컴퓨터 과학 학습용 프로그래밍 언어",
+    "url": "https://news.hada.io/topic?id=33579",
+    "score": 5.0,
+    "summary": "Snap!은 블록 기반 프로그래밍 언어로 어린이부터 성인까지 컴퓨터 과학을 학습할 수 있는 플랫폼이다. 게임, 애니메이션, 음악 생성, 프랙털, 인공 신경망 등 다양한 분야의 프로젝트 모음과 학습 자료를 제공하며, Snap!Con 2025에서는 AI 관련 프로젝트와 SnapGPT 등을 포함한 고급 주제들을 다룬다. 교육용 프로그래밍 도구로서 접근성과 깊이 있는 학습을 동시에 지원하는 점이 특징이다.",
+    "reason": "Educational programming platform overview with practical details about Snap!'s features, project collections, and learning resources. Relevant to computer science education but lacks technical depth, novel research, or significant developments.",
+    "tags": [
+      "educational-programming",
+      "computer-science-learning",
+      "visual-programming",
+      "ai-education"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T10:32:53+00:00",
     "profile": "tech-news"
   }
 ]
