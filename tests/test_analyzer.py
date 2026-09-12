@@ -166,6 +166,10 @@ def test_analysis_prompt_combines_common_rules_and_profile_policy():
     assert "# Profile policy" in prompt
     assert "9-10: Groundbreaking" in prompt
     assert "# Output contract" in prompt
+    assert "When `score` is 5 or higher" in prompt
+    assert "2-3 informative sentences" in prompt
+    assert "250-400 Korean characters" in prompt
+    assert "details that are not supported" in prompt
 
 
 def test_analyze_item_repairs_invalid_result_once():

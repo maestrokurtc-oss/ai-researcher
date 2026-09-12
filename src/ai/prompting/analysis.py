@@ -22,7 +22,7 @@ def analysis_system_prompt(
     # so it has to be written in the briefing's language. `reason` is internal
     # and `tags` are slugs, so both stay English.
     summary_language = (
-        f"<one-sentence summary, written in {target_language_instruction(language)}>"
+        f"<reader-facing summary, written in {target_language_instruction(language)}>"
     )
     # Empty until the reader marks something, so the prompt stays unchanged
     # for a fresh install.
@@ -36,8 +36,13 @@ def analysis_system_prompt(
 {interests_section}
 # Output contract
 
-Return valid JSON only. Write `summary` in {target_language_instruction(language)};
-keep `reason` in English and `tags` as lowercase hyphenated English slugs.
+Return valid JSON only. Write `summary` in {target_language_instruction(language)}.
+When `score` is 5 or higher, make `summary` 2-3 informative sentences (roughly
+250-400 Korean characters when Korean is requested): explain what happened or
+what the source argues, include the most useful concrete detail, and say why it
+matters. When `score` is below 5, use one concise sentence. Never pad the summary
+or add details that are not supported by the supplied content. Keep `reason` in
+English and `tags` as lowercase hyphenated English slugs.
 {{
   "score": <number from 0 to 10>,
   "reason": "<concise explanation, in English>",
