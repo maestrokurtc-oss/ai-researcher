@@ -231,8 +231,11 @@ jobs:
           if [ -f "$USAGE" ]; then
             USAGE_DIR="usage/${YEAR}/${MONTH}"
             mkdir -p "$USAGE_DIR"
-            cp "$USAGE" "${USAGE_DIR}/${DATE}-${SLOT}.json"
-            echo "Archived usage to ${USAGE_DIR}/${DATE}-${SLOT}.json"
+            # A forced rerun still consumes credit. Keep each workflow attempt
+            # instead of overwriting the first cost record for this slot.
+            USAGE_DEST="${USAGE_DIR}/${DATE}-${SLOT}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}.json"
+            cp "$USAGE" "$USAGE_DEST"
+            echo "Archived usage to $USAGE_DEST"
           fi
 
           ITEMS=$(grep -c '^### ' "$DEST" || true)
