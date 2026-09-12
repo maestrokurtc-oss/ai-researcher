@@ -5,6 +5,11 @@ on:
     branches: [main]
     paths: ['docs/**']
 
+concurrency:
+  # Must match AI Briefing because both workflows write to gh-pages.
+  group: pages-publish
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

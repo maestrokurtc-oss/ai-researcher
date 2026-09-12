@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-12-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 3,
+    "more": 4
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "b0c48a4bc7fbd4346420a92ab566cdb046dba4968c0a8462b92b9352fe9b6bd4",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "OpenAI 에이전트, RubyGems 미공개 공격 후 커뮤니티에 미고지",
+      "url": "https://www.rubyhack.ai/",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "security-incident",
+        "ai-agents",
+        "disclosure",
+        "package-management",
+        "openai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "cd4275fac97b5fd9e5cb562f21c00ca696185a4c7cd07df3da981a99b1385f56",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Apple Neural Engine 아키텍처 역공학 분석: CNN 중심 설계의 한계",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "apple-hardware",
+        "neural-accelerators",
+        "reverse-engineering",
+        "machine-learning-systems",
+        "hardware-architecture"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "28569c3c31a0d771f81724ece884ae863d9f3efe9e99960740658e4f3253bf65",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "OpenRouter 사용 시 알아야 할 provider 불일치 문제",
+      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "openrouter",
+        "api-abstraction",
+        "llm-routing",
+        "provider-selection",
+        "practical-gotchas"
+      ]
+    },
+    {
+      "id": "hackernews:story:49668386",
+      "content_key": "dff1498b29796da329aa1b60ab828ec718db0a541f3fe123d5f8e0748dfa91f5",
+      "surface": "more",
+      "title": "google.com/goto: Google's anti-scraping update",
+      "url": "https://www.autom.dev/blog/google-search-goto-links",
+      "score": 6.0,
+      "summary": "Google이 웹 스크래핑을 방지하기 위해 google.com/goto 리다이렉트를 통한 URL 난독화를 구현한 기술적 변화를 다루며, 검색 결과 투명성과 데이터 접근성에 대한 커뮤니티의 우려를 반영한다.",
+      "tags": [
+        "web-scraping",
+        "search-engines",
+        "url-obfuscation",
+        "anti-scraping",
+        "google"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "1e1a",
+      "author": "1e1a",
+      "published_at": "2026-09-12T03:14:20+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49668706",
+      "content_key": "f805a46f8df62abe6c9eb5bb5734bc795070a1258a033757e4270eeab97346e3",
+      "surface": "more",
+      "title": "Navier-Stokes Announcement",
+      "url": "https://www.claymath.org/news/navier-stokes-announcement/",
+      "score": 6.0,
+      "summary": "Clay Mathematics Institute가 Navier-Stokes 문제의 해결을 공식 인정하는 중립적 성명을 발표했으며, 상금 수여까지는 2년의 동료 검토 기간이 필요하다.",
+      "tags": [
+        "mathematics",
+        "navier-stokes",
+        "peer-review",
+        "millennium-prize",
+        "openai"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "rvz",
+      "author": "rvz",
+      "published_at": "2026-09-12T04:09:43+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:48d46bfa6a41ef32",
+      "content_key": "7f452d3805d7ed7a6eed76c226964c41495c6af32f87b8940dadc9fa19e25c75",
+      "surface": "more",
+      "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+      "url": "https://techcrunch.com/2026/09/11/mecka-ai-nears-500m-valuation-in-sequoia-led-deal-amid-rush-for-robot-training-data/",
+      "score": 5.0,
+      "summary": "로봇 학습 데이터 분야에서 Sequoia가 주도하는 자금 조달 라운드를 통해 Mecka AI가 약 5억 달러 규모의 기업가치 평가를 앞두고 있다.",
+      "tags": [
+        "robotics",
+        "ai-training-data",
+        "venture-funding",
+        "machine-learning-infrastructure"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Marina Temkin",
+      "published_at": "2026-09-11T22:58:17+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:81f26d601f0d3119",
+      "content_key": "8d35a54fc2ae523da1659e04ab4002ecef58fc8e62746063f7a23d0aceb6de93",
+      "surface": "more",
+      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+      "score": 5.0,
+      "summary": "Bill Gates가 AI 시대의 중요한 선택지들에 대해 논의하는 의견 기고문.",
+      "tags": [
+        "artificial-intelligence",
+        "ai-ethics",
+        "industry-commentary"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Gates Notes",
+      "author": "Gates Notes",
+      "published_at": "2026-09-12T06:48:29+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "0f7d7f7eb2a48055c11910c501cc3a30fb0da23be9ce69c876fb60c9dacfc36c"
+}

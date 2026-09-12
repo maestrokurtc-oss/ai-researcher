@@ -29,3 +29,4 @@ AI 관련 뉴스·논문·업계 동향을 자동으로 모아 **하루 두 번*
 - [설정 가이드](configuration) — AI 제공자, 정보원, 필터링, 환경변수 치환
 - [소스 수집기](scrapers) — GitHub·Hacker News·RSS·Reddit 수집 방식
 - [프로필](profiles) — 항목 성격별 채점 기준과 요약 형식
+- [독자 피드백](feedback) — 좋아요·별로예요 기록 방식과 분석 원칙

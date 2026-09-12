@@ -34,8 +34,8 @@ on:
         type: boolean
 
 concurrency:
-  # Never let a delayed morning run overlap the evening one.
-  group: briefing
+  # Serialize briefing runs and Deploy Docs, which both write to gh-pages.
+  group: pages-publish
   cancel-in-progress: false
 
 jobs:
@@ -194,10 +194,10 @@ jobs:
           if [ -f "$POST" ]; then
             # Both runs land on the same date, so the slot has to reach the
             # Jekyll title too or the two posts read as duplicates.
-            python - "$POST" "$SLOT" <<'PY'
+            python - "$POST" "$SLOT" "$DATE" <<'PY'
           import sys
 
-          path, slot = sys.argv[1], sys.argv[2]
+          path, slot, date = sys.argv[1], sys.argv[2], sys.argv[3]
           label = "아침" if slot == "morning" else "저녁"
           with open(path, encoding="utf-8") as f:
               text = f.read()
@@ -206,6 +206,8 @@ jobs:
               if line.startswith('title: "') and line.endswith('"'):
                   line = f'{line[:-1]} {label}"'
               lines.append(line)
+              if line.startswith('title: "'):
+                  lines.append(f'report_id: "{date}-{slot}"')
           with open(path, "w", encoding="utf-8") as f:
               f.write("\n".join(lines))
           print(f"Post title tagged: {label}")
@@ -239,6 +241,31 @@ jobs:
           echo "items=${ITEMS:-0}"  >> "$GITHUB_OUTPUT"
           echo "Archived $ITEMS items to $DEST"
 
+      - name: Prepare reader report
+        if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
+        continue-on-error: true
+        env:
+          DATE: ${{ steps.slot.outputs.date }}
+          SLOT: ${{ steps.slot.outputs.slot }}
+          YEAR: ${{ steps.slot.outputs.year }}
+          MONTH: ${{ steps.slot.outputs.month }}
+          BRIEF_PATH: ${{ steps.archive.outputs.path }}
+        # Reader feedback is optional: a manifest failure must not discard an
+        # otherwise complete briefing or block its deployment and alerts.
+        run: |
+          REPORT_ID="${DATE}-${SLOT}"
+          REPORT_DATA="docs/data/reports/${REPORT_ID}.json"
+          NEAR_ARCHIVE="near-misses/${YEAR}/${MONTH}/${REPORT_ID}.json"
+          REPORT_ARGS=(
+            --briefing "$BRIEF_PATH"
+            --report-id "$REPORT_ID"
+            --out "$REPORT_DATA"
+          )
+          if [ -f "$NEAR_ARCHIVE" ]; then
+            REPORT_ARGS+=(--near-misses "$NEAR_ARCHIVE")
+          fi
+          uv run python scripts/prepare_reader_report.py "${REPORT_ARGS[@]}"
+
       - name: Check Anthropic credit runway
         id: credit_guard
         if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
@@ -265,6 +292,12 @@ jobs:
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add briefings/ near-misses/ usage/
+          REPORT_DATA="docs/data/reports/${DATE}-${SLOT}.json"
+          if [ -f "$REPORT_DATA" ]; then
+            git add "$REPORT_DATA"
+          else
+            echo "Reader report manifest unavailable; committing briefing without it."
+          fi
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0

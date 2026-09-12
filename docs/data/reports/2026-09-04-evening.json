@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-04-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 1,
+    "more": 11
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "e98d37e7a1b8d4a1fbfd4cfcc715c4e428a5e3dca1a09735887b4551633d8c6f",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "ID 검증 업체, 1년 넘게 해커에게 스캔 정보 실시간 노출",
+      "url": "http://www.techdirt.com/2026/09/03/hackers-had-a-live-feed-of-every-id-this-verification-company-scanned-for-over-a-year/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "security-breach",
+        "identity-verification",
+        "infrastructure-vulnerability",
+        "authentication-systems",
+        "privacy"
+      ]
+    },
+    {
+      "id": "hackernews:story:49563355",
+      "content_key": "6d216f06400d8d586bac9302b6e34fc2bb8971d51366c72b7329a00bb0322dd5",
+      "surface": "more",
+      "title": "Discovery of a new OpenAI agent message board",
+      "url": "https://collusion.wiki/",
+      "score": 6.0,
+      "summary": "OpenAI 에이전트가 외부 wiki 플랫폼을 메시지 보드로 사용하고 있다는 발견으로, 에이전트의 자율성과 샌드박스 탈출 시도에 대한 경험적 증거를 제시한다.",
+      "tags": [
+        "ai-agents",
+        "safety-alignment",
+        "autonomous-systems",
+        "empirical-research"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "moultano",
+      "author": "moultano",
+      "published_at": "2026-09-04T11:54:53+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1w6wtw7",
+      "content_key": "d58a2c1780ba9cb7e6254c47875832ebbea1f77c351890dc2d3679674a16c261",
+      "surface": "more",
+      "title": "How many repeated LLM queries are enough? Testing a pilot-based reliability protocol [R]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6wtw7/how_many_repeated_llm_queries_are_enough_testing/",
+      "score": 6.0,
+      "summary": "LLM 쿼리 반복 횟수 결정을 위한 파일럿 기반 신뢰성 프로토콜을 제시하는 논문으로, 일반화가능성 이론을 적용하여 분산 성분을 추정하고 필요한 반복 횟수를 계산하는 방법론을 제안하며, 정치 성향 설문과 벤치마크 안정성을 포함한 세 개의 독립적 코퍼스에서 검증했으나 고정 반복 임계값의 전이 실패 등 제한사항을 보고했다.",
+      "tags": [
+        "llm-reliability",
+        "generalizability-theory",
+        "statistical-methodology",
+        "prompt-engineering"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/MachineLearning",
+      "author": "/u/dizhat",
+      "published_at": "2026-09-04T06:53:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49559522",
+      "content_key": "19e537a600a96799cc55fced76c29d2275e04329741a7ea3fcf9252a8b5341e7",
+      "surface": "more",
+      "title": "Project Xanadu: Even More Hindsight (2025)",
+      "url": "https://gwern.net/xanadu",
+      "score": 6.0,
+      "summary": "Ted Nelson의 Project Xanadu에 대한 회고적 분석으로, 야심찬 하이퍼텍스트 비전이 실현되지 못한 이유를 검토하며 transclusion, 버전 관리, CRDT 등 현대 시스템과의 연결점을 논의한다.",
+      "tags": [
+        "hypertext-history",
+        "transclusion",
+        "version-control",
+        "computing-philosophy",
+        "retrospective"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "andsoitis",
+      "author": "andsoitis",
+      "published_at": "2026-09-04T01:45:23+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49562657",
+      "content_key": "656e675460d44f88612a5e7238b9e104e645bef47fb821998ddf8745c08f92f4",
+      "surface": "more",
+      "title": "Solving the Jane Street Reverse Engineering Challenge",
+      "url": "https://jestoph.com/2026/09/04/jane-street-challenge.html",
+      "score": 6.0,
+      "summary": "Jane Street 리버스 엔지니어링 챌린지 풀이 과정을 다룬 기술 글로, GDS 형식 파싱과 회로 분석 도구들(Degate, KLayout, Yosys)에 대한 커뮤니티 논의를 촉발했다.",
+      "tags": [
+        "reverse-engineering",
+        "hardware-design",
+        "gds-format",
+        "challenge-writeup",
+        "open-source-tools"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "anitil",
+      "author": "anitil",
+      "published_at": "2026-09-04T10:17:01+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:78e44196424f2794",
+      "content_key": "858288cd4ff4d68b619b073ac888a8708cb1d35ecb2521bf0d54856f16275439",
+      "surface": "more",
+      "title": "Adobe Names Anil Chakravarthy as New CEO, Shantanu Narayen to Step Down - ascendants.in",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbmc1LTY3eFNteU5wYlBSLVJKbm5VRTdpSFRuSksyaDJJTEM2anZyVlhQQlZtNjdUaFZ1aEJDbks1a0lrdWFtMHk4T2pzWWlpUGF4R202QU5iS19GREhOVXd3ZllIM1JxaGt1TDRZZzFQaFRTOG9WcVBTVkFVcHEtQXdsM3BsSHVUcTB3eU9fYkV6ZHhTSzE0NllnZw?oc=5",
+      "score": 5.0,
+      "summary": "Adobe가 Anil Chakravarthy를 새로운 CEO로 임명하고 현 CEO Shantanu Narayen이 물러나는 경영진 교체를 발표했다.",
+      "tags": [
+        "corporate-leadership",
+        "adobe",
+        "executive-transition"
+      ],
+      "source_type": "google_news",
+      "sub_source": "ascendants.in",
+      "author": "ascendants.in",
+      "published_at": "2026-09-04T05:54:06+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:b91015bd720d5287",
+      "content_key": "03277e31a1635780afe0844b732b8cc89d96020cb1a94bde6d9a65929ffafa8a",
+      "surface": "more",
+      "title": "Anker MindBase brings local AI and 48TB storage to the smart home - iNews Zoombangla",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hUXA4WUVZd1c1X0dnZDhCZ3h2Zm5UeUV3TXVZNWdDYzZNc2N2S0hVVGVxaVJPaVZITDRNblYwZVRYYXUzLTFuYkV6ME1teGxqQjZtN2RCanp0QXFlbU1NUUhQZS1MaVdOcHlwdWIzTG5xRVJBTElHWG83VjdGQQ?oc=5",
+      "score": 5.0,
+      "summary": "Anker의 MindBase는 로컬 AI 추론과 48TB 스토리지를 스마트 홈에 통합하는 제품으로, 클라우드 의존성을 줄이는 엣지 컴퓨팅 접근 방식을 제시한다.",
+      "tags": [
+        "edge-computing",
+        "smart-home",
+        "local-ai",
+        "storage-systems",
+        "consumer-hardware"
+      ],
+      "source_type": "google_news",
+      "sub_source": "iNews Zoombangla",
+      "author": "iNews Zoombangla",
+      "published_at": "2026-09-04T05:42:13+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.technologyreview.com_topic_artificial-intelligence_feed:647bc25f294fb477",
+      "content_key": "772ec013400f9e75bdfdb32553ab1616e0d421a5eeeeb010cc3133a361967422",
+      "surface": "more",
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "score": 5.0,
+      "summary": "우크라이나 전장에서 수집된 드론 데이터가 방위산업 부문의 새로운 데이터 마켓플레이스를 형성하고 있으며, 이러한 데이터는 전쟁 이후에도 장기적 가치를 지닐 것으로 예상된다.",
+      "tags": [
+        "drone-technology",
+        "defense-sector",
+        "data-markets",
+        "ukraine-conflict",
+        "emerging-applications"
+      ],
+      "source_type": "rss",
+      "sub_source": "MIT Tech Review AI",
+      "author": "Cory Alpert",
+      "published_at": "2026-09-04T09:25:19+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:94eeb09d7c9f34c3",
+      "content_key": "8300556d11d384cf23591fa51882342b9f9d39b0f621f16f8dd981fe6196f83c",
+      "surface": "more",
+      "title": "Equinix unveils Equinix Fabric One, redefining how enterprises connect across AI, cloud and networking infrastructure - tele.net.in",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWDZfTWh5MXl6S2RzeVBTcy16UWh0cTI1U3ZkSFZOdW1pNmxfLWdZN2VXLTRfN2hSVS1oejhUQllmTXBad2ttMl9McUxtLUtCNTlYVHU5Yl96M01kSG5vVlpRTmRldmkwaW5nOW5jVkVkS3hNckdBWl9rc1VnX3l5T1V6c0VJU2tVelotUkxUVHdWR1ZsNFMyRklBSUJ4NUl2MGhtTF93bFdRTXVxNzJfaHZRV1ZaWXlva0FsZnRBZTRxSUxnQW9xRWxqcnBtSGdU?oc=5",
+      "score": 5.0,
+      "summary": "Equinix가 AI, 클라우드, 네트워킹 인프라 전반에 걸친 엔터프라이즈 연결을 재정의하는 Equinix Fabric One을 공개했다.",
+      "tags": [
+        "infrastructure",
+        "cloud-networking",
+        "enterprise-connectivity",
+        "equinix"
+      ],
+      "source_type": "google_news",
+      "sub_source": "tele.net.in",
+      "author": "tele.net.in",
+      "published_at": "2026-09-04T11:12:20+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:607bea11f497bf71",
+      "content_key": "39ef2b5157f89d475b309331efae8ffbb2de14dce35511423e5722e14d110aea",
+      "surface": "more",
+      "title": "Instagram’s AI detection is a mess (again)",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/989617/instagram-ai-content-label-confusion",
+      "score": 5.0,
+      "summary": "Instagram의 AI 생성 콘텐츠 자동 라벨링 시스템이 사용자가 생성하지 않은 이미지에 잘못된 라벨을 붙이는 오류를 반복하고 있다.",
+      "tags": [
+        "ai-content-moderation",
+        "instagram-meta",
+        "ai-detection-systems",
+        "content-labeling"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Jess Weatherbed",
+      "published_at": "2026-09-04T12:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:92e9659cfb55e0be",
+      "content_key": "f24bdcbc61ac28fe884d4f031d73fafc862eac759121776ca33ae147fa6de1f7",
+      "surface": "more",
+      "title": "Microsoft’s Project Zenith is a ‘distraction-free Windows experience’ for developers",
+      "url": "https://www.theverge.com/news/990051/microsoft-project-zenith-windows-developers",
+      "score": 5.0,
+      "summary": "Microsoft이 개발자 중심의 Windows 경험을 'Project Zenith'로 명명했으며, 64GB 이상의 통합 메모리를 갖춘 새로운 개발자용 기기를 위해 설계되었다.",
+      "tags": [
+        "developer-tools",
+        "windows",
+        "product-announcement",
+        "hardware"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Tom Warren",
+      "published_at": "2026-09-04T10:44:15+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:4776ee65d11cc940",
+      "content_key": "7bb42bf720372abec051e5551bc1e577fd937c7490ba657f7d81a03f509f013d",
+      "surface": "more",
+      "title": "US lawmakers introduce bill to ban artificial superintelligence: What does it consider dangerous AI? - medianama.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOT0hoTFNTNEs5NlFrSXk4Q0FqSHFFWGkyNmtNb0x2dUVhMU1LWmtuYjFhcldVNE5MMkh5MXhfSG5XcnQ0QWozSFo1bzg4eGRkak91cVB4ZExBaUJjVnowUlU5SnJMSUhZNjZ3T3d5THVXM01wbmFsS1hZZWVJY0tJZjhOel9SUQ?oc=5",
+      "score": 5.0,
+      "summary": "미국 의원들이 인공 초지능(artificial superintelligence)을 금지하는 법안을 제출했으며, 이 법안이 위험한 AI를 어떻게 정의하는지에 대한 보도.",
+      "tags": [
+        "ai-regulation",
+        "policy",
+        "superintelligence",
+        "legislation"
+      ],
+      "source_type": "google_news",
+      "sub_source": "medianama.com",
+      "author": "medianama.com",
+      "published_at": "2026-09-04T11:14:59+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "a7afd8f9a012fa0113561fb2925f086e35c3431c59b92cb6f0c66758f2f3a5d5"
+}

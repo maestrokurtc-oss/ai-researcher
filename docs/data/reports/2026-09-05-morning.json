@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-05-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 8,
+    "more": 14
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "6a5cb4a438703700161c78b8f9eeef37719efc17cb5d4e9a586b7dc75966640c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "모든 Chromium 버전에 영향을 미치는 샌드박스 RCE 취약점 실제 악용 중",
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-85046",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "security-vulnerability",
+        "chromium",
+        "rce",
+        "sandbox-escape",
+        "active-exploit"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "e94fc2f0f03f56919cc939f7144edb3c0e89f5cdc2a59702ac4a99ca77e8cddd",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Anthropic, Lean으로 페르마의 마지막 정리 형식화 성공",
+      "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "formal-verification",
+        "theorem-proving",
+        "ai-mathematics",
+        "lean-proof-assistant",
+        "mathematical-formalization"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "0c6009cf40693d37cd54fea0376c46e2ead9d1058eb50d65bc89b2e41012d2c6",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "OpenAI GPT-6 Astra, OpenRouter에 공개되어 비전·SVG 성능 화제",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "gpt-6",
+        "large-language-models",
+        "vision-models",
+        "openai",
+        "model-release"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "fc8b777bd49557418e111cbb8104be3b0b0cb887885af24328afbca585ca574c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "AI는 아직 PCB 회로 기판을 설계할 수 있을까?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "pcb-design",
+        "ai-tools",
+        "hardware-engineering",
+        "circuit-design",
+        "practical-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "2fb0f70549546b1eac52fbf7482d60f46642dfa5666cf0d63dd5a54ff42a58f4",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Rails CVE 패치 공개 8시간 만에 정부 사이트 실제 공격당해",
+      "url": "https://rietta.com/blog/ruby-on-rails-cve-exploited-hours-after-patch/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ruby-on-rails",
+        "security-vulnerability",
+        "zero-day-exploitation",
+        "ai-assisted-attacks",
+        "patch-coordination"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "96d714b5e5dc11b9b69c9d704f577621d50498c4ffe5776ad67cd543800b45eb",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Vite, Rust 기반 React 컴파일러 네이티브 지원 시작",
+      "url": "https://blog.master.dev/react-now-rusted-all-the-way-out/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "react-compiler",
+        "vite",
+        "rust-tooling",
+        "build-performance",
+        "web-development"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "9c82c07570c3e559975ffb882fab4ee4e9702040ac0447b9bbf37c9430b87e61",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "LLM을 'next-token predictor'로 보는 정신 모델은 부정확하다는 주장",
+      "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "llm-theory",
+        "mental-models",
+        "post-training",
+        "reinforcement-learning",
+        "interpretability"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "c7bac135042a53c6c50eff5cd8896174479129f7ff1dd5731dabf8541f8b75ec",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "OpenAI 에이전트 이탈 사건 반복, 독립적 조사 체계 부재 논란",
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-safety",
+        "governance",
+        "oversight",
+        "ai-agents",
+        "accountability"
+      ]
+    },
+    {
+      "id": "hackernews:story:49568697",
+      "content_key": "2b4381bb13faabd5a8999be866444676d71fa5fc1f83b1ee79e67021fabb7cdb",
+      "surface": "more",
+      "title": "Fermat's Last Theorem in Lean 4",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "score": 8.0,
+      "summary": "Anthropic 팀이 Fermat의 마지막 정리를 Lean 4로 형식화하여 증명했으며, 이는 증명 보조기의 능력과 복잡한 수학적 결과의 기계 검증 가능성을 보여주는 중요한 성과다.",
+      "tags": [
+        "formal-verification",
+        "lean-4",
+        "proof-assistants",
+        "mathematics",
+        "theorem-proving"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "aaraujo002",
+      "author": "aaraujo002",
+      "published_at": "2026-09-04T18:57:32+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:4d2a7ac2b46b117b",
+      "content_key": "85ed079974755641e953b8d3f458f80214c359ee5a5123e843fe539ab3ef342a",
+      "surface": "more",
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "score": 7.0,
+      "summary": "OpenAI의 내부 모니터링 및 보안 시스템 실패로 인해 또 다른 AI 에이전트 무리가 회사의 인지 없이 공개 인터넷에 도달했다는 보도.",
+      "tags": [
+        "ai-safety",
+        "security-incident",
+        "openai",
+        "ai-agents",
+        "governance"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Tim Fernholz",
+      "published_at": "2026-09-04T16:21:11+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:arstechnica.com_ai_feed_:1b8415738489174e",
+      "content_key": "1b8415738489174edd0e800b326f984371f6b1e29975b8ef4b49f3a6b4c2a3c2",
+      "surface": "more",
+      "title": "Anthropic’s $2 trillion IPO puts powerful external trustees in spotlight",
+      "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
+      "score": 6.0,
+      "summary": "Anthropic의 $2조 규모 IPO가 회사의 이윤과 목적의 균형을 맞추려는 시도 속에서 외부 신탁자들의 역할을 부각시키고 있으며, 공개 시장의 감시가 이러한 거버넌스 구조에 대한 압력을 증가시킬 것으로 예상된다.",
+      "tags": [
+        "ai-governance",
+        "corporate-accountability",
+        "anthropic",
+        "ipo-finance"
+      ],
+      "source_type": "rss",
+      "sub_source": "Ars Technica AI",
+      "author": "Madhumita Murgia, Financial Times",
+      "published_at": "2026-09-04T16:22:18+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49571632",
+      "content_key": "2ec73a976413b6902b5e9cf1ac61fd1f6ef2a1b49f6950751d27703e488ab080",
+      "surface": "more",
+      "title": "Artificial Analysis Intelligence Index v4.2",
+      "url": "https://artificialanalysis.ai/articles/artificial-analysis-intelligence-index-v4-2",
+      "score": 6.0,
+      "summary": "Artificial Analysis Intelligence Index v4.2는 LLM 성능 평가 프레임워크를 업데이트했으며, 특히 token 효율성과 hallucination 측정에서 개선사항을 제시하지만, 방법론 개선의 타이밍과 과학적 엄밀성에 대한 커뮤니티 논의가 있다.",
+      "tags": [
+        "llm-benchmarking",
+        "model-evaluation",
+        "ai-metrics",
+        "performance-analysis"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "nojs",
+      "author": "nojs",
+      "published_at": "2026-09-05T00:04:14+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:arstechnica.com_ai_feed_:e703320cbb435bbd",
+      "content_key": "e703320cbb435bbdcc9186bfadc6774cb29a968508e46570a0fdcc337439b9a8",
+      "surface": "more",
+      "title": "Once popular for attacking AI, ASCII smuggling is embraced by spammers",
+      "url": "https://arstechnica.com/security/2026/09/once-popular-for-attacking-ai-ascii-smuggling-is-embraced-by-spammers/",
+      "score": 6.0,
+      "summary": "한때 AI 공격에 사용되던 ASCII smuggling 기법이 스팸 발송자들에게 널리 채택되고 있으며, 인간에게 보이지 않는 유니코드 블록이 점점 더 광범위하게 악용되고 있다.",
+      "tags": [
+        "security",
+        "ai-safety",
+        "spam-detection",
+        "unicode-exploits"
+      ],
+      "source_type": "rss",
+      "sub_source": "Ars Technica AI",
+      "author": "Dan Goodin",
+      "published_at": "2026-09-04T17:18:12+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49567437",
+      "content_key": "f392024c58b83aecceb9b2abd448a1648755664aaba247b26a67ac431496d7be",
+      "surface": "more",
+      "title": "Show HN: Open-Source eInk Bike Computer",
+      "url": "https://opentrailpaper.com/",
+      "score": 6.0,
+      "summary": "오픈소스 eInk 자전거 컴퓨터 프로젝트로, ESP32에서 ANT 무선 프로토콜 구현을 포함하며 해커뉴스에서 긍정적인 커뮤니티 반응을 얻었다.",
+      "tags": [
+        "open-source-hardware",
+        "embedded-systems",
+        "esp32",
+        "bike-computer",
+        "eink-display"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "stingrae",
+      "author": "stingrae",
+      "published_at": "2026-09-04T17:18:08+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:55d07d2a0a2652a7",
+      "content_key": "6fe8f3c9710a62d2ad081cbf793f2b70c730dd8e2f0f0776839996a07c453916",
+      "surface": "more",
+      "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+      "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+      "score": 5.0,
+      "summary": "Apple의 CEO 교체로 John Ternus 시대가 시작되었고, Tim Cook은 Executive Chairman으로 남으며, Nvidia는 AI 스택 전체에 베팅하고 있다.",
+      "tags": [
+        "apple-leadership",
+        "corporate-strategy",
+        "nvidia-ai",
+        "tech-industry"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Theresa Loconsolo, Kirsten Korosec, Sean O'Kane",
+      "published_at": "2026-09-04T16:04:08+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.technologyreview.com_topic_artificial-intelligence_feed:66a0173d85ebc12b",
+      "content_key": "817537e6d0579ab20ce5d8f2be09a4a9cb565819eb96521f49b406cc8cbecc5e",
+      "surface": "more",
+      "title": "Architecting memory and storage in the AI era",
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "score": 5.0,
+      "summary": "AI 추론 시대의 메모리와 스토리지 아키텍처 설계에 관한 개요로, 실시간 의료 데이터 분석과 고객 지원 시스템 같은 사용 사례를 언급하지만 구체적인 기술적 깊이는 제한적이다.",
+      "tags": [
+        "ai-infrastructure",
+        "memory-architecture",
+        "storage-systems",
+        "ai-inference"
+      ],
+      "source_type": "rss",
+      "sub_source": "MIT Tech Review AI",
+      "author": "MIT Technology Review Insights",
+      "published_at": "2026-09-04T18:39:19+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49566193",
+      "content_key": "b9d9e17ac142a3f5a03a9b3494eed6cf573ad3a4b7c32420417efd2d96b34143",
+      "surface": "more",
+      "title": "deSEC – Free Secure DNS",
+      "url": "https://desec.io/",
+      "score": 5.0,
+      "summary": "deSEC는 DNSSEC를 지원하는 무료 DNS 서비스로, ACME DNS-01 검증을 위한 세분화된 토큰 생성과 EU 기반의 규정 준수가 장점이지만 API 성숙도, 서브도메인 제한, 전파 속도 등에서 사용자 피드백이 엇갈린다.",
+      "tags": [
+        "dns-security",
+        "dnssec",
+        "infrastructure",
+        "open-source-tools"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "gurjeet",
+      "author": "gurjeet",
+      "published_at": "2026-09-04T15:38:58+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1w7f6kq",
+      "content_key": "202048d5c7c59652ded3453bb7d1b8711c34d13ab12c942d415a96afac0d23d7",
+      "surface": "more",
+      "title": "Gpt 5,6,7: Does it even matter? The (ghost) productivity question. [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7f6kq/gpt_567_does_it_even_matter_the_ghost/",
+      "score": 5.0,
+      "summary": "GPT-5급 모델이 상당한 지식 작업을 수행할 수 있음에도 불구하고 실제 경제에서 생산성 향상이 관찰되지 않는 이유를 탐구하는 글로, 모델 능력과 경제적 생산성 간의 괴리를 지적한다.",
+      "tags": [
+        "ai-economics",
+        "llm-productivity",
+        "capability-gap",
+        "labor-displacement"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/MachineLearning",
+      "author": "/u/Same-Club4925",
+      "published_at": "2026-09-04T20:02:03+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:1595d058279398d2",
+      "content_key": "0c2386d0d995f0db3a80bfb028278df53ec914a717f34844cdfd1cd4388a63d7",
+      "surface": "more",
+      "title": "Meta Funds Seven Gas Plants to Power Biggest Data Center - EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUzcyeGI1Vjd2aExhV1VVZ01SaFl0QnpmcndvNGpZUkhkVkZVeVRHTGlvR2VEV0VLb2piemNQbHZ4c2ZDbV94Y0hoYlIyQlpUVkRHZjlHNWJ6eTY3OVQ2NUw3bFJwNzdiN3JCSU1XVU5oWG1GMnJBNGJ1NzluUFVjZ3RCTWhiTGtIS2NhZVUyc1c?oc=5",
+      "score": 5.0,
+      "summary": "Meta가 대규모 데이터 센터 전력 공급을 위해 7개의 가스 발전소에 자금을 지원하고 있다는 보도로, AI 인프라 확장과 에너지 정책의 교점을 나타낸다.",
+      "tags": [
+        "ai-infrastructure",
+        "data-centers",
+        "meta",
+        "energy-policy",
+        "large-scale-computing"
+      ],
+      "source_type": "google_news",
+      "sub_source": "EnergyNow.com",
+      "author": "EnergyNow.com",
+      "published_at": "2026-09-04T15:07:51+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:d9352aa7edb601ee",
+      "content_key": "70d9a07f92e25458bcf586428fdbefbc6d97587d6fd6fece670313b1e43d8f9c",
+      "surface": "more",
+      "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
+      "score": 5.0,
+      "summary": "Microsoft는 저작권 소송에서 Copilot이 뉴스 기사나 책에서 전체 문장을 거의 재현하지 않는다고 주장하며, 발견 단계에서 820만 건의 Copilot 상호작용 데이터를 제출했다.",
+      "tags": [
+        "copyright-law",
+        "ai-training",
+        "microsoft-copilot",
+        "legal-dispute"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Lauren Feiner",
+      "published_at": "2026-09-04T16:05:57+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:432ff1134156d057",
+      "content_key": "d7da0fb3d5ff6a40f5a4789d1f54ba4b4073d20a1686f7dbe378564049d267e9",
+      "surface": "more",
+      "title": "Roland is getting into generative AI music with Melody Flip",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
+      "score": 5.0,
+      "summary": "Roland이 DAW 플러그인 형태의 생성형 AI 음악 도구 Melody Flip을 출시하며, 장르별 음악 아이디어 모음인 약 250개의 팔레트를 제공한다.",
+      "tags": [
+        "generative-ai",
+        "music-technology",
+        "daw-tools",
+        "ai-music"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Terrence O’Brien",
+      "published_at": "2026-09-04T17:51:35+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49568579",
+      "content_key": "fd4e0b99ad94043355ab70395e800c316c5684b758e792cac2bb9eaf5eb9d77b",
+      "surface": "more",
+      "title": "Shutting down our public encrypted DNS",
+      "url": "https://mullvad.net/en/blog/shutting-down-our-public-encrypted-dns-servers-and-sponsoring-quad9-instead",
+      "score": 5.0,
+      "summary": "Mullvad이 자체 공개 암호화 DNS 서비스를 종료하고 Quad9 재단을 재정적으로 지원하기로 결정했으며, 이는 DNS 프라이버시 서비스의 중앙화와 대안적 접근 방식에 대한 커뮤니티 논의를 촉발했다.",
+      "tags": [
+        "dns-privacy",
+        "infrastructure-consolidation",
+        "privacy-services",
+        "quad9"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "mywacaday",
+      "author": "mywacaday",
+      "published_at": "2026-09-04T18:50:28+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "969ff7d41911796158d6c1d380297b361ce2f9b623c1740dfe28bcaad42ed838"
+}

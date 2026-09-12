@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-03-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 2,
+    "more": 1
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "b9197b873957814ae012ee50c39256886d26f5999c21c392d5f6d517e75fd53d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "Audacity 4.0 출시, Qt6 기반 UI 전면 개편",
+      "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "audio-editing",
+        "open-source",
+        "ui-redesign",
+        "major-release",
+        "qt6"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "5725b766800de7c4c3287e399126b2548ec8d5e4a43e212a4ee079b8aaac016b",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Polars 2.0 프리릴리스, 성능보다 API 설계 정비에 집중",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "data-processing",
+        "polars",
+        "api-design",
+        "breaking-changes",
+        "production-systems"
+      ]
+    },
+    {
+      "id": "rss:huggingface.co_blog_feed.xml:fffbcba03b0b217e",
+      "content_key": "fffbcba03b0b217e48932bf108f9544d9d15dfe90cc71dd430d68dae9df9e2d9",
+      "surface": "more",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "score": 6.0,
+      "summary": "Hugging Face가 소개하는 NeoMME는 다중 언어를 지원하면서 효율적인 멀티모달 인코더로, 시각과 언어 정보를 동시에 처리하는 AI 시스템의 성능과 속도를 개선하는 기술이다.",
+      "tags": [
+        "multimodal-ai",
+        "multilingual-models",
+        "model-efficiency",
+        "computer-vision-nlp"
+      ],
+      "source_type": "rss",
+      "sub_source": "Hugging Face",
+      "author": "Hugging Face",
+      "published_at": "2026-09-03T13:13:48+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "b6460407cdbb74f7a83962d7f34f10dd5c677e395cc2ae996bf5c6c5911b696d"
+}

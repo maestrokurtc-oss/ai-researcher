@@ -5,6 +5,8 @@ __pycache__/
 *.so
 .Python
 build/
+!services/feedback-api/build/
+!services/feedback-api/build/sites-vite-plugin.ts
 develop-eggs/
 dist/
 downloads/
