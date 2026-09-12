@@ -32,7 +32,8 @@ from .ai.client import create_ai_client
 from .ai.analyzer import ContentAnalyzer
 from .ai.summarizer import DailySummarizer
 from .ai.enricher import ContentEnricher, EnrichmentBatchResult
-from .ai.tokens import get_usage_snapshot
+from .ai.tokens import get_usage_snapshot, reset_usage
+from .ai.costs import build_usage_record
 from .processing import ProfileRegistry
 
 
@@ -225,6 +226,11 @@ class HorizonOrchestrator:
         Args:
             force_hours: Optional override for time window in hours
         """
+        # Usage counters are process-global because clients are constructed per
+        # stage. Reset them here so repeated orchestrator runs in one process
+        # never charge an earlier run to the new credit record.
+        reset_usage()
+
         self.console.print(
             f"[bold cyan]{self.icons['start']} Horizon - Starting aggregation...[/bold cyan]\n"
         )
@@ -412,6 +418,19 @@ class HorizonOrchestrator:
                     self.console.print(
                         f"   {self.icons['detail']} {provider}: {u.total} tokens "
                         f"(in: {u.input_tokens}, out: {u.output_tokens})"
+                    )
+
+                usage_record = build_usage_record(usage, date=today)
+                usage_path = self.storage.save_usage(today, usage_record)
+                self.console.print(
+                    f"   {self.icons['detail']} Estimated API cost: "
+                    f"${usage_record['estimated_cost_usd']} (saved to {usage_path})"
+                )
+                if usage_record["unknown_price_models"]:
+                    self.console.print(
+                        f"[yellow]{self.icons['warning']} Cost estimate excludes "
+                        f"models with unknown pricing: "
+                        f"{', '.join(usage_record['unknown_price_models'])}[/yellow]"
                     )
 
         except Exception as e:

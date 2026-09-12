@@ -136,6 +136,16 @@ jobs:
           PY
           fi
 
+      - name: Preflight AI models
+        if: steps.guard.outputs.run == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+        # Fail before the expensive collection pass if billing, credentials,
+        # workspace routing, or a configured model is unavailable. The check
+        # uses only a five-token completion per configured model.
+        run: uv run python scripts/check-models.py
+
       - name: Run Horizon
         if: steps.guard.outputs.run == 'true'
         env:
@@ -213,11 +223,38 @@ jobs:
             echo "Archived near-misses to ${NEAR_DIR}/${DATE}-${SLOT}.json"
           fi
 
+          # Keep one immutable cost record per delivered briefing. The credit
+          # guard sums records after the balance baseline set by the owner.
+          USAGE="data/usage/horizon-${DATE}.json"
+          if [ -f "$USAGE" ]; then
+            USAGE_DIR="usage/${YEAR}/${MONTH}"
+            mkdir -p "$USAGE_DIR"
+            cp "$USAGE" "${USAGE_DIR}/${DATE}-${SLOT}.json"
+            echo "Archived usage to ${USAGE_DIR}/${DATE}-${SLOT}.json"
+          fi
+
           ITEMS=$(grep -c '^### ' "$DEST" || true)
           echo "produced=true"      >> "$GITHUB_OUTPUT"
           echo "path=$DEST"         >> "$GITHUB_OUTPUT"
           echo "items=${ITEMS:-0}"  >> "$GITHUB_OUTPUT"
           echo "Archived $ITEMS items to $DEST"
+
+      - name: Check Anthropic credit runway
+        id: credit_guard
+        if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
+        continue-on-error: true
+        env:
+          ANTHROPIC_CREDIT_BASELINE_USD: ${{ vars.ANTHROPIC_CREDIT_BASELINE_USD }}
+          ANTHROPIC_CREDIT_BASELINE_AT: ${{ vars.ANTHROPIC_CREDIT_BASELINE_AT }}
+          ANTHROPIC_CREDIT_WARN_BELOW_USD: ${{ vars.ANTHROPIC_CREDIT_WARN_BELOW_USD || '2.00' }}
+          ANTHROPIC_CREDIT_RESERVE_RUNS: ${{ vars.ANTHROPIC_CREDIT_RESERVE_RUNS || '4' }}
+          ANTHROPIC_EXPECTED_RUN_COST_USD: ${{ vars.ANTHROPIC_EXPECTED_RUN_COST_USD || '0.50' }}
+          CREDIT_ALERT_EMAIL_TO: ${{ vars.CREDIT_ALERT_EMAIL_TO || 'maestrokurtc@gmail.com' }}
+          GMAIL_SMTP_USERNAME: ${{ vars.GMAIL_SMTP_USERNAME || 'maestrokurtc@gmail.com' }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        # A missing baseline disables only the prediction. A mail failure must
+        # never discard an otherwise valid briefing.
+        run: uv run python scripts/check-credit.py
 
       - name: Commit briefing
         if: steps.guard.outputs.run == 'true' && steps.archive.outputs.produced == 'true'
@@ -227,7 +264,7 @@ jobs:
         run: |
           git config user.name  'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add briefings/ near-misses/
+          git add briefings/ near-misses/ usage/
           if git diff --staged --quiet; then
             echo "Nothing new to commit."
             exit 0
@@ -279,3 +316,12 @@ jobs:
             "https://ntfy.sh/${NTFY_TOPIC}" > /dev/null \
             && echo "Notification sent." \
             || echo "Notification failed; the briefing is still committed."
+
+      - name: Email workflow failure
+        if: failure() && steps.guard.outputs.run == 'true'
+        continue-on-error: true
+        env:
+          CREDIT_ALERT_EMAIL_TO: ${{ vars.CREDIT_ALERT_EMAIL_TO || 'maestrokurtc@gmail.com' }}
+          GMAIL_SMTP_USERNAME: ${{ vars.GMAIL_SMTP_USERNAME || 'maestrokurtc@gmail.com' }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: uv run python scripts/check-credit.py --pipeline-failure

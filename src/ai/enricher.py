@@ -16,7 +16,7 @@ from rich.progress import (
     TaskID,
     TextColumn,
 )
-from tenacity import retry, stop_after_attempt, wait_exponential
+from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponential
 
 from .client import AIClient
 from .localization import normalize_language
@@ -28,6 +28,7 @@ from .prompting.enrichment import (
     tool_planning_prompt,
     tool_results_text,
 )
+from .retrying import describe_ai_error, is_retryable_ai_error
 from .utils import parse_json_response
 from ..models import ArtifactSource, ContentArtifact, ContentBlock, ContentItem
 from ..processing.profiles import LoadedProfile, ProfileBlock, ProfileRegistry
@@ -143,7 +144,12 @@ class ContentEnricher:
         config = getattr(self.client, "config", None)
         return max(getattr(config, "enrichment_concurrency", 1), 1)
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=2, max=10), reraise=True)
+    @retry(
+        retry=retry_if_exception(is_retryable_ai_error),
+        stop=stop_after_attempt(3),
+        wait=wait_exponential(min=2, max=10),
+        reraise=True,
+    )
     async def _complete(self, **kwargs: Any) -> str:
         return await self.client.complete(**kwargs)
 
@@ -188,7 +194,11 @@ class ContentEnricher:
                 try:
                     await self._enrich_item(item)
                 except Exception as exc:
-                    logger.error("Error enriching item %s: %s", item.id, exc)
+                    logger.error(
+                        "Error enriching item %s: %s",
+                        item.id,
+                        describe_ai_error(exc),
+                    )
                     return item.id, exc
                 finally:
                     progress.advance(task_id)

@@ -129,6 +129,16 @@ class StorageManager:
 
         return filepath
 
+    def save_usage(self, date: str, record: dict[str, Any]) -> Path:
+        """Persist the current run's token and estimated-cost record."""
+        usage_dir = self.data_dir / "usage"
+        usage_dir.mkdir(parents=True, exist_ok=True)
+        filepath = safe_output_path(usage_dir, f"horizon-{date}.json")
+        _atomic_write_text(
+            filepath, json.dumps(record, ensure_ascii=False, indent=2) + "\n"
+        )
+        return filepath
+
     def save_near_misses(self, date: str, rows: list) -> Path:
         """Persist the scored-but-dropped items for one run."""
         near_misses_dir = self.data_dir / "near_misses"

@@ -25,6 +25,7 @@ class TokenUsageSnapshot:
     total_input_tokens: int
     total_output_tokens: int
     per_provider: Dict[str, ProviderUsage] = field(default_factory=dict)
+    per_model: Dict[str, ProviderUsage] = field(default_factory=dict)
 
     @property
     def total_tokens(self) -> int:
@@ -32,15 +33,23 @@ class TokenUsageSnapshot:
 
 
 _provider_usage: Dict[str, ProviderUsage] = {}
+_model_usage: Dict[str, ProviderUsage] = {}
 
 
-def record_usage(provider: str, input_tokens: int = 0, output_tokens: int = 0) -> None:
+def record_usage(
+    provider: str,
+    input_tokens: int = 0,
+    output_tokens: int = 0,
+    *,
+    model: str | None = None,
+) -> None:
     """Accumulate token usage for a given provider.
 
     Args:
         provider: Provider identifier, e.g. "openai", "anthropic".
         input_tokens: Prompt / input tokens used.
         output_tokens: Completion / output tokens used.
+        model: Exact model id, when known, for cost estimation.
     """
     if input_tokens <= 0 and output_tokens <= 0:
         return
@@ -48,6 +57,13 @@ def record_usage(provider: str, input_tokens: int = 0, output_tokens: int = 0) -
     usage = _provider_usage.setdefault(provider, ProviderUsage())
     usage.input_tokens += max(0, input_tokens)
     usage.output_tokens += max(0, output_tokens)
+
+    if model:
+        model_usage = _model_usage.setdefault(
+            f"{provider}/{model}", ProviderUsage()
+        )
+        model_usage.input_tokens += max(0, input_tokens)
+        model_usage.output_tokens += max(0, output_tokens)
 
 
 def get_usage_snapshot() -> TokenUsageSnapshot:
@@ -58,9 +74,11 @@ def get_usage_snapshot() -> TokenUsageSnapshot:
         total_input_tokens=total_in,
         total_output_tokens=total_out,
         per_provider=dict(_provider_usage),
+        per_model=dict(_model_usage),
     )
 
 
 def reset_usage() -> None:
     """Reset all accumulated usage (useful for tests)."""
     _provider_usage.clear()
+    _model_usage.clear()

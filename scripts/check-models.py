@@ -21,6 +21,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
+from src.ai.retrying import describe_ai_error
+
 CONFIG_PATH = Path("data/config.json")
 
 
@@ -46,7 +48,7 @@ async def main() -> int:
         print(f"환경변수 {key_env} 가 비어 있습니다.")
         print(f"  export {key_env}='...'  후 다시 실행하세요.")
         return 2
-    print(f"{key_env}: 설정됨 (…{key[-4:]})")
+    print(f"{key_env}: 설정됨")
 
     workspace_id = (os.environ.get(workspace_env) or "").strip()
     print(f"{workspace_env}: {workspace_id or '미설정'}\n")
@@ -64,7 +66,7 @@ async def main() -> int:
             print(f"  {model.id}")
     except Exception as e:
         message = str(e)
-        print(f"  모델 목록 조회 실패: {type(e).__name__}: {message}")
+        print(f"  모델 목록 조회 실패: {describe_ai_error(e)}")
         if "workspace" in message.lower():
             # Identity-linked keys are scoped to a workspace and reject every
             # request until that workspace is named in a header.
@@ -97,7 +99,7 @@ async def main() -> int:
         except Exception as e:
             failed += 1
             print(f"  FAIL {label:<26} {model:<26} ({listed})")
-            print(f"         {type(e).__name__}: {str(e)[:160]}")
+            print(f"         {describe_ai_error(e)}")
 
     if failed:
         print(f"\n{failed}개 모델이 호출에 실패했습니다.")

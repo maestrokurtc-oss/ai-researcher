@@ -36,25 +36,45 @@ GitHub Actions (00:00 · 10:00 UTC)
 | 이름 | 필수 | 용도 |
 |---|---|---|
 | `ANTHROPIC_API_KEY` | **필수** | 채점·요약. [console.anthropic.com](https://console.anthropic.com/settings/keys)에서 발급 |
+| `GMAIL_APP_PASSWORD` | 크레딧 메일 사용 시 | `maestrokurtc@gmail.com`에서 발급한 Google 앱 비밀번호. 부족 예상·실행 실패 메일 전송에만 사용 |
 | `NTFY_TOPIC` | 선택 | 폰 푸시. 추측 불가능한 문자열을 직접 정하세요 (예: `ai-brief-8f3k2p9x`) |
 | `APIFY_TOKEN` | 선택 | X(트위터) 수집을 켤 때만 |
 
-> **주의**: 이 저장소는 public입니다. 키를 파일에 적어 커밋하지 마세요. `data/config.json`, `.env`, `data/x_cookies_*.json`은 `.gitignore`로 막혀 있습니다.
+> **주의**: 이 저장소는 public입니다. 키나 앱 비밀번호를 파일, 이슈, 채팅에 적지 말고 GitHub Secret 입력 화면에만 넣으세요. `data/config.json`, `.env`, `data/x_cookies_*.json`은 `.gitignore`로 막혀 있습니다.
 
-### 2. ntfy 폰 푸시 (선택)
+### 2. Anthropic 크레딧 사전 경고 설정
+
+일반 Anthropic API 키로는 선불 크레딧 잔액을 조회할 수 없습니다. 따라서 Anthropic Console에 현재 표시된 **실제 가용 잔액**을 기준점으로 저장하고, 이후 이 저장소가 기록한 모델별 토큰 비용을 빼서 남은 실행 횟수를 보수적으로 추정합니다. 기본값은 최소 $2 또는 최근 평균 4회분 중 더 큰 금액이 남았을 때 경고하는 것입니다.
+
+저장소 → Settings → Secrets and variables → Actions → **Variables**에서 다음 값을 등록합니다.
+
+| 이름 | 필수 | 예시·설명 |
+|---|---|---|
+| `ANTHROPIC_CREDIT_BASELINE_USD` | **필수** | Console에서 방금 확인한 가용 잔액(USD), 예: `20.00` |
+| `ANTHROPIC_CREDIT_BASELINE_AT` | **필수** | 잔액을 확인한 UTC 시각, 예: `2026-09-12T12:00:00Z` |
+| `ANTHROPIC_CREDIT_WARN_BELOW_USD` | 선택 | 절대 경고선, 기본 `2.00` |
+| `ANTHROPIC_CREDIT_RESERVE_RUNS` | 선택 | 확보할 실행 회차 수, 기본 `4` |
+| `CREDIT_ALERT_EMAIL_TO` | 선택 | 수신 주소, 기본 `maestrokurtc@gmail.com` |
+| `GMAIL_SMTP_USERNAME` | 선택 | 발신 Gmail, 기본 `maestrokurtc@gmail.com` |
+
+Google 계정에서 2단계 인증을 켠 뒤 앱 비밀번호를 만들어 `GMAIL_APP_PASSWORD` GitHub Secret으로 등록합니다. 설정 후 Actions → **Diagnostics** → `credit-email`을 실행하면 실제 테스트 메일을 보낼 수 있습니다.
+
+충전할 때마다 Console의 새 가용 잔액과 그 확인 시각으로 두 기준 변수를 함께 갱신하세요. 이 추정치는 이 프로젝트에서 기록한 호출만 반영하므로, 같은 Anthropic 계정의 다른 프로젝트가 크레딧을 쓰는 경우 Console의 자동 충전도 함께 켜는 편이 안전합니다. 크레딧과 무관하게 모델 사전 점검 또는 본 실행이 실패해도 같은 Gmail 주소로 즉시 알립니다.
+
+### 3. ntfy 폰 푸시 (선택)
 
 1. 폰에 [ntfy 앱](https://ntfy.sh/) 설치 (iOS / Android, 무료·가입 불필요)
 2. 앱에서 `NTFY_TOPIC`에 넣은 것과 **같은 토픽**을 구독
 
 토픽 이름을 아는 사람은 누구나 그 알림을 볼 수 있으니 길고 무작위한 문자열을 쓰세요.
 
-### 3. Actions 활성화
+### 4. Actions 활성화
 
 포크된 저장소는 Actions가 기본 비활성입니다. 저장소 → Actions 탭 → 워크플로 활성화.
 
 첫 실행은 Actions → **AI Briefing** → *Run workflow*로 수동 확인하는 것을 권합니다.
 
-### 4. 맥 알림 설정
+### 5. 맥 알림 설정
 
 ```bash
 ./local/install.sh

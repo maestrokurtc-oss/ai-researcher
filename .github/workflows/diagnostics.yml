@@ -10,7 +10,7 @@ on:
         required: true
         default: models
         type: choice
-        options: [models, sources, both]
+        options: [models, sources, both, credit-email]
 
 jobs:
   diagnose:
@@ -42,3 +42,11 @@ jobs:
       - name: Check sources
         if: inputs.check == 'sources' || inputs.check == 'both'
         run: uv run python scripts/check-sources.py --hours 24
+
+      - name: Test credit alert email
+        if: inputs.check == 'credit-email'
+        env:
+          CREDIT_ALERT_EMAIL_TO: ${{ vars.CREDIT_ALERT_EMAIL_TO || 'maestrokurtc@gmail.com' }}
+          GMAIL_SMTP_USERNAME: ${{ vars.GMAIL_SMTP_USERNAME || 'maestrokurtc@gmail.com' }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+        run: uv run python scripts/check-credit.py --force-alert
