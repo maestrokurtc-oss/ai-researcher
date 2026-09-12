@@ -23,3 +23,5 @@ def test_github_config_includes_geeknews_with_full_article_extraction() -> None:
     assert source.category == "community"
     assert source.profile == "tech-news"
     assert source.content_extractor == "trafilatura"
+    assert source.selection_threshold == 6.0
+    assert config.sources.rss[0] == source

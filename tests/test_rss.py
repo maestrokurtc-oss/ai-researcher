@@ -34,7 +34,10 @@ def _make_feed_client(feed_text: str) -> AsyncMock:
 def test_rss_ids_are_deterministic() -> None:
     client = _make_feed_client(_FEED)
     source = RSSSourceConfig(
-        name="Test", url="https://example.com/feed.xml", profile="rss-profile"
+        name="Test",
+        url="https://example.com/feed.xml",
+        profile="rss-profile",
+        selection_threshold=6.0,
     )
     scraper = RSSScraper([source], client)
 
@@ -45,6 +48,7 @@ def test_rss_ids_are_deterministic() -> None:
     assert first == second
     assert first == "rss:example.com_feed.xml:5e2d5d1e58e94d76"
     assert first_item.profile == "rss-profile"
+    assert first_item.metadata["selection_threshold"] == 6.0
 
 
 def _make_registry(name: str, extractor):

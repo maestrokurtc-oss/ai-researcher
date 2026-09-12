@@ -56,10 +56,16 @@ def analysis_user_prompt(
     content_section: str,
     discussion_section: str,
 ) -> str:
+    sub_source = item.metadata.get("feed_name") or item.metadata.get("source_name")
+    sub_source_line = (
+        f"\nSub-source: {sub_source}"
+        if isinstance(sub_source, str) and sub_source.strip()
+        else ""
+    )
     return f"""Analyze the following content.
 
 Title: {item.title}
-Source: {item.source_type.value}
+Source: {item.source_type.value}{sub_source_line}
 Author: {item.author or "Unknown"}
 URL: {item.url}
 {content_section}

@@ -160,6 +160,14 @@
     ],
     "rss": [
       {
+        "name": "GeekNews",
+        "url": "https://news.hada.io/rss/news",
+        "category": "community",
+        "profile": "tech-news",
+        "content_extractor": "trafilatura",
+        "selection_threshold": 6.0
+      },
+      {
         "name": "OpenAI",
         "url": "https://openai.com/blog/rss.xml",
         "category": "lab",
@@ -289,13 +297,6 @@
         "url": "https://newsletter.semianalysis.com/feed",
         "category": "newsletter",
         "profile": "tech-blog",
-        "content_extractor": "trafilatura"
-      },
-      {
-        "name": "GeekNews",
-        "url": "https://news.hada.io/rss/news",
-        "category": "community",
-        "profile": "tech-news",
         "content_extractor": "trafilatura"
       },
       {

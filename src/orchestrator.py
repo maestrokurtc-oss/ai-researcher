@@ -881,8 +881,12 @@ class HorizonOrchestrator:
         profile_id = item.processing.classification.profile
         settings = self.config.processing.profile_settings.get(profile_id)
         effective_threshold = threshold
-        if effective_threshold is None and settings is not None:
-            effective_threshold = settings.threshold
+        if effective_threshold is None:
+            source_threshold = item.metadata.get("selection_threshold")
+            if isinstance(source_threshold, (int, float)):
+                effective_threshold = source_threshold
+            elif settings is not None:
+                effective_threshold = settings.threshold
         if effective_threshold is None:
             return True
         score = item.processing.analysis.score

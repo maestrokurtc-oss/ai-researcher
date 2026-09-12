@@ -10,7 +10,7 @@ AI 관련 뉴스·논문·업계 동향을 자동으로 모아 **하루 두 번(
 
 ```
 GitHub Actions (00:17 · 10:17 UTC)
-  └─ 수집  arXiv(아침만) · Hacker News · Reddit · RSS 22종 · GitHub 릴리스 · Google News
+  └─ 수집  arXiv(아침만) · GeekNews(핵심) · Hacker News · Reddit · RSS 22종 · GitHub 릴리스 · Google News
   └─ 채점  Haiku 4.5 로 중요도 0~10 점수화 + 프로필 분류
   └─ 선별  프로필별 임계값 통과분만 남기고 주제 중복 제거
   └─ 요약  Sonnet 5 로 한국어 요약 작성
@@ -102,6 +102,7 @@ uv run python scripts/check-sources.py --feeds    # RSS URL 응답만 빠르게
 전부 [`data/config.github.json`](data/config.github.json) 한 곳에서 조정합니다. 코드 수정은 필요 없습니다.
 
 - **RSS 추가**: `sources.rss`에 `{ "name": ..., "url": ..., "category": ..., "profile": ... }` 추가
+- **RSS별 선정 문턱**: `sources.rss[].selection_threshold` — 해당 피드만 프로필 문턱을 덮어씁니다. GeekNews는 핵심 소스로 6.0을 적용합니다
 - **arXiv 카테고리**: `sources.arxiv.categories`
 - **중요도 문턱 조정**: `processing.profile_settings.<프로필>.threshold` — 브리핑이 너무 길면 올리고, 너무 짧으면 내립니다
 - **브리핑 분량**: `digest.max_items`

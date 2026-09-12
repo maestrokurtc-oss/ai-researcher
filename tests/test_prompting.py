@@ -1,6 +1,7 @@
 from pathlib import Path
 from datetime import datetime, timezone
 
+from src.ai.prompting.analysis import analysis_user_prompt
 from src.ai.prompting.enrichment import (
     artifact_prompt,
     block_prompt,
@@ -20,6 +21,21 @@ from src.processing import ProfileRegistry
 PROFILES = ProfileRegistry.load(
     Path(__file__).resolve().parents[1] / "profiles", "tech-news"
 )
+
+
+def test_analysis_prompt_names_the_rss_feed() -> None:
+    item = ContentItem(
+        id="rss:geeknews:item",
+        source_type=SourceType.RSS,
+        title="Useful project",
+        url="https://news.hada.io/topic?id=1",
+        published_at=datetime.now(timezone.utc),
+        metadata={"feed_name": "GeekNews"},
+    )
+
+    prompt = analysis_user_prompt(item, "Content: details", "")
+
+    assert "Source: rss\nSub-source: GeekNews" in prompt
 
 
 def test_tool_planning_excludes_profile_writing_policy():

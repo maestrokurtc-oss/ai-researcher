@@ -160,6 +160,15 @@ def test_runtime_threshold_override_takes_priority() -> None:
     assert not orchestrator.passes_profile_filter(item, threshold=8.0)
 
 
+def test_source_selection_threshold_takes_priority_over_profile_threshold() -> None:
+    orchestrator = make_orchestrator(DigestConfig())
+    item = make_item("item", 6.0, "community")
+    item.metadata["selection_threshold"] = 6.0
+
+    assert orchestrator.passes_profile_filter(item)
+    assert not orchestrator.passes_profile_filter(item, threshold=7.0)
+
+
 def test_profile_without_threshold_bypasses_score_filter() -> None:
     orchestrator = make_orchestrator(DigestConfig())
     orchestrator.config.processing.profile_settings = {}
