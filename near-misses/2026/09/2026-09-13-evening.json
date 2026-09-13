@@ -1,0 +1,159 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:cba8982c68fdc97c",
+    "title": "macOS 패키지 관리자 Homebrew v7",
+    "url": "https://news.hada.io/topic?id=33618",
+    "score": 6.0,
+    "summary": "Homebrew 7.0이 출시되어 다운로드와 패키지 준비 작업을 병렬화하고 캐시 활용을 개선해 설치 속도를 향상시켰다. brew vulns 취약점 검사 기능과 공식 GUI 앱 BrewUI가 추가되었으며, Intel Mac은 Tier 3로 강등되어 2027년 9월 이후 지원이 중단될 예정이다. 이는 macOS 개발자들의 워크플로우 효율성을 개선하고 보안 관리를 강화하는 실질적인 업그레이드다.",
+    "reason": "Homebrew 7.0 is a significant release for macOS developers with meaningful performance improvements, new security features (vulnerability scanning), and a native GUI. However, the impact is primarily incremental rather than groundbreaking, and the news is presented as a summary rather than deep technical analysis. The platform support changes (dropping Intel Mac support by 2027) are notable but represent expected lifecycle management.",
+    "tags": [
+      "package-management",
+      "macos",
+      "developer-tools",
+      "security",
+      "performance"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "cichol",
+    "published_at": "2026-09-13T10:04:30+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:19c72a73662cddb0",
+    "title": "Blizzard Workers Secure AI Bargaining Rights in First Company-Wide Union Contract - International Business Times, Singapore Edition",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTmc2dW5TMDlVc1gxVm5HdlpRWlhlSEI2clRQNFZXaVFCdTdUWVNwaENSckViSklobzlKanl2OEZXS2tna0dSYnlxbkhoQ2NqNFFoM3REMUR1QS1UWVNsTUdYMmVLZzFPTDRoc00yNHlsaF9Vd2FpXzBTMkhEVFBfSWtWN2RWRVFDMV9qZHVZYXN5aTBLWlh2S3dGaW5pTE5vbldEQ1N0Ulo2M2M?oc=5",
+    "score": 6.0,
+    "summary": "Blizzard Entertainment 직원들이 회사 전체 노조 계약에서 AI 관련 협상권을 확보했다. 이는 대형 기술 기업에서 AI 정책 결정에 노동자 대표성을 명시적으로 포함한 첫 사례로, 기술 산업의 AI 거버넌스 방식에 선례를 제시한다.",
+    "reason": "Significant labor development at a major technology company with direct implications for AI governance in the industry. First company-wide union contract at Blizzard with explicit AI bargaining rights represents a notable precedent, though the article content itself is not supplied for detailed technical or policy analysis.",
+    "tags": [
+      "labor-rights",
+      "ai-governance",
+      "blizzard",
+      "union-contract",
+      "tech-industry"
+    ],
+    "source_type": "google_news",
+    "sub_source": "International Business Times, Singapore Edition",
+    "author": "International Business Times, Singapore Edition",
+    "published_at": "2026-09-13T03:20:01+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49681152",
+    "title": "JetKVM Mini",
+    "url": "https://jetkvm.com/blog/introducing-jetkvm-mini",
+    "score": 5.0,
+    "summary": "JetKVM Mini는 원격 서버 관리를 위한 소형 IP KVM 장치로, USB를 통해 컴퓨터에 연결하여 원격으로 키보드·마우스·비디오를 제어할 수 있다. 커뮤니티 피드백은 엇갈리는데, 일부 사용자는 FDE 시스템 부팅 시 비밀번호 입력 같은 실제 문제 해결에 유용하다고 평가하는 반면, 다른 사용자들은 네트워크 연결 불안정과 하드웨어 신뢰성 문제를 보고했다. 경쟁 제품인 ArkKVM이 오픈소스 소프트웨어 스택을 공개한 점도 시장 동향으로 주목할 만하다.",
+    "reason": "Product announcement for a miniaturized IP KVM device with moderate community interest. The item itself lacks technical depth, but community discussion reveals practical use cases and reliability concerns worth noting for readers evaluating remote management hardware.",
+    "tags": [
+      "remote-management",
+      "hardware",
+      "kvm-switch",
+      "server-administration",
+      "product-announcement"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "taubek",
+    "author": "taubek",
+    "published_at": "2026-09-13T07:49:46+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49679459",
+    "title": "The Interim Computer Museum",
+    "url": "https://icm.museum/",
+    "score": 5.0,
+    "summary": "Seattle의 Interim Computer Museum은 빈티지 컴퓨터 수집 및 복원 활동을 진행하는 박물관으로, 방문객들에게 실제 Unix 등 역사적 컴퓨터 시스템에 접근할 수 있는 기회를 제공한다. 커뮤니티 반응에 따르면 관장이 직접 상세한 투어를 제공하며, 컴퓨팅 역사 보존과 교육적 가치를 중시하는 기술 커뮤니티에서 긍정적으로 평가받고 있다.",
+    "reason": "Community interest in a hands-on vintage computing museum with restoration efforts and interactive access to historical systems. Moderate technical relevance as a resource for computing history and preservation, but primarily cultural/educational rather than technical news.",
+    "tags": [
+      "computing-history",
+      "vintage-hardware",
+      "museum",
+      "community"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "mulmen",
+    "author": "mulmen",
+    "published_at": "2026-09-13T02:43:57+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:aa8213bd0df1fa24",
+    "title": "P(doom)",
+    "url": "https://news.hada.io/topic?id=33623",
+    "score": 5.0,
+    "summary": "AI의 주요 위험을 인류 멸종보다는 비공개 모델 기업의 권력 집중과 불투명한 시장 구조에서 찾는 관점을 제시한다. 기사는 Anthropic과 OpenAI의 개발 속도 조절 제안에 대해, 공공 데이터로 성장한 소수 미국 기업에 기술 통제권을 맡기는 문제를 지적하며, 대신 가중치 공개 모델 접근성 확대와 공유 자원 기반 모델의 이익 환원을 대안으로 제시한다. 현재 규제가 동의 없는 학습 데이터 거래와 에이전트 사이버 공격 같은 실제 피해를 제대로 다루지 못한다고 비판한다.",
+    "reason": "The article presents substantive policy critique of AI governance, contrasting existential risk narratives with concrete concerns about market concentration, data practices, and regulatory gaps. It includes specific examples (P(doom) estimates, OpenAI agent incidents) and argues for alternative framings of AI harm. While the analysis is somewhat fragmented and lacks depth on technical details, it addresses genuine tensions in AI safety discourse relevant to software engineering and industry structure.",
+    "tags": [
+      "ai-governance",
+      "open-source-models",
+      "market-concentration",
+      "ai-safety",
+      "regulatory-policy"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-13T13:34:07+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:99c9304851d989f9",
+    "title": "Show GN: ExitPress 네이버블로그/티스토리의 글들을 md,mdx,fumadocs로 딸깍으로 뽑아내는 툴",
+    "url": "https://news.hada.io/topic?id=33619",
+    "score": 5.0,
+    "summary": "ExitPress는 네이버 블로그와 티스토리의 글을 markdown, MDX, Fumadocs 등 다양한 형식으로 추출하는 도구입니다. 중간 변환 단계로 Block 요소를 도입해 입력 형식과 출력 형식의 N×M 조합을 지원하며, 이미지 자동 다운로드(Picgo 엔진), 내부 링크 변환 등의 기능을 제공합니다. 블로그 플랫폼의 소유권 제약으로 인한 콘텐츠 이전 문제를 해결하는 실용적인 솔루션입니다.",
+    "reason": "A practical open-source tool addressing a real problem (blog content migration and archival), with thoughtful technical design (intermediate block representation enabling N×M format combinations) and useful features (image handling, link conversion). Moderate technical depth and community relevance, but limited to Korean blogging platforms.",
+    "tags": [
+      "blog-migration",
+      "content-extraction",
+      "open-source-tool",
+      "korean-platforms"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "mym0404",
+    "published_at": "2026-09-13T10:07:17+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:c11ee7fb7724e05f",
+    "title": "Show GN: irasutoya - (Claude Skill) いらすとや 이라스토야 일러스트를 검색·다운로드해 활용",
+    "url": "https://news.hada.io/topic?id=33607",
+    "score": 5.0,
+    "summary": "いらすとや 일러스트 검색·다운로드 Claude 스킬이 공개되었습니다. 이 스킬은 슬라이드, 문서, 블로그 작성 시 주제에 맞는 일러스트를 자동으로 찾아 투명 PNG로 삽입하며, 일본어 검색의 까다로운 문법 변이(조사 제거, 가나·한자 변환, 동사 활용 등)를 12가지 표기로 병렬 처리해 정확도를 높입니다. CLI와 Claude Design 캔버스 모두에서 사용 가능하며, 25,424장의 이미지와 239개 라벨을 활용할 수 있습니다.",
+    "reason": "Describes a useful Claude skill that integrates irasutoya illustration search into document creation workflows. Demonstrates solid technical problem-solving around Japanese text matching and provides concrete CLI examples, but is primarily a tool announcement rather than a breakthrough or deep technical insight.",
+    "tags": [
+      "claude-ai",
+      "tool-integration",
+      "text-processing",
+      "open-source",
+      "productivity"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "molmoty",
+    "published_at": "2026-09-13T01:35:28+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:89dde63b3c533fb4",
+    "title": "Apple ushers in new, AI-powered era for Siri - mashable.com",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQnB5blNSUXFRZzl3cDZRLWthNVdmQTZfQ2I1UFQweG9Udjh5b0hqT21sN21ORF9xTWs5ak4tVklsVWE5UE1SWmd5aTRtRE1KNDdlT0F3LWdGQVlrSFkwUEo3bk1Bd1p1QlRPZWh6ODdYUVRYQnl1bktWOHlMNXE0LThFTUs0VnEyM1Bz?oc=5",
+    "score": 5.0,
+    "summary": "Apple이 Siri에 AI 기능을 통합하는 새로운 방향을 발표했다. 구체적인 기술 세부사항이나 새로운 기능에 대한 정보가 제공되지 않아 이 업데이트의 실질적 영향을 평가하기 어렵지만, 주요 기술 기업의 음성 어시스턴트 개선은 AI 통합 추세를 반영하는 중요한 움직임이다.",
+    "reason": "Announcement of AI integration into Siri represents a significant product update for a widely used voice assistant, but the supplied content lacks technical details, concrete capabilities, or implementation specifics needed to assess the actual scope and impact of the changes.",
+    "tags": [
+      "apple-siri",
+      "voice-assistants",
+      "ai-integration",
+      "product-updates"
+    ],
+    "source_type": "google_news",
+    "sub_source": "mashable.com",
+    "author": "mashable.com",
+    "published_at": "2026-09-13T09:32:03+00:00",
+    "profile": "tech-news"
+  }
+]
