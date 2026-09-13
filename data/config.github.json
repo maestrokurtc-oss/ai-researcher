@@ -25,7 +25,7 @@
         "topic_dedup": true
       },
       "tech-news": {
-        "threshold": 7.0,
+        "threshold": 6.0,
         "topic_dedup": true
       },
       "tech-blog": {

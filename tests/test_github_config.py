@@ -25,3 +25,13 @@ def test_github_config_includes_geeknews_with_full_article_extraction() -> None:
     assert source.content_extractor == "trafilatura"
     assert source.selection_threshold == 6.0
     assert config.sources.rss[0] == source
+
+
+def test_github_config_expands_the_reader_facing_news_pool() -> None:
+    config = Config.model_validate(
+        json.loads(GITHUB_CONFIG_PATH.read_text(encoding="utf-8"))
+    )
+
+    assert config.processing.profile_settings["tech-news"].threshold == 6.0
+    assert config.digest.max_items is not None
+    assert config.digest.max_items >= 9

@@ -114,7 +114,7 @@ uv run python scripts/check-sources.py --feeds    # RSS URL 응답만 빠르게
 | 프로필 | 대상 | 문턱 |
 |---|---|---|
 | `ai-paper` | arXiv 논문 (이 포크에서 추가) | 7.5 |
-| `tech-news` | 뉴스·커뮤니티·랩 발표·릴리스 | 7.0 |
+| `tech-news` | 뉴스·커뮤니티·랩 발표·릴리스 | 6.0 |
 | `tech-blog` | 뉴스레터·장문 분석 | 6.0 |
 
 ## 비용
