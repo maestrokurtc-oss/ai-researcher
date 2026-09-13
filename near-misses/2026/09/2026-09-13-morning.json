@@ -1,0 +1,218 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:5ccf7524eb7992e0",
+    "title": "Linux용 Zoom 클라이언트, X11 클립보드에 기록되는 모든 내용을 선제적으로 읽음",
+    "url": "https://news.hada.io/topic?id=33601",
+    "score": 7.0,
+    "summary": "Linux용 Zoom 7.1.5에서 사용자의 명시적 붙여넣기 동작 없이 X11 클립보드(CLIPBOARD 선택 영역)의 모든 내용을 선제적으로 읽는 동작이 발견됐다. XFIXES 확장으로 클립보드 소유자 변경을 감지한 뒤 즉시 붙여넣기 요청을 보내는 방식으로, 웹 설정에서 클립보드 공유를 비활성화해도 계속 발생한다. 비밀번호 관리자나 민감한 정보를 클립보드로 전달하는 사용자에게 중요한 보안 문제다.",
+    "reason": "Important security vulnerability in widely-used software affecting Linux users. Demonstrates concrete privacy risk with technical depth and reproducible evidence. Significant for users handling sensitive data via clipboard.",
+    "tags": [
+      "security-vulnerability",
+      "linux",
+      "zoom",
+      "clipboard-access",
+      "privacy"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T23:35:55+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49673098",
+    "title": "Nvidia is the central bank of AI",
+    "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+    "score": 6.0,
+    "summary": "Economist 기사는 Nvidia의 시장 지배력과 $500억 이상의 투자 약정을 중앙은행의 통화 정책에 비유하며, 민간 기업이 공공 기관 수준의 경제적 영향력을 행사하는 현상을 분석한다. 커뮤니티 토론에서는 기업 권력의 증대가 사회 계약과 거버넌스에 미치는 함의와 AI 산업의 자본 소진 속도에 대한 의문이 제기되었다.",
+    "reason": "The Economist article presents an interesting analytical framework comparing Nvidia's market power and capital commitments to central banking functions, with substantive community discussion about corporate power dynamics and AI industry economics. However, the core argument relies on metaphorical comparison rather than novel technical insight, and the supplied content is fragmentary (archive link only, incomplete comments).",
+    "tags": [
+      "nvidia",
+      "ai-industry",
+      "market-power",
+      "corporate-governance",
+      "capital-allocation"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "tolugenius",
+    "author": "tolugenius",
+    "published_at": "2026-09-12T15:08:27+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49672510",
+    "title": "We must pace the frontier",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "score": 6.0,
+    "summary": "Anthropic CEO Dario Amodei는 AI 개발 속도를 조절해야 한다는 주장을 제시했으며, 이는 정렬(alignment) 문제 해결 실패와 시장 경쟁력 상실을 인정하는 것이라는 비판을 받고 있다. 커뮤니티는 이 입장을 효과적 이타주의 대 독점적 경쟁 관행, 규제 포획, 그리고 AI 안전 우선순위에 대한 근본적인 질문으로 해석하고 있다. 이 논쟁은 AI 산업의 전략적 방향과 거버넌스에 대한 업계 내 심각한 분열을 드러낸다.",
+    "reason": "Substantive industry debate on AI safety and competitive strategy, with concrete policy implications. The post presents a notable position from Anthropic leadership on pacing AI development, generating significant community engagement and technical disagreement about alignment, market dynamics, and regulatory approaches. However, the source is an opinion piece rather than reporting on new technical developments or research results.",
+    "tags": [
+      "ai-safety",
+      "ai-governance",
+      "anthropic",
+      "alignment",
+      "industry-strategy"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "apsec112",
+    "author": "apsec112",
+    "published_at": "2026-09-12T14:10:49+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:684a2e2a295c4490",
+    "title": "Anthropic CEO outlines plan to slow AI development",
+    "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+    "score": 6.0,
+    "summary": "Anthropic의 Dario Amodei와 OpenAI의 Sam Altman이 AI 개발 속도를 조절하는 'frontier pacing' 전략에 동의하고 있다는 보도. 업계 주요 인물들의 이러한 입장은 AI 안전성과 규제 논의에 중요한 신호이지만, 기사는 구체적인 실행 계획보다는 개념적 질문에 초점을 맞추고 있다.",
+    "reason": "Substantive industry commentary on AI development strategy from major players, but the article appears to be a framing question rather than detailed reporting of concrete plans. The headline promises specifics ('outlines plan') but the content snippet suggests exploratory analysis rather than announced policy details.",
+    "tags": [
+      "ai-safety",
+      "ai-policy",
+      "anthropic",
+      "openai",
+      "industry-strategy"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Anthony Ha",
+    "published_at": "2026-09-12T19:34:44+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:8543faceff6c9086",
+    "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+    "score": 6.0,
+    "summary": "Anthropic CEO Dario Amodei는 AI 개발 속도를 늦춰야 한다고 주장하며, METR 같은 제3자 평가자에게 모델 접근을 허용하여 안전 관행 준수를 검증하겠다고 발표했다. 이는 업계 리더의 명확한 안전 우선 입장을 보여주지만, 구체적인 기술적 세부사항이나 새로운 연구 결과는 포함되지 않았다.",
+    "reason": "Substantive policy position from a major AI lab leader on safety and development pace, with concrete commitments (third-party access), but limited technical depth and no new research or capability details provided.",
+    "tags": [
+      "ai-safety",
+      "anthropic",
+      "ai-governance",
+      "industry-policy"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Terrence O’Brien",
+    "published_at": "2026-09-12T16:23:40+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:b1b4fa9153436fe2",
+    "title": "The CEO of Anthropic said Saturday the artificial-intelligence industry should slow its fast-moving development to give safety measures time to catch up. Without it, Dario Amodei warned AI could be capable within six to 12 months of leading a swarm that could - facebook.com",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaUk4bzJTRHdSaEp3dTBWeFlMbTBKOXFSeXdydGR1QzF5WFcyMG9nTll3aGdncnZCNW90SWFGa252b01aRkxrY2FOR2gyaVJzc0NkYlUtLVg3RkZvOXRqbm9neWlkd3YzTXdZS3lfOFBpYjNWU0s3UVNhME1RM2xOcnZ3YVBRU3R6dllJbHVxS1NmZ2d4VjBibm1JYVluMjVIWFdLa2Y3SHN5UEUzMUVHVVJkanl3d0xsWDFGZzN4RDdUc3lnelJ3OHVBS0prWl94eUhpdDBYUVBOQQ?oc=5",
+    "score": 6.0,
+    "summary": "Anthropic의 CEO Dario Amodei가 AI 산업이 안전 조치를 따라잡을 수 있도록 개발 속도를 늦춰야 한다고 주장했으며, 그렇지 않으면 6~12개월 내에 AI가 떼 공격을 주도할 수 있는 능력을 갖출 수 있다고 경고했다. 이는 AI 안전과 개발 속도 사이의 긴장 관계에 대한 업계 지도자의 공개적 입장을 보여주지만, 구체적인 위험이나 제안된 조치에 대한 세부 정보가 부족하다.",
+    "reason": "Notable statement from a major AI company leader on industry-critical safety concerns, but the content is truncated and lacks substantive detail about the specific risks or proposed measures. The claim about AI capabilities timelines is significant but presented without supporting evidence or technical depth.",
+    "tags": [
+      "ai-safety",
+      "anthropic",
+      "ai-development",
+      "industry-governance"
+    ],
+    "source_type": "google_news",
+    "sub_source": "facebook.com",
+    "author": "facebook.com",
+    "published_at": "2026-09-12T17:42:52+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:43bd218071e9865a",
+    "title": "Anthropic CEO calls to ‘slow the pace’ of AI development amid safety concerns - ABC27",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVjdMdXZaQWFuSXNvXzlwM3BtUjdiM0xCeTVfWTZ1SVhOWlRFWkY2emQxQVRFY195SXNzRzh5WXFELWJ0bHZkTGVCbFRHa0ZhWC11N1pzYkswOW82VXQxYm4wMzVvQjZTRmpzX2YtRTlteS1lemhYcmliaVUwYWFFd1RmdkRwLTdwdlRWV29JQnlwV0FlT1pWdWIwbENteUVqVjhZN0NZcW81dmNqcm92UtIBsAFBVV95cUxOVjdMdXZaQWFuSXNvXzlwM3BtUjdiM0xCeTVfWTZ1SVhOWlRFWkY2emQxQVRFY195SXNzRzh5WXFELWJ0bHZkTGVCbFRHa0ZhWC11N1pzYkswOW82VXQxYm4wMzVvQjZTRmpzX2YtRTlteS1lemhYcmliaVUwYWFFd1RmdkRwLTdwdlRWV29JQnlwV0FlT1pWdWIwbENteUVqVjhZN0NZcW81dmNqcm92Ug?oc=5",
+    "score": 6.0,
+    "summary": "Anthropic의 CEO가 AI 안전 우려를 이유로 AI 개발 속도를 늦춰야 한다고 주장했다. 이는 대규모 언어 모델 개발을 주도하는 주요 기업의 리더가 개발 속도 조절에 대해 공개적으로 입장을 표명한 것으로, AI 산업의 규제와 안전 정책 논의에 영향을 미칠 수 있는 발언이다.",
+    "reason": "Industry-relevant statement from a major AI safety-focused company leader on a substantive policy question, but the supplied content is a headline-only stub without substantive detail, quotes, or arguments to evaluate.",
+    "tags": [
+      "ai-safety",
+      "anthropic",
+      "ai-policy",
+      "industry-news"
+    ],
+    "source_type": "google_news",
+    "sub_source": "ABC27",
+    "author": "ABC27",
+    "published_at": "2026-09-12T13:53:22+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49674050",
+    "title": "Make your first edit to OpenStreetMap",
+    "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+    "score": 5.0,
+    "summary": "OpenStreetMap 기여자를 위한 JOSM 플러그인 기반 편집 튜토리얼을 소개하는 글입니다. 커뮤니티 논의에서는 초보자에게 JOSM이 적절한지에 대한 의견 차이가 있으며, iD 에디터나 StreetComplete, Every Door 같은 대안 도구들이 더 접근성이 좋다는 지적이 있습니다. OSM 같은 오픈소스 지리정보 프로젝트의 진입장벽을 낮추는 것은 중요하지만, 이 글 자체는 기존 도구의 활용법을 설명하는 수준입니다.",
+    "reason": "Tutorial content for contributing to OpenStreetMap using JOSM. Moderate community engagement with substantive debate about beginner-friendly approaches, but the resource itself is a tool/guide rather than news of a significant development. Relevant to open source and community contribution, but incremental in nature.",
+    "tags": [
+      "openstreetmap",
+      "open-source",
+      "geospatial",
+      "community-contribution",
+      "tutorial"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "juliantigler",
+    "author": "juliantigler",
+    "published_at": "2026-09-12T16:25:08+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49674498",
+    "title": "Will There Be a 7G?",
+    "url": "https://arxiv.org/abs/2609.01877",
+    "score": 5.0,
+    "summary": "7G 가능성을 다루는 arxiv 논문으로, 무선 세대 진화의 기술적·마케팅적 측면을 검토합니다. 커뮤니티 토론에서는 5G 완전 배포 미완료, Massive MIMO 실제 구현 부족, 복잡도 증가 등 현실적 제약을 지적하며, '세대'가 마케팅 용어임을 강조합니다. 사용자 관점에서는 속도보다 안정성과 커버리지 개선이 더 중요하다는 의견이 제시됩니다.",
+    "reason": "Speculative analysis of future wireless generations with substantive community debate about technical feasibility, marketing terminology, and practical deployment challenges. The arxiv paper likely provides theoretical framework, but the value lies in the discussion of real 5G/6G limitations and stakeholder priorities rather than novel technical breakthroughs.",
+    "tags": [
+      "wireless-networks",
+      "5g-6g",
+      "standards",
+      "infrastructure",
+      "technical-feasibility"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "Betelbuddy",
+    "author": "Betelbuddy",
+    "published_at": "2026-09-12T17:05:31+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:c5457697dcfab8a6",
+    "title": "네이쥐안 - 뒤처지지 않으려고 더 노력하지만 나아지지 않는 경쟁",
+    "url": "https://news.hada.io/topic?id=33598",
+    "score": 5.0,
+    "summary": "네이쥐안(내卷)은 노력과 경쟁은 증가하지만 성과와 보상이 비례하지 않는 악순환을 나타내는 중국 개념으로, 1937년 인류학자 Alexander Goldenweiser의 involution 이론에서 비롯되었다. 한정된 기회를 두고 모두가 같은 전략을 따르면 상대적 우위가 사라져 같은 지위를 유지하는 데도 더 많은 자원을 써야 하는 상황을 설명하며, 중국의 과잉생산과 가격 경쟁 문제, 그리고 개인의 과로 문화를 분석하는 프레임워크로 활용되고 있다.",
+    "reason": "The article explains a culturally significant economic and social concept (neijuan/involution) with historical context and contemporary relevance to competitive dynamics in both individual and organizational contexts. It provides substantive conceptual depth and traces the term's intellectual origins, making it informative for understanding systemic competition patterns. However, it lacks technical depth, concrete data, or forward-looking analysis specific to software engineering or AI systems.",
+    "tags": [
+      "economics",
+      "competition",
+      "social-dynamics",
+      "cultural-analysis"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-12T21:40:05+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:ddf15a5cdc703381",
+    "title": "Trump is giving data centers a pass to pollute",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+    "score": 5.0,
+    "summary": "트럼프 행정부가 AI 데이터센터 건설 가속화를 명목으로 환경 규제를 완화하고 있으며, 전직 EPA 관계자들은 이것이 미국인의 건강 위험을 증가시킨다고 경고했다. 데이터센터 오염 문제는 AI 인프라 확장의 실질적 비용을 드러내는 중요한 정책 쟁점이다.",
+    "reason": "Substantive policy development affecting AI infrastructure with documented health and environmental implications, but primarily political analysis rather than technical depth. Relevant to engineers and technologists concerned with infrastructure sustainability and regulatory environment.",
+    "tags": [
+      "ai-infrastructure",
+      "environmental-policy",
+      "data-centers",
+      "regulation",
+      "sustainability"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Justine Calma",
+    "published_at": "2026-09-12T14:41:27+00:00",
+    "profile": "tech-news"
+  }
+]

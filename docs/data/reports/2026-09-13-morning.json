@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-13-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 24,
+    "more": 11
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "b948d6282416b586713968835f48c5ccec980762c3bcbfcd2d96efebfd8d6126",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "Transformer 회로 해석을 위한 수학적 프레임워크 \\(2021\\)",
+      "url": "https://transformer-circuits.pub/2021/framework/index.html",
+      "score": 9.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "mechanistic-interpretability",
+        "transformer-architecture",
+        "neural-network-analysis",
+        "mathematical-foundations",
+        "ai-safety"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "4f3362db6aac2aaaec67e1dfef623d022e07925df42830bcc0aedb1f2a3de798",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Starlink 하드웨어 전파 누출, SKA-Low 전파천문학 관측 위협",
+      "url": "https://news.hada.io/topic?id=33589",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "radio-astronomy",
+        "starlink-interference",
+        "spectrum-regulation",
+        "ska-low",
+        "hardware-emissions"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "9c531c254f4ca75a7e502c3329d5406070effd136db2f724f4d8e7f592dcf1db",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Real-SWE, 비공개 엔터프라이즈 코드베이스로 AI 코딩 능력 벤치마킹",
+      "url": "https://withspecific.com/benchmarks/real-swe",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-benchmarking",
+        "code-generation",
+        "model-evaluation",
+        "enterprise-software",
+        "llm-limitations"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "3032be2fe4c77146526c8817782acda1f543e2cdcfde66100fd4b1b1854c7c18",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Bun 컴파일 시간을 분석하는 빌드 시각화 도구 제작기",
+      "url": "https://lalitm.com/post/buildprof/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "build-profiling",
+        "bun",
+        "performance-analysis",
+        "developer-tools",
+        "compile-times"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "0caeed80cc30a7df231823eb98763f42e0e863b7685da2fea20c51961ae45e0f",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Intel 8087 부동소수점 칩의 FSCALE 명령어 마이크로코드 역공학 분석",
+      "url": "https://www.righto.com/2026/09/8087-microcode-reverse-engineering-fscale.html",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "microcode-reverse-engineering",
+        "x87-floating-point",
+        "cpu-architecture",
+        "historical-computing"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "f1cae18e741b77c4e7a1d519ef7be2975691fc977c0718a94198763134084324",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Linux용 Zoom 클라이언트, 사용자 동작 없이 X11 클립보드 상시 감시",
+      "url": "https://hachyderm.io/@simontatham/117201594980991062",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "security-vulnerability",
+        "zoom",
+        "linux",
+        "clipboard-privacy",
+        "privilege-abuse"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "bf094fd34d01af0ddc77d8314683551ad51daa918dadf98b332d658b7ff74cea",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "LG, Gamers Nexus의 스마트 TV 데이터 수집 조사 부인했으나 추가 증거로 반박당해",
+      "url": "https://news.hada.io/topic?id=33605",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "smart-tv-privacy",
+        "data-collection",
+        "security-vulnerability",
+        "consumer-protection",
+        "dark-patterns"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "bf1278d995240c6d49475f98df1e6593bc8c2b3c3499b5e87e75c75918091506",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "Shopify, AI 코딩 에이전트로 Shop 앱을 12주 만에 네이티브 전환",
+      "url": "https://news.hada.io/topic?id=33604",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-assisted-development",
+        "mobile-engineering",
+        "code-migration",
+        "performance-optimization",
+        "shopify"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "01d6150920ac1b1ab226ec290f6176a49ad2f1779b2b77d6a1a761bf392b75d2",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "AI 재귀적 자기개선\\(RSI\\), 실현 시점은 얼마나 가까운가",
+      "url": "https://news.hada.io/topic?id=33600",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-research",
+        "recursive-self-improvement",
+        "reinforcement-learning",
+        "ai-capabilities",
+        "technical-bottlenecks"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "0e1fcfb70d979d346f681e5a0ebe40e395ef10ee6b9f58033f8b6531c674d01a",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "커넥톰과 물리 엔진으로 구현한 초파리 행동 시뮬레이션",
+      "url": "https://news.hada.io/topic?id=33594",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "connectomics",
+        "physics-simulation",
+        "neuroscience",
+        "agent-based-modeling",
+        "computational-biology"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "89764a1a06337e8423ef880070eede2e838b3cf8552973929cc1c5569cb2d05d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "Android VPN 차단 설정 우회해 실제 IP 노출되는 취약점 발견",
+      "url": "https://news.hada.io/topic?id=33591",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "android-security",
+        "vpn-bypass",
+        "privacy-vulnerability",
+        "network-security"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "54c4ef1cb47a2b76d01845b9a22697c92f7ddb13622a5e4a43354a550ed9302e",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "Nvidia, 칩 판매 넘어 고객 금융까지 보증하는 구조로 확장",
+      "url": "https://news.hada.io/topic?id=33588",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "nvidia-business-model",
+        "ai-infrastructure-financing",
+        "financial-risk",
+        "semiconductor-industry"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-13",
+      "content_key": "d881702c43f2e94996538a03d83a4fb81d3ceb67f5eab60f7ccb5cedde31df48",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-13",
+      "title": "Minitap, Google Artemis가 자사 오픈소스 mobile-use 코드 출처 삭제했다고 주장",
+      "url": "https://news.hada.io/topic?id=33587",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "open-source-attribution",
+        "google-artemis",
+        "code-reuse",
+        "ai-agents",
+        "developer-ethics"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-14",
+      "content_key": "c19e0d6437cf4d69db598049aecddc4d3a03ba640f25dd774356a165c7bbe9fe",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-14",
+      "title": "Anthropic CEO 다리오 아모데이, 최첨단 AI 개발 속도 조절 제안",
+      "url": "https://news.hada.io/topic?id=33586",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-safety",
+        "ai-governance",
+        "anthropic",
+        "ai-policy",
+        "responsible-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-15",
+      "content_key": "1c7d9bb9cee291a6fd01aa4c262fcab16d862d98cb78de7b44ab7526bb7cdbe0",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-15",
+      "title": "Apple Neural Engine 리버스 엔지니어링: LLM 병목은 연산이 아닌 데이터 이동",
+      "url": "https://news.hada.io/topic?id=33583",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "apple-silicon",
+        "neural-engine",
+        "llm-inference",
+        "hardware-architecture",
+        "memory-bandwidth"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-16",
+      "content_key": "42df73899de20b82df1cfd9391529a7ddca53e803ca084a74026b8c0343d30fc",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-16",
+      "title": "A few good ideas in programming languages",
+      "url": "https://prydt.xyz/blog/a-few-good-ideas-in-pl/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "programming-languages",
+        "language-design",
+        "type-systems",
+        "static-analysis"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-17",
+      "content_key": "97b627ca4940386b4bf825341029e53f14ab34c2917142b6064ff25391e1bb5c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-17",
+      "title": "NVIDIA, 여러 컴퓨터에 로컬 AI 요청 분산하는 Personal AI Router 공개",
+      "url": "https://news.hada.io/topic?id=33603",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "local-inference",
+        "distributed-computing",
+        "ai-infrastructure",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-18",
+      "content_key": "153a2acb1b95d357c5c741e6c69ea6c82504075dd85a9573e4c6cfa6030c0804",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-18",
+      "title": "Usenet-Rewind, 1981년부터 현재까지 검색 가능한 Usenet 아카이브",
+      "url": "https://news.hada.io/topic?id=33597",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "internet-history",
+        "digital-archives",
+        "usenet",
+        "research-tools",
+        "historical-data"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-19",
+      "content_key": "09decb9a55f437ce8441cf982dd89bc1f50f314711cb2361a9c4051625b58508",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-19",
+      "title": "다리오에게 보내는 공개서한: 모델 가중치 공개 의무화 촉구",
+      "url": "https://news.hada.io/topic?id=33595",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-governance",
+        "model-transparency",
+        "open-source-policy",
+        "regulatory-debate"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-20",
+      "content_key": "697301659ede9efd4f210de15f64af436d0acc22340f3065b4a031c8bc387443",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-20",
+      "title": "System76, GPU 메모리 192GB 지원 Linux AI 워크스테이션 Thelio Mira AI 출시",
+      "url": "https://news.hada.io/topic?id=33592",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-hardware",
+        "gpu-workstation",
+        "linux-systems",
+        "open-source-hardware"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-21",
+      "content_key": "58de476eae58c884b4e50e66acbfcbf70bb0a3a6979148e6558e5b0336b53560",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-21",
+      "title": "Mullenweg, 유급 휴직 이틀 만에 Slack으로 경영권 복귀 주장",
+      "url": "https://news.hada.io/topic?id=33584",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "wordpress",
+        "automattic",
+        "corporate-governance",
+        "open-source-leadership",
+        "crisis-management"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-22",
+      "content_key": "84ef556f5856791c5109892707c1c863c4289ae1c19835a87d16c97e78d6b445",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-22",
+      "title": "생성형 AI 시대, 그래도 원하는 방식으로 만들자는 개발자의 성찰",
+      "url": "https://news.hada.io/topic?id=33582",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "developer-experience",
+        "creative-satisfaction",
+        "software-culture"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-23",
+      "content_key": "82c80f56b9883882de0e772008b12fb44caaccdc1c2b8f829780e1cee4c652d8",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-23",
+      "title": "Google, Android 카메라에 Gemini Guided Vision 음성 설명 기능 추가",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbFlQcjFiSGNSQWMzTDgxTk5hNEFiaGFYNFNoWm1sSDR1MXowX3dMQ3dmeS04azBiWThoc3IzU042d0I2QlJHazBldkF6NUJmejNHdk9Mc09MZlI4a3ptRnQ4U1dfTl9fYlZJR3VmNDRIZTF5X3pwQkJ2em1rS0RLT3hzeUs?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "android",
+        "accessibility",
+        "gemini",
+        "ai-features"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "b01f2ad61bd017c9f37a1a617c68ae6c479c68ebbe2216a4d51ffc2367073745",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "FDE\\(Forward Deployed Engineer\\) 역할을 제대로 하는 법",
+      "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+      "score": 8.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "forward-deployed-engineer",
+        "product-strategy",
+        "customer-operations",
+        "enterprise-software",
+        "organizational-patterns"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:5ccf7524eb7992e0",
+      "content_key": "5ccf7524eb7992e0ac9dd7b55cab9681fcae6b32063f3ab7045f33eaaea86023",
+      "surface": "more",
+      "title": "Linux용 Zoom 클라이언트, X11 클립보드에 기록되는 모든 내용을 선제적으로 읽음",
+      "url": "https://news.hada.io/topic?id=33601",
+      "score": 7.0,
+      "summary": "Linux용 Zoom 7.1.5에서 사용자의 명시적 붙여넣기 동작 없이 X11 클립보드(CLIPBOARD 선택 영역)의 모든 내용을 선제적으로 읽는 동작이 발견됐다. XFIXES 확장으로 클립보드 소유자 변경을 감지한 뒤 즉시 붙여넣기 요청을 보내는 방식으로, 웹 설정에서 클립보드 공유를 비활성화해도 계속 발생한다. 비밀번호 관리자나 민감한 정보를 클립보드로 전달하는 사용자에게 중요한 보안 문제다.",
+      "tags": [
+        "security-vulnerability",
+        "linux",
+        "zoom",
+        "clipboard-access",
+        "privacy"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-12T23:35:55+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:43bd218071e9865a",
+      "content_key": "70fcfbeaf073ac8dd17e5c3fabbb59b13ad621835d7aab05d12558851fdd9787",
+      "surface": "more",
+      "title": "Anthropic CEO calls to ‘slow the pace’ of AI development amid safety concerns - ABC27",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVjdMdXZaQWFuSXNvXzlwM3BtUjdiM0xCeTVfWTZ1SVhOWlRFWkY2emQxQVRFY195SXNzRzh5WXFELWJ0bHZkTGVCbFRHa0ZhWC11N1pzYkswOW82VXQxYm4wMzVvQjZTRmpzX2YtRTlteS1lemhYcmliaVUwYWFFd1RmdkRwLTdwdlRWV29JQnlwV0FlT1pWdWIwbENteUVqVjhZN0NZcW81dmNqcm92UtIBsAFBVV95cUxOVjdMdXZaQWFuSXNvXzlwM3BtUjdiM0xCeTVfWTZ1SVhOWlRFWkY2emQxQVRFY195SXNzRzh5WXFELWJ0bHZkTGVCbFRHa0ZhWC11N1pzYkswOW82VXQxYm4wMzVvQjZTRmpzX2YtRTlteS1lemhYcmliaVUwYWFFd1RmdkRwLTdwdlRWV29JQnlwV0FlT1pWdWIwbENteUVqVjhZN0NZcW81dmNqcm92Ug?oc=5",
+      "score": 6.0,
+      "summary": "Anthropic의 CEO가 AI 안전 우려를 이유로 AI 개발 속도를 늦춰야 한다고 주장했다. 이는 대규모 언어 모델 개발을 주도하는 주요 기업의 리더가 개발 속도 조절에 대해 공개적으로 입장을 표명한 것으로, AI 산업의 규제와 안전 정책 논의에 영향을 미칠 수 있는 발언이다.",
+      "tags": [
+        "ai-safety",
+        "anthropic",
+        "ai-policy",
+        "industry-news"
+      ],
+      "source_type": "google_news",
+      "sub_source": "ABC27",
+      "author": "ABC27",
+      "published_at": "2026-09-12T13:53:22+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:684a2e2a295c4490",
+      "content_key": "b7b4c6f0444c06e529c6f6ef819cdbccbe69a36f5715b369c89908385d06550c",
+      "surface": "more",
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "score": 6.0,
+      "summary": "Anthropic의 Dario Amodei와 OpenAI의 Sam Altman이 AI 개발 속도를 조절하는 'frontier pacing' 전략에 동의하고 있다는 보도. 업계 주요 인물들의 이러한 입장은 AI 안전성과 규제 논의에 중요한 신호이지만, 기사는 구체적인 실행 계획보다는 개념적 질문에 초점을 맞추고 있다.",
+      "tags": [
+        "ai-safety",
+        "ai-policy",
+        "anthropic",
+        "openai",
+        "industry-strategy"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Anthony Ha",
+      "published_at": "2026-09-12T19:34:44+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:8543faceff6c9086",
+      "content_key": "4bb7ed73f911dcda7120a484a6abb1f99ebb232c2a0dcdfa79dad1568780c0f7",
+      "surface": "more",
+      "title": "Anthropic CEO says it’s time to pump the brakes on AI",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994337/anthropic-ceo-slow-down-ai-development",
+      "score": 6.0,
+      "summary": "Anthropic CEO Dario Amodei는 AI 개발 속도를 늦춰야 한다고 주장하며, METR 같은 제3자 평가자에게 모델 접근을 허용하여 안전 관행 준수를 검증하겠다고 발표했다. 이는 업계 리더의 명확한 안전 우선 입장을 보여주지만, 구체적인 기술적 세부사항이나 새로운 연구 결과는 포함되지 않았다.",
+      "tags": [
+        "ai-safety",
+        "anthropic",
+        "ai-governance",
+        "industry-policy"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Terrence O’Brien",
+      "published_at": "2026-09-12T16:23:40+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49673098",
+      "content_key": "bacf7aac6987233eb08816b8de439185b5f8e3a92fa98fc9786f6a719ef6236d",
+      "surface": "more",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "score": 6.0,
+      "summary": "Economist 기사는 Nvidia의 시장 지배력과 $500억 이상의 투자 약정을 중앙은행의 통화 정책에 비유하며, 민간 기업이 공공 기관 수준의 경제적 영향력을 행사하는 현상을 분석한다. 커뮤니티 토론에서는 기업 권력의 증대가 사회 계약과 거버넌스에 미치는 함의와 AI 산업의 자본 소진 속도에 대한 의문이 제기되었다.",
+      "tags": [
+        "nvidia",
+        "ai-industry",
+        "market-power",
+        "corporate-governance",
+        "capital-allocation"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "tolugenius",
+      "author": "tolugenius",
+      "published_at": "2026-09-12T15:08:27+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:b1b4fa9153436fe2",
+      "content_key": "59bb6bc067585da61db7e28eebaa0204e4e84abb8acca021fcb15d56f0373541",
+      "surface": "more",
+      "title": "The CEO of Anthropic said Saturday the artificial-intelligence industry should slow its fast-moving development to give safety measures time to catch up. Without it, Dario Amodei warned AI could be capable within six to 12 months of leading a swarm that could - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOaUk4bzJTRHdSaEp3dTBWeFlMbTBKOXFSeXdydGR1QzF5WFcyMG9nTll3aGdncnZCNW90SWFGa252b01aRkxrY2FOR2gyaVJzc0NkYlUtLVg3RkZvOXRqbm9neWlkd3YzTXdZS3lfOFBpYjNWU0s3UVNhME1RM2xOcnZ3YVBRU3R6dllJbHVxS1NmZ2d4VjBibm1JYVluMjVIWFdLa2Y3SHN5UEUzMUVHVVJkanl3d0xsWDFGZzN4RDdUc3lnelJ3OHVBS0prWl94eUhpdDBYUVBOQQ?oc=5",
+      "score": 6.0,
+      "summary": "Anthropic의 CEO Dario Amodei가 AI 산업이 안전 조치를 따라잡을 수 있도록 개발 속도를 늦춰야 한다고 주장했으며, 그렇지 않으면 6~12개월 내에 AI가 떼 공격을 주도할 수 있는 능력을 갖출 수 있다고 경고했다. 이는 AI 안전과 개발 속도 사이의 긴장 관계에 대한 업계 지도자의 공개적 입장을 보여주지만, 구체적인 위험이나 제안된 조치에 대한 세부 정보가 부족하다.",
+      "tags": [
+        "ai-safety",
+        "anthropic",
+        "ai-development",
+        "industry-governance"
+      ],
+      "source_type": "google_news",
+      "sub_source": "facebook.com",
+      "author": "facebook.com",
+      "published_at": "2026-09-12T17:42:52+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49672510",
+      "content_key": "874a2fd905ea6c7bd367e41e878d3bc5363d50e880a53a1f5cdbca98b0dfdf32",
+      "surface": "more",
+      "title": "We must pace the frontier",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "score": 6.0,
+      "summary": "Anthropic CEO Dario Amodei는 AI 개발 속도를 조절해야 한다는 주장을 제시했으며, 이는 정렬(alignment) 문제 해결 실패와 시장 경쟁력 상실을 인정하는 것이라는 비판을 받고 있다. 커뮤니티는 이 입장을 효과적 이타주의 대 독점적 경쟁 관행, 규제 포획, 그리고 AI 안전 우선순위에 대한 근본적인 질문으로 해석하고 있다. 이 논쟁은 AI 산업의 전략적 방향과 거버넌스에 대한 업계 내 심각한 분열을 드러낸다.",
+      "tags": [
+        "ai-safety",
+        "ai-governance",
+        "anthropic",
+        "alignment",
+        "industry-strategy"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "apsec112",
+      "author": "apsec112",
+      "published_at": "2026-09-12T14:10:49+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49674050",
+      "content_key": "64f575e9b4f6fe6499f9441f7ec7f9cea2f1fb7a4564bf09b9b0ff1237113695",
+      "surface": "more",
+      "title": "Make your first edit to OpenStreetMap",
+      "url": "https://high5apps.github.io/josm-plugin-website-wizard/",
+      "score": 5.0,
+      "summary": "OpenStreetMap 기여자를 위한 JOSM 플러그인 기반 편집 튜토리얼을 소개하는 글입니다. 커뮤니티 논의에서는 초보자에게 JOSM이 적절한지에 대한 의견 차이가 있으며, iD 에디터나 StreetComplete, Every Door 같은 대안 도구들이 더 접근성이 좋다는 지적이 있습니다. OSM 같은 오픈소스 지리정보 프로젝트의 진입장벽을 낮추는 것은 중요하지만, 이 글 자체는 기존 도구의 활용법을 설명하는 수준입니다.",
+      "tags": [
+        "openstreetmap",
+        "open-source",
+        "geospatial",
+        "community-contribution",
+        "tutorial"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "juliantigler",
+      "author": "juliantigler",
+      "published_at": "2026-09-12T16:25:08+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:ddf15a5cdc703381",
+      "content_key": "664b7c30cd349bfc8b85e4f9349283c685657c06766daa2b8dcc0c296d48b944",
+      "surface": "more",
+      "title": "Trump is giving data centers a pass to pollute",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994112/ai-data-center-pollution-health-epa",
+      "score": 5.0,
+      "summary": "트럼프 행정부가 AI 데이터센터 건설 가속화를 명목으로 환경 규제를 완화하고 있으며, 전직 EPA 관계자들은 이것이 미국인의 건강 위험을 증가시킨다고 경고했다. 데이터센터 오염 문제는 AI 인프라 확장의 실질적 비용을 드러내는 중요한 정책 쟁점이다.",
+      "tags": [
+        "ai-infrastructure",
+        "environmental-policy",
+        "data-centers",
+        "regulation",
+        "sustainability"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Justine Calma",
+      "published_at": "2026-09-12T14:41:27+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49674498",
+      "content_key": "138f321247425e2a5e713ffcc3a4da8963bb6fdb483ab4fdeb2281d893c7a76b",
+      "surface": "more",
+      "title": "Will There Be a 7G?",
+      "url": "https://arxiv.org/abs/2609.01877",
+      "score": 5.0,
+      "summary": "7G 가능성을 다루는 arxiv 논문으로, 무선 세대 진화의 기술적·마케팅적 측면을 검토합니다. 커뮤니티 토론에서는 5G 완전 배포 미완료, Massive MIMO 실제 구현 부족, 복잡도 증가 등 현실적 제약을 지적하며, '세대'가 마케팅 용어임을 강조합니다. 사용자 관점에서는 속도보다 안정성과 커버리지 개선이 더 중요하다는 의견이 제시됩니다.",
+      "tags": [
+        "wireless-networks",
+        "5g-6g",
+        "standards",
+        "infrastructure",
+        "technical-feasibility"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "Betelbuddy",
+      "author": "Betelbuddy",
+      "published_at": "2026-09-12T17:05:31+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:c5457697dcfab8a6",
+      "content_key": "c5457697dcfab8a636cc5dc37aae0a2e9961dab37dec8e6c39d85f369fc2ce38",
+      "surface": "more",
+      "title": "네이쥐안 - 뒤처지지 않으려고 더 노력하지만 나아지지 않는 경쟁",
+      "url": "https://news.hada.io/topic?id=33598",
+      "score": 5.0,
+      "summary": "네이쥐안(내卷)은 노력과 경쟁은 증가하지만 성과와 보상이 비례하지 않는 악순환을 나타내는 중국 개념으로, 1937년 인류학자 Alexander Goldenweiser의 involution 이론에서 비롯되었다. 한정된 기회를 두고 모두가 같은 전략을 따르면 상대적 우위가 사라져 같은 지위를 유지하는 데도 더 많은 자원을 써야 하는 상황을 설명하며, 중국의 과잉생산과 가격 경쟁 문제, 그리고 개인의 과로 문화를 분석하는 프레임워크로 활용되고 있다.",
+      "tags": [
+        "economics",
+        "competition",
+        "social-dynamics",
+        "cultural-analysis"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-12T21:40:05+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "f9f9244aa6ab6e65aec9105b21b12e292f6c6f8f766cb5723c48997270866d51"
+}
