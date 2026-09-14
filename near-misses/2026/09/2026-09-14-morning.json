@@ -1,0 +1,177 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:5ccfde8ce30432f4",
+    "title": "Signal의 전화번호 없는 가입에 영지식 증명 사용 예정",
+    "url": "https://news.hada.io/topic?id=33670",
+    "score": 7.0,
+    "summary": "Signal이 전화번호 없는 계정 가입에 zkgroup 자격 증명을 기반한 영지식 증명(ZKP)을 도입하고 있습니다. 이미 기부 배지와 백업에 사용 중인 ZKP 기술을 확장하여 사용자명 검증과 결제 연결 불가능성을 구현하려는 것으로, 사용자 신원을 공개하지 않으면서도 자격을 증명하는 구조입니다. 커뮤니티에서는 결제 기록 보관의 법적 요구와 익명성 사이의 긴장, 그리고 클라이언트-서버 신뢰 모델에 대해 심도 있게 논의하고 있습니다.",
+    "reason": "Signal's implementation of zero-knowledge proofs for phone-number-free accounts represents a significant technical advancement in privacy-preserving authentication. The discussion demonstrates substantive technical depth around zkgroup credentials, payment unlinkability, and the tension between privacy and regulatory compliance—topics directly relevant to cryptography, privacy systems, and open-source development. The community debate adds value by exploring real implementation challenges.",
+    "tags": [
+      "privacy",
+      "zero-knowledge-proofs",
+      "cryptography",
+      "signal-messenger",
+      "authentication"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-14T03:34:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:89b66ffd0a800825",
+    "title": "Claude Fable 5.1, 370년 된 암호문 Cyphral Distich 해독",
+    "url": "https://news.hada.io/topic?id=33658",
+    "score": 7.0,
+    "summary": "Claude Fable 5.1이 370년간 미해결로 남아 있던 Sir Thomas Urquhart의 Cyphral Distich 암호문을 44분 만에 해독했습니다. 해독의 핵심은 고급 암호 기법이 아니라 책의 구조를 파악하는 것이었는데, 암호문의 32개 숫자를 바로 앞의 32개 Proquiritations 단어들의 첫 글자에 대응시키는 방식이었습니다. 이는 AI 모델의 문제 해결 능력과 패턴 인식 능력을 보여주는 사례이며, 역사적 암호 연구에 실질적 기여를 할 수 있음을 시사합니다.",
+    "reason": "Claude Fable 5.1 successfully deciphered a 370-year-old unsolved cipher (Cyphral Distich) from Sir Thomas Urquhart's work, demonstrating advanced reasoning and pattern recognition capabilities on a historically significant cryptographic problem. The achievement is technically interesting and shows practical AI capability on complex real-world problems, though the source does not claim this is uniquely superior to other models.",
+    "tags": [
+      "large-language-models",
+      "ai-capabilities",
+      "cryptography",
+      "problem-solving",
+      "historical-research"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-13T22:39:36+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:dd177df9f4b30085",
+    "title": "Google은 왜 여전히 수상한 광고를 내보내는가?",
+    "url": "https://news.hada.io/topic?id=33641",
+    "score": 6.0,
+    "summary": "Google YouTube에서 iPhone 저장 공간 경고를 모방한 기만적 광고가 반복 신고에도 불승인되지 않는 문제를 다룬다. 흥미롭게도 Google Gemini는 동일한 광고를 즉시 게재 불승인 대상으로 판정했는데, 이는 Google이 이미 보유한 AI 도구를 광고 검토에 제대로 활용하지 않고 있음을 시사한다. 기사는 악의보다 검토 프로세스의 부실이 더 그럴듯한 설명이라고 지적하며, Google이 자체 AI 능력을 광고 모니터링에 적용할 것을 요구한다.",
+    "reason": "Interesting case study on Google's ad moderation inconsistency, with concrete evidence of AI-human review gaps. Relevant to reader interests in trust, content authenticity, and AI systems, but primarily a critique of existing practices rather than breaking news or novel technical insight.",
+    "tags": [
+      "content-authenticity",
+      "trust-and-verification",
+      "ai-systems",
+      "platform-moderation",
+      "google"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-13T19:43:43+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:ba2d46b980e72831",
+    "title": "Microsoft CEO Satya Nadella backs need for evaluators for AI systems amid slowdown debate - Livemint",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbk5lclc1a0hscV9ZTl94UWNzcUdkdTUzOUJsNENhbEtJTjhTYTY4ZWZQekQ3V0NwSDh2RmM1YTJCS3lFbE1JTmR4eTI4bU1pVjU1VzVFZ1loNlNuSTgwclBpNFlreE5aQXgzajJwaERnZXFmbFBhamh6NVdWMGJ5bkVfUDdCY2VjRmZpa1lLczVZUm9EWWFwZXNQUUJwTVpKVlJ5VTR4ak5PNkd2cHdWd25GRjg2a0trc0lBNnRoZnhjZ3A3MVFCa0FMVk5MeDUzaXo1TDFSSXp2VExoZHVXNEpGONIB4wFBVV95cUxNbk5lclc1a0hscV9ZTl94UWNzcUdkdTUzOUJsNENhbEtJTjhTYTY4ZWZQekQ3V0NwSDh2RmM1YTJCS3lFbE1JTmR4eTI4bU1pVjU1VzVFZ1loNlNuSTgwclBpNFlreE5aQXgzajJwaERnZXFmbFBhamh6NVdWMGJ5bkVfUDdCY2VjRmZpa1lLczVZUm9EWWFwZXNQUUJwTVpKVlJ5VTR4ak5PNkd2cHdWd25GRjg2a0trc0lBNnRoZnhjZ3A3MVFCa0FMVk5MeDUzaXo1TDFSSXp2VExoZHVXNEpGOA?oc=5",
+    "score": 6.0,
+    "summary": "Microsoft CEO Satya Nadella는 AI 시스템의 평가자(evaluators) 필요성을 지지한다고 밝혔으며, 이는 AI 성능 둔화 논의와 관련된 발언입니다. AI 시스템의 신뢰성과 안전성을 보장하기 위한 평가 체계의 중요성을 강조하는 업계 리더의 입장을 보여주는 사례입니다.",
+    "reason": "Substantive statement from a major technology leader on AI governance and evaluation practices, relevant to AI systems development. However, the supplied content is minimal—only a headline and link—providing insufficient detail to assess the depth of Nadella's position, the specific evaluation framework discussed, or concrete implications.",
+    "tags": [
+      "ai-governance",
+      "large-language-models",
+      "ai-evaluation",
+      "trust-and-verification"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Livemint",
+    "author": "Livemint",
+    "published_at": "2026-09-13T23:51:49+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49685991",
+    "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+    "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+    "score": 5.0,
+    "summary": "David Sacks는 OpenAI와 Anthropic이 frontier 모델 개발 속도를 조절하기 위해 규제가 필요하지 않다고 주장했다. Hacker News 커뮤니티는 이를 대형 벤더들이 규제 기준을 자신들이 통과할 수 있지만 소규모 랩은 통과할 수 없는 수준으로 설정하려는 시도로 해석하며, 시장 경쟁을 제한하고 이윤을 보호하려는 담합 전략이라고 비판했다. 모델 개발 인센티브 구조와 공공 이익의 정렬 문제에 대한 실질적인 논의가 이루어지고 있다.",
+    "reason": "Substantive debate about AI regulation strategy and industry incentives, with community engagement indicating genuine technical and policy concern. However, the source is a Twitter post summary rather than detailed analysis, and the item relies heavily on speculation about vendor motives rather than concrete technical or policy details.",
+    "tags": [
+      "ai-regulation",
+      "frontier-models",
+      "industry-incentives",
+      "openai",
+      "anthropic"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "kolanos",
+    "author": "kolanos",
+    "published_at": "2026-09-13T16:52:33+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:73be1e5dacf95aa1",
+    "title": "바이브 코딩으로 만든 대시보드가 형편없어 보이는 10가지 이유",
+    "url": "https://news.hada.io/topic?id=33651",
+    "score": 5.0,
+    "summary": "AI 기반 대시보드 생성의 시각적 문제점을 분석한 글로, Claude Code로 월드컵 데이터 대시보드를 만들어 10가지 설계 결함을 실증적으로 보여줍니다. 사용자 여정 부재, 시각적 위계 부족, 공간 낭비 등 AI가 만드는 대시보드의 전형적인 문제를 지적하며, 좋은 디자인은 정보를 정리하고 사용자의 인지 부담을 줄이는 데서 출발한다고 강조합니다.",
+    "reason": "Practical design critique of AI-generated dashboards with concrete examples and actionable insights. Relevant to readers interested in AI-generated content and its limitations, though primarily a tutorial/opinion piece rather than breaking news.",
+    "tags": [
+      "ai-generated-content",
+      "design",
+      "data-visualization",
+      "generative-ai",
+      "user-experience"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "xguru",
+    "published_at": "2026-09-13T21:36:17+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:4457099dbaaebee6",
+    "title": "Trump and Mike Johnson think the AI industry is overreacting",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+    "score": 5.0,
+    "summary": "Anthropic CEO Dario Amodei가 AI 개발 속도를 늦춰야 한다는 공개 편지를 발표했고, OpenAI의 Sam Altman과 Elon Musk, Alphabet의 Demis Hassabis가 지지를 표명했습니다. 반면 Donald Trump과 House Speaker Mike Johnson은 이러한 업계의 반응이 과장되었다고 생각하고 있습니다. 이는 AI 규제와 개발 속도에 대한 정치권과 업계 간의 입장 차이를 보여줍니다.",
+    "reason": "Moderate interest: political response to industry-wide AI safety debate involving major figures (Amodei, Altman, Musk, Hassabis). Relevant to reader's interests in AI policy and industry dynamics, but the content snippet is incomplete and doesn't provide substantive detail on the actual positions or arguments.",
+    "tags": [
+      "generative-ai",
+      "ai-policy",
+      "large-language-models",
+      "industry-debate"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Terrence O’Brien",
+    "published_at": "2026-09-13T19:41:48+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:simonwillison.net_atom_everything_:ac293d7ca39f3bdc",
+    "title": "commit-rewriter 0.1",
+    "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+    "score": 5.0,
+    "summary": "Simon Willison이 commit-rewriter 0.1을 공개했는데, 이는 AI 코딩 에이전트가 생성한 커밋 메시지를 정리하기 위한 웹 앱이다. `uvx commit-rewriter path/to/repo` 명령으로 실행하며, 편집 후 타임스탬프가 붙은 브랜치를 생성한 뒤 커밋을 재작성한다. AI 생성 콘텐츠의 실제 문제(민감한 정보 제거, 가독성 개선)를 해결하는 도구지만, 기술적 깊이나 재작성 알고리즘의 상세 설명은 부족하다.",
+    "reason": "Announces a practical tool for a real problem (cleaning AI-generated commit messages) with concrete usage instructions and implementation details. Useful for developers working with git and AI-assisted workflows, but limited to tool announcement without deep technical insight into the rewriting mechanism or tradeoffs.",
+    "tags": [
+      "git",
+      "ai-assisted-programming",
+      "developer-tools",
+      "python"
+    ],
+    "source_type": "rss",
+    "sub_source": "Simon Willison",
+    "author": "Simon Willison",
+    "published_at": "2026-09-14T00:28:10+00:00",
+    "profile": "tech-blog"
+  },
+  {
+    "id": "google_news:article:81f26d601f0d3119",
+    "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+    "score": 5.0,
+    "summary": "Gates Notes에서 AI 시대의 변동성과 현재의 선택이 중요하다는 주제를 다루고 있습니다. 구체적인 기술 내용이나 최근 개발 사항이 제시되지 않아 전체 논의를 평가하기 어렵지만, AI의 사회적 영향에 관한 고위 인사의 관점은 업계 동향을 따르는 독자에게 관심 있는 주제입니다.",
+    "reason": "Opinion piece on AI's societal impact from a high-profile source, but lacks concrete technical details, specific developments, or actionable insights. Matches reader interest in AI and industry trends, but the supplied content provides only a headline and link without substantive information to evaluate.",
+    "tags": [
+      "generative-ai",
+      "ai-industry",
+      "ai-policy"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Gates Notes",
+    "author": "Gates Notes",
+    "published_at": "2026-09-14T01:11:56+00:00",
+    "profile": "tech-news"
+  }
+]

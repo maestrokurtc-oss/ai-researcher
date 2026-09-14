@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-14-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 12,
+    "more": 9
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "3ea606d07abfdfe6acd0a1ef14fc051dffcbf65fb12b943386acf8feaba32708",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "Fable 5.1, 370년 된 Cyphral Distich 암호 해독",
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "large-language-models",
+        "model-capabilities",
+        "ai-problem-solving",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "f455340860a296d8a16f7fdaad9d8a23de74eae100be7e2a645eac3dde649599",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Signal, 전화번호 없는 가입에 영지식증명 도입",
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "privacy",
+        "cryptography",
+        "zero-knowledge-proofs",
+        "signal-messenger",
+        "authentication"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "402875826886258c30f5cc87f6b5d2b3cda9788fa589ff59f26cad92eeb06dfd",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Mullenweg, 이사회의 축출 시도 후 Automattic CEO로 복귀 주장",
+      "url": "https://techcrunch.com/2026/09/12/automattic-confirms-mullenweg-has-returned-as-ceo-after-attempted-ouster-by-board/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "corporate-governance",
+        "open-source",
+        "wordpress",
+        "leadership-crisis",
+        "automattic"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "746d15f88a6404de22b5966f963e4c4b5be2741d9296d416e8bdcdda419efe08",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Bryan Cantrill, AI 위험 담론의 과장된 공포를 비판하다",
+      "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-risk",
+        "existential-risk",
+        "technical-discourse",
+        "ai-safety",
+        "risk-assessment"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "5f2c974488232f845f110b9f39fc4d40c04082351a591f4b65aca1e65b082269",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Wasmi 2.0, 8개월 개편으로 평균 2.2배 빠른 Wasm 인터프리터 완성",
+      "url": "https://news.hada.io/topic?id=33654",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "webassembly",
+        "performance-optimization",
+        "open-source",
+        "systems-engineering",
+        "interpreter"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "87060bd958a6a516b039099c0e36fd49e04072e6fae004f9a7e2517aa819bdcd",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Google 광고 네트워크, 서브도메인 악용한 사기 광고 방치 논란",
+      "url": "https://www.atomic14.com/2026/09/13/why-is-google-still-serving-dodgy-ads",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "google-ads",
+        "content-authenticity",
+        "internet-integrity",
+        "trust-and-verification",
+        "scam-detection"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "95ee2c25acb2196905ef767c08db5d67d75c51a81b1b257e9b88b195823814e9",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Alien, 고객 환경 설치 소프트웨어 원격 관리 플랫폼 공개",
+      "url": "https://news.hada.io/topic?id=33665",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "infrastructure",
+        "deployment",
+        "self-hosting",
+        "enterprise-software",
+        "security"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "560e16f5adaf8df009427d8deb98e4ef2a60e03a496e7212799722318f7811c8",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "개인 Git 호스팅 문제를 해결한 정적 사이트 생성기 sorcery",
+      "url": "https://news.hada.io/topic?id=33662",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "git-hosting",
+        "static-site-generation",
+        "infrastructure",
+        "open-source",
+        "performance-optimization"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "7d399ceec2413609de937666285687eb4796a30fd80a27193c11b341e916e72d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "TurboCrypt, Windows 호환 위해 파일명 인코딩을 Base91에서 Base84로 전환",
+      "url": "https://news.hada.io/topic?id=33645",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "file-encoding",
+        "cross-platform-compatibility",
+        "encryption",
+        "base-encoding",
+        "technical-standards"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "fdb3880d7ade573e031f2ac951d65e181924fdc6a69e80f2af2f300ffb467212",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "x86 ud2 명령어: 이름에 '2'가 붙은 이유와 설계 배경",
+      "url": "https://news.hada.io/topic?id=33639",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "x86-architecture",
+        "compiler-internals",
+        "systems-programming",
+        "cpu-instructions"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "de96874441d24ff2fe60d92267517e271fabcc53e2ba740c7718b05c97547f47",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "Nadella, AI 둔화 논쟁 속 AI 평가자 필요성 지지",
+      "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNWW9WaEhwNTcxYkVnSnRMN094S041bW1nNVJoTGxTeEZqdlNmU19HXzd4UFpnaUVXRklwN05yUHBTbDE2bVZpTlJ3bzM1ZEZHZTlBRDFyUjJfOWw4Tm41dWlYa2drdkhEWFBOUkZoZjhSYnk1ZDZ0dGdTQVJHTmFjWmdfQVFyZms3YlBUT2IyRTJCcTNNYnp5U0JnNXpDNFJ1UEVHMXlueUktdUZ1Wk9JTExEdFhZWWRQTVQ2T2Vxbk5ROWxBbmpVR0U1TGdnZm9kMVBidnpxQnF0ZVBlMmp3MDlBQVU2LUJMMGhaa01PVHdxUGVzMFlyTE1KZGo1dE5iNFlUU3hjSzZBVkQyRU5tZ2YyOElQb3F4NG9nNVBQNi1zZ1ZlSS15bkItWno1S1VLMXpqaVVPRnpjd2FZWWdJeTh1Q196dkd0X3M2SzFPOVZYNVhkQ3dFVV9aUUhHcUs1TG1QX0xWSnZpc0XSAYcCQVVfeXFMUFREOVRrMGxVeGFMMUgzVHhqMHBpRGVjMWd6TDFpNU40RkItT3p3N0NPc0NEY0Y3R21SXzFiZ2dnbmFHZDhPYXpHR1hjSERENE9UcXliamlNWnZjQ2VMWVhhbWE2OGllUlp1OE4tM2tsc3diQkVVUDZRM0hDb182dktLaGFTeDluMld0VWVrdXhaYm9ZVEZEdThyRUhJZURkTWlVSzNUYWphaFdENklpcHhuNE8tZGltWWxFR3R4Q3FqTXl3SzY1TUlxSnFYRHlWV0gyZFVySWZfdnBTQVpRQzYxaE5ZaHBybEdnSjU0M2NuS3AzdDJZWkJuVlprRHZRZU9EUTBMdE0?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-governance",
+        "large-language-models",
+        "ai-systems",
+        "trust-and-verification",
+        "industry-commentary"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "b729594c83577cac0507c30ad9775dcb1266c0049beaaa7ab38bc0413617b241",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "AI 가속기가 HBM 4-hi 스택으로 회귀하는 이유",
+      "url": "https://newsletter.semianalysis.com/p/long-live-the-short-king-why-4-hi",
+      "score": 7.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "hbm-memory",
+        "ai-accelerators",
+        "inference-optimization",
+        "supply-chain-constraints",
+        "hardware-architecture"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:89b66ffd0a800825",
+      "content_key": "89b66ffd0a80082597a30611cfa069ec1a8d687f0ebb1f46b819085bd86d7f8c",
+      "surface": "more",
+      "title": "Claude Fable 5.1, 370년 된 암호문 Cyphral Distich 해독",
+      "url": "https://news.hada.io/topic?id=33658",
+      "score": 7.0,
+      "summary": "Claude Fable 5.1이 370년간 미해결로 남아 있던 Sir Thomas Urquhart의 Cyphral Distich 암호문을 44분 만에 해독했습니다. 해독의 핵심은 고급 암호 기법이 아니라 책의 구조를 파악하는 것이었는데, 암호문의 32개 숫자를 바로 앞의 32개 Proquiritations 단어들의 첫 글자에 대응시키는 방식이었습니다. 이는 AI 모델의 문제 해결 능력과 패턴 인식 능력을 보여주는 사례이며, 역사적 암호 연구에 실질적 기여를 할 수 있음을 시사합니다.",
+      "tags": [
+        "large-language-models",
+        "ai-capabilities",
+        "cryptography",
+        "problem-solving",
+        "historical-research"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-13T22:39:36+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:5ccfde8ce30432f4",
+      "content_key": "5ccfde8ce30432f425d84501a65f198ea7ad69699a1fae5c46ee5532b9c78284",
+      "surface": "more",
+      "title": "Signal의 전화번호 없는 가입에 영지식 증명 사용 예정",
+      "url": "https://news.hada.io/topic?id=33670",
+      "score": 7.0,
+      "summary": "Signal이 전화번호 없는 계정 가입에 zkgroup 자격 증명을 기반한 영지식 증명(ZKP)을 도입하고 있습니다. 이미 기부 배지와 백업에 사용 중인 ZKP 기술을 확장하여 사용자명 검증과 결제 연결 불가능성을 구현하려는 것으로, 사용자 신원을 공개하지 않으면서도 자격을 증명하는 구조입니다. 커뮤니티에서는 결제 기록 보관의 법적 요구와 익명성 사이의 긴장, 그리고 클라이언트-서버 신뢰 모델에 대해 심도 있게 논의하고 있습니다.",
+      "tags": [
+        "privacy",
+        "zero-knowledge-proofs",
+        "cryptography",
+        "signal-messenger",
+        "authentication"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-14T03:34:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:dd177df9f4b30085",
+      "content_key": "dd177df9f4b3008553c9af8cd5615767014ae4eaa7d43b089749ed80476de71f",
+      "surface": "more",
+      "title": "Google은 왜 여전히 수상한 광고를 내보내는가?",
+      "url": "https://news.hada.io/topic?id=33641",
+      "score": 6.0,
+      "summary": "Google YouTube에서 iPhone 저장 공간 경고를 모방한 기만적 광고가 반복 신고에도 불승인되지 않는 문제를 다룬다. 흥미롭게도 Google Gemini는 동일한 광고를 즉시 게재 불승인 대상으로 판정했는데, 이는 Google이 이미 보유한 AI 도구를 광고 검토에 제대로 활용하지 않고 있음을 시사한다. 기사는 악의보다 검토 프로세스의 부실이 더 그럴듯한 설명이라고 지적하며, Google이 자체 AI 능력을 광고 모니터링에 적용할 것을 요구한다.",
+      "tags": [
+        "content-authenticity",
+        "trust-and-verification",
+        "ai-systems",
+        "platform-moderation",
+        "google"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-13T19:43:43+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:ba2d46b980e72831",
+      "content_key": "c3ad84d060ecb8f75e3bf683f42897afa21832bf00ae494f0348ecfad5725179",
+      "surface": "more",
+      "title": "Microsoft CEO Satya Nadella backs need for evaluators for AI systems amid slowdown debate - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNbk5lclc1a0hscV9ZTl94UWNzcUdkdTUzOUJsNENhbEtJTjhTYTY4ZWZQekQ3V0NwSDh2RmM1YTJCS3lFbE1JTmR4eTI4bU1pVjU1VzVFZ1loNlNuSTgwclBpNFlreE5aQXgzajJwaERnZXFmbFBhamh6NVdWMGJ5bkVfUDdCY2VjRmZpa1lLczVZUm9EWWFwZXNQUUJwTVpKVlJ5VTR4ak5PNkd2cHdWd25GRjg2a0trc0lBNnRoZnhjZ3A3MVFCa0FMVk5MeDUzaXo1TDFSSXp2VExoZHVXNEpGONIB4wFBVV95cUxNbk5lclc1a0hscV9ZTl94UWNzcUdkdTUzOUJsNENhbEtJTjhTYTY4ZWZQekQ3V0NwSDh2RmM1YTJCS3lFbE1JTmR4eTI4bU1pVjU1VzVFZ1loNlNuSTgwclBpNFlreE5aQXgzajJwaERnZXFmbFBhamh6NVdWMGJ5bkVfUDdCY2VjRmZpa1lLczVZUm9EWWFwZXNQUUJwTVpKVlJ5VTR4ak5PNkd2cHdWd25GRjg2a0trc0lBNnRoZnhjZ3A3MVFCa0FMVk5MeDUzaXo1TDFSSXp2VExoZHVXNEpGOA?oc=5",
+      "score": 6.0,
+      "summary": "Microsoft CEO Satya Nadella는 AI 시스템의 평가자(evaluators) 필요성을 지지한다고 밝혔으며, 이는 AI 성능 둔화 논의와 관련된 발언입니다. AI 시스템의 신뢰성과 안전성을 보장하기 위한 평가 체계의 중요성을 강조하는 업계 리더의 입장을 보여주는 사례입니다.",
+      "tags": [
+        "ai-governance",
+        "large-language-models",
+        "ai-evaluation",
+        "trust-and-verification"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Livemint",
+      "author": "Livemint",
+      "published_at": "2026-09-13T23:51:49+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:simonwillison.net_atom_everything_:ac293d7ca39f3bdc",
+      "content_key": "ac293d7ca39f3bdc6e8b8e0a30d7cb5aefa018d828bfab72701ef4cb1c3fbf85",
+      "surface": "more",
+      "title": "commit-rewriter 0.1",
+      "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "score": 5.0,
+      "summary": "Simon Willison이 commit-rewriter 0.1을 공개했는데, 이는 AI 코딩 에이전트가 생성한 커밋 메시지를 정리하기 위한 웹 앱이다. `uvx commit-rewriter path/to/repo` 명령으로 실행하며, 편집 후 타임스탬프가 붙은 브랜치를 생성한 뒤 커밋을 재작성한다. AI 생성 콘텐츠의 실제 문제(민감한 정보 제거, 가독성 개선)를 해결하는 도구지만, 기술적 깊이나 재작성 알고리즘의 상세 설명은 부족하다.",
+      "tags": [
+        "git",
+        "ai-assisted-programming",
+        "developer-tools",
+        "python"
+      ],
+      "source_type": "rss",
+      "sub_source": "Simon Willison",
+      "author": "Simon Willison",
+      "published_at": "2026-09-14T00:28:10+00:00",
+      "profile": "tech-blog"
+    },
+    {
+      "id": "hackernews:story:49685991",
+      "content_key": "01ca980f3f42dd9dec87dcf919bca1cf611ef9358f3aea8769acfb5c3a1dd06d",
+      "surface": "more",
+      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
+      "url": "https://twitter.com/DavidSacks/status/2098973625252708460",
+      "score": 5.0,
+      "summary": "David Sacks는 OpenAI와 Anthropic이 frontier 모델 개발 속도를 조절하기 위해 규제가 필요하지 않다고 주장했다. Hacker News 커뮤니티는 이를 대형 벤더들이 규제 기준을 자신들이 통과할 수 있지만 소규모 랩은 통과할 수 없는 수준으로 설정하려는 시도로 해석하며, 시장 경쟁을 제한하고 이윤을 보호하려는 담합 전략이라고 비판했다. 모델 개발 인센티브 구조와 공공 이익의 정렬 문제에 대한 실질적인 논의가 이루어지고 있다.",
+      "tags": [
+        "ai-regulation",
+        "frontier-models",
+        "industry-incentives",
+        "openai",
+        "anthropic"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "kolanos",
+      "author": "kolanos",
+      "published_at": "2026-09-13T16:52:33+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:81f26d601f0d3119",
+      "content_key": "8d35a54fc2ae523da1659e04ab4002ecef58fc8e62746063f7a23d0aceb6de93",
+      "surface": "more",
+      "title": "The turbulent AI era is here. The choices we make now are critical. - Gates Notes",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vNHRZblJwZHNZZEZfZ285LUdncWl0YUk0UHVfTDM1b05YSU9rVHRhYUpkQ1VwV1RJaXZ4SzZwV2dBd2ZYeEZtbUpGNkpDdng5WjRTa28yOVdIM3drTERSVVVoeWI0WnpWT3dQbGVQcVhvdEZIZE1oaTB4cHdRb0E?oc=5",
+      "score": 5.0,
+      "summary": "Gates Notes에서 AI 시대의 변동성과 현재의 선택이 중요하다는 주제를 다루고 있습니다. 구체적인 기술 내용이나 최근 개발 사항이 제시되지 않아 전체 논의를 평가하기 어렵지만, AI의 사회적 영향에 관한 고위 인사의 관점은 업계 동향을 따르는 독자에게 관심 있는 주제입니다.",
+      "tags": [
+        "generative-ai",
+        "ai-industry",
+        "ai-policy"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Gates Notes",
+      "author": "Gates Notes",
+      "published_at": "2026-09-14T01:11:56+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:4457099dbaaebee6",
+      "content_key": "395acc6e88d3562ed17d0c8e1f020acc0a69110745373589a24a6e4c1701ca2d",
+      "surface": "more",
+      "title": "Trump and Mike Johnson think the AI industry is overreacting",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+      "score": 5.0,
+      "summary": "Anthropic CEO Dario Amodei가 AI 개발 속도를 늦춰야 한다는 공개 편지를 발표했고, OpenAI의 Sam Altman과 Elon Musk, Alphabet의 Demis Hassabis가 지지를 표명했습니다. 반면 Donald Trump과 House Speaker Mike Johnson은 이러한 업계의 반응이 과장되었다고 생각하고 있습니다. 이는 AI 규제와 개발 속도에 대한 정치권과 업계 간의 입장 차이를 보여줍니다.",
+      "tags": [
+        "generative-ai",
+        "ai-policy",
+        "large-language-models",
+        "industry-debate"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Terrence O’Brien",
+      "published_at": "2026-09-13T19:41:48+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:73be1e5dacf95aa1",
+      "content_key": "73be1e5dacf95aa1ee8b258f464c8b34358375765c42c5febd754c09cc3d1832",
+      "surface": "more",
+      "title": "바이브 코딩으로 만든 대시보드가 형편없어 보이는 10가지 이유",
+      "url": "https://news.hada.io/topic?id=33651",
+      "score": 5.0,
+      "summary": "AI 기반 대시보드 생성의 시각적 문제점을 분석한 글로, Claude Code로 월드컵 데이터 대시보드를 만들어 10가지 설계 결함을 실증적으로 보여줍니다. 사용자 여정 부재, 시각적 위계 부족, 공간 낭비 등 AI가 만드는 대시보드의 전형적인 문제를 지적하며, 좋은 디자인은 정보를 정리하고 사용자의 인지 부담을 줄이는 데서 출발한다고 강조합니다.",
+      "tags": [
+        "ai-generated-content",
+        "design",
+        "data-visualization",
+        "generative-ai",
+        "user-experience"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "xguru",
+      "published_at": "2026-09-13T21:36:17+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "fffa360674de4072ee2fe6747787d4da20e8f35786529d99541416b44b5fdb62"
+}
