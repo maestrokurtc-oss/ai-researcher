@@ -1,0 +1,27 @@
+{
+  "marked_count": 3,
+  "updated_at": "2026-09-14T04:45:46+00:00",
+  "tags": {
+    "gemini": 1,
+    "large-language-models": 1,
+    "google-ai": 1,
+    "model-updates": 1,
+    "pricing": 1,
+    "ai-generated-content": 1,
+    "content-authenticity": 1,
+    "trust-and-verification": 1,
+    "internet-integrity": 1,
+    "world-modeling": 1,
+    "game-development": 1,
+    "generative-ai": 1
+  },
+  "sources": {
+    "rss": 2,
+    "hackernews": 1
+  },
+  "examples": [
+    "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+    "We’re ‘dangerously close’ to dead internet theory, says Pangram’s CEO",
+    "Fable 5.1 World Modeling"
+  ]
+}
