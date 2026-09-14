@@ -1,0 +1,387 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-14-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 13,
+    "more": 7
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "094437ab2cda4978dfbfd672be69a0e02c86499f2c91d2097a18395e75c654b1",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "Apple 코드에서 Siri를 Claude·ChatGPT로 교체 가능한 구조 발견",
+      "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "apple-siri",
+        "ai-assistants",
+        "platform-architecture",
+        "regulatory-compliance",
+        "developer-access"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "269b0492dafb9205f10e2eae19bb88a7a3efdadeb0c81cc366cfa6266ec199bf",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "빅 AI, 규제 포획 시도하며 자체 규제 조건 제시",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-regulation",
+        "industry-strategy",
+        "regulatory-capture",
+        "anthropic",
+        "trust-and-verification"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "fbc6758cb34430fc42b8bde32943f94896d03680aef6281e03d168775ab0db8d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "학습부터 서빙까지 다루는 파운데이션 모델 엔지니어링 온라인 교재 공개",
+      "url": "https://news.hada.io/topic?id=33697",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "large-language-models",
+        "foundation-models",
+        "technical-education",
+        "open-source",
+        "ai-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "45b1a67d1c8e3c4edd2ae0b60b0dc573a2a389d1a4fddd234b35292488361ba2",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "WebKit, Top-Level Await 버그 수정 위해 Safari 모듈 로더 C++로 재작성",
+      "url": "https://news.hada.io/topic?id=33689",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "webkit",
+        "javascript-standards",
+        "module-loading",
+        "browser-engines",
+        "ecmascript"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "5ccfde8ce30432f425d84501a65f198ea7ad69699a1fae5c46ee5532b9c78284",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Signal, 전화번호 없는 가입에 zkgroup 기반 영지식 증명 도입 준비",
+      "url": "https://news.hada.io/topic?id=33670",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "privacy",
+        "zero-knowledge-proofs",
+        "cryptography",
+        "signal-messenger",
+        "authentication"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "5658469c03218a4f07807d7cf63cdc70ce653a6b657656d37aefa93d57c5da13",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "RP2350 마이크로컨트롤러로 구현한 386 PC 에뮬레이터 FRANK 386",
+      "url": "https://github.com/rh1tech/frank-386",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "hardware-emulation",
+        "microcontrollers",
+        "retro-computing",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "d7d955a392e56c4dd77acc7b82dfc7702be5cb132ff5cfd202c970ae38489e3a",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Meta Neural Band로 Mac을 제어하는 오픈소스 프로젝트 Kinesis",
+      "url": "https://github.com/callbacked/kinesis",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "hardware-integration",
+        "gesture-control",
+        "open-source",
+        "wearable-technology",
+        "human-computer-interaction"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "2bd63232151d599d96feb3ebe41f8375b336d1e0230418829da3478d269d1b60",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "OpenArch: PyTorch로 구현한 최신 LLM 아키텍처 모음",
+      "url": "https://github.com/anuj0456/OpenArch",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "llm-architectures",
+        "pytorch",
+        "educational-resource",
+        "model-implementation",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "caa36ea2a8d6351c05307836c9709a745f00e833709f06b638feb1daa04d7647",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "브라우저에서만 동작하는 AWS 클라우드 낭비 확정 계산기 공개",
+      "url": "https://news.hada.io/topic?id=33685",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "cloud-cost-optimization",
+        "aws",
+        "developer-tools",
+        "privacy",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "8e0691407ddabe94bdbffee21ca118b87d2da92db6ae46d58b48ac18ba5155e5",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "AI 에이전트들, 부정행위하는 동료를 자발적으로 신고",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-agents",
+        "alignment",
+        "emergent-behavior",
+        "ai-safety",
+        "google-deepmind"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "268155a348bfb98953f63c0d9737b792ef4e622b66751a004c6c8f381eb9277d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "완전 클라이언트 측 체스판·기물 인식 브라우저 확장 프로그램 공개",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wfzzml/p_built_a_100_clientside_vision_pipeline_for/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "computer-vision",
+        "browser-extension",
+        "local-inference",
+        "privacy",
+        "chess"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "2aca3c203b08e124b8e0c02282058c295539512064b1a94a7cfc1fd705d364aa",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "Sam Altman, 프론티어 AI 위험 관리 위한 규제 촉구",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPRXBiTERkOXpJVUtpdF8tN2dDVjBVSzdjcTFpNHNaYzgyc1ZNbms0OXZxM0dRRllGNlNfV1pyWXpoTDV3V1hLYXB6azZYMldHWk5rMEFsNFdoUTJlUFRoLW1fS1h0SmZsa3F4dHFyR2V3M1RmYzBwcTdaSWNxWFg2Tk1QRUNLMU10QWRKbEo1dC1SSlNFb3B3TlhOaHdObnRUcXoxamotVkVSMEFUYmhBeDVWYWdaOFFEN1JORVUyUG1fcVhiSWl6RHpqX19jX2JmdFU3ejRvQlNnblE3MUVKSUVPZUxHWVgyUjlsMW1Jc09KcE9LdDhudDk3bVpfVWU1QjFDcWpVYmRCSEdQOU1J0gGUAkFVX3lxTFA3RVF6cnVyZkFoT3k4UjdWTU82eDVsTl9IMWlDY0ZzRm54Q1lFVHNpZ1kwYzRyOFVfWlZEVndiU3FPa2RXSDgwUkRnNFVtMlFYRWhuRy1EeTl6djdETTFvR1ZEb1BtXzM2VFBsX1VGVjhMSk12eXlqUDNGZV94UUxPNmM2M0c1UmFrN0NaZDNRd2ZvTnROYkctZUpxd1ZCSWFETVRzMHkxVzV3YzhDQkVsQ012QTU1MnRadnByb0lLbjlDU1VCSFlEQ0JpYmJ3MVJTT3ZreU9vNmktSW4wRk5oYlBoX3ExbTFIV2Y5M1dMenpKbE1iLTRxeXBGRjVFWm1NMHBsYUxNZ3dpRkd6U0FBSTZiUA?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-safety",
+        "regulation",
+        "large-language-models",
+        "industry-policy"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "24a6ec459ab4b7dd7592d5500ce2cf0d1490ae1dba57381cc52ca87bc5c347a4",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "Richard Socher의 Recursive: AI 연구를 자동화하는 'Eureka Machine'",
+      "url": "https://www.latent.space/p/recursive",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "ai-research-automation",
+        "large-language-models",
+        "compute-efficiency",
+        "ai-safety"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:fc0ee53cead838f9",
+      "content_key": "fc0ee53cead838f9838832da86ceab2536e521d6a4e754e87145112afe7aa0f4",
+      "surface": "more",
+      "title": "Apple Siri의 AI를 Claude와 ChatGPT로 교체할 수 있는 코드 발견",
+      "url": "https://news.hada.io/topic?id=33695",
+      "score": 7.0,
+      "summary": "iOS 27과 macOS Golden Gate의 비공개 프레임워크에서 Apple이 Siri를 Claude나 ChatGPT 같은 외부 AI 모델로 완전히 교체할 수 있도록 설계한 코드가 발견됐다. Model Delegation 방식으로는 Claude가 Siri 확장처럼 작동하며, Model Manager Services를 통해서는 Apple의 서버 측 Siri 모델 자체를 GPT-5.6 같은 다른 모델로 바꿀 수 있다. 현재는 ChatGPT만 선택 가능하고 외부 개발자에게 아직 개방되지 않았지만, 이는 Apple의 AI 전략과 향후 Siri 생태계의 방향을 보여주는 중요한 신호다.",
+      "tags": [
+        "apple-siri",
+        "ai-integration",
+        "large-language-models",
+        "system-architecture",
+        "reverse-engineering"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-14T14:36:47+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:b88a84ce161d5649",
+      "content_key": "b88a84ce161d56499d1f2135cee742d6e8f12604e267ecdb152ce3547a0b05bb",
+      "surface": "more",
+      "title": "RP2350을 위한 386 PC",
+      "url": "https://news.hada.io/topic?id=33694",
+      "score": 6.0,
+      "summary": "FRANK 386은 RP2350 기반 Raspberry Pi Pico 2에서 DOS, Windows 3.x, Windows 95, Linux를 부팅할 수 있는 i386 PC 에뮬레이터입니다. i386 전체 명령어와 i486/i586 일부 기능을 지원하며, 8MB PSRAM으로 최대 8MB RAM을 제공하고, VGA/HDMI 출력으로 640×480 그래픽과 AdLib, Sound Blaster 16 등 여러 사운드 장치를 에뮬레이션합니다. 제한된 임베디드 하드웨어에서 레트로 컴퓨팅 환경을 구현한 창의적인 시스템 프로젝트입니다.",
+      "tags": [
+        "embedded-systems",
+        "emulation",
+        "retro-computing",
+        "raspberry-pi",
+        "hardware-projects"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-14T14:33:47+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1wg5wxy",
+      "content_key": "92f701279b54d10044f9c7ac9810444d4e5077ed5340683f53673980c7a4a2eb",
+      "surface": "more",
+      "title": "[P] Wine synthesis using VAE [P]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wg5wxy/p_wine_synthesis_using_vae_p/",
+      "score": 5.0,
+      "summary": "사용자가 PyTorch로 화이트 와인 데이터셋에 VAE 모델을 구현했으며, 잠재 공간에서 고품질 와인 영역을 찾아 최적화 알고리즘(100 스텝, 0.5 스텝 크기)으로 새로운 와인 레시피를 생성했다. 회귀 모델이 생성된 레시피를 평가하여 7.30-7.58 범위의 품질 점수를 얻었다. 이는 VAE의 표준적인 응용이지만 실제 와인 합성의 실현 가능성이나 모델의 일반화 성능에 대한 검증이 부족하다.",
+      "tags": [
+        "variational-autoencoders",
+        "generative-models",
+        "pytorch",
+        "machine-learning"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/MachineLearning",
+      "author": "/u/Dangerous-Pilot-6065",
+      "published_at": "2026-09-14T15:03:43+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:95b8be24fc9bfb3d",
+      "content_key": "95b8be24fc9bfb3d099d8a4752a5a1083eb49efd14e8c9778c4a85f4f214959d",
+      "surface": "more",
+      "title": "GNU Guix로 전환하기: 초보자의 시각",
+      "url": "https://news.hada.io/topic?id=33678",
+      "score": 5.0,
+      "summary": "저자가 10년 사용한 Arch Linux 홈 서버를 GNU Guix로 전환한 경험을 공유합니다. NixOS도 검토했으나 문서 분산과 실험적 기능 때문에 Guile Scheme으로 통일된 Guix를 선택했으며, Guix System과 Guix Home을 단일 Org-mode 파일로 관리하고 guix shell로 임시 환경과 컨테이너 격리를 구현합니다. 선언적 구성으로 시스템 상태를 코드화하고 재현 가능하게 관리할 수 있다는 점이 핵심입니다.",
+      "tags": [
+        "open-source",
+        "linux-systems",
+        "declarative-configuration",
+        "devops"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-14T06:03:48+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49696125",
+      "content_key": "325ff569e284f386db6428cbd37b918b42082f066e591b5799963f5feb6b8e6c",
+      "surface": "more",
+      "title": "How to write an effective software design document",
+      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/",
+      "score": 5.0,
+      "summary": "Microsoft와 Google에서 배운 설계 문서 작성 방법을 설명하는 글로, 업계 대기업의 문서화 문화를 외부에 알리려는 시도입니다. 커뮤니티에서는 설계 문서의 실제 가치, 시대에 맞는 구조(AI 모델 학습에 최적화된 스킬 기반 문서화), 그리고 빠른 개발 속도와의 트레이드오프에 대해 활발히 논의하고 있습니다.",
+      "tags": [
+        "software-engineering",
+        "design-documentation",
+        "best-practices",
+        "engineering-culture"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "fagnerbrack",
+      "author": "fagnerbrack",
+      "published_at": "2026-09-14T13:00:46+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:644c1807a0e5e44c",
+      "content_key": "a654488b7348c065171df51c4cb70db3afdaed904d0422738f9ed761a4cf6867",
+      "surface": "more",
+      "title": "Microsoft says ‘people matter more than AI’ following safety concerns",
+      "url": "https://www.theverge.com/news/994566/microsoft-humanist-ai-code-of-conduct",
+      "score": 5.0,
+      "summary": "Microsoft가 AI 안전 우려에 대응하여 37페이지 규모의 '인본주의 AI 행동강령'을 발표했다. 이는 Anthropic CEO Dario Amodei가 AI 개발 속도 조절을 촉구하고 연구자들이 AI 모델 진전이 안전한 배포 및 검증 능력을 앞지를 수 있다고 경고한 가운데 나온 것이다. AI 안전과 신뢰성에 대한 업계 논의가 진행 중이지만, 구체적인 기술 내용이나 실질적 영향은 명확하지 않다.",
+      "tags": [
+        "ai-safety",
+        "generative-ai",
+        "trust-and-verification",
+        "corporate-policy"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Tom Warren",
+      "published_at": "2026-09-14T13:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:6cd4d206af9e17fa",
+      "content_key": "6cd4d206af9e17fa43d9b870072396cbd9e957534b07aebb2ba722f73745b43b",
+      "surface": "more",
+      "title": "시간 속으로 사라진 키 기호, 1편: PC 편",
+      "url": "https://news.hada.io/topic?id=33691",
+      "score": 5.0,
+      "summary": "PC 키보드의 기능 키 기호가 어떻게 진화했는지 추적하는 역사 분석으로, IBM 초기 컴퓨터의 다양한 기호들이 사무용 PC 사용자의 혼란으로 인해 텍스트로 대체된 과정을 설명합니다. 미국의 텍스트 선호와 유럽의 아이콘 선호 차이가 키보드 디자인에 미친 영향, 그리고 Shift, Enter, Tab, Backspace 등 현재까지 남은 기호들의 유래를 다룹니다. 기술 제품의 국제화 과정에서 UI 설계 결정이 어떻게 이루어졌는지 보여주는 흥미로운 사례입니다.",
+      "tags": [
+        "keyboard-design",
+        "ui-history",
+        "technology-evolution",
+        "human-computer-interaction",
+        "design-standards"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-14T12:37:17+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "2591db84a736a369cbdfbade1da35aed4f8493234f7f8db7ef8f64fe64d44fb6"
+}
