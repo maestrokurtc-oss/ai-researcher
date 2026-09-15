@@ -1,0 +1,905 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-15-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 18,
+    "more": 28
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "e2d31cd92fde7b783da860003f99369923870e4243946344baffe08531407880",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "e-reader 디스플레이 줄무늬 아티팩트, AI로 LUT 튜닝해 해결",
+      "url": "https://www.serpentine.com/posts/2026/x3-stripes/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "hardware",
+        "display-technology",
+        "ai-applications",
+        "e-readers",
+        "debugging"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "712c25db4c998bf956bb96866b0bdbd263d00f65aa76f4ead036dfc018331926",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "머신러닝 연구 에이전트의 과적합 부재를 다룬 Amazon Science 글",
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "machine-learning",
+        "research-agents",
+        "overfitting",
+        "ai-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "4dc0fbb44a546ac8ca52c05f636b31e102e48f9ecb0612fd6e1ee745821bf361",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "OpenArch: 주요 LLM 아키텍처를 파일 하나씩 구현한 PyTorch 학습 저장소",
+      "url": "https://news.hada.io/topic?id=33700",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "large-language-models",
+        "open-source",
+        "pytorch",
+        "model-architecture",
+        "educational-resource"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "b54bfac470e15413bc3b66a7050fd806dd70198b5512200e1b4e25ecc201c992",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Andon Labs, 회사 운영 자동화 노리는 AI 에이전트 Pion 공개",
+      "url": "https://andonlabs.com/blog/why-we-built-pion",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-agents",
+        "business-automation",
+        "generative-ai",
+        "autonomous-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "7591806ea80f1f15640f8d740e0ae7b4a2371a0e233226ed7017972c8742b618",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "dbt Charts, AI가 만든 대시보드를 표준화하는 오픈소스 YAML 언어",
+      "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "business-intelligence",
+        "open-source",
+        "ai-agents",
+        "data-tools",
+        "dashboard-automation"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "e9641a285e40a472c89237648e672dfab051c487e6395d174e54e8c3ce50bf4f",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "분산 시스템 고전 논문 큐레이션 목록 \\(2017\\)",
+      "url": "https://nvartolomei.com/dist-sys-classics/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "distributed-systems",
+        "computer-science",
+        "systems-design",
+        "research-papers"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "937e97743839da56b8913212d40858128def69adb972370fd31fe847e88db701",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Amazon, Perplexity의 AI 브라우저 Comet 상대 소송 9巡회 항소법원行",
+      "url": "https://law.justia.com/cases/federal/appellate-courts/ca9/26-1444/26-1444-2026-08-04.html",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-agents",
+        "web-scraping",
+        "legal-precedent",
+        "marketplace-economics",
+        "content-access"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "6783a444da3bc0df6d7d0a372478cfd3ae4d058e755a406c5b0de4253fe4b012",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "AI 시대, 수학 학계 평가 제도를 근본부터 재설계해야 한다는 주장",
+      "url": "https://news.hada.io/topic?id=33709",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-impact",
+        "mathematics",
+        "academic-institutions",
+        "ai-capabilities",
+        "education-reform"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "12e8915dd8da838c7e0d802e4cebfdc96ff5237e368da4d492c9f5b3db662ed0",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "텍사스 판사, TikTok의 아동 안전 기능 홍보가 소비자 기만이라고 판결",
+      "url": "https://news.hada.io/topic?id=33699",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "content-authenticity",
+        "trust-and-verification",
+        "platform-safety",
+        "consumer-protection",
+        "social-media"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "220ecf78d8352e14a35b0122983faafb74eeb1eb072e38cfe29f14d16a75e1da",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "OpenAI, 카메라 소프트웨어 업체 Glass Imaging 3억 달러에 인수",
+      "url": "https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "openai",
+        "acquisitions",
+        "computer-vision",
+        "ai-hardware",
+        "multimodal-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "752a4ec6492b7270b8b1448823d3b2495a9ab57217a0c66af94942046005c6f1",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "AI 개발 속도 조절 합의, 안전 협약인가 경쟁 제한 카르텔인가",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-governance",
+        "large-language-models",
+        "competition-policy",
+        "ai-safety",
+        "industry-analysis"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "0a67bb4610e17cf8ca7d0ffb3be878958e9d2eeb1be62350d777a0ca02f6be52",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "AI 에이전트들, 소셜 미디어에 생성 콘텐츠 'slop' 대량 유포",
+      "url": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-agents",
+        "ai-generated-content",
+        "internet-integrity",
+        "content-authenticity",
+        "spam"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-13",
+      "content_key": "8e0691407ddabe94bdbffee21ca118b87d2da92db6ae46d58b48ac18ba5155e5",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-13",
+      "title": "AI 에이전트, 부정행위 저지른 동료 고발하는 행동 관찰돼",
+      "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-agents",
+        "alignment",
+        "multi-agent-systems",
+        "ai-safety",
+        "deepmind"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-14",
+      "content_key": "7f618da03774fa75376810b0098607bc549bff48aef98eeddb55df5128a091d7",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-14",
+      "title": "Microsoft, AI 안전 논쟁 속 자사 AI 행동 강령 제안",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMF81Vk0wWUpXVUh3X0QtMzU1dGt1TlRUWDdxenB1Vmt2UHNjTkdOUmJ3RkFkSGhJRnBSeUMySERuOEpURERqa3ZhN3ZFbWs1aFc3OHR4d1JoSjVaM3dHcDdZc3RiSjRZRUZ6cFRKZzFnZWhXZUNRemlLdTdHZGhyY3ZpQVlPUQ?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-governance",
+        "trust-and-verification",
+        "generative-ai",
+        "industry-policy"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "7e9ab00c4321e0be4ae2946f495441e4ecd4ddb65ae482d3011efab8fb2ee1b8",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "로봇 인퍼런스, 어디에 둘 것인가: 온디바이스 vs 데이터센터",
+      "url": "https://newsletter.semianalysis.com/p/a-brain-too-big-to-carry-on-device",
+      "score": 8.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "robotics",
+        "inference-architecture",
+        "distributed-systems",
+        "real-time-constraints",
+        "networking"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-2",
+      "content_key": "e3e0524cc29a68a0c454c791e47c3f7d5fdce13c965ce369006aabf390c342e2",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-2",
+      "title": "AEF-1 평가 표준 등장과 AI 안전 속도 조절 논쟁",
+      "url": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "ai-governance",
+        "evaluator-standards",
+        "agent-engineering",
+        "model-releases",
+        "ai-safety"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-3",
+      "content_key": "24a6ec459ab4b7dd7592d5500ce2cf0d1490ae1dba57381cc52ca87bc5c347a4",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-3",
+      "title": "Richard Socher의 'Eureka Machine': AI 연구를 자동화하는 초지능",
+      "url": "https://www.latent.space/p/recursive",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "ai-research-automation",
+        "superintelligence",
+        "optimization",
+        "recursive-self-improvement"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-4",
+      "content_key": "b8897a1d287f3e0f7f088adaac926be5c49d9651983347d176cca9b820557fa5",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-4",
+      "title": "SemiAnalysis, Vera Rubin NVL72의 agentic 추론 성능이 GB300의 67배라 주장",
+      "url": "https://newsletter.semianalysis.com/p/vera-rubin-nvl72-agentic-inference",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "ai-accelerators",
+        "inference-optimization",
+        "performance-benchmarking",
+        "llm-inference",
+        "hardware-economics"
+      ]
+    },
+    {
+      "id": "arxiv:paper:2609.15855",
+      "content_key": "582f56dd2ea9ff97ccfd9acd884af949653fdbed51101d882746536cde965b53",
+      "surface": "more",
+      "title": "K-Bench: a clinically calibrated benchmark for evaluating large language models in high-risk mental health conversations",
+      "url": "https://arxiv.org/abs/2609.15855",
+      "score": 7.0,
+      "summary": "K-Bench는 자살, 자해, 가정폭력, 약물 남용 등 고위험 정신건강 대화에서 LLM의 안전성을 평가하는 임상의 검증 벤치마크입니다. 14개 제공자의 33개 기본 모델 125개 구성을 200개의 다중 턴 시나리오로 평가했으며, GPT-4o 판사가 임상의 합의와 94.2% 일치도를 달성했습니다. 공개 리더보드는 직접 최적화로부터 보호되는 운영 테스트 자료를 제공하므로, 정신건강 지원 LLM 배포의 안전성 평가에 실질적인 기준을 제시합니다.",
+      "tags": [
+        "benchmarking",
+        "safety-evaluation",
+        "mental-health",
+        "llm-applications",
+        "clinical-validation"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Laura M. Vowels, Matthew J. Vowels, Shivali Sharma, Apoorv Jha, Rehnuma Choudhury",
+      "published_at": "2026-09-14T16:49:23+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15781",
+      "content_key": "504a8bba5c50a44c76efb715e0989e5c8c0d28725317da9ad997580c3a2d682f",
+      "surface": "more",
+      "title": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
+      "url": "https://arxiv.org/abs/2609.15781",
+      "score": 7.0,
+      "summary": "연구진은 사전학습된 world model 체크포인트를 제어 작업에 재사용할 때 발생하는 백도어 공격을 시연했다. 공격자는 체크포인트만 제어하면 피해자가 깨끗한 데이터로만 학습하고 평가해도 다운스트림 컨트롤러를 탈취할 수 있으며, 명시적 트리거-액션 규칙 없이 잠재 공간의 동역학을 조작하여 피해자의 최적화 과정이 공격자의 목표 액션을 재발견하도록 유도한다. 이는 world model이 제어 시스템의 새로운 공격 표면임을 보여주며, 모델 재사용이 일반화되는 상황에서 실무자들이 고려해야 할 공급망 보안 위험을 제시한다.",
+      "tags": [
+        "world-models",
+        "backdoor-attacks",
+        "control-systems",
+        "security",
+        "model-reuse"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CR",
+      "author": "Roberto Riaño, Gorka Abad, Stjepan Picek, Aitor Urbieta",
+      "published_at": "2026-09-14T16:01:13+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15980",
+      "content_key": "27f454736893e5d504757f89f05231db856f619f39496032b2a3ba6347fb2162",
+      "surface": "more",
+      "title": "A Chosen Future Can Still Be Rewritten: Causal Writability in Video Models",
+      "url": "https://arxiv.org/abs/2609.15980",
+      "score": 6.0,
+      "summary": "비디오 모델이 물리적으로 부정확한 동작을 생성할 때, 올바른 동작을 학습하지 못한 것이 아니라 학습했지만 사용하지 못하는 경우가 있음을 보였다. 저자들은 '인과적 쓰기 가능성(causal writability)'이라는 개념을 제시하며, 간단한 물리 변수로부터 예측된 저차원 편집으로 모델 내부의 올바른 동작 신호를 복구할 수 있음을 입증했다. 네트워크 깊이에 따른 명확한 경계를 발견했으며, 이는 모델이 정보를 언제 '확정'하는지를 나타낸다. 1.3B 규모의 사전학습된 비디오 모델에서도 재현되어 일반성을 시사한다.",
+      "tags": [
+        "video-generation",
+        "mechanistic-interpretability",
+        "model-internals",
+        "generative-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Xingyun Wang, Haomin Zheng, Man Yuan, Leqian Yang, Ziming Liu",
+      "published_at": "2026-09-14T17:58:11+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15987",
+      "content_key": "de10b2e715a6c3a7ab0db48ba965aff54f818f1c6cbd30f2b1c6dbcad113c1d5",
+      "surface": "more",
+      "title": "Bellman Policy Optimization",
+      "url": "https://arxiv.org/abs/2609.15987",
+      "score": 6.0,
+      "summary": "BPO는 Policy Mirror Descent를 Bellman 방정식으로 재구성하여 중간 상태의 값 추정을 피하는 비평가 기반 강화학습 방법입니다. 토큰 확률의 보완 비율로 정의된 가중치를 통해 실용적인 손실 함수를 도출하며, 수학 추론 벤치마크에서 효과를 입증했습니다. LLM의 추론 능력 향상을 위한 검증 가능한 보상 기반 강화학습 분야에 이론적으로 근거 있는 방법을 제시합니다.",
+      "tags": [
+        "reinforcement-learning",
+        "large-language-models",
+        "policy-optimization",
+        "mathematical-reasoning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Zhuoqing Song, Haotian Xu, Xikun Zhang, Lidong Bing",
+      "published_at": "2026-09-14T17:59:47+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15897",
+      "content_key": "aca8e1bfe3f92ed36061bd500d608ece66ad088e2f8eebcb67f70dcc572860da",
+      "surface": "more",
+      "title": "Bridging Control, Inference, Transport, and Thermodynamics: From Theory to Applications in Learning",
+      "url": "https://arxiv.org/abs/2609.15897",
+      "score": 6.0,
+      "summary": "이 리뷰는 제어 이론, 최적 수송, 확률 추론, 비평형 열역학, 머신러닝을 자유 에너지 함수 최적화라는 공통 주제로 연결한다. 강화학습, 변분 추론, 생성 모델링의 응용을 다루며, 물리학 원리부터 시작하는 입문 수준의 설명을 제공한다. 여러 분야의 개념적 연결을 통합하는 것은 유용하지만, 새로운 방법이나 실증적 성과는 제시되지 않는다.",
+      "tags": [
+        "generative-modeling",
+        "reinforcement-learning",
+        "probabilistic-inference",
+        "optimal-transport",
+        "theoretical-foundations"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cond-mat.stat-mech",
+      "author": "Emmy Blumenthal, Nikolas Claussen, Benjamin Eysenbach, Catherine Ji, Gautam Reddy",
+      "published_at": "2026-09-14T17:16:33+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15975",
+      "content_key": "febb9f7e2699db5b6579a3a5a75473020bcc7b6270737d46b8f64d4e0fa5c3af",
+      "surface": "more",
+      "title": "Disentangling Representation Evolution in Transformers through Directional Decomposition",
+      "url": "https://arxiv.org/abs/2609.15975",
+      "score": 6.0,
+      "summary": "본 논문은 Transformer 표현의 진화를 평행 및 수직 성분으로 분해하는 기하학적 프레임워크를 제시한다. 사전학습된 모델들에서 residual identity 경로 외에 상당한 평행 성분을 발견했으며, attention/MLP 업데이트와 value 집계에 적용하여 공간에 따른 비대칭성을 확인했다. 특히 value-space 평행 조작이 편집 견고성에서 가장 강력하고, 사전학습 중 평행 성분 억제가 검증 손실을 개선하는 것으로 나타났다. 표현 기하학을 편집 견고성, 압축 진단, 학습 시간 개입과 연결하는 포괄적인 분석을 제공한다.",
+      "tags": [
+        "transformer-interpretability",
+        "representation-geometry",
+        "model-compression",
+        "neural-network-analysis"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Shwai He, Haichao Zhang, Shen Yan",
+      "published_at": "2026-09-14T17:56:19+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15972",
+      "content_key": "1cfd0cecbc8841a1ae5c2088c1aae6d493267572e5e0116578a9ebff524247a1",
+      "surface": "more",
+      "title": "Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States",
+      "url": "https://arxiv.org/abs/2609.15972",
+      "score": 6.0,
+      "summary": "Mind2Dialogue는 사용자의 숨겨진 신념과 목표를 직접 관찰할 수 없다는 문제를 해결하기 위해 심리학 기반 사용자 시뮬레이터를 통해 정신 상태를 생성하고, 이를 특권 감독(privileged supervision)으로 활용하여 인간 인식 언어 모델을 훈련하는 프레임워크를 제안한다. Qwen, Llama, OLMo 기준 모델 대비 선호도 추종 생성에서 26.6~40.9 포인트의 개선을 달성했으며, 개인화 및 마음 이론(theory of mind) 평가를 결합하여 모델이 사용자를 얼마나 잘 이해하고 그에 따라 행동하는지를 측정한다.",
+      "tags": [
+        "language-models",
+        "human-ai-collaboration",
+        "personalization",
+        "user-simulation",
+        "training-methods"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Zixuan Wang, Yufan Zhou, Jinzhou Tang, Xinle Yu, Chengjun Wu",
+      "published_at": "2026-09-14T17:55:58+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15780",
+      "content_key": "e03b5e84ce471df0673e30024fc310e127db546903f5addf81a1c7148a221ba2",
+      "surface": "more",
+      "title": "MoveBench: A Benchmark for Global-Scale Wildlife Movement Forecasting",
+      "url": "https://arxiv.org/abs/2609.15780",
+      "score": 6.0,
+      "summary": "MoveBench는 110개 종, 800+ 개체의 GPS 위치 260만 개와 160개 환경 변수를 포함한 최초의 대규모 야생동물 이동 예측 벤치마크다. 확률적 평가 프로토콜을 제안하고 네 가지 방법 계열을 평가한 결과, 기존 딥러닝 방법이 단순한 기준선을 일관되게 능가하지 못하며, 환경 변수 선택이 성능에 크게 영향을 미친다는 점을 발견했다. 생태 보전 분야에서 이동 예측 연구를 표준화할 수 있는 기반을 제공한다.",
+      "tags": [
+        "benchmark-dataset",
+        "wildlife-ecology",
+        "trajectory-forecasting",
+        "environmental-modeling",
+        "probabilistic-prediction"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Justin Kay, Shir Bar, Ellen O. Aikens, Martin Becker, Francesca Cagnacci",
+      "published_at": "2026-09-14T15:59:46+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15838",
+      "content_key": "de61077730a7f51e6b2daacdc0d9c319a48516ad41d1af575deb29bc7390f2a7",
+      "surface": "more",
+      "title": "Per-Matrix Optimality Is Not Enough: Three-Level Optimization for Low-Rank LLM Compression",
+      "url": "https://arxiv.org/abs/2609.15838",
+      "score": 6.0,
+      "summary": "이 논문은 LLM 압축을 위해 행렬 단위 SVD 최적화를 넘어 세 단계 최적화 체인을 제안한다: 개별 행렬 수준(L1), Transformer 블록 수준(L2), 전체 모델 언어 모델링 손실(L3). LLaMA-7B에서 60% 압축 시 WikiText-2 perplexity가 42.1에서 11.4로 감소했으며, 블록 수준 최적화가 정규화 역할을 한다는 점이 주목할 만하다. 다만 다운스트림 작업 정확도는 밀집 모델 이하이고, 실제 적용 가능성은 제한적이다.",
+      "tags": [
+        "model-compression",
+        "llm-optimization",
+        "low-rank-approximation",
+        "quantization-and-pruning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Huicheng Zhang, Xiyao Feng, Ze-Tong Li, Chengkai Zhu, Xiao Shi",
+      "published_at": "2026-09-14T16:36:46+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:www.technologyreview.com_topic_artificial-intelligence_feed:132494e1d4392dad",
+      "content_key": "74aac96083eac25770721020c3d66153445163fb5489be4b790924ed826a6d95",
+      "surface": "more",
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+      "score": 6.0,
+      "summary": "Anthropic CEO Dario Amodei가 LLM 개발 속도를 늦춰야 한다는 주장을 제시했으며, 이 기술로부터 발생할 수 있는 위험들을 언급했습니다. AI 업계의 안전성과 개발 방향에 대한 주요 인물의 입장 변화를 보여주는 사례로, AI 시스템의 신뢰성과 검증 문제에 관심 있는 독자들에게 의미 있는 내용입니다.",
+      "tags": [
+        "generative-ai",
+        "large-language-models",
+        "ai-safety",
+        "industry-analysis"
+      ],
+      "source_type": "rss",
+      "sub_source": "MIT Tech Review AI",
+      "author": "Will Douglas Heaven",
+      "published_at": "2026-09-14T17:54:22+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.15982",
+      "content_key": "3d845f818a94227e58c05f28e785c56fbcb11170e5d60a3f998a2832f6ec0206",
+      "surface": "more",
+      "title": "The Router Within: Eliciting Native Skill Routing from a Frozen LLM",
+      "url": "https://arxiv.org/abs/2609.15982",
+      "score": 6.0,
+      "summary": "frozen LLM의 중간 계층 상태에서 두 개의 선형 맵으로 스킬 라우팅 신호를 직접 읽어내는 Gavel 방법을 제시합니다. 컨텍스트에 스킬 메타데이터를 로드하지 않으면서도 retrieval 파이프라인보다 최대 21.9포인트 향상된 성능을 보이며, 학습된 모델이 더 큰 frontier 모델보다 정확한 스킬 선택을 합니다. 에이전트 시스템에서 스킬 선택의 효율성을 크게 개선할 수 있는 실용적인 접근입니다.",
+      "tags": [
+        "skill-routing",
+        "llm-agents",
+        "parameter-efficient-methods",
+        "agent-systems"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Ruishuo Chen, Xun Wang, Yu Chen, Zhuoran Li, Longbo Huang",
+      "published_at": "2026-09-14T17:58:27+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15773",
+      "content_key": "3b010a75a8a609ce129415be1a0895a03f1ed588c49118cf43c065bcbb99db75",
+      "surface": "more",
+      "title": "Transfer Learning for Socioeconomic Estimation in Forced-Displacement Settings",
+      "url": "https://arxiv.org/abs/2609.15773",
+      "score": 6.0,
+      "summary": "연구팀이 인구통계 및 보건조사(DHS) 데이터로 사전학습된 multimodal spatiotemporal vision transformer를 남수단, 카메룬, 잠비아의 강제이주 및 수용 지역에 맞춰 적응시켰다. 위성 지구관측 데이터와 UNHCR 데이터를 활용해 캠프 지역에서 사회경제 지표 변동의 66%를 설명하고(MAE 4.37), 비캠프 지역에서 41%를 설명했다. 정기적인 가구 조사 사이의 시간적·공간적 데이터 격차를 채워 인도주의 우선순위 결정을 지원하는 실용적 가치가 있으나, 방법론적 혁신보다는 기존 기법의 신중한 적용이 핵심이다.",
+      "tags": [
+        "transfer-learning",
+        "earth-observation",
+        "humanitarian-ai",
+        "socioeconomic-estimation",
+        "geospatial-machine-learning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Steven Ndung'u, Adel Daoud, Ismael Yacoubou Djima, Hai-Anh H. Dang, Patrick Michael Brock",
+      "published_at": "2026-09-14T15:55:57+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:5e6cebbd5e27fb9b",
+      "content_key": "ab0b67bb40bdb00511c3c83dd10d4132fb16cc69b5318ff7727d99727fb59fc8",
+      "surface": "more",
+      "title": "What execs and politicians are saying about slowing down AI development",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995141/ai-executives-politicians-safety-regulation-anthropic-dario-amodei",
+      "score": 6.0,
+      "summary": "Anthropic의 Dario Amodei가 AI 개발 속도를 늦춰야 한다는 장문의 에세이를 발표하면서 AI 안전성에 대한 논의가 촉발되었고, 다른 AI 리더와 정치인들이 찬성 또는 반대 입장을 표명하고 있다. 이 기사는 이러한 주요 의견들을 정리한 것으로, AI 규제와 개발 속도 조절에 대한 업계 내 입장 차이를 보여준다.",
+      "tags": [
+        "ai-safety",
+        "ai-regulation",
+        "generative-ai",
+        "policy"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Jay Peters",
+      "published_at": "2026-09-14T21:21:42+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.15807",
+      "content_key": "70366fdc12fe8ad354f64fe959f336c5f58d91a3b54c0080b3dad61b75836a5c",
+      "surface": "more",
+      "title": "Accelerating Transfer-Learning-Based Autotuning with Predictive LLVM IR Performance Ranking",
+      "url": "https://arxiv.org/abs/2609.15807",
+      "score": 5.0,
+      "summary": "이 논문은 LLVM IR 성능 예측을 위한 신경망 기반 랭커(NCS)를 사용하여 HPC 자동 튜닝 과정을 가속화한다. 전이 학습과 머신러닝 앙상블을 결합하여 최적 컴파일러 설정을 찾기 위한 평가 횟수를 평균 27.85% 감소시킬 수 있음을 보여준다. HPC 워크로드 최적화에는 실용적이지만, 기존 기법의 조합으로 근본적인 혁신은 제한적이다.",
+      "tags": [
+        "compiler-optimization",
+        "autotuning",
+        "transfer-learning",
+        "hpc-performance",
+        "machine-learning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.PF",
+      "author": "Md Arafat Hossain, Thomas Randall, Akash Dutta, Xingfu Wu, Rong Ge",
+      "published_at": "2026-09-14T16:14:15+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "google_news:article:4cdf884250af6960",
+      "content_key": "3a9f1ee884ae2f8327cc43c2343c219604d1814a878297923bd03d764b3d6b97",
+      "surface": "more",
+      "title": "Anthropic targets financial advisers with new Claude tool - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOako0N2w1bExjVVA0azZSLUI0QXdveUdDUWFnM0RKeVJVTEN4TlFlX0t5UHR6Z1FROWp2LVJUSjY4anRUakt0OTBUWkdFdjNKLTFDNmhPZ0RVY3BZSEZzLVFFUjZVdmtLSHk1bVZQRm1ObVJ6SGVSWGpJbXBBdS1EQ3lSMk4xNzNfVTJQT2NYaW1aUkV5c1plNDJNRXk2S3ZPMzA5Yw?oc=5",
+      "score": 5.0,
+      "summary": "Anthropic이 Claude를 금융 자문가를 대상으로 하는 새로운 도구로 출시했다. 규제가 엄격한 금융 분야에서의 LLM 활용은 실제 산업 적용의 중요한 사례이지만, 구체적인 기술 세부사항이나 규정 준수 방식에 대한 정보가 부족하다.",
+      "tags": [
+        "large-language-models",
+        "claude",
+        "ai-applications",
+        "financial-services"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Reuters",
+      "author": "Reuters",
+      "published_at": "2026-09-14T17:13:09+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.15803",
+      "content_key": "8abddefdf7a6fd09d283838dd79d3d1e7cec6f2151a95a919fe77f60717842f7",
+      "surface": "more",
+      "title": "Delegating Authorization to Misaligned Agents: Coalitional Alignment and Safe Control",
+      "url": "https://arxiv.org/abs/2609.15803",
+      "score": 5.0,
+      "summary": "이 논문은 정렬되지 않은 AI 에이전트에 대한 안전한 위임 문제를 다룬다. 인간의 승인 요구가 병목이 되는 상황에서, 여러 검토자 에이전트로 구성된 패널이 제안된 행동을 승인할 때 안전성을 보장하는 조건을 식별한다. 저자들은 k-robust coalitional alignment라는 개념을 도입하여, k명의 검토자가 제거된 후에도 principal의 효용이 남은 검토자들의 효용의 비음 조합으로 표현될 수 있을 때 안전성이 보장됨을 보인다. 순차적 제어와 전략적 투표 상황에서도 이 특성화가 유지되며, 실험 결과는 개별적으로 정렬된 검토자가 없어도 집단 검토가 안전할 수 있음을 시사한다.",
+      "tags": [
+        "ai-safety",
+        "alignment",
+        "game-theory",
+        "multi-agent-systems",
+        "delegation"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.GT",
+      "author": "Natalie Collina, Surbhi Goel, Aaron Roth, Sikata Bela Sengupta",
+      "published_at": "2026-09-14T16:12:41+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:arstechnica.com_ai_feed_:aa4187fee3c8bfe9",
+      "content_key": "aa4187fee3c8bfe9058780251c8e0ca88d381d2eca806073762845da1ebfa4ef",
+      "surface": "more",
+      "title": "Founder’s cost-cutting obsession drove Unitree lead in cheap humanoid robots",
+      "url": "https://arstechnica.com/ai/2026/09/founders-cost-cutting-obsession-drove-unitree-lead-in-cheap-humanoid-robots/",
+      "score": 5.0,
+      "summary": "Unitree의 창업자 Wang Xingxing의 비용 절감 중심 경영이 저가 휴머노이드 로봇 개발을 주도했다는 분석 기사입니다. 그의 세부 관리 리더십 스타일이 회사의 성공을 이끌었지만, 이러한 접근 방식이 향후 확장 단계에서도 효과적일지에 대한 의문을 제기합니다.",
+      "tags": [
+        "robotics",
+        "hardware",
+        "business-strategy",
+        "humanoid-robots"
+      ],
+      "source_type": "rss",
+      "sub_source": "Ars Technica AI",
+      "author": "Jeremy Hsu",
+      "published_at": "2026-09-14T19:38:46+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:704af6cab8dbe84c",
+      "content_key": "b1f2f2391bb4473f33806448bc1a9318b01faf1f57b01029e3fd613c6db4a745",
+      "surface": "more",
+      "title": "Gates Foundation warns AI could widen inequality as foundation pledges $1B to expand access - washingtonpost.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTWJ0UWpRV0p2OFRNVjNzRE0xYkRpRmNGYzVYcGc0cU5vSnc5bks2ekh3OGFETFlTZnpIeEZsWXVJbXNmOVpoMUtWaWJvbV9hbFRiZExTVWl0WTBENkF0bnpXeVZVUlEtcnEyNUxjV0IxTEJydjF2V29BUU5zS3I2ZDFoZXpRMUpVb1N3eWdLazZ3OVlHelZlZGxvU2dRbDc0dXV2UExHaU8ydmV5VERZQkQxVlhhc0JCdDA0RUVXSXNyTUtCUjBwTHJoVTJ3Q3R5dDB5bw?oc=5",
+      "score": 5.0,
+      "summary": "Gates Foundation는 AI가 불평등을 심화할 수 있다는 경고와 함께 접근성 확대를 위해 10억 달러를 약속했다. 이는 AI 기술의 사회적 영향과 형평성 문제에 대한 주요 기관의 공식 입장을 보여주는 사례로, AI 개발과 배포 과정에서 고려해야 할 사회적 책임을 강조한다.",
+      "tags": [
+        "generative-ai",
+        "ai-policy",
+        "inequality",
+        "access",
+        "technology-ethics"
+      ],
+      "source_type": "google_news",
+      "sub_source": "washingtonpost.com",
+      "author": "washingtonpost.com",
+      "published_at": "2026-09-15T04:17:28+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.15883",
+      "content_key": "e3918d0e9371db84adc56b58ccb5dc427807c8773d10789cf345a730b62d7dc1",
+      "surface": "more",
+      "title": "Learning Multimodal One-step Flow Policy via Value-weighted Optimal Transport",
+      "url": "https://arxiv.org/abs/2609.15883",
+      "score": 5.0,
+      "summary": "OptiFlow는 오프라인 강화학습에서 다중모드 행동 분포를 학습하기 위해 최적 수송(optimal transport)을 활용한 원스텝 플로우 정책 학습 프레임워크를 제안한다. 상태별 엔트로피 최적 수송을 통해 가치 인식 참조 정책과 효율적인 원스텝 정책을 결합하여 모드 붕괴와 분포 외 발산 문제를 해결한다. 코드가 공개되어 있으며 다양한 오프라인 RL 벤치마크에서 강한 성능을 보인다.",
+      "tags": [
+        "offline-reinforcement-learning",
+        "flow-policies",
+        "optimal-transport",
+        "multimodal-learning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Jaehun Shon, Jinha Choi, Jongwook Jeon, Jongmin Lee",
+      "published_at": "2026-09-14T17:10:19+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15871",
+      "content_key": "d92fc66c90816a39f4eed63118981dea4a00de4f988d986187f1301eebe90707",
+      "surface": "more",
+      "title": "LLM-Based Schema-Aware Split Learning for Privacy-Preserving Mental Distress Prediction Across Heterogeneous Surveys",
+      "url": "https://arxiv.org/abs/2609.15871",
+      "score": 5.0,
+      "summary": "정신 건강 설문 데이터의 이질적인 스키마를 LLM 기반 분할 학습(split learning)으로 통합하는 프라이버시 보존 프레임워크를 제안한다. LLaMA-3.2-3B를 LoRA로 미세조정하여 클라이언트는 원본 데이터를 로컬에 유지하고 경량 처리만 수행하며, 서버에서 리소스 집약적 작업을 처리한다. 9개 설정 중 8개에서 연합 학습을 능가하고 클라이언트 계산량을 1000배 감소시켰으나, 평가 범위가 제한적이고 핵심 기술은 기존 방법의 응용이다.",
+      "tags": [
+        "privacy-preserving-learning",
+        "split-learning",
+        "llm-schema-harmonization",
+        "mental-health-prediction",
+        "federated-learning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Md Khalid Syfullah, Alvi Ataur Khalil",
+      "published_at": "2026-09-14T16:59:04+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15950",
+      "content_key": "159ff44fdfbf351f9ea38a29cb3b952c6b4e2c8bb2b8020accdb1ccc53d2cca8",
+      "surface": "more",
+      "title": "Privacy-Aligned Personalized Federated Learning with Compact Adaptation and Variable-Length Gaussian Communication",
+      "url": "https://arxiv.org/abs/2609.15950",
+      "score": 5.0,
+      "summary": "본 논문은 개인화된 연합학습에서 차등프라이버시(differential privacy)를 적용할 때 발생하는 구조적 불일치를 해결한다. 클라이언트별 저차원 변동을 고정된 계수 공간으로 제한하고 가우시안 메커니즘을 변수길이 양자화로 구현하여, CIFAR-10에서 통신량을 2.67배 감소시키면서 비교 가능한 정확도를 유지한다. 프라이버시-통신-정확도 트레이드오프를 개선하는 실질적인 기법이지만 평가가 표준 이미지 데이터셋에 한정되어 있다.",
+      "tags": [
+        "federated-learning",
+        "differential-privacy",
+        "communication-efficiency",
+        "personalization"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Yilin Xu, Chun Hei Michael Shiu, Chih Wei Ling, Linqi Song",
+      "published_at": "2026-09-14T17:48:11+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15885",
+      "content_key": "4b8a090ba40b10d97452f6b65fd3d7f631220c6bb4877f9a93d8472804d6859e",
+      "surface": "more",
+      "title": "Privacy-enhanced federated learning via asynchronous aggregation and local differential perturbation",
+      "url": "https://arxiv.org/abs/2609.15885",
+      "score": 5.0,
+      "summary": "이 논문은 Dynamic Differential Privacy, Homomorphic Encryption, Local Differential Privacy를 결합한 연합학습 프레임워크를 제안하며, 비동기 집계 전략으로 분산 환경을 지원한다. CIFAR-10과 Purchase-100에서 ε=0.1의 엄격한 프라이버시 제약 하에서 82.6%의 정확도를 유지하면서 FedAvg 대비 통신 오버헤드를 21.3% 감소시켰다. 프라이버시 보호와 모델 성능의 균형을 다루는 실용적 기여이지만, 기존 기법의 조합이며 최신 기준선과의 비교가 부족하다.",
+      "tags": [
+        "federated-learning",
+        "differential-privacy",
+        "distributed-training",
+        "privacy-preserving-ml"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Zhen Zhong, Shini Yang, Liesheng Wei",
+      "published_at": "2026-09-14T17:12:15+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "google_news:article:ddddd82488f16846",
+      "content_key": "5092e6b5e917c0d209a7f05ea49f78e954325a59977cb5b68e774e10ab369268",
+      "surface": "more",
+      "title": "Regina data centre project to quadruple in size, becoming Bell Canada’s AI headquarters - Regina Leader-Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTXZBcjVDOHV6eC01UlZxVkVZTjIyUzhpQThRc1RiUDluSk1LeXpnTXBkU1FLWEswa2liYmpxUHNJT0lLTE1aOHVkSkFod2NESWRNNkxTYmRRUF8zT05ucHBmb1UzX3M4XzFram4zdF9ubHdaRl9ZZHZjTXVEX21uY3YtTnZfOGtoQkl1MzRoV2tOdnExVW9hTlJ2OEVvcndQOElVbEVrYWk4SmlfTDl2cHR2aFE?oc=5",
+      "score": 5.0,
+      "summary": "Bell Canada이 Regina 데이터 센터 프로젝트를 4배 규모로 확장하여 AI 본부로 전환한다고 발표했다. 이는 캐나다 주요 통신사의 AI 인프라 투자 확대를 보여주는 사례이지만, 구체적인 기술 사양, 완공 일정, 또는 지원할 AI 워크로드에 대한 세부 정보가 부족하다.",
+      "tags": [
+        "ai-infrastructure",
+        "data-centers",
+        "bell-canada",
+        "ai-investment"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Regina Leader-Post",
+      "author": "Regina Leader-Post",
+      "published_at": "2026-09-15T02:23:07+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.15915",
+      "content_key": "6e25aaaa502a39c1a82b9c7d7ff61dec4b681f734ed79d0270c48f8e8d763072",
+      "surface": "more",
+      "title": "Safe Meta-Reinforcement Learning via Information Space Reachability",
+      "url": "https://arxiv.org/abs/2609.15915",
+      "score": 5.0,
+      "summary": "메타강화학습(meta-RL)의 실제 적용을 제약하는 안전성 문제를 다루는 프레임워크를 제안한다. 핵심은 물리적 상태와 에이전트의 작업 신념을 모두 포함하는 정보 공간에서 안전성을 추론하는 것으로, 안전 가치 함수가 Bellman 방정식을 만족하도록 설계했다. 이론적 기초는 견고하지만 실험 결과와 기존 방법과의 비교가 추상에 명시되지 않아 실무적 영향을 평가하기 어렵다.",
+      "tags": [
+        "meta-reinforcement-learning",
+        "safety-constraints",
+        "information-space",
+        "policy-optimization",
+        "theoretical-framework"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Zeyang Li, Sunbochen Tang, Navid Azizan",
+      "published_at": "2026-09-14T17:27:11+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.15825",
+      "content_key": "db39bb6f70de8fbf674128a6cde436447d4fede3dc43676730a528f308342f1f",
+      "surface": "more",
+      "title": "Sharp Rates and a One-Line Correction for Spectral Representation Learning",
+      "url": "https://arxiv.org/abs/2609.15825",
+      "score": 5.0,
+      "summary": "이 논문은 고정된 자기지도학습 인코더의 전이 성능을 분석하며, 작업 공분산과 스펙트럼 연산자의 정렬 정도가 전이 위험을 결정한다는 것을 보인다. 저자들은 등방성(isotropy)이 아닌 정렬(alignment)이 중요하다는 점을 증명하고, 정렬 부족을 진단하며 한 줄의 재가중치 수정으로 최적성을 복원하는 방법을 제시한다. CIFAR-100에서 실험적 검증이 있지만, 현대 대규모 모델에 대한 실용적 영향은 제한적이다.",
+      "tags": [
+        "representation-learning",
+        "transfer-learning",
+        "self-supervised-learning",
+        "spectral-methods",
+        "theoretical-analysis"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Dier Tang, Jing Yee Tan, Guangyue Han",
+      "published_at": "2026-09-14T16:26:55+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:6aa192053f014d7a",
+      "content_key": "6aa192053f014d7ad59df79841690ab501f31a29bd44c3bb15ea5b5e66b6f837",
+      "surface": "more",
+      "title": "Show GN: 바다거북스프 — AI와 질문을 주고받으며 푸는 추리 게임",
+      "url": "https://news.hada.io/topic?id=33721",
+      "score": 5.0,
+      "summary": "바다거북스프는 AI가 진행자 역할을 맡는 추리 게임 웹 서비스입니다. 사용자가 예/아니오 질문을 던지며 숨겨진 사건의 진짜 사연을 추리하는 방식으로, 기존에 여럿이 모여야 하던 게임을 혼자서도 즐길 수 있게 만들었습니다. 회원가입 없이 바로 플레이 가능하며, 여러 시나리오 중 선택해 진행할 수 있습니다.",
+      "tags": [
+        "game-development",
+        "generative-ai",
+        "conversational-ai",
+        "indie-project"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "mks487",
+      "published_at": "2026-09-15T01:40:40+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:e7249b41e2939db6",
+      "content_key": "e7249b41e2939db63d010dd1bd4fcc40049a5d71b49a2d38ca93c1b41c04656e",
+      "surface": "more",
+      "title": "Show HN: Neobrutalism.dev - Base UI 지원과 새 색상 테마 추가",
+      "url": "https://news.hada.io/topic?id=33718",
+      "score": 5.0,
+      "summary": "Neobrutalism.dev는 React와 Tailwind v4용 네오브루탈리즘 스타일 UI 컴포넌트 라이브러리로, 이번 업데이트에서 Base UI 지원과 새 색상 테마를 추가했습니다. shadcn/ui 기반으로 구축된 64개의 컴포넌트, 차트, 아이콘을 제공하며, 팔레트 선택으로 네오브루탈리즘 레이아웃을 빠르게 시작할 수 있습니다.",
+      "tags": [
+        "open-source",
+        "ui-components",
+        "react",
+        "frontend-development",
+        "design-systems"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-15T00:39:19+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.15884",
+      "content_key": "30dc0ef43f054fdd320f410082075a6ddd9f2cfca4f40c30a334b40d7ecb0a9c",
+      "surface": "more",
+      "title": "Thin-shell stability of Gaussian cooling: logconcave sampling with sesteric complexity from a cold start",
+      "url": "https://arxiv.org/abs/2609.15884",
+      "score": 5.0,
+      "summary": "이 논문은 가우시안 냉각 경로를 따라 로그오목 확률 분포가 얇은 껍질 안정성을 가짐을 보이며, 이를 통해 임의의 로그오목 분포를 냉시작 상태에서 샘플링하는 복잡도를 개선했다. 거의 등방성인 로그오목 분포의 경우 복잡도가 약 n^2.5로 개선되어 이전의 n^2.75 경계를 능가하고 추상적 Speedy walk의 복잡도와 일치한다.",
+      "tags": [
+        "sampling-algorithms",
+        "logconcave-distributions",
+        "computational-complexity",
+        "theoretical-computer-science"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.DS",
+      "author": "Yunbum Kook, Santosh S. Vempala",
+      "published_at": "2026-09-14T17:10:31+00:00",
+      "profile": "ai-paper"
+    }
+  ],
+  "manifest_id": "f6094c8b0d1798ac779aff37275f8ce54cc8d4e3c50dc3536b57b320e11d6acd"
+}
