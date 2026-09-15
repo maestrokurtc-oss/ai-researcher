@@ -1,0 +1,79 @@
+[
+  {
+    "id": "hackernews:story:49709381",
+    "title": "Alternatives to MinIO for single-node local S3",
+    "url": "https://rmoff.net/2026/01/14/alternatives-to-minio-for-single-node-local-s3/",
+    "score": 5.0,
+    "summary": "MinIO의 단일 노드 로컬 S3 대안들을 비교하는 글로, Garage, SeaweedFS, Versity GW, DeltaGlider 등 여러 오픈소스 솔루션을 다룬다. 커뮤니티 댓글에서는 Garage v2.3.0의 자동 설정 기능, MinIO 포크 유지보수, 실제 프로덕션 경험(대용량 데이터 처리, 동시 쓰기 안정성)이 공유되어 있어 개발자들이 자신의 인프라에 맞는 도구를 선택하는 데 실질적인 참고 자료가 된다.",
+    "reason": "Practical comparison of S3-compatible storage alternatives with substantive community discussion of real deployment experiences. Relevant to software engineering infrastructure decisions, but incremental rather than novel—addresses a specific niche use case without major technical breakthroughs or industry-wide impact.",
+    "tags": [
+      "s3-storage",
+      "open-source",
+      "infrastructure",
+      "minio-alternatives",
+      "devops"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "rmoff",
+    "author": "rmoff",
+    "published_at": "2026-09-15T08:21:27+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49708993",
+    "title": "CSS-Tricks in Limbo",
+    "url": "https://vale.rocks/micros/20260915-0135",
+    "score": 5.0,
+    "summary": "CSS-Tricks, 창립자 Chris Coyier가 2022년에 매각한 웹 개발 교육 사이트가 현재 활동이 적어진 상태에 있다. 커뮤니티에서는 인수 이후 콘텐츠 품질이 저하되었다는 점을 지적하고 있으며, 사이트의 향후 방향에 대한 불확실성이 논의되고 있다.",
+    "reason": "Moderate community interest in the status of CSS-Tricks following its 2022 acquisition, with substantive discussion about editorial quality decline. Relevant to web development community but lacks concrete technical details or forward-looking developments.",
+    "tags": [
+      "web-development",
+      "css",
+      "content-platform",
+      "community"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "edent",
+    "author": "edent",
+    "published_at": "2026-09-15T07:27:46+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:d4399e35b0fd54b9",
+    "title": "Show GN: JetBatang NF - JetBrains Mono Nerd Font에 RIDIBatang 한글을 합친 터미널 글꼴",
+    "url": "https://news.hada.io/topic?id=33730",
+    "score": 5.0,
+    "summary": "JetBatang NF는 JetBrains Mono Nerd Font와 RIDIBatang 한글 글꼴을 합친 터미널용 고정폭 글꼴입니다. 한글 너비를 라틴 문자의 정확히 2배로 고정하여 터미널 격자 정렬을 유지하며, 16가지 스타일(8단계 굵기 × 정체/이탤릭)을 제공합니다. fontTools만으로 빌드 가능하고 다른 Nerd Font를 기반으로도 재구성할 수 있어 확장성이 좋습니다.",
+    "reason": "A practical open-source tool addressing a real technical problem (terminal font rendering for Korean text), with solid implementation details and reusability. Matches reader interest in open source and developer tools, though limited to a niche use case.",
+    "tags": [
+      "open-source",
+      "developer-tools",
+      "typography",
+      "terminal"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "overthinker1127",
+    "published_at": "2026-09-15T08:25:58+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:ddddd82488f16846",
+    "title": "Regina data centre project to quadruple in size, becoming Bell Canada’s AI headquarters - Regina Leader-Post",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTXZBcjVDOHV6eC01UlZxVkVZTjIyUzhpQThRc1RiUDluSk1LeXpnTXBkU1FLWEswa2liYmpxUHNJT0lLTE1aOHVkSkFod2NESWRNNkxTYmRRUF8zT05ucHBmb1UzX3M4XzFram4zdF9ubHdaRl9ZZHZjTXVEX21uY3YtTnZfOGtoQkl1MzRoV2tOdnExVW9hTlJ2OEVvcndQOElVbEVrYWk4SmlfTDl2cHR2aFE?oc=5",
+    "score": 5.0,
+    "summary": "Bell Canada이 Regina 데이터센터 프로젝트를 4배 규모로 확장하여 AI 본부로 전환할 계획입니다. 이는 캐나다의 AI 인프라 투자 확대를 보여주는 사례이지만, 구체적인 기술 사양, 일정, 또는 AI 워크로드 지원 방식에 대한 세부 정보가 부족합니다.",
+    "reason": "Infrastructure expansion announcement with AI relevance, but lacks technical depth and concrete details about the project's technical specifications, timeline, or impact on AI capabilities.",
+    "tags": [
+      "ai-infrastructure",
+      "data-centers",
+      "bell-canada",
+      "cloud-computing"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Regina Leader-Post",
+    "author": "Regina Leader-Post",
+    "published_at": "2026-09-15T14:13:45+00:00",
+    "profile": "tech-news"
+  }
+]
