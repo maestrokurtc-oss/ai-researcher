@@ -1,0 +1,691 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:f51790c6577d9da8",
+    "title": "Jev - 문장 대신 판단과 확률을 반환하는 AI 모델",
+    "url": "https://news.hada.io/topic?id=33751",
+    "score": 7.0,
+    "summary": "TypeSafe AI가 공개한 Jev 모델은 문장 생성 대신 구조화된 판단과 확률을 반환하도록 설계된 System One Model로, 분류·라우팅·점수화 같은 소프트웨어 자동화 작업에 최적화되어 있습니다. RLCD(Reinforcement Learning for Calibrated Decisions) 학습 방식으로 신뢰도와 불확실성을 함께 제공하며, 정해진 스키마를 벗어나지 않도록 보장합니다. 자체 평가에서 기존 LLM 대비 193배 빠르고 444배 저렴하다고 주장하며, 입력 가격은 100만 토큰당 $0.042, 응답 시간은 70~500ms입니다.",
+    "reason": "TypeSafe AI's Jev model represents a meaningful shift in AI application design—moving from free-form text generation to structured probabilistic outputs optimized for software automation. The technical approach (RLCD training, calibrated uncertainty, guaranteed schema compliance) is novel and addresses a real gap in LLM deployment. Performance claims are substantial but self-evaluated; the pricing model and latency metrics provide concrete details. Relevant to readers interested in AI systems, software engineering, and practical ML deployment.",
+    "tags": [
+      "large-language-models",
+      "ai-systems",
+      "structured-outputs",
+      "model-optimization",
+      "software-automation"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-15T20:42:25+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2609.17394",
+    "title": "Coding Agents Have Converged: Why the SWE-bench Leaderboard Can No Longer Order Its Top Entries, and What to Measure Instead",
+    "url": "https://arxiv.org/abs/2609.17394",
+    "score": 7.0,
+    "summary": "SWE-bench 상위 시스템들의 점수 차이가 실제 성능 순서를 나타내지 않는다는 것을 254개 제출물 분석으로 보였다. Verified 분할에서 상위 두 항목이 동일한 396개 인스턴스를 해결하고, 상위 30개 중 인접한 쌍 29개 중 어느 것도 McNemar 검정으로 유의하게 구분되지 않는다. 모델-스캐폴드 조합에 따라 성능이 최대 29.8 포인트 변하는데 이는 전체 상위 30개 범위 8.8 포인트보다 훨씬 크다. 저자들은 작은 점수 차이를 순위로 해석하는 대신 비교 집합별 해상도와 모델-스캐폴드 출처를 보고할 것을 권장한다.",
+    "reason": "Well-evidenced empirical study that settles a real question about leaderboard interpretation. The paper audits 254 SWE-bench submissions and demonstrates that published score differences do not reliably order top systems—a finding that directly challenges how practitioners interpret benchmark results. The statistical analysis is rigorous (McNemar tests, Holm correction, interaction tests), the methodology is reproducible without rerunning models, and the released audit protocol has practical value. The scope is narrow (one benchmark, coding agents) but the insight is important for practitioners who rely on leaderboards to guide model selection.",
+    "tags": [
+      "benchmarking",
+      "coding-agents",
+      "statistical-analysis",
+      "leaderboard-evaluation",
+      "swe-bench"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.SE",
+    "author": "Fengshuo Liu, Ying Liu, Ruize Sun, Lie Luo, Siyuan Guo",
+    "published_at": "2026-09-15T16:29:12+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17391",
+    "title": "FlashVector: Agent for Hierarchical Model Serving Stack Optimization",
+    "url": "https://arxiv.org/abs/2609.17391",
+    "score": 7.0,
+    "summary": "FlashVector는 GPU 커널부터 모델 서버, 특성 처리까지 모델 서빙 스택 전체를 최적화하는 에이전트 시스템이다. Unity의 Vector 광고 플랫폼에 배포된 후 모델 서버에서 최대 2배 처리량 증가와 1.98배 지연 시간 단축을 달성했으며, 특성 저장소에서 1.6배 처리량 증가를 기록했다. 이는 단일 GPU 커널 최적화 에이전트 패러다임을 이질적인 기술 스택으로 확장하여 프로덕션 ML 시스템의 비용 효율성을 크게 개선할 수 있음을 보여준다.",
+    "reason": "Solid systems contribution with concrete production results. FlashVector extends AI-driven optimization from isolated GPU kernels to a full model serving stack, achieving substantial real-world gains (up to 2x throughput, 1.98x latency improvement) across multiple layers at Unity. The extensible framework and cross-layer optimization approach address a genuine pain point in production ML systems. Evaluation is grounded in deployment results rather than synthetic benchmarks, though the abstract does not detail ablations or comparisons to alternative optimization strategies.",
+    "tags": [
+      "model-serving",
+      "systems-optimization",
+      "ml-infrastructure",
+      "production-ml",
+      "agent-systems"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Qi Wu, Lohan Lemire, Kai Meng, Zhongmou Cai, Raphael Bargues",
+    "published_at": "2026-09-15T16:27:45+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17376",
+    "title": "Large Language Models Develop Belief State Geometry In-Context",
+    "url": "https://arxiv.org/abs/2609.17376",
+    "score": 7.0,
+    "summary": "LLM의 in-context learning 능력을 지원하는 표현을 이해하기 위해, 연구자들은 hidden Markov model 데이터로 프롬프트된 6개의 오픈소스 LLM을 조사했습니다. 신경망의 residual stream 활성화에서 belief state(숨겨진 상태의 사후 분포)가 높은 선형 디코더빌리티(R² 0.83-0.99)로 추출 가능함을 발견했으며, 패칭과 스티어링을 통한 인과 개입으로 기능적 관련성을 확인했습니다. 이는 LLM의 in-context learning이 문맥에서 추론된 생성 모델에 대한 최적 베이지안 예측을 근사한다는 표현 수준의 증거를 제공합니다.",
+    "reason": "Well-designed mechanistic study with strong empirical evidence (R² 0.83-0.99) and causal validation through intervention experiments. Demonstrates that LLMs develop interpretable belief state representations during in-context learning, extending prior theoretical work to production models. Solid contribution to understanding ICL mechanisms, though limited to controlled HMM setting.",
+    "tags": [
+      "mechanistic-interpretability",
+      "in-context-learning",
+      "representation-learning",
+      "language-models",
+      "bayesian-inference"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Daniel Balcells, Andrew Jun Lee, Chirag Rastogi, Paul M. Riechers, Adam Shai",
+    "published_at": "2026-09-15T16:17:59+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17527",
+    "title": "Agentic Societies Need a Social Harness",
+    "url": "https://arxiv.org/abs/2609.17527",
+    "score": 6.0,
+    "summary": "논문은 여러 AI 에이전트가 신뢰 경계를 넘어 자율적으로 조율하는 '에이전트 사회'에서 기존 메시징 방식의 취약점을 실험적으로 보여준다. 정직하고 유능한 에이전트도 만족스러운 결과에 도달하지 못하며, 악의적 에이전트는 통신 취약점을 악용해 협력을 방해할 수 있다. 저자들은 개별 에이전트의 개인 harness에 더해 에이전트 간 상호작용을 관리하는 'social harness'라는 계층화된 아키텍처를 제안하며, 이를 통해 특정 장애를 사전에 방지하고 런타임 메시지 검증, 사후 조사를 지원할 수 있다고 주장한다.",
+    "reason": "Solid conceptual contribution addressing a real coordination problem in multi-agent systems, with experimental validation of failure modes. The proposed social harness architecture is well-motivated but the abstract does not detail the strength of evaluation, baseline comparisons, or implementation specifics needed to assess practical impact.",
+    "tags": [
+      "multi-agent-systems",
+      "ai-coordination",
+      "trust-and-verification",
+      "agent-communication",
+      "system-architecture"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.MA",
+    "author": "Tapan Chugh, Vidushi Singh, Krish Jain, Arvind Krishnamurthy, Ratul Mahajan",
+    "published_at": "2026-09-15T17:57:27+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17523",
+    "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
+    "url": "https://arxiv.org/abs/2609.17523",
+    "score": 6.0,
+    "summary": "ScienceBuddy는 연구자의 피드백과 실행 결과를 학습 신호로 변환하는 대화형 과학 연구 에이전트 시스템을 제시한다. 핵심은 '재귀-재귀 자기개선' 패러다임으로, 내부 재귀는 모델을 고정하고 harness를 진화시키며 외부 재귀는 개선된 harness 하에서 모델을 학습시킨다. 연구 제품으로 공개되어 과학 커뮤니티가 접근 가능하지만, 추상에서는 정량적 성과나 기준선 비교 없이 사례 연구만 언급되어 실제 효과성에 대한 증거가 제한적이다.",
+    "reason": "Solid contribution with a novel self-improvement paradigm (recursive-in-recursive) for scientific agents, released as a research product. The work addresses a real problem—integrating AI into researcher workflows—with a thoughtful approach coupling harness evolution and model learning. However, the abstract provides limited concrete evidence of effectiveness: no quantitative results, no comparison to baselines, and only vague reference to 'case studies' across 'four scientific task families' without specifics. The evaluation appears thin for a high score, though the released product and novel paradigm merit attention from practitioners building scientific AI systems.",
+    "tags": [
+      "scientific-agents",
+      "self-improvement",
+      "interactive-ai",
+      "reinforcement-learning",
+      "research-tools"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Shuhan Xue, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu",
+    "published_at": "2026-09-15T17:55:28+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17516",
+    "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
+    "url": "https://arxiv.org/abs/2609.17516",
+    "score": 6.0,
+    "summary": "Chain-of-Self-Questioning (CoSQ)은 LLM이 답변 전에 필요한 정보를 명시적으로 평가하도록 하는 프롬프트 기반 방법으로, 답변 또는 기권 결정을 제어한다. TruthfulQA에서 11개 모델 계열로 평가한 결과, Grounded-CoSQ는 chain-of-thought 대비 오답 커밋율을 13.1%에서 8.9%로 감소시키면서(32% 상대 감소) 정답 정확도를 86.9%에서 89.7%로 향상시켰고, 모든 모델과 임계값에서 일관되게 개선되었다. 할루시네이션 비용이 높은 실제 시스템에서 신뢰성과 커버리지 간 균형을 조정할 수 있는 실용적인 방법을 제공한다.",
+    "reason": "Solid empirical contribution with clear methodology and consistent results across multiple models. Chain-of-Self-Questioning is a straightforward idea (prompt-based self-assessment for abstention), but the evaluation is thorough: 11 model families, 17 conditions, two datasets, and honest reporting of trade-offs between coverage and accuracy. The 32% relative reduction in wrong-commitment rate is meaningful for practitioners building systems where hallucination cost matters. However, the novelty is modest—self-questioning and selective prediction are well-explored—and the gains, while consistent, are incremental rather than transformative. The prompt-only approach is practical but not technically novel. Reproducibility appears good (public datasets, no proprietary models required), which supports the score.",
+    "tags": [
+      "llm-reliability",
+      "hallucination-mitigation",
+      "selective-prediction",
+      "prompt-engineering",
+      "truthfulness"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Ali Şenol",
+    "published_at": "2026-09-15T17:52:24+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17475",
+    "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
+    "url": "https://arxiv.org/abs/2609.17475",
+    "score": 6.0,
+    "summary": "JustFit는 24GB 메모리의 MacBook에서 200K 토큰 컨텍스트를 지원하는 LLM 추론 런타임으로, KV 캐시 압축(KVExec), 컴포넌트 메모리 관리(PhaseSwap), 상태 전환(StateTrans)을 결합한다. Qwen3.8-27B 모델에서 기존 30K 토큰 제한을 212K로 확장(6.93배)했으며, 19 토큰/초 처리 속도를 달성했다. 로컬 개발 환경에서 대규모 모델을 실용적으로 실행하려는 개발자에게 유용한 시스템 최적화 기법을 제시한다.",
+    "reason": "Solid technical contribution with concrete engineering results. JustFit demonstrates a practical system for running large models on resource-constrained hardware through novel state management techniques. The evaluation is specific (6.93x context expansion, measured throughput) and reproducible claims are present. However, the scope is narrow (single hardware target, MLX-specific), and the work is primarily an engineering optimization rather than a fundamental advance. The AIME benchmark result is modest validation but not a primary contribution.",
+    "tags": [
+      "llm-inference",
+      "memory-optimization",
+      "local-deployment",
+      "state-management",
+      "edge-computing"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Yuhua Chen",
+    "published_at": "2026-09-15T17:15:48+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17464",
+    "title": "Decomposition Buys Integrity, Not Yield",
+    "url": "https://arxiv.org/abs/2609.17464",
+    "score": 6.0,
+    "summary": "이 논문은 다중 에이전트 시스템에서 작업을 계층적으로 분해할 때 정보 손실을 수학적으로 모델링합니다. 600개의 프로덕션 deep-research 추적에서 δ=0.34를 측정하여, 깊이 k인 트리가 N개의 발견에서 C^k N^(1-δ)만 전달됨을 보였습니다. 분해는 루트 컨텍스트 노출을 N에서 N^(1/k)로 줄이는 이점이 있지만, 수율 측면에서는 평탄한 구조가 최적이며, 프로덕션 세션의 7.8%만 위임할 가치가 있다고 결론짓습니다.",
+    "reason": "Solid empirical study with novel theoretical framing of multi-agent decomposition trade-offs. The analysis of information loss through hierarchical agent trees is well-grounded in production data (600+ traces), but the practical impact on practitioners building multi-agent systems remains somewhat unclear from the abstract alone. The finding that decomposition buys integrity (context reduction) at the cost of yield is useful, though the scope is narrow to deep-research tasks.",
+    "tags": [
+      "multi-agent-systems",
+      "task-decomposition",
+      "empirical-study",
+      "information-loss",
+      "production-analysis"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.MA",
+    "author": "Rong He",
+    "published_at": "2026-09-15T17:04:09+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17435",
+    "title": "Right Tool, Right Job: Native-Language Evaluation, Tokenizer Sensitivity, and Methodological Findings from a French-Only BabyLM",
+    "url": "https://arxiv.org/abs/2609.17435",
+    "score": 6.0,
+    "summary": "MéTRON-FR는 92.47M 단어의 프랑스어로 학습한 125M 파라미터 GPT-2 모델로, QFrBLiMP 벤치마크에서 85.97%의 성능을 달성했습니다. 연구는 소규모 언어 모델 평가에서 토크나이저와 템플릿 아티팩트가 zero-shot 점수를 지배한다는 중요한 발견을 제시하며, 네이티브 언어 최소 쌍 벤치마크와 토크나이저 민감도 분석을 표준 진단 도구로 제안합니다. 이는 작은 모델의 평가 방법론을 개선하는 데 기여합니다.",
+    "reason": "Solid empirical contribution with careful methodology. The paper presents a French-only language model with thorough evaluation including native-language benchmarks, ablation studies on tokenizer sensitivity, and cross-lingual analysis. The findings about tokenizer artifacts dominating zero-shot scoring at small scale are methodologically valuable. However, the scope is narrow (single model, French-specific), and the practical impact for practitioners building with LLMs is limited. The work makes a genuine contribution to understanding evaluation methodology rather than advancing model capabilities.",
+    "tags": [
+      "language-models",
+      "evaluation-methodology",
+      "multilingual-nlp",
+      "babylm-challenge",
+      "french-nlp"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Adam Zachary Wasserman, David Beauchemin",
+    "published_at": "2026-09-15T16:43:32+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17360",
+    "title": "ECHO: A Matched-Contrast Benchmark for Context-Sensitive Turn-Taking in Full-Duplex Dialogue",
+    "url": "https://arxiv.org/abs/2609.17360",
+    "score": 6.0,
+    "summary": "ECHO는 중국어 전이중 대화 시스템의 맥락 민감한 턴테이킹을 평가하는 진단 벤치마크입니다. 같은 겹침 전사를 가지되 선행 대화 맥락이 다른 쌍을 사용하여, 고정된 행동 선호도를 보상하는 기존 벤치마크의 문제를 해결합니다. 실험 결과 대부분의 시스템이 Yield 편향을 보이며 백채널보다 인터럽션에서 더 잘 수행되는데, 이는 인터럽션만으로 평가하면 실제 턴테이킹 신뢰성을 과대평가할 수 있음을 보여줍니다.",
+    "reason": "A well-designed diagnostic benchmark addressing a real problem in spoken dialogue systems (context-sensitive turn-taking), with a novel paired-contrast evaluation methodology that avoids rewarding fixed biases. The work is solid and reproducible (data will be released), but the contribution is narrowly scoped to Chinese full-duplex dialogue and the practical impact on practitioners building dialogue systems remains unclear from the abstract.",
+    "tags": [
+      "dialogue-systems",
+      "turn-taking",
+      "benchmark",
+      "evaluation-methodology",
+      "spoken-dialogue"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Shuofeng Zhao, Hongwei Cai, Wenke Fan, Qingxiang Guo, Dawei Yang",
+    "published_at": "2026-09-15T15:58:48+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17458",
+    "title": "Tables Decoded: DELTA for Structure, TARQA for Understanding",
+    "url": "https://arxiv.org/abs/2609.17458",
+    "score": 6.0,
+    "summary": "DELTA와 TARQA는 테이블 이해를 위해 VLM 기반 접근 대신 구조화된 텍스트 표현을 사용한다. DELTA는 물리적·논리적 구조 인식과 OCR을 분리하여 Optimised Table Structure Language(OTSL) 형식으로 테이블을 출력하고, TARQA는 OTSL 시퀀스로 미세조정된 LLM이다. WTQ에서 9.3 pp, FinTabNetQA에서 9.2 pp 향상을 달성했으며, 힌디어 벤치마크 TORQUE를 포함해 다국어 문서에 적합한 확장 가능한 솔루션을 제시한다.",
+    "reason": "Solid contribution with a practical alternative to VLM-based table understanding. The structured text approach is sensible and shows consistent gains across benchmarks, but the improvements are incremental (9.3 pp on WTQ) rather than transformative. The multilingual angle and released benchmark add value, though the evaluation is narrow in scope and the novelty is moderate—decomposing table tasks into structure + QA is not new, only the specific implementation via OTSL and LLM fine-tuning.",
+    "tags": [
+      "table-understanding",
+      "document-intelligence",
+      "structured-text-representation",
+      "multilingual-nlp",
+      "benchmark-release"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Jahanvi Rajput, Dhruv Kudale, Saikiran Kasturi, Utkarsh Verma, Ganesh Ramakrishnan",
+    "published_at": "2026-09-15T16:59:42+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17414",
+    "title": "SlotDiT: Object-Centric Representations for Diffusion Transformers",
+    "url": "https://arxiv.org/abs/2609.17414",
+    "score": 6.0,
+    "summary": "SlotDiT는 텍스트 조건부 확산 트랜스포머에서 객체 중심의 슬롯 기반 표현을 사용하여 장면을 개별 엔티티로 분해하고 미래 동역학을 예측한다. VAE 기반 및 의미론적 표현과의 체계적 비교를 통해 슬롯 표현이 경쟁력 있는 비디오 생성 품질을 유지하면서 네 개의 로봇 데이터셋에서 작업 완료율을 일관되게 향상시키고 계산 효율성을 제공함을 보여준다.",
+    "reason": "Solid empirical contribution with a clear idea (slot-based representations for diffusion transformers) and systematic evaluation across robotic datasets. The comparison of representation spaces within a unified framework is methodologically sound. However, the scope is somewhat narrow—focused on robotic video generation—and the abstract does not claim breakthrough performance gains, only competitive quality with improved task completion. The work is reproducible (project page provided) and addresses a real design question, but lacks evidence of transformative impact.",
+    "tags": [
+      "diffusion-models",
+      "object-centric-representations",
+      "video-generation",
+      "robotics",
+      "latent-space-design"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Gjergj Plepi, Sven Behnke",
+    "published_at": "2026-09-15T16:38:33+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17387",
+    "title": "PanoGS-SLAM: Panoramic 3D Gaussian Splatting SLAM",
+    "url": "https://arxiv.org/abs/2609.17387",
+    "score": 6.0,
+    "summary": "PanoGS-SLAM은 panoramic 카메라를 위한 첫 3D Gaussian Splatting 기반 SLAM 시스템으로, 구면 영역에서 직접 렌더링과 pose 최적화를 수행하여 omnidirectional photometric constraints를 제공한다. Equirectangular 투영의 면적 왜곡을 보정하는 sphere-consistent photometric loss와 depth-guided Gaussian 초기화 전략을 도입하여 기하학적 일관성을 개선했다. PALVIO와 SynPano 벤치마크에서 기존 방법들을 능가하는 추적 정확도와 렌더링 품질을 달성하며, 광각 범위가 증가할수록 최적화 안정성이 단조적으로 개선됨을 보여준다.",
+    "reason": "Solid technical contribution addressing a real gap—extending 3DGS SLAM to panoramic cameras with principled adaptations (sphere-consistent loss, depth-guided initialization). Well-motivated problem with convincing experimental validation on relevant benchmarks. Narrow scope (panoramic SLAM) and incremental nature of the contribution limit higher scoring, but the work is thorough and reproducible (code promised).",
+    "tags": [
+      "slam",
+      "3d-gaussian-splatting",
+      "panoramic-vision",
+      "dense-mapping",
+      "robotics"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Yongqi Mao, Hao Shi, Yufan Zhang, Zhonghua Yi, Xiangfei Guo",
+    "published_at": "2026-09-15T16:26:12+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:34402a450fb19f07",
+    "title": "Show GN: 보시오와 보아요 프로젝트 - 정이십면체 프레임버퍼를 이용한 RTL/WM 프로젝트",
+    "url": "https://news.hada.io/topic?id=33765",
+    "score": 5.0,
+    "summary": "개발자가 3DoF VR/AR HMD용 구면 디스플레이 시스템을 Zynq-7020 FPGA에서 구현했습니다. 정이십면체 프레임버퍼를 RTL로 설계하고, 투영 및 윈도우 매니저를 소프트웨어로 구현하여 전체 스택(RTL부터 애플리케이션까지)을 완성했습니다. 이는 디지털 회로 설계와 OS 통합의 실제 사례이지만, 매우 특화된 하드웨어 프로젝트입니다.",
+    "reason": "Niche but technically substantive hardware project combining FPGA RTL design, spherical display systems, and OS integration. Demonstrates concrete implementation across multiple stack layers (RTL, driver, window manager), though limited audience relevance for general software engineering readers.",
+    "tags": [
+      "hardware-design",
+      "fpga",
+      "graphics-systems",
+      "embedded-systems"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "cydiazero",
+    "published_at": "2026-09-16T03:15:05+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:050fe2159c8993c3",
+    "title": "Mergiraf, 지원 언어와 파일 형식을 늘려가는 구문 인식 Git 병합 드라이버",
+    "url": "https://news.hada.io/topic?id=33749",
+    "score": 5.0,
+    "summary": "Mergiraf는 프로그래밍 언어의 구문을 인식하여 Git 병합 충돌을 더 지능적으로 처리하는 드라이버로, 지원하는 언어와 파일 형식을 계속 확대하고 있습니다. GPLv3 라이선스로 공개되어 있으며, Zulip 커뮤니티와 기여 문서를 통해 개발자 참여를 적극 환영하고 있습니다. 구문 인식 병합은 텍스트 기반 병합의 한계를 극복하는 실질적인 개발 도구로서 가치가 있습니다.",
+    "reason": "Mergiraf is a syntax-aware Git merge driver addressing a real developer pain point (merge conflicts in structured code). The project shows active development, open community engagement, and expanding language support. This is a useful tool for software engineers, though the announcement itself is primarily informational rather than reporting a major breakthrough or significant update.",
+    "tags": [
+      "git",
+      "developer-tools",
+      "open-source",
+      "merge-conflict-resolution"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-15T19:00:56+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:c0fed308d47bada4",
+    "title": "The AI data center boom is colliding with cities scarred by big industry",
+    "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
+    "score": 5.0,
+    "summary": "AI 데이터 센터 건설 붐이 미국 도시들과 충돌하고 있으며, 필라델피아에서는 폐쇄된 석유 정제소의 영향을 받은 지역에 데이터 센터 건설을 제안하고 있다. 이는 대규모 산업 시설의 환경 및 지역사회 영향에 대한 우려를 반영하는 사례로, AI 인프라 확장의 현실적 제약을 보여준다.",
+    "reason": "Timely reporting on infrastructure challenges posed by AI expansion, with concrete local impact details. Relevant to readers interested in AI systems and industry implications, though primarily policy/social rather than technical.",
+    "tags": [
+      "ai-infrastructure",
+      "data-centers",
+      "policy-impact",
+      "industry-expansion"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Amanda Silberling",
+    "published_at": "2026-09-15T21:47:38+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:78e34177a66e641f",
+    "title": "Meta now lets AI agents handle the boring parts of WhatsApp Business setup",
+    "url": "https://techcrunch.com/2026/09/15/meta-now-lets-ai-agents-handle-the-boring-parts-of-whatsapp-business-setup/",
+    "score": 5.0,
+    "summary": "Meta가 WhatsApp Business용 MCP 서버를 출시했으며, 이를 통해 Claude, Cursor, Codex, ChatGPT 같은 AI 코딩 에이전트가 설정, 메시징 템플릿, 테스트, 트러블슈팅을 자동화할 수 있다. 개발자의 반복적인 작업을 줄이는 실용적인 도구이지만, 기술적으로 새로운 접근보다는 기존 AI 에이전트 기능을 비즈니스 플랫폼에 통합하는 수준이다.",
+    "reason": "Incremental tooling improvement for WhatsApp Business developers. The MCP server integration is useful for reducing setup friction, but represents routine platform expansion rather than a novel technical breakthrough. Moderate relevance to reader's software engineering interests.",
+    "tags": [
+      "ai-agents",
+      "developer-tools",
+      "whatsapp-business",
+      "mcp-protocol"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Sarah Perez",
+    "published_at": "2026-09-15T20:12:53+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:6e6e3bbcc8a0441d",
+    "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+    "url": "https://techcrunch.com/2026/09/15/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+    "score": 5.0,
+    "summary": "TechCrunch이 Apple의 지연된 Siri AI 업데이트와 OpenAI의 실패한 'super app' 출시 같은 사례를 포함해 실패하거나 기대에 미치지 못한 AI 프로젝트들을 정리한 목록을 제시했다. 이는 AI 산업의 현실적인 한계와 과장된 기대 사이의 격차를 보여주는 사례 모음으로, 기술 트렌드와 시장 동향을 이해하는 데 유용하다.",
+    "reason": "Incremental but useful retrospective on failed AI projects and missed launches. Provides concrete examples (Apple Siri delays, OpenAI super app) relevant to AI industry trends, though the format as a 'running list' suggests compilation rather than novel analysis. Matches reader interest in AI developments and industry dynamics.",
+    "tags": [
+      "ai-industry",
+      "generative-ai",
+      "product-failures",
+      "market-analysis"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Lauren Forristal",
+    "published_at": "2026-09-15T19:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:b04acfe2b7328f72",
+    "title": "AI and data centers are incredibly unpopular in every poll",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september",
+    "score": 5.0,
+    "summary": "New York Times와 Siena University의 여론조사에 따르면 AI와 데이터센터 건설에 대해 응답자의 61%가 반대하는 것으로 나타났다. 이는 AI 기술 인프라에 대한 공중의 부정적 인식이 정치인들의 정책 결정에 영향을 미치고 있음을 보여주는 데이터로, AI 산업의 사회적 수용성 문제를 이해하는 데 중요하다.",
+    "reason": "Incremental reporting on public sentiment toward AI infrastructure. The poll data is substantive and relevant to understanding AI industry dynamics, but the article appears to be a summary of existing polling rather than novel analysis or technical insight.",
+    "tags": [
+      "ai-public-perception",
+      "data-centers",
+      "infrastructure-policy",
+      "public-opinion"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Richard Lawler",
+    "published_at": "2026-09-15T23:34:25+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:arstechnica.com_ai_feed_:c6a3e0e7111ec408",
+    "title": "Agility’s new humanoid robot will stop, squat to avoid harming human coworkers",
+    "url": "https://arstechnica.com/ai/2026/09/agilitys-new-humanoid-robot-will-stop-squat-to-avoid-harming-human-coworkers/",
+    "score": 5.0,
+    "summary": "Agility의 새로운 휴머노이드 로봇이 인간 동료와의 안전한 협업을 위해 정지 및 스쿼트 동작으로 충돌을 회피하도록 설계되었다. 이는 로봇이 물리적 울타리나 안전 장벽 없이 작업할 수 있음을 의미하며, 산업 현장에서 로봇 배치의 실용성을 높이는 진전이다.",
+    "reason": "Incremental but notable development in humanoid robotics safety—demonstrates practical progress in human-robot collaboration, though the content provided is minimal and lacks technical depth or concrete implementation details.",
+    "tags": [
+      "robotics",
+      "humanoid-robots",
+      "safety",
+      "human-robot-collaboration",
+      "industrial-automation"
+    ],
+    "source_type": "rss",
+    "sub_source": "Ars Technica AI",
+    "author": "Jeremy Hsu",
+    "published_at": "2026-09-15T18:33:02+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.technologyreview.com_topic_artificial-intelligence_feed:eb2f5e625b9545d3",
+    "title": "Roundtables: Could AI really kill us all?",
+    "url": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
+    "score": 5.0,
+    "summary": "MIT Technology Review가 AI 연구소 직원들과의 라운드테이블 토론을 통해 고급 AI가 인류를 파괴할 가능성에 대한 우려를 다룬다. 업계 내부자들의 실제 관점을 담으면서도 이러한 우려가 타당한지, 아니면 과장된 공포인지를 검토하는 내용이다.",
+    "reason": "Substantive exploration of AI safety concerns with direct input from AI lab employees, matching reader interests in AI systems and industry developments. However, the supplied content is incomplete—only a headline and truncated description are provided, limiting assessment of depth, evidence quality, and analytical rigor. The roundtable format suggests balanced treatment of competing perspectives on existential risk, which is valuable but not groundbreaking.",
+    "tags": [
+      "ai-safety",
+      "large-language-models",
+      "ai-existential-risk",
+      "industry-perspectives"
+    ],
+    "source_type": "rss",
+    "sub_source": "MIT Tech Review AI",
+    "author": "MIT Technology Review",
+    "published_at": "2026-09-15T17:47:51+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:98fa913d2f0fda26",
+    "title": "Gates Foundation warns AI could widen inequality as foundation pledges $1B to expand access - courant.com",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hNlJna2trNldlcDBRSHpIRzBBRlVuSFIycHIycS1uUFJBaVR2NnVqbmlqVzlxS3QxLVNUXzFXaVZsWXJrOHRMVm1kdEFIbDNqdWxTMUZVVExZbFF0TjFaYVMtTG93Q0VoUEotbGszcGdiWkxYU0trSWxMUEhRQQ?oc=5",
+    "score": 5.0,
+    "summary": "Gates Foundation가 AI가 불평등을 심화할 수 있다고 경고하며 접근성 확대를 위해 10억 달러를 약속했다. 이는 AI 기술의 사회적 영향과 형평성 문제에 대한 주요 기관의 공식 입장을 나타내지만, 제공된 콘텐츠는 헤드라인만 포함하고 있어 구체적인 계획이나 근거에 대한 상세 정보가 부족하다.",
+    "reason": "Substantive policy announcement from a major foundation about AI's societal impact and concrete funding commitment, but the article itself appears to be a headline-only news aggregation without detailed analysis or supporting evidence.",
+    "tags": [
+      "ai-policy",
+      "inequality",
+      "generative-ai",
+      "access-and-equity"
+    ],
+    "source_type": "google_news",
+    "sub_source": "courant.com",
+    "author": "courant.com",
+    "published_at": "2026-09-15T16:02:34+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:aa2bf3d09e0a8984",
+    "title": "Gates Foundation warns AI could widen inequality as foundation pledges US$1B to expand access - bnnbloomberg.ca",
+    "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdnItZWpIbGFZOFJXblN4VVlTSTNWdU0tSDJrUkd1aTVQWTBNRFFnNm5LbDctMTlkMk9YSjQ1UGpraWpzcXVLNUFTX0JaOHhnZllWbnkwRkNVU0RGV0VoNl9uTVQ2dFlrX1B6UVQxemgwSDdjMkZ1Z1ZmVXV6TmpZRTJKSU9iaVlHUXNDYnNXazlvdlkwV3lmRks2MEdGYl9WdnNwV0pYaWlFTDhpQ0J6WFk3ZGJRM1lnUDlFYXdlRWFIUVppdTZPS1E0dmpOV1AtbUZhOEw2XzIyNkR5ekFRbmtKaXZaUDVVQzRpVU9BU1EzZFJhaEdDUA?oc=5",
+    "score": 5.0,
+    "summary": "Gates Foundation는 AI가 불평등을 심화할 수 있다는 우려를 제기하며 접근성 확대를 위해 10억 달러를 약속했다. 이는 AI 기술의 광범위한 보급과 형평성 문제에 대한 주요 기관의 입장을 보여주는 정책 발표로, 기술 산업의 사회적 책임과 AI 거버넌스 논의에 기여한다.",
+    "reason": "Substantive policy announcement addressing AI inequality concerns with concrete funding commitment. Relevant to reader interests in AI impact and access, though the piece appears to be a news aggregation without detailed technical analysis or novel insights.",
+    "tags": [
+      "ai-inequality",
+      "generative-ai",
+      "ai-access",
+      "policy",
+      "technology-impact"
+    ],
+    "source_type": "google_news",
+    "sub_source": "bnnbloomberg.ca",
+    "author": "bnnbloomberg.ca",
+    "published_at": "2026-09-15T16:24:27+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:4212ce9940697503",
+    "title": "Samsung Invests $230M in Euclid: A Game-Changer for AI Chip Dominance? : 국제 : JKN - 재경일보",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE80ajB0LU5OTHV2UnR6Z3I2X3dPaVRBemlIRWxrQVBtN0oyV3BjUXhLRmI4Y0VXMHNvNlJlZ2JCb3hoY3pCQTE2RnlR?oc=5",
+    "score": 5.0,
+    "summary": "Samsung이 AI 칩 개발 회사 Euclid에 2억 3천만 달러를 투자했다. 이는 Samsung의 AI 칩 경쟁력 강화 전략을 보여주는 사례이지만, 제공된 콘텐츠에는 Euclid의 기술 방향, 투자의 구체적 목표, 또는 시장 영향에 대한 세부 정보가 없다.",
+    "reason": "Samsung's $230M investment in Euclid is a concrete strategic move in AI chip development with potential industry significance, but the source provides only a headline with no substantive details about Euclid, the investment rationale, technical implications, or competitive context. The speculative framing ('Game-Changer?') and lack of supporting content limit confidence in assessing actual importance.",
+    "tags": [
+      "ai-chips",
+      "samsung",
+      "investment",
+      "semiconductor"
+    ],
+    "source_type": "google_news",
+    "sub_source": "재경일보",
+    "author": "재경일보",
+    "published_at": "2026-09-16T04:25:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2609.17488",
+    "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
+    "url": "https://arxiv.org/abs/2609.17488",
+    "score": 5.0,
+    "summary": "LimiX-2는 Contextual Mechanism Networks 패러다임을 도입한 구조화된 데이터 모델로, 기존의 조건부 예측 목표 대신 문맥 의존적 결합 분포 학습에 초점을 맞춥니다. 구조적 인과 모델로 생성한 합성 데이터로 사전학습되며, TabArena와 TALENT 벤치마크에서 기존 모델들을 능가합니다. 특성 주의 메커니즘이 인과 관계를 인코딩하여 인과 구조 복구도 가능하다고 주장합니다.",
+    "reason": "A specialized contribution to tabular data modeling with a novel architectural paradigm (CMNs) and pretraining approach (CCMM). The evaluation covers multiple benchmarks and shows improvements over baselines, but the scope is narrow to structured data and the practical impact for practitioners building with LLMs is unclear. The causal awareness claim is interesting but needs stronger evidence.",
+    "tags": [
+      "tabular-models",
+      "structured-data",
+      "causal-inference",
+      "foundation-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Xingxuan Zhang, Gang Ren, Hao Yuan, Hao Zou, Hongze Tan",
+    "published_at": "2026-09-15T17:30:02+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17479",
+    "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
+    "url": "https://arxiv.org/abs/2609.17479",
+    "score": 5.0,
+    "summary": "Det-LIME는 LIME을 다중 인스턴스 객체 탐지에 맞게 개선한 설명 가능성 방법으로, 각 탐지마다 박스 정렬 설명을 생성합니다. 해양 포유류 탐지 드론 영상에서 평가하여 기존 LIME 변형과 그래디언트 기반 방법보다 일관되게 나은 다중 인스턴스 속성을 보였으며, 모델 디버깅과 데이터 수집 개선에 실질적 가치를 제공합니다.",
+    "reason": "A solid but narrow contribution: Det-LIME adapts LIME for multi-instance object detection in a specific domain (marine mammal detection). The method addresses a real limitation of existing explainability tools for detection tasks, with evaluation on relevant imagery and comparison to baselines. However, the scope is limited to a specialized application area, and the core innovation—combining per-detection weighting, proximity kernels, and IoU-based matching—is a reasonable but incremental adaptation of existing techniques. The work would be valuable for practitioners in conservation and marine research, but has limited broader impact for general AI practitioners.",
+    "tags": [
+      "explainability",
+      "object-detection",
+      "marine-conservation",
+      "interpretability",
+      "computer-vision"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Jiayi Zhou, David W. Johnston, Brinnae Bent",
+    "published_at": "2026-09-15T17:20:16+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17439",
+    "title": "Evaluating Verified Autonomy in Quantum Engineering",
+    "url": "https://arxiv.org/abs/2609.17439",
+    "score": 5.0,
+    "summary": "양자 공학의 자동화를 위해 AI 에이전트의 신뢰성을 평가하는 Quantum-Harbor 가상 실험실과 QIQCBench 벤치마크를 제시했다. 49개의 전문가 작성 작업과 17개의 에이전트 시스템을 통해 검증된 성능의 큰 편차를 드러냈으며, 능력 시연과 신뢰할 수 있는 운영 사이의 상당한 격차를 노출했다. 양자 공학 자동화의 진전을 측정하기 위한 기초를 제공하지만, 구체적인 성능 수치나 실무적 영향은 명확하지 않다.",
+    "reason": "A solid benchmark contribution for an emerging area (AI agents in quantum engineering), but narrow scope and unclear practical impact. The work establishes a useful evaluation framework (Quantum-Harbor and QIQCBench) with 49 tasks across 17 systems, revealing performance variation. However, the abstract does not specify what the actual performance gaps are, whether any agent achieved reliable operation, or how these results would change practitioner decisions in quantum engineering. The contribution is methodologically sound but lacks the concrete evidence of impact needed for higher scoring.",
+    "tags": [
+      "quantum-computing",
+      "ai-agents",
+      "benchmarking",
+      "autonomous-systems",
+      "verification"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv quant-ph",
+    "author": "Naixu Guo, Changhao Li, Siyu Cheng, Qicheng Tang, Binzhao Luo",
+    "published_at": "2026-09-15T16:46:08+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17434",
+    "title": "CareMirror: Bringing Caregiver Wellbeing into the Dementia Care Ecosystem",
+    "url": "https://arxiv.org/abs/2609.17434",
+    "score": 5.0,
+    "summary": "CareMirror는 치매 환자의 가족 돌봄제공자의 웰빙을 지원하기 위해 설계된 생태계로, 돌봄제공자와 임상의를 위한 인터페이스를 통해 종단적 반성, 맞춤형 지원, 임상 공유를 가능하게 한다. 14명의 돌봄제공자와의 반구조화 인터뷰를 통해 연구진은 돌봄제공자들이 자신의 웰빙에 대한 관심, 임상적 가시성, 그리고 정보 공유에 대한 통제권을 원하는 반면, 반복적인 반성이 부담스러울 수 있고 자동 공유는 솔직한 공개를 억제할 수 있음을 발견했다. 이 연구는 임상과 연결된 돌봄제공자 웰빙 지원을 위한 설계 고려사항을 제시한다.",
+    "reason": "A thoughtful design study addressing an underexplored problem (caregiver wellbeing in dementia care) with qualitative research and concrete design considerations. The work is solid but narrow in scope—it presents design insights from 14 interviews rather than a validated system or empirical validation of the proposed ecosystem. The contribution is meaningful for HCI and healthcare design but not a breakthrough that would change practitioner decisions broadly.",
+    "tags": [
+      "healthcare-design",
+      "caregiver-support",
+      "dementia-care",
+      "human-computer-interaction",
+      "qualitative-research"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.HC",
+    "author": "Jiayue Melissa Shi, Ethan Nguyen, Drishti Goel, Upasana Natarajan, Shashwat Srivatsa",
+    "published_at": "2026-09-15T16:43:17+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17427",
+    "title": "Tracking the Unseen: An Occlusion-Robust Framework for Target Tracking Under Full and Long-Term Occlusion",
+    "url": "https://arxiv.org/abs/2609.17427",
+    "score": 5.0,
+    "summary": "이 논문은 장시간 폐색(occlusion) 상황에서 다중 객체 추적 시스템의 성능을 개선하는 프레임워크를 제시한다. YOLOv11n 객체 감지, Kalman Filter 동작 예측, Occlusion-Aware Mask Network (OAMN) 기반 재식별을 통합하여 OVIS 데이터셋에서 OccluTrack 대비 MOTA 18.1%, IDF1 25.1% 상대 개선을 달성했다. 방위 및 감시 응용에서 폐색 중 목표 추적 연속성을 유지하는 데 효과적이지만, 기존 컴포넌트의 조합이 주요 기여이다.",
+    "reason": "Solid empirical contribution with convincing benchmarks on a real problem (occlusion-robust tracking), but narrow scope and incremental methodology (combining existing components: YOLOv11n, Kalman Filter, Re-ID networks). The evaluation is thorough on OVIS and a custom dataset, but the novelty is primarily in integration rather than fundamental innovation. Relevant to surveillance and defense applications but not a breakthrough.",
+    "tags": [
+      "object-tracking",
+      "occlusion-handling",
+      "multi-object-tracking",
+      "re-identification",
+      "surveillance"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Mais Mohammed, Sharifa Mohammed, Hanan Awadh, Haneen Bamaas, Raghad Bawazeer",
+    "published_at": "2026-09-15T16:41:57+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17515",
+    "title": "What Breaks Under Pruning in Smart Homes, and When? Evaluating LLM Degradation Across Architectures and Task Complexity",
+    "url": "https://arxiv.org/abs/2609.17515",
+    "score": 5.0,
+    "summary": "이 논문은 스마트홈 도구 호출 작업에서 LLM 가지치기(pruning)의 영향을 체계적으로 평가합니다. 네 가지 LLM 아키텍처(dense Transformer, dense hybrid, MoE)와 다섯 가지 가지치기 방법을 사용해 19,500개 이상의 인스턴스를 테스트한 결과, dense 모델은 좁은 안전 영역을 가진 후 급격히 성능이 저하되는 반면 MoE 모델은 훨씬 더 많은 가지치기를 견딘다는 것을 발견했습니다. 가지치기는 스키마 수준의 의도보다 먼저 구체적인 맥락 이해를 손상시키며, 공격적인 dense 가지치기는 체계적인 과도한 거부를 유발할 수 있습니다. 이 연구는 배포 비용을 줄이면서도 신뢰할 수 있는 도구 실행을 위해 가지친 모델을 선택할 때 집계 정확도 이상의 평가가 필요함을 보여줍니다.",
+    "reason": "A systematic empirical study of LLM pruning effects on a specific, practical task (smart-home tool calling). The evaluation is thorough across architectures and pruning methods, with useful findings about degradation patterns. However, the scope is narrow (smart-home domain only), and the work is primarily an analysis of existing techniques rather than a novel method. The findings are actionable for practitioners deploying pruned models in this domain, but the contribution is incremental within the broader pruning literature.",
+    "tags": [
+      "model-compression",
+      "pruning",
+      "tool-use",
+      "smart-homes",
+      "llm-evaluation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Congjing Zhang, Vashishtha Patil, Henning Lange, Usman Aleem",
+    "published_at": "2026-09-15T17:51:48+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17398",
+    "title": "Enhancing Accessibility of Medical Texts through Large Language Model-Driven Plain Language Adaptation",
+    "url": "https://arxiv.org/abs/2609.17398",
+    "score": 5.0,
+    "summary": "의료 텍스트를 환자가 이해하기 쉬운 언어로 자동 변환하는 Plain Language Adaptation(PLA) 작업에 LLM을 적용한 연구입니다. GPT-4o-mini, Gemini-1.5-pro, LLaMA 등 여러 모델을 비교하고 QLoRA 파인튜닝과 Mixture-of-Agents 기법을 통합했습니다. 의료 정보 접근성 개선은 중요한 문제이지만, 추상에서는 구체적인 성능 수치나 기존 방법과의 비교 결과가 제시되지 않아 실제 효과를 판단하기 어렵습니다.",
+    "reason": "A reasonable contribution applying LLMs to medical text simplification with multiple model comparisons and techniques (QLoRA, MoA), but the abstract lacks concrete results, baselines, or evidence of how much comprehension actually improves. The work is competent but incremental—applying known methods to a new domain without clear performance claims.",
+    "tags": [
+      "large-language-models",
+      "text-simplification",
+      "healthcare-nlp",
+      "model-comparison"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Ting-Wei Chang, Hen-Hsen Huang, Hsin-Hsi Chen",
+    "published_at": "2026-09-15T16:33:38+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17491",
+    "title": "FreqSpaNet: Frequency and Spatial Learning of SFPF for Physical Layer Hardware Integrity Detection",
+    "url": "https://arxiv.org/abs/2609.17491",
+    "score": 5.0,
+    "summary": "FreqSpaNet는 무선 기기의 물리 계층 하드웨어 무결성을 검증하기 위해 주파수-공간 편극 지문(SFPF)을 학습하는 신경망을 제안한다. 주파수 브랜치와 기하학 인식 공간 브랜치가 각각 인접 주파수 변화와 방향 관계를 모델링하며, 적응형 융합과 상호보완적 사전학습으로 두 표현의 특성을 보존한다. 평균 AUROC 96.31%로 기준선 대비 9.05포인트 향상을 달성했으며, 7가지 하드웨어 교체 시나리오에서 효과를 검증했다.",
+    "reason": "Solid technical contribution with a clear problem (hardware integrity verification via physical layer fingerprints) and a reasonable solution (dual-branch neural network with frequency and spatial learning). The 9.05 point AUROC improvement over baseline is meaningful, and evaluation across seven hardware replacement scenarios shows thoroughness. However, the scope is narrow (specialized domain), and the abstract does not indicate whether code or data are released, limiting reproducibility and practical impact for most practitioners.",
+    "tags": [
+      "hardware-security",
+      "physical-layer-fingerprinting",
+      "anomaly-detection",
+      "neural-networks",
+      "wireless-authentication"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Xiaoxuan Huang, Jinlong Xu, YiZhe Wang, Meng Zhang, Xian Li",
+    "published_at": "2026-09-15T17:32:12+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17440",
+    "title": "Reduced-Space Multi-Fidelity Bayesian Optimization of Process Simulation Models",
+    "url": "https://arxiv.org/abs/2609.17440",
+    "score": 5.0,
+    "summary": "RS-MFBO는 Global Sensitivity Analysis로 차원을 축소하고 저비용 근사와 고비용 고충실도 평가 간의 상관관계를 포착하는 다중충실도 Gaussian process를 결합하여 고차원 비용이 많이 드는 블랙박스 함수 최적화 문제를 해결한다. SuperPro Designer의 plasmid DNA bioprocess와 Aspen HYSYS의 green fuel synthesis plant에서 검증한 결과, 단일충실도 기준선 대비 경쟁력 있는 성능을 유지하면서 고충실도 시뮬레이터 평가 횟수를 크게 줄였다. 산업용 공정 최적화의 계산 비용 문제를 다루는 실용적인 접근이지만, 기존 기법의 조합이고 정량적 개선폭이 명확하지 않다.",
+    "reason": "A solid methodological contribution with practical industrial application, but narrow scope and limited novelty. The paper combines established techniques (GSA for dimensionality reduction, multi-fidelity Bayesian optimization, Gaussian processes) in a straightforward way. Validation on two real industrial simulators is a strength, but the abstract does not report quantitative comparisons against strong baselines or surprising performance gains—only that it 'substantially reduces' evaluations while maintaining 'competitive' performance, which is modest framing. The work is technically sound and addresses a real problem, but lacks the breakthrough insight or empirical evidence needed for higher scoring.",
+    "tags": [
+      "bayesian-optimization",
+      "multi-fidelity-methods",
+      "process-simulation",
+      "dimensionality-reduction",
+      "industrial-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Niki Triantafyllou, Andrea Bernardi, Maria M. Papathanasiou",
+    "published_at": "2026-09-15T16:46:51+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.17413",
+    "title": "SSC-Priors: Exploring Semantic and Visibility Priors to Boost Lidar Semantic Scene Completion",
+    "url": "https://arxiv.org/abs/2609.17413",
+    "score": 5.0,
+    "summary": "이 논문은 기존 lidar 의미론적 장면 완성(SSC) 네트워크의 성능을 향상시키기 위해 의미론적 의사 레이블과 센서 가시성 정보라는 두 가지 간단한 입력 사전(prior)을 탐색합니다. 저자들은 이러한 정보를 기존 SSC 네트워크에 추가 입력으로 제공하기만 하면 되므로 최소한의 아키텍처 수정만 필요함을 보여줍니다. SemanticKITTI와 SSCBench-nuScenes 벤치마크에서 이 두 가지 개선 사항이 네 가지 아키텍처 모두에서 성능을 향상시키며, 경우에 따라 최신 방법을 능가함을 입증합니다. 이는 복잡한 아키텍처 혁신 대신 입력 데이터 설계의 중요성을 강조하는 실용적인 기여입니다.",
+    "reason": "A methodical empirical study showing that simple input priors (semantic labels and visibility information) can substantially improve existing lidar semantic scene completion models without architectural changes. The work is well-evaluated across multiple architectures and datasets, but the contribution is primarily about better use of existing methods rather than a novel capability or fundamental advance.",
+    "tags": [
+      "lidar-perception",
+      "semantic-segmentation",
+      "scene-completion",
+      "3d-vision",
+      "empirical-study"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Tetiana Martyniuk, Jonathan Seele, Alexandre Boulch, Gilles Puy, Renaud Marlet",
+    "published_at": "2026-09-15T16:37:46+00:00",
+    "profile": "ai-paper"
+  }
+]
