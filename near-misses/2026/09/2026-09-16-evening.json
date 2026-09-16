@@ -1,0 +1,137 @@
+[
+  {
+    "id": "hackernews:story:49724927",
+    "title": "The Google Play app review process now regularly takes longer than a week",
+    "url": "https://gultsch.social/@daniel/117280438824908947",
+    "score": 5.0,
+    "summary": "Google Play의 앱 검수 프로세스가 1주일 이상 소요되는 경우가 증가하고 있으며, 커뮤니티 논의에서 개발자들은 12명 이상의 테스터를 2주간 확보해야 하는 요구사항과 단계별 대기 시간이 주요 장애물임을 지적했다. Apple App Store도 유사한 지연을 경험 중이며, 이는 모바일 플랫폼의 앱 배포 프로세스 효율성 문제를 드러낸다.",
+    "reason": "Incremental but substantive report on a real operational friction point affecting developers across major platforms. The community discussion adds practical context about testing requirements and comparative review processes, but this is a routine operational issue rather than a technical breakthrough or policy change.",
+    "tags": [
+      "app-distribution",
+      "mobile-platforms",
+      "developer-experience",
+      "platform-policy"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "inputmice",
+    "author": "inputmice",
+    "published_at": "2026-09-16T11:19:11+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49727041",
+    "title": "OpenAI expands ChatGPT ads with Sponsored Agents",
+    "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+    "score": 5.0,
+    "summary": "OpenAI는 ChatGPT에 광고 기능을 확대하며 'Sponsored Agents'를 도입했다. 커뮤니티는 AI 기반 광고의 개인정보 침해 위험성, 광고주와 OpenAI 간의 법적 책임 불명확성, 그리고 AGI 근처라고 주장하면서 이런 전략을 추진하는 것의 모순을 지적했다. 광고 도입이 서비스를 악화시킨 역사적 사례들과 AI 시스템이 민감한 사용자 정보에 접근할 수 있다는 점이 핵심 우려다.",
+    "reason": "Incremental business development with substantive community skepticism about privacy, liability, and product strategy. The announcement itself is routine monetization, but the discussion raises legitimate technical and legal concerns worth noting. Matches reader interest in AI industry developments and trust/verification themes.",
+    "tags": [
+      "generative-ai",
+      "business-model",
+      "trust-and-verification",
+      "ai-industry"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "OpenAI",
+    "author": "vertigoruntime",
+    "published_at": "2026-09-16T13:51:15+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:0fa719f5b80e1795",
+    "title": "Show HN: 비행 시뮬레이터를 만들었습니다. 다만 여러분은 승객입니다",
+    "url": "https://news.hada.io/topic?id=33780",
+    "score": 5.0,
+    "summary": "InFlightSimulator는 조종사 대신 승객 관점에서 비행을 체험하는 시뮬레이터로, 출발지와 목적지 공항을 선택하여 여행을 시작한다. 위치 정보 없이도 수동으로 공항을 선택할 수 있으며, Amsterdam, Auckland 등 세계 여러 공항을 지원하고 Explorer jet 항공기의 3D 모델과 텍스처를 다운로드하여 렌더링한다. 게임 개발 커뮤니티에서 흥미로운 프로젝트이지만 시뮬레이션의 깊이나 기술적 혁신성은 제한적이다.",
+    "reason": "A passenger-perspective flight simulator with global airport selection and 3D aircraft rendering. Moderately interesting as a game development project with technical implementation details, but limited novelty and unclear depth of simulation mechanics.",
+    "tags": [
+      "game-development",
+      "flight-simulation",
+      "3d-graphics",
+      "web-project"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-16T09:36:15+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:34402a450fb19f07",
+    "title": "Show GN: 보시오와 보아요 프로젝트 - 정이십면체 프레임버퍼를 이용한 RTL/WM 프로젝트",
+    "url": "https://news.hada.io/topic?id=33765",
+    "score": 5.0,
+    "summary": "개발자가 Zynq-7020 FPGA 플랫폼에서 정이십면체 프레임버퍼를 이용한 구 공간 디스플레이 시스템을 구현했습니다. RTL로 핵심 코어를 작성하고, 소프트웨어 스택(드라이버, 데몬, 앱)과 윈도우 매니저까지 전체적으로 개발했으며, AI 에이전트를 활용해 개발 속도를 높였습니다. 3DoF VR/HMD 디스플레이 시스템 구현의 실제 사례로, 하드웨어-소프트웨어 통합 설계의 구체적인 접근 방식을 보여줍니다.",
+    "reason": "Niche but technically substantive hobbyist project combining FPGA RTL design, spherical display systems, and full-stack OS integration. Demonstrates practical application of hardware-software co-design with concrete implementation details, though limited to personal project scope and audience.",
+    "tags": [
+      "fpga-design",
+      "hardware-software-codesign",
+      "display-systems",
+      "rtl-development",
+      "embedded-systems"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "cydiazero",
+    "published_at": "2026-09-16T03:15:05+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:e603112759d92b5a",
+    "title": "A brief history of AI executives calling for regulation",
+    "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation",
+    "score": 5.0,
+    "summary": "The Verge가 OpenAI, Anthropic, Google DeepMind, Microsoft 등 주요 AI 기업 경영진들이 규제를 촉구하는 발언을 반복해온 패턴을 분석한 기사다. 저자는 이들이 규제 필요성을 공개적으로 주장하면서도 동시에 AI 사업 확장으로 수익을 얻는 이해 충돌 상황을 지적한다. AI 산업의 신뢰성과 투명성 문제를 이해하는 데 유용한 관점을 제공한다.",
+    "reason": "Timely analysis of a recurring pattern in AI industry discourse—executives calling for regulation while their companies scale rapidly. Relevant to reader interests in AI governance and industry dynamics, but the piece appears to be commentary on public statements rather than reporting new developments or substantive policy analysis.",
+    "tags": [
+      "ai-regulation",
+      "ai-industry",
+      "policy",
+      "trust-and-verification",
+      "generative-ai"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Sean Hollister",
+    "published_at": "2026-09-16T12:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:6242985e3c5f699e",
+    "title": "Gates Foundation warns AI could widen inequality as foundation pledges $1B to expand access - Sentinel Colorado",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOV3BjQ191ZjJXM1BmQU9BLWNMWEZyN1hYd0kxZV9RZndsTnExdzdwdmhlTzNVVGstUV8tb0VWM3ZQb1lmVkVjM24tX21EUzBIZVZKc2k1anpzRmZzNkZMOHRiZ1VOOFZ4c1VPU0p0R1ZEdm5oSlA5XzJYRFk0TnVOb19qY3dnSDYwNXNvTno2Y0F5YnF3dW5PYmRMYmM5SFVxYXhuVWZ0SG5QRmEzVmxyTzRURFQtbnVIeVZOWWwwempSa0xLaU9Tc3RWNHlHYjQ?oc=5",
+    "score": 5.0,
+    "summary": "Gates Foundation는 AI가 불평등을 심화할 수 있다는 경고와 함께 접근성 확대를 위해 10억 달러를 약속했습니다. 이는 AI 기술의 광범위한 보급과 형평성 문제에 대한 주요 기관의 입장을 반영하는 정책 발표입니다.",
+    "reason": "Substantive policy announcement from a major foundation addressing AI inequality and access—a topic matching reader interests in AI and societal impact. However, the content provided is only a headline and link with no detail, limiting evaluation of depth and concrete claims.",
+    "tags": [
+      "ai-inequality",
+      "generative-ai",
+      "access-and-equity",
+      "foundation-policy"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Sentinel Colorado",
+    "author": "Sentinel Colorado",
+    "published_at": "2026-09-16T12:55:11+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:ee550e599781bffd",
+    "title": "Salesforce introduces Koa while expanding its Claude partnership - The Rundown AI",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CcHpXWHVFQmt3NnFwOUF4NzF4YnQwSEhua1NHdzN5U19paGxWVlJoM1BEVDg3NU9PSTRvS0cxYnlVeDF3b0V3RzRFalZ6YWMtU1ZXblk0YXB4WVpTRnM1VVlTQzZQWm1yaFFKc1JEa3VDOV9DR2J1UzhhVzFOdw?oc=5",
+    "score": 5.0,
+    "summary": "Salesforce가 Koa를 출시하면서 Anthropic의 Claude와의 파트너십을 확대하고 있습니다. 제목만으로는 Koa의 구체적인 기능이나 Claude 통합의 범위를 알 수 없지만, 주요 엔터프라이즈 소프트웨어 회사의 생성형 AI 투자 확대를 시사합니다.",
+    "reason": "Salesforce's introduction of Koa and expansion of Claude partnership represents a meaningful corporate AI development with potential business impact, but the supplied content provides only a headline with no substantive details about what Koa is, how it works, or the scope of the partnership expansion. Without access to the full article, technical depth and concrete supporting evidence are unavailable.",
+    "tags": [
+      "generative-ai",
+      "large-language-models",
+      "enterprise-ai",
+      "model-partnerships"
+    ],
+    "source_type": "google_news",
+    "sub_source": "The Rundown AI",
+    "author": "The Rundown AI",
+    "published_at": "2026-09-16T12:31:09+00:00",
+    "profile": "tech-news"
+  }
+]
