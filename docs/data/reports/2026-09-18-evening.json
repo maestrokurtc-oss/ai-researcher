@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-18-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 7,
+    "more": 2
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "b3615add02cfa21d129feb2c27b526ccf0cfc3c2a48d488fded6d60a5470698a",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "libheif 힙 오버플로우와 SSO 설정 오류로 OpenAI 내부 저장소 침투",
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "security-vulnerability",
+        "openai",
+        "rce",
+        "image-processing",
+        "sso-misconfiguration"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "2ada79cc919c0a2cbb955935ffb03860da5f5f60ddb39355246316d746da6513",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "MS 임원, AI 학습 데이터 수집을 '역사상 최대 노동력 도용'이라 표현",
+      "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-ethics",
+        "generative-ai",
+        "intellectual-property",
+        "labor-and-compensation",
+        "ai-regulation"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "3881bc61d0905eb3aff7a18fbc1b0f725b48f79943031cadc3c875656ba99de4",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Alibaba, Qwen3.8-Omni-Flash 공개…성능 25%↑ 가격 최대 98%↓",
+      "url": "https://news.hada.io/topic?id=33884",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "model-updates",
+        "multimodal-ai",
+        "pricing",
+        "generative-ai",
+        "alibaba"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "fd3ea371e7f424354f281556f8ef060d82a971ef2fdb09ebc72cd35e569c8cbc",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Bend 2 and the Vibe-Coding Trap",
+      "url": "https://blog.liampwll.com/posts/bend_vibe_coding/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "formal-verification",
+        "programming-languages",
+        "proof-systems",
+        "language-design",
+        "technical-critique"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "f435854cfdeec955a645bf068d03c50e485b8f8a97ced8e24a2e02f94447d627",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Jemalloc 5.4.0, 2년 만에 출시",
+      "url": "https://github.com/jemalloc/jemalloc/releases/tag/5.4.0",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "memory-management",
+        "systems-programming",
+        "performance-optimization",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "478bddbe6df871fa274bf9a85197c1d8b78bd606dd97c27174af56390021d534",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "SQLBraid: SQL을 그대로 쓰는 TypeScript 라이브러리 공개",
+      "url": "https://news.hada.io/topic?id=33881",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "database",
+        "typescript",
+        "sql",
+        "query-builder",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "369f26c2ed39c2378ce506acbe5355d620246dc060e1e0f873360734634da98e",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Anthropic, Claude가 차세대 모델 개발에 관여한다고 밝혀",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPNnMwQUdYSDZfUmc3cklsUlhjTXFYbFl1TmdjcHJBUVNLbUR1RTdJU0g4dVpRTnBPQnBDdW92dWpBWFRjTkYtd25EQUQ3STZHdUpYQ29BN3pfTUhIMUk5c2o0bzdWSUM0Xy1yRXh0MTlKZHRoZVVSWWFPT2tpUXVJVGFRNTZMbnJSaUR3V2g2TGdtNkdrbk84R3J1dUZqb3E4Sm1xV3BrLTdwbkZ0SmNZY3ZiNnY2bEwxTXZNdkJxQjRLc2t0U2R6YUJKSGlzTFdkSmcxRGxGT1hGRG1iV3Z4cTJ2RWJBWWxQU3JtbGpxdWg4OXdBMnlPb0tB?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "large-language-models",
+        "model-development",
+        "anthropic",
+        "ai-training"
+      ]
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:124287806d2c362d",
+      "content_key": "deaa594637f7b306c9d273569692e59ed07a6ce7c77bf3c018979e9d82873e8c",
+      "surface": "more",
+      "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+      "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+      "score": 7.0,
+      "summary": "보안 연구자들이 Anthropic의 Claude를 사용하여 OpenAI 시스템의 취약점을 악용했으며, 직원 계정을 탈취하고 내부 코드 저장소에 접근한 후 결함을 보고했다. 이 사건은 대형 AI 기업의 보안 태세와 AI 모델이 해킹 도구로 활용될 수 있는 방식을 보여주는 중요한 사례다.",
+      "tags": [
+        "ai-security",
+        "vulnerability-disclosure",
+        "large-language-models",
+        "anthropic",
+        "openai"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Aditya Mehta, Rebecca Bellan",
+      "published_at": "2026-09-18T14:00:14+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:arstechnica.com_ai_feed_:0d07d819dbcfe52a",
+      "content_key": "0d07d819dbcfe52a0dec10483b0a950d2ce2a97dffdd22b6d4f42ff8d3265442",
+      "surface": "more",
+      "title": "Researchers used Claude to hack OpenAI",
+      "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+      "score": 7.0,
+      "summary": "연구자들이 Claude를 사용해 OpenAI 직원 계정과 민감한 GitHub 데이터에 접근했다는 보안 연구 결과가 보도되었다. 이는 대규모 언어 모델이 실제 해킹 공격에 악용될 수 있음을 보여주는 구체적인 사례로, AI 시스템의 보안 위험과 신뢰성 문제를 강조한다.",
+      "tags": [
+        "ai-security",
+        "large-language-models",
+        "trust-and-verification",
+        "ai-safety"
+      ],
+      "source_type": "rss",
+      "sub_source": "Ars Technica AI",
+      "author": "Cristina Criddle, Financial Times",
+      "published_at": "2026-09-18T13:30:12+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "70ab51471e4877a21675d08ee0e73a3ddc636697c3c36b6947d221cc69ab7f47"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:124287806d2c362d",
+    "title": "Researchers used Anthropic’s Claude to hack into OpenAI",
+    "url": "https://techcrunch.com/2026/09/18/researchers-used-anthropics-claude-to-hack-into-openai/",
+    "score": 7.0,
+    "summary": "보안 연구자들이 Anthropic의 Claude를 사용하여 OpenAI 시스템의 취약점을 악용했으며, 직원 계정을 탈취하고 내부 코드 저장소에 접근한 후 결함을 보고했다. 이 사건은 대형 AI 기업의 보안 태세와 AI 모델이 해킹 도구로 활용될 수 있는 방식을 보여주는 중요한 사례다.",
+    "reason": "Significant security incident involving major AI companies with concrete technical impact (account takeover, code repository access). Demonstrates real-world vulnerability exploitation and responsible disclosure. Directly relevant to readers interested in AI systems, security, and industry developments.",
+    "tags": [
+      "ai-security",
+      "vulnerability-disclosure",
+      "large-language-models",
+      "anthropic",
+      "openai"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Aditya Mehta, Rebecca Bellan",
+    "published_at": "2026-09-18T14:00:14+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:arstechnica.com_ai_feed_:0d07d819dbcfe52a",
+    "title": "Researchers used Claude to hack OpenAI",
+    "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+    "score": 7.0,
+    "summary": "연구자들이 Claude를 사용해 OpenAI 직원 계정과 민감한 GitHub 데이터에 접근했다는 보안 연구 결과가 보도되었다. 이는 대규모 언어 모델이 실제 해킹 공격에 악용될 수 있음을 보여주는 구체적인 사례로, AI 시스템의 보안 위험과 신뢰성 문제를 강조한다.",
+    "reason": "High-value security research demonstrating AI model misuse for real-world attacks against major AI company infrastructure. Directly relevant to AI safety, security implications, and industry trust. Concrete incident with technical significance.",
+    "tags": [
+      "ai-security",
+      "large-language-models",
+      "trust-and-verification",
+      "ai-safety"
+    ],
+    "source_type": "rss",
+    "sub_source": "Ars Technica AI",
+    "author": "Cristina Criddle, Financial Times",
+    "published_at": "2026-09-18T13:30:12+00:00",
+    "profile": "tech-news"
+  }
+]
