@@ -1,0 +1,195 @@
+[
+  {
+    "id": "rss:arstechnica.com_ai_feed_:ea36c1448b7e80d4",
+    "title": "AI hallucination of Chinese nuclear components almost led to US military attack",
+    "url": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+    "score": 7.0,
+    "summary": "AI 시스템이 중국 핵 부품을 잘못 생성(hallucination)하여 미군이 중국 선박에 대한 공격을 거의 단행할 뻔한 사건이 보도되었다. 이 사건은 군사 작전에서 AI 신뢰성과 검증의 중요성을 강조하며, 생성 AI의 오류가 실제 국제 분쟁으로 이어질 수 있는 위험을 보여준다.",
+    "reason": "High-value story demonstrating concrete risks of AI hallucination in critical military decision-making. Combines technical AI failure with significant real-world consequences, directly relevant to reader interests in AI reliability and trust/verification.",
+    "tags": [
+      "ai-hallucination",
+      "trust-and-verification",
+      "ai-safety",
+      "military-ai",
+      "content-authenticity"
+    ],
+    "source_type": "rss",
+    "sub_source": "Ars Technica AI",
+    "author": "Kyle Orland",
+    "published_at": "2026-09-18T20:26:33+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:e81c7ef3ace06bef",
+    "title": "Claude Code, 이제 CLAUDE.md가 없으면 AGENTS.md를 읽음",
+    "url": "https://news.hada.io/topic?id=33913",
+    "score": 6.0,
+    "summary": "Claude Code 2.1.277부터 프로젝트에 CLAUDE.md 파일이 없으면 AGENTS.md를 프로젝트 지침으로 자동 읽음. 이는 여러 플랫폼에서 agent 지침을 관리하는 사용자들이 같은 내용을 여러 파일에 복사할 필요를 줄여줌. 다만 Bedrock, Vertex, Foundry 플랫폼에서는 아직 미지원이며, 지침 파일 선택은 /config의 'Project instructions' 항목에서 변경 가능함.",
+    "reason": "Incremental but useful feature update to Claude Code that reduces friction for users managing agent instructions across multiple platforms. The fallback behavior (CLAUDE.md → AGENTS.md) is a practical improvement, though the feature is limited in scope and not yet available on all deployment platforms. Community discussion shows genuine interest in standardization of instruction files.",
+    "tags": [
+      "claude-ai",
+      "developer-tools",
+      "ai-agents",
+      "project-configuration"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-18T22:52:19+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49758419",
+    "title": "Xcode 27.1 Beta Release Notes",
+    "url": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27_1-release-notes",
+    "score": 5.0,
+    "summary": "Xcode 27.1 베타가 iPhone Duo 시뮬레이터 지원을 추가했으며, 개발자들이 새로운 폼팩터용 앱을 테스트할 수 있게 되었다. Apple은 UIKit 앱 현대화 도구도 함께 제공하여 레이아웃 적응을 돕고 있다. 커뮤니티는 초기 출시 시 많은 앱이 최적화되지 않을 것으로 예상하고 있으며, 기존 앱의 호환성 문제를 주요 관심사로 지적하고 있다.",
+    "reason": "Incremental tooling update with moderate community interest. Xcode 27.1 beta adds iPhone Duo simulator support, which is useful for developers preparing for a new form factor, but represents routine platform expansion rather than a breakthrough. The community discussion reflects practical concerns about app compatibility rather than technical novelty.",
+    "tags": [
+      "xcode",
+      "ios-development",
+      "apple-tools",
+      "device-support",
+      "app-compatibility"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "CameronBanga",
+    "author": "CameronBanga",
+    "published_at": "2026-09-18T18:39:31+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49760187",
+    "title": "Claude Code now reads AGENTS.md if there is no Claude.md",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "score": 5.0,
+    "summary": "Claude Code가 Claude.md 파일이 없을 때 AGENTS.md를 자동으로 읽도록 업데이트되었다. 이전에는 Claude.md에서 @AGENTS.md를 참조하는 방식으로 우회해야 했으나, 이제 더 직관적으로 작동한다. 커뮤니티 반응은 엇갈렸는데, 일부는 기본 기능이 늦게 추가된 것에 불만을 표하고 있으며, 다른 개발자들은 여러 AI 코드 어시스턴트(Codex, Gemini, Qwen) 간의 스킬 관리가 여전히 복잡하다고 지적했다.",
+    "reason": "Incremental tooling improvement for Claude Code that addresses a minor usability friction point. The feature itself is straightforward (fallback to AGENTS.md when Claude.md is absent), and community discussion reveals mixed sentiment—some appreciate the change, others view it as overdue or insufficient. Relevant to readers interested in AI development tools and agent frameworks, but not a major technical advancement.",
+    "tags": [
+      "claude-code",
+      "ai-development-tools",
+      "agent-frameworks",
+      "tooling"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "datadrivenangel",
+    "author": "datadrivenangel",
+    "published_at": "2026-09-18T21:00:32+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:3046a7bd745c13c1",
+    "title": "GPT Image 2.5 프롬프트 가이드 - 무엇을 바꾸고 무엇을 유지할까",
+    "url": "https://news.hada.io/topic?id=33919",
+    "score": 5.0,
+    "summary": "GPT Image 2.5는 속도 최적화 Flare와 품질 최적화 Sunburst 두 모델을 제공하며, 프롬프트 작성 시 특별한 문법보다 용도, 대상, 구도를 명확히 하는 것이 중요합니다. 이미지 편집에서는 변경할 부분과 유지할 부분을 분리하고 한 번에 하나씩 수정하며, 품질과 해상도는 프롬프트와 별도의 API 설정으로 제어합니다.",
+    "reason": "Practical guidance on using a new image generation model variant with concrete technical details about prompt engineering and API settings. Matches reader interest in model updates and tool usage, but is primarily a how-to guide rather than news about a significant development.",
+    "tags": [
+      "model-updates",
+      "generative-ai",
+      "image-generation",
+      "prompt-engineering"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-19T00:25:02+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:ef98589bdea70c4f",
+    "title": "Databricks는 어떻게 10년 만에 ARR 100만 달러에서 70억 달러 이상으로 성장했나 [동영상]",
+    "url": "https://news.hada.io/topic?id=33918",
+    "score": 5.0,
+    "summary": "Databricks가 10년간 ARR 100만 달러에서 70억 달러 이상으로 성장한 과정을 다룬 인터뷰 요약. 클라우드 전용 전략, 오픈소스 Spark 사용자 기반 활용, 사용량 기반 과금 모델 도입이 핵심 성장 요인이었으며, 기업 AI의 성공은 모델 자체보다 데이터 정비와 프로세스 재설계 같은 운영 전문성에 달려 있다는 점을 강조함. 데이터 플랫폼 기업의 시장 진출과 조직 확장 전략에 관심 있는 독자에게 실무적 참고가 될 수 있음.",
+    "reason": "Incremental business case study with useful operational insights about scaling a data platform company, but lacks technical depth or novel findings. Matches reader interest in AI/data systems and business strategy, though presented as translated Korean content summarizing a video interview rather than original analysis.",
+    "tags": [
+      "databricks",
+      "data-platforms",
+      "business-strategy",
+      "ai-infrastructure",
+      "scaling"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-19T00:15:02+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:3f8debb73a7a007b",
+    "title": "World model companies are keeping a lot of secrets",
+    "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
+    "score": 5.0,
+    "summary": "세계 모델(world model) 분야의 기업들이 자금과 관심을 받고 있지만, 창업자부터 데이터 공급업체까지 실제로 무엇을 개발 중인지에 대해 공개하지 않고 있다는 분석이다. 이는 AI 산업의 투명성 부족과 신뢰 문제를 드러내는 사례로, 기술 진전의 검증 가능성에 영향을 미친다.",
+    "reason": "Addresses world modeling, a topic the reader has shown interest in, with analysis of industry secrecy practices. However, the piece appears to be commentary on opacity rather than reporting on specific technical developments, concrete details, or substantive findings. The content lacks the technical depth or novel insights that would elevate it to higher importance.",
+    "tags": [
+      "world-modeling",
+      "generative-ai",
+      "trust-and-verification",
+      "industry-analysis"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Russell Brandom",
+    "published_at": "2026-09-18T20:18:14+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:b8994927e2c5fd66",
+    "title": "Google’s new ‘CC’ is an AI agent that helps families run their households",
+    "url": "https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/",
+    "score": 5.0,
+    "summary": "Google이 CC AI 에이전트를 가정용 조율 도구로 재정위치하고 있으며, 가족이 이메일, 일정, 작업을 공유하면 AI가 캘린더 관리, 양식 작성, 쇼핑 목록 작성, 식사 계획 등을 처리할 수 있도록 했다. 이는 AI 에이전트의 실용적 응용을 보여주지만 기술적 혁신이나 업계 변화를 나타내지는 않는다.",
+    "reason": "Incremental product announcement about a consumer AI agent with practical household applications. Demonstrates real-world deployment of AI capabilities but lacks technical depth, novel research, or industry-shifting implications. Matches reader interest in AI applications but represents routine product news rather than breakthrough development.",
+    "tags": [
+      "generative-ai",
+      "ai-agents",
+      "google-ai",
+      "consumer-applications"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Sarah Perez",
+    "published_at": "2026-09-18T17:33:50+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:arstechnica.com_ai_feed_:fd3fc5a537c89b7a",
+    "title": "FAA tees up $875M AI tool to help manage air traffic congestion",
+    "url": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+    "score": 5.0,
+    "summary": "미국 연방항공청(FAA)이 항공 교통 혼잡 관리를 위해 8억 7,500만 달러 규모의 AI 도구 개발을 추진 중이며, 워싱턴 DC 지역에서 먼저 시범 운영한 후 전국으로 확대할 계획입니다. 항공 교통 관제는 안전과 효율성이 중요한 영역이므로 AI 기술의 실제 적용 사례로 주목할 만하지만, 기술적 세부사항이 제한적입니다.",
+    "reason": "Incremental but substantive development in AI application to critical infrastructure. The $875M investment and FAA involvement signal real-world deployment, but the article provides minimal technical detail about the AI approach, capabilities, or timeline. The phased rollout (DC first) suggests cautious implementation rather than breakthrough innovation.",
+    "tags": [
+      "ai-infrastructure",
+      "air-traffic-management",
+      "government-ai",
+      "critical-systems"
+    ],
+    "source_type": "rss",
+    "sub_source": "Ars Technica AI",
+    "author": "Jeremy Hsu",
+    "published_at": "2026-09-18T19:20:50+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:c2c7fadda71452ae",
+    "title": "California Gov. Gavin Newsom signs executive order to consider AI regulation, including proposal for 'kill switch' - ABC7 Bay Area",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQRFJuM1RSZTZkX1dhWnNRLXg2dUZianhEbGJyMWdjeG4yWG1iemZ0emFDT2xhX2pnNzluVjJybERzVDg0VG1ydUw5SXZYcTI3MnltR18tWnVobUphc2JFZEFGcDQ5Y0RrU1dDZDdvUS1MQzh4S0x2eWNlRkpjNFFibTEyVWJ3ekVWeWhfbmxHYlJsZENGUWQweVV1UTcxa2VVUU5tUmYzekJpaTkxTURyaE1UWk9vWERPLWxNNHJEYy1ySjBSQ1BOUFRwM1FwOG44MXZwbDROYWM0M3fSAdsBQVVfeXFMUERSbjNUUmU2ZF9XYVpzUS14NnVGYmp4RGxicjFnY3huMlhtYnpmdHphQ09sYV9qZzc5blYycmxEc1Q4NFRtcnVMOUl2WHEyNzJ5bUdfLVp1aG1KYXNiRWRBRnA0OWNEa1NXQ2Q3b1EtTEM4eEtMdnljZUZKYzRRYm0xMlVid3pFVnloX25sR2JSbGRDRlFkMHlVdVE3MWtlVVFObVJmM3pCaWk5MU1EcmhNVFpPb1hETy1sTTRyRGMtckowUkNQTlBUcDNRcDhuODF2cGw0TmFjNDN3?oc=5",
+    "score": 5.0,
+    "summary": "캘리포니아 주지사 Gavin Newsom이 AI 규제를 검토하는 행정명령에 서명했으며, 여기에는 'kill switch' 제안이 포함되어 있다. 구체적인 규제 내용이나 기술적 구현 방식에 대한 상세 정보는 제목만으로는 명확하지 않으나, 주 차원의 AI 규제 움직임은 업계와 기술 커뮤니티에 영향을 미칠 수 있는 정책 개발이다.",
+    "reason": "Policy development with potential industry impact, but limited technical depth and concrete details in the headline alone. Executive orders on AI regulation are worth tracking, though the 'kill switch' framing appears sensationalized without substantive explanation of what mechanisms are actually proposed.",
+    "tags": [
+      "ai-regulation",
+      "policy",
+      "california",
+      "ai-safety"
+    ],
+    "source_type": "google_news",
+    "sub_source": "ABC7 Bay Area",
+    "author": "ABC7 Bay Area",
+    "published_at": "2026-09-18T20:07:36+00:00",
+    "profile": "tech-news"
+  }
+]
