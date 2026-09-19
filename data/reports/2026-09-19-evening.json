@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-19-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 7,
+    "more": 9
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "ebb626e03413db2cf67336dd1708cdd9255c3483cc069789374fd9dad1f80a65",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "인간의 뇌는 서로 다른 두 전구세포에서 발달, Stanford 연구팀 확인",
+      "url": "https://news.hada.io/topic?id=33935",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "neuroscience",
+        "stem-cells",
+        "disease-modeling",
+        "brain-development",
+        "research"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "2be1c15291c554be0f42c0eadf22c6f67fac8a11e3d4393f1b303dd6d7b050cf",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "AI 오정보로 미군, 중국 선박 나포 시도 직전까지 간 사건",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPQ2JLa3J5TF9ubFE0V0Q2VUk5RTlqeW9Sb3dEUTdackNBRVAxRmM4SGZteTFOTm5FZXZVOFBrTFBjWThxRXo3UW5oRnZvQ09KTTVKdHdacUZMRWRjakhQS0NkQ3hKRDl3TnFoNFd6b0J5QVFzVGIxM1l1Y1o1RHFiY1U2VWVmbHFOVWUxOWFwUjg5TGhyMF9KRkhpMWdRcmhGUy0yMVFJaGhZU1VjNkRLODBzVUpCdmlPaVNvcQ?oc=5",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-reliability",
+        "trust-and-verification",
+        "ai-failures",
+        "military-operations",
+        "content-authenticity"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "5dcfc9081d9c7e9abf25a0642e8add2076e2e3c01dd22436f42b2d2a74190946",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "ARAM Emulator, 한국 피처폰 WIPI·SKVM·Raptor 소프트웨어 에뮬레이터",
+      "url": "https://news.hada.io/topic?id=33941",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "emulation",
+        "retro-software",
+        "systems-programming",
+        "open-source",
+        "preservation"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "96352e152002afff722c7de3d90b4d9e75955493eededf45e2c0c9669685005c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "io\\_uring SQPOLL, 지연시간과 CPU 자원의 트레이드오프",
+      "url": "https://news.hada.io/topic?id=33929",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "computer-systems",
+        "systems-programming",
+        "performance-optimization",
+        "io-uring"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "e195b3299dc10dd297280b8e210b9ec7a3ca178b0b5dfc96599ffdf0fafbc2ed",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "DiffusionGemma: PyTorch로 구현한 병렬 텍스트 생성 확산 모델",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wkdnns/diffusiongemma_how_it_generates_text_in_parallel/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "generative-ai",
+        "diffusion-models",
+        "text-generation",
+        "pytorch"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "c2835cbd0c99b37b1df614b2cbe9d6fd879808642c3b2c148cf78944cb991521",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "AI 전력 소비, 지정학적 쟁점으로 부상",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZTV3dzd3dktyRWRRQVZPNjJGVTVzdnNPSlhIUFJmTzEtREJ1cHhfdW1zUEFGS1Z4SHlvbWhLUFExTzl6Q2kzd0NzTEZ4UXZWTG9WTnNKZDRrQ1FvVFMwMFJHa0pBSmVrNVVoZ0JMNjBYTHd3b2piWEdHa2ZVYm9fcEtQa3d5N2FSdjl3X1pFOTYxNGRpZTNXVTItY18zLW1nQlRzTQ?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-infrastructure",
+        "geopolitics",
+        "energy-consumption",
+        "large-language-models",
+        "industry-trends"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "6a5ad4193e17c479b8385ee18352856056a2aa510397268e86337026baf1522d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Anthropic, Accenture와 독립적 AI 모델 테스트 협력",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQzJlNDRfc0w3dXZIanhSODZwUjlkakhCWWJhUFpHZ3BxZWptOU1GbjJmc2dzSy12LXc2VzVUWkp6U1UzV0NGRnlvYklEUlF0RFliZDRSMTBhRk9HNzk3UExkSTZZWjhjdjIxdXE5NzQwblZjYnFmMmVKOUFRbGEzRDVSOGdWYXhtYnFNbmV5Y2V4dw?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-safety",
+        "model-evaluation",
+        "trust-and-verification",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "google_news:article:6a678b89cf2b8e9f",
+      "content_key": "fc4b471b4094472da609623c89801c5c086e7e9cfde449f594c69de33e7ad1a0",
+      "surface": "more",
+      "title": "Anthropic and Accenture Commit $2 Billion to AI Safety, With Evaluators Working Inside AI Labs - ascendants.in",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWEt6aUJuS3VGSWJEM0ViSjVYWXo2eldhcmVOMkZkMzc3UjZiZURtblV4SnVBQVZyMnduT0Q4UVhFYVpJM1ZnSUx6QkJnWEg1ZE1hcTJXNG9KMWo3cURfODFFd0ZYV19zLXdjWGpTdHRVbkxQQWR5bHBLYTNFd0ltTDNSRVBUSERkZ1NKbTBIdWV1eEpCbVpNTzU0SQ?oc=5",
+      "score": 6.0,
+      "summary": "Anthropic와 Accenture가 AI 안전을 위해 20억 달러를 투자하기로 약속했으며, 평가자들이 AI 연구소 내부에서 직접 작업하는 구조를 도입한다고 발표했습니다. 독립적인 평가자를 연구 조직 내부에 배치하는 접근은 AI 개발 감시 방식의 변화를 시사하지만, 제공된 정보만으로는 이 약속의 구체적인 실행 방식과 실질적 영향을 판단하기 어렵습니다.",
+      "tags": [
+        "ai-safety",
+        "anthropic",
+        "governance",
+        "large-language-models"
+      ],
+      "source_type": "google_news",
+      "sub_source": "ascendants.in",
+      "author": "ascendants.in",
+      "published_at": "2026-09-19T03:58:48+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49764791",
+      "content_key": "b9c21ef0e3f58c4a574995353e33b7961d212fa1ce3c5d526e4f8859339b211a",
+      "surface": "more",
+      "title": "AI-generated posters don’t have to be horrible",
+      "url": "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+      "score": 5.0,
+      "summary": "AI 생성 포스터가 반드시 형편없을 필요는 없다는 주장으로, 저자는 미니멀리스트 디자인 접근 방식으로 더 나은 결과를 얻을 수 있음을 보여줍니다. 커뮤니티 토론에서는 AI 생성 콘텐츠를 식별하는 능력과 실제 디자인 역량을 구분하는 문제, 그리고 예산 제약이 있는 상황에서 AI가 평균적인 프리랜서 디자이너보다 나을 수 있다는 점을 지적합니다.",
+      "tags": [
+        "generative-ai",
+        "ai-generated-content",
+        "design",
+        "content-authenticity"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "ereiamjh",
+      "author": "ereiamjh",
+      "published_at": "2026-09-19T09:20:58+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:32bceb32b39abb91",
+      "content_key": "103459e3dda3b572d45755b1c790dc8e6820fa9c2f3da07b2c0018ad8e3034a8",
+      "surface": "more",
+      "title": "European Union AI Board turns to safety, transparency and market checks - iNews Zoombangla",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRWlGT3NVZXk1Nms1Wnp3azV3cDRscE9rS0FKVjgxbkxNN3dOOW9sUWhmOURrWWJCbXdscE5KSXhEcE1kNHlTZmx5VHdNNXYxV0R2Qjd1M2JnUFNmQWV2WGVvV2hyTy1FcmxPakJldnRHUGxrMGZKTnRmX1pvNWx4ck9aU3diYnQ5d2ZoUkZwRkg?oc=5",
+      "score": 5.0,
+      "summary": "EU AI Board가 안전성, 투명성, 시장 감시에 초점을 맞추고 있다는 보도이지만, 구체적인 정책 내용이나 결정 사항이 제공되지 않았습니다. AI 규제 동향으로서 관심 대상이지만, 실질적인 평가를 위해서는 상세한 내용이 필요합니다.",
+      "tags": [
+        "ai-regulation",
+        "eu-policy",
+        "ai-governance",
+        "transparency"
+      ],
+      "source_type": "google_news",
+      "sub_source": "iNews Zoombangla",
+      "author": "iNews Zoombangla",
+      "published_at": "2026-09-19T08:29:50+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49765348",
+      "content_key": "957dad81750da0dc352c6ba8ae33c09019d7514e0bcced60d3147202e8fa535b",
+      "surface": "more",
+      "title": "Laya the open source version of Jev",
+      "url": "https://laya.convaiinnovations.com/",
+      "score": 5.0,
+      "summary": "Laya는 Jev의 오픈소스 버전으로, 분류 작업에서 LLM 대안보다 빠르고 저렴한 성능을 제공한다고 주장한다. 커뮤니티 토론에서는 이것이 본질적으로 더 많은 데이터를 사용한 BERT이며 GLiNER 같은 기존 연구와의 차별성이 명확하지 않다는 지적이 나왔다. 기술적 혁신보다는 기존 접근법의 실용적 패키징과 마케팅에 초점이 있는 것으로 보인다.",
+      "tags": [
+        "open-source",
+        "nlp",
+        "classification",
+        "model-comparison",
+        "machine-learning"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "nandakishor_ml",
+      "author": "nandakishor_ml",
+      "published_at": "2026-09-19T10:46:58+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:ad5084d9c5ae0022",
+      "content_key": "5489f228c51a86e7424642c88cde81996bca81f94b504304ffd10655c98f42c2",
+      "surface": "more",
+      "title": "Nokia and Microsoft build a data foundation for AI-run telecom networks - iNews Zoombangla",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcmlvaWZzemxMWDNia2dJZXBQdE9ESzdVNXplQjlFaFQxOElhbl83OV9SYW02aVRtZU5OUHNxZXdsX21GTllSRHdLMFdTbnRtdFltMVZvbk1KMzZ4aVhBenIzVHlMeUhqMnIwRTNCd08xUnZSbDhHYW1uTGd3aE1rTWs1Wk9vWmtpaUtIWE5RX0dxMkk?oc=5",
+      "score": 5.0,
+      "summary": "Nokia와 Microsoft가 AI 기반 통신망을 위한 데이터 기반을 구축하고 있다. 이는 통신 네트워크 운영에 AI를 적용하기 위한 인프라 개발로, 두 기업의 협력을 통해 데이터 관리 및 AI 시스템 통합을 추진하는 것으로 보인다. 통신 산업의 AI 도입이 진행 중임을 보여주지만, 구체적인 기술 세부사항이나 실제 영향에 대한 정보는 제공되지 않는다.",
+      "tags": [
+        "ai-infrastructure",
+        "telecom",
+        "enterprise-ai",
+        "microsoft",
+        "nokia"
+      ],
+      "source_type": "google_news",
+      "sub_source": "iNews Zoombangla",
+      "author": "iNews Zoombangla",
+      "published_at": "2026-09-19T12:13:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49762744",
+      "content_key": "e1fb674c7e832243eeafd30d890fa62b9f84363628e64ee2ade2832073f9ac81",
+      "surface": "more",
+      "title": "SDCC – Small Device C Compiler",
+      "url": "https://sdcc.sourceforge.net/",
+      "score": 5.0,
+      "summary": "SDCC는 PIC, 8051 등 다양한 마이크로컨트롤러를 지원하는 오픈소스 C 컴파일러로, 25년 이상 임베디드 개발자들에게 사용되어 왔다. 커뮤니티 댓글에서 사용자들은 상용 컴파일러의 대안으로서의 가치를 인정하면서도 버그와 제한된 칩 지원을 지적했다. 비용 제약이 있는 개발자나 취미 프로젝트에서 실용적인 선택지로 평가된다.",
+      "tags": [
+        "embedded-systems",
+        "open-source",
+        "compilers",
+        "microcontrollers"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "lioeters",
+      "author": "lioeters",
+      "published_at": "2026-09-19T02:32:36+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1wklia8",
+      "content_key": "539f980beff138dd746ea2d228cd4b1fdf9c9b7c06064daeedc0761e2a41d99e",
+      "surface": "more",
+      "title": "Sharing my ML learning repo — NumPy to Transformers, 5 months, daily commits, all notebooks public. [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wklia8/sharing_my_ml_learning_repo_numpy_to_transformers/",
+      "score": 5.0,
+      "summary": "ML 학습자가 5개월간 매일 커밋한 공개 저장소를 공유했으며, NumPy부터 Transformers까지 고전 머신러닝, 딥러닝(TensorFlow/Keras), NLP 기초, 통계, SQL을 다루는 노트북들을 포함하고 있다. ML 입문자를 위한 실용적인 학습 자료이지만 새로운 기술 발전이나 연구 결과를 제시하지는 않는다.",
+      "tags": [
+        "machine-learning",
+        "educational-resource",
+        "deep-learning",
+        "nlp"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/MachineLearning",
+      "author": "/u/oGauRav",
+      "published_at": "2026-09-19T12:54:13+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:b81c30ad01e02bbb",
+      "content_key": "91aee42fab4e1dd15b8ac5efdb1309cbc55a748dd01f9a304b2325531831308e",
+      "surface": "more",
+      "title": "Vals, backed by Andreessen Horowitz, is looking to become the gold standard for AI benchmarking",
+      "url": "https://techcrunch.com/2026/09/19/vals-backed-by-andreessen-horowitz-is-looking-to-become-the-gold-standard-for-ai-benchmarking/",
+      "score": 5.0,
+      "summary": "Vals AI는 Andreessen Horowitz의 지원을 받으며 AI 모델 평가를 위한 중립적이고 신뢰할 수 있는 벤치마킹 표준을 구축하려고 하고 있습니다. AI 모델이 급증하는 환경에서 신뢰성 있는 평가 기준의 필요성이 증가하고 있으며, 이는 모델 성능 검증과 투명성 확보에 중요한 역할을 할 수 있습니다.",
+      "tags": [
+        "ai-benchmarking",
+        "trust-and-verification",
+        "ai-infrastructure",
+        "model-evaluation"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "published_at": "2026-09-19T13:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:7f7692f820c000aa",
+      "content_key": "5d6381e2f07eeec2bb2caf5926681eeb082be2b64761371c78789f2ccf9028e5",
+      "surface": "more",
+      "title": "Will AI models achieve the ability to improve autonomously? Leading labs say the scenario is near - Stuff",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYnVMNEpoMEsyUEQ5LURiaGRRUUVSYWpwN0NhRHV4RmYweUpUNzBrQXhLUUZDWmd3SlhzN2JWNkxLZndOd094MTZ4ZkVpdW82aFVyQ2tuODBCRXhEcVkteE5qVWtLVUYzR0RpN2hPbVRZVW9sRllwQ2ladlkwenpONGJoVDYxSEc5SFpaODVzU2hjREV6TWdFMjZWMjFzdFU?oc=5",
+      "score": 5.0,
+      "summary": "AI 모델이 자율적으로 스스로를 개선할 수 있는 능력을 갖출 수 있을지에 대해 주요 AI 연구소들이 이 시나리오가 임박했다고 주장하고 있다는 내용이지만, 제공된 콘텐츠는 제목과 링크만 있고 구체적인 주장이나 증거가 없어 실제 기사의 기술적 깊이나 신뢰성을 평가할 수 없다.",
+      "tags": [
+        "ai-capabilities",
+        "autonomous-improvement",
+        "large-language-models",
+        "ai-research"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Stuff",
+      "author": "Stuff",
+      "published_at": "2026-09-19T10:27:26+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "ba4ca3668e7d1e96e4bcf634d1e138394a50bbd75b6c4b064169dfbb01038b15"
+}
