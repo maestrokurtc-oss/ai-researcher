@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-20-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 7,
+    "more": 1
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "21cf57da475bf38d4a9b479a8c327731948fe030ce5f4938ef42a9f9a6ed2f0d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "NYT 소송서면, Microsoft·OpenAI 내부 문서로 AI 스크래핑 우려 폭로",
+      "url": "https://news.hada.io/topic?id=33970",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-training-ethics",
+        "copyright-law",
+        "generative-ai",
+        "content-scraping",
+        "ai-industry-accountability"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "719bf0f66792c0f781497fcd3b41def9a20adde0d18f686ccf25400369eb41b1",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Alibaba, 암 등 150개 질환 탐지 AI 모델 Damo Radar 오픈소스 공개",
+      "url": "https://news.hada.io/topic?id=33957",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "medical-ai",
+        "open-source",
+        "computer-vision",
+        "deep-learning",
+        "healthcare-technology"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "3c0228e8de30857ce13211432d691402f88e4be0d2744142e9e214b6dd91ccdb",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "오픈소스 소프트웨어는 계산과학 그 자체다",
+      "url": "https://news.hada.io/topic?id=33954",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "open-source",
+        "reproducibility",
+        "computational-science",
+        "scientific-software"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "e473c81e6c9ccc423b7c2c91d33b660469a48b99f7a4516c6082cf2a8fc6cce5",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "OONI, 네트워크 계층 인터넷 검열 측정 프로브 도구 공개",
+      "url": "https://ooni.org/install",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "internet-integrity",
+        "censorship-measurement",
+        "content-moderation",
+        "network-analysis"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "0eaa5debb99a401fcd95db9b50171eabcc2f5d78b9b00e739b1c79bfe7a3b83c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "px0: 브라우저 기반 초경량 코드 탐색 및 AI 연동 리뷰 도구",
+      "url": "https://news.hada.io/topic?id=33964",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "developer-tools",
+        "code-review",
+        "ai-integration",
+        "open-source",
+        "productivity"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "dee64f12a77949eff02ae3fddad90f312f1455b8d28dd772df11f8afe2c81348",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Waymo, 2028년 싱가포르 완전 자율주행 호출 서비스 출시 추진",
+      "url": "https://news.hada.io/topic?id=33962",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "autonomous-vehicles",
+        "ride-hailing",
+        "waymo",
+        "singapore",
+        "regulatory-approval"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "f2b2d97b194d578adee2588bd9524d9cab27aa86a71b1ba2744980417e22739c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "신경망 학습 과정을 시각화하는 인터랙티브 데모 공개",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wl0l7j/i_wanted_to_watch_a_neural_network_learn_p/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "neural-networks",
+        "visualization",
+        "learning-dynamics",
+        "interactive-tools",
+        "machine-learning"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:6f1ae2af3e5180e4",
+      "content_key": "6f1ae2af3e5180e4cbf9643534a404a26070f7daa0fdb64d06235f25aa8b55b4",
+      "surface": "more",
+      "title": "인터넷 검열 측정하기",
+      "url": "https://news.hada.io/topic?id=33979",
+      "score": 6.0,
+      "summary": "OONI Probe는 사용자가 자국의 웹사이트 차단, 메신저(WhatsApp, Facebook Messenger, Telegram) 검열, 검열 우회 도구 작동 여부를 테스트할 수 있는 오픈소스 도구입니다. Android, iOS, Windows, macOS, Linux를 지원하며 M-Lab과 협력한 NDT 테스트로 네트워크 성능도 측정할 수 있고, 측정 결과는 자동으로 공개되어 세계 최대의 인터넷 검열 공개 데이터셋에 기여합니다.",
+      "tags": [
+        "internet-integrity",
+        "censorship-measurement",
+        "open-source-tools",
+        "network-transparency"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-20T04:32:23+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "3aceb6545d33ce4c2f7544400c88b60fca1a63ae0a50dc3321c1b587e5622078"
+}
