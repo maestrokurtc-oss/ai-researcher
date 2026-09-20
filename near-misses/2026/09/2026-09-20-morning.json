@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:6f1ae2af3e5180e4",
+    "title": "인터넷 검열 측정하기",
+    "url": "https://news.hada.io/topic?id=33979",
+    "score": 6.0,
+    "summary": "OONI Probe는 사용자가 자국의 웹사이트 차단, 메신저(WhatsApp, Facebook Messenger, Telegram) 검열, 검열 우회 도구 작동 여부를 테스트할 수 있는 오픈소스 도구입니다. Android, iOS, Windows, macOS, Linux를 지원하며 M-Lab과 협력한 NDT 테스트로 네트워크 성능도 측정할 수 있고, 측정 결과는 자동으로 공개되어 세계 최대의 인터넷 검열 공개 데이터셋에 기여합니다.",
+    "reason": "Solid technical resource about internet censorship measurement tools with practical utility and relevance to internet integrity. Matches reader interests in content authenticity and internet integrity, but lacks novelty—OONI Probe is an established project. The content is informative and well-structured but primarily descriptive rather than reporting new developments.",
+    "tags": [
+      "internet-integrity",
+      "censorship-measurement",
+      "open-source-tools",
+      "network-transparency"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-20T04:32:23+00:00",
+    "profile": "tech-news"
+  }
+]
