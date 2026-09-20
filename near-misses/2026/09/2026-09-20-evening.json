@@ -1,0 +1,99 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:cfa449b5cd280624",
+    "title": "StepFun, 차세대 플래그십 AI 모델 Step 5 Preview 공개",
+    "url": "https://news.hada.io/topic?id=33999",
+    "score": 7.0,
+    "summary": "StepFun이 Step 5 Preview 플래그십 모델을 공개했으며, 6,000억 개 매개변수와 전문가 혼합 구조(활성화 270억 개)를 갖추고 100만 토큰 문맥 처리를 지원한다. 소프트웨어 엔지니어링과 금융 업무에 특화되어 있으며, 장기 에이전트 작업과 복잡한 분석(예: 단일 실행에서 950회 웹 검색 조율)을 안정적으로 수행한다. 모델 가중치는 10월 15일 공개될 예정이다.",
+    "reason": "StepFun's Step 5 Preview represents a significant flagship model release with notable technical specifications (600B parameters, 27B active via MoE, 1M context window) and specialized capabilities in software engineering and finance. The announcement of weight release on October 15 and demonstrated agentic reasoning capabilities make this important for readers tracking major LLM developments, though the source is a Korean news aggregator rather than primary technical documentation.",
+    "tags": [
+      "large-language-models",
+      "model-updates",
+      "ai-agents",
+      "software-engineering"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "recast7838",
+    "published_at": "2026-09-20T13:30:42+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49774329",
+    "title": "AI and the Destruction of the Creative Commons",
+    "url": "https://www.chesterwisniewski.com/post/2026-09-13-ai-is-destroying-the-creative-commons/",
+    "score": 6.0,
+    "summary": "Creative Commons와 오픈소스 커뮤니티가 AI 학습 데이터로 무단 사용되는 문제를 다룬 글로, 기술 커뮤니티에서 활발한 논쟁을 촉발했습니다. 댓글에서는 AI가 소프트웨어 수정 장벽을 낮춘다는 주장과 기존 사회계약 파괴에 대한 우려가 대립하고 있으며, 오픈소스 개발자의 인센티브 구조 변화에 대한 실질적 논의가 진행 중입니다.",
+    "reason": "Substantive debate about AI's impact on open source licensing and creative commons, with concrete concerns about training data use and community incentives. Matches reader interests in AI, content authenticity, and trust. High engagement suggests community value, though the article itself is not examined here.",
+    "tags": [
+      "generative-ai",
+      "open-source",
+      "content-authenticity",
+      "trust-and-verification",
+      "ai-training-data"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "rakel_rakel",
+    "author": "rakel_rakel",
+    "published_at": "2026-09-20T10:07:51+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:bd8a935de18e6dc4",
+    "title": "Show GN: konfirm - kubectl context 지정 실수 방지를 위한 cli",
+    "url": "https://news.hada.io/topic?id=33985",
+    "score": 5.0,
+    "summary": "konfirm은 여러 Kubernetes 컨텍스트를 다룰 때 실수를 방지하기 위한 kubectl 래퍼 도구입니다. 명령 실행 전 대상 컨텍스트를 확인하고, 컨텍스트별 allowlist를 통해 특정 명령어(예: get, describe)의 실행을 제어할 수 있습니다. 다중 클러스터 환경에서 작업하는 엔지니어들의 운영 안정성을 높이는 실용적인 솔루션입니다.",
+    "reason": "Useful open-source tool addressing a real operational pain point in Kubernetes workflows. Solves a practical safety problem (context switching mistakes) with a straightforward wrapper approach. Relevant to readers interested in DevOps tooling and system reliability, though incremental rather than groundbreaking.",
+    "tags": [
+      "kubernetes",
+      "devops-tooling",
+      "cli-tools",
+      "operational-safety"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "kjhkk1020",
+    "published_at": "2026-09-20T06:38:45+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:46cb0dbdc8f6e55e",
+    "title": "Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems",
+    "url": "https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure",
+    "score": 5.0,
+    "summary": "에너지 시스템의 사이버보안 취약점은 AI 위협보다 인간의 행동이 더 큰 위험 요소라는 분석이다. 최근 AI 해킹 우려가 제기되기 전부터 에너지 인프라는 이미 심각한 공격 위험에 노출되어 있었으며, 이 위험은 계속 증가하고 있다. 중요 인프라 보안에서 기술적 위협과 인적 요소의 상대적 중요성을 이해하는 데 도움이 된다.",
+    "reason": "Substantive analysis of cybersecurity vulnerabilities in critical infrastructure with expert perspective, addressing timely concerns about AI and human risk factors. Relevant to readers interested in AI systems and their real-world impact, though not a technical deep-dive or novel research finding.",
+    "tags": [
+      "cybersecurity",
+      "critical-infrastructure",
+      "ai-risk",
+      "energy-systems",
+      "threat-assessment"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Justine Calma",
+    "published_at": "2026-09-20T12:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:9ab3f7d9419c51ef",
+    "title": "Trump announces creation of AI force and appoints AI czar, explicitly rules out dedicated regulatory agency - finance.biggo.com",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRTnA4R2Y0Q3MwVmxIb1pDLWNNNDVGYjg1RTZaNUgxM1cwTFdnSlBYQll0elEtNnFJMGE0bUV1ek1LYV9rNDRPTVJLRUlNc3FOWmpmM3VzRzRmdEdYRG9yLTZWMXNKWnNfQ3lQUnlURXJzb2RqS2c?oc=5",
+    "score": 5.0,
+    "summary": "트럼프 행정부가 AI 전담 기구 신설과 AI 담당자 임명을 발표했으며, 별도의 규제 기관 설립은 명시적으로 배제했다. 이는 AI 산업 규제 방향에 대한 정책적 입장을 보여주는 것으로, 기술 개발과 산업 거버넌스에 영향을 미칠 수 있는 결정이다.",
+    "reason": "Policy announcement with industry significance, but limited technical depth and concrete details in the supplied content. The headline indicates a notable governance decision affecting AI development, matching reader interests in AI industry developments, but the source material provides only the announcement itself without substantive analysis or implementation details.",
+    "tags": [
+      "ai-policy",
+      "government-regulation",
+      "ai-industry",
+      "governance"
+    ],
+    "source_type": "google_news",
+    "sub_source": "finance.biggo.com",
+    "author": "finance.biggo.com",
+    "published_at": "2026-09-20T03:55:00+00:00",
+    "profile": "tech-news"
+  }
+]
