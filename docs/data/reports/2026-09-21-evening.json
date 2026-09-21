@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-21-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 13,
+    "more": 7
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "570460bd4a1a8e4e936ba5dd7c2097e0b04c640f9341618813dc8e3b9fec348a",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "M5 Ultra Mac Studio, 로컬 AI 에이전트용 성능 리뷰",
+      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "hardware",
+        "local-ai-inference",
+        "mac-studio",
+        "performance-benchmarks",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "30dc4028c515d3a885676d5dca60b45dc43d74639e7b7cbf4b48fb973d1691ef",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "AI 챗봇, 금융 질문 절반 이상 틀린 답변 내놓아",
+      "url": "https://news.hada.io/topic?id=34070",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-reliability",
+        "large-language-models",
+        "financial-services",
+        "ai-hallucination",
+        "trust-and-verification"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "a3d8085d8637499c41daa1bef902daf9b6c7592410b2fcf3b58bba3c7d02576b",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "mini-AGI: 8GB VRAM에서 처음부터 학습하는 동적 지속 학습 언어 모델",
+      "url": "https://news.hada.io/topic?id=34067",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "continual-learning",
+        "language-models",
+        "hardware-constraints",
+        "open-source",
+        "ai-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "2c325ce9f72d6b41ad886732a4d339a292c96076c139c41c79a8e2d1ea3b79e3",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "콘웨이의 법칙으로 본 AI 에이전트 시대의 프로그래밍 언어 설계론",
+      "url": "https://news.hada.io/topic?id=34063",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "conway-law",
+        "ai-agents",
+        "programming-languages",
+        "software-architecture",
+        "human-ai-collaboration"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "a8482f18a45413c783dcd18c773e0258e7c22f43191c7ade71d5a7f7d5d0b150",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Google, Gemini 통합한 $899 노트북 'Googlebook' 출시",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "gemini",
+        "google-ai",
+        "hardware",
+        "ai-integration",
+        "product-launch"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "7cd5365733ad83d6206febbd2a14da83c23d509e8fcbd005d5aee8a2a0339a37",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Amazon, Meta의 Muse AI 쇼핑 에이전트 접근 차단",
+      "url": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-agents",
+        "platform-policy",
+        "meta",
+        "amazon",
+        "e-commerce"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "af663fb37f5db847ecfddb62757eef0cc8803fde0739f863f78a405f301aa8a8",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "미국 국경 '가상 장벽' 감시탑 인근 사망 지도화한 조사보도",
+      "url": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "surveillance-systems",
+        "data-journalism",
+        "investigative-reporting",
+        "technology-impact",
+        "border-security"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "b8d65355d3b8568cd5fdbd15deabd558f640d4da90d4e4941dd886dfdc38d4ef",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "SupraLabs, 1억 파라미터급 소형 텍스트-이미지 모델 Supra2-IMG 공개",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmftr3/massive_release_supra2img_a_tiny_100m_texttoimage/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "generative-ai",
+        "open-source",
+        "text-to-image",
+        "model-release",
+        "efficient-models"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "6cf9cebbbb072236f6ae5973a5b9d5bb19a2d784278648b882fcdfd915dccf49",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "Gates Foundation, AI 언어 데이터 대표성 개선 연합 출범",
+      "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQZkRFWHQwdjJzQmxkYk5aWHpGcWVOVTZPSFl0WWNtOVdaV0ZzYmdSNjFFSEpjMXNfN3k0Zld3MmIyVGxpSFlveFlwaE00Q3VnYTBkYVgyQzVGZzYyWEstS2hVQlFhbFpJeTV2UTZ1SkFzRldoU0tYUzVnbTBhM3FiOEtuNGVyaEJDeUhLNE5UcUJpUUtKRE9WVmxaU2oxQS03cUh3VGhaRWxIYTY1b28xUFA2VW1DdktSWEZMbGozMWpTd1JEcnZyWXNZRDk2V3RKQ2tORFJPLVRnRTFUQ2pKODRmU0pQNFZKVlE4R1Bqam5LQjRTc1JkZ0xYX0JvaGZpZEc3TFNhX216T09yYTA3V0VGazlmaDRBYXQzRw?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "generative-ai",
+        "ai-datasets",
+        "bias-and-fairness",
+        "language-models"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "3a6b0da17a3b8a07bb8b1ea04da2161657c27b73194e3e4c0cdabd97d54833e5",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "Moonshot의 Kimi K3, Amazon 플랫폼에 출시",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcDZqcmQxQkhmMW9NcUh6cW1hTTdXTlEwTUNSNUh2ZmlRYmt6Sm9GMnZISkZNSmg2RUc1NndvM1ZhSlBGUkQ1dDlCRldFdXcxQmNpLXB3TTllN0NtSVlTdVpIZ0NDZkhBLWlkMENhODVnbzQ5SldFVGFFaW11SVdBTHFGN2M0RFkydjQxelhlWHVKYXVNZExydXpOZlZOaXV0cEZWbFdYSGRHUWJWYjF3WWpkQng3RUFLY2E0ME9va1F2UdIBwgFBVV95cUxNSE8tSlJiRTFRMWRYREFncDA0ZldXRUJ6clRCTC0xdTloZmVKUzNSR1ZkamlLazd4VGdMTmo4TzNIM0NDM056c1pEZmNjS3J5blVUVlVyeEczb3ByOUFDUmRRRXRxX2JZRVVSYXNQQjh5THdWSFk5em1wODl4N1pzR0VZQ1FYN3d2ckkzSHF5Z3N0RU9YTmZDeWFyQlJkZzdjbTdRQWVMRFhqMXNXYU5fYjkzWUNWaGRJZ3A0LXpzVFkzUQ?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "large-language-models",
+        "generative-ai",
+        "model-updates",
+        "open-source",
+        "ai-industry"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "f36b57558227b8ba3367f56257f02298c4c4d0407048687ffcc663dcd9406769",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "Anthropic, Claude를 활용해 차세대 모델 개발 중이라는 보도",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVm5ac052MDBLck5wWnloMmU3ZGFudU85N1Y2OEwzelJEMTlZMHdUdlpKOXRZcU1aN2wybHVfal8yMms4Q3ozTTAwbmpmaVJ0NnpJM3oyLWV1aFVvNkhZLU1zalpJRkM2cE56aEV4NnM1YkUweWZJWnJEQV9jTko0T2xxUDBxeWVWX1dKUlRDYXNqdEJBVkJ3N0o3LXJ2aVVPNTF1UXhhUQ?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "large-language-models",
+        "ai-model-development",
+        "anthropic",
+        "generative-ai",
+        "model-training"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "1205a0b5b75d1dc5732998e6d70fba56f37d4f13680880ef2616bef3eb98d325",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "Huawei, 100만 프로세서급 AI 시스템 목표 새 컴퓨팅 아키텍처 발표",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPajdqbjdOWTJFRkx4aVRveWdTUUhPUW5GZE1aakZ0MUJjZVMxUTZLZFlfWEZVUXhlZUwyTjRTMGpId2pRbmp5TWRHN1E4UjdEUE9aVXpOTjBBNUYtajlPaDhyYW00T3RrX2FYZ0ViUWxCVE9EYmdXNzZ2OHBQQW81YjktRUxTbTdSbkRvajNpeVV0TGFhcndV?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-infrastructure",
+        "hardware-architecture",
+        "large-scale-computing",
+        "huawei"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "43bf4602833d95a55b199127c60daca7b4d42b6b84b5cda0d0d6a5221104bbf2",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "오픈 웨이트 모델의 미중 경쟁: 중국이 앞선 2026년 현황",
+      "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+      "score": 8.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "open-weight-models",
+        "ai-geopolitics",
+        "model-benchmarking",
+        "us-china-competition",
+        "ai-adoption"
+      ]
+    },
+    {
+      "id": "hackernews:story:49786609",
+      "content_key": "dbb06f4b858fb0a20c43f6cb8e9440f7875ec14cac6bd339456e20e1ad7f78fe",
+      "surface": "more",
+      "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "url": "https://news.ycombinator.com/item?id=49786609",
+      "score": 5.0,
+      "summary": "macOS 27에서 설정 앱과 Screen Time을 통해 Siri를 비활성화해도 Activity Monitor에서 Siri 프로세스가 계속 실행되는 문제가 보고되었습니다. 커뮤니티는 언어 설정 불일치를 이용하거나 Screen Time에서 'Siri Classic'으로 전환하는 등의 해결책을 제시했으며, Apple Intelligence 기능이 기본 Mac 모델의 저장 공간 10%를 차지하는 문제도 지적되었습니다.",
+      "tags": [
+        "macos",
+        "siri",
+        "apple-intelligence",
+        "system-privacy",
+        "user-control"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "semidror",
+      "author": "semidror",
+      "published_at": "2026-09-21T12:47:05+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:7989c7ecae56c737",
+      "content_key": "7989c7ecae56c737375d00d097a8349c7323f91c8bf5271253bc7cd47bca78b4",
+      "surface": "more",
+      "title": "Jev을 (형편없는) 챗봇으로 만들어 봄",
+      "url": "https://news.hada.io/topic?id=34057",
+      "score": 5.0,
+      "summary": "Jev을 이용해 문자 단위 생성 챗봇을 만드는 실험으로, 매 단계마다 다음 기호의 확률을 묻고 샘플링을 반복하는 방식입니다. 완성된 후보 문자열을 평가하는 방식이 가장 효과적이었으며, 문자 집합에서 top-1 성능이 약 3배, 올바른 기호에 배정된 확률이 약 2배 향상되었습니다. 선택지 순서 편향 보정, 앙상블 평균, 이진 탐색 등 다양한 샘플링 전략을 실험할 수 있으며, Claude를 활용해 알고리듬을 구현했습니다.",
+      "tags": [
+        "large-language-models",
+        "generative-ai",
+        "text-generation",
+        "sampling-strategies"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-21T06:32:15+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49783999",
+      "content_key": "67d17b89a42e9d7801523e6e1a5ebef6f04f36ac90d3447bf5a02ad6825f0210",
+      "surface": "more",
+      "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+      "url": "https://github.com/jaredpalmer/kev/tree/main",
+      "score": 5.0,
+      "summary": "Kev는 Qwen3.5 기반의 경량 의사결정 모델 패밀리로, Jev 스타일의 모델들이 증가하는 추세 속에서 공개되었습니다. 커뮤니티는 RLHF로 학습된 Qwen 기반 모델이 RLCD 기반 Jev와 어떻게 비교되는지, 그리고 이러한 프로젝트들이 진정한 가치를 제공하는지에 대해 의문을 제기하고 있습니다. 오픈 웨이트 모델 생태계에서 전문화된 변형들이 빠르게 증가하고 있는 상황을 반영합니다.",
+      "tags": [
+        "open-source",
+        "language-models",
+        "model-variants",
+        "decision-models",
+        "qwen"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "tosh",
+      "author": "tosh",
+      "published_at": "2026-09-21T07:11:55+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1wmec1y",
+      "content_key": "8e546013a2d54251d5fa1455df5805c7d267e6f1c641f4b256f2cdd384b46aa4",
+      "surface": "more",
+      "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+      "score": 5.0,
+      "summary": "MacStories가 M5 Ultra Mac Studio를 로컬 AI 에이전트 실행에 최적화된 하드웨어로 평가하는 리뷰를 발표했습니다. Apple의 최신 고성능 칩셋이 로컬 LLM 추론에 어떤 성능을 제공하는지 보여주는 실제 사용 사례로, 온디바이스 AI 워크로드에 관심 있는 개발자들에게 참고할 만한 하드웨어 선택지입니다.",
+      "tags": [
+        "hardware",
+        "local-llms",
+        "apple-silicon",
+        "ai-inference",
+        "mac-development"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/LocalLLaMA",
+      "author": "/u/themixtergames",
+      "published_at": "2026-09-21T14:26:50+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49783133",
+      "content_key": "3548d7f6cf97dad98e9c987483e45acb86d47f6dd1ea889afaa56a540e365499",
+      "surface": "more",
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "score": 5.0,
+      "summary": "volotat가 8GB VRAM에서 학습 가능한 동적 지속 학습 모델 Mini-AGI를 공개했으며, 전문가 풀 기반 아키텍처와 스케일링 법칙을 제시했습니다. 커뮤니티는 프로젝트의 혁신성에 관심을 보이지만, 재앙적 망각 회피 메커니즘의 실제 효과와 생성된 응답의 일관성에 대해 의문을 제기하고 있으며, 정량적 벤치마크 부재가 주요 한계로 지적되고 있습니다.",
+      "tags": [
+        "continual-learning",
+        "open-source",
+        "model-architecture",
+        "memory-efficiency",
+        "generative-ai"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "volotat",
+      "author": "volotat",
+      "published_at": "2026-09-21T04:42:37+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:de9b34f7041312b9",
+      "content_key": "8b01dd9a86759fd5245aee5b06ed320423003dc0dc81b57b8c2aca23c39a2e42",
+      "surface": "more",
+      "title": "UN says AI safeguards can’t wait for certainty",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+      "score": 5.0,
+      "summary": "UN 과학 패널이 AI 위험이 완전히 이해되기 전에 정부가 증가하는 AI 에이전트를 규제해야 한다고 경고했습니다. 이는 Hugging Face 해킹 사건을 포함한 AI 안전 문제에 대한 UN의 첫 주요 평가이며, AI가 글로벌 외교 의제에 올라왔음을 보여줍니다.",
+      "tags": [
+        "ai-governance",
+        "ai-safety",
+        "policy",
+        "precautionary-principle",
+        "trust-and-verification"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Robert Hart",
+      "published_at": "2026-09-21T10:18:06+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49787436",
+      "content_key": "f25102ee7f6ae77bf05257f95a7ae9c48a6fc6ff53e3a4a4c8531baabb7078c0",
+      "surface": "more",
+      "title": "What Sun got wrong",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+      "score": 5.0,
+      "summary": "Sun Microsystems가 기업 하드웨어 시장에서 실패한 이유를 분석하는 글로, 복잡한 영업 프로세스와 높은 가격이 Dell 같은 경쟁사에 밀렸던 점을 다룬다. 커뮤니티 댓글에서는 1990년대 후반 Sun과 DEC의 비효율적인 판매 경험, 그리고 현재 하드웨어 업체들도 유사한 문제를 겪고 있다는 지적이 나온다.",
+      "tags": [
+        "technology-history",
+        "business-strategy",
+        "hardware-industry",
+        "enterprise-sales"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "chmaynard",
+      "author": "chmaynard",
+      "published_at": "2026-09-21T14:03:18+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "49a42210bb687361632cc1247e241b371fe18c19e9c3c23be225fccbb50ae4a5"
+}

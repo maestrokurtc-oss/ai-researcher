@@ -1,0 +1,140 @@
+[
+  {
+    "id": "hackernews:story:49787436",
+    "title": "What Sun got wrong",
+    "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+    "score": 5.0,
+    "summary": "Sun Microsystems가 기업 하드웨어 시장에서 실패한 이유를 분석하는 글로, 복잡한 영업 프로세스와 높은 가격이 Dell 같은 경쟁사에 밀렸던 점을 다룬다. 커뮤니티 댓글에서는 1990년대 후반 Sun과 DEC의 비효율적인 판매 경험, 그리고 현재 하드웨어 업체들도 유사한 문제를 겪고 있다는 지적이 나온다.",
+    "reason": "Historical analysis of Sun Microsystems' business failures with substantive community discussion about enterprise hardware sales, pricing models, and market positioning. Relevant to understanding technology industry dynamics, but primarily retrospective rather than current news.",
+    "tags": [
+      "technology-history",
+      "business-strategy",
+      "hardware-industry",
+      "enterprise-sales"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "chmaynard",
+    "author": "chmaynard",
+    "published_at": "2026-09-21T14:03:18+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49783999",
+    "title": "Kev: Tiny Jev-like family of decision models built on top of Qwen3.5",
+    "url": "https://github.com/jaredpalmer/kev/tree/main",
+    "score": 5.0,
+    "summary": "Kev는 Qwen3.5 기반의 경량 의사결정 모델 패밀리로, Jev 스타일의 모델들이 증가하는 추세 속에서 공개되었습니다. 커뮤니티는 RLHF로 학습된 Qwen 기반 모델이 RLCD 기반 Jev와 어떻게 비교되는지, 그리고 이러한 프로젝트들이 진정한 가치를 제공하는지에 대해 의문을 제기하고 있습니다. 오픈 웨이트 모델 생태계에서 전문화된 변형들이 빠르게 증가하고 있는 상황을 반영합니다.",
+    "reason": "A new open-source decision model project built on Qwen, shared on Hackernews with moderate engagement. The community discussion raises valid technical questions about training methodology and positioning, but the item itself lacks concrete technical details, benchmarks, or clear differentiation. Incremental contribution to the growing ecosystem of specialized LLM variants.",
+    "tags": [
+      "open-source",
+      "language-models",
+      "model-variants",
+      "decision-models",
+      "qwen"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "tosh",
+    "author": "tosh",
+    "published_at": "2026-09-21T07:11:55+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49786609",
+    "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+    "url": "https://news.ycombinator.com/item?id=49786609",
+    "score": 5.0,
+    "summary": "macOS 27에서 설정 앱과 Screen Time을 통해 Siri를 비활성화해도 Activity Monitor에서 Siri 프로세스가 계속 실행되는 문제가 보고되었습니다. 커뮤니티는 언어 설정 불일치를 이용하거나 Screen Time에서 'Siri Classic'으로 전환하는 등의 해결책을 제시했으며, Apple Intelligence 기능이 기본 Mac 모델의 저장 공간 10%를 차지하는 문제도 지적되었습니다.",
+    "reason": "Substantive community discussion about a real macOS usability issue—difficulty fully disabling Siri and Apple Intelligence features—with practical workarounds and technical details. Relevant to reader interests in system control and AI integration, though primarily a user support thread rather than news.",
+    "tags": [
+      "macos",
+      "siri",
+      "apple-intelligence",
+      "system-privacy",
+      "user-control"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "semidror",
+    "author": "semidror",
+    "published_at": "2026-09-21T12:47:05+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49783133",
+    "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+    "url": "https://github.com/volotat/mini-AGI/",
+    "score": 5.0,
+    "summary": "volotat가 8GB VRAM에서 학습 가능한 동적 지속 학습 모델 Mini-AGI를 공개했으며, 전문가 풀 기반 아키텍처와 스케일링 법칙을 제시했습니다. 커뮤니티는 프로젝트의 혁신성에 관심을 보이지만, 재앙적 망각 회피 메커니즘의 실제 효과와 생성된 응답의 일관성에 대해 의문을 제기하고 있으며, 정량적 벤치마크 부재가 주요 한계로 지적되고 있습니다.",
+    "reason": "Interesting open-source project demonstrating continual learning with memory-efficient training, but community skepticism about core claims (catastrophic forgetting avoidance, coherent outputs) and lack of rigorous benchmarks limit confidence in the technical contribution.",
+    "tags": [
+      "continual-learning",
+      "open-source",
+      "model-architecture",
+      "memory-efficiency",
+      "generative-ai"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "volotat",
+    "author": "volotat",
+    "published_at": "2026-09-21T04:42:37+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:7989c7ecae56c737",
+    "title": "Jev을 (형편없는) 챗봇으로 만들어 봄",
+    "url": "https://news.hada.io/topic?id=34057",
+    "score": 5.0,
+    "summary": "Jev을 이용해 문자 단위 생성 챗봇을 만드는 실험으로, 매 단계마다 다음 기호의 확률을 묻고 샘플링을 반복하는 방식입니다. 완성된 후보 문자열을 평가하는 방식이 가장 효과적이었으며, 문자 집합에서 top-1 성능이 약 3배, 올바른 기호에 배정된 확률이 약 2배 향상되었습니다. 선택지 순서 편향 보정, 앙상블 평균, 이진 탐색 등 다양한 샘플링 전략을 실험할 수 있으며, Claude를 활용해 알고리듬을 구현했습니다.",
+    "reason": "Interesting technical experiment applying LLM capabilities to character-level text generation through iterative probability sampling. Demonstrates creative use of Claude for implementing sampling strategies, with concrete performance improvements shown (3x top-1 accuracy, 2x probability mass on correct symbols). Relevant to readers interested in LLM mechanics and generative AI techniques, though presented as a fun project with impractical costs and humorous results rather than production-grade work.",
+    "tags": [
+      "large-language-models",
+      "generative-ai",
+      "text-generation",
+      "sampling-strategies"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-21T06:32:15+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:de9b34f7041312b9",
+    "title": "UN says AI safeguards can’t wait for certainty",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/998090/un-ai-panel-hugging-face-hack-precautionary-principle",
+    "score": 5.0,
+    "summary": "UN 과학 패널이 AI 위험이 완전히 이해되기 전에 정부가 증가하는 AI 에이전트를 규제해야 한다고 경고했습니다. 이는 Hugging Face 해킹 사건을 포함한 AI 안전 문제에 대한 UN의 첫 주요 평가이며, AI가 글로벌 외교 의제에 올라왔음을 보여줍니다.",
+    "reason": "Incremental policy development with moderate relevance. The UN assessment addresses AI governance and risk management, which matters for the field, but the content is truncated and lacks substantive technical or policy details. The framing around the Hugging Face incident and precautionary principle is interesting but underdeveloped in the supplied excerpt.",
+    "tags": [
+      "ai-governance",
+      "ai-safety",
+      "policy",
+      "precautionary-principle",
+      "trust-and-verification"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Robert Hart",
+    "published_at": "2026-09-21T10:18:06+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "reddit:subreddit-rss:t3_1wmec1y",
+    "title": "M5 Ultra Mac Studio Review: The Dream Mac for Local AI Agents - MacStories",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wmec1y/m5_ultra_mac_studio_review_the_dream_mac_for/",
+    "score": 5.0,
+    "summary": "MacStories가 M5 Ultra Mac Studio를 로컬 AI 에이전트 실행에 최적화된 하드웨어로 평가하는 리뷰를 발표했습니다. Apple의 최신 고성능 칩셋이 로컬 LLM 추론에 어떤 성능을 제공하는지 보여주는 실제 사용 사례로, 온디바이스 AI 워크로드에 관심 있는 개발자들에게 참고할 만한 하드웨어 선택지입니다.",
+    "reason": "Incremental hardware review with moderate relevance to reader's AI interests. The M5 Ultra Mac Studio is a new product, but this is a third-party review rather than official announcement or technical breakthrough. Matches reader interest in local LLMs and hardware for AI workloads, but lacks novel technical insights or industry-changing implications.",
+    "tags": [
+      "hardware",
+      "local-llms",
+      "apple-silicon",
+      "ai-inference",
+      "mac-development"
+    ],
+    "source_type": "reddit",
+    "sub_source": "r/LocalLLaMA",
+    "author": "/u/themixtergames",
+    "published_at": "2026-09-21T14:26:50+00:00",
+    "profile": "tech-news"
+  }
+]
