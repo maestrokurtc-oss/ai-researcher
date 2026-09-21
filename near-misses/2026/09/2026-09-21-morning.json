@@ -1,0 +1,41 @@
+[
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:3f8debb73a7a007b",
+    "title": "World model companies are keeping a lot of secrets",
+    "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+    "score": 5.0,
+    "summary": "World modeling 기업들이 자금과 관심을 받고 있지만 실제 개발 내용에 대해 투명성을 유지하지 않고 있다는 분석이다. 창업자부터 데이터 공급업체까지 구체적인 기술 세부사항 공개를 꺼리고 있어 산업의 투명성 문제를 드러낸다.",
+    "reason": "Addresses world modeling developments with industry analysis, matching reader interests in world-modeling and generative AI. However, the piece appears to be primarily observational commentary about secrecy rather than technical depth or concrete developments. Limited substantive details provided in the excerpt.",
+    "tags": [
+      "world-modeling",
+      "generative-ai",
+      "industry-analysis",
+      "transparency"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Russell Brandom",
+    "published_at": "2026-09-20T20:29:07+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:simonwillison.net_atom_everything_:f9d4182cc1e12525",
+    "title": "llm-keys-ui 0.1",
+    "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "score": 5.0,
+    "summary": "Simon Willison이 llm-keys-ui 0.1을 출시했는데, 이는 Codex Remote를 통해 원격 머신에서 LLM 프로젝트를 작업할 때 API 키를 안전하게 관리하기 위한 플러그인이다. 웹 인터페이스를 통해 키를 저장하고 `llm keys get anthropic` 같은 명령으로 검색할 수 있어, ChatGPT 앱에 직접 키를 붙여넣는 보안 위험을 피할 수 있다.",
+    "reason": "Announces a practical tool for a specific workflow (managing API keys in remote coding agent sessions). Demonstrates real engineering thinking about security (avoiding pasting keys directly) and provides concrete usage examples. However, the post is brief, lacks technical depth about implementation or design tradeoffs, and is primarily a release announcement rather than an explanatory article.",
+    "tags": [
+      "llm",
+      "api-keys",
+      "coding-agents",
+      "security",
+      "tool-release"
+    ],
+    "source_type": "rss",
+    "sub_source": "Simon Willison",
+    "author": "Simon Willison",
+    "published_at": "2026-09-20T19:22:19+00:00",
+    "profile": "tech-blog"
+  }
+]

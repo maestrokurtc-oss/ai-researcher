@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-21-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 7,
+    "more": 2
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "a9942542ed259efa25e30a2a93cb92357667b7b46ec07b8bc2c1eebb850d6ecd",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "AX: Google이 공개한 오픈소스 에이전트 오케스트레이터",
+      "url": "https://agentexecutor.io/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-agents",
+        "orchestration",
+        "open-source",
+        "google-ai",
+        "developer-tools"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "f55f1ed9949fcf5c590fafa2341df029c0e7dd1368e98565e7f80ce8e6aa2c2b",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Samsung, HBM4·HBM4E DRAM 생산량 2배 이상 확대 전망",
+      "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "hardware-supply-chain",
+        "hbm-memory",
+        "ai-infrastructure",
+        "semiconductor-manufacturing",
+        "memory-bottleneck"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "c8f712e43736d037a1281f41e1f9f40df16a66f5995df0d40bd75871d2f9ed6b",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "MCP는 처음부터 잘못된 아이디어였다는 비판 글",
+      "url": "https://maharship.com/blog/why-mcp-was-always-a-bad-idea/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-agents",
+        "mcp-protocol",
+        "system-design",
+        "tool-integration",
+        "architecture"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "aa3ea583c47b6099fc8da93be0c16ea52433c1972276c8401ea768649b9b75c8",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Resident Evil 4 GameCube판, C/C++로 바이트 단위 완전 역컴파일",
+      "url": "https://github.com/adonis-singh/re4",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "game-development",
+        "reverse-engineering",
+        "preservation",
+        "decompilation"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "90a434fe9bdb9c934fbac44e83b1cd5f97582b67020b0f2f7a62c4e656428d86",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Mac M4에서 Laya 모델을 CoreML로 오프라인 실행한 사례",
+      "url": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "local-llms",
+        "apple-silicon",
+        "coreml",
+        "on-device-inference",
+        "model-optimization"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "5cefd57e85593ceeb9303e51205dec248729fc7d7d9682fd9c0837c45dd64917",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "스위스·남아공 연구실, 창작 특화 27B 모델 Hemmingway-1 공개",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wlr1w5/hemmingway1_an_apache20_27b_creativewriting/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "open-source",
+        "model-fine-tuning",
+        "generative-ai",
+        "creative-writing",
+        "language-models"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "ded0cf12b747f2e7e032805acf57cabfbd0847bb3ebf93bdb2bb831124045686",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Huawei, 4,096칩 연결하는 새 AI 클러스터 발표",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZ3ZtcFhJaC10aC00ZzBHUXBxYndoVEh1UUJnSS1qVFdvWmExUURoM190R1ZnNGUxUFBCOUtRZWRvelJMWXBKWXZUQmU4NDFlNVFlZHJWQ3MweDVnMlBzdXBJWmN1OXBIV3pkcFFKdG5JRlhtQWxLVFVuSzFhazl0eUFVMGFzc2FVbHRWUkVYNDZXeUVob2ZmR0o2c0FMaTFqakdHV25FeEswaEs4T3FrVXczTEtrVkF0MmgzRExOYzJsLS1mNnhBaDlOakVjUmM?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-hardware",
+        "gpu-clustering",
+        "ai-infrastructure",
+        "huawei"
+      ]
+    },
+    {
+      "id": "rss:simonwillison.net_atom_everything_:f9d4182cc1e12525",
+      "content_key": "f9d4182cc1e12525793a2e6df4a6fc596305e33bb2344fc2087744c3f134c0e8",
+      "surface": "more",
+      "title": "llm-keys-ui 0.1",
+      "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+      "score": 5.0,
+      "summary": "Simon Willison이 llm-keys-ui 0.1을 출시했는데, 이는 Codex Remote를 통해 원격 머신에서 LLM 프로젝트를 작업할 때 API 키를 안전하게 관리하기 위한 플러그인이다. 웹 인터페이스를 통해 키를 저장하고 `llm keys get anthropic` 같은 명령으로 검색할 수 있어, ChatGPT 앱에 직접 키를 붙여넣는 보안 위험을 피할 수 있다.",
+      "tags": [
+        "llm",
+        "api-keys",
+        "coding-agents",
+        "security",
+        "tool-release"
+      ],
+      "source_type": "rss",
+      "sub_source": "Simon Willison",
+      "author": "Simon Willison",
+      "published_at": "2026-09-20T19:22:19+00:00",
+      "profile": "tech-blog"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:3f8debb73a7a007b",
+      "content_key": "92e9a70cb2f37d01abef9dffc561659ae866abeee2bf4cfb945c5ce3fb910f65",
+      "surface": "more",
+      "title": "World model companies are keeping a lot of secrets",
+      "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+      "score": 5.0,
+      "summary": "World modeling 기업들이 자금과 관심을 받고 있지만 실제 개발 내용에 대해 투명성을 유지하지 않고 있다는 분석이다. 창업자부터 데이터 공급업체까지 구체적인 기술 세부사항 공개를 꺼리고 있어 산업의 투명성 문제를 드러낸다.",
+      "tags": [
+        "world-modeling",
+        "generative-ai",
+        "industry-analysis",
+        "transparency"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Russell Brandom",
+      "published_at": "2026-09-20T20:29:07+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "16580dc0545ac0f40a2be90362be732d211756f03792fd94e557c58ad5cc9906"
+}
