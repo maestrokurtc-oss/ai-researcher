@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-22-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 11,
+    "more": 7
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "537f6e86521ee1ff470ab328a7bb0ee97e644fbc7506a83080fab24388060c10",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "AMD's random number generator can't generate a 0?",
+      "url": "https://board.flatassembler.net/topic.php?t=24261",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "hardware-rng",
+        "amd-zen",
+        "security-bug",
+        "cryptography",
+        "systems-programming"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "ef5ce8833c046ec0e3da064edbc6c0910b269750eb3f67bd55766a6228c5446f",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Git 2.56 출시 임박과 Git 3.0의 주요 호환성 변경 전망",
+      "url": "https://news.hada.io/topic?id=34124",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "git",
+        "version-releases",
+        "developer-tools",
+        "breaking-changes",
+        "ecosystem-impact"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "23156311661b7379f1a7e89538b6cf5fafbdf252decd8b1b68d2732f9d58a401",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Linear, AI 코딩發 CI 병목을 인프라·도구·캐싱·테스트 최적화로 해결",
+      "url": "https://news.hada.io/topic?id=34105",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ci-cd-optimization",
+        "infrastructure",
+        "typescript",
+        "performance-engineering",
+        "development-workflow"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "de02e0d3030cb92946507a74c9eb235293aa05d81711b88f15421cc6937c83cf",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Kimi Delta Attention의 표현력을 분석하고 개선한 Complex KDA 연구",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wn5uv9/understanding_and_enhancing_kimi_delta_attention_r/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "attention-mechanisms",
+        "neural-architecture",
+        "machine-learning-research",
+        "model-expressivity"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "664d8af7e939db3c1f1a95eabaad1b3c8e1b4e9ed1c490ffa1e1d575296e7d7c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Alibaba, NVIDIA 대항 AI 칩과 10조 파라미터 Qwen 모델 공개",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPampkM1NDbWlfZnFXT3Nhdl9pMElwdy1MbmJkaG5FZ2FkSFpSZko0Vzl6dHd5djJMWEpwSG1EMDBmU0Zwd3RhVW9lSXd2UThDRU5Iek5OazFBYzFYLXMzZ3BEd0tjSVFNTE5mVFl6N1BkMER5ZG85RjdrZVhfRWp3SUIzV20tNGYwRWh1eXNNbTdmQndUcVF5VFR4azFHNmRMZDRYal9FTTBOWHZaazRqTWZvZmtOanZfc2N6UlpYZkEtdThsSm9tR3otTC13X3U0TDYxNk1nY3RDbEs3aHc2UtIB5gFBVV95cUxQQlE2SzZkVkFPTHFjcl9fUTlpQW5UNDktWk13NjRNUUhCX0pEQWhpUFc1OE5kbDYycW1xZVdnWGZKMmJSeUxoLVNaU0xVSmFIWnpyQjVMQ0RDTDBOY3FzYnljbjN5U25vRE4xVWpsSk4yOUNwazAyc1V6cjN5RHVBbVJ1SjJNQVdqQmVqd0JpZG5CMDl5ZXRoZHpwZ0p5dWFEVFlTZWJIZHUwU1hwSXVYZEk3eTB1VldoR1paMHAyYVZfSC1XY1I0ZjJ5QUtjQ2FaS0JoNDNyWC1PTk12a1VuOERieG05UQ?oc=5",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "large-language-models",
+        "model-updates",
+        "ai-hardware",
+        "generative-ai",
+        "alibaba"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "d7552dd6e2c0b32bf6afceb569055a84c52f69d352aaa60b483e9dce87856b58",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "RouteMind: 인간 개입이 RAG 성능에 미치는 영향을 실험하는 Agentic RAG",
+      "url": "https://news.hada.io/topic?id=34109",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "rag",
+        "agentic-ai",
+        "knowledge-systems",
+        "retrieval-augmented-generation",
+        "human-in-the-loop"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "52b311a05fba7debd5f222ab85ed2808d48e3e22a408bfae152815c775b3e2b7",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Meta, macOS용 Muse AI 에이전트 제로데이 취약점 패치",
+      "url": "https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-security",
+        "vulnerability-patch",
+        "ai-agents",
+        "meta"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "3f4f71e62556164fdf08786f7d78659176caf671772f9c7a80b350f17ce7af59",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "Xiaomi, 멀티모달 모델 MiMo-V2.6 공개",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wn36d4/xiaomi_releases_mimov26_frontier_intelligence_all/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "generative-ai",
+        "model-updates",
+        "multimodal-models",
+        "cost-efficiency",
+        "open-development"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "fe5210e192b508142ebcb4eedd5d004b6d30dae47b06790c09f81bfe5c4e1d17",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "OpenAI, AI의 신규 수학 해법 100건 이상 주장 후 자문 그룹 구성",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ2J2Q2JrNzFWNFVJSkYzSnRLZHVlVGtUZG9qUzBNbXFiUmlNb05IZ2RjRDFJeUFZYkdnejZDMXBMalRvSkxoblhITTU2RlNCYXpHRWxCVEIwWE9Da2JVVE1tUEplRXdXcFE0bEhHdGxBVXo1WU9ZeGJnb1V2UUF2NTU1dkFIeE80bjlyWGw1cE1FNXRSaW5NZEVvRWp4b2hDXzduM1FkMDI2LUk?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-capabilities",
+        "trust-and-verification",
+        "model-evaluation",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "3b3756fb85f48c9e7a64969d884ca909cea0623d7d12ec1bf878684806304a20",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "Epoch AI의 JS Denain과 나눈 RSI, 미중 격차, 포스트트레이닝 논쟁",
+      "url": "https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "ai-capabilities",
+        "rsi-recursive-self-improvement",
+        "us-china-ai-gap",
+        "post-training",
+        "model-development"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-2",
+      "content_key": "c5ef439db94fe95e2aa5ea40b22df33c610e13a37fc83dd05902059af2a31443",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-2",
+      "title": "Xiaomi MiMo-V2.6-Pro: RL로 밀어붙인 오픈 웨이트 최상위 모델",
+      "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "large-language-models",
+        "open-weights",
+        "reinforcement-learning",
+        "model-training",
+        "inference-optimization"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:35f15d4fc8d1aaa2",
+      "content_key": "35f15d4fc8d1aaa29515b6d79d129b39c565a5d0e11909689ea7153b1faba6cd",
+      "surface": "more",
+      "title": "AMD의 난수 생성기는 0을 생성하지 못하는가?",
+      "url": "https://news.hada.io/topic?id=34127",
+      "score": 7.0,
+      "summary": "AMD 프로세서의 rdrand와 rdseed 명령어가 16비트 난수 생성 시 0을 출력하지 않는 버그가 보고되었다. 같은 코드를 Intel 프로세서에서 실행하면 0이 정상 생성되며, 32/64비트 출력의 하위 16비트에서는 0이 나타난다. AMD는 문제를 인지하고 내부 상향 전달했으나 5월 23일 기준 원인 분석이나 추가 답변은 없는 상태다.",
+      "tags": [
+        "hardware-bug",
+        "amd-processors",
+        "random-number-generation",
+        "systems-programming",
+        "reproducible-issue"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-22T14:47:16+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:abf6a1cc550b7f37",
+      "content_key": "428f1ee8cdff393a9e33ed091ffeac779c74d8bf5291518aae149225b413a1d8",
+      "surface": "more",
+      "title": "Alibaba shares jump 5% as it debuts 'most powerful' AI chip and 10-trillion-parameter model - The News International",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbmlzMmdPSGRseGgtSUpHVVFjMVdMbXVmazFramduQklWUEY4Q0tLdTBKbHlscXZUbHNnVlJlam1OQ0FJeEw4S29rQVFLZFZzTHpMMGNLNUJUQ3U4Q0Q2VGxfNTR2WldaaHhBYzhOVjZIU3RqbEF3VUc5Z29IRnI5ejIwd0dURUM1dkttaVJUYkVtc3VvWlhSNUExWEhqZU00Nl9yakNSRWt5T1BrOWsxYU8yeFJNR19qcUtOU0h2akhDY2J6VFlMMU930gHGAUFVX3lxTE9QYUtSZXMtV0ZwS2tPX3NTTHVTU2ZERnRldFIyUF9XUkVDTllsbUxPQWhYZGNtZzBfcTVkNVl4VG1pRG9iT1F5T1JsVzJwVjM3b2lvLXJfRjZ3dkt4MG4wM01rUk9XUEhNM0VjenpwYzJoS21PQjlPbzdsTkZKNm9VdHVSTVZDdktWWXR2MHcwS2V6eHpicTFsdDMwaks5elV1SFZvRWs0U0xhcWJ6enQxd2Y1eHpYQjU1VEMyRE96Y0ZOREk5dw?oc=5",
+      "score": 6.0,
+      "summary": "Alibaba가 자체 개발한 AI 칩과 10조 파라미터 규모의 모델을 공개하면서 주가가 5% 상승했다. 구체적인 기술 사양이나 성능 비교 데이터가 제공되지 않아 이 모델이 경쟁 제품 대비 어떤 이점을 가지는지 평가하기 어렵지만, 대규모 AI 모델 개발 경쟁에서 주요 기술 기업의 진전을 보여주는 사례다.",
+      "tags": [
+        "generative-ai",
+        "model-updates",
+        "large-language-models",
+        "ai-hardware",
+        "industry-news"
+      ],
+      "source_type": "google_news",
+      "sub_source": "The News International",
+      "author": "The News International",
+      "published_at": "2026-09-22T09:58:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:f337b6f5836be1de",
+      "content_key": "4b14a6c49e4d1fe35ff99acea1f9c3cc24f29b202926106e4ff8f52f88b5f501",
+      "surface": "more",
+      "title": "China's Alibaba unveils new powerful chip and ambitious AI model plans - Yahoo Tech",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVFFIX3pMbktBbGlTVWFvTlB6T2Y2X3ZhdS13TER0dXdNbHU1eFpTZVZhd1dLVE45OVVtN25zVXNocTVoVXZib1FBYXB5XzJxNzJlYzJkQ1FrdldjWnZFMnR6ZFFIRGt3UkR6Q1ZkVFhMQVBWSEpZajRsTTNpQ2tXd3Y4WXkwbDdRenE4SDJLUQ?oc=5",
+      "score": 5.0,
+      "summary": "Alibaba가 새로운 칩과 야심찬 AI 모델 계획을 공개했다. 구체적인 기술 사양이나 성능 세부사항이 제공되지 않아 발표의 실질적 영향을 평가하기 어렵지만, 중국의 주요 기술 기업이 AI 하드웨어와 모델 개발에 투자하고 있다는 점은 글로벌 AI 경쟁 환경에서 주목할 만하다.",
+      "tags": [
+        "ai-hardware",
+        "chip-development",
+        "generative-ai",
+        "alibaba"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Yahoo Tech",
+      "author": "Yahoo Tech",
+      "published_at": "2026-09-22T07:16:01+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49797982",
+      "content_key": "ad849f27c14c753ea4ee621b89baf0edcd320d5971e2b217c5ca70fd9d3ce160",
+      "surface": "more",
+      "title": "I said no and Apple said yes",
+      "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+      "score": 5.0,
+      "summary": "Apple Intelligence 기능의 개인정보 보호 설정과 사용자 동의 메커니즘을 비판하는 글로, 사용자가 기능을 거부하기 어렵게 설계되었다고 주장합니다. 커뮤니티에서는 투명성 보고서 기능의 실제 동작에 대해 논쟁하고 있으며, Apple의 \"나중에\" 옵션 반복과 사용자 자율성 부족에 대한 우려가 제기되고 있습니다.",
+      "tags": [
+        "apple-intelligence",
+        "privacy",
+        "user-consent",
+        "ai-systems",
+        "trust-and-verification"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "thatslast",
+      "author": "thatslast",
+      "published_at": "2026-09-22T08:04:55+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:3315bb6c04404fa1",
+      "content_key": "3315bb6c04404fa16ad9571cb5b03e5c4c3fdd9b4b42b8bef8cde5ea69c740cb",
+      "surface": "more",
+      "title": "Jev 사용 후기",
+      "url": "https://news.hada.io/topic?id=34115",
+      "score": 5.0,
+      "summary": "Jev는 긴 답변을 생성하는 일반적인 LLM이 아니라, 소프트웨어가 다음 행동을 선택할 수 있도록 구조화된 판단(예·아니오, 선택지, 점수)을 반환하는 모델입니다. 저자는 confidence 점수와 함께 확률을 제공하는 설계와 저렴한 호출 비용이 인상적이었으며, 이를 통해 AI를 업무 흐름에 반복적으로 통합할 수 있을 것으로 평가했습니다.",
+      "tags": [
+        "large-language-models",
+        "model-updates",
+        "pricing",
+        "ai-applications"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "panda",
+      "published_at": "2026-09-22T08:17:17+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49796660",
+      "content_key": "528e853b9c7a4d6619a0d27e52bc991d42cf69cde5bfe56f8004b08f08ac989e",
+      "surface": "more",
+      "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+      "score": 5.0,
+      "summary": "MiMo-v2.6-Pro는 Xiaomi의 최신 언어 모델로, 가격 대비 성능이 우수하다는 평가를 받고 있습니다. 커뮤니티 토론에서는 인공지능 분석(Artificial Analysis) 인덱스의 순위 신뢰성에 의문을 제기하고 있으며, 실제 벤치마크 성능은 Claude Opus 5나 GPT-6 Astra보다 낮지만 가격 효율성이 경쟁력 있다는 점이 주목됩니다. OpenAI 사용 제한으로 인해 중국 모델을 시도하려는 사용자들의 관심이 증가하고 있습니다.",
+      "tags": [
+        "model-updates",
+        "llm-benchmarks",
+        "pricing",
+        "generative-ai",
+        "model-comparison"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "theanonymousone",
+      "author": "theanonymousone",
+      "published_at": "2026-09-22T04:02:09+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:ca8cf5a9deb3d6e9",
+      "content_key": "ca8cf5a9deb3d6e9e56be398aa6e10d8cd0e5e7bd91cac715fa7c05762212fff",
+      "surface": "more",
+      "title": "Show GN: NCP External Access 비공식 TS·Go 인증 라이브러리를 만들었습니다",
+      "url": "https://news.hada.io/topic?id=34125",
+      "score": 5.0,
+      "summary": "NCP External Access 인증을 위한 비공식 TypeScript·Go 라이브러리가 공개되었습니다. 공식 Signing Helper의 구형 Go 런타임 취약점 경고를 피하기 위해 개발되었으며, npm 패키지와 Go 모듈로 제공되고 외부 의존성이 없는 MIT 라이선스 프로젝트입니다. NAVER Cloud 공식 승인은 아니지만 X.509 인증서 기반 요청 서명이 필요한 개발자들에게 유용한 대안이 될 수 있습니다.",
+      "tags": [
+        "open-source",
+        "ncp",
+        "authentication",
+        "go",
+        "typescript"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "calmlake79",
+      "published_at": "2026-09-22T14:08:40+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "03859c219b46a5882d93d9c120deed524e0f14d7f261288c6c0c190e315e02b9"
+}

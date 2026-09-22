@@ -1,0 +1,238 @@
+---
+layout: default
+title: "AI 브리핑 · 2026-09-22 저녁"
+report_id: "2026-09-22-evening"
+date: 2026-09-22
+lang: ko
+---
+
+> 수집한 88건 중 11건을 골랐습니다.
+
+---
+
+**업계 동향**
+1. [AMD's random number generator can't generate a 0?](#item-tech-news-1) ⭐️ 7.0/10
+2. [Git 2.56 출시 임박과 Git 3.0의 주요 호환성 변경 전망](#item-tech-news-2) ⭐️ 7.0/10
+3. [Linear, AI 코딩發 CI 병목을 인프라·도구·캐싱·테스트 최적화로 해결](#item-tech-news-3) ⭐️ 7.0/10
+4. [Kimi Delta Attention의 표현력을 분석하고 개선한 Complex KDA 연구](#item-tech-news-4) ⭐️ 7.0/10
+5. [Alibaba, NVIDIA 대항 AI 칩과 10조 파라미터 Qwen 모델 공개](#item-tech-news-5) ⭐️ 7.0/10
+6. [RouteMind: 인간 개입이 RAG 성능에 미치는 영향을 실험하는 Agentic RAG](#item-tech-news-6) ⭐️ 6.0/10
+7. [Meta, macOS용 Muse AI 에이전트 제로데이 취약점 패치](#item-tech-news-7) ⭐️ 6.0/10
+8. [Xiaomi, 멀티모달 모델 MiMo-V2.6 공개](#item-tech-news-8) ⭐️ 6.0/10
+9. [OpenAI, AI의 신규 수학 해법 100건 이상 주장 후 자문 그룹 구성](#item-tech-news-9) ⭐️ 6.0/10
+
+**심층 분석 · 뉴스레터**
+1. [Epoch AI의 JS Denain과 나눈 RSI, 미중 격차, 포스트트레이닝 논쟁](#item-tech-blog-1) ⭐️ 6.0/10
+2. [Xiaomi MiMo-V2.6-Pro: RL로 밀어붙인 오픈 웨이트 최상위 모델](#item-tech-blog-2) ⭐️ 6.0/10
+
+---
+
+## 업계 동향
+
+<a id="item-tech-news-1"></a>
+### [AMD's random number generator can't generate a 0?](https://board.flatassembler.net/topic.php?t=24261) ⭐️ 7.0/10
+
+AMD의 Zen 2 프로세서 rdrand 명령어에서 0을 생성하지 못하는 버그가 보고되었으며, 일부 사용자는 rdrand16에서 재현 가능하다고 확인했다. 이전에 같은 칩에서 항상 모든 1을 반환하는 버그가 마이크로코드 업데이트로 수정된 바 있어, 수정 과정에서 새로운 문제가 도입되었을 가능성이 제기되었다. 실제 보안 영향은 제한적일 수 있으나\(하드웨어 RNG는 보통 CSPRNG의 시드로만 사용\), 시스템 수준의 난수 생성 신뢰성 문제를 드러낸다.
+
+hackernews · BruceEel · 9월 22일 08:39 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49798204)
+
+**태그**: `#hardware-rng`, `#amd-zen`, `#security-bug`, `#cryptography`, `#systems-programming`
+
+---
+
+<a id="item-tech-news-2"></a>
+### [Git 2.56 출시 임박과 Git 3.0의 주요 호환성 변경 전망](https://news.hada.io/topic?id=34124) ⭐️ 7.0/10
+
+Git 2.56은 릴리스 후보 단계로 9월 말 출시가 예상되며, 병합 커밋을 제외하고 700개 넘는 커밋이 포함되어 이력 편집과 사용성이 개선된다. 대표적으로 실험적인 git history drop 명령이 추가되어 이력에서 특정 커밋을 제거하고 후속 커밋을 재적용할 수 있지만, 병합 커밋이 있는 이력에서는 사용할 수 없다. 유지관리자 Junio Hamano는 다음 버전을 3.0으로 할지 커뮤니티에 물었으며, Git 3.0에는 기본 해시를 SHA-1에서 SHA-256으로 전환, 참조 저장 기본값을 reftable로 변경, 빌드에 Rust를 필수화하는 등의 호환성 변경이 예정되어 있다. GitLab과 Forgejo는 SHA-256을 지원하지만 GitHub의 지원 시점은 불명확하며, Rust 컴파일러가 없는 플랫폼은 3.0으로 업그레이드할 수 없게 된다. 다만 기존 SHA-1 저장소와 reftable 미사용 저장소는 3.0 이후에도 계속 완전히 지원될 예정이며, 최종 출시 결정은 아직 Hamano에게 남아 있다.
+
+rss · GeekNews · 9월 22일 13:34
+
+**「배경」** Git은 해시로 파일, 트리, 커밋 등 모든 객체를 식별하고 이력의 무결성을 검증하는데, 기존 SHA-1은 이론적 공격에 취약할 수 있어 SHA-256으로의 전환이 오래전부터 논의되어 왔다. reftable은 Git 2.45에서 도입된 참조 저장 방식으로, 참조가 수십만 개에 달하는 대형 저장소에서 기존의 파일 기반 참조 저장 방식보다 훨씬 효율적이다.
+
+**「영향」** GitHub에서 저장소를 호스팅하는 개발자는 GitHub의 SHA-256 지원 시점이 불명확한 상황에서 Git 3.0으로 업그레이드할 경우 호환성 문제를 겪을 수 있으며, Rust 컴파일러를 지원하지 않는 플랫폼 운영자는 아예 업그레이드가 불가능해질 수 있다. 저장소에 직접 접근하는 외부 도구 개발자도 reftable 기본값 전환에 대비해야 하지만, 기존 SHA-1 및 파일 기반 참조 저장소는 계속 지원되므로 즉각적인 마이그레이션 압박은 크지 않다.
+
+**태그**: `#git`, `#version-releases`, `#developer-tools`, `#breaking-changes`, `#ecosystem-impact`
+
+---
+
+<a id="item-tech-news-3"></a>
+### [Linear, AI 코딩發 CI 병목을 인프라·도구·캐싱·테스트 최적화로 해결](https://news.hada.io/topic?id=34105) ⭐️ 7.0/10
+
+Linear는 AI 코딩 도구 도입 이후 PR과 테스트가 급증해 CI가 병목이 되자, 인프라·도구 교체, 선행 작업 최적화, 반복 준비 비용 절감, 테스트 실행 개선의 네 영역에서 작업을 진행했다. 연초 이후 테스트 스위트가 거의 4배로 늘었음에도 PR의 CI 대기 시간을 6분 초과에서 5분 남짓으로 줄이고 테스트당 러너 사용 시간을 약 절반으로 낮췄다. 구체적으로는 GitHub Actions 기본 환경을 고성능 외부 러너로 전환해 작업 실행 시간을 평균 34% 단축했고, TypeScript 컴파일러를 tsgo로 바꿔 tsc 검사 시간을 73% 줄였으며, 타입 정보 의존 린트 규칙을 AST 기반으로 재작성해 API 린트 시간을 68% 절감했다. 변경 감지·체크아웃 등 모든 테스트가 기다리는 선행 작업의 지연을 94초에서 20초로 줄이고, 공통 의존성 사전 설치와 캐시 전략 재설계로 샤드당 준비 시간을 44% 단축했으며, 큰 테스트 파일 분할과 안전한 파일에 한해 모듈 격리를 해제하는 isolate:false 방식으로 API 샤드 전체 러너 시간을 실행당 약 32.8분에서 22분으로 줄였다.
+
+rss · GeekNews · 9월 22일 03:42
+
+**「배경」** CI\(지속적 통합\)는 코드 변경마다 자동으로 빌드와 테스트를 실행해 병합 가능 여부를 검증하는 파이프라인으로, 팀 규모나 코드베이스가 커질수록 실행 시간과 인프라 비용이 늘어나는 경향이 있다. 최근 AI 코딩 에이전트가 코드 작성 속도를 크게 높이면서 PR과 테스트 수가 급증했지만, 이를 검증하는 CI 인프라는 같은 속도로 확장되지 못해 병목 현상이 새롭게 부각되고 있다.
+
+**「영향」** Linear의 사례는 AI 에이전트로 코드 생산 속도가 빨라진 팀들이 겪는 공통 병목을 구체적 수치로 보여주며, 러너 교체·컴파일러 전환·캐싱 재설계·테스트 격리 완화 같은 개별 최적화 기법이 TypeScript 외 다른 언어·툴체인에도 적용 가능한 참고 사례가 될 수 있다.
+
+**태그**: `#ci-cd-optimization`, `#infrastructure`, `#typescript`, `#performance-engineering`, `#development-workflow`
+
+---
+
+<a id="item-tech-news-4"></a>
+### [Kimi Delta Attention의 표현력을 분석하고 개선한 Complex KDA 연구](https://www.reddit.com/r/MachineLearning/comments/1wn5uv9/understanding_and_enhancing_kimi_delta_attention_r/) ⭐️ 7.0/10
+
+이 연구는 Gated Deltanet\(GDN\)과 Kimi Delta Attention\(KDA\)의 표현력 차이를 분석하고, KDA의 대각 게이트를 반사\(reflection\) 연산으로 활용해 한 스텝만에 2D 회전을 수행할 수 있음을 보인다. 이를 위해 게이트 범위를 \[-1,1\]로, delta rule 학습률을 \[0,2\]로 확장한 Complex KDA\(CKDA\)를 제안했으며, 이 확장된 형태가 대각선-랭크원 직교 행렬\(diagonal-plus-rank-one orthogonal matrix\)을 표현하고 S3, S4, A5 군을 추적할 수 있지만 S5는 추적할 수 없음을 이론적으로 증명했다. 실험에서 CKDA는 S3, S4 그룹 학습에 성공했고, 오디오 연속 생성\(audio continuation\)에서 유망한 결과를 보였으며, 언어 모델링에서는 안정적으로 학습되어 표준 KDA와 경쟁력 있는 성능을 달성했다. 논문 제목은 'Complex KDA: Understanding and Enhancing the Expressivity of Kimi Delta Attention'이다.
+
+reddit · r/MachineLearning · /u/Yossarian\_1234 · 9월 22일 10:34
+
+**「배경」** Kimi Delta Attention\(KDA\)은 Gated DeltaNet\(GDN\)을 확장한 선형 어텐션\(linear attention\) 메커니즘으로, Moonshot AI의 Kimi Linear 모델 핵심 구성 요소로 도입되었으며 세밀한 대각 게이팅\(fine-grained diagonal gating\)을 통해 유한 상태 RNN 메모리를 더 효과적으로 활용하도록 설계되었다. 선형 어텐션 계열 모델은 시퀀스 길이에 비례하는 연산 비용으로 표준 어텐션의 이차 비용 문제를 해결하지만, 게이트와 학습률 범위 같은 설계 선택에 따라 표현 가능한 변환의 종류\(예: 회전, 순열 그룹 추적 능력\)가 제한될 수 있다는 점이 이 연구의 배경이 된다.
+
+**「의의」** 이 연구는 KDA 기반 아키텍처를 사용하는 연구자들에게 게이트 범위와 학습률 확장이 모델의 군론적 표현력\(group-tracking capability\)을 실질적으로 향상시킬 수 있음을 보여주며, 언어 모델링 성능 저하 없이 이러한 확장이 가능함을 실험적으로 뒷받침한다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://github.com/hwilner/kimi-delta-attention">Kimi Delta Attention (KDA) - Educational Implementation</a></li>
+<li><a href="https://arxiv.org/abs/2510.26692">[2510.26692] Kimi Linear: An Expressive, Efficient Attention ... Linear Attention: Kimi Delta Attention | Jianyu Huang Linear Attention, From Scratch to Kimi 3 (Kimi Delta Attention) GitHub - MoonshotAI/Kimi-Linear Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention Behind Kimi K3: Understanding Kimi Delta Attention (KDA)</a></li>
+
+</ul>
+</details>
+
+**태그**: `#attention-mechanisms`, `#neural-architecture`, `#machine-learning-research`, `#model-expressivity`
+
+---
+
+<a id="item-tech-news-5"></a>
+### [Alibaba, NVIDIA 대항 AI 칩과 10조 파라미터 Qwen 모델 공개](https://news.google.com/rss/articles/CBMi4AFBVV95cUxPampkM1NDbWlfZnFXT3Nhdl9pMElwdy1MbmJkaG5FZ2FkSFpSZko0Vzl6dHd5djJMWEpwSG1EMDBmU0Zwd3RhVW9lSXd2UThDRU5Iek5OazFBYzFYLXMzZ3BEd0tjSVFNTE5mVFl6N1BkMER5ZG85RjdrZVhfRWp3SUIzV20tNGYwRWh1eXNNbTdmQndUcVF5VFR4azFHNmRMZDRYal9FTTBOWHZaazRqTWZvZmtOanZfc2N6UlpYZkEtdThsSm9tR3otTC13X3U0TDYxNk1nY3RDbEs3aHc2UtIB5gFBVV95cUxQQlE2SzZkVkFPTHFjcl9fUTlpQW5UNDktWk13NjRNUUhCX0pEQWhpUFc1OE5kbDYycW1xZVdnWGZKMmJSeUxoLVNaU0xVSmFIWnpyQjVMQ0RDTDBOY3FzYnljbjN5U25vRE4xVWpsSk4yOUNwazAyc1V6cjN5RHVBbVJ1SjJNQVdqQmVqd0JpZG5CMDl5ZXRoZHpwZ0p5dWFEVFlTZWJIZHUwU1hwSXVYZEk3eTB1VldoR1paMHAyYVZfSC1XY1I0ZjJ5QUtjQ2FaS0JoNDNyWC1PTk12a1VuOERieG05UQ?oc=5) ⭐️ 7.0/10
+
+Alibaba가 NVIDIA에 대항할 새로운 자체 AI 칩을 공개하고, 최대 10조 개의 파라미터를 가진 Qwen 모델 개발 계획을 발표했다. 이번 발표로 Alibaba 주가는 5% 상승했으며, 회사 측은 이 칩을 자사가 만든 것 중 '가장 강력한' AI 칩으로 소개했다. 이는 중국 기업들이 미국의 반도체 수출 규제 속에서 자체 AI 하드웨어 역량을 강화하는 동시에, 대규모 언어 모델 경쟁에서도 글로벌 선두주자들과 경쟁하려는 움직임을 보여준다. 구체적인 칩 사양이나 10조 파라미터 모델의 출시 일정 등 세부 기술 정보는 소스에서 명확히 제공되지 않았다.
+
+google\_news · Livemint · 9월 22일 08:32
+
+**「배경」** Alibaba는 자체 대규모 언어 모델 시리즈인 Qwen을 개발해왔으며, 현재 가장 강력한 모델인 Qwen3.8-Max는 약 2.4조 개의 파라미터를 갖추고 있다. 파라미터 수는 AI 모델의 학습 용량을 나타내는 지표로, 미국의 최상위 모델들과 비교되는 기준으로 흔히 사용된다. 이번에 공개된 Zhenwu V900 칩은 자체 AI 인프라를 구축하려는 중국 기업들의 노력의 일환으로, NVIDIA에 대한 수출 규제 속에서 자국산 AI 하드웨어 확보 필요성이 커진 배경과 맞물려 있다.
+
+**「영향」** 이번 발표는 NVIDIA 의존도를 낮추려는 중국 AI 산업의 자립 노력과, Qwen 모델군을 통한 대규모 언어 모델 시장에서의 경쟁력 강화를 동시에 보여주는 신호로 해석될 수 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/">Alibaba deepens AI push with new chip, bigger model; shares ...</a></li>
+<li><a href="https://www.msn.com/en-in/technology/artificial-intelligence/alibaba-unveils-new-ai-chip-to-challenge-nvidia-plans-qwen-models-with-up-to-10-trillion-parameters/ar-AA2cJlbB">Alibaba unveils new AI chip to challenge NVIDIA, plans Qwen ...</a></li>
+<li><a href="https://apnews.com/article/alibaba-ai-chip-qwen-zhenwu-china-us-b29908e516faff9f5a82b201ba954aab">Alibaba unveils new AI technologies in challenge to the US ...</a></li>
+
+</ul>
+</details>
+
+**태그**: `#large-language-models`, `#model-updates`, `#ai-hardware`, `#generative-ai`, `#alibaba`
+
+---
+
+<a id="item-tech-news-6"></a>
+### [RouteMind: 인간 개입이 RAG 성능에 미치는 영향을 실험하는 Agentic RAG](https://news.hada.io/topic?id=34109) ⭐️ 6.0/10
+
+RouteMind는 사람이 정의한 지식 영역\(Area\)과 그 관계를 기반으로 Agent가 먼저 어디를 찾아야 할지 routing한 뒤 해당 영역의 문서를 읽는 Agentic RAG 프로젝트다. 저자는 사람이 모든 지식을 구조화할 때의 정확성과 순수 embedding 검색이 주는 확장성 사이에서 최적 지점을 찾기 위해, routing accuracy와 false absence\(실제로 있는데 not here로 오판하는 경우\), corpus를 10배 늘려도 routing table 수정 없이 구조가 유지되는지, naive RAG·hybrid+rerank·routing 방식 간 비교, 과거에는 맞았지만 현재는 유효하지 않은 stale/superseded 정보 구분 여부를 실험하고 있다. 최근 실험에서는 관련 문서를 찾는 retrieval과 그중 현재 유효한 정보를 판단하는 continuity/authority가 서로 다른 문제일 수 있다는 결과를 확인했다. 아직 이 방식이 기존 RAG보다 우월하다는 결론은 없으며, 인간 개입 비용과 정확도 향상 사이의 경계를 찾는 탐색 단계다. MCP 서버 형태로 사용 가능하며 지식 데이터는 DB 대신 Git repository에 저장한다.
+
+rss · GeekNews · 9월 22일 06:43
+
+**「배경」** RAG\(Retrieval-Augmented Generation\)는 문서를 chunking하고 embedding해 저장한 뒤 질의 시 semantic similarity로 관련 문서를 검색해 LLM에 제공하는 방식으로, 확장성은 좋지만 오래된 정보와 최신 정보, 권위 있는 출처를 구분하기 어렵다는 한계가 있다. Agentic RAG는 이 검색 과정에 Agent가 개입해 어디를 검색할지 스스로 판단하게 하는 접근으로, RouteMind는 이 판단 기준을 사람이 미리 정의한 routing table로 보완하는 human-in-the-loop 구조를 취한다.
+
+**「영향」** 조직의 지식 관리나 RAG 시스템을 운영하는 개발자들에게, retrieval과 정보의 현재 유효성 판단\(continuity/authority\)을 별개 문제로 설계해야 한다는 시사점을 제공하며, 이는 stale 정보로 인한 RAG 오답 문제를 다루는 데 참고가 될 수 있다.
+
+**태그**: `#rag`, `#agentic-ai`, `#knowledge-systems`, `#retrieval-augmented-generation`, `#human-in-the-loop`
+
+---
+
+<a id="item-tech-news-7"></a>
+### [Meta, macOS용 Muse AI 에이전트 제로데이 취약점 패치](https://www.theverge.com/tech/998679/meta-muse-patch-zero-day-exploit-ai-agent) ⭐️ 6.0/10
+
+Meta가 macOS용 Muse 앱에서 발견된 제로데이 취약점을 패치했다. 보안 연구자 Patrick Wardle이 발견한 이 버그는 문서화되지 않은 Muse 설정을 악용해, 로컬 코드 실행 권한을 가진 공격자가 AI 에이전트를 제어할 수 있게 했다. 이를 통해 공격자는 전사\(transcription\) 처리를 Meta 서버가 아닌 다른 곳으로 리다이렉트할 수 있었다. Meta는 해당 취약점을 확인한 후 패치를 배포해 문제를 해결했다.
+
+rss · The Verge AI · 9월 22일 11:53
+
+**「배경」** Muse는 Meta가 내놓은 macOS용 AI 에이전트 앱으로, 음성 받아쓰기\(dictation\) 기능을 수행할 때 사용자의 음성 데이터를 Meta 서버로 전송해 전사 처리를 한다. Patrick Wardle는 보안 도구 개발 비영리단체 Objective-See의 설립자로, 이번 취약점을 증명하기 위해 'not-a-mused'라는 개념 증명\(proof-of-concept\) 코드를 제작해 공개했다.
+
+**「영향」** 이미 로컬 코드 실행 권한을 확보한 공격자에게만 해당되는 제한적 취약점이지만, macOS용 Muse 사용자는 패치 적용 전까지 AI 에이전트의 전사 처리 흐름이 Meta 서버가 아닌 임의의 곳으로 리다이렉트될 위험에 노출됐었다. 이번 사례는 에이전트형 AI 시스템이 미문서화된 설정값을 통해서도 제어권을 탈취당할 수 있음을 보여주며, AI 에이전트 보안 감사와 설정 노출 최소화의 필요성을 부각시킨다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.theregister.com/ai-and-ml/2026/09/21/meta-muse-ai-app-flaw-lets-local-malware-redirect-dictation-traffic/5297980">Meta Muse AI app flaw lets local malware redirect dictation traffic</a></li>
+
+</ul>
+</details>
+
+**태그**: `#ai-security`, `#vulnerability-patch`, `#ai-agents`, `#meta`
+
+---
+
+<a id="item-tech-news-8"></a>
+### [Xiaomi, 멀티모달 모델 MiMo-V2.6 공개](https://www.reddit.com/r/MachineLearning/comments/1wn36d4/xiaomi_releases_mimov26_frontier_intelligence_all/) ⭐️ 6.0/10
+
+Xiaomi가 멀티모달 모델 MiMo-V2.6을 공개하며 'Frontier intelligence, all the modalities, built in public'이라는 슬로건을 내세웠다. 해당 모델의 RL\(강화학습\) 훈련에 소요된 총 비용은 $3.5M로 공개되었으며, 이는 상대적으로 적은 비용으로 프론티어급 성능을 목표로 했다는 점을 강조하는 수치다. 모델은 실시간으로 벤치마크 성적을 공개하는 라이브 대시보드와 함께 제공되어, 성능 주장을 외부에서 지속적으로 확인할 수 있도록 했다. 관련 정보는 Xiaomi의 공식 MiMo 페이지\(mimo.xiaomi.com/mimo-v2-6\)에서 확인할 수 있다.
+
+reddit · r/MachineLearning · /u/we\_are\_mammals · 9월 22일 07:56
+
+**「배경」** MiMo는 Xiaomi가 개발해온 AI 모델 시리즈로, 이번 MiMo-V2.6은 텍스트뿐 아니라 여러 모달리티를 네이티브로 처리하는 omnimodal 모델로 소개되었으며 Pro와 Flash 두 가지 버전으로 제공된다. 최근 AI 업계에서는 대규모 파라미터 확장 대신 강화학습\(RL\) 단계의 연산량을 늘려 검증 가능한 과제를 통해 모델이 스스로 개선하도록 하는 방식이 주목받고 있는데, MiMo-V2.6 역시 이러한 RL 중심 훈련 접근을 채택했다. '벤치마크 대시보드를 실시간 공개'하고 훈련 비용을 구체적으로 밝히는 방식은 모델 성능 검증과 비용 투명성을 둘러싼 업계 논쟁 속에서 나온 시도로 볼 수 있다.
+
+**「영향」** Xiaomi가 MiMo-V2.6을 오픈 웨이트로 공개하고 309B\(활성 15B\) MoE 구조와 저비용 RL 훈련 비용을 라이브 대시보드로 공개함으로써, 개발자들은 API 제공자를 통해 저렴하게 옴니모달 코딩·장문맥 에이전트 모델을 실험할 수 있게 되었다. 다만 $3.5M 훈련 비용 및 벤치마크 수치는 독립 검증 없이 제공된 것이라 실제 성능·효율성 우위는 커뮤니티 재현 전까지 불확실하다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://mimo.xiaomi.com/mimo-v2-6">MiMo - V 2 . 6 | Xiaomi</a></li>
+<li><a href="https://eu.36kr.com/en/p/3994203967978505">Luo Fuli Bets on Large-Scale RL : Xiaomi &#x27;s Most Powerful...</a></li>
+<li><a href="https://news.aibase.com/news/31249">Xiaomi releases and opens source MiMo - V 2 . 6 : Smart Index 46 Points...</a></li>
+<li><a href="https://openrouter.ai/xiaomi/mimo-v2.6-flash">MiMo -V2.6-Flash - API Pricing &amp; Providers | OpenRouter</a></li>
+<li><a href="https://models.dev/models/xiaomi/mimo-v2.6-flash/">MiMo -V2.6-Flash pricing, providers, and specs | Models .dev</a></li>
+<li><a href="https://kie.ai/blog/what-is-xiaomi-mimo-v2-6">Meet Xiaomi MiMo V2.6, the 1M-Token Omnimodal Model</a></li>
+
+</ul>
+</details>
+
+**태그**: `#generative-ai`, `#model-updates`, `#multimodal-models`, `#cost-efficiency`, `#open-development`
+
+---
+
+<a id="item-tech-news-9"></a>
+### [OpenAI, AI의 신규 수학 해법 100건 이상 주장 후 자문 그룹 구성](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ2J2Q2JrNzFWNFVJSkYzSnRLZHVlVGtUZG9qUzBNbXFiUmlNb05IZ2RjRDFJeUFZYkdnejZDMXBMalRvSkxoblhITTU2RlNCYXpHRWxCVEIwWE9Da2JVVE1tUEplRXdXcFE0bEhHdGxBVXo1WU9ZeGJnb1V2UUF2NTU1dkFIeE80bjlyWGw1cE1FNXRSaW5NZEVvRWp4b2hDXzduM1FkMDI2LUk?oc=5) ⭐️ 6.0/10
+
+OpenAI가 자사 AI 시스템이 100개 이상의 새로운 수학 문제 해법을 제시했다고 발표한 뒤, 이를 검증하기 위한 수학 자문 그룹을 구성했다고 보도되었다. 이는 AI가 제시한 결과물이 전문가의 인간 검증을 필요로 할 만큼 복잡하고 방대해졌음을 시사한다. 다만 '해법'이 정확히 무엇을 의미하는지, 어떤 수준의 수학 문제인지, 자문 그룹의 구성원과 구체적인 검증 절차 및 권한 범위 등 핵심 세부사항은 원문에서 명확히 확인되지 않는다.
+
+google\_news · slguardian.org · 9월 22일 05:36
+
+**「배경」** OpenAI는 프린스턴 소재 고등연구소\(Institute for Advanced Study\)에 자리한 독립적 자문 기구인 'Advisory Group on Mathematics and Artificial Intelligence'를 새로 발족시켰다. 이는 OpenAI 내부 모델이 오랫동안 풀리지 않았던 미해결 수학 문제 100여 개를 해결했다고 주장하는 상황에서, AI가 생성한 수학적 결과물의 검증과 대외 소통을 전문가들이 감독하도록 하기 위한 조치이다. 대형언어모델이 수학 증명이나 문제 풀이에서 오류를 만들어내거나 과장된 주장을 하는 사례가 반복되어 온 만큼, 전문가 검증 체계의 필요성이 커진 배경도 이번 결정에 영향을 준 것으로 보인다.
+
+**「영향」** AI가 생성한 수학적 주장의 신뢰성을 확보하려면 전문가에 의한 별도 검증 체계가 필요하다는 점을 OpenAI 스스로 인정한 사례로, AI 능력 평가와 검증 방법론에 대한 논의를 촉발할 수 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://openai.com/index/advisory-group-on-mathematics-and-ai/">Advisory Group on Mathematics and Artificial Intelligence</a></li>
+<li><a href="https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/">OpenAI forms math advisory group as its AI resolves more than ...</a></li>
+<li><a href="https://www.itechpost.com/articles/237389/20260922/openai-launches-math-advisory-group-ai-advances-mathematical-research-100-solutions.htm">OpenAI Launches Math Advisory Group as AI Advances ...</a></li>
+
+</ul>
+</details>
+
+**태그**: `#ai-capabilities`, `#trust-and-verification`, `#model-evaluation`, `#generative-ai`
+
+---
+
+## 심층 분석 · 뉴스레터
+
+<a id="item-tech-blog-1"></a>
+### [Epoch AI의 JS Denain과 나눈 RSI, 미중 격차, 포스트트레이닝 논쟁](https://www.interconnects.ai/p/debating-rsi-the-us-china-gap-and) ⭐️ 6.0/10
+
+rss · Interconnects · 9월 22일 13:37
+
+**「배경」** OpenAI와 Anthropic이 AI가 AI 연구를 가속화한다는 이른바 RSI\(recursive self-improvement\)를 뒷받침하는 블로그 근거를 잇달아 내놓으면서, AI 발전이 스스로를 가속하는 임계점에 임박했다는 우려가 다시 커졌다. Nathan Lambert는 Epoch AI의 JS Denain을 초대해 이 주장들이 실제로 얼마나 강한 증거인지, 그리고 컴퓨트 격차가 훨씬 큰데도 중국 랩들이 왜 4~8개월 정도의 짧은 능력 격차만 유지하는지를 함께 검토한다.
+
+**「방안」** Denain은 OpenAI가 공개한 연구원들의 Codex 지출이 매달 두 배씩 늘고 있다는 지표가 실제 가치를 시사하긴 하지만, 6개월 내 소프트웨어 지능 폭발을 뒷받침할 만큼 강한 증거는 아니라고 본다. 그는 랩 내부가 외부에는 없는 결정적 정보를 갖고 있다기보다, 공개 지표에 대한 해석과 문화적 긴장감 차이가 더 크다고 추정한다. 실존적 위험 논의로 가면 그는 스스로를 “능력치가 궁극적으로 얼마나 커지느냐”가 모든 입장 차이를 가르는 핵심 변수로 보는 “capabilities theory of everything” 관점으로 규정한다. 미중 격차 논의에서는 증류\(distillation\), Claude 라우터가 만들어내는 실사용 프롬프트 분포, 데이터·아이디어 유출, 벤치마크에 대한 상장기업 특유의 민감성, 반복적인 소규모 작업에 강한 인력 조직 등 여러 대안 설명을 하나씩 검토하지만, 어느 것도 단독으로 컴퓨트 격차와 능력 격차 사이의 큰 불일치를 완전히 설명하지 못한다고 인정한다. 포스트트레이닝 구조에 대해서는 두 사람 모두 프런티어 랩의 실제 레시피가 OLMo식 3단계 근사보다 훨씬 복잡할 것이라 추정하며, 도메인별 전문팀이 데이터·RL 환경·하이퍼파라미터를 입찰하듯 제안하고 이를 대규모 RL 런에 통합하는 구조, 혹은 다수의 전문가 모델을 증류해 합치는 구조\(MOPD\) 등 서로 다른 가설을 제시하지만 확정하지 못한다.
+
+**「启示」** Lambert와 Denain의 대화가 보여주는 핵심은, RSI 임박 신호나 미중 능력 격차 같은 현재의 공개 증거들이 그럴듯한 서사를 지지하긴 해도 결정적이지는 않다는 점이며, 프런티어 랩의 실제 포스트트레이닝 파이프라인이 얼마나 복잡한지 모르는 상태에서는 이런 추세를 함부로 단정할 수 없다는 것이다.
+
+**태그**: `#ai-capabilities`, `#rsi-recursive-self-improvement`, `#us-china-ai-gap`, `#post-training`, `#model-development`
+
+---
+
+<a id="item-tech-blog-2"></a>
+### [Xiaomi MiMo-V2.6-Pro: RL로 밀어붙인 오픈 웨이트 최상위 모델](https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b) ⭐️ 6.0/10
+
+rss · Latent Space · 9월 22일 06:30
+
+**「배경」** 폐쇄형 API와 오픈 가중치 모델 간 성능 격차가 좁혀지면서, 중국 AI 랩들은 사전학습 규모 경쟁 대신 강화학습\(RL\) 인프라와 학습 환경 구축에서 승부를 걸고 있다. 스마트폰 제조사로 알려진 Xiaomi가 프론티어급 모델을 내놓은 것 자체가 기존 '6대 타이거'로 대표되던 중국 AI 랩 구도를 흔드는 사건이다.
+
+**「방안」** 저자에 따르면 Xiaomi의 MiMo-V2.6-Pro는 1.02T 총 파라미터\(42B 활성\)의 네이티브 옴니모달 모델로, RL 학습 비용이 약 $2.6M, 130시간·75B 토큰 규모의 실행으로 완성됐다. 이는 JAX와 TPU 기반으로 RL 스케일링이 '코드 재작성이 아니라 설정 변경'만으로 가능하도록 설계된 결과이며, DeepSeek 출신 엔지니어 Fuli Luo가 최종 RL 실행 과정을 실시간 공개할 만큼 투명성을 강조했다는 점도 특징이다. 기술적으로는 세 축의 RL 확장이 핵심이다: 업데이트당 1,568개 샘플, 최대 1M 컨텍스트, 스텝당 3.5~3.7B 토큰을 처리하는 완전 비동기 대규모 배치 구조, 코딩·에이전트·비전·사이버 보안을 아우르는 다중 작업 환경\(여러 하니스를 섞어 한 능력의 향상이 다른 능력을 강화하도록 설계\), 그리고 그룹 내 상대 비교로 장기 과제에 더 정밀한 보상 신호를 주는 그레이더 컴퓨트 확대다. Xiaomi는 환경 코드와 학습 레시피, 7,000개 이상의 RL 환경\(코딩/SWE, 사이버 취약점 재현, 일반 지식 작업, 웹 개발, 음악 생성 등\)을 MIT 라이선스로 공개했지만, 전체 태스크 데이터셋 자체는 아직 미공개다. Artificial Analysis의 Intelligence Index에서 오픈 웨이트 모델 중 최상위\(46점\)를 기록했고, 입력 $0.435/M·출력 $0.87/M 토큰의 비용 효율성도 갖췄다는 평가를 받았다. 저자는 이런 수치가 사실이라면 RL/포스트트레이닝이 사전학습보다 훨씬 저렴하게 프론티어급 성능에 근접하는 경로가 되고 있음을 시사한다고 본다.
+
+**「启示」** 저자는 이번 릴리스가 단순히 강력한 모델 하나의 등장이 아니라, 고품질 RL 환경과 학습 인프라가 이전 사이클의 사전학습 데이터만큼 전략적 자산이 되어가는 흐름을 보여준다고 해석한다. 동시에 중국 랩들의 빠른 릴리스 속도와 오픈-폐쇄 모델 간 격차 축소가 결합되면서, 오픈 웨이트 생태계가 더 이상 중형 모델에 머물지 않고 프론티어급 MoE를 저비용으로 내놓는 단계에 진입했다는 것이 이 기사의 핵심 주장이다.
+
+**태그**: `#large-language-models`, `#open-weights`, `#reinforcement-learning`, `#model-training`, `#inference-optimization`
+
+---
