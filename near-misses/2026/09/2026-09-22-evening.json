@@ -1,0 +1,140 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:35f15d4fc8d1aaa2",
+    "title": "AMD의 난수 생성기는 0을 생성하지 못하는가?",
+    "url": "https://news.hada.io/topic?id=34127",
+    "score": 7.0,
+    "summary": "AMD 프로세서의 rdrand와 rdseed 명령어가 16비트 난수 생성 시 0을 출력하지 않는 버그가 보고되었다. 같은 코드를 Intel 프로세서에서 실행하면 0이 정상 생성되며, 32/64비트 출력의 하위 16비트에서는 0이 나타난다. AMD는 문제를 인지하고 내부 상향 전달했으나 5월 23일 기준 원인 분석이나 추가 답변은 없는 상태다.",
+    "reason": "Important hardware bug report with reproducible evidence affecting AMD's random number generation instructions (rdrand/rdseed). Directly relevant to systems programming and hardware reliability. Shows concrete technical investigation with workarounds, though AMD has not yet provided root cause analysis.",
+    "tags": [
+      "hardware-bug",
+      "amd-processors",
+      "random-number-generation",
+      "systems-programming",
+      "reproducible-issue"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-22T14:47:16+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:abf6a1cc550b7f37",
+    "title": "Alibaba shares jump 5% as it debuts 'most powerful' AI chip and 10-trillion-parameter model - The News International",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbmlzMmdPSGRseGgtSUpHVVFjMVdMbXVmazFramduQklWUEY4Q0tLdTBKbHlscXZUbHNnVlJlam1OQ0FJeEw4S29rQVFLZFZzTHpMMGNLNUJUQ3U4Q0Q2VGxfNTR2WldaaHhBYzhOVjZIU3RqbEF3VUc5Z29IRnI5ejIwd0dURUM1dkttaVJUYkVtc3VvWlhSNUExWEhqZU00Nl9yakNSRWt5T1BrOWsxYU8yeFJNR19qcUtOU0h2akhDY2J6VFlMMU930gHGAUFVX3lxTE9QYUtSZXMtV0ZwS2tPX3NTTHVTU2ZERnRldFIyUF9XUkVDTllsbUxPQWhYZGNtZzBfcTVkNVl4VG1pRG9iT1F5T1JsVzJwVjM3b2lvLXJfRjZ3dkt4MG4wM01rUk9XUEhNM0VjenpwYzJoS21PQjlPbzdsTkZKNm9VdHVSTVZDdktWWXR2MHcwS2V6eHpicTFsdDMwaks5elV1SFZvRWs0U0xhcWJ6enQxd2Y1eHpYQjU1VEMyRE96Y0ZOREk5dw?oc=5",
+    "score": 6.0,
+    "summary": "Alibaba가 자체 개발한 AI 칩과 10조 파라미터 규모의 모델을 공개하면서 주가가 5% 상승했다. 구체적인 기술 사양이나 성능 비교 데이터가 제공되지 않아 이 모델이 경쟁 제품 대비 어떤 이점을 가지는지 평가하기 어렵지만, 대규모 AI 모델 개발 경쟁에서 주요 기술 기업의 진전을 보여주는 사례다.",
+    "reason": "Alibaba's announcement of a new AI chip and 10-trillion-parameter model represents a significant industry development with concrete business impact (stock movement), but the supplied content lacks technical depth, specific performance details, or independent verification. The headline uses promotional language ('most powerful') without supporting evidence. Relevant to reader interests in AI model developments and industry news, but requires deeper technical analysis to assess true significance.",
+    "tags": [
+      "generative-ai",
+      "model-updates",
+      "large-language-models",
+      "ai-hardware",
+      "industry-news"
+    ],
+    "source_type": "google_news",
+    "sub_source": "The News International",
+    "author": "The News International",
+    "published_at": "2026-09-22T09:58:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49797982",
+    "title": "I said no and Apple said yes",
+    "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+    "score": 5.0,
+    "summary": "Apple Intelligence 기능의 개인정보 보호 설정과 사용자 동의 메커니즘을 비판하는 글로, 사용자가 기능을 거부하기 어렵게 설계되었다고 주장합니다. 커뮤니티에서는 투명성 보고서 기능의 실제 동작에 대해 논쟁하고 있으며, Apple의 \"나중에\" 옵션 반복과 사용자 자율성 부족에 대한 우려가 제기되고 있습니다.",
+    "reason": "Critical examination of Apple Intelligence privacy and consent practices with substantive community debate about user autonomy and system design. Matches reader interests in trust, verification, and AI systems, though the technical depth is moderate and some claims are disputed in comments.",
+    "tags": [
+      "apple-intelligence",
+      "privacy",
+      "user-consent",
+      "ai-systems",
+      "trust-and-verification"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "thatslast",
+    "author": "thatslast",
+    "published_at": "2026-09-22T08:04:55+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49796660",
+    "title": "MiMo-v2.6-Pro: Intelligence, Performance and Price Analysis",
+    "url": "https://artificialanalysis.ai/models/mimo-v2-6-pro",
+    "score": 5.0,
+    "summary": "MiMo-v2.6-Pro는 Xiaomi의 최신 언어 모델로, 가격 대비 성능이 우수하다는 평가를 받고 있습니다. 커뮤니티 토론에서는 인공지능 분석(Artificial Analysis) 인덱스의 순위 신뢰성에 의문을 제기하고 있으며, 실제 벤치마크 성능은 Claude Opus 5나 GPT-6 Astra보다 낮지만 가격 효율성이 경쟁력 있다는 점이 주목됩니다. OpenAI 사용 제한으로 인해 중국 모델을 시도하려는 사용자들의 관심이 증가하고 있습니다.",
+    "reason": "Incremental model update with pricing focus. The item presents a comparative analysis of MiMo-v2.6-Pro against other LLMs, with community discussion revealing mixed signals about ranking accuracy and practical performance. Matches reader interests in model updates and pricing, but lacks groundbreaking technical depth or novel insights. Community skepticism about benchmark methodology reduces confidence in the analysis.",
+    "tags": [
+      "model-updates",
+      "llm-benchmarks",
+      "pricing",
+      "generative-ai",
+      "model-comparison"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "theanonymousone",
+    "author": "theanonymousone",
+    "published_at": "2026-09-22T04:02:09+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:ca8cf5a9deb3d6e9",
+    "title": "Show GN: NCP External Access 비공식 TS·Go 인증 라이브러리를 만들었습니다",
+    "url": "https://news.hada.io/topic?id=34125",
+    "score": 5.0,
+    "summary": "NCP External Access 인증을 위한 비공식 TypeScript·Go 라이브러리가 공개되었습니다. 공식 Signing Helper의 구형 Go 런타임 취약점 경고를 피하기 위해 개발되었으며, npm 패키지와 Go 모듈로 제공되고 외부 의존성이 없는 MIT 라이선스 프로젝트입니다. NAVER Cloud 공식 승인은 아니지만 X.509 인증서 기반 요청 서명이 필요한 개발자들에게 유용한 대안이 될 수 있습니다.",
+    "reason": "Community-contributed open-source library addressing a real pain point (outdated official tooling with security warnings). Relevant to readers interested in open-source tools and infrastructure, but limited scope—specific to NCP (NAVER Cloud Platform) users and X.509 certificate handling. Moderate technical depth and utility.",
+    "tags": [
+      "open-source",
+      "ncp",
+      "authentication",
+      "go",
+      "typescript"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "calmlake79",
+    "published_at": "2026-09-22T14:08:40+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:3315bb6c04404fa1",
+    "title": "Jev 사용 후기",
+    "url": "https://news.hada.io/topic?id=34115",
+    "score": 5.0,
+    "summary": "Jev는 긴 답변을 생성하는 일반적인 LLM이 아니라, 소프트웨어가 다음 행동을 선택할 수 있도록 구조화된 판단(예·아니오, 선택지, 점수)을 반환하는 모델입니다. 저자는 confidence 점수와 함께 확률을 제공하는 설계와 저렴한 호출 비용이 인상적이었으며, 이를 통해 AI를 업무 흐름에 반복적으로 통합할 수 있을 것으로 평가했습니다.",
+    "reason": "A hands-on review of Jev, a specialized LLM model designed for structured decision-making rather than long-form generation. The author provides concrete technical observations about the model's design (returning yes/no, multiple choice, or scored outputs with confidence metrics) and cost efficiency for workflow integration. Matches reader interests in LLM developments and practical AI applications, though lacks broader industry impact or novel technical insights.",
+    "tags": [
+      "large-language-models",
+      "model-updates",
+      "pricing",
+      "ai-applications"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "panda",
+    "published_at": "2026-09-22T08:17:17+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:f337b6f5836be1de",
+    "title": "China's Alibaba unveils new powerful chip and ambitious AI model plans - Yahoo Tech",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVFFIX3pMbktBbGlTVWFvTlB6T2Y2X3ZhdS13TER0dXdNbHU1eFpTZVZhd1dLVE45OVVtN25zVXNocTVoVXZib1FBYXB5XzJxNzJlYzJkQ1FrdldjWnZFMnR6ZFFIRGt3UkR6Q1ZkVFhMQVBWSEpZajRsTTNpQ2tXd3Y4WXkwbDdRenE4SDJLUQ?oc=5",
+    "score": 5.0,
+    "summary": "Alibaba가 새로운 칩과 야심찬 AI 모델 계획을 공개했다. 구체적인 기술 사양이나 성능 세부사항이 제공되지 않아 발표의 실질적 영향을 평가하기 어렵지만, 중국의 주요 기술 기업이 AI 하드웨어와 모델 개발에 투자하고 있다는 점은 글로벌 AI 경쟁 환경에서 주목할 만하다.",
+    "reason": "Incremental but relevant development in AI hardware and model competition. The announcement of a new chip and AI model plans from a major technology company has moderate industry significance, but the supplied content lacks technical depth, concrete specifications, performance claims, or details about the models' capabilities. Without substantive information, it reads as a routine announcement rather than a breakthrough.",
+    "tags": [
+      "ai-hardware",
+      "chip-development",
+      "generative-ai",
+      "alibaba"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Yahoo Tech",
+    "author": "Yahoo Tech",
+    "published_at": "2026-09-22T07:16:01+00:00",
+    "profile": "tech-news"
+  }
+]
