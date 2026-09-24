@@ -1,0 +1,571 @@
+[
+  {
+    "id": "arxiv:paper:2609.28470",
+    "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+    "url": "https://arxiv.org/abs/2609.28470",
+    "score": 7.0,
+    "summary": "StudentBench는 2,383명의 학생을 대상으로 AI 튜터링과 인간 튜터링의 GRE 학습 성과를 비교한 대규모 실증 연구입니다. 연구 결과 최고 성능의 AI 튜터는 인간 튜터와 통계적으로 동등한 학습 성과를 달성했으며(p=.015), 7개 GRE 영역 중 5개에서 인간 튜터를 초과했습니다. 특히 한 AI 튜터는 인간 튜터 대비 918배 낮은 비용(학습 성과 1% 향상당 $0.0052 vs $4.81)으로 동등한 성과를 냈으며, 응답 속도가 빠를수록 학생 참여도와 학습 성과가 높아지는 인과관계를 확인했습니다.",
+    "reason": "Well-designed empirical study with large-scale data (175k+ messages, 2,383 participants) directly addressing a practitioner concern: whether LLM tutoring matches human tutoring quality. Rigorous methodology (statistical equivalence testing, expert rubric evaluations, causal chain analysis) and honest reporting of results across multiple dimensions. Public platform and dataset enable reproducibility. The finding that AI tutoring achieves human-equivalent learning gains at 918× lower cost is actionable for practitioners building educational applications, though the scope is limited to GRE prep and the practical deployment implications remain unclear.",
+    "tags": [
+      "large-language-models",
+      "education",
+      "empirical-evaluation",
+      "cost-efficiency",
+      "benchmark"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Curtis Northcutt, Inaara Hasmani, Kevin Feng, Trevor Khangi, Andreas Plesner",
+    "published_at": "2026-09-23T17:57:45+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28449",
+    "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
+    "url": "https://arxiv.org/abs/2609.28449",
+    "score": 7.0,
+    "summary": "SWE-Flux는 12개의 실제 Python 저장소에서 480개의 실행 기반 인스턴스를 포함하는 저장소 수준의 동적 실행 추론 벤치마크입니다. 기존 벤치마크와 달리 수동 작성이나 LLM 판정이 아닌 계측된 테스트 실행에서 자동으로 수집한 정답을 사용합니다. 5개 LLM 평가 결과 최고 성능 모델도 37% 정확도에 불과하며, 모델들은 제어 흐름과 예외 처리는 잘하지만 데이터플로우와 절차 간 실행 추론에서 어려움을 보입니다. 이는 코드 작업에 LLM을 사용하는 실무자들이 모델의 실행 추론 능력의 실제 한계를 이해하는 데 중요합니다.",
+    "reason": "Well-designed benchmark with automatic gold-standard generation from instrumented execution, addressing a real gap in LLM evaluation for code reasoning. Solid empirical study showing clear capability boundaries (37% best accuracy) across execution reasoning tasks. Reproducible methodology with repository-level scope and variant generation pipeline. Directly relevant to practitioners building with LLMs for code tasks.",
+    "tags": [
+      "code-reasoning",
+      "llm-evaluation",
+      "benchmark",
+      "program-execution",
+      "software-engineering"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.SE",
+    "author": "Hamed Taherkhani, Mohammad Abdollahi, Melika Sepidband, Hridya Dhulipala, Tien N. Nguyen",
+    "published_at": "2026-09-23T17:46:50+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28335",
+    "title": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
+    "url": "https://arxiv.org/abs/2609.28335",
+    "score": 7.0,
+    "summary": "EU AI Act 규정에 따른 시스템 리스크 평가를 위해 19개 공개 벤치마크를 CBRN, 사이버 공격, 해로운 조작, 제어 상실 등 4가지 범주로 정리한 평가 파이프라인과 대시보드를 공개했다. 최악의 경우 집계 시 평균 집계 대비 점수가 14~37점 하락하는 등 모델 리스크 평가에서 숨겨질 수 있는 정보를 드러낸다. LLM 판사의 인간 평가자와의 일치도(κ=0.78–0.82)와 블라인드 감사(83% 변환 유지)를 통해 검증되었으며, 사용자 조사에서 대부분이 대시보드가 다양한 설정에서 모델 평가를 보도록 장려했다고 보고했다.",
+    "reason": "Solid contribution addressing a real gap: transparent, reproducible evaluation of systemic AI risks under EU regulation. The work combines 19 benchmarks into a coherent framework with an open dashboard, includes reasonable validation (LLM judge agreement, blind audit of perturbations), and directly serves practitioners and regulators who need to assess model safety. The worst-case vs. average aggregation insight (14-37 point difference) is concrete and actionable. Scope is somewhat narrow—evaluation rather than new methods—but the execution appears honest and the tool could influence how models are assessed.",
+    "tags": [
+      "ai-safety",
+      "model-evaluation",
+      "eu-regulation",
+      "transparency",
+      "benchmarking"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Jacob T. Emmerson, Phuong-Anh Nguyen-Le, Ronan Romano, Wilber Sean V. Anterola, Yann Billeter",
+    "published_at": "2026-09-23T16:13:36+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:d0021b3d5967c75a",
+    "title": "Snapdragon X2 Series에 Linux 지원이 도입될 예정",
+    "url": "https://news.hada.io/topic?id=34210",
+    "score": 6.0,
+    "summary": "Qualcomm이 Snapdragon X2 Series에 Linux 지원을 추진 중이며, Hexagon NPU와 Adreno GPU 드라이버를 Linux 업스트림에 반영하고 있다. Debian은 2026년 말, Ubuntu는 2027년 상반기 인증을 목표로 하고 있으며, 온디바이스 AI 에이전트 시연에서는 사진 검색·정리, 계층형 작업 분배, 실시간 팟캐스트 지원 등 실용적인 사용 사례를 보여주었다. 이는 Snapdragon PC 생태계를 Windows와 Chromebook을 넘어 Linux로 확장하면서 개발자와 기기 제조사의 선택지를 늘리는 의미 있는 진전이다.",
+    "reason": "Incremental but meaningful development: Linux support for Snapdragon X2 expands platform options and represents concrete progress in on-device AI infrastructure. The timeline details and specific use cases (photo management, hierarchical agents, real-time transcription) provide substantive technical content, though the announcement lacks major breakthroughs or paradigm shifts.",
+    "tags": [
+      "snapdragon",
+      "linux-support",
+      "on-device-ai",
+      "hardware-platforms",
+      "ai-agents"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-24T02:33:10+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2609.28372",
+    "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+    "url": "https://arxiv.org/abs/2609.28372",
+    "score": 6.0,
+    "summary": "연구팀은 8개의 상용 LLM이 쇼핑 결정을 위임받을 때 마케팅 가격 책정 단서(예: 가격 끝자리 9)에 어떻게 반응하는지 조사했다. 정보 접근에 비용이 없을 때는 이러한 단서가 거의 영향을 미치지 않지만, 비용 제약과 모호한 목표 프롬프트 조합에서는 LLM이 단위 가격 계산에 필요한 속성을 건너뛰고 인간의 휴리스틱과 유사한 최적이 아닌 선택을 한다. 이는 AI 쇼핑 에이전트의 취약성이 LLM의 고유한 결함이 아니라 정보 아키텍처와 프롬프트 설계에 의해 결정됨을 시사한다.",
+    "reason": "Solid empirical study examining how LLMs respond to marketing tactics when making purchasing decisions. The methodology (Tool-Lab with costly information access) is clever and the finding that vague prompts + constraints create vulnerability to pricing heuristics is useful for practitioners deploying AI agents. However, the scope is narrow (shopping domain), the practical impact depends on how often this scenario occurs in real deployments, and the paper doesn't establish whether this is a critical problem or an edge case.",
+    "tags": [
+      "ai-agents",
+      "llm-behavior",
+      "consumer-behavior",
+      "prompt-engineering",
+      "ai-vulnerabilities"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv econ.GN",
+    "author": "Davood Wadi, Yu Ma",
+    "published_at": "2026-09-23T16:47:52+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28358",
+    "title": "MicroQonv: Reshaping Convolution Tensors for Efficient Microscaling in Training and Inference",
+    "url": "https://arxiv.org/abs/2609.28358",
+    "score": 6.0,
+    "summary": "MicroQonv는 미세 스케일 양자화(microscaling quantization)를 합성곱 계층에 효율적으로 적용하는 방법을 제안한다. 기존 방식은 각 텐서를 두 번 양자화하고 im2col 변환으로 인한 메모리 오버헤드가 크지만, 이 논문은 채널-배치-우선 im2col을 사용해 가중치와 그래디언트의 양자화 비용을 2배, 활성화 텐서를 최대 9배 감소시킨다. YOLOV8nano에서 메모리 이동을 3.5배 줄이고 엣지 기기의 지속 학습에서 4비트 양자화를 가능하게 하며 정확도를 5.7~11% 향상시킨다.",
+    "reason": "Solid technical contribution with concrete efficiency gains for an important practical problem (quantization in convolutional layers), but narrow scope and limited evaluation details in abstract. The 2-9x quantization cost reduction and memory savings are meaningful for edge deployment, but the paper's impact depends on reproducibility and broader benchmark validation not evident from the abstract alone.",
+    "tags": [
+      "quantization",
+      "neural-network-efficiency",
+      "convolutional-layers",
+      "edge-computing",
+      "model-compression"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AR",
+    "author": "Romain Facq, Sami Ben Ali, Olivier Sentieys",
+    "published_at": "2026-09-23T16:30:48+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28395",
+    "title": "Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following",
+    "url": "https://arxiv.org/abs/2609.28395",
+    "score": 6.0,
+    "summary": "이 논문은 기계번역(MT) 미세조정 시 발생하는 catastrophic forgetting 문제를 다룬다. Elastic Weight Consolidation, 데이터 혼합 등 기존 완화 방법들을 Llama 3.2 1B와 3.1 8B에서 평가한 결과, 일반 벤치마크에서 forgetting을 줄이는 방법들이 형식성(formality)이나 문법적 성(grammatical gender) 같은 MT 특화 명령어 따르기는 보존하지 못함을 보였다. 데이터 혼합만이 이들 제어를 유지하지만 보지 못한 프롬프트로는 일반화되지 않는다는 점에서 실무자들이 MT 미세조정 시 주의해야 할 제약을 명확히 한다.",
+    "reason": "Solid empirical study addressing a real problem in MT fine-tuning: catastrophic forgetting of instruction-following capabilities. The paper evaluates multiple mitigation methods systematically across two model sizes and language pairs, with honest reporting that general forgetting mitigation does not reliably preserve MT-specific behaviors. The finding that data mixing fails to generalize to unseen prompts is valuable negative evidence. However, the scope is narrow (MT domain only), evaluation is limited to two language pairs and relatively small models, and no novel method is proposed—only comparison of existing approaches.",
+    "tags": [
+      "machine-translation",
+      "fine-tuning",
+      "catastrophic-forgetting",
+      "instruction-following",
+      "llama"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Niklas Scholz, David Thulke, Abdallah Nasir, Will Allred, Evgeny Matusov",
+    "published_at": "2026-09-23T17:02:59+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28344",
+    "title": "Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding",
+    "url": "https://arxiv.org/abs/2609.28344",
+    "score": 6.0,
+    "summary": "Mizar는 159.3M 파라미터의 경량 오디오-언어 모델로, CED-Small 오디오 인코더와 SmolLM2-135M을 frequency-merging mapper로 연결하고 3단계 학습(정렬, 미세조정, 후학습)을 통해 훈련되었다. MMAU, MMAR, ADQA-clean 벤치마크에서 200M 이하 모델 중 최고 성능을 달성했으며, 단일 CPU에서 평균 1.09초 지연으로 로컬 추론을 지원한다. 코드와 체크포인트가 공개되어 있어 리소스 제약이 있는 환경에서 오디오 이해 시스템을 구축하려는 실무자에게 유용하다.",
+    "reason": "A solid contribution to efficient audio-language models with clear engineering choices, reproducible results across multiple seeds, and released code/weights. The 159M parameter constraint and CPU inference capability address real deployment constraints. However, the evaluation is limited to three benchmarks with modest absolute performance (36-52%), and the novelty is primarily in combining existing components rather than introducing fundamentally new methods. The work is useful for practitioners building resource-constrained systems but does not represent a breakthrough in audio understanding.",
+    "tags": [
+      "audio-language-models",
+      "efficient-models",
+      "model-compression",
+      "audio-understanding",
+      "reproducibility"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.SD",
+    "author": "Kaiyang Li, Shaobo Han, Yue Tian, Shihao Ji",
+    "published_at": "2026-09-23T16:21:51+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28466",
+    "title": "The Past Frames the Future: Memory for Autoregressive Video Generation",
+    "url": "https://arxiv.org/abs/2609.28466",
+    "score": 6.0,
+    "summary": "이 논문은 자동회귀 비디오 생성에서 맥락 윈도우 제약으로 인해 장기 시퀀스 생성 중 역사적 정보가 손실되는 근본적인 문제를 다룬다. 저자들은 메모리 메커니즘을 표현 형태, 기능, 연산, 학습, 평가의 다섯 가지 관점에서 체계적으로 분류하는 통합 프레임워크를 제시한다. 이는 장기 비디오 생성과 인터랙티브 월드 모델링을 구축하는 실무자들에게 메모리 설계의 구조화된 기초를 제공한다.",
+    "reason": "A systematic review of memory mechanisms in autoregressive video generation that identifies a real technical problem (context window limitations in long-horizon generation) and proposes a unified framework for organizing solutions. The contribution is primarily organizational and conceptual rather than introducing a novel method or empirical breakthrough. Useful for practitioners building video generation systems, but limited scope as a survey paper without new experimental results.",
+    "tags": [
+      "video-generation",
+      "autoregressive-models",
+      "memory-mechanisms",
+      "world-modeling",
+      "survey"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Harold Haodong Chen, Rongjin Guo, Disen Lan, Wen-Jie Shu, Hongfei Zhang",
+    "published_at": "2026-09-23T17:54:52+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28437",
+    "title": "MultiVENT-Raw: A Benchmark for Retrieval and Reasoning over Raw Videos",
+    "url": "https://arxiv.org/abs/2609.28437",
+    "score": 6.0,
+    "summary": "MultiVENT-Raw는 스마트폰이나 CCTV로 촬영한 편집되지 않은 원본 영상 약 12만 개(총 5,300시간)를 포함하는 다국어 벤치마크로, 130개 이벤트와 222개 이벤트 중심 쿼리, 인간 주석 관련성 판단, 추출된 핵심 사실을 제공한다. 영상 검색과 이벤트 요약 생성 두 가지 작업을 지원하며, 최신 멀티모달 모델들도 이 작업들을 어렵게 느낀다는 것을 보여준다.",
+    "reason": "A solid benchmark contribution addressing a real gap—raw video understanding is genuinely harder than edited content and underexplored. The dataset is substantial (120k videos, 5.3k hours, multilingual) with dual tasks (retrieval and generation). However, the abstract provides limited evidence of evaluation depth, baseline comparisons, or surprising findings that would elevate this to high-value territory. The contribution is useful for the community but incremental in scope.",
+    "tags": [
+      "video-understanding",
+      "benchmark-dataset",
+      "multimodal-models",
+      "information-retrieval",
+      "video-summarization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Reno Kriz, David Etter, Alexander Martin, Cameron Carpenter, Debashish Chakraborty",
+    "published_at": "2026-09-23T17:35:40+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28327",
+    "title": "LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder",
+    "url": "https://arxiv.org/abs/2609.28327",
+    "score": 6.0,
+    "summary": "LightMIS는 2D 의료 영상 분할을 위한 초경량 CNN으로, 0.131M 파라미터와 0.575 GFLOPs로 86.71% Dice 점수를 달성합니다. 기존 모델 대비 파라미터 90-99% 감소, GFLOPs 82-96% 감소를 이루면서 Mobile U-ViT와 거의 동등한 정확도를 유지하며, ARM Mali GPU에서 완전한 온디바이스 실행이 가능합니다. 6개 데이터셋에서 표준화된 프로토콜로 평가되었고 코드가 공개되어 있어 재현성이 높습니다.",
+    "reason": "Solid contribution with strong empirical results on a practical problem. LightMIS achieves competitive accuracy (86.71% Dice) with 90-99% fewer parameters than baselines, demonstrating a meaningful efficiency-accuracy trade-off. Evaluation is thorough across six datasets with a standardized protocol, and code is released. However, the core idea—lightweight segmentation without stage-wise decoders—is incremental rather than novel, and the gains are modest (0.04 Dice points vs. Mobile U-ViT). Relevance to the reader's interests is limited.",
+    "tags": [
+      "medical-image-segmentation",
+      "lightweight-models",
+      "efficient-inference",
+      "edge-deployment"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Andrei Arhire, Mihaela-Elena Breabăn, Radu Timofte",
+    "published_at": "2026-09-23T16:05:21+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:b7b02fa0db972c27",
+    "title": "Meta VR 안경",
+    "url": "https://news.hada.io/topic?id=34208",
+    "score": 5.0,
+    "summary": "Meta는 2027년 봄 1,299달러에 VR 안경을 출시할 예정이며, 100g 무게의 마그네슘 합금 소재로 제작되고 주머니 크기의 퍽으로 구동된다. 영화·스포츠 감상, 업무 공간, 75개 이상의 손 제스처 기반 VR 게임을 지원하며 클라우드 게임 스트리밍도 가능하다. 소비자 VR 하드웨어 시장의 주요 플레이어인 Meta의 차세대 제품이지만, 기술적 혁신이나 시장 영향에 대한 분석은 부재하다.",
+    "reason": "Product announcement for Meta's consumer VR glasses with concrete specs and launch timeline. Matches reader interests in hardware and game development, but lacks technical depth, independent analysis, or industry impact assessment. Standard product marketing content presented as news.",
+    "tags": [
+      "vr-hardware",
+      "game-development",
+      "meta",
+      "product-announcement",
+      "consumer-electronics"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-24T01:32:20+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:d3247c696cdf0eac",
+    "title": "Everything new coming to Meta’s AI agent Muse",
+    "url": "https://techcrunch.com/2026/09/23/everything-new-coming-to-metas-ai-agent-muse/",
+    "score": 5.0,
+    "summary": "Meta CEO Mark Zuckerberg는 Connect 행사에서 AI 에이전트 Muse를 회사의 핵심 전략으로 강조했으며, 이 에이전트가 Meta의 AI 안경을 포함한 여러 플랫폼으로 확대될 예정이라고 발표했습니다. 구체적인 기능이나 출시 일정에 대한 세부 정보는 제공되지 않았습니다.",
+    "reason": "Incremental product announcement about Meta's AI agent expansion across platforms. Newsworthy for Meta watchers but lacks concrete technical details about capabilities, performance, or differentiation. Matches reader interest in AI developments and generative AI, but the content provided is minimal.",
+    "tags": [
+      "generative-ai",
+      "ai-agents",
+      "meta",
+      "product-announcements"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Kirsten Korosec, Lucas Ropek",
+    "published_at": "2026-09-24T01:13:32+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:52ded1d7ccc9341b",
+    "title": "ChatGPT mobile app gets voice-based agentic features",
+    "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+    "score": 5.0,
+    "summary": "ChatGPT의 모바일 앱에 음성 기반 에이전트 기능이 추가되었으며, Pro와 Plus 사용자는 휴대폰의 Work 탭에서 에이전트 작업을 수행할 수 있게 되었다. 이는 기존 에이전트 기능을 모바일 인터페이스로 확장한 것으로, 사용자의 접근성을 높이지만 기술적으로는 점진적인 개선이다.",
+    "reason": "Incremental feature expansion for existing ChatGPT users. Voice-based agentic capabilities on mobile represent a useful but not groundbreaking development—extending existing agent functionality to a new interface. Moderate relevance to reader interests in AI model capabilities and product updates, but limited technical depth in the provided content.",
+    "tags": [
+      "chatgpt",
+      "mobile-agents",
+      "generative-ai",
+      "product-updates"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Ivan Mehta",
+    "published_at": "2026-09-23T17:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:5368837adac2a848",
+    "title": "Meta is making a standalone Muse AI gadget",
+    "url": "https://www.theverge.com/tech/999750/muse-charm-meta-ai-hardware",
+    "score": 5.0,
+    "summary": "Meta가 Muse Charm이라는 독립형 AI 하드웨어 기기를 개발 중이며, Mark Zuckerberg가 Meta Connect에서 공개했다. 스트랩이 없는 스마트워치 형태의 디바이스로 화면과 목걸이용 끈이 특징이다. 구체적인 사양이나 기능에 대한 상세 정보는 제한적이지만, Meta의 AI 에이전트 전략의 하드웨어 확장을 보여주는 개발이다.",
+    "reason": "Incremental hardware announcement with limited technical detail. Meta's new AI gadget is a product development worth noting, but the content is sparse on specifications, capabilities, or differentiation. Matches reader interest in AI developments and hardware, but lacks depth for higher scoring.",
+    "tags": [
+      "ai-hardware",
+      "meta",
+      "ai-agents",
+      "gadgets"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Jacob Kastrenakes",
+    "published_at": "2026-09-24T00:15:20+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:a41bc94a0714dad7",
+    "title": "Muse is coming to Meta smart glasses",
+    "url": "https://www.theverge.com/tech/999673/meta-connect-2026-muse-glasses-features",
+    "score": 5.0,
+    "summary": "Meta가 최근 출시한 AI 에이전트 Muse를 스마트 안경에 통합할 계획을 발표했다. 사용자는 음성으로 Muse를 활성화하여 운동 가이드, 작업 로깅 등의 작업을 처리하도록 요청할 수 있게 될 예정이다. 이는 Meta Connect에서 공개한 새로운 안경 기기에 AI 에이전트 기능을 확대하려는 움직임이다.",
+    "reason": "Incremental product integration announcement with moderate relevance to reader interests in AI agents and Meta's technology direction, but limited technical depth or novelty.",
+    "tags": [
+      "ai-agents",
+      "meta-hardware",
+      "smart-glasses",
+      "generative-ai"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Stevie Bonifield",
+    "published_at": "2026-09-23T23:40:56+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:9253e35e968f173d",
+    "title": "Meta is making Muse more powerful and will let you video chat with it, too",
+    "url": "https://www.theverge.com/tech/999454/meta-muse-ai-agent-video-chat-connect-2026",
+    "score": 5.0,
+    "summary": "Meta가 Muse AI 에이전트를 업데이트하여 이메일 주소 할당, 비디오 채팅 기능 등 새로운 기능을 추가했다. 에이전트의 기능성을 확장하는 점진적 개선이지만, 구체적인 기술 세부사항이나 실제 영향에 대한 정보가 부족하다.",
+    "reason": "Incremental update to Meta's Muse AI agent with new capabilities (email addresses, video chat). Relevant to reader's AI interests but lacks technical depth, concrete details about implementation, or evidence of significant impact. The content appears truncated and doesn't provide substantive analysis.",
+    "tags": [
+      "ai-agents",
+      "generative-ai",
+      "meta",
+      "model-updates"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Jay Peters",
+    "published_at": "2026-09-23T23:19:42+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:3f729873e3cefdb8",
+    "title": "Data centers are black boxes, but California wants to change that",
+    "url": "https://www.theverge.com/policy/999412/data-center-water-electricity-disclosure-bills",
+    "score": 5.0,
+    "summary": "캘리포니아 주지사가 데이터 센터의 전력 및 수자원 영향에 대한 공개를 의무화하는 법안들에 서명했다. AI 인프라가 확산되면서 지역사회의 유틸리티 비용과 수자원 공급에 미치는 영향이 증가하고 있으며, 이 법안들은 커뮤니티에 더 나은 데이터와 발언권을 제공하려는 시도다.",
+    "reason": "Incremental policy development with relevance to AI infrastructure transparency. The content addresses data center impacts on utilities and communities, which connects to reader interests in AI systems and internet integrity, but the article excerpt is incomplete and lacks concrete technical or policy details needed for higher scoring.",
+    "tags": [
+      "ai-infrastructure",
+      "policy",
+      "data-centers",
+      "transparency",
+      "utilities"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Justine Calma",
+    "published_at": "2026-09-23T18:22:57+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:db8825848fe2d4b2",
+    "title": "Qualcomm's new chip wants your earbuds to think for themselves - SoundGuys",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS1VERnplekhUR01EaVRHQXRJQTM0cDNRZkJGVklsMFp1dTJHRkxJM1p5UHI1bVdVSVozYkY2U1pqQ05YWjZ4WlZfYTdqQ1lOYm92YWZabTAzdGxzLW1HR1pkUTZ5SXh4aHgzRVptY0ZiQ1NSTy1lempZT0FEMDlzVg?oc=5",
+    "score": 5.0,
+    "summary": "Qualcomm이 이어버드에서 로컬 AI 처리를 가능하게 하는 새로운 칩을 출시했다. 온디바이스 AI 실행은 지연 시간을 줄이고 개인정보 보호를 개선할 수 있지만, 제공된 콘텐츠에는 구체적인 성능 지표나 실제 애플리케이션 사례가 부족하다.",
+    "reason": "Incremental hardware development with modest technical interest. Qualcomm's on-device AI for earbuds represents a practical application of edge computing, but the headline is vague and the provided content lacks concrete technical details about capabilities, performance, or market impact. Relevant to hardware and AI systems but not groundbreaking.",
+    "tags": [
+      "hardware",
+      "edge-ai",
+      "qualcomm",
+      "embedded-systems"
+    ],
+    "source_type": "google_news",
+    "sub_source": "SoundGuys",
+    "author": "SoundGuys",
+    "published_at": "2026-09-23T19:30:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2609.28467",
+    "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+    "url": "https://arxiv.org/abs/2609.28467",
+    "score": 5.0,
+    "summary": "로봇이 자연어 설명을 받아 그룹의 실시간 활동과 형태를 관찰하고 사회적으로 적절한 위치에 합류하는 문제를 다룬다. 스펙트럼 분할과 언어 조건부 이미지-기하학 모델로 그룹을 식별하고, 인간 형태 사전을 활용해 합류 자세를 예측한다. 대화, 줄서기, 관객 상황에서 경쟁력 있는 정확도를 보였으며 실제 로봇 실험으로 동적 상황에서의 합류를 입증했다.",
+    "reason": "Solid robotics contribution with a well-defined problem (language-guided group joining for social navigation), a reasonable technical approach combining spectral partitioning with language-conditioned models, and evaluation across multiple scenarios including real-robot experiments. However, the scope is narrow (social navigation for robots), the novelty is incremental (applying existing techniques to a specific task), and the practical impact for most practitioners is limited. The work is competent but not groundbreaking.",
+    "tags": [
+      "robot-navigation",
+      "social-robotics",
+      "language-grounding",
+      "pose-prediction",
+      "human-robot-interaction"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.RO",
+    "author": "Zilin Fang, Zishuo Wang, Gim Hee Lee, David Hsu",
+    "published_at": "2026-09-23T17:55:48+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28414",
+    "title": "Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model",
+    "url": "https://arxiv.org/abs/2609.28414",
+    "score": 5.0,
+    "summary": "latent world model에서 frozen self-supervised latent space의 flow가 물체 움직임을 제대로 학습하지 못하는 문제를 진단하고, decode-augmented rollout training (DART)으로 해결한다. DART는 representation을 고정한 채 flow만 재학습하면서 temporal structure를 복원하고 예측 품질을 개선하며, 특히 규모가 커질수록 성능이 향상된다.",
+    "reason": "A focused technical contribution addressing a real failure mode in latent world models (motion loss in frozen representations). The proposed DART method is well-motivated and shows improvements, but the scope is narrow (latent flow models specifically) and evaluation is limited to this specific architecture class. Useful for practitioners building world models but not a broadly transformative result.",
+    "tags": [
+      "world-models",
+      "latent-representations",
+      "motion-prediction",
+      "video-generation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Xiwen Chen, Rigaudiere Z. Li, Zhiruo Zhou, Xiaojun Zhu, Houde Liu",
+    "published_at": "2026-09-23T17:17:02+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28409",
+    "title": "Learning Holographic Reduced Representations with Clifford Variational Autoencoders",
+    "url": "https://arxiv.org/abs/2609.28409",
+    "score": 5.0,
+    "summary": "Clifford-VAE는 Clifford 대수를 활용하여 데이터를 쌍곡공간에 투영하는 변분 오토인코더로, Vector Symbolic Algebras 프레임워크에서 구조화되지 않은 데이터를 임베딩하는 문제를 다룬다. MNIST, Fashion-MNIST, CIFAR-10에서 반지도 분류 성능은 기존 VAE와 경쟁력 있으나, self-binding, unbinding, role-filler recovery 같은 VSA 벤치마크에서는 우수한 결과를 보인다. 이는 지각 데이터를 기호 추론 프레임워크에 연결하는 원칙적 접근법을 제시하지만, 실무 적용 가능성은 제한적이다.",
+    "reason": "A reasonable contribution with narrow scope. The paper presents a novel VAE architecture combining Clifford algebras with vector symbolic algebras for data embedding. The evaluation is limited to standard vision benchmarks (MNIST, Fashion-MNIST, CIFAR-10) and VSA-specific tasks. While the approach is technically sound and addresses a real problem in the VSA literature, the practical impact for practitioners building with modern models is unclear, and the evaluation does not demonstrate compelling advantages over existing methods on standard tasks.",
+    "tags": [
+      "vector-symbolic-algebras",
+      "variational-autoencoders",
+      "clifford-algebras",
+      "representation-learning",
+      "symbolic-reasoning"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Mohamed Malek Abid, P. Michael Furlong",
+    "published_at": "2026-09-23T17:10:56+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28385",
+    "title": "When and Where to Trust the Teacher: Unifying On-Policy Distillation and GRPO through Entropy-Calibrated Credit Assignment",
+    "url": "https://arxiv.org/abs/2609.28385",
+    "score": 5.0,
+    "summary": "UECR-GRPO는 수학 추론 강화학습에서 검증자 보상과 교사 증류를 통합하는 방법을 제안한다. Path-Utility Unification (PUU)은 검증자 보상과 교사 신호를 단일 KL 정규화 목적함수로 결합하고, Entropy-Calibrated Redistribution (ECR)은 토큰 수준에서 신용을 재분배하면서 전체 작업 신용을 보존한다. 다섯 개 벤치마크에서 기존 최강 기준선을 0.56–0.89 percentage point 초과하는 성과를 보이지만, 개선폭이 제한적이고 평가 범위가 수학 추론에 국한된다.",
+    "reason": "A focused technical contribution on combining verifier rewards and teacher distillation in RL for mathematical reasoning. The method (UECR-GRPO) shows modest but consistent gains across benchmarks, with reasonable technical novelty in how signals are unified. However, improvements are incremental (0.56–0.89 pp), evaluation is limited to mathematical reasoning, and the abstract does not establish this as a must-read result for practitioners. The work is solid but narrow in scope.",
+    "tags": [
+      "reinforcement-learning",
+      "distillation",
+      "mathematical-reasoning",
+      "credit-assignment",
+      "grpo"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Jie Zhang, Jingxiao Yang, Zhehao Huang, Yuhang Liu, Xiaolin Huang",
+    "published_at": "2026-09-23T16:58:26+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28322",
+    "title": "Learning the Cost of Reliable Inference",
+    "url": "https://arxiv.org/abs/2609.28322",
+    "score": 5.0,
+    "summary": "이 논문은 LLM 제공자들 간의 경쟁을 통해 작업별 토큰 가격을 결정하는 조달 플랫폼을 제안한다. 역방향 2차 가격 경매를 사용하여 제공자들이 실제 서빙 비용을 정직하게 입찰하도록 유도하고, 플랫폼은 쿼리를 라우팅하면서 각 제공자의 품질을 학습하여 원하는 품질 수준을 만족하는 가장 비용 효율적인 제공자로 점진적으로 라우팅한다. Llama와 Qwen 모델 계열에 대한 실험 결과, 작업과 품질 임계값에 따라 가장 비용 효율적인 제공자의 가격 마진이 10%에서 71% 사이로 크게 변한다는 것을 보여주며, 현재의 고정 가격 시장에 상당한 비효율성이 존재함을 시사한다.",
+    "reason": "Interesting but narrow contribution. The paper addresses a real market inefficiency in LLM pricing through a reverse auction mechanism with quality-aware routing. The experimental validation on standard benchmarks (Llama, Qwen families) shows meaningful price variation (10-71%), but the scope is limited to a theoretical platform design without evidence of real-world deployment or comparison to existing routing solutions. The core idea is sound but incremental—applying auction theory to LLM procurement—and the evaluation, while concrete, does not demonstrate that practitioners would change their behavior based on these findings.",
+    "tags": [
+      "llm-pricing",
+      "market-mechanisms",
+      "auction-design",
+      "inference-optimization",
+      "quality-routing"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Dimitrios Rontogiannis, Ander Artola Velasco, Manuel Gomez Rodriguez",
+    "published_at": "2026-09-23T16:01:50+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28471",
+    "title": "Contrastive Learning for Authorship Verification",
+    "url": "https://arxiv.org/abs/2609.28471",
+    "score": 5.0,
+    "summary": "저자는 저작권 검증(authorship verification) 작업에 contrastive learning을 적용하여 분류 기반 접근법을 능가하는 결과를 얻었다. ModernBERT Bi-Encoder 모델이 PAN21 벤치마크에서 98.4% 정확도를 달성했으며, 손실 함수, 배치 크기, 학습 기간, 사전학습 모델, 입력 컨텍스트 길이, 텍스트 스팬 데이터 증강 등이 성능에 영향을 미치는 중요한 요소임을 확인했다.",
+    "reason": "A solid empirical contribution with a well-defined task and strong results on a standard benchmark, but limited novelty (contrastive learning is established) and narrow scope. The paper identifies useful hyperparameter factors and achieves high accuracy, but the abstract does not indicate whether this advances the state of the art on PAN21 or how it compares to prior work.",
+    "tags": [
+      "authorship-verification",
+      "contrastive-learning",
+      "nlp",
+      "benchmark-evaluation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Peter Kirby",
+    "published_at": "2026-09-23T17:59:08+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28473",
+    "title": "On the Diffusibility of High-Dimensional Latents",
+    "url": "https://arxiv.org/abs/2609.28473",
+    "score": 5.0,
+    "summary": "RAE 기반 diffusion 모델에서 reconstruction을 위해 인코더를 파인튜닝하면 표현의 유효 차원이 감소하여 flow matching의 velocity prediction 최적화가 비효율적이 된다는 문제를 지적합니다. 저자들은 대신 x₀-prediction을 사용하면 신호 manifold에 집중하여 학습이 효율적이 되며, 여러 강력한 reconstruction 인코더에서 텍스트-이미지 생성 성능이 일관되게 개선됨을 보입니다.",
+    "reason": "A focused technical contribution addressing a real problem in diffusion-based image generation: the paper identifies that finetuning encoders for better reconstruction reduces effective dimensionality, causing optimization issues with velocity prediction in flow matching. The proposed solution (x₀-prediction) is simple and shows consistent improvements across experiments. However, the scope is narrow (encoder geometry effects on one generation task), the evaluation appears limited to text-to-image generation without comparison to current strong baselines, and the core insight—that low-dimensional manifolds benefit from direct prediction over velocity parameterization—is somewhat incremental. No code or reproducibility details are mentioned in the abstract.",
+    "tags": [
+      "diffusion-models",
+      "representation-learning",
+      "image-generation",
+      "flow-matching",
+      "encoder-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Chao Feng, Zhiyang Xu, Bowei Chen, Yuanjun Xiong, Xiyao Wang",
+    "published_at": "2026-09-23T17:59:56+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28399",
+    "title": "Memory Attention",
+    "url": "https://arxiv.org/abs/2609.28399",
+    "score": 5.0,
+    "summary": "Memory Attention는 attention의 value projection을 token-indexed memory와 contextual keys의 조합으로 대체하는 방법을 제안한다. 메모리는 token-specific 표현을 제공하고 keys는 context 의존성을 유지하며, 추론 시 정규화를 메모리 테이블에 포함시켜 값 구성을 lookup과 덧셈으로 단순화할 수 있다. 실험 결과 언어 모델링과 downstream 성능이 개선되었으나, 추가 메모리 파라미터가 필요하고 개선폭은 제한적이다.",
+    "reason": "A reasonable contribution with a focused scope: proposes a method to replace value projections in attention with token-indexed memory combined with contextual information. The approach shows modest improvements in language modeling and downstream tasks with matched training budgets, but the evaluation is limited to relatively standard benchmarks and the novelty is incremental—combining memory lookup with attention is not fundamentally new. The practical benefits (CPU offloading, reduced GPU storage) are interesting but not transformative. No code or weights appear to be released based on the abstract.",
+    "tags": [
+      "attention-mechanisms",
+      "language-models",
+      "memory-augmented-models",
+      "inference-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Jiale Kang",
+    "published_at": "2026-09-23T17:04:30+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28364",
+    "title": "LEAP-CBF: A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials",
+    "url": "https://arxiv.org/abs/2609.28364",
+    "score": 5.0,
+    "summary": "LEAP-CBF는 불확실성과 외란이 있는 비선형 동역학 시스템의 안전성을 보장하기 위해 제어 배리어 함수(CBF)를 개선한 방법이다. 저자들은 외란이 실패를 유발하는 데 필요한 노력으로 견고성을 정량화하는 Least-Effort Adversarial Potentials(LEAP)을 제안하고, 심화 강화학습으로 LEAP을 구성하는 방법을 제시하며, 사족 로봇과 쿼드로터 하드웨어 실험으로 검증했다. 이는 로봇 제어에서 보수적이지 않으면서도 견고한 안전 필터를 구성하는 실질적인 해결책을 제공한다.",
+    "reason": "Solid technical contribution addressing a real problem (robust safety filters for uncertain systems) with a novel approach (LEAP certificates) and validation across simulation and hardware. However, the work is narrowly scoped to robotics control, the evaluation is limited to specific domains, and the practical impact on practitioners building AI systems is unclear.",
+    "tags": [
+      "robotics-control",
+      "safety-verification",
+      "reinforcement-learning",
+      "control-theory"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.RO",
+    "author": "Oswin So, Eric Yu, Chuchu Fan",
+    "published_at": "2026-09-23T16:36:11+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2609.28360",
+    "title": "Privacy-Preserving Semantic Segmentation from High-Resolution Depth and Ultra-Low-Resolution RGB",
+    "url": "https://arxiv.org/abs/2609.28360",
+    "score": 5.0,
+    "summary": "모바일 로봇의 카메라로부터 발생하는 개인정보 보호 위험을 완화하기 위해, 고해상도 깊이 정보와 초저해상도 RGB를 결합하는 비대칭 센싱 설정을 제안한다. 저해상도 RGB만으로는 의미론적 이해가 제한되므로, HR 기하학 정보로 RGB 재구성을 유도하고 RGB-D 분할을 수행하는 2D 프레임워크와 2D-to-3D 파이프라인을 개발했다. ScanNet, SUN RGB-D, SceneNN에서 개인정보 보호 방식 중 최고 성능을 달성했으며 실제 로봇 실험으로 물체 탐색 네비게이션의 유용성을 입증했다.",
+    "reason": "A focused contribution addressing a real problem (privacy in mobile robotics) with a reasonable technical approach (asymmetric HR depth + ULR RGB sensing). The evaluation is solid across multiple benchmarks and includes privacy analysis, but the scope is narrow and the novelty is primarily in the problem formulation rather than the methods themselves.",
+    "tags": [
+      "semantic-segmentation",
+      "privacy-preserving",
+      "robotics",
+      "depth-sensing",
+      "3d-vision"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Xuying Huang, Swithinraj Moses Daniel, Sicong Pan, Sebastian Houben, Maren Bennewitz",
+    "published_at": "2026-09-23T16:31:19+00:00",
+    "profile": "ai-paper"
+  }
+]
