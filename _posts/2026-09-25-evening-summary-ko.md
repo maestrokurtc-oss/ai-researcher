@@ -1,0 +1,194 @@
+---
+layout: default
+title: "AI 브리핑 · 2026-09-25 저녁"
+report_id: "2026-09-25-evening"
+date: 2026-09-25
+lang: ko
+---
+
+> 수집한 75건 중 8건을 골랐습니다.
+
+---
+
+**업계 동향**
+1. [Go, 플랫폼 독립적 SIMD 지원 실험적으로 추가](#item-tech-news-1) ⭐️ 7.0/10
+2. [네덜란드 정부, NixOS 기반 Microsoft 대체 시스템 구축](#item-tech-news-2) ⭐️ 7.0/10
+3. [Avast 안티바이러스 샌드박스 탈출 취약점 CVE-2025-13032 분석](#item-tech-news-3) ⭐️ 7.0/10
+4. [Google Project Suncatcher, TPU 기반 우주 AI 인프라 첫 궤도 시험 준비](#item-tech-news-4) ⭐️ 7.0/10
+5. [Git-bug: Distributed, offline-first bug tracker embedded in Git](#item-tech-news-5) ⭐️ 6.0/10
+6. [Topcoat, Rust 기반 서버 애플리케이션 프레임워크 공개](#item-tech-news-6) ⭐️ 6.0/10
+7. [Oracle, 뉴멕시코 데이터센터 허가 지연에 불가항력 주장하며 배상 분쟁](#item-tech-news-7) ⭐️ 6.0/10
+8. [ICLR 2027 제출 논문 익명성 노출 사건 재발](#item-tech-news-8) ⭐️ 6.0/10
+
+---
+
+## 업계 동향
+
+<a id="item-tech-news-1"></a>
+### [Go, 플랫폼 독립적 SIMD 지원 실험적으로 추가](https://go.dev/blog/simd-experiment) ⭐️ 7.0/10
+
+Go 팀이 플랫폼에 독립적인 SIMD\(Single Instruction Multiple Data\) 지원을 실험적으로 도입했다. 커뮤니티 벤치마크에 따르면 이 portable SIMD는 non-SIMD 코드 대비 약 5배 빠른 성능을 보이며, 플랫폼별 non-portable SIMD와 비교해도 약 11% 느린 수준에 그친다. 이를 통해 Go 개발자는 C/C++ 라이브러리를 링크하지 않고도 저수준 성능 최적화를 구현할 수 있게 되며, 메모리 안전성을 유지하면서도 시스템 프로그래밍 언어로서 Go의 활용 범위를 넓힐 수 있다. 현재 이 기능은 아직 실험 단계로 표준 라이브러리에 정식 편입된 것은 아니다.
+
+hackernews · yurivish · 9월 25일 11:47 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49843269)
+
+**「배경」** SIMD\(Single Instruction Multiple Data\)는 하나의 명령으로 여러 데이터를 동시에 처리해 벡터 연산 성능을 크게 높이는 하드웨어 기능으로, 기존에는 CPU 아키텍처마다 다른 명령어 세트\(x86의 AVX, ARM의 NEON 등\)를 사용해야 했다. Go는 지금까지 이런 저수준 성능이 필요한 경우 C/C++ 라이브러리를 링크하는 방식에 의존해왔는데, Go 1.27에서는 C++의 Highway 라이브러리에서 영감을 받아 아키텍처와 크기에 무관하게 동작하는 실험적 SIMD API를 도입했다\(tool-1-1, tool-1-2\). 커뮤니티는 이 기능을 아키텍처별 non-portable SIMD API와 별도로 벤치마크해, 성능 차이와 이식성 이점을 검증하고 있다\(tool-1-3\).
+
+**「영향」** Go 개발자들은 이제 C/C++ 라이브러리 링크 없이도 표준 라이브러리 수준에서 SIMD 최적화를 적용할 수 있게 되어, 이미지 처리나 데이터 변환처럼 성능이 중요한 순수 Go 코드의 작성 방식이 바뀔 수 있다. 다만 이 기능은 Go 1.27에 실험적으로 도입된 것으로, 자동 벡터화가 이미 충분한 경우에는 큰 이득이 없다는 지적도 있어 실제 적용 범위는 제한적일 수 있다.
+
+**「커뮤니티 반응」** 한 개발자는 WebAssembly 기반 이미지 색상 변환 벤치마크를 공유하며 portable SIMD가 non-portable SIMD보다 약 11% 느리지만 둘 다 non-SIMD 대비 약 5배 빠르다는 점을 확인했다. 다수 댓글은 표준 라이브러리 수준의 SIMD 지원이 드물다는 점과 C/C++ 링크 없이 성능을 확보할 수 있게 된 점을 긍정적으로 평가했으나, 일부는 컴파일러의 auto-vectorization만으로도 충분한 경우가 많아 이 기능이 해결하는 격차가 제한적이라는 의견도 제시했다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://go.dev/blog/simd-experiment">Platform-independent SIMD in Go - The Go Programming Language</a></li>
+<li><a href="https://go.dev/blog/">The Go Blog - The Go Programming Language</a></li>
+<li><a href="https://www.phoronix.com/news/Go-SIMD-2026">Go&#x27;s Improving SIMD Support, Platform-Independent SIMD ...</a></li>
+<li><a href="https://go.dev/blog/simd-experiment">Platform-independent SIMD in Go - The Go Programming Language</a></li>
+
+</ul>
+</details>
+
+**태그**: `#go-language`, `#simd`, `#performance-optimization`, `#systems-programming`, `#compiler-features`
+
+---
+
+<a id="item-tech-news-2"></a>
+### [네덜란드 정부, NixOS 기반 Microsoft 대체 시스템 구축](https://www.dawo.community/en/) ⭐️ 7.0/10
+
+네덜란드 정부가 Microsoft 제품군에 대한 의존도를 낮추기 위해 NixOS를 기반으로 한 대체 시스템을 개발하고 있으며, 관련 내용은 dawo.community 웹사이트를 통해 공개되었다. 이 프로젝트는 선언적 설정과 재현 가능한 빌드라는 NixOS의 특성을 활용해 공공 인프라의 안정성과 감사 가능성을 높이는 것을 목표로 한다. 유사한 흐름으로 프랑스 정부는 NixOS 기반의 강화된 운영체제인 Securix와 이를 활용한 사무용 배포 예제 Bureautix를 GitHub를 통해 공개했고, 독일 정부는 openDesk, 프랑스는 La Suite라는 협업 도구 이니셔티브를 각각 추진 중이다. 다만 원문 자료 자체에서 제공되는 기술적 세부 사항은 제한적이며, 커뮤니티 논의를 통해 관련 프로젝트들의 존재가 추가로 확인되었다.
+
+hackernews · fjfaase · 9월 25일 08:06 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49841563)
+
+**「배경」** NixOS는 시스템 구성을 코드로 선언하고 패키지 빌드를 결정론적으로 재현할 수 있는 Linux 배포판으로, 서버나 고정된 용도의 기기처럼 예측 가능한 동작이 중요한 환경에 적합하다는 평가를 받아왔다. 최근 몇 년간 유럽 여러 정부는 미국 빅테크 기업, 특히 Microsoft에 대한 기술 의존도를 줄이고 디지털 주권을 확보하기 위해 오픈소스 기반 대안을 모색해왔다.
+
+**「영향」** 이러한 움직임이 확산되면 유럽 공공 부문에서 상용 소프트웨어에 대한 벤더 종속성이 줄어들고, NixOS 및 관련 오픈소스 생태계에 대한 정부 차원의 투자와 검증이 늘어날 가능성이 있다. 다만 아직 초기 단계 프로젝트가 많아 실제 전면 도입 여부와 장기적 유지보수 체계는 지켜봐야 한다.
+
+**「커뮤니티 반응」** 댓글에서는 프랑스 정부의 Securix\(강화된 NixOS 기반 OS\)와 Bureautix\(사무용 배포 예제\), 독일 정부의 openDesk, 프랑스의 La Suite 등 유럽 각국의 유사한 오픈소스 이니셔티브가 소개되며 이번 움직임이 고립된 사례가 아니라는 점이 강조되었다. 한편 일부 사용자는 Microsoft의 광고·감시 관련 특허를 언급하며 빅테크 이탈을 긍정적으로 평가했고, 다른 사용자는 해당 프로젝트 저장소의 라이선스 위반 가능성을 지적했다.
+
+**태그**: `#open-source`, `#government-infrastructure`, `#nixos`, `#systems-architecture`, `#digital-sovereignty`
+
+---
+
+<a id="item-tech-news-3"></a>
+### [Avast 안티바이러스 샌드박스 탈출 취약점 CVE-2025-13032 분석](https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2) ⭐️ 7.0/10
+
+Safateam이 공개한 이번 기술 분석은 Avast 안티바이러스의 샌드박스 격리 메커니즘을 우회할 수 있는 CVE-2025-13032 취약점의 2편으로, 공격자가 어떻게 샌드박스에 진입한 뒤 이를 탈출할 수 있는지를 다룬다. 이는 악성코드를 격리된 환경에서 안전하게 분석·차단하려는 보안 소프트웨어의 핵심 방어 계층이 우회될 수 있음을 보여주는 실증적 사례다. 커뮤니티에서는 이 취약점을 두고 TOCTOU\(Time-Of-Check-Time-Of-Use\) 방식의 정교한 익스플로잇이라는 평가가 나왔다.
+
+hackernews · safateam · 9월 25일 07:03 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49841115)
+
+**「배경」** Avast 안티바이러스는 악성코드 분석을 위해 커널 드라이버 기반의 샌드박스로 프로세스를 격리하는 기능을 제공하는데, 이 격리 메커니즘 안에서 악성 프로그램의 잠재적 위험을 줄이는 것이 핵심 목적이다. CVE-2025-13032는 이 커널 드라이버에 존재하는 더블 페치\(double-fetch\) 취약점으로, 커널이 사용자 공간 메모리를 두 번 이상 읽는 사이에 값이 바뀔 수 있는 TOCTOU\(Time-of-Check to Time-of-Use\) 유형의 결함이다. 이를 악용하면 로컬 공격자가 Windows 11에서 SYSTEM 권한으로 권한을 상승시킬 수 있다.
+
+**「영향」** Avast 사용자와 이를 기반으로 한 보안 제품 이용 조직은 샌드박스 우회를 통한 악성코드 탐지 회피 위험에 노출될 수 있다.
+
+**「커뮤니티 반응」** 댓글 참여자들은 공격자가 시그니처 기반 탐지를 우회하도록 지속적으로 테스트한다는 점에서 전통적 시그니처 기반 안티바이러스와 CVE 피드에 대한 신뢰가 낮아졌다고 지적하며, 정적 분석 기반 행동 비교\(behaviour diffing\)나 애플리케이션 화이트리스팅 같은 대안적 방어 전략이 더 실효적이라는 의견을 제시했다. 한 사용자는 이번 취약점을 정교한 TOCTOU 익스플로잇이라고 평가했다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2">CVE-2025-13032: Entering and Breaking the Avast Antivirus Sandbox Part 2</a></li>
+<li><a href="https://cybersecuritynews.com/avast-sandbox-escape-vulnerability/">Avast Antivirus Sandbox Vulnerabilities Let Attackers Escalate Privileges</a></li>
+
+</ul>
+</details>
+
+**태그**: `#security-research`, `#vulnerability-disclosure`, `#antivirus`, `#sandbox-escape`, `#cve`
+
+---
+
+<a id="item-tech-news-4"></a>
+### [Google Project Suncatcher, TPU 기반 우주 AI 인프라 첫 궤도 시험 준비](https://news.hada.io/topic?id=34256) ⭐️ 7.0/10
+
+Google의 Project Suncatcher는 저궤도 위성에서 TPU 기반 머신러닝 인프라를 운영할 수 있는지 탐구하는 장기 연구 프로젝트로, Planet과 협력해 개발한 첫 시제품 위성이 SpaceX Transporter-18 공동 탑승 임무로 발사를 앞두고 있다. 저궤도는 거의 끊임없이 햇빛을 받아 지상보다 최대 8배 많은 태양광 전력을 생산할 수 있어, 장기적으로 여러 위성을 연결해 대규모 AI 작업을 처리하는 것이 목표다. 지상 시험에서 TPU 하드웨어는 발사 진동\(최대 10g, 부품 단위로는 최대 50~100g\)을 견뎠고, UC Davis Crocker Nuclear Laboratory의 양성자 빔 시험에서 Trillium TPU는 5년간의 우주 임무보다 많은 총 이온화 방사선량을 견딘 초기 결과를 얻었다. 진공에서는 방열판을 통한 열 방출만 가능해 히트파이프와 방열판을 결합한 냉각 시스템을 개발 중이며, 위성 간 초고대역폭 레이저 통신 기술도 함께 시험할 예정으로, 2027년 위성 두 대를 궤도에 올려 TPU의 우주 환경 성능과 위성 간 레이저 연결을 검증할 계획이다.
+
+rss · GeekNews · 9월 25일 07:33
+
+**「배경」** TPU\(Tensor Processing Unit\)는 Google이 자체 개발한 AI 연산 전용 칩으로, 현재 지상 데이터센터에서 대규모 머신러닝 작업을 처리하는 데 쓰인다. 저궤도\(LEO\)는 국제우주정거장과 유사한 고도로, 지구 대기의 산란 없이 거의 지속적으로 태양광을 받을 수 있어 전력 생산에 유리하지만, 진동·방사선·진공 환경으로 인해 지상용 전자 장비를 그대로 쓰기 어렵다는 공학적 제약이 있다.
+
+**「영향」** 이번 시험이 성공하면 AI 데이터센터의 전력 및 냉각 제약을 우회할 새로운 인프라 모델이 제시될 수 있지만, 2027년 궤도 시험 전까지는 열 관리와 위성 간 정밀 레이저 연결 등 핵심 기술이 실제 우주 환경에서 검증되지 않은 초기 단계임을 감안해야 한다.
+
+**태그**: `#google-ai`, `#hardware`, `#machine-learning`, `#space-computing`, `#tpu`
+
+---
+
+<a id="item-tech-news-5"></a>
+### [Git-bug: Distributed, offline-first bug tracker embedded in Git](https://github.com/git-bug/git-bug) ⭐️ 6.0/10
+
+git-bug는 Git 저장소에 직접 내장되는 분산형, 오프라인 우선 버그 추적 도구로, Git의 명령어 규칙을 따르며 Git 저장소를 저장소로 사용합니다. 저자는 외부 인증\(GitHub OAuth\), Git 원격 엔드포인트, Bluesky의 did:plc 기반 신원 시스템 등을 포함한 로드맵을 공개했습니다. 이슈 추적을 버전 제어와 통합하려는 개발자들에게 유용한 접근이지만, 분산형 버그 추적 도구는 이미 존재하는 개념입니다.
+
+hackernews · alentred · 9월 25일 11:38 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49843174)
+
+**태그**: `#open-source`, `#git`, `#developer-tools`, `#distributed-systems`, `#issue-tracking`
+
+---
+
+<a id="item-tech-news-6"></a>
+### [Topcoat, Rust 기반 서버 애플리케이션 프레임워크 공개](https://tokio.rs/blog/2026-09-24-topcoat-server-applications) ⭐️ 6.0/10
+
+Topcoat은 Rust로 서버 애플리케이션을 만들기 위한 새로운 프레임워크로, Rails와 유사한 개발 경험을 목표로 한다. LiveView 스타일의 서버 컴포넌트 기능을 제공하여 클라이언트 측 반응성 구현에 필요한 보일러플레이트를 줄이는 것을 핵심 특징으로 내세운다. 서버 컴포넌트를 지칭하는 데 'shard'라는 새로운 용어를 도입했으나, 구체적인 아키텍처, 성능 벤치마크, 채택 사례 등 기술적 세부사항은 공개된 내용에서 충분히 드러나지 않는다.
+
+hackernews · sagacity · 9월 25일 09:59 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49842332)
+
+**「배경」** Topcoat은 Tokio 팀의 Julien 등이 두 달 전 발표한 batteries-included 풀스택 Rust 프레임워크로, 뷰, 컴포넌트, 메일러, ORM인 Toasty 등을 포함해 Ruby on Rails와 유사한 개발 경험을 지향한다. Tokio는 Rust의 비동기 런타임으로, Rust 웹 생태계는 그동안 Rails나 Django처럼 표준화된 통합 프레임워크가 부재해 여러 라이브러리를 조합해야 했던 배경이 있다.
+
+**「영향」** Rust 생태계에는 Rails급의 통합된 표준 웹 프레임워크가 아직 없어, Topcoat의 등장은 Rust로 웹 애플리케이션을 만들려는 개발자들에게 새로운 선택지를 제공하지만 표준화 여부는 불확실하다.
+
+**「커뮤니티 반응」** 일부 댓글은 Rust에 Rails 같은 '배터리 포함형' 표준 프레임워크가 있는지 되물으며 관심을 보였고, Rails 개발자 출신 사용자는 LiveView 스타일 기능과 보일러플레이트 감소 방향을 긍정적으로 평가했다. 반면 서버 컴포넌트에 'shard'라는 새 용어를 만든 것에 대한 의문과, AI 시대에는 언어 선택보다 결과물이 중요하다는 반박성 의견도 제기되었다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://github.com/tokio-rs/topcoat">GitHub - tokio - rs / topcoat : A batteries-included framework for building...</a></li>
+<li><a href="https://tokio.rs/blog/2026-09-24-topcoat-server-applications">Topcoat is pushing the boundary of server applications with Rust</a></li>
+
+</ul>
+</details>
+
+**태그**: `#rust`, `#web-frameworks`, `#server-applications`, `#developer-experience`
+
+---
+
+<a id="item-tech-news-7"></a>
+### [Oracle, 뉴멕시코 데이터센터 허가 지연에 불가항력 주장하며 배상 분쟁](https://www.ft.com/content/a96bf05a-a299-4d6a-a753-b298dd0f4016) ⭐️ 6.0/10
+
+Oracle이 뉴멕시코 데이터센터 프로젝트에서 지역 주민 반대로 인한 허가 지연이 발생하자, 전력 공급 관련 불가항력\(force majeure\) 통지를 프로젝트 개발사인 Blue Owl Capital 계열사에 발송했다. 그러나 계약상 Oracle은 사이트에 전력이 공급되지 않더라도 투자자들에게 배상금을 지불해야 하는 처지에 놓인 것으로 알려졌다. 이 프로젝트는 애초 Bloom Energy와 1.8GW 규모의 고체산화물 연료전지\(SOFC\) 공급 계약을 체결했다가 지난 4월 2.8GW로 확대했는데, 허가 문제로 해당 설비를 가동하지 못하는 상황이다. 이는 대규모 데이터센터 인프라 프로젝트에서 규제 지연이 계약상 재무 리스크로 이어질 수 있음을 보여주는 사례다.
+
+hackernews · Betelbuddy · 9월 25일 10:19 · [커뮤니티 반응](https://news.ycombinator.com/item?id=49842483)
+
+**「배경」** force majeure\(불가항력\) 조항은 계약 당사자의 통제를 벗어난 사건\(자연재해, 전쟁 등\)으로 계약 이행이 불가능해질 경우 위약금이나 손해배상 책임을 면제해주는 법적 장치로, 대규모 인프라 및 리스 계약에서 리스크 분담을 위한 핵심 도구로 쓰인다. 이번 사안은 'Project Jupiter'로 알려진 뉴멕시코 데이터센터로, Blue Owl Capital 산하 개발사가 건설을 맡고 Oracle이 임차 및 전력 공급 계약의 당사자로 관여하고 있다. Oracle은 허가 지연에 따른 전력 공급 문제를 이유로 force majeure를 선언했으나, Blue Owl은 이것이 프로젝트에 대한 재무적 약속을 바꾸지 않는다고 밝혔고 Oracle 측도 프로젝트가 예정대로 진행 중이라고 주장하고 있다.
+
+**「영향」** 이번 분쟁은 Oracle이 규제 지연을 이유로 Blue Owl Capital 등 인프라 투자자에 대한 지급 의무를 회피하려는 선례가 될 수 있어, 향후 AI 데이터센터 계약에서 force majeure 조항과 전력 공급 리스크 배분 방식을 둘러싼 재협상이 확산될 가능성이 있다. 실제 통지 조건과 계약 세부 사항이 아직 공개되지 않아, 이번 사례가 투자자에게 비용을 전가하는 결과로 이어질지 아니면 단순히 지연 사실을 기록하는 데 그칠지는 불확실하다.
+
+**「커뮤니티 반응」** 다수 댓글은 지역 주민 반대로 인한 허가 지연이 통상적 의미의 불가항력\(허리케인, 자연재해, 테러 등 통제 불가능한 대규모 사건\)에 해당하는지 의문을 제기했다. 일부는 이미 구매한 수 기가와트 규모의 Bloom Energy 연료전지가 가동되지 못하는 현실에 놀라움을 표했고, 다른 댓글들은 GPU·RAM·SSD 가격 상승 속에 지어진 시설이 켜지지도 못하는 상황과 Oracle의 재무 구조에 대한 냉소적 반응을 보였다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://siliconangle.com/2026/09/24/oracle-issues-force-majeure-notice-to-developer-of-new-mexico-data-center-over-energy-delays/">Oracle issues &#x27;force majeure&#x27; notice to developer of New Mexico data center over energy delays - SiliconANGLE</a></li>
+<li><a href="https://www.ababnews.com/news/3f14915a-3c5d-4632-b198-9753f9cc521a">Oracle Issues Force Majeure Notice to Blue Owl Capital for New Mexico Data Center Project - ABAB News</a></li>
+<li><a href="https://news.bloomberglaw.com/artificial-intelligence/oracle-cites-force-majeure-to-shield-itself-on-big-data-center">Oracle Cites Force Majeure to Shield Itself on Data Center (2)</a></li>
+<li><a href="https://runtimewire.com/article/oracle-project-jupiter-force-majeure-power-delay">Oracle invokes force majeure as power delays test its New ...</a></li>
+
+</ul>
+</details>
+
+**태그**: `#infrastructure`, `#data-centres`, `#hardware`, `#business-risk`, `#energy`
+
+---
+
+<a id="item-tech-news-8"></a>
+### [ICLR 2027 제출 논문 익명성 노출 사건 재발](https://www.reddit.com/r/MachineLearning/comments/1wptsvx/iclr_2027_de_anonymization_d/) ⭐️ 6.0/10
+
+ICLR 2027 제출 논문의 저자 익명성이 프로그램 위원회 위원들에게 노출되는 사고가 발생했고, 이에 대해 OpenReview 측이 공식 성명을 게시했다. 게시자는 OpenReview 포럼 링크를 공유하며 이런 문제가 ICLR에서 왜 반복해서 발생하는지 의문을 제기했다. 게시물 자체에는 노출의 구체적 범위, 원인, 영향받은 논문 수, 후속 조치 등에 대한 세부 정보는 포함되어 있지 않다.
+
+reddit · r/MachineLearning · /u/Striking-Warning9533 · 9월 25일 11:26
+
+**「배경」** ICLR\(International Conference on Learning Representations\)는 논문 제출 시 저자 정보를 숨기는 이중 익명\(double-blind\) 심사 방식을 채택해, OpenReview 플랫폼을 통해 리뷰어와 저자가 서로의 신원을 알 수 없도록 관리한다. 그러나 시스템 오류나 운영상 실수로 제출 논문의 저자 정보가 프로그램 위원회\(Program Committee\) 구성원에게 노출되는 사고가 과거에도 여러 차례 발생했으며, 이번 ICLR 2027에서도 유사한 노출 사고에 대한 공식 성명이 OpenReview를 통해 발표되었다.
+
+**「영향」** 이번 사고로 해당 제출 논문 저자들의 블라인드 리뷰 공정성이 훼손될 수 있으며, ICLR의 리뷰 프로세스 신뢰성에 대한 우려가 커질 수 있다.
+
+<details><summary>참고 링크</summary>
+<ul>
+<li><a href="https://openreview.net/?ref=explainx">Venues | OpenReview</a></li>
+
+</ul>
+</details>
+
+**태그**: `#research-integrity`, `#conference-operations`, `#machine-learning-community`, `#anonymity-breach`, `#iclr`
+
+---

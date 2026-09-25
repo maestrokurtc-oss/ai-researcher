@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-25-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 8,
+    "more": 6
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "e69a2844d3d1c8d3ecc043a4a94e3531b1f5f50690e48f6e3c76694bc3153d79",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "Go, 플랫폼 독립적 SIMD 지원 실험적으로 추가",
+      "url": "https://go.dev/blog/simd-experiment",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "go-language",
+        "simd",
+        "performance-optimization",
+        "systems-programming",
+        "compiler-features"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "743ccaaf08c763d3041c401e2eb090513d2f7560c4455a9f0067c2ec4c4a60f2",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "네덜란드 정부, NixOS 기반 Microsoft 대체 시스템 구축",
+      "url": "https://www.dawo.community/en/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "open-source",
+        "government-infrastructure",
+        "nixos",
+        "systems-architecture",
+        "digital-sovereignty"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "5b99ba2e157ec4e5f632378df23335837d76ed73005587b31f6756de83968d01",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Avast 안티바이러스 샌드박스 탈출 취약점 CVE-2025-13032 분석",
+      "url": "https://www.safateam.com/intelligence-hub/research/technical-articles/cve-2025-13032-entering-and-breaking-the-avast-antivirus-sandbox-part-2",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "security-research",
+        "vulnerability-disclosure",
+        "antivirus",
+        "sandbox-escape",
+        "cve"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "21cb4ac8ad0048469d9263f4904b7b5e4ebaea0e1e1a987bafc9659d1971ed26",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Google Project Suncatcher, TPU 기반 우주 AI 인프라 첫 궤도 시험 준비",
+      "url": "https://news.hada.io/topic?id=34256",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "google-ai",
+        "hardware",
+        "machine-learning",
+        "space-computing",
+        "tpu"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "0464d04f14c9da4da255311ad49ca6818c156a9a88d37c86000d9802a5b1ce65",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Git-bug: Distributed, offline-first bug tracker embedded in Git",
+      "url": "https://github.com/git-bug/git-bug",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "open-source",
+        "git",
+        "developer-tools",
+        "distributed-systems",
+        "issue-tracking"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "e2b252fe003477082cb33e6dddbcd2ccfce90c27e31dcc7244109557d2257540",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Topcoat, Rust 기반 서버 애플리케이션 프레임워크 공개",
+      "url": "https://tokio.rs/blog/2026-09-24-topcoat-server-applications",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "rust",
+        "web-frameworks",
+        "server-applications",
+        "developer-experience"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "81226352e3bda3a47fd5f87e2632742333a0a8e76c6b4dfb67015fab0a4c0452",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Oracle, 뉴멕시코 데이터센터 허가 지연에 불가항력 주장하며 배상 분쟁",
+      "url": "https://www.ft.com/content/a96bf05a-a299-4d6a-a753-b298dd0f4016",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "infrastructure",
+        "data-centres",
+        "hardware",
+        "business-risk",
+        "energy"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "12590e39bb52da2da5fbb8d8cd6ac191fe9959cd81a00f7b8497f94c69787a90",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "ICLR 2027 제출 논문 익명성 노출 사건 재발",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wptsvx/iclr_2027_de_anonymization_d/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "research-integrity",
+        "conference-operations",
+        "machine-learning-community",
+        "anonymity-breach",
+        "iclr"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:42e6f6b426f64195",
+      "content_key": "42e6f6b426f6419564ba7cf8c762370ea2ead6a32505472d3f34dce8abbcd380",
+      "surface": "more",
+      "title": "네덜란드 정부, NixOS 기반 Microsoft 대안 구축",
+      "url": "https://news.hada.io/topic?id=34262",
+      "score": 6.0,
+      "summary": "네덜란드 정부가 DAWO(Digital Autonomous Work Environment) 커뮤니티를 통해 Microsoft 대안으로 NixOS 기반의 업무 환경을 구축 중입니다. 단일 제품이 아닌 검사 및 교체 가능한 모듈식 구성 요소로 이루어지며, 디지털 자율성, 보안, 감시 용이성을 핵심 목표로 삼고 있습니다. 공공과 민간이 협력하여 재현 가능한 정부 IT 인프라를 만드는 사례로, 대규모 기관에서의 NixOS 도입과 오픈소스 기반 정부 시스템 구축의 실제 사례입니다.",
+      "tags": [
+        "open-source",
+        "nixos",
+        "government-infrastructure",
+        "digital-sovereignty",
+        "systems-architecture"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-25T10:45:51+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49842270",
+      "content_key": "1e07e4dfef9b67dce6844dc7009e370cabe14a8cede55eb2f4e55fcb2bb2f234",
+      "surface": "more",
+      "title": "Ink and Switch Interactive Homepage",
+      "url": "https://www.inkandswitch.com/",
+      "score": 5.0,
+      "summary": "Ink and Switch가 인터랙티브 홈페이지를 공개했으며, 마우스 드래그와 좌표 입력으로 시각 효과와 사운드를 생성하는 실험적 UI를 특징으로 한다. 커뮤니티는 이들의 local-first 소프트웨어, CRDT 연구, 동적 문서 등 기존 연구 성과를 높이 평가하고 있으나, 홈페이지 자체의 상호작용 일관성에 대해서는 의견이 엇갈린다.",
+      "tags": [
+        "interactive-design",
+        "local-first",
+        "crdt",
+        "research-organization"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "iFreilicht",
+      "author": "iFreilicht",
+      "published_at": "2026-09-25T09:50:25+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:50faa946e3264417",
+      "content_key": "47ab338752851acff01099a399bd1805890df53937f1457e92048ff7174e33f7",
+      "surface": "more",
+      "title": "Meta puts Muse at the center of Connect with Charm and AI glasses - therundown.ai",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpY1lGVXJZYlg0NVdJbkpkRUNTTzNxNGN4RlVrOGV3MzVMZlFXd0dfa1NRaEl1Y0E4cmY0ZTBqZkpLSEVycHhlWUZZTFh4TnI3Ylp0Q1FKb19ib1ZDc052akVoaUo2Qmx4RXFPWUswdTFGNE1Tal82MGJ3?oc=5",
+      "score": 5.0,
+      "summary": "Meta가 Connect 행사에서 Muse를 AI 안경의 중심 기능으로 배치했다고 발표했다. 구체적인 기술 세부사항이나 Muse의 기능에 대한 정보가 제공되지 않아 평가가 제한적이다. AI 하드웨어 개발 진행 상황을 보여주지만, 기술적 혁신이나 시장 영향력에 대한 명확한 증거가 부족하다.",
+      "tags": [
+        "ai-hardware",
+        "meta",
+        "ai-glasses",
+        "product-announcement"
+      ],
+      "source_type": "google_news",
+      "sub_source": "therundown.ai",
+      "author": "therundown.ai",
+      "published_at": "2026-09-25T14:47:56+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:2a2dca34b2e499c4",
+      "content_key": "ab39be48455141249d5d2fbf42697c630a82e3ab4558441fd299a08600d633c5",
+      "surface": "more",
+      "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+      "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+      "score": 5.0,
+      "summary": "Microsoft는 chat, coding, agents 기능을 통합한 Copilot 'super app'을 공식 출시했으며, 이전의 Scout AI 어시스턴트를 Autopilot으로 브랜딩 변경했다. Microsoft는 이 통합 인터페이스가 Office만큼 영향력 있을 것으로 예상하고 있으나, 구체적인 기술 사양이나 차별점에 대한 정보는 제한적이다.",
+      "tags": [
+        "copilot",
+        "ai-assistants",
+        "microsoft",
+        "generative-ai",
+        "product-launches"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Tom Warren",
+      "published_at": "2026-09-25T12:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:b99e98f8797e3b66",
+      "content_key": "230c18030a1add60407dc4477394640cf19be16ce4651ebda9bdcc95a3e80aba",
+      "surface": "more",
+      "title": "NYC Council takes aim at AI companies with new bills mandating 'kill switches,' offering cash for whistleblowers - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYk44QUwyMHZicWExeUhZejBsdkFqWGN4UDg4QmoxVms2bFMxS2xRYldkZ1ZuNWRwNVpfODNmOExXdkpCM1daS1A2dmhrQ1V1UXFndkE1WklrSnU1M0RhVUZ5UEJEN1hoWGZGQnl1R0ZPUTFiVHp2VnFMUWQxX2Q4ejlxdHpyNF9Rb0R4MEFnTV9yWHp2SWR6M0hyME83a08zVVJBdEEwUHhLWUhsaTdzZUY2SWhqazJYUm9IOTQ0ZnBDOVJEWUs0cUxWN3JwdWt3SkNnOUZrMkNyNTc3WHg4eTFR?oc=5",
+      "score": 5.0,
+      "summary": "뉴욕시의회가 AI 기업들을 대상으로 '킬 스위치' 의무화와 내부고발자 보상금 제도를 포함한 새로운 법안을 추진 중이다. 이는 AI 시스템의 안전성과 책임성을 강화하려는 규제 움직임이지만, 제안된 법안의 구체적인 기술 요구사항과 실행 가능성에 대한 상세 정보는 제공되지 않았다.",
+      "tags": [
+        "ai-regulation",
+        "ai-safety",
+        "policy",
+        "generative-ai"
+      ],
+      "source_type": "google_news",
+      "sub_source": "New York Post",
+      "author": "New York Post",
+      "published_at": "2026-09-25T09:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:c5e65cf0f31469fd",
+      "content_key": "16c853f003b1ea3c736e059a1e718427376a21e5d782119026e411750ccaf25a",
+      "surface": "more",
+      "title": "Sarvam AI launches Saaras V4 speech model supporting 22 Indian languages - Free Press Kashmir",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUNZZnU4ZWNKY1lhZUgzRUZvQ1pHYVh3U2NFNG5ublJJZ0dIbVdrVElsZi1id3dTUzFHZDBoaW5IbEgwTGo0cThWMkd1czBHTklZeGI2eDJPUEJ1Y3k5QWJxczZpSGRRN25UaGc5VXY0dEtxdXgxbWpYZ2k0aEpMUWxTcDZRTHNTZjczRVNIMG1hNjY5aGYxdHJnZTVodEVTdWJJbnhVY05ObE4wcHBwaUkwTHgwNWhUYlHSAboBQVVfeXFMUHVDWWZ1OGVjSmNZYWVIM0VGb0NaR2FYd1NjRTRubm5SSWdHSG1Xa1RJbGYtYnd3U1MxR2QwaGluSGxIMExqNHE4VjJHdXMwR05JWXhiNngyT1BCdWN5OUFicXM2aUhkUTduVGhnOVV2NHRLcXV4MW1qWGdpNGhKTFFsU3A2UUxzU2Y3M0VTSDBtYTY2OWhmMXRyZ2U1aHRFU3ViSW54VWNOTmxOMHBwcGlJMEx4MDVoVGJR?oc=5",
+      "score": 5.0,
+      "summary": "Sarvam AI가 22개 인도 언어를 지원하는 Saaras V4 음성 모델을 출시했다. 이는 인도 지역의 다국어 음성 처리 기능을 확대하는 증분 개선이며, 특히 저자원 언어에 대한 AI 모델 접근성을 높이는 데 의미가 있다.",
+      "tags": [
+        "speech-models",
+        "multilingual-ai",
+        "language-technology",
+        "generative-ai"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Free Press Kashmir",
+      "author": "Free Press Kashmir",
+      "published_at": "2026-09-25T09:45:21+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "91add978ab69237e2b0197028604cd53006a0c0c6316410c5fe88154c91dd3fb"
+}
