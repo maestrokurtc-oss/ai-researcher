@@ -1,0 +1,118 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:42e6f6b426f64195",
+    "title": "네덜란드 정부, NixOS 기반 Microsoft 대안 구축",
+    "url": "https://news.hada.io/topic?id=34262",
+    "score": 6.0,
+    "summary": "네덜란드 정부가 DAWO(Digital Autonomous Work Environment) 커뮤니티를 통해 Microsoft 대안으로 NixOS 기반의 업무 환경을 구축 중입니다. 단일 제품이 아닌 검사 및 교체 가능한 모듈식 구성 요소로 이루어지며, 디지털 자율성, 보안, 감시 용이성을 핵심 목표로 삼고 있습니다. 공공과 민간이 협력하여 재현 가능한 정부 IT 인프라를 만드는 사례로, 대규모 기관에서의 NixOS 도입과 오픈소스 기반 정부 시스템 구축의 실제 사례입니다.",
+    "reason": "Interesting development in government open-source infrastructure. DAWO represents a significant institutional commitment to NixOS-based digital sovereignty, with concrete goals around auditability and modularity. Relevant to reader interests in open source and systems architecture, though the announcement lacks technical depth and implementation details. The initiative is noteworthy for demonstrating NixOS adoption at scale in public sector, but the source provides limited specifics about current progress or technical challenges.",
+    "tags": [
+      "open-source",
+      "nixos",
+      "government-infrastructure",
+      "digital-sovereignty",
+      "systems-architecture"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-25T10:45:51+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49842270",
+    "title": "Ink and Switch Interactive Homepage",
+    "url": "https://www.inkandswitch.com/",
+    "score": 5.0,
+    "summary": "Ink and Switch가 인터랙티브 홈페이지를 공개했으며, 마우스 드래그와 좌표 입력으로 시각 효과와 사운드를 생성하는 실험적 UI를 특징으로 한다. 커뮤니티는 이들의 local-first 소프트웨어, CRDT 연구, 동적 문서 등 기존 연구 성과를 높이 평가하고 있으나, 홈페이지 자체의 상호작용 일관성에 대해서는 의견이 엇갈린다.",
+    "reason": "Ink and Switch's interactive homepage redesign demonstrates thoughtful UX experimentation and aligns with the reader's interest in innovative technical work. The organization is known for substantive research on local-first software, CRDTs, and collaborative systems. However, this is primarily a design/presentation update rather than a technical breakthrough or research announcement. Community engagement shows appreciation for their broader body of work rather than excitement about this specific artifact.",
+    "tags": [
+      "interactive-design",
+      "local-first",
+      "crdt",
+      "research-organization"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "iFreilicht",
+    "author": "iFreilicht",
+    "published_at": "2026-09-25T09:50:25+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:2a2dca34b2e499c4",
+    "title": "Microsoft thinks its new Copilot ‘super app’ will be as influential as Office",
+    "url": "https://www.theverge.com/news/1000532/microsoft-copilot-super-app-chat-coding-autopilot",
+    "score": 5.0,
+    "summary": "Microsoft는 chat, coding, agents 기능을 통합한 Copilot 'super app'을 공식 출시했으며, 이전의 Scout AI 어시스턴트를 Autopilot으로 브랜딩 변경했다. Microsoft는 이 통합 인터페이스가 Office만큼 영향력 있을 것으로 예상하고 있으나, 구체적인 기술 사양이나 차별점에 대한 정보는 제한적이다.",
+    "reason": "Incremental product consolidation with significant corporate ambition but limited concrete technical details. The claim of Office-level influence is aspirational rather than substantiated. Relevant to reader interests in AI tooling and Microsoft's strategy, but the announcement lacks specifics about capabilities, performance, or differentiation.",
+    "tags": [
+      "copilot",
+      "ai-assistants",
+      "microsoft",
+      "generative-ai",
+      "product-launches"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Tom Warren",
+    "published_at": "2026-09-25T12:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:50faa946e3264417",
+    "title": "Meta puts Muse at the center of Connect with Charm and AI glasses - therundown.ai",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBpY1lGVXJZYlg0NVdJbkpkRUNTTzNxNGN4RlVrOGV3MzVMZlFXd0dfa1NRaEl1Y0E4cmY0ZTBqZkpLSEVycHhlWUZZTFh4TnI3Ylp0Q1FKb19ib1ZDc052akVoaUo2Qmx4RXFPWUswdTFGNE1Tal82MGJ3?oc=5",
+    "score": 5.0,
+    "summary": "Meta가 Connect 행사에서 Muse를 AI 안경의 중심 기능으로 배치했다고 발표했다. 구체적인 기술 세부사항이나 Muse의 기능에 대한 정보가 제공되지 않아 평가가 제한적이다. AI 하드웨어 개발 진행 상황을 보여주지만, 기술적 혁신이나 시장 영향력에 대한 명확한 증거가 부족하다.",
+    "reason": "Incremental product announcement about Meta's AI glasses strategy. Muse integration is a routine feature addition rather than a breakthrough. Limited technical depth in the supplied content, and the headline lacks concrete details about capabilities or impact. Moderately relevant to reader interests in AI and hardware but not urgent.",
+    "tags": [
+      "ai-hardware",
+      "meta",
+      "ai-glasses",
+      "product-announcement"
+    ],
+    "source_type": "google_news",
+    "sub_source": "therundown.ai",
+    "author": "therundown.ai",
+    "published_at": "2026-09-25T14:47:56+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:b99e98f8797e3b66",
+    "title": "NYC Council takes aim at AI companies with new bills mandating 'kill switches,' offering cash for whistleblowers - New York Post",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYk44QUwyMHZicWExeUhZejBsdkFqWGN4UDg4QmoxVms2bFMxS2xRYldkZ1ZuNWRwNVpfODNmOExXdkpCM1daS1A2dmhrQ1V1UXFndkE1WklrSnU1M0RhVUZ5UEJEN1hoWGZGQnl1R0ZPUTFiVHp2VnFMUWQxX2Q4ejlxdHpyNF9Rb0R4MEFnTV9yWHp2SWR6M0hyME83a08zVVJBdEEwUHhLWUhsaTdzZUY2SWhqazJYUm9IOTQ0ZnBDOVJEWUs0cUxWN3JwdWt3SkNnOUZrMkNyNTc3WHg4eTFR?oc=5",
+    "score": 5.0,
+    "summary": "뉴욕시의회가 AI 기업들을 대상으로 '킬 스위치' 의무화와 내부고발자 보상금 제도를 포함한 새로운 법안을 추진 중이다. 이는 AI 시스템의 안전성과 책임성을 강화하려는 규제 움직임이지만, 제안된 법안의 구체적인 기술 요구사항과 실행 가능성에 대한 상세 정보는 제공되지 않았다.",
+    "reason": "Regulatory development with potential industry impact, but limited technical detail and substantive analysis in the headline-only content provided. Relevant to reader's interest in AI governance and industry developments, though the source material lacks specifics about the proposed bills' technical requirements or feasibility.",
+    "tags": [
+      "ai-regulation",
+      "ai-safety",
+      "policy",
+      "generative-ai"
+    ],
+    "source_type": "google_news",
+    "sub_source": "New York Post",
+    "author": "New York Post",
+    "published_at": "2026-09-25T09:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:c5e65cf0f31469fd",
+    "title": "Sarvam AI launches Saaras V4 speech model supporting 22 Indian languages - Free Press Kashmir",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQdUNZZnU4ZWNKY1lhZUgzRUZvQ1pHYVh3U2NFNG5ublJJZ0dIbVdrVElsZi1id3dTUzFHZDBoaW5IbEgwTGo0cThWMkd1czBHTklZeGI2eDJPUEJ1Y3k5QWJxczZpSGRRN25UaGc5VXY0dEtxdXgxbWpYZ2k0aEpMUWxTcDZRTHNTZjczRVNIMG1hNjY5aGYxdHJnZTVodEVTdWJJbnhVY05ObE4wcHBwaUkwTHgwNWhUYlHSAboBQVVfeXFMUHVDWWZ1OGVjSmNZYWVIM0VGb0NaR2FYd1NjRTRubm5SSWdHSG1Xa1RJbGYtYnd3U1MxR2QwaGluSGxIMExqNHE4VjJHdXMwR05JWXhiNngyT1BCdWN5OUFicXM2aUhkUTduVGhnOVV2NHRLcXV4MW1qWGdpNGhKTFFsU3A2UUxzU2Y3M0VTSDBtYTY2OWhmMXRyZ2U1aHRFU3ViSW54VWNOTmxOMHBwcGlJMEx4MDVoVGJR?oc=5",
+    "score": 5.0,
+    "summary": "Sarvam AI가 22개 인도 언어를 지원하는 Saaras V4 음성 모델을 출시했다. 이는 인도 지역의 다국어 음성 처리 기능을 확대하는 증분 개선이며, 특히 저자원 언어에 대한 AI 모델 접근성을 높이는 데 의미가 있다.",
+    "reason": "Incremental model release with regional language support. Sarvam AI's Saaras V4 represents a useful development for Indian language speech processing, but lacks sufficient technical depth, performance metrics, or broader industry impact to score higher. The announcement is relevant to AI/ML readers interested in multilingual systems, but the source provides minimal concrete details.",
+    "tags": [
+      "speech-models",
+      "multilingual-ai",
+      "language-technology",
+      "generative-ai"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Free Press Kashmir",
+    "author": "Free Press Kashmir",
+    "published_at": "2026-09-25T09:45:21+00:00",
+    "profile": "tech-news"
+  }
+]
