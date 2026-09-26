@@ -1,0 +1,59 @@
+[
+  {
+    "id": "hackernews:story:49849832",
+    "title": "Excel now supports multiple values in a single cell",
+    "url": "https://techcommunity.microsoft.com/blog/microsoft365insiderblog/put-multiple-values-in-one-cell-with-lists-and-arrays-in-excel/4559395",
+    "score": 5.0,
+    "summary": "Excel이 단일 셀에 여러 값을 저장할 수 있는 기능을 추가했다. 이는 배열과 리스트를 직접 셀에 포함시킬 수 있다는 의미로, 데이터 조작 작업을 간소화한다. 엔터프라이즈 환경에서 비프로그래머들이 복잡한 데이터를 다루는 데 유용하지만, 커뮤니티는 실제 필요성과 스프레드시트의 근본적 한계(확률 분포 지원 부재 등)에 대해 의문을 제기하고 있다.",
+    "reason": "Incremental but meaningful feature addition to widely-used enterprise software. Excel's support for multiple values per cell represents a genuine capability expansion for data manipulation workflows, with substantive community discussion about practical applications and limitations. Not groundbreaking, but useful for the large population of analytical workers who rely on spreadsheets.",
+    "tags": [
+      "spreadsheet-features",
+      "microsoft-excel",
+      "data-manipulation",
+      "enterprise-tools"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "luispa",
+    "author": "luispa",
+    "published_at": "2026-09-25T20:55:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:55ab59837352388b",
+    "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+    "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+    "score": 5.0,
+    "summary": "Crusoe Energy가 Boom Supersonic의 고정식 발전소를 AI 데이터센터에 사용하려던 $1.25B 규모의 계획을 포기했다. Boom의 CEO가 이 기술이 더 이상 Crusoe의 단기 계획에 포함되지 않는다고 밝혔으며, 이는 AI 인프라의 전력 공급 전략이 계속 변화하고 있음을 보여준다.",
+    "reason": "Incremental development in AI infrastructure and energy solutions. The abandonment of a specific partnership plan is noteworthy for tracking the evolving landscape of data center power strategies, but lacks sufficient detail about implications or alternatives to rate higher.",
+    "tags": [
+      "ai-infrastructure",
+      "energy-systems",
+      "data-centers",
+      "business-strategy"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Kirsten Korosec",
+    "published_at": "2026-09-25T23:11:10+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:091563a93f9857b3",
+    "title": "Meta’s AI Tamagotchi bet is…working?",
+    "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+    "score": 5.0,
+    "summary": "Meta의 개인용 AI 에이전트 Muse가 ChatGPT 초기 사용자 수를 앞지르고 있으며 스마트 글래스로 확대될 예정이라고 보도됐다. 동시에 Anthropic의 Opus 5.5와 OpenAI의 GPT-6 업데이트가 90분 간격으로 출시되면서 AI 기업들 간의 경쟁이 가속화되고 있다.",
+    "reason": "Incremental competitive update about Meta's AI agent gaining traction, with some novelty in the smart glasses integration angle. Relevant to reader's AI interests but lacks technical depth and concrete performance metrics.",
+    "tags": [
+      "generative-ai",
+      "model-updates",
+      "ai-agents",
+      "meta"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Theresa Loconsolo",
+    "published_at": "2026-09-25T16:00:00+00:00",
+    "profile": "tech-news"
+  }
+]
