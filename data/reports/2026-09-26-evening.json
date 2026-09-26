@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-26-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 10,
+    "more": 5
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "fef3d86a310799acb7876b66cae44bdbba1092adfffbc6e6d7a4569898f7166c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "Conversations 개발자, Google Play 떠나며 앱 무료 전환",
+      "url": "https://gultsch.de/posts/breaking-up-with-google-play/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "app-distribution",
+        "google-play",
+        "developer-experience",
+        "platform-monopoly",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "3acef9500591a4a6635aa692332e656bb7d9c4c8b2d39709b65766e242fda488",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Meta의 Muse 에이전트, 일부 세션서 Azure 경유 OpenAI 모델 사용 정황 포착",
+      "url": "https://news.hada.io/topic?id=34318",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-model-routing",
+        "meta-muse",
+        "openai-integration",
+        "model-inference",
+        "system-architecture"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "13bdfa6a5fd40aa4a6db2187c1f7421025794b90cf9b3f2f66499961f1f72622",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Lowent: 함수 서명만으로 부작용까지 드러내는 시스템 프로그래밍 언어",
+      "url": "https://news.hada.io/topic?id=34317",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "systems-programming",
+        "programming-languages",
+        "memory-safety",
+        "type-systems",
+        "compiler-design"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "7131187b5b1097d9c50a5a2cd54d412db6c8011f402f4fee7f6346771de1a7b6",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "뉴멕시코 배심원단, Cambridge Analytica 사건서 Facebook 이용자 기만 인정",
+      "url": "https://news.hada.io/topic?id=34308",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "content-authenticity",
+        "trust-and-verification",
+        "internet-integrity",
+        "data-privacy",
+        "facebook"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "783b8e7b43de50436471c278951fa4877e0ca4b7bc9eeea2ddfad3d3cc4a2288",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Excel, 이제 하나의 셀에 여러 값 저장 지원",
+      "url": "https://news.hada.io/topic?id=34306",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "spreadsheet-features",
+        "data-structures",
+        "microsoft-excel",
+        "productivity-tools"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "37d83c6cdc9814f133cc51fa7d6441b87c2bfc9cabc1f8e777e7a11c34e8da1e",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "우리는 어떻게 걱정을 멈추고 캠퍼스 감시를 사랑하게 되었나",
+      "url": "https://news.hada.io/topic?id=34302",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "surveillance",
+        "ai-governance",
+        "privacy",
+        "institutional-accountability",
+        "trust-and-verification"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "6ba877e38ab708ff5f53cf6aaad4cacfc9f37e2385c965493aece4ffa80a1a78",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "과외 업체, 학부모에게 돈을 아끼고 “대신 AI를 쓰라”고 권고",
+      "url": "https://news.hada.io/topic?id=34298",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "large-language-models",
+        "ai-disruption",
+        "education-technology"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "923ab9c1b35d58ebc2bfc0981164dac8df00cdf7ff30c23e9f187dd32819b4ec",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "A Little Guide to Learning Distributed Algorithms for LLMS Training and Inference \\[D\\]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqk0x2/a_little_guide_to_learning_distributed_algorithms/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "distributed-systems",
+        "llm-training",
+        "machine-learning",
+        "learning-resources",
+        "inference"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "db8051fdcf2d8c4891cd9329cb463dd507305431906e3288023a40c316380434",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "US-China set up SI Dialogue to discuss AI incidents, weeks after Trump asked cos to maintain dominance over Beijing - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQV0Z3VXA5RzY4dHd1OFRGeXRHbmVUVjRleDZTX3ZnX2ZHRWhRVnVPQWpwX2NyMU9PRzZnVlFkUGJkVHA4cVZMdkpKRHAtaWxfTmFkYWhGTzJGT2ttY01jQzJ5ZU5OU213MVVGOGxucEl6MnVFT193VkZON01wdDYxTEVGc1htaDJsSllJalUtZWRERlBWVnpDajBBWlFQYTlkWm9WUFZNR1Nwc1FVRmtyV0lqQnQ1MnlrSXZKMkpWekF1N2d5ZmZwcUROMEFxbHJyeGxfdGllTWljd01QZVFZRlFkczhGTXo3REVGSUdiN3h0NVVIR2tvTFdLZU80ckIw0gGGAkFVX3lxTE9rYk0zSFg0alF2cUtNWG5JODJEQ2RKejF6eWkwYTJGSk5ZczhMNElFZzVaNmppTFlod2owZ3BwR3B0ZDVSbDE1UnZ1cWtFbEhpMGhabHlLbVB3WEl6U3VJdzVscGEwV3AwNjFZX2YyUnBRQi0zcmdWbTMtUVc4elBrRkExVHdfdWJwZDZpekh6YnIyclV4X05Fc2tmTmdJdy1adnYtOHFxZkUyQkxwcHZoXzAtTUNjOUlzNjZjelVFYVRQaEFuZE9vZlZmMHJHNUYwSS1zcmtPVmtPa3ZFcjZhSGE2SnYxU0ZhbnhRSWFwYXRySmVmS0pMMXFWZG1LcWhabmZRWmc?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-governance",
+        "us-china-relations",
+        "ai-safety",
+        "geopolitics",
+        "international-dialogue"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "d9b4b6eafa3712cab8f041e8da147f5d6cd2baa9576503d618d8abab0380c637",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "Intel Panther Lake 분해 분석: PowerVia와 RibbonFET의 첫 상용화",
+      "url": "https://newsletter.semianalysis.com/p/intel-panther-lake-teardown",
+      "score": 8.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "semiconductor-manufacturing",
+        "process-technology",
+        "intel-panther-lake",
+        "transistor-design",
+        "advanced-packaging"
+      ]
+    },
+    {
+      "id": "google_news:article:2768768419db8d3d",
+      "content_key": "d2e4363db707dd490566bdc642cb6ce3b28fabad642e7cafd3de60527bb93842",
+      "surface": "more",
+      "title": "US, China set up AI incident hotline ᐉ News from Fakti.bg - World - fakti.bg",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE13OTdRSWJLQld0TzcweGZlcy1EVDZ2TWRhQXVkMFdOZDdNdGIweEFSaU1tYkN2UEpzUUVWaW5PRDM4RHBnbjJyaEpvcmlCWjVVRHFLNkQ2OUNmNWFyRi1LTmloNGllRmFWall1RVo0TEtqbmRzR2tqM2VJZjJLZw?oc=5",
+      "score": 6.0,
+      "summary": "미국과 중국이 AI 관련 사건에 대응하기 위한 핫라인을 구축했다. 이는 두 주요 AI 개발국 간의 안전 협력과 위험 완화를 위한 구체적인 정책 조치로, AI 거버넌스와 국제 조정의 중요성을 반영한다. 기술 커뮤니티에는 AI 시스템의 안전성과 신뢰성에 영향을 미칠 수 있는 발전이다.",
+      "tags": [
+        "ai-governance",
+        "international-policy",
+        "ai-safety",
+        "us-china-relations"
+      ],
+      "source_type": "google_news",
+      "sub_source": "fakti.bg",
+      "author": "fakti.bg",
+      "published_at": "2026-09-26T06:14:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49853175",
+      "content_key": "0966d3f1308faae05d0fa437c5a0681a25a7b1e256d1f51db51ae7eb77bed62b",
+      "surface": "more",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+      "score": 5.0,
+      "summary": "블로그 포스트는 LLM과 비전 모델을 위한 단일 함수 래퍼를 소개하며, Jev와 유사한 인터페이스를 제공한다고 주장한다. 그러나 해커뉴스 댓글에서는 이 접근법이 기존 Grammar-Based Decoding이나 Jev보다 느리고 비싸면서 명확한 이점이 없다는 의문이 제기되었다. 실시간 응용에서의 성능과 정확도 비교가 부족하다.",
+      "tags": [
+        "llm-tools",
+        "inference-optimization",
+        "wrapper-library",
+        "vision-models"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "allanrbo",
+      "author": "allanrbo",
+      "published_at": "2026-09-26T04:20:58+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:3b51c4328d18bb6f",
+      "content_key": "161e39078d7faf760ac3621906101f235f7e9e130a80ebb0ab6f3f3269b9fa19",
+      "surface": "more",
+      "title": "Académie Goncourt Removes Thélyson Orélien’s Novel Following Artificial Intelligence Allegations - streamlinefeed.co.ke",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT19ua0EyRFlCekVsRFU3WGpxdlBKR29QT3Z1QVIzeHRmSjRmM081WFMtWlpPNnMtN0tsY3U5cERoVzdWTDJNdnkzaWZjRHByZjhGZnRibmlhSDVrRldpZExkdWdXVHVJM3ZJOVdlTmZQSGtWajZpVXl1czJkUWRFSmpiWXVPMkVneF9FSDJyN01GSGtyUE9nbzFQeFF1ZWhFYTBNMUxGLTJ0SVlpMlBTXzFQZXNTQUFXQlE?oc=5",
+      "score": 5.0,
+      "summary": "프랑스 아카데미 공쿠르(Académie Goncourt)가 테릴송 오렐리앙의 소설을 인공지능 사용 의혹으로 제거했다. 이 사건은 문학상과 창작물의 진정성 검증이 AI 시대에 얼마나 중요한지를 보여주는 사례로, 기술 커뮤니티가 관심을 가져야 할 콘텐츠 진정성과 신뢰 문제를 조명한다.",
+      "tags": [
+        "ai-generated-content",
+        "content-authenticity",
+        "trust-and-verification",
+        "generative-ai"
+      ],
+      "source_type": "google_news",
+      "sub_source": "streamlinefeed.co.ke",
+      "author": "streamlinefeed.co.ke",
+      "published_at": "2026-09-26T09:16:57+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:06d63bb05c575198",
+      "content_key": "89f9618650b31d06afa5d0a9427c6caefcf8b3efbe8d133083970ab88df7f03d",
+      "surface": "more",
+      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+      "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+      "score": 5.0,
+      "summary": "Cloudflare CEO Matthew Prince가 AI가 웹에 미치는 영향에 대해 논의하는 팟캐스트 에피소드입니다. 인터넷 비즈니스 모델의 미래와 AI의 역할에 관한 내용으로 보이지만, 제공된 콘텐츠는 요약본만 있어 구체적인 주장이나 기술적 통찰력이 부족합니다.",
+      "tags": [
+        "ai-and-web",
+        "internet-integrity",
+        "business-models",
+        "cloudflare"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Nilay Patel",
+      "published_at": "2026-09-26T14:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:353c9f1c4cc75a3e",
+      "content_key": "96eb63e9e957ceeccdb1edde218225f8ba4a419d701b8179210a14f517fccca8",
+      "surface": "more",
+      "title": "Marco Rubio: US-China proposal to establish an emergency warning line for AI incidents - صوت الإمارات",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNME1obVZUY1ZUMm9VXzVibEtvVWl2aGh5VjB5dDI5WDFuWi1DcXNtbUpxOEdhaElTMUVXS09CR3JxSHhQdmdsWmRZNlg2bUpuWmFHRlZycTA3RmN1djdKaE9wOWZBbzFzTFcyNXA4TGdtb0ZxV2tWdnRBaDNWN25sc3BpeEhRQUNwWkkwQzdGMlcybDJRZkhVeGkwTmFIdTJ4cmVYRUZ5SHZjTW1IakwxajdxRjE3bm40ZU5UVlNuNjRiUWszdl9EUnkxSkpNMnNUdUxN?oc=5",
+      "score": 5.0,
+      "summary": "Marco Rubio가 미국과 중국 간 AI 사건에 대한 긴급 경고 라인 구축을 제안했다는 보도이다. 구체적인 제안 내용이나 기술적 세부사항은 제공되지 않았으나, 미중 간 AI 안전 협력 논의는 기술 거버넌스 관점에서 주목할 만하다.",
+      "tags": [
+        "ai-safety",
+        "geopolitics",
+        "us-china-relations",
+        "ai-governance"
+      ],
+      "source_type": "google_news",
+      "sub_source": "صوت الإمارات",
+      "author": "صوت الإمارات",
+      "published_at": "2026-09-26T07:35:13+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "f09d2fb46a4e230d5a2c41ccb8f018f907e9e161f7e95273f7a57084b7b557d9"
+}
