@@ -1,0 +1,97 @@
+[
+  {
+    "id": "google_news:article:2768768419db8d3d",
+    "title": "US, China set up AI incident hotline ᐉ News from Fakti.bg - World - fakti.bg",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE13OTdRSWJLQld0TzcweGZlcy1EVDZ2TWRhQXVkMFdOZDdNdGIweEFSaU1tYkN2UEpzUUVWaW5PRDM4RHBnbjJyaEpvcmlCWjVVRHFLNkQ2OUNmNWFyRi1LTmloNGllRmFWall1RVo0TEtqbmRzR2tqM2VJZjJLZw?oc=5",
+    "score": 6.0,
+    "summary": "미국과 중국이 AI 관련 사건에 대응하기 위한 핫라인을 구축했다. 이는 두 주요 AI 개발국 간의 안전 협력과 위험 완화를 위한 구체적인 정책 조치로, AI 거버넌스와 국제 조정의 중요성을 반영한다. 기술 커뮤니티에는 AI 시스템의 안전성과 신뢰성에 영향을 미칠 수 있는 발전이다.",
+    "reason": "Substantive geopolitical development with direct AI governance implications. The establishment of a US-China AI incident hotline represents a concrete policy action addressing AI safety and international coordination risks. However, the supplied content is minimal—only a headline and source attribution with no details about scope, mechanisms, or implementation—limiting assessment of depth and immediate technical relevance.",
+    "tags": [
+      "ai-governance",
+      "international-policy",
+      "ai-safety",
+      "us-china-relations"
+    ],
+    "source_type": "google_news",
+    "sub_source": "fakti.bg",
+    "author": "fakti.bg",
+    "published_at": "2026-09-26T06:14:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49853175",
+    "title": "A single function Jev-like wrapper for LLMs, including vision models",
+    "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+    "score": 5.0,
+    "summary": "블로그 포스트는 LLM과 비전 모델을 위한 단일 함수 래퍼를 소개하며, Jev와 유사한 인터페이스를 제공한다고 주장한다. 그러나 해커뉴스 댓글에서는 이 접근법이 기존 Grammar-Based Decoding이나 Jev보다 느리고 비싸면서 명확한 이점이 없다는 의문이 제기되었다. 실시간 응용에서의 성능과 정확도 비교가 부족하다.",
+    "reason": "Incremental technical tool with moderate community interest. The post describes a wrapper function for LLM inference, but community discussion reveals it may be slower and more expensive than existing alternatives like Jev, with unclear advantages. Useful for developers but not a significant breakthrough.",
+    "tags": [
+      "llm-tools",
+      "inference-optimization",
+      "wrapper-library",
+      "vision-models"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "allanrbo",
+    "author": "allanrbo",
+    "published_at": "2026-09-26T04:20:58+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:06d63bb05c575198",
+    "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
+    "url": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+    "score": 5.0,
+    "summary": "Cloudflare CEO Matthew Prince가 AI가 웹에 미치는 영향에 대해 논의하는 팟캐스트 에피소드입니다. 인터넷 비즈니스 모델의 미래와 AI의 역할에 관한 내용으로 보이지만, 제공된 콘텐츠는 요약본만 있어 구체적인 주장이나 기술적 통찰력이 부족합니다.",
+    "reason": "Interview with Cloudflare CEO on AI's impact on the web and internet business models. Relevant to reader interests in AI, internet integrity, and trust, but the supplied content is a truncated podcast description lacking substantive details about Prince's arguments or specific technical insights.",
+    "tags": [
+      "ai-and-web",
+      "internet-integrity",
+      "business-models",
+      "cloudflare"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Nilay Patel",
+    "published_at": "2026-09-26T14:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:353c9f1c4cc75a3e",
+    "title": "Marco Rubio: US-China proposal to establish an emergency warning line for AI incidents - صوت الإمارات",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNME1obVZUY1ZUMm9VXzVibEtvVWl2aGh5VjB5dDI5WDFuWi1DcXNtbUpxOEdhaElTMUVXS09CR3JxSHhQdmdsWmRZNlg2bUpuWmFHRlZycTA3RmN1djdKaE9wOWZBbzFzTFcyNXA4TGdtb0ZxV2tWdnRBaDNWN25sc3BpeEhRQUNwWkkwQzdGMlcybDJRZkhVeGkwTmFIdTJ4cmVYRUZ5SHZjTW1IakwxajdxRjE3bm40ZU5UVlNuNjRiUWszdl9EUnkxSkpNMnNUdUxN?oc=5",
+    "score": 5.0,
+    "summary": "Marco Rubio가 미국과 중국 간 AI 사건에 대한 긴급 경고 라인 구축을 제안했다는 보도이다. 구체적인 제안 내용이나 기술적 세부사항은 제공되지 않았으나, 미중 간 AI 안전 협력 논의는 기술 거버넌스 관점에서 주목할 만하다.",
+    "reason": "Geopolitical development with potential AI safety implications, but the supplied content is a headline-only RSS stub with no substantive details about the proposal, its technical scope, or likelihood of implementation. Cannot assess depth or verify claims.",
+    "tags": [
+      "ai-safety",
+      "geopolitics",
+      "us-china-relations",
+      "ai-governance"
+    ],
+    "source_type": "google_news",
+    "sub_source": "صوت الإمارات",
+    "author": "صوت الإمارات",
+    "published_at": "2026-09-26T07:35:13+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:3b51c4328d18bb6f",
+    "title": "Académie Goncourt Removes Thélyson Orélien’s Novel Following Artificial Intelligence Allegations - streamlinefeed.co.ke",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT19ua0EyRFlCekVsRFU3WGpxdlBKR29QT3Z1QVIzeHRmSjRmM081WFMtWlpPNnMtN0tsY3U5cERoVzdWTDJNdnkzaWZjRHByZjhGZnRibmlhSDVrRldpZExkdWdXVHVJM3ZJOVdlTmZQSGtWajZpVXl1czJkUWRFSmpiWXVPMkVneF9FSDJyN01GSGtyUE9nbzFQeFF1ZWhFYTBNMUxGLTJ0SVlpMlBTXzFQZXNTQUFXQlE?oc=5",
+    "score": 5.0,
+    "summary": "프랑스 아카데미 공쿠르(Académie Goncourt)가 테릴송 오렐리앙의 소설을 인공지능 사용 의혹으로 제거했다. 이 사건은 문학상과 창작물의 진정성 검증이 AI 시대에 얼마나 중요한지를 보여주는 사례로, 기술 커뮤니티가 관심을 가져야 할 콘텐츠 진정성과 신뢰 문제를 조명한다.",
+    "reason": "Timely content-authenticity story with direct relevance to reader interests in AI-generated content and trust verification. Demonstrates real-world consequences of AI use in creative work, though limited technical depth and sparse concrete details in the provided excerpt.",
+    "tags": [
+      "ai-generated-content",
+      "content-authenticity",
+      "trust-and-verification",
+      "generative-ai"
+    ],
+    "source_type": "google_news",
+    "sub_source": "streamlinefeed.co.ke",
+    "author": "streamlinefeed.co.ke",
+    "published_at": "2026-09-26T09:16:57+00:00",
+    "profile": "tech-news"
+  }
+]
