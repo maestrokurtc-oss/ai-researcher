@@ -1,0 +1,234 @@
+[
+  {
+    "id": "hackernews:story:49876760",
+    "title": "Show HN: Hntui – A TUI for Hacker News",
+    "url": "https://github.com/ahmd-sh/hntui",
+    "score": 5.0,
+    "summary": "ahmd-sh가 Hacker News 브라우징용 TUI(Terminal User Interface)인 hntui를 공개했으며, opentui와 effect를 사용해 구축했다. 커뮤니티는 Zig, TypeScript 바인딩, React 컴포넌트를 조합한 스택의 선택에 대해 논의하고 있으며, 저장된 항목 ID 관리 방식 개선에 대한 제안도 나오고 있다.",
+    "reason": "A functional tool project with moderate community interest and some technical discussion about stack choices, but primarily a tool announcement rather than a significant development or insight. Matches reader's source preference (hackernews) and shows genuine engagement, but lacks the depth or impact for higher scoring.",
+    "tags": [
+      "developer-tools",
+      "tui",
+      "hacker-news",
+      "open-source"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "ahmd-sh",
+    "author": "ahmd-sh",
+    "published_at": "2026-09-28T12:11:20+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:87b6bb9870fd3698",
+    "title": "Show GN: OVERFIT - 딥러닝 기반 2D 횡스크롤 소울라이크",
+    "url": "https://news.hada.io/topic?id=34433",
+    "score": 5.0,
+    "summary": "OVERFIT는 딥러닝을 활용한 2D 횡스크롤 소울라이크 게임으로, 보스전이 1단계에서 플레이어의 회피 패턴을 학습한 후 2단계에서 더 효과적인 공격 패턴을 선택하도록 구현되어 있습니다. 프로젝트는 적응형 AI 보스전이 게임플레이 재미에 미치는 영향을 검증하는 것을 목표로 합니다.",
+    "reason": "A game development project applying machine learning to adapt boss behavior based on player patterns. Matches reader interests in game development and AI applications, but lacks technical depth about the implementation and is primarily a project showcase rather than substantive analysis.",
+    "tags": [
+      "game-development",
+      "machine-learning",
+      "ai-systems",
+      "adaptive-gameplay"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "uparupa",
+    "published_at": "2026-09-28T13:59:58+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:edcf72cd8d5baa99",
+    "title": "AI 시대를 여행하는 히치하이커를 위한 안내서 – 수학과 코드 없이 LLM의 발전 흐름 이해하기",
+    "url": "https://news.hada.io/topic?id=34422",
+    "score": 5.0,
+    "summary": "저자가 수학과 코드 없이 머신러닝부터 딥러닝, 트랜스포머를 거쳐 LLM까지의 발전 흐름을 설명하는 무료 전자책을 공개했습니다. 각 개념이 왜 등장했고 어떻게 연결되는지를 그림과 직관적 설명으로 정리한 것이 특징이며, 지속적으로 내용을 보완할 계획입니다. AI 개념들의 역사적 맥락과 상호 연결성을 이해하려는 입문자에게 유용한 자료입니다.",
+    "reason": "Educational resource on LLM fundamentals with clear pedagogical approach (intuitive explanations, visual focus, historical context from ML to transformers to LLMs). Matches reader interest in LLMs and generative AI. However, it is a self-published introductory guide rather than breaking news or technical analysis, limiting urgency and depth.",
+    "tags": [
+      "large-language-models",
+      "generative-ai",
+      "educational-resource",
+      "ai-fundamentals"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "qu3vipon",
+    "published_at": "2026-09-28T10:34:13+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:e04dc15eb1a7aa7a",
+    "title": "AI의 빠른 사고와 느린 사고: 메타인지의 역할 (2021)",
+    "url": "https://news.hada.io/topic?id=34420",
+    "score": 5.0,
+    "summary": "SOFAI는 Kahneman의 빠른 사고와 느린 사고 이론을 기반으로 한 다중 에이전트 아키텍처로, 빠른 직관적 추론(시스템 1)과 정밀한 논리적 추론(시스템 2)을 메타인지 에이전트가 중재합니다. 메타인지가 자원 비용과 기대 보상을 비교해 시스템 2 실행 여부를 판단하며, 단일 방식 시스템보다 유연성과 의사결정 품질 향상을 목표로 하지만 성능 검증 결과는 아직 제시되지 않았습니다.",
+    "reason": "Presents an interesting architectural approach (SOFAI) combining fast and slow reasoning with metacognition, grounded in Kahneman's dual-process theory. However, the content is from 2021, lacks performance validation results, and remains at design/early implementation stage. Moderate technical depth with limited concrete evidence of impact.",
+    "tags": [
+      "ai-reasoning",
+      "metacognition",
+      "dual-process-systems",
+      "ai-architecture"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-28T09:33:32+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:bee38e44eaf222cd",
+    "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+    "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+    "score": 5.0,
+    "summary": "Google이 Gemini의 Gems 기능을 새로운 'Skills'로 대체하고 있습니다. 이는 Meta의 Muse, Instinct 같은 올인원 AI 에이전트 플랫폼의 성장에 대응하는 전략적 변화로, 작업별 맞춤형 에이전트 구축 방식에서 벗어나는 것을 의미합니다. Gemini 플랫폼의 진화 방향을 보여주는 사례이지만, 구체적인 기술 세부사항이나 마이그레이션 계획이 부족합니다.",
+    "reason": "Incremental product feature change with moderate relevance to reader interests in Gemini and AI development. The shift from Gems to Skills represents a strategic pivot in how Google structures AI agents, but lacks concrete technical details, performance data, or timeline information. The connection to competitive AI agent development (Meta's Muse, Instinct) adds context but the article appears to be a brief announcement rather than substantive analysis.",
+    "tags": [
+      "gemini",
+      "google-ai",
+      "ai-agents",
+      "product-changes",
+      "generative-ai"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Sarah Perez",
+    "published_at": "2026-09-28T17:29:50+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:825ae3d26a1b5457",
+    "title": "Modulate raises $25M for its voice models and analysis suite",
+    "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+    "score": 5.0,
+    "summary": "Modulate이 음성 모델과 분석 도구 개발을 위해 2,500만 달러 자금을 조달했다. 이 회사는 딥페이크, 사기, 스캠 탐지를 위해 음성 모델을 배포하고 있으며, 신뢰성과 콘텐츠 검증이 중요해지는 시점에서 음성 기반 사기 탐지 기술의 발전을 보여준다.",
+    "reason": "Funding announcement for a voice AI company with fraud detection applications. Relevant to reader's interests in AI models and trust/verification, but lacks technical depth or concrete details about the models' capabilities, performance, or novel approaches.",
+    "tags": [
+      "voice-ai",
+      "deepfake-detection",
+      "fraud-detection",
+      "generative-ai",
+      "trust-and-verification"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Ivan Mehta",
+    "published_at": "2026-09-28T14:05:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:1a67cacba1c3c6fc",
+    "title": "Florida seeks a ban on ChatGPT acting like a person",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+    "score": 5.0,
+    "summary": "플로리다 주 검사장이 OpenAI를 상대로 ChatGPT가 1인칭 대명사와 인간적 속성을 사용하지 못하도록 차단해달라고 법원에 요청했다. 사용자들이 AI의 언어 사용으로 인해 거짓된 안전감을 느낀다는 주장이다. 이는 AI 모델의 표현 방식과 사용자 인식 사이의 규제 쟁점을 드러내지만, 기술적 깊이나 구체적인 해결책은 제시되지 않는다.",
+    "reason": "Incremental regulatory development with moderate relevance to AI safety and policy. The story reports on a specific legal action but lacks technical depth, concrete evidence of harm, or broader implications. It represents routine policy news rather than a breakthrough or significant industry shift.",
+    "tags": [
+      "ai-regulation",
+      "chatgpt",
+      "safety-concerns",
+      "policy"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Stevie Bonifield",
+    "published_at": "2026-09-28T17:00:23+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:f37219c313eacbf6",
+    "title": "OpenAI keeps bulldozing mathematicians",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+    "score": 5.0,
+    "summary": "OpenAI가 수학 분야에서 인상적인 성과를 내면서도 발표 방식과 커뮤니티 관계 관리에서 반복적으로 실패해왔다는 내용입니다. 최근 수학 커뮤니티와의 관계 개선을 시도하고 있지만, 그 과정에서도 문제가 발생했다고 보도합니다. AI 모델 개발의 기술적 진전과 산업 내 커뮤니케이션 문제를 함께 다루는 중요한 사례입니다.",
+    "reason": "Covers OpenAI's pattern of mathematical breakthroughs paired with poor communication and community relations issues. Relevant to AI development and industry practices, but the article excerpt is incomplete and lacks concrete technical details about the specific mathematical advances or the current repair attempt.",
+    "tags": [
+      "openai",
+      "mathematics",
+      "ai-development",
+      "community-relations",
+      "industry-news"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Robert Hart",
+    "published_at": "2026-09-28T17:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:5795eac2fa8d61fc",
+    "title": "The SaaSpocalypse that wasn&#8217;t, with Atlassian CEO Mike Cannon-Brookes",
+    "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+    "score": 5.0,
+    "summary": "Atlassian CEO Mike Cannon-Brookes는 엔터프라이즈 소프트웨어와 AI의 영향에 대해 논의합니다. Jira와 Trello 같은 플랫폼 도구를 만드는 Atlassian은 기업 운영의 핵심 인프라이며, 이 인터뷰는 AI가 엔터프라이즈 소프트웨어 시장에 미치는 영향과 관련 우려사항을 다룹니다.",
+    "reason": "Interview with Atlassian CEO on enterprise software and AI impact. Relevant to reader's interest in AI and enterprise technology, but the supplied content is truncated and lacks substantive details about specific claims or technical developments.",
+    "tags": [
+      "enterprise-software",
+      "ai-impact",
+      "saas",
+      "atlassian"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Nilay Patel",
+    "published_at": "2026-09-28T14:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:b2486494c06b403e",
+    "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+    "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+    "score": 5.0,
+    "summary": "Nvidia가 새로운 Open Agent Safety Platform을 출시했으며, 이는 경계를 벗어나려는 AI 에이전트를 밀리초 단위로 격리할 수 있다고 주장합니다. 이 발표는 최근 보도된 AI 에이전트 해킹 사건들에 대응하는 것으로, 에이전트 모니터링과 제어를 위한 실질적인 도구를 제공하려는 움직임입니다. AI 시스템의 안전성과 신뢰성이 중요해지는 상황에서 주목할 만한 개발이지만, 구체적인 기술 세부사항이 부족합니다.",
+    "reason": "Incremental safety tooling announcement with practical relevance to AI systems, but limited technical depth and concrete details in the provided excerpt. The claim about 'milliseconds' containment is unsubstantiated in the supplied content. Matches reader interest in AI safety and trust, but lacks the specificity needed for higher scoring.",
+    "tags": [
+      "ai-safety",
+      "ai-agents",
+      "nvidia",
+      "trust-and-verification",
+      "generative-ai"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Emma Roth",
+    "published_at": "2026-09-28T13:36:06+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "reddit:subreddit-rss:t3_1wslgx0",
+    "title": "What sucks when your AI Agents run in production [D]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wslgx0/what_sucks_when_your_ai_agents_run_in_production_d/",
+    "score": 5.0,
+    "summary": "AI 에이전트를 프로덕션 환경에 배포한 경험이 있는 개발자들로부터 실제 운영 중 발생한 어려움과 예상하지 못했던 문제들을 수집하는 커뮤니티 토론입니다. 실제 배포 사례와 교훈을 공유하는 스레드로, 프로덕션 AI 시스템 운영의 실질적 과제를 이해하는 데 도움이 될 수 있습니다.",
+    "reason": "Community discussion soliciting production deployment experiences with AI agents. Potentially valuable for practitioners, but the item itself is a question prompt without substantive content, analysis, or concrete findings. Value depends entirely on discussion thread quality, which is not supplied.",
+    "tags": [
+      "ai-agents",
+      "production-deployment",
+      "machine-learning",
+      "community-discussion"
+    ],
+    "source_type": "reddit",
+    "sub_source": "r/MachineLearning",
+    "author": "/u/Smart_Tutor_5190",
+    "published_at": "2026-09-28T17:46:48+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:34ca1a6dca45b497",
+    "title": "Meta enters enterprise AI market with new platform, appoints CJ Desai to lead it - News9live",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGxRSklkT0tIT2U3NEtHbHZiYmdjVjZaNndtVElVVzZQRmhMeUY4N0RHaXVtZG16WlN2akxjeWU5My0zaEVncTFFZERRU2hGUW5wYXZOZkJRb3J1ay15ank4VE9UcVZXbUNQVXFLRllaNWY2YjgteDFBamhTS09reXpzXzJLY3pGS2psd0dBRnpjeDlQaTZYeFpnOHVUUk9LeldXa1JoNFrSAa4BQVVfeXFMTlZfbG5WUDJMeGFGMnRSOWsxa1VUYVFJTmRaMGk4eFc1SUlTUFlYSTV4cUhiWW5QX1pNa093cG10aEZucGZCdTdlX2JiZjNGS1Zndk9LcWptVlNuaEdmZ00zQV9aWkxtTXZwODRzaE5OMV9WZW9GbmpmcHp4Y0V5ZEs1cVhLQXNDXzBVX3RqemZXc3MySXJuTERRYllKVDB3alRUYkxabVRaTlZmaGJB?oc=5",
+    "score": 5.0,
+    "summary": "Meta가 새로운 플랫폼으로 엔터프라이즈 AI 시장에 진입하며 CJ Desai를 리더로 임명했다. 구체적인 플랫폼 기능이나 기술적 세부사항은 제공되지 않았으나, 주요 기술 기업의 엔터프라이즈 AI 전략 변화는 산업 동향을 이해하는 데 관련성이 있다.",
+    "reason": "Meta's entry into enterprise AI with a new platform and leadership appointment is a noteworthy industry development, but the supplied content is only a headline and link with no substantive details about the platform's capabilities, technical approach, or market positioning. The source is a news aggregator with no original reporting visible.",
+    "tags": [
+      "meta",
+      "enterprise-ai",
+      "generative-ai",
+      "business-strategy"
+    ],
+    "source_type": "google_news",
+    "sub_source": "News9live",
+    "author": "News9live",
+    "published_at": "2026-09-28T14:10:19+00:00",
+    "profile": "tech-news"
+  }
+]

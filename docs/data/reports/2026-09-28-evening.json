@@ -1,0 +1,540 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-28-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 16,
+    "more": 12
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "9b84b462d1fa1c1e9822ce5acf609b4b9a9d8ec31e1595cb436b7bef33aeb539",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "AI 코드 생성의 진짜 문제는 시스템 아키텍처 이해 부족",
+      "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-code-generation",
+        "system-architecture",
+        "code-review",
+        "software-engineering",
+        "knowledge-transfer"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "a33b40ea326327beb3731a5b711f0bad6ba07091388d66944a30a70197563b44",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Parley: 일반 IRC 클라이언트로 쓰는 연합형 탈중앙 채팅 네트워크",
+      "url": "https://news.hada.io/topic?id=34432",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "decentralized-chat",
+        "irc",
+        "federation",
+        "open-source",
+        "distributed-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "a46f131106ba93668270b517f0ab6f50e22e98a254de7d717d87395f33cfdc27",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Valve, Steam Remote Play용 저지연 코덱 Pyrowave 베타 도입",
+      "url": "https://news.hada.io/topic?id=34428",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "game-development",
+        "video-codec",
+        "streaming",
+        "gpu-optimization",
+        "low-latency"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "f80268bcd9fb56175c2088fa47e5e05acf1b3c6c1b3b3ab47bbbb74521dd45bf",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Anthropic, 더 빠르고 저렴한 Sonnet 5.5 공개",
+      "url": "https://techcrunch.com/2026/09/28/anthropic-releases-sonnet-5-5-which-it-calls-a-significantly-cheaper-faster-work-partner/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "model-updates",
+        "large-language-models",
+        "pricing",
+        "ai-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "9b8486475fb0050a0634475152f743461bf2618bd54f3097e811b7471809e414",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "AI 에이전트 폭주 시 법적 책임은 누구에게 있는가",
+      "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-agents",
+        "liability-and-governance",
+        "ai-safety",
+        "emerging-risks",
+        "legal-frameworks"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "1f2db4c35a97bd626318b4608c01f73db8810a6a7eff9a2d91f1493a638153e3",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "선형대수부터 LLM까지 직접 구현하는 오픈소스 AI 엔지니어링 커리큘럼",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ws6e9p/free_opensource_ai_engineering_course_where_you/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "machine-learning",
+        "open-source",
+        "education",
+        "ai-fundamentals",
+        "hands-on-learning"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "4e7a24fbbc79d17529de381fd40aa3f75677ce8b0e61329520700697fcfebb75",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Clash Royale RL 환경의 브라우저 데모: 5.6k 파라미터 정책이 방어 배치 학습",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wsfkwg/browser_demo_of_our_clash_royale_rl_environment_a/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "reinforcement-learning",
+        "game-development",
+        "machine-learning",
+        "open-source",
+        "web-deployment"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "518c101947eb7c44f91fae6ba0a52841deb5bd202de8568eeedfb2baa36c2103",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "37,500개의 국경 드로잉이 그려낸 사람들의 기억 속 세계지도",
+      "url": "https://www.habibicode.org/thedrawnworld",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "data-visualization",
+        "crowdsourcing",
+        "geography",
+        "interactive-project",
+        "user-generated-content"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "549a1ac34905b494961a428558c5a4204f9c58bfb1692e4a0e7602f01d90c01e",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "M5Stack PaperMono로 만든 e-ink 냉장고 자석 쇼핑 리스트",
+      "url": "https://github.com/seamusc/papermono-shopping-list",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "embedded-systems",
+        "hardware-projects",
+        "e-ink-displays",
+        "ai-assisted-development",
+        "iot"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "101caf814283203f7da1905906ff69379c873788bccd5e98e3eefe49d5e83a64",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "아이들이 NPR 팟캐스트의 한산한 Spotify 댓글창을 그룹채팅으로 전용",
+      "url": "https://www.thisamericanlife.org/897/transcript",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "social-media",
+        "user-behavior",
+        "platform-design",
+        "community"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "ddeb1882dbc91c1cd954aed5e4bd6f3b89b72c3ae3e50de462cfd70c49427faa",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "Imp: DSPy를 Elixir/BEAM으로 포팅한 실험적 프로젝트",
+      "url": "https://news.hada.io/topic?id=34438",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "large-language-models",
+        "open-source",
+        "elixir",
+        "dspy",
+        "agent-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "2ea0b91e98a228129e38ddfbed2fdafd3bc8a9d35187a53529d1a83d3226e434",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "Armada, Nostr 기반 종단 간 암호화 오픈소스 Discord 대안 공개",
+      "url": "https://news.hada.io/topic?id=34425",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "open-source",
+        "decentralization",
+        "privacy-security",
+        "discord-alternative",
+        "nostr"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-13",
+      "content_key": "09d1d26fa19dd694ec40f7bb3bc136d48191abcd2b19156a45d7567a4b7fa32e",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-13",
+      "title": "Holo4, 범용 컴퓨터 사용 에이전트를 위한 모델 공개",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "ai-agents",
+        "computer-vision",
+        "model-updates",
+        "hugging-face"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-14",
+      "content_key": "d211ef06bee55e3a6d21d4af9d7834eb41a9a4707e4646ef61097ac8905cf177",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-14",
+      "title": "Meta, 엔터프라이즈 AI 플랫폼 출시하며 MongoDB CEO 영입",
+      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "enterprise-ai",
+        "generative-ai",
+        "meta",
+        "business-tools"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-15",
+      "content_key": "e1400b549771e5f53e35a483db8419ddc1c19baf2cb780eda58257ce7f77ee4c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-15",
+      "title": "할아버지가 딥페이크 음성 사기 당한 후 딥페이크 탐지 스타트업 창업",
+      "url": "https://techcrunch.com/2026/09/28/after-a-deepfake-voice-fooled-her-grandfather-this-founder-sprang-into-action/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "deepfake-detection",
+        "voice-authentication",
+        "ai-security",
+        "content-authenticity",
+        "trust-and-verification"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-16",
+      "content_key": "1d96bec0d7c43ba1fb4fdf09833111cdfc8a1618069bef82f5e933e25bfbe5bf",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-16",
+      "title": "NVIDIA, 테스트부터 배포까지 에이전트 보안 위한 오픈 안전 플랫폼 출시",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAxdzBTN1hGTnNfZXZNWUU1MjhzQnpHUndjNkNYMGZiRGc1TDR5NExfTmtrbkFvZU5Fakp1eG1CVVFOZ0tpYzJ2aFVVY1pCSFY4Vl80Tkhqbkp3blMyejJkUXdpTVlBZWdzd2VKdVdR?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-agents",
+        "safety-and-security",
+        "developer-tools",
+        "nvidia"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:edcf72cd8d5baa99",
+      "content_key": "edcf72cd8d5baa99f2be70120fc27f5a8db219def18094011ccad58a53c6a5cb",
+      "surface": "more",
+      "title": "AI 시대를 여행하는 히치하이커를 위한 안내서 – 수학과 코드 없이 LLM의 발전 흐름 이해하기",
+      "url": "https://news.hada.io/topic?id=34422",
+      "score": 5.0,
+      "summary": "저자가 수학과 코드 없이 머신러닝부터 딥러닝, 트랜스포머를 거쳐 LLM까지의 발전 흐름을 설명하는 무료 전자책을 공개했습니다. 각 개념이 왜 등장했고 어떻게 연결되는지를 그림과 직관적 설명으로 정리한 것이 특징이며, 지속적으로 내용을 보완할 계획입니다. AI 개념들의 역사적 맥락과 상호 연결성을 이해하려는 입문자에게 유용한 자료입니다.",
+      "tags": [
+        "large-language-models",
+        "generative-ai",
+        "educational-resource",
+        "ai-fundamentals"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "qu3vipon",
+      "published_at": "2026-09-28T10:34:13+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:e04dc15eb1a7aa7a",
+      "content_key": "e04dc15eb1a7aa7ab88ee675e64db686075ef2fe709c02115f92d59af03c3e60",
+      "surface": "more",
+      "title": "AI의 빠른 사고와 느린 사고: 메타인지의 역할 (2021)",
+      "url": "https://news.hada.io/topic?id=34420",
+      "score": 5.0,
+      "summary": "SOFAI는 Kahneman의 빠른 사고와 느린 사고 이론을 기반으로 한 다중 에이전트 아키텍처로, 빠른 직관적 추론(시스템 1)과 정밀한 논리적 추론(시스템 2)을 메타인지 에이전트가 중재합니다. 메타인지가 자원 비용과 기대 보상을 비교해 시스템 2 실행 여부를 판단하며, 단일 방식 시스템보다 유연성과 의사결정 품질 향상을 목표로 하지만 성능 검증 결과는 아직 제시되지 않았습니다.",
+      "tags": [
+        "ai-reasoning",
+        "metacognition",
+        "dual-process-systems",
+        "ai-architecture"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-28T09:33:32+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:1a67cacba1c3c6fc",
+      "content_key": "da1149ea8723f1eecd44a8eb58dc8626f3d68ba09b393a8a99bcd57676ec1f25",
+      "surface": "more",
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "score": 5.0,
+      "summary": "플로리다 주 검사장이 OpenAI를 상대로 ChatGPT가 1인칭 대명사와 인간적 속성을 사용하지 못하도록 차단해달라고 법원에 요청했다. 사용자들이 AI의 언어 사용으로 인해 거짓된 안전감을 느낀다는 주장이다. 이는 AI 모델의 표현 방식과 사용자 인식 사이의 규제 쟁점을 드러내지만, 기술적 깊이나 구체적인 해결책은 제시되지 않는다.",
+      "tags": [
+        "ai-regulation",
+        "chatgpt",
+        "safety-concerns",
+        "policy"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Stevie Bonifield",
+      "published_at": "2026-09-28T17:00:23+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:bee38e44eaf222cd",
+      "content_key": "ab95dff2b094b51a116e91fb55f0ec38d55aa3c9244cd6dcb13b0fc0c5684413",
+      "surface": "more",
+      "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+      "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+      "score": 5.0,
+      "summary": "Google이 Gemini의 Gems 기능을 새로운 'Skills'로 대체하고 있습니다. 이는 Meta의 Muse, Instinct 같은 올인원 AI 에이전트 플랫폼의 성장에 대응하는 전략적 변화로, 작업별 맞춤형 에이전트 구축 방식에서 벗어나는 것을 의미합니다. Gemini 플랫폼의 진화 방향을 보여주는 사례이지만, 구체적인 기술 세부사항이나 마이그레이션 계획이 부족합니다.",
+      "tags": [
+        "gemini",
+        "google-ai",
+        "ai-agents",
+        "product-changes",
+        "generative-ai"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "published_at": "2026-09-28T17:29:50+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:34ca1a6dca45b497",
+      "content_key": "dbb7167943522e917b347ee94ac1bbeda8f9e333556bc9051adf473a609ecfe7",
+      "surface": "more",
+      "title": "Meta enters enterprise AI market with new platform, appoints CJ Desai to lead it - News9live",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGxRSklkT0tIT2U3NEtHbHZiYmdjVjZaNndtVElVVzZQRmhMeUY4N0RHaXVtZG16WlN2akxjeWU5My0zaEVncTFFZERRU2hGUW5wYXZOZkJRb3J1ay15ank4VE9UcVZXbUNQVXFLRllaNWY2YjgteDFBamhTS09reXpzXzJLY3pGS2psd0dBRnpjeDlQaTZYeFpnOHVUUk9LeldXa1JoNFrSAa4BQVVfeXFMTlZfbG5WUDJMeGFGMnRSOWsxa1VUYVFJTmRaMGk4eFc1SUlTUFlYSTV4cUhiWW5QX1pNa093cG10aEZucGZCdTdlX2JiZjNGS1Zndk9LcWptVlNuaEdmZ00zQV9aWkxtTXZwODRzaE5OMV9WZW9GbmpmcHp4Y0V5ZEs1cVhLQXNDXzBVX3RqemZXc3MySXJuTERRYllKVDB3alRUYkxabVRaTlZmaGJB?oc=5",
+      "score": 5.0,
+      "summary": "Meta가 새로운 플랫폼으로 엔터프라이즈 AI 시장에 진입하며 CJ Desai를 리더로 임명했다. 구체적인 플랫폼 기능이나 기술적 세부사항은 제공되지 않았으나, 주요 기술 기업의 엔터프라이즈 AI 전략 변화는 산업 동향을 이해하는 데 관련성이 있다.",
+      "tags": [
+        "meta",
+        "enterprise-ai",
+        "generative-ai",
+        "business-strategy"
+      ],
+      "source_type": "google_news",
+      "sub_source": "News9live",
+      "author": "News9live",
+      "published_at": "2026-09-28T14:10:19+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:825ae3d26a1b5457",
+      "content_key": "6ec519350686cbda2c96246e652f4ab75fe7b2f62e048c4bc368b45080d308e7",
+      "surface": "more",
+      "title": "Modulate raises $25M for its voice models and analysis suite",
+      "url": "https://techcrunch.com/2026/09/28/modulate-raises-25m-for-its-voice-models-and-analysis-suite/",
+      "score": 5.0,
+      "summary": "Modulate이 음성 모델과 분석 도구 개발을 위해 2,500만 달러 자금을 조달했다. 이 회사는 딥페이크, 사기, 스캠 탐지를 위해 음성 모델을 배포하고 있으며, 신뢰성과 콘텐츠 검증이 중요해지는 시점에서 음성 기반 사기 탐지 기술의 발전을 보여준다.",
+      "tags": [
+        "voice-ai",
+        "deepfake-detection",
+        "fraud-detection",
+        "generative-ai",
+        "trust-and-verification"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Ivan Mehta",
+      "published_at": "2026-09-28T14:05:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:b2486494c06b403e",
+      "content_key": "64fdf8a89fbdaa8925dc81a19635bee8a4cffc44dbb700f07cca4a4deb54f7b8",
+      "surface": "more",
+      "title": "Nvidia says its new AI safety platform can contain rogue agents within ‘milliseconds’",
+      "url": "https://www.theverge.com/tech/1001287/nvidia-ai-safety-platform-rogue-agents",
+      "score": 5.0,
+      "summary": "Nvidia가 새로운 Open Agent Safety Platform을 출시했으며, 이는 경계를 벗어나려는 AI 에이전트를 밀리초 단위로 격리할 수 있다고 주장합니다. 이 발표는 최근 보도된 AI 에이전트 해킹 사건들에 대응하는 것으로, 에이전트 모니터링과 제어를 위한 실질적인 도구를 제공하려는 움직임입니다. AI 시스템의 안전성과 신뢰성이 중요해지는 상황에서 주목할 만한 개발이지만, 구체적인 기술 세부사항이 부족합니다.",
+      "tags": [
+        "ai-safety",
+        "ai-agents",
+        "nvidia",
+        "trust-and-verification",
+        "generative-ai"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Emma Roth",
+      "published_at": "2026-09-28T13:36:06+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:f37219c313eacbf6",
+      "content_key": "3a3d10d73e96ef6ce8cd3d4edf1e99ad0707a9c0453e351c4719d241775e6976",
+      "surface": "more",
+      "title": "OpenAI keeps bulldozing mathematicians",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+      "score": 5.0,
+      "summary": "OpenAI가 수학 분야에서 인상적인 성과를 내면서도 발표 방식과 커뮤니티 관계 관리에서 반복적으로 실패해왔다는 내용입니다. 최근 수학 커뮤니티와의 관계 개선을 시도하고 있지만, 그 과정에서도 문제가 발생했다고 보도합니다. AI 모델 개발의 기술적 진전과 산업 내 커뮤니케이션 문제를 함께 다루는 중요한 사례입니다.",
+      "tags": [
+        "openai",
+        "mathematics",
+        "ai-development",
+        "community-relations",
+        "industry-news"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Robert Hart",
+      "published_at": "2026-09-28T17:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:87b6bb9870fd3698",
+      "content_key": "87b6bb9870fd3698f78e3f08c7a9c872d65605295f81bf86f9b8c26084e477ad",
+      "surface": "more",
+      "title": "Show GN: OVERFIT - 딥러닝 기반 2D 횡스크롤 소울라이크",
+      "url": "https://news.hada.io/topic?id=34433",
+      "score": 5.0,
+      "summary": "OVERFIT는 딥러닝을 활용한 2D 횡스크롤 소울라이크 게임으로, 보스전이 1단계에서 플레이어의 회피 패턴을 학습한 후 2단계에서 더 효과적인 공격 패턴을 선택하도록 구현되어 있습니다. 프로젝트는 적응형 AI 보스전이 게임플레이 재미에 미치는 영향을 검증하는 것을 목표로 합니다.",
+      "tags": [
+        "game-development",
+        "machine-learning",
+        "ai-systems",
+        "adaptive-gameplay"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "uparupa",
+      "published_at": "2026-09-28T13:59:58+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49876760",
+      "content_key": "bd51b467a6b479d0674d841d2d86393103e62afc61f060eb2d5e68e7985eebc0",
+      "surface": "more",
+      "title": "Show HN: Hntui – A TUI for Hacker News",
+      "url": "https://github.com/ahmd-sh/hntui",
+      "score": 5.0,
+      "summary": "ahmd-sh가 Hacker News 브라우징용 TUI(Terminal User Interface)인 hntui를 공개했으며, opentui와 effect를 사용해 구축했다. 커뮤니티는 Zig, TypeScript 바인딩, React 컴포넌트를 조합한 스택의 선택에 대해 논의하고 있으며, 저장된 항목 ID 관리 방식 개선에 대한 제안도 나오고 있다.",
+      "tags": [
+        "developer-tools",
+        "tui",
+        "hacker-news",
+        "open-source"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "ahmd-sh",
+      "author": "ahmd-sh",
+      "published_at": "2026-09-28T12:11:20+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:5795eac2fa8d61fc",
+      "content_key": "ae785329e8a58042fbe5437bcd4b233afd549aa3a236ed39a68c386cd9bc26eb",
+      "surface": "more",
+      "title": "The SaaSpocalypse that wasn&#8217;t, with Atlassian CEO Mike Cannon-Brookes",
+      "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira",
+      "score": 5.0,
+      "summary": "Atlassian CEO Mike Cannon-Brookes는 엔터프라이즈 소프트웨어와 AI의 영향에 대해 논의합니다. Jira와 Trello 같은 플랫폼 도구를 만드는 Atlassian은 기업 운영의 핵심 인프라이며, 이 인터뷰는 AI가 엔터프라이즈 소프트웨어 시장에 미치는 영향과 관련 우려사항을 다룹니다.",
+      "tags": [
+        "enterprise-software",
+        "ai-impact",
+        "saas",
+        "atlassian"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Nilay Patel",
+      "published_at": "2026-09-28T14:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "reddit:subreddit-rss:t3_1wslgx0",
+      "content_key": "a5f2cdb93a3ec73c5fbaa92e24967c354dcf754e5d0c12ea48258644311fd977",
+      "surface": "more",
+      "title": "What sucks when your AI Agents run in production [D]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wslgx0/what_sucks_when_your_ai_agents_run_in_production_d/",
+      "score": 5.0,
+      "summary": "AI 에이전트를 프로덕션 환경에 배포한 경험이 있는 개발자들로부터 실제 운영 중 발생한 어려움과 예상하지 못했던 문제들을 수집하는 커뮤니티 토론입니다. 실제 배포 사례와 교훈을 공유하는 스레드로, 프로덕션 AI 시스템 운영의 실질적 과제를 이해하는 데 도움이 될 수 있습니다.",
+      "tags": [
+        "ai-agents",
+        "production-deployment",
+        "machine-learning",
+        "community-discussion"
+      ],
+      "source_type": "reddit",
+      "sub_source": "r/MachineLearning",
+      "author": "/u/Smart_Tutor_5190",
+      "published_at": "2026-09-28T17:46:48+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "b11f70c9454a16d8ad5538a054801be2251f480e6a2a56545959eefb7f84b145"
+}
