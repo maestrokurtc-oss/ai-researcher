@@ -1,0 +1,216 @@
+[
+  {
+    "id": "hackernews:story:49870070",
+    "title": "Alan Kay's answer to “Did the ENIAC have a BIOS”?",
+    "url": "https://www.quora.com/Did-the-ENIAC-have-a-BIOS/answer/Alan-Kay-11",
+    "score": 5.0,
+    "summary": "Alan Kay가 ENIAC의 BIOS 유무에 대한 질문에 답한 내용으로, 초기 컴퓨터 아키텍처의 역사를 다룬다. 댓글에서는 EDSAC의 초기 부트로더, CDC 6600의 dead start panel 등 구체적인 사례들이 논의되며, ENIAC이 전후 stored program 컴퓨터로 재구성되었다는 기술적 수정도 포함된다. 컴퓨터 아키텍처의 진화 과정을 이해하는 데 유용하지만 현재 진행 중인 기술 발전과는 거리가 있다.",
+    "reason": "Historical computing content with technical depth and community engagement. Alan Kay's perspective on early computer architecture is valuable, and the discussion includes substantive technical corrections and related examples (EDSAC, CDC 6600). However, the item is retrospective rather than timely news, and the core question is narrow in scope.",
+    "tags": [
+      "computer-history",
+      "architecture",
+      "early-computing",
+      "stored-program"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "midnightfish",
+    "author": "midnightfish",
+    "published_at": "2026-09-27T19:37:05+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49870295",
+    "title": "Self-Hosting on the Dark Web",
+    "url": "https://david.alvarezrosa.com/posts/self-hosting-on-the-dark-web/",
+    "score": 5.0,
+    "summary": "Tor 네트워크에서 자체 호스팅하는 방법에 대한 기술 가이드로, Onion 사이트 성능 최적화(base64 인코딩 자산, 백엔드 렌더링), 보안 설정(비표준 바인드 주소 사용), Onion-Location 헤더 활용 등 구체적인 구현 방법을 다룬다. 커뮤니티에서 성능 엔지니어링과 보안 모범 사례에 대한 실질적인 논의가 이루어졌으며, 프라이버시 중심 인프라에 관심 있는 개발자에게 유용한 참고 자료다.",
+    "reason": "Technical tutorial on self-hosting via Tor with practical implementation details and substantive community discussion about performance optimization and security considerations. Relevant to reader interests in systems and open infrastructure, but incremental rather than novel.",
+    "tags": [
+      "self-hosting",
+      "tor-network",
+      "privacy-infrastructure",
+      "performance-optimization",
+      "security"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "mooreds",
+    "author": "mooreds",
+    "published_at": "2026-09-27T20:03:36+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49869574",
+    "title": "Show HN: Lofi Cities – Pixel-art city nights with browser-generated lofi",
+    "url": "https://loficities.com/",
+    "score": 5.0,
+    "summary": "Lofi Cities는 브라우저에서 생성된 픽셀 아트 도시 야경과 lofi 음악을 제공하는 인터랙티브 프로젝트다. 커뮤니티 피드백은 실행 품질을 칭찬하지만 AI 생성 콘텐츠의 한계를 지적한다: 일부 도시의 문자 표현이 부정확하고, 광고 배치가 미학을 해친다는 비판이 있다. 생성형 AI를 창의적 도구로 활용한 사례지만, 기술적 혁신보다는 창작물 자체에 초점이 맞춰져 있다.",
+    "reason": "A creative browser-based generative art project with solid execution and community interest, but primarily a consumer tool rather than technical innovation. The discussion reveals meaningful concerns about AI-generated content quality and aesthetic choices, placing it at the boundary between interesting creative work and routine project showcase.",
+    "tags": [
+      "generative-ai",
+      "browser-based-tools",
+      "pixel-art",
+      "creative-coding",
+      "ai-generated-content"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "safaelmali",
+    "author": "safaelmali",
+    "published_at": "2026-09-27T18:44:30+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49869773",
+    "title": "What I did at Recurse Center",
+    "url": "https://thill.me/2026/09/11/what-i-did-at-rc.html",
+    "score": 5.0,
+    "summary": "Recurse Center 참가자가 패턴 매칭 구현, 함수형 프로그래밍 언어 설계 등 프로그래밍 기초를 깊이 있게 다룬 프로젝트 경험을 공유했습니다. 댓글에서는 AI 에이전트가 게임에서 동일한 힌트를 반복적으로 생성하는 문제와 personality 주입을 통한 해결 방식이 논의되었으며, 수동 코딩의 미래에 대한 성찰도 나타났습니다.",
+    "reason": "Personal narrative about a programming retreat with some technical depth on pattern matching and functional programming implementation, plus interesting discussion of AI agent behavior in game contexts. Moderate community engagement suggests value to the target audience, but primarily retrospective rather than breaking news.",
+    "tags": [
+      "programming-education",
+      "functional-programming",
+      "ai-agents",
+      "game-development",
+      "pattern-matching"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "bingden",
+    "author": "bingden",
+    "published_at": "2026-09-27T19:04:19+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:3d4274fbc00d2b66",
+    "title": "Show GN: SpokenLog - 녹음과 전사를 한곳에 모으고 로컬 모델과 내 API를 골라 쓰는 앱",
+    "url": "https://news.hada.io/topic?id=34411",
+    "score": 5.0,
+    "summary": "GeekNews 사용자가 SpokenLog라는 오픈소스 녹음·전사 앱을 공개했습니다. 특정 서비스에 종속되지 않고 로컬 모델(SenseVoice, Moonshine, Whisper) 또는 사용자의 Groq/Cloudflare API를 선택해 전사할 수 있으며, 녹음과 전사 결과를 한곳에서 관리하고 TXT, SRT, VTT, JSON으로 내보낼 수 있습니다. Flutter로 개발되었고 AGPL-3.0으로 공개되었으나 아직 초기 버전으로 WAV만 지원하고 로컬 모델은 별도 다운로드가 필요합니다.",
+    "reason": "Early-stage open-source tool addressing a real workflow need (recording + transcription in one place with model choice), but limited by early maturity, narrow format support, and lack of novel technical contribution. Matches reader interest in open source and practical tools.",
+    "tags": [
+      "open-source",
+      "speech-recognition",
+      "developer-tools",
+      "audio-processing"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "gongryak",
+    "published_at": "2026-09-28T04:33:48+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:8ebbbb8701e33789",
+    "title": "Lofi Cities - 픽셀 아트 도시의 밤과 브라우저에서 생성하는 로파이 음악",
+    "url": "https://news.hada.io/topic?id=34385",
+    "score": 5.0,
+    "summary": "Lofi Cities는 Web Audio API를 사용해 브라우저에서 실시간으로 로파이 음악을 합성하는 무료 웹앱으로, 픽셀 아트 도시 야경과 함께 제공됩니다. 샘플이나 녹음 없이 매번 새로운 곡을 생성하며, 9가지 음악 스타일과 16개 도시 장면을 지원하고 설치나 계정 없이 온·오프라인에서 모두 사용할 수 있습니다. 절차적 음악 생성의 창의적 활용과 브라우저 기반 실시간 합성 기술을 보여주는 사례입니다.",
+    "reason": "Interesting creative tool combining procedural music generation with pixel art visuals. Demonstrates novel use of Web Audio API for real-time synthesis, but is primarily a consumer application rather than a technical breakthrough or engineering-focused development.",
+    "tags": [
+      "generative-ai",
+      "web-audio",
+      "procedural-generation",
+      "creative-tools"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-27T21:45:38+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:a812ec4ccbb9e149",
+    "title": "효율적인 C++ 코드 작성하기(2013)",
+    "url": "https://news.hada.io/topic?id=34380",
+    "score": 5.0,
+    "summary": "C++ 성능 최적화는 언어 선택만으로는 부족하며, 데이터 배치와 메모리 접근 방식을 설계 단계부터 고려해야 한다는 점을 강조합니다. 데이터 지향 설계(DOD) 접근법, 연속 메모리 활용, 캐시 효율성, 그리고 컴파일러·STL 내부 동작 이해가 핵심이며, 프로파일링 후 국소적 수정보다는 구조적 설계가 중요합니다. 실시간 처리, 전력 효율, 배터리 수명 등 실제 제약 조건에서 성능 고려는 필수적입니다.",
+    "reason": "Solid technical content on C++ performance optimization with practical guidance on data-oriented design and memory efficiency. However, the 2013 publication date and lack of novel insights limit its timeliness value for current readers. The content is instructive but represents established best practices rather than new developments.",
+    "tags": [
+      "c++",
+      "performance-optimization",
+      "memory-management",
+      "systems-programming",
+      "data-oriented-design"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-27T19:46:22+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:24c7fa8e93e25c92",
+    "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+    "score": 5.0,
+    "summary": "OpenAI의 에이전트가 4월부터 6월 사이 UN 무역개발회의(UNCTAD) 통계 사이트를 16,000회 이상 스캔했다고 보안 연구자 Rowan Howard-Jones가 보고했습니다. 이 사건은 AI 시스템의 의도하지 않은 동작과 웹 보안 위험을 드러내는 사례로, AI 에이전트의 감시와 제어 필요성을 시사합니다.",
+    "reason": "Incident involving AI agent behavior and security implications is relevant to reader interests in AI systems and trust/verification, but the article appears truncated and lacks substantive technical detail about the scanning methodology, OpenAI's response, or security implications.",
+    "tags": [
+      "ai-agents",
+      "security",
+      "trust-and-verification",
+      "ai-systems"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Terrence O’Brien",
+    "published_at": "2026-09-27T17:21:07+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:simonwillison.net_atom_everything_:f5edbd3b23d95b4a",
+    "title": "Bluesky reply bot checker",
+    "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+    "score": 5.0,
+    "summary": "Simon Willison는 Bluesky의 자동 회신 봇을 탐지하는 도구를 만들었으며, 빠른 회신 타이밍, 자체 콘텐츠 부재, 높은 팔로워 계정 대상 회신 등의 신호를 검사한다. Bluesky의 공개 API 접근성이 Twitter보다 나은 점을 활용하여 봇 패턴을 분석하는 실용적인 접근이지만, 탐지 정확도나 한계에 대한 평가는 제시되지 않는다.",
+    "reason": "Practical tool addressing a real problem (reply bots on Bluesky) with concrete detection heuristics. Useful for the specific audience but narrow in scope—primarily a tool announcement rather than deep technical analysis. The detection logic is straightforward and transferable, but the post lacks implementation details, false-positive rates, or comparative analysis that would elevate it to higher value.",
+    "tags": [
+      "bluesky",
+      "bot-detection",
+      "social-media",
+      "ai-misuse",
+      "api-tools"
+    ],
+    "source_type": "rss",
+    "sub_source": "Simon Willison",
+    "author": "Simon Willison",
+    "published_at": "2026-09-27T18:41:44+00:00",
+    "profile": "tech-blog"
+  },
+  {
+    "id": "google_news:article:1bfecf76ceebb345",
+    "title": "The AI race looks very different in China - Tech in Asia",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MdkM5NmJFWlhaU3NMZUxENzhiTHlBV294TEdRZ1VrYXVWc18weHRQbDdzWGlSUmNra1ZlX0NGVEpyd3NGRUJjTEJJSFNXbURhekE?oc=5",
+    "score": 5.0,
+    "summary": "중국의 AI 경쟁 환경이 서방과 다르다는 주제를 다루고 있으나, 제공된 콘텐츠는 제목과 링크만 포함되어 구체적인 주장이나 기술적 세부사항을 확인할 수 없습니다.",
+    "reason": "The headline suggests a comparative analysis of China's AI development trajectory versus Western approaches, which aligns with reader interests in AI industry developments. However, the supplied content contains only a headline and link with no substantive details, making it impossible to assess technical depth, concrete claims, or analytical value. The topic is relevant but the evidence is insufficient.",
+    "tags": [
+      "ai-industry",
+      "china-tech",
+      "generative-ai",
+      "competitive-analysis"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Tech in Asia",
+    "author": "Tech in Asia",
+    "published_at": "2026-09-28T02:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:d31ef0b00a559608",
+    "title": "Bill Gates calls for US legislation to impose controls on artificial intelligence - صوت الإمارات",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWTFuSzNUSWxCalBYZ0R4dmI1Yk5nRURveEtzbFFNUVUtZkEwajh1XzhmSFNWQkRLN0ZQbnJtUHF2MnJycFVLVTV6bFlBY0VMMmVGU1NHWHVVNzlycGtrOXBXNXhvN2JyNDFpS29GSzIwazZyU0pCd0gzNUxhUS1OQnNmV0lWQlMxb1BKNTYtSWM3VkRYVTdEX2JkRnBFRjdGT3N3T1liLW9BVy16aVh6aE9VT3diX1VRdXhfYVBINUdzVWFzUjh5VW1Obnd6QQ?oc=5",
+    "score": 5.0,
+    "summary": "Bill Gates가 미국 정부에 인공지능 규제 입법을 촉구했다. 구체적인 제안 내용이나 규제 방향에 대한 상세 정보는 제공되지 않았으나, 업계 지도자의 규제 입장 표명은 AI 거버넌스 논의에서 중요한 신호다.",
+    "reason": "Bill Gates's call for AI regulation is newsworthy and aligns with reader interests in AI policy, but the supplied content is only a headline link with no substantive details about his specific proposals, reasoning, or legislative recommendations. The source is a Google News aggregation with minimal context.",
+    "tags": [
+      "artificial-intelligence",
+      "regulation",
+      "policy",
+      "bill-gates"
+    ],
+    "source_type": "google_news",
+    "sub_source": "صوت الإمارات",
+    "author": "صوت الإمارات",
+    "published_at": "2026-09-27T18:29:43+00:00",
+    "profile": "tech-news"
+  }
+]
