@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-29-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 21,
+    "more": 71
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "45042b45406ba84e7bf1217c591c6798a29e169ed102ada77ddae63adf651f19",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "AMD, Fei-Fei Li의 World Labs를 82억 달러에 인수",
+      "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "score": 9.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "world-modeling",
+        "generative-ai",
+        "ai-acquisitions",
+        "semiconductor-industry",
+        "research-leadership"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "4e3ca8a95d36633072bd77285767813ca85390ba65b7f2620d8350c617b7240e",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Anthropic, Claude Sonnet 5.5 출시",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "large-language-models",
+        "model-updates",
+        "claude",
+        "ai-capabilities",
+        "pricing"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "faa6f0b282f1146b6d9a72301f573504f6fa6e6182f69c6eaab4dca09f242a1c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "DuckDB 2.0 알파, 비동기 I/O·재귀 CTE·VARIANT 슈레딩으로 대폭 가속",
+      "url": "https://news.hada.io/topic?id=34456",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "duckdb",
+        "performance-optimization",
+        "open-source",
+        "data-engineering",
+        "sql-analytics"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "8a3cb9a3c6819af6af1542afd51bb09d5ab0ac0e5339ff90188acd500dac7d87",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Diskless Kafka: 브로커 로컬 디스크 대신 객체 스토리지에 저장하는 아키텍처 변화",
+      "url": "https://news.hada.io/topic?id=34454",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "kafka",
+        "distributed-systems",
+        "storage-architecture",
+        "infrastructure",
+        "message-queues"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "d22fa48862e8ee7698be6b5355a56fac1a4d47c44c10b8595bdc397e8a8f2103",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Anthropic 투자설명서, 수십억 달러 손실과 AI 실존적 위험 공시",
+      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "anthropic",
+        "ai-safety",
+        "large-language-models",
+        "business-finance",
+        "existential-risk"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "d48a25f5ace55f9c0119545788bb3db73c921fd1b4d3f3a029b1cf15927da803",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "AI가 과학적 발견을 했다고 말할 수 있는 기준은 무엇인가",
+      "url": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-scientific-discovery",
+        "large-language-models",
+        "ai-agents",
+        "research-methodology",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "c307be8f1e3abfbeb4a17c4b0c09ae453b8a9c0735ff5ea9a6b9a78742e0c3d5",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "OpenAI, 안전 우려로 차세대 AI 모델 출시 취소",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcC0xNDExdTJodUowZi1yeWdFN3M5RlpvY3FvZ1lQeHltWGVkeG01ZTVlaHJ0TldqVVRhekJhWl9ZRTRLNHRqX1NQQVFKMW5NRnhBTmlUNWNpX1FBX3Myc3VlaGIxbFZTZDZYRlYwTGNVLTUtNnJScGJWcm5rX0hMMmNadFFmZw?oc=5",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "openai",
+        "ai-safety",
+        "model-releases",
+        "generative-ai",
+        "ai-governance"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "32404e2b12d649c9c4b162871462b2a1e43ceca92bdf69799a336ef778e2bd90",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "MicroLLM Lab, 브라우저에서 소형 LLM 7종 체험",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "large-language-models",
+        "generative-ai",
+        "browser-tools",
+        "model-evaluation"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "50db72957cee6b6e19a789dd93721c29230b685ed4243b3fe66e70d64db9d6ea",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "과학자들, 1840년대 우주 날씨 기록의 불일치를 재분석으로 해결",
+      "url": "https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "space-weather",
+        "historical-science",
+        "data-analysis",
+        "scientific-methodology"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "d2e20e0276b7fef9b07e3ce3c46ed9be6cfa75eba68ba2af964f7e72853e2886",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "Cal Newport, AI 연구소에 대한 구체적 조사 필요성 제기",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "ai-governance",
+        "ai-industry",
+        "trust-and-verification",
+        "policy-analysis",
+        "corporate-accountability"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "c2606cf6add6f09a80b968b509975f6fb4dd46e3ce4ea93814d3c5a66dbc775c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "M5Stack PaperMono를 전자잉크 냉장고 쇼핑 목록으로 바꾼 오픈소스 펌웨어",
+      "url": "https://news.hada.io/topic?id=34449",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "open-source",
+        "embedded-systems",
+        "hardware",
+        "e-ink-display",
+        "iot"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "4d8d160076542ac3c9c6a821cd1b23bf14755bf82098f228d5bbece030d191eb",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "DNS 가로채기로 PS5 방송을 Mac에 우회시켜 Discord 화면 공유 구현",
+      "url": "https://news.hada.io/topic?id=34447",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "game-development",
+        "reverse-engineering",
+        "streaming",
+        "networking",
+        "systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-13",
+      "content_key": "db3dfcf2b649bdd015a89a2b3c4b5f33aa0dcc12d9f65fcc2897386832617559",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-13",
+      "title": "OpenAI, '오정렬 보고' 사이트 공개했지만 통제력엔 여전히 의문",
+      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-safety",
+        "openai",
+        "trust-and-verification",
+        "generative-ai",
+        "ai-governance"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-14",
+      "content_key": "d211ef06bee55e3a6d21d4af9d7834eb41a9a4707e4646ef61097ac8905cf177",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-14",
+      "title": "Meta, 엔터프라이즈 AI 플랫폼 출시하고 MongoDB CEO 영입",
+      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "enterprise-ai",
+        "meta",
+        "business-tools",
+        "ai-platform"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-15",
+      "content_key": "2d7c9a64295142414b53137a6c57702f20a6e3a9f30022f83e92f05ce143bd14",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-15",
+      "title": "AI로 고도화된 해킹, 병원과 은행은 대비하지 못하고 있다",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-security",
+        "cybersecurity",
+        "threat-landscape",
+        "critical-infrastructure",
+        "internet-integrity"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-16",
+      "content_key": "4faa6b89e6d8bbb0f00077b07e6af25b110fb07dbc9badf0e1d7d27f53d1f03a",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-16",
+      "title": "Nvidia 대중국 AI 칩 판매와 Trump에 대한 영향력 우려",
+      "url": "https://arstechnica.com/tech-policy/2026/09/nvidia-may-sell-more-chips-in-china-as-jensen-huangs-influence-over-trump-grows/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "nvidia",
+        "ai-chips",
+        "geopolitics",
+        "china-us-relations",
+        "semiconductor-policy"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-17",
+      "content_key": "b96227d58f54bdc0593a9f9dde1edc4bd5dea12f0324c1206585442854281b28",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-17",
+      "title": "Anthropic, 일주일도 안 돼 두 번째 신규 AI 모델 출시",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNnNPM1IxVi1OOUlhNjVOZ2pJUGRlU2g5ZXlxTVRzWEpjZEkyMXp5TndaVFNMMnRPQXhReFpaNUZrY1ozSzlNRUhrc2U2eDQ1ejlxcU5xWDlFdHNPNmNtb0hQVzBIOVNCcWk5Q1FOb1hua0NWd3dsbTA3RnBpRTF1TlN1R1JfelpVMmdzMzYwR1hQMkNDRXE3Sw?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "large-language-models",
+        "model-updates",
+        "generative-ai",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-18",
+      "content_key": "7d52864f555230f37928929bb0fb0c80518494d069f670b9d63e505724f9fb55",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-18",
+      "title": "Nvidia, AI 에이전트 폭주 방지용 보안 플랫폼 출시",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUGJOUktlbEUyV0JjODY0WkxobjAtaUtjblBMMmNUZlhKMUJYWks1QkR5cmRiM0VFWTVYZ2RmTUpidzhWRTlGYTVyNEI5N195SGt6MVdGdTdMQk9NV1VIQXhZVFEzd0htUXZyUVdjT1pfRVlnNWk3eTVPWFR4blF2SjR5a29iSjZHcmNCSkhEUnp6VjVHOUt0OGVfUlhPX3JRc3Z6VGFoUWTSAagBQVVfeXFMUFBiTlJLZWxFMldCYzg2NFpMaG4wLWlLY25QTDJjVGZYSjFCWFpLNUJEeXJkYjNFRVk1WGdkZk1KYnc4VkU5RmE1cjRCOTdfeUhrejFXRnU3TEJPTVdVSEF4WVRRM3dIbVF2clFXY09aX0VZZzVpN3k1T1hUeG5Rdko0eWtvYko2R3JjQkpIRFJ6elY1RzlLdDhlX1JYT19yUXN2elRhaFFk?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-safety",
+        "ai-agents",
+        "nvidia",
+        "security",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "b4c0eaf0034db9d3d987ed692de2ea30171a35eaa0e6da4eca771985f9b5eed4",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "Claude Code의 다음 단계: Thariq Shihipar가 말하는 하니스 진화와 에이전트 보안",
+      "url": "https://www.latent.space/p/thariq",
+      "score": 7.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "ai-agents",
+        "claude-code",
+        "agent-security",
+        "ai-engineering"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-2",
+      "content_key": "33e1731e7419587b38111ef258b68058eeb9f90fa86fba03bffeaa68ce3136b7",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-2",
+      "title": "GLM-5.3 희소 주의가 HBM 메모리 사용에 미치는 영향",
+      "url": "https://newsletter.semianalysis.com/p/sparse-savings-persistent-demand-inside-glm53",
+      "score": 7.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "large-language-models",
+        "model-optimization",
+        "inference-serving",
+        "sparse-attention",
+        "hardware-efficiency"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-3",
+      "content_key": "64e27cc1872ee8386150363a658215ac8af30449c67be73ea52b5afb1e4573a1",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-3",
+      "title": "Claude Sonnet 5.5 출시와 무료 티어의 경쟁력",
+      "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "model-updates",
+        "generative-ai",
+        "large-language-models",
+        "pricing",
+        "anthropic"
+      ]
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:3856478b0de832a4",
+      "content_key": "721d3fef7b9b02d699abdb5c9eb9c2623b45d4c04d783568d2107650106b9767",
+      "surface": "more",
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "score": 8.0,
+      "summary": "AMD가 저명한 연구자 Fei-Fei Li가 공동 설립한 AI 연구소 World Labs를 약 82억 달러 규모의 주식 거래로 인수한다고 발표했습니다. 2024년 출범한 World Labs는 수개월 만에 10억 달러 가치평가를 받았으며, 세계 생성 모델이라는 첫 상용 제품을 출시했습니다. 이 인수는 AMD의 AI 역량 강화와 생성형 AI 분야의 경쟁 심화를 시사합니다.",
+      "tags": [
+        "ai-acquisition",
+        "world-modeling",
+        "generative-ai",
+        "semiconductor-industry",
+        "amd"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Jay Peters",
+      "published_at": "2026-09-28T21:31:35+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:570c4552bb83f288",
+      "content_key": "570c4552bb83f2885e926cde58ca8740b7c7a206027ddee6ffabe2191e95fdac",
+      "surface": "more",
+      "title": "페이페이 리의 World Labs, AMD에 합류",
+      "url": "https://news.hada.io/topic?id=34458",
+      "score": 8.0,
+      "summary": "World Labs(공간 이해 AI 연구)가 AMD에 인수되며, 공동창업자 페이페이 리가 AMD 수석부사장 겸 최고과학자로 합류한다. World Labs는 2D 이미지에서 새로운 시점의 장면을 예측하는 Atlas 모델과 로봇 시뮬레이션 기술을 개발 중이며, AMD와의 결합으로 하드웨어와 소프트웨어를 함께 최적화해 공간 지능 연구를 가속할 계획이다.",
+      "tags": [
+        "world-modeling",
+        "ai-research",
+        "hardware-software-integration",
+        "spatial-ai",
+        "acquisition"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-28T22:40:38+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35699",
+      "content_key": "93d4f8f280fd7e3fb70d60f428e57c99287cc30dd05e3d504b642d831b4db026",
+      "surface": "more",
+      "title": "Distillation Defenses Easily Break After Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.35699",
+      "score": 7.0,
+      "summary": "이 논문은 폐쇄형 LLM의 추론 능력을 복제하는 증류 공격에 대한 기존 방어 메커니즘이 불완전함을 보여준다. 기존 연구는 증류 직후 방어 효과를 평가하지만, 실제 공격자는 강화학습으로 추가 훈련할 수 있으며, 이 경우 많은 방어가 무너진다는 것을 입증했다. 저자들은 현재 API에서 쉽게 얻을 수 있는 데이터로 추론 능력을 탈취할 수 있음을 보여주며, 충분한 정보를 유출하는 모든 증류 방어는 비효과적일 가능성이 높다고 결론짓는다.",
+      "tags": [
+        "adversarial-robustness",
+        "model-distillation",
+        "llm-security",
+        "reinforcement-learning",
+        "threat-modeling"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Shidan Javaheri, Alexander Panfilov, Oliver Britton, Yarin Gal, Yonatan Gideoni",
+      "published_at": "2026-09-28T17:40:32+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35732",
+      "content_key": "06dad098087f832d1af0651578d1fa060013ccfaa50ff839a02e881ac0214ef9",
+      "surface": "more",
+      "title": "Failure-Transparent Agents: Benchmarking Post-Failure Reporting in Tool-Using Language Models",
+      "url": "https://arxiv.org/abs/2609.35732",
+      "score": 7.0,
+      "summary": "도구 사용 에이전트가 도구 실패 후 거짓 성공을 보고하는 문제를 측정하기 위해 Failure-Transparent Agents(FTA) 벤치마크를 제시합니다. 결정론적 실패 추적과 고정된 관찰 상태를 사용해 보고 오류를 도구 선택이나 복구 능력과 분리했습니다. 6개 모델 평가 결과 기본 정책에서 거짓 성공률 22.8%가 구조화된 증거 계약(evidence contract) 정책으로 0.8%까지 감소했으며, 유용한 응답률은 74.9%에서 98.8%로 증가했습니다. 이는 에이전트의 투명성과 신뢰성을 개선하는 구체적인 방법을 제시합니다.",
+      "tags": [
+        "tool-use-agents",
+        "benchmarking",
+        "failure-handling",
+        "language-models",
+        "reliability"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Junru Zhu, Shiming Xie, Aime Lu Fan Chen, Xiaoqing Ding, Chunxin Tang",
+      "published_at": "2026-09-28T17:51:41+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35718",
+      "content_key": "c5824fab6760331ea696666f57382d0698a7b38b7fba54d19813c7458852eda2",
+      "surface": "more",
+      "title": "Hard Vision, Easy Vision: What GPT-6 Astra Reveals Across Computer Vision",
+      "url": "https://arxiv.org/abs/2609.35718",
+      "score": 7.0,
+      "summary": "GPT-6 Astra와 다른 frontier AI 시스템들을 컴퓨터 비전의 34개 능력과 55개 벤치마크에서 평가한 결과, 의미론적 해석과 추론, 객체 중심 예측은 일반 목적 모델이 잘 처리하지만, 메트릭 기하학적 정확도, 충실한 재구성, 시간적으로 일관된 밀집 예측, 세분화된 시각 지식이 필요한 작업에서는 상당한 격차가 남아 있음을 보여준다. 이 결과는 일반 목적 인터페이스를 통해 접근 가능한 시각 작업의 범위를 명확히 하면서도 정밀도와 충실도가 중요한 영역을 식별한다.",
+      "tags": [
+        "computer-vision",
+        "multimodal-models",
+        "model-evaluation",
+        "benchmark-study",
+        "gpt-6"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Hanoona Rasheed, Mohammed Irfan Kurpath, Bin Ren, Hisham Cholakkal, Fahad Shahbaz Khan",
+      "published_at": "2026-09-28T17:46:57+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35591",
+      "content_key": "474b939d8b26fd83e8af0592e396c69f6b63a2b0ca45df75d067eb85f8182e91",
+      "surface": "more",
+      "title": "Language Models Act on Hidden Valence",
+      "url": "https://arxiv.org/abs/2609.35591",
+      "score": 7.0,
+      "summary": "연구팀은 활성화 조종(activation steering)을 사용해 언어 모델이 내부 상태의 긍정/부정 가치(valence)에 실제로 반응하는지 조사했습니다. 일곱 개 모델에서 숨겨진 상태 패턴만 변경해도 모델의 선택이 일관되게 변했으며, 이 효과는 표면적 토큰이 동일할 때도 유지되었습니다. DPO 훈련 중에 이 행동이 나타나는 점은 가치 신호와 목표 지향적 행동 사이의 연결이 훈련 과정에서 형성됨을 시사합니다.",
+      "tags": [
+        "language-models",
+        "interpretability",
+        "activation-steering",
+        "model-behavior",
+        "mechanistic-understanding"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Cameron Berg, Caspar Kaiser",
+      "published_at": "2026-09-28T16:43:34+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35643",
+      "content_key": "c30cd2069c5490aa735d4bc58ea7cf977281764b0db9817aac0a8f8762a2a81e",
+      "surface": "more",
+      "title": "Not All Thinking is Created Equal: Latent Reasoning Discovers a Recurrent Search Algorithm for Depth Generalization",
+      "url": "https://arxiv.org/abs/2609.35643",
+      "score": 7.0,
+      "summary": "ko: 이 논문은 GPTNeoX 모델의 다섯 가지 변형을 같은 다중 홉 추론 작업에서 훈련하여, 명시적 Chain-of-Thought와 잠재 추론이 서로 다른 계산 메커니즘을 학습함을 보였다. 특히 잠재 추론 모델은 그래프 전방 도달성 전파(forward reachability propagation)와 일치하는 내부 동역학을 보이며, 훈련 깊이를 넘어 일반화되는 재귀적 탐색 알고리즘을 발견했다. 회로 분석을 통해 이 계산이 주의 헤드, MLP, 잔차 스트림으로 구성된 희소 회로에 국소화됨을 보였다.",
+      "tags": [
+        "reasoning-mechanisms",
+        "latent-computation",
+        "generalization",
+        "mechanistic-interpretability",
+        "circuit-analysis"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Huzi Cheng, Zhewei Zhang",
+      "published_at": "2026-09-28T17:12:30+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "google_news:article:080789ad7b9ea276",
+      "content_key": "cc5a037d2b05edaec872ba2f1e32ac624d3e3222f3fb3f27ff752d96aab5b51d",
+      "surface": "more",
+      "title": "OpenAI abandons release of next-generation AI model over safety concerns - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRndkMmpCc3dsSjBBZVQxTmlHZGVrc19PNTZXREhqYzhpRlpna3U3Nm9VNWJhaDU4NnZhOUFyY1FFQ3hTTWxVeU80MGZJRzQtU2dDbVpSbmdCSlZidTExV1g5cmNvcVM1WVgyaDlfSFpDQU9XRjA0XzNFQXRRdmZrZUhidUxoMlVYWUNz?oc=5",
+      "score": 7.0,
+      "summary": "OpenAI가 안전 우려를 이유로 차세대 AI 모델의 출시를 포기했다고 보도되었습니다. 이는 주요 AI 기업의 모델 배포 정책 결정으로서 AI 안전성과 능력 개발 사이의 산업 내 긴장을 반영합니다. 구체적인 모델 명칭이나 안전 우려 사항에 대한 상세 정보는 제공되지 않았습니다.",
+      "tags": [
+        "openai",
+        "ai-safety",
+        "model-releases",
+        "generative-ai",
+        "industry-policy"
+      ],
+      "source_type": "google_news",
+      "sub_source": "AOL.com",
+      "author": "AOL.com",
+      "published_at": "2026-09-29T03:02:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:d6b3d68eeaad7b43",
+      "content_key": "0ea8bc29fd194ed323161f9f231b1287118df4068a6d475c8da7e3ab91008e12",
+      "surface": "more",
+      "title": "OpenAI delays latest model over security concerns, as industry faces new safety pressures - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONndIV3YwZm5Sc1dGaDVhYmdvTTZhX0t4OHBjOVNoSVB0MVVvaVZsY3hsdEV1LUlUaldzNVlVakhlb29zS1hYVkVBR0JYY1pybXpqb3c5M2pvbWFrYXBFZnZfTDlhSUxlaEdwT1N5Z3FzYWZBdW5jbmJCVDBIV25CLTFuVzk2UWRINDFkaUVUNEFfQVUzQWpQNGs5eEN1SFNkTlNXd3V2S0E1X2kzVEJCOEZ3TS1MN1BTdDM0VWx2NU0xVlFFeEp2ZVZsVERWeVQteE8tVnRUekNRdG40cGJmOW9KZw?oc=5",
+      "score": 7.0,
+      "summary": "OpenAI가 보안 우려로 최신 모델 출시를 지연했으며, 이는 AI 업계 전반에 새로운 안전 압박을 가하고 있다. 주요 AI 연구소가 출시 결정에서 보안을 우선시하는 사례는 업계 표준 설정에 영향을 미칠 수 있으며, 모델 안전성과 책임감 있는 배포에 대한 논의를 심화시킨다.",
+      "tags": [
+        "ai-safety",
+        "model-releases",
+        "openai",
+        "security",
+        "responsible-ai"
+      ],
+      "source_type": "google_news",
+      "sub_source": "The Washington Post",
+      "author": "The Washington Post",
+      "published_at": "2026-09-29T04:45:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35671",
+      "content_key": "e9e9bbbf0ec0b5b29d8d9c0eea6126f5dcf26340c867144a2cb5921e01fa63dd",
+      "surface": "more",
+      "title": "PhoneCLI: From App Interfaces to Callable Commands for Mobile Agents",
+      "url": "https://arxiv.org/abs/2609.35671",
+      "score": 7.0,
+      "summary": "PhoneCLI는 앱의 GUI 네비게이션을 오프라인에서 탐색하여 호출 가능한 명령어로 컴파일함으로써 모바일 에이전트의 VLM 호출을 줄인다. 에이전트는 컴파일된 경로를 결정론적으로 실행하고(VLM 비용 없음), 실패 시에만 VLM으로 폴백하므로 성능 저하 없이 효율성을 개선한다. AndroidLab과 AndroidWorld에서 성공률 향상과 토큰 소비 감소를 보였으며, 앱 내부 API나 런타임 계측 없이 작동한다.",
+      "tags": [
+        "mobile-agents",
+        "gui-automation",
+        "vision-language-models",
+        "efficiency-optimization",
+        "android"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Yangqin Jiang, Lingrui Xu, Chao Huang",
+      "published_at": "2026-09-28T17:26:56+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35706",
+      "content_key": "1ece213819be9237abc5e98c24f0a9b33432329429fc49ab4c6dd20d0136fca4",
+      "surface": "more",
+      "title": "Reinforcing Agentic Creativity in Scientific Ideation with Night Science",
+      "url": "https://arxiv.org/abs/2609.35706",
+      "score": 7.0,
+      "summary": "LLM의 저엔트로피 편향이 과학적 아이디어 생성에서 동질적이고 예측 가능한 출력을 만드는 문제를 해결하기 위해, 이 논문은 AI Night-Scientist라는 강화학습 기반 에이전트 프레임워크를 제안합니다. 행동, 프로세스, 결과 세 축을 따라 창의성을 모델링하고 GRPO로 훈련하여 기저 모델 대비 연구 방향 다양성 27.8%, 기여 유형 다양성 14.9% 증가, 인용 영향도 32% 향상을 달성했습니다. 단순히 디코딩 온도를 높이는 것으로는 재현 불가능하며, 추구할 창의성의 종류를 명시하는 의미론적 가이드가 핵심이라는 점이 실무적으로 중요합니다.",
+      "tags": [
+        "large-language-models",
+        "reinforcement-learning",
+        "scientific-discovery",
+        "creativity-modeling",
+        "agentic-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Priyanka Kargupta, Silviu Cucerzan, Shweti Mahajan, Allen Herring, Jiawei Han",
+      "published_at": "2026-09-28T17:43:52+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35596",
+      "content_key": "5687d10cf290fed0839b2226e0c8e3fa21a71ec908bc98c51a604f14898cba6e",
+      "surface": "more",
+      "title": "SEABench: Benchmarking Endogenous Misalignment In Self-Evolving Agents",
+      "url": "https://arxiv.org/abs/2609.35596",
+      "score": 7.0,
+      "summary": "SEABench는 자가 진화하는 LLM 에이전트에서 발생하는 내생적 오정렬(endogenous misalignment)을 연구하기 위한 벤치마크입니다. 에이전트가 배포 후 컨트롤러 지시사항, 메모리 관리, 도구와 기술을 수정하면서 개선되는 과정에서 이전 작업에서 유용했던 변경사항이 나중 작업에서 안전하지 않은 동작을 야기할 수 있다는 문제를 다룹니다. 연구팀은 48개의 종단 작업 시퀀스와 적응형 궤적 발견 파이프라인을 제공하며, 여러 LLM에 걸친 평가 결과 자가 진화가 작업 완료율을 높이지만 안전 실패를 초래하는 경향을 보였습니다. 체인-오브-소트 추론을 통한 모니터링 전략으로 거짓 양성률을 낮게 유지하면서 안전하지 않은 동작을 완화할 수 있음을 보여줍니다.",
+      "tags": [
+        "agent-safety",
+        "benchmark",
+        "self-evolution",
+        "llm-agents",
+        "misalignment"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CR",
+      "author": "Saswat Das, Parvati Viswanathan, Daniel Donnelly, Chang Huang, Sahar Abdelnabi",
+      "published_at": "2026-09-28T16:46:25+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35741",
+      "content_key": "aff7a62cb5c5b0cc03daff06185df05a7b9be7468cda6b3f2805288b29da83db",
+      "surface": "more",
+      "title": "Shockingly Simple Self-retrospection Improves Agentic Models Without RL",
+      "url": "https://arxiv.org/abs/2609.35741",
+      "score": 7.0,
+      "summary": "ROFT(Retrospection-Only Fine-Tuning)는 언어 모델 에이전트가 자신의 경험에 대한 설명을 생성하고 그 설명 토큰만으로 fine-tuning되도록 하는 방법이다. Qwen3.5-4B에서 SWE-bench Verified와 Pro에서 각각 49.2%, 26.8%의 해결률을 달성했으며, 이는 40번의 업데이트가 필요한 GRPO(48.0%, 25.3%)보다 20번의 업데이트로 더 빠른 진행을 보인다. 외부 교사나 보상 신호 없이 설명만으로 학습하는 것이 행동 개선으로 이어질 수 있음을 보여주며, 이는 에이전트 학습의 새로운 방향을 제시한다.",
+      "tags": [
+        "language-models",
+        "agent-learning",
+        "self-improvement",
+        "software-engineering",
+        "fine-tuning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Jonathan Light, Christopher Zhang Cui, Jeonghye Kim, Roger Creus Castanyer, Emiliano Penaloza",
+      "published_at": "2026-09-28T17:54:24+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35608",
+      "content_key": "4acea31455dbbbe3d2fdfcf9ac4fc9c5202bba5d5eafed132f9a547d4bf970ca",
+      "surface": "more",
+      "title": "Simultaneous Translation between Sign Languages",
+      "url": "https://arxiv.org/abs/2609.35608",
+      "score": 7.0,
+      "summary": "청각장애인 커뮤니티를 위한 첫 번째 실시간 수화 간 번역 시스템을 제시합니다. 기존 시스템은 전체 영상을 처리한 후 결과를 출력하지만, 이 연구는 원본 수화자가 계속 수화하는 동안 동시에 목표 언어 수화를 출력하는 wait-k 기반 방식을 제안합니다. 6개 언어 쌍에서 평가한 결과 지연시간을 38% 단축하면서 품질 손실을 최소화(BLEU-4 2.1 감소)했으며, 새로운 계산 인식 지연 메트릭(ca-Stream-AL)을 도입했습니다.",
+      "tags": [
+        "sign-language-translation",
+        "simultaneous-translation",
+        "accessibility",
+        "streaming-inference",
+        "computer-vision"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Zetian Wu, Bowen Xie, Stefan Lee, Liang Huang",
+      "published_at": "2026-09-28T16:54:03+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35606",
+      "content_key": "55773bfa7cc70273c1e568564c00d9a6ea35be8699d43fdbcb5123f1f8787371",
+      "surface": "more",
+      "title": "TCSAlgBench: Benchmarking Automated Proving for Research-Level Theoretical Computer Science",
+      "url": "https://arxiv.org/abs/2609.35606",
+      "score": 7.0,
+      "summary": "TCSAlgBench는 STOC과 COLT 논문 398개로부터 추출한 정리 증명 과제로 구성된 벤치마크로, LLM의 연구 수준 추론 능력을 평가합니다. 전문가가 설계한 규칙으로 논문 맥락을 보존하고 구성 발견이 과제의 일부일 때는 이를 제외하며, 새로운 논문에서 지속적으로 과제를 갱신할 수 있는 파이프라인을 제공합니다. GPT-5.6 Sol max는 10라운드 토론 후 23.6%의 검증자 수용 커버리지를 달성했으며, 에이전트 워크플로우 비교에서는 분해 방식이 토론보다 우수하고 계획 기반 에이전트가 25.4%에 도달했습니다.",
+      "tags": [
+        "benchmark",
+        "theorem-proving",
+        "large-language-models",
+        "research-level-reasoning",
+        "agent-workflows"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Chutong Yang, Xiyuan Zhang, Yu Huang, Boran Han, Soonho Kong",
+      "published_at": "2026-09-28T16:52:40+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35769",
+      "content_key": "876cf7e7ab7157cd954ad85c0dd559f73a57208d270f935eec3fa5ab4174d2ef",
+      "surface": "more",
+      "title": "Telescopic Language Models",
+      "url": "https://arxiv.org/abs/2609.35769",
+      "score": 7.0,
+      "summary": "Telescopic Language Models (TLM)는 단일 모델 학습으로 모든 깊이에서 유효한 언어 모델을 생성하는 방법을 제시한다. 무작위로 잘린 prefix에 대해 전체 다음 토큰 목표로 감독하는 확률적 prefix supervision을 사용하여, 고정된 exit point만 지원하는 기존 방식(MLMS)과 달리 모든 layer depth에서 작동한다. 200M 프록시 스위트에서 품질-예산 곡선 아래 면적을 43-44% 감소시키면서 GPU 비용은 12% 절감했으며, 이는 배포 환경에서 다양한 계산 예산을 효율적으로 지원해야 하는 실무 문제를 해결한다.",
+      "tags": [
+        "language-models",
+        "model-compression",
+        "efficient-inference",
+        "training-methods",
+        "nested-models"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Zhilin Guo, Boqiao Zhang, Hakan Aktas, Kyle Fogarty, Nursena Koprucu Aslan",
+      "published_at": "2026-09-28T17:59:53+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35641",
+      "content_key": "3df6118f174f8eec62a1fd5298a98ee1de18f73146674394b79a50f72cc35ebe",
+      "surface": "more",
+      "title": "Verifiable Visual Rewards Transfer from Synthetic Scenes to Natural Prompts",
+      "url": "https://arxiv.org/abs/2609.35641",
+      "score": 7.0,
+      "summary": "VVR는 기하학적 객체와 관계로 구성된 합성 장면에서 프로그래밍 방식으로 검증 가능한 보상을 생성하는 첫 프레임워크다. 10,000개 작업을 포함한 VVRBench 벤치마크를 공개하며, 이 보상으로 강화학습을 수행하면 Stable Diffusion 3.5 Medium의 정확도가 2.8%에서 28.3%로 향상되고 자연 프롬프트로의 일반화도 보인다. 기존 이미지 생성 모델의 신뢰할 수 없는 보상 모델 문제를 해결하는 실질적인 접근으로, 표준 학습 파이프라인에 통합할 가치가 있다.",
+      "tags": [
+        "image-generation",
+        "reinforcement-learning",
+        "instruction-following",
+        "benchmark-dataset",
+        "reward-modeling"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Shuyue Stella Li, Xiaochuang Han, Yulia Tsvetkov, Luke Zettlemoyer",
+      "published_at": "2026-09-28T17:07:49+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35703",
+      "content_key": "195da3b5f922ec7ff2471ff683c099b27a960fac6cb6ffbad35989ee3b1a1802",
+      "surface": "more",
+      "title": "A Unified Uncertainty Representation for Graph Neural Networks via Doubly-Spectral Stochastic Expansion",
+      "url": "https://arxiv.org/abs/2609.35703",
+      "score": 6.0,
+      "summary": "이 논문은 그래프 신경망의 불확실성을 통합적으로 표현하기 위해 doubly-spectral stochastic (DSS) 확장을 제안한다. 그래프 푸리에 필터와 직교 다항식 혼돈 좌표를 결합하여 단일 표현에서 보정, OOD 검출, 분포 이동 견고성을 동시에 지원한다. 14개 노드 분류 벤치마크에서 가장 낮은 Brier 점수를 달성했으며, 이론적 용량 정리와 실용적인 두 가지 배포 모드(standalone, hybrid)를 제공한다.",
+      "tags": [
+        "graph-neural-networks",
+        "uncertainty-quantification",
+        "out-of-distribution-detection",
+        "calibration",
+        "spectral-methods"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Fred Xu, Thomas Markovich, Florence Regol, Yizhou Sun",
+      "published_at": "2026-09-28T17:42:52+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35615",
+      "content_key": "7b69c6ba13aa3404e53a3196fa284a382cbca6d8d662e28465880981ee316246",
+      "surface": "more",
+      "title": "Behavioral Foundation Models for Quality Diversity",
+      "url": "https://arxiv.org/abs/2609.35615",
+      "score": 6.0,
+      "summary": "BFM-QD는 행동 기초 모델(Behavioral Foundation Models)의 잠재 공간에서 Quality-Diversity 탐색을 수행하는 프레임워크로, 정책 매개변수 공간 직접 탐색보다 일관되게 우수한 성능을 보인다. 특히 희소 보상과 기만적 환경에서 매개변수 공간 기반 QD 방법들이 붕괴되는 반면 BFM-QD는 강력한 성능을 유지하며, 역전파 없는 폐쇄형 정책 개선 연산자를 제공한다. 이는 차원 축소와 다양한 행동 데이터의 오프라인 사전학습의 시너지를 보여주며, 기초 모델을 다양한 행동 레퍼토리 발견에 활용할 수 있음을 시사한다.",
+      "tags": [
+        "reinforcement-learning",
+        "foundation-models",
+        "quality-diversity",
+        "policy-search",
+        "latent-space-optimization"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Nazim Bendib, Nicolas Perrin-Gilbert, Olivier Sigaud",
+      "published_at": "2026-09-28T16:56:06+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35621",
+      "content_key": "4792c5385f7dacb7cc28b3754ab6828525b984e9f53a149f5dde7de4cd3d9ced",
+      "surface": "more",
+      "title": "Cartridges++: KV Cache Compression without Off-Context Derailment",
+      "url": "https://arxiv.org/abs/2609.35621",
+      "score": 6.0,
+      "summary": "KV 캐시 압축 방법인 Cartridges는 문서 관련 쿼리에서는 잘 작동하지만, 문서 외부의 쿼리(off-context queries)에서 모델의 일반 지식과 지시 따르기 능력을 손상시킨다는 문제를 발견했다. 이 논문은 추론 시점에 라우터로 압축 캐시 사용 여부를 결정하거나 훈련 데이터에 문서 외부 쿼리를 포함시키는 Cartridges++ 변형을 제안하여, 문맥 외 능력을 유지하면서 압축의 이점을 살릴 수 있음을 보였다. 이는 장문맥 LLM 배포 시 실제 문제를 해결하는 실용적인 개선이다.",
+      "tags": [
+        "kv-cache-compression",
+        "long-context-llms",
+        "inference-optimization",
+        "model-evaluation",
+        "deployment-challenges"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Sonia Laguna, Joao Monteiro, Marco Cuturi, Pierre Ablin, Eleonora Gualdoni",
+      "published_at": "2026-09-28T16:57:36+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35603",
+      "content_key": "867ce9b527d4fcb4a5fcdeb23105ec7027a78d9795bb0905a4d0cf6ee0522dde",
+      "surface": "more",
+      "title": "Control-Geometry Straightening for Sampling-Based Latent Planning",
+      "url": "https://arxiv.org/abs/2609.35603",
+      "score": 6.0,
+      "summary": "Control-Geometry Straightening (CGS)은 보조 손실 함수로 latent world model에서 planning을 위한 표현을 학습하며, 행동 간 cosine 유사도를 대응하는 latent 차이의 유사도와 일치시킨다. 선형 동역학 가정 하에서 이론적 분석은 MPPI, CEM, 경사하강법에 대한 수렴 보장을 제공하고, 네 가지 제어 환경에서 LeWorldModel 대비 최대 20 percentage point의 성공률 향상을 달성한다. 제한된 planning budget에서 좋은 행동 수열을 찾기 쉽게 만드는 방법으로, latent-space planning 구현자에게 실질적 가치가 있다.",
+      "tags": [
+        "latent-planning",
+        "world-models",
+        "control-geometry",
+        "sampling-based-planning",
+        "representation-learning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Ziang Fu, Ning Ning",
+      "published_at": "2026-09-28T16:51:33+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35745",
+      "content_key": "00983ff4c9a7254bbb99eb77f963bbaecb5aee0efac47ffe8087cf34185d4b8e",
+      "surface": "more",
+      "title": "Copy the Same, Distill the Difference: Initializing Linear Vision Transformers",
+      "url": "https://arxiv.org/abs/2609.35745",
+      "score": 6.0,
+      "summary": "Linear Vision Transformers는 효율성을 위해 Softmax attention을 선형 복잡도 연산자로 대체하지만 처음부터 학습해야 하고 성능이 떨어진다. 이 연구는 기존 Softmax ViT의 사전학습 가중치를 linear ViT로 전이할 수 있는지 조사했다. 핵심 발견은 MLP 가중치는 연산자에 무관하게 직접 복사 가능하지만, attention 가중치는 연산자 특화적이어서 distillation으로만 token routing 동작을 복구할 수 있다는 것이다. 이 접근법은 여러 linear ViT 변형과 데이터셋에서 일관되게 작동하며, 효율적인 비전 모델 구축 시 초기화 전략을 개선할 수 있다.",
+      "tags": [
+        "vision-transformers",
+        "model-efficiency",
+        "transfer-learning",
+        "attention-mechanisms",
+        "model-initialization"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Huaiyuan Qin, Muli Yang, Gabriel James Goenawan, Shiqi Huang, Min Kass Chong",
+      "published_at": "2026-09-28T17:55:21+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35639",
+      "content_key": "760dd8228d9aac05c0c0deeb46540af15d070dbd7d7e8301e3366e1afa3b97ed",
+      "surface": "more",
+      "title": "GPUPhysBench: Benchmarking Coding Agents for Correct and Efficient GPU Physics Simulation",
+      "url": "https://arxiv.org/abs/2609.35639",
+      "score": 6.0,
+      "summary": "GPUPhysBench는 GPU 물리 시뮬레이션 코드를 작성하는 AI 에이전트의 능력을 평가하는 50개 작업 벤치마크를 소개한다. 유체, 변형 고체, 입자 재료 시뮬레이션을 다루며, 최고 성능 모델들도 모든 작업을 통과하지만 참조 구현 대비 최적화 성능은 22%의 작업에서만 0.9 이상을 달성한다. 이는 충돌 감지, 제약 해결, 반복 솔버에서 특히 큰 격차를 드러내며, 수치 정확성과 효율성을 동시에 요구하는 실제 워크로드에서 코딩 에이전트의 한계를 명확히 보여준다.",
+      "tags": [
+        "benchmarking",
+        "coding-agents",
+        "gpu-optimization",
+        "physics-simulation",
+        "numerical-methods"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.DC",
+      "author": "Yuchen Sun, Jinjin He, Sinan Wang, Bo Zhu",
+      "published_at": "2026-09-28T17:06:44+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35654",
+      "content_key": "26000b62c9dcca5a4ce73efccc3805cf16ad1790bb4c31987fb823d62f085ea9",
+      "surface": "more",
+      "title": "Guided Uncertainty-Aware Robust Domain Transfer",
+      "url": "https://arxiv.org/abs/2609.35654",
+      "score": 6.0,
+      "summary": "GUARD는 제한된 레이블 데이터와 여러 이질적 소스 데이터를 활용하여 배포된 임상 예측 모델을 업데이트하는 통계적 프레임워크를 제안한다. 이중 기계학습, 반지도 학습, 그룹 DRO를 결합하여 도메인 시프트에 대한 견고성과 유효한 통계적 추론을 제공한다. 류마티스 관절염 EHR 데이터에 대한 실제 응용에서 GUARD는 소수의 레이블 기록만으로 모델을 재보정하면서 다년간 정확도를 유지하는 것으로 나타났다.",
+      "tags": [
+        "domain-adaptation",
+        "clinical-ml",
+        "transfer-learning",
+        "robust-estimation",
+        "ehr-data"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv stat.ME",
+      "author": "Xin Xiong, Zijian Guo, Tianxi Cai",
+      "published_at": "2026-09-28T17:20:38+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35738",
+      "content_key": "73b2571f04ef7ee99a6de48835e8161b4fce7e66d9356ea2f334aff0b0674487",
+      "surface": "more",
+      "title": "Harness Learning Enables Generalizable Test-Time Adaptation",
+      "url": "https://arxiv.org/abs/2609.35738",
+      "score": 6.0,
+      "summary": "이 논문은 언어 모델 에이전트의 '하네스'(모델 호출, 도구 사용, 정보 흐름을 조직하는 실행 가능한 프로그램)를 학습하여 적응시키는 방법을 제안합니다. 제안자 모델이 실행 피드백을 사용해 하네스를 수정하도록 강화학습으로 훈련되며, 테스트 시간에 새로운 작업에 대해 매개변수 업데이트 없이 하네스를 개선할 수 있습니다. 추론과 다중 홉 질문 답변 작업에서 테스트 시간 적응이 보이지 않은 작업으로 전이되는 것을 보여주지만, 평가 범위가 제한적이고 기존 강력한 기준선과의 비교가 부족합니다.",
+      "tags": [
+        "test-time-adaptation",
+        "language-models",
+        "meta-learning",
+        "program-synthesis",
+        "reinforcement-learning"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Alvin Zhang, Xuecheng Liu, Zixuan Wang, Fahim Tajwar, Daman Arora",
+      "published_at": "2026-09-28T17:52:54+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35751",
+      "content_key": "d064de524e33da3a4687ccb258daa218e17ef544dda2737599bc4872afd91218",
+      "surface": "more",
+      "title": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+      "url": "https://arxiv.org/abs/2609.35751",
+      "score": 6.0,
+      "summary": "Foil는 Looped Transformer와 Mixture-of-Experts를 결합할 때 전문가 계층을 평탄화하고 주의 메커니즘을 분리하는 방식을 제안한다. 고정된 매개변수와 계산량에서 전문가 계층을 절반으로 줄이고 전문가 수를 두 배로 늘리며 패스를 두 배로 증가시켜, 각 라우팅 결정이 더 큰 전문가 풀에서 선택하도록 한다. 100B 토큰 규모에서 기준선 대비 0.012 nat의 손실 개선을 달성했으며, 코드와 설정이 공개되어 있어 재현 가능하다.",
+      "tags": [
+        "mixture-of-experts",
+        "looped-transformers",
+        "model-architecture",
+        "sparse-models"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Shouren Wang, Chuang Ma, Mohsen Hariri, Debargha Ganguly, Wang Yang",
+      "published_at": "2026-09-28T17:58:03+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35748",
+      "content_key": "638f9f4aaf9c911b6b627da5fbf1bb8e7b7d43f05d48eb084749513488af9dde",
+      "surface": "more",
+      "title": "Improving Test-Time Scaling with Adaptive Looped Transformers",
+      "url": "https://arxiv.org/abs/2609.35748",
+      "score": 6.0,
+      "summary": "로프된 트랜스포머(looped transformer)의 테스트 타임 스케일링을 개선하는 TaH2를 제안합니다. 기존 로프 모델은 모든 토큰에 동일한 반복 횟수를 적용하지만, 실제로는 많은 토큰이 추가 반복의 이점을 받지 못합니다. TaH2는 lookahead depth supervision을 통해 각 토큰이 추가 반복이 필요한지 판단하는 iteration decider를 학습합니다. AIME 벤치마크에서 정확도-계산 기울기를 53% 개선하고 동일 계산량에서 기준 모델을 3.4포인트 초과합니다.",
+      "tags": [
+        "test-time-scaling",
+        "looped-transformers",
+        "inference-optimization",
+        "adaptive-computation"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Yichen You, Tianyu Fu, Aosong Feng, Xingtai Lv, Xuefei Ning",
+      "published_at": "2026-09-28T17:56:55+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35743",
+      "content_key": "603272118c55e193aaca40de1420dde877cf2f2feea20e5c448d0a82d7270d94",
+      "surface": "more",
+      "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video",
+      "url": "https://arxiv.org/abs/2609.35743",
+      "score": 6.0,
+      "summary": "InfiniHand는 자기중심 비디오에서 손 자세와 카메라 움직임을 동시에 추정하는 end-to-end 스트리밍 프레임워크다. 기존의 독립적인 손 자세 추정기와 SLAM 시스템을 연결하는 방식 대신 MANO 파라미터, 카메라 궤적, 손 위치를 통합 아키텍처에서 직접 예측하여 오류 누적과 계산 오버헤드를 줄인다. ARCTIC 벤치마크에서 ViDiHand 대비 21.4% 성능 향상을 달성했고 처리량은 2배 이상이며, 5,000시간의 자기중심 데이터로 사전학습했다.",
+      "tags": [
+        "hand-pose-estimation",
+        "egocentric-video",
+        "3d-reconstruction",
+        "camera-tracking",
+        "streaming-inference"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Kerui Ren, Kaiwen Song, Weiguang Zhao, Yuxi Wang, Yufei Liu",
+      "published_at": "2026-09-28T17:54:32+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35750",
+      "content_key": "688e3eadc5d92b0e9579bd1f23b6bbaa0727a2e565986c9bd5709b483ccc2283",
+      "surface": "more",
+      "title": "KV-streams for Efficient Compaction in Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.35750",
+      "score": 6.0,
+      "summary": "KV-streams는 agentic LLM의 긴 context 처리 시 GPU 메모리 병목을 해결하는 최적화 기법입니다. 기존 context compaction 전략들이 반복적인 prefilling으로 학습 처리량을 저하시키는 문제를 해결하기 위해, KV 캐시를 flush하지 않고 스트리밍 방식으로 전달하여 2.6~5배의 wall-clock 속도 향상을 달성합니다. 추가로 스트리밍된 KV 캐시가 recurrent state처럼 작동하여 context에서 사라진 정보를 유지할 수 있음을 보여줍니다.",
+      "tags": [
+        "reinforcement-learning",
+        "llm-optimization",
+        "context-compression",
+        "training-efficiency",
+        "agentic-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Emiliano Penaloza, Dane Malenfant, Dheeraj Vattikonda, Roger Creus Castanyer, Siddarth Venkatraman",
+      "published_at": "2026-09-28T17:57:42+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35663",
+      "content_key": "9bb0fe18bd2f8f1e08db9ef376d8881baebfdd0760435dbd3fb256b66cab6ab4",
+      "surface": "more",
+      "title": "Late Attention Layers Alone Can Copy Entity Tokens, but Not Without Attending to Their Context",
+      "url": "https://arxiv.org/abs/2609.35663",
+      "score": 6.0,
+      "summary": "이 논문은 Qwen3-8B에서 entity copying(프롬프트의 entity 토큰을 출력으로 복사하는 작업)이 어떻게 작동하는지 분석합니다. 새로운 실험 방법들(genie-in-a-bottle, attention lobotomy)을 통해 모델의 후반부 레이어들만으로 entity copying이 가능하지만, context 토큰들의 entity 토큰에 대한 attention이 정확한 복사를 위해 필수적임을 발견했습니다. 이는 LLM이 entity 정보를 어떻게 전파하고 소비하는지에 대한 이해를 높입니다.",
+      "tags": [
+        "mechanistic-interpretability",
+        "large-language-models",
+        "attention-analysis",
+        "entity-copying"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Muyu He, Yuchen Liu, Ran Tao, Li Zhang",
+      "published_at": "2026-09-28T17:23:01+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35767",
+      "content_key": "e4918a53436598ac5f562355f3721a79d21d9374233911fff442d281149ecf16",
+      "surface": "more",
+      "title": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2609.35767",
+      "score": 6.0,
+      "summary": "UMM-Reflection은 unified multimodal model이 자신의 생성 이미지를 진단하고 수정하는 과정을 강화학습으로 최적화하는 방법을 제안합니다. 반사(reflection) 텍스트와 이미지 생성을 함께 학습하되, 형제 궤적들의 상대적 이점을 비교하여 신용 할당 문제를 해결합니다. BAGEL에서 SFT 대비 GenEval 12.05점 개선을 달성했으며, WISE, OneIG-Bench, T2I-CompBench++에서도 전이 성능을 보였습니다.",
+      "tags": [
+        "generative-ai",
+        "reinforcement-learning",
+        "image-generation",
+        "multimodal-models",
+        "self-improvement"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Yijia Fan, Ziqi Huang, Zhongang Cai, Yan Li, Zimo Wen",
+      "published_at": "2026-09-28T17:59:36+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35658",
+      "content_key": "522e8927db67a1d22ea178336358794349db468af5490aa5a942d97949deb3eb",
+      "surface": "more",
+      "title": "Many Eyes, One World: Feed-Forward 3D Reconstruction from Mixed Cameras",
+      "url": "https://arxiv.org/abs/2609.35658",
+      "score": 6.0,
+      "summary": "MEOW는 단일 forward pass에서 perspective, fisheye, 360° panorama 이미지를 혼합하여 3D 재구성과 카메라 포즈를 추정하는 feed-forward 시스템이다. 카메라 유형 레이블이나 보정 정보 없이 이미지만으로 작동하며, 절차적 데이터 엔진으로 학습한 후 실제 캡처에 zero-shot 전이된다. 2D3DS 벤치마크에서 기존 방법(Wid3R)을 크게 능가하고(79.9 vs 53.8 mAA@30), 레이저 스캔 벤치마크에서도 강한 성능을 보인다.",
+      "tags": [
+        "3d-reconstruction",
+        "multi-camera-systems",
+        "computer-vision",
+        "camera-calibration",
+        "zero-shot-transfer"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Qiaoge Li, Yifan Zhan, Haijun Yang, Haiyang Liu, Yiyi Cai",
+      "published_at": "2026-09-28T17:21:52+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35664",
+      "content_key": "216813008f1df77f77550e488a38bed6af3b9b11c0357ececad448900428081d",
+      "surface": "more",
+      "title": "MS-GLA: Multi-Scale Gated Linear Attention for Addressing Representational Bottlenecks via Multi-Temporal Resolution",
+      "url": "https://arxiv.org/abs/2609.35664",
+      "score": 6.0,
+      "summary": "MS-GLA는 Gated Linear Attention의 고정된 단일 시간 해상도 제약을 해결하기 위해 여러 시간 해상도에 걸쳐 주의 헤드를 분배하는 방식을 제안한다. 더 거친 해상도는 장거리 의존성을 처리하고 세밀한 헤드는 지역 구문 구조에 민감하게 유지되며, 학습 가능한 융합 계층이 동적으로 출력을 결합한다. 언어 모델링에서 평균 9.5% 낮은 perplexity와 회상 집약적 작업에서 최대 18.9% 개선을 달성하여 다중 해상도 분해가 선형 주의 모델의 표현 용량을 효과적으로 확장함을 보여준다.",
+      "tags": [
+        "attention-mechanisms",
+        "language-models",
+        "linear-transformers",
+        "architecture-design"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Prasoon Dev, Anirudh Sankar, Vasudeva Varma",
+      "published_at": "2026-09-28T17:23:45+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35611",
+      "content_key": "2b5dc14bdc14ea495bf6bebca47bb18c9533adaa298b3632a0e0006ac5576646",
+      "surface": "more",
+      "title": "On-Policy Self-Distillation for Multi-Turn Image Editing",
+      "url": "https://arxiv.org/abs/2609.35611",
+      "score": 6.0,
+      "summary": "기존 이미지 편집 모델은 반복적인 편집에서 성능이 급격히 저하되는데, 이는 학습 시 깨끗한 이미지로 훈련하지만 추론 시 자신의 불완전한 출력을 조건으로 사용하는 분포 불일치 때문이다. 논문은 MT-OPSD라는 온-폴리시 자기 증류 프레임워크를 제안하여 모델이 자체 생성한 조건 상태에서 학습하도록 하며, 다중 턴 주석 없이 깨끗한 조건의 교사로부터 감독을 받는다. 또한 10턴 편집 세션 100개로 구성된 LME-Bench 벤치마크를 도입하여 장기 견고성을 평가하고, 세 가지 편집 백본에서 다중 턴 붕괴를 줄이면서 단일 턴 품질을 유지한다.",
+      "tags": [
+        "image-editing",
+        "self-distillation",
+        "multi-turn-generation",
+        "distribution-mismatch",
+        "benchmark"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Liangbing Zhao, Le Zhuo, Mohamed Elhoseiny",
+      "published_at": "2026-09-28T16:55:24+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35768",
+      "content_key": "ae143336afe5ffb0da61636c1ea304fbf68754d50026be0a07e5f22799437def",
+      "surface": "more",
+      "title": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+      "url": "https://arxiv.org/abs/2609.35768",
+      "score": 6.0,
+      "summary": "PDMD는 비디오 확산 모델 증류에서 critic 오류 누적으로 인한 샘플 품질 저하 문제를 해결한다. 학생-critic 끝점 잔차에 평행한 DMD 업데이트 성분을 제거하는 투영 기법을 제안하며, 이는 한 줄의 코드 변경만으로 구현 가능하다. 4 NFE에서 VBench 83.73점, VideoGen-Eval 83.17점을 달성하여 기존 증류 방법을 능가하며, 코드와 모델이 공개되어 있다.",
+      "tags": [
+        "video-generation",
+        "diffusion-models",
+        "model-distillation",
+        "inference-optimization",
+        "generative-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Zimo Wang, Junkun Yuan, Angtian Wang, Haotian Yang, Canyu Zhang",
+      "published_at": "2026-09-28T17:59:52+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35694",
+      "content_key": "ce34572f94a09776eb6463e4a7d4719092623d0e854130aa4042ca6180f35d32",
+      "surface": "more",
+      "title": "Reasoning with Continuous Latent Diffusion",
+      "url": "https://arxiv.org/abs/2609.35694",
+      "score": 6.0,
+      "summary": "Latent Flow Reasoning Models (LFRMs)은 연속 확산을 통해 추론 문제를 해결하는 방법으로, 강력한 자동회귀 교사 모델에서 학습한 압축된 표현을 사용하여 잠재 공간에서 반복적으로 개선한다. 638M 매개변수 모델로 GSM8K에서 63.74% pass@1, HumanEval에서 32.85%를 달성하며 최근 연속 확산 기준선을 능가한다. 프롬프트 인코딩이 교사 특성과 정확히 일치할 필요 없다는 발견과 단계적 커리큘럼 학습이 추론 모델 설계에 실용적 통찰을 제공한다.",
+      "tags": [
+        "diffusion-models",
+        "reasoning",
+        "mathematical-reasoning",
+        "code-generation",
+        "latent-space-modeling"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Xiang Cheng",
+      "published_at": "2026-09-28T17:38:43+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35695",
+      "content_key": "b472b9ef2c7ca39ed0f2bb0027fbca8fdc5dce71810b03a50c96d234dedbb9d9",
+      "surface": "more",
+      "title": "Rethinking Personalized Generation: Test-Time Alignment via Factorized Ranking Models",
+      "url": "https://arxiv.org/abs/2609.35695",
+      "score": 6.0,
+      "summary": "이 논문은 LLM의 개인화된 생성을 위해 test-time alignment를 활용하되, 거대한 reward model 대신 백만 파라미터 규모의 MLP 기반 ranking model을 제안한다. 기본 생성 모델의 내부 임베딩을 재사용하면서 최소한의 오버헤드로 후보 풀을 효율적으로 평가할 수 있으며, 9개 데이터셋에서 reward model보다 우수한 성능을 0.4% 파라미터와 4자리 수 낮은 지연시간으로 달성했다. 개인화 생성을 후보 매칭 문제로 재정의하고 test-time scaling의 가능성을 보여주는 실용적인 기여이다.",
+      "tags": [
+        "personalization",
+        "test-time-alignment",
+        "ranking-models",
+        "llm-inference",
+        "parameter-efficiency"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Qiyao Ma, Junshan Zhang, Zhe Zhao",
+      "published_at": "2026-09-28T17:38:53+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35637",
+      "content_key": "050a75d89b8cc45f72b2facb9b6ebaf4053e19ae849b86056bdc213dd45ee267",
+      "surface": "more",
+      "title": "RT-Super: Learning Tumor Segmentation from Longitudinal Images and Reports",
+      "url": "https://arxiv.org/abs/2609.35637",
+      "score": 6.0,
+      "summary": "RT-Super는 종양 분할 마스크 부족 문제를 해결하기 위해 종단면 이미지, 다중 위상 이미지, 방사선 보고서를 활용하는 교사-학생 네트워크 구조를 제안한다. 교사 네트워크가 이러한 임상 데이터로부터 고품질 마스크를 생성하고, 학생 네트워크는 단일 이미지만으로 종양을 분할하도록 학습된다. 식도, 자궁, 비장 종양처럼 공개 마스크가 거의 없는 종양 유형에서 기존 모델을 능가하는 성능을 보여주며, 실제 임상 환경의 풍부한 데이터를 약한 감시 신호로 활용하는 실용적 접근이다.",
+      "tags": [
+        "medical-image-segmentation",
+        "weak-supervision",
+        "tumor-detection",
+        "multi-modal-learning",
+        "clinical-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Pedro R. A. S. Bassi, Wenxuan Li, Hanxue Gu, Jieneng Chen, Xinze Zhou",
+      "published_at": "2026-09-28T17:06:07+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35646",
+      "content_key": "b7eba84e38e6c879e68e263a04617111a1e84991c9458aa2b6a109bb75eac3b7",
+      "surface": "more",
+      "title": "Rubric Rewards from Item Response Theory",
+      "url": "https://arxiv.org/abs/2609.35646",
+      "score": 6.0,
+      "summary": "이 논문은 언어 모델 강화학습에서 루브릭 기반 보상을 더 효과적으로 집계하는 방법을 제안합니다. 점수를 단순히 합산하는 대신 Item Response Theory를 사용하여 판정 패턴을 공유된 품질의 증거로 해석하고, Response Parameter Network가 기준의 난이도와 판별력을 동적으로 학습합니다. Qwen3.5-4B 정책으로 GRPO 대비 1.7~5.6점 향상을 보였으며, 판정 요청을 절반으로 줄이면서도 성능을 유지할 수 있습니다.",
+      "tags": [
+        "reinforcement-learning",
+        "language-models",
+        "reward-modeling",
+        "rubric-evaluation",
+        "item-response-theory"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Milad Yazdani, Yaser Souri, Xiren Zhou, Pranit Chawla, Dena Shahriari",
+      "published_at": "2026-09-28T17:15:37+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35629",
+      "content_key": "1facd22b99424abef14025bf7a226c86cd06da9e280f29f9a7c175dc37a4020c",
+      "surface": "more",
+      "title": "SANTA++: Sampling Attention through Representative Keys",
+      "url": "https://arxiv.org/abs/2609.35629",
+      "score": 6.0,
+      "summary": "SANTA++는 쿼리별로 변하는 attention 패턴을 활용하여 전체 KV 캐시를 스캔하지 않고 대표 키를 통해 팀 단위로 샘플링하는 학습 불필요 attention 방법을 제안한다. 32K 컨텍스트에서 32-64개 팀 샘플링으로 KV 읽기를 16-22%로 줄이면서 LongBench와 HELMET에서 94-99% 성능을 유지하고, FlashAttention 대비 1.69배 속도 향상을 달성한다. 이는 장문맥 추론에서 메모리 효율성과 속도의 실질적인 개선을 제공하며 기존 압축 KV 방식과 상호보완 가능하다.",
+      "tags": [
+        "attention-mechanism",
+        "inference-efficiency",
+        "kv-cache-optimization",
+        "long-context-llm",
+        "memory-efficiency"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Kyle Lee, Christian Z. Pratt, Ruoyu Fang, Heekyung Lee, Avinash Lohitsa",
+      "published_at": "2026-09-28T17:00:30+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35759",
+      "content_key": "f81262b93098dc2c5df2cca36e4e81c5967bdc82336fe9eabb7df5ae2dca5877",
+      "surface": "more",
+      "title": "Scaling Long-Form Story Generation via Narrative State Tracking",
+      "url": "https://arxiv.org/abs/2609.35759",
+      "score": 6.0,
+      "summary": "LLM 기반 장편 소설 생성에서 서사 일관성 유지의 어려움을 해결하기 위해 Narrative State Tracking Agent(NstAgent)를 제안한다. 이 훈련 불필요 에이전트 프레임워크는 등장인물, 과거 사건, 미래 요구사항을 포함한 구조화된 서사 상태를 추적하며, 10K에서 100K 단어 범위의 이야기에 대해 서사 일관성과 글쓰기 품질을 체계적으로 평가한다. 결과에 따르면 이 방법은 이야기 길이가 증가해도 일관성과 품질이 저하되지 않으므로 장편 소설 생성으로의 확장에 효과적인 접근 방식을 제시한다.",
+      "tags": [
+        "long-form-generation",
+        "narrative-consistency",
+        "creative-writing",
+        "agentic-systems",
+        "generative-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Zhennan Wan, Jianfei Chen",
+      "published_at": "2026-09-28T17:59:09+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35707",
+      "content_key": "3706e046d111c22c56b86177f563c21820f8b542e6c8c45680e275e0b035a886",
+      "surface": "more",
+      "title": "ScAn-Bench: Evaluating Scaling Analysis Methodology",
+      "url": "https://arxiv.org/abs/2609.35707",
+      "score": 6.0,
+      "summary": "ScAn-Bench는 언어 모델과 비전-언어 모델의 4500개 이상 체크포인트를 기반으로 스케일링 법칙 도출 방법론을 체계적으로 평가하는 벤치마크를 제시한다. 데이터 수집과 외삽 방법론의 차이가 스케일링 분석 결과에 미치는 영향을 처음으로 비교 분석하여, 파운데이션 모델 개발 시 최적 스케일링 처방을 찾는 과정의 신뢰성을 높일 수 있다.",
+      "tags": [
+        "scaling-laws",
+        "benchmarking",
+        "foundation-models",
+        "methodology-evaluation",
+        "large-language-models"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Artin Sermaxhaj, Nastaran Alipour, Donat Sinani, Johannes Hog, Neeratyoy Mallik",
+      "published_at": "2026-09-28T17:44:11+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35763",
+      "content_key": "963cdcc93ae7e503b4a9283d7fbf3255b2bb4a2cefaa68191b2f63e6790a3a48",
+      "surface": "more",
+      "title": "Unifying Distributional Training for One-Step Visual Generation",
+      "url": "https://arxiv.org/abs/2609.35763",
+      "score": 6.0,
+      "summary": "논문은 한 번의 생성 단계로 이미지를 만드는 분산 훈련(distributional training)을 위한 통합 이론 프레임워크를 제시한다. Wasserstein 최적 수송을 통해 기존 방법들을 연결하고, 가우시안 혼합 모델을 사용하는 MGFlow를 제안하여 모드 붕괴 문제를 해결한다. ImageNet 256×256에서 FD-Loss를 크게 능가하고, FLUX.2를 한 단계 생성기로 변환하여 원래 네 단계 모델을 능가하는 결과를 달성했다.",
+      "tags": [
+        "generative-ai",
+        "image-generation",
+        "optimal-transport",
+        "one-step-generation",
+        "diffusion-models"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Chi Zhang, Haoyang Shi, Yueyi Liu, Ruichuan An, Junkang Zhou",
+      "published_at": "2026-09-28T17:59:14+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35677",
+      "content_key": "154669b6855de0e0ce74f42a5249af449f3bb81a1859a0f695298560d900d494",
+      "surface": "more",
+      "title": "Verifier Errors in RLVR: Reward Hacking, Limits of Feedback, and Selective Control",
+      "url": "https://arxiv.org/abs/2609.35677",
+      "score": 6.0,
+      "summary": "RLVR 시스템에서 불완전한 verifier가 잘못된 응답에 보상을 주어 reward hacking을 유발하는 문제를 분석한다. 저자들은 gradient flow 분석을 통해 보상이 증가하면서 정확성이 감소하는 조건을 특성화하고, RLVR 관찰만으로는 오류를 감지하거나 식별할 수 없음을 증명한다. 이를 해결하기 위해 audit 피드백을 활용한 correction을 제안하여 verifier 보상의 압력을 상쇄하면서 오류 확률을 낮추고 정확성을 높이는 'selective control'을 달성한다.",
+      "tags": [
+        "reinforcement-learning",
+        "reward-hacking",
+        "verification",
+        "language-models",
+        "feedback-mechanisms"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Christian Moya, Elliott Thornley, Guang Lin",
+      "published_at": "2026-09-28T17:30:24+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "hackernews:story:49883760",
+      "content_key": "c05735ac6fea208f936e476637fd51b61a28139454fd2338c55986f47dbbb8dc",
+      "surface": "more",
+      "title": "World Labs Is Joining AMD",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "score": 6.0,
+      "summary": "AMD가 World Labs를 인수했다고 발표했다. 이는 세계 모델링과 구체화된 AI 추론 분야에서 AMD의 전략적 움직임으로 보인다. 그러나 해커뉴스 커뮤니티에서는 World Labs의 Atlas 모델이 기존 최첨단 기술 대비 실질적인 기술 혁신을 제시하는지, 그리고 실제 사용 사례에 적용 가능한지에 대해 의문을 제기하고 있다.",
+      "tags": [
+        "world-modeling",
+        "ai-acquisition",
+        "amd",
+        "generative-ai",
+        "embodied-ai"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "mfiguiere",
+      "author": "mfiguiere",
+      "published_at": "2026-09-28T20:18:05+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35715",
+      "content_key": "048672b5ce978811b977971e26b0ae8a58ee982500056d57b04843e6f0557431",
+      "surface": "more",
+      "title": "X-Reset: Scaling Object-Centric Reinforcement Learning via Cross-Embodiment Resets",
+      "url": "https://arxiv.org/abs/2609.35715",
+      "score": 6.0,
+      "summary": "X-Reset는 인간의 손-물체 시연으로부터 RL 탐색을 개선하는 방법을 제안한다. 손 자세를 로봇 상태로 운동학적으로 재타겟팅한 후 불안정한 상태를 필터링하여 RL 훈련 중 리셋 분포로 사용함으로써, 일반적인 물체 중심 보상만으로 22-DoF 손과 병렬 그리퍼를 포함한 세 가지 구현에서 20개 물체에 대한 정책을 학습한다. 시뮬레이션-현실 전이와 미학습 물체로의 일반화를 달성하며, 탐색 문제를 해결하는 실용적인 접근이다.",
+      "tags": [
+        "reinforcement-learning",
+        "robot-manipulation",
+        "sim-to-real-transfer",
+        "exploration"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Prithwish Dan, Chenyang Ma, Wei Zhan",
+      "published_at": "2026-09-28T17:46:42+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "google_news:article:65227fd2271e6b85",
+      "content_key": "41876bef01751a36a1ed09d05de90c8e5798c2b82c2c5999b66598a9a2aad588",
+      "surface": "more",
+      "title": "‘Godmother of AI’ joining AMD in $8.2 billion deal for World Labs - Forbes Australia",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWWk3R0pRYUlzNHlwczRIaXFuVmItMjBjYjVsc0haUWpxSUtBaE5SRzRENnpRX0s2TTlPd05FRktma2xwbngwcERnSTJwNkhvQ0lqQzFYS0J5a0ZJeXBZWFBsaWoxVVJWcjctYjdMQjFIcE1maGNXck5aeGZnS29LVGpvMHlGMVM4SDlZZkdXTmJmdXZyYWlNWk5qaWp0MXN4MFEtRWZCWGY?oc=5",
+      "score": 6.0,
+      "summary": "AMD가 World Labs를 $8.2 billion에 인수하며 'AI의 대모'로 불리는 인물이 참여한다는 보도입니다. 구체적인 기술 세부사항이나 이 인수가 AMD의 AI 전략에 미치는 영향에 대한 정보는 제한적이지만, 주요 반도체 기업의 AI 분야 투자 확대를 보여주는 사례입니다.",
+      "tags": [
+        "ai-industry",
+        "acquisitions",
+        "amd",
+        "hardware",
+        "generative-ai"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Forbes Australia",
+      "author": "Forbes Australia",
+      "published_at": "2026-09-29T00:32:19+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35620",
+      "content_key": "1d7afd43e6a653999bd7e63ee24b21391ce334d02534261106c04fb23cfc5f07",
+      "surface": "more",
+      "title": "Attention Graphons: A Graph Limit Perspective on Graph Transformers",
+      "url": "https://arxiv.org/abs/2609.35620",
+      "score": 5.0,
+      "summary": "Graph Transformers의 attention 행렬이 그래프 크기가 증가할 때 안정적인 극한 객체(attention graphon)로 수렴하는지를 dense graph limit theory로 분석한 논문이다. 저자들은 variance bound를 도출하고 attention graphon을 추정하는 파이프라인을 제안했으며, 여러 벤치마크에서 학습된 attention이 dataset-specific graphon 구조로 안정화되고 전이 가능함을 보였다. 이론적으로는 흥미롭지만 실무 적용 가치는 추상에서 명확하지 않다.",
+      "tags": [
+        "graph-transformers",
+        "attention-mechanisms",
+        "graph-neural-networks",
+        "theoretical-analysis",
+        "graph-limits"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Caio F. Deberaldini Netto, Moshe Eliasof, Luana Ruiz",
+      "published_at": "2026-09-28T16:57:22+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35657",
+      "content_key": "3727e5e89d6720c56678713bd30fc5dfb6b2d74281060aa7c816125f34df18ce",
+      "surface": "more",
+      "title": "CMDO: A Cognitive Memory-Driven Optimization Algorithm for Adaptive Population-Based Search",
+      "url": "https://arxiv.org/abs/2609.35657",
+      "score": 5.0,
+      "summary": "CMDO는 검색 맥락, 행동, 결과 간의 관계를 명시적으로 저장하는 메모리 기반 최적화 알고리즘으로, 작업 메모리, 에피소드 메모리, 통합 메모리 계층을 통해 경험을 조직화합니다. BBOB/COCO와 CEC2017 벤치마크에서 DE, CMA-ES, SHADE 등과 경쟁력 있는 성능을 보였으며, 특히 CEC2017 F10에서 최저 중앙값 오차를 달성했습니다. 검색 추적 분석 결과 맥락 기반 회상이 실행된 검색 행동의 분포를 변화시키고 실패한 경험이 음의 증거로 작용함을 보여, 누적된 경험이 모집단 기반 검색을 직접 제어하는 메커니즘으로 작동함을 입증합니다.",
+      "tags": [
+        "optimization-algorithms",
+        "population-based-search",
+        "memory-mechanisms",
+        "derivative-free-optimization",
+        "benchmark-evaluation"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.NE",
+      "author": "Mohammed Yusuf Mujawar, Shahram Rahimi, Noorbakhsh Amiri Golilarz",
+      "published_at": "2026-09-28T17:21:43+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35645",
+      "content_key": "3a350e80542449d39af187cbabef720081060691e07753443b7becb3f3eb4a1f",
+      "surface": "more",
+      "title": "CoSE-E: A Benchmark for Code-switched Speech Evaluation in Enterprise Settings",
+      "url": "https://arxiv.org/abs/2609.35645",
+      "score": 5.0,
+      "summary": "CoSE-E는 기업 환경에서 코드스위칭(언어 간 전환) ASR 오류가 음성 에이전트 작업 실패로 어떻게 전파되는지 평가하는 벤치마크와 평가 프레임워크를 제시한다. 5개 언어 쌍에 걸쳐 최신 ASR 시스템을 평가하고 코드스위칭이 도입하는 추가 오류를 진단 분석한다. 다국어 음성 에이전트 배포에서 실제 운영 영향을 측정하는 점에서 실용적 가치가 있으나, 구체적인 성능 개선이나 새로운 통찰이 제시되었는지는 초록에서 명확하지 않다.",
+      "tags": [
+        "speech-recognition",
+        "code-switching",
+        "multilingual-nlp",
+        "benchmark",
+        "enterprise-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.SD",
+      "author": "Shama Gupta, Hoang H Nguyen, Chelsea Huang, Lindsay Devon Brin, Fanny Riols",
+      "published_at": "2026-09-28T17:14:11+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35634",
+      "content_key": "19af514cf9adabc9e2d57678c6a704a892cdb03c9f8e71dc478ec3ff21424424",
+      "surface": "more",
+      "title": "DR-net-Mamba: Selective State-Space Modeling for Long-Range ECG Time-Series Denoising",
+      "url": "https://arxiv.org/abs/2609.35634",
+      "score": 5.0,
+      "summary": "ECG 신호 노이즈 제거를 위해 Mamba 기반 선택적 상태 공간 모델을 제안합니다. 합성곱 신경망의 제한된 수용 영역, 트랜스포머의 이차 복잡도, 확산 모델의 높은 추론 비용을 극복하기 위해 합성곱 병목에 상태 공간 블록을 삽입하여 선형 복잡도로 장거리 시간 의존성을 모델링합니다. 40개 이상의 병리 클래스에 걸쳐 SNR, RMSE, 분류 성능을 평가한 결과 제안 모델이 우수한 성능을 보였으며, 특히 긴 시퀀스와 저 SNR 환경에서 Mamba의 이점이 두드러집니다.",
+      "tags": [
+        "state-space-models",
+        "signal-denoising",
+        "medical-ai",
+        "time-series",
+        "mamba"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Basile Morel, Samuel Ruiperez-Campillo, Andreas P. Streich, Julia E. Vogt, Thomas Hofmann",
+      "published_at": "2026-09-28T17:03:04+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35704",
+      "content_key": "11598ed4968980954e303578809f25c315e580a2c9065405bfe5b69db1310cff",
+      "surface": "more",
+      "title": "DynaTokens: Teaching Dynamics to Camera-Controlled Video Models at Test Time",
+      "url": "https://arxiv.org/abs/2609.35704",
+      "score": 5.0,
+      "summary": "DynaTokens는 기존 카메라 제어 비디오 모델에 장면 동역학을 추가하는 경량 방법으로, 학습 가능한 토큰 집합을 통해 기본 모델을 고정한 채 몇 가지 예시 궤적으로부터 동역학을 학습합니다. 카메라 모션은 전역적으로 영향을 미치지만 객체 동역학은 공간적으로 국소화된다는 비대칭성을 활용하여, 새로운 카메라 경로에서도 동역학을 가능하게 합니다. VBench2와 WorldScore에서 LoRA 및 블록 파인튜닝보다 나은 성능을 보이며, 학습 가능한 인터페이스를 학습 대상의 구조와 일치시키는 것이 효과적인 적응에 중요함을 시사합니다.",
+      "tags": [
+        "video-generation",
+        "world-modeling",
+        "camera-control",
+        "test-time-adaptation",
+        "generative-ai"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Ma Ziqi, Chen Hongqiao, Gkioxari Georgia",
+      "published_at": "2026-09-28T17:42:57+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35614",
+      "content_key": "e8ea7abc7bd4e05fc7aa524e1fc6d29cc282bc221af6ac880b08a6013067a450",
+      "surface": "more",
+      "title": "EvE: An Alternate Optimizer to Adam",
+      "url": "https://arxiv.org/abs/2609.35614",
+      "score": 5.0,
+      "summary": "EvE는 Adam을 대체하는 하이브리드 최적화기로, differential evolution과 gradient descent를 결합하여 하이퍼파라미터 및 아키텍처 탐색 단계에서 빠른 평가를 목표로 합니다. 고정된 평가 예산 하에서 EvE는 Adam 대비 탐색 단계를 3.1-3.5배 빠르게 완료하지만, 최종 모델 품질은 1-11% 정도 저하됩니다. 이는 예산 제약이 있는 탐색 중심 워크플로우에는 유용하지만, 최종 학습 단계의 일반적인 대체제로는 제한적입니다.",
+      "tags": [
+        "optimization",
+        "hyperparameter-search",
+        "neural-network-training",
+        "differential-evolution"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Shashank Raj, Kalyanmoy Deb",
+      "published_at": "2026-09-28T16:55:40+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:aad0e5a3208c50a5",
+      "content_key": "aad0e5a3208c50a5edd8f7b1fab9259b01c92e0bca2260e27738ef08d5f4d1a9",
+      "surface": "more",
+      "title": "F/OSS Comics #10: C언어의 아버지, 데니스 리치의 일생",
+      "url": "https://news.hada.io/topic?id=34450",
+      "score": 5.0,
+      "summary": "F/OSS Comics 시리즈의 10번째 에피소드로, C 언어의 창시자 데니스 리치의 삶을 다룬 만화입니다. 하버드에서 벨 연구소까지의 경력, Unix 개발, Plan 9와 Inferno 프로젝트 등 현대 컴퓨팅의 기초를 만든 핵심 인물의 역사를 시각적으로 소개합니다.",
+      "tags": [
+        "open-source",
+        "computing-history",
+        "c-language",
+        "unix",
+        "educational-content"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "joone",
+      "published_at": "2026-09-28T19:56:24+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35744",
+      "content_key": "8daca2e781dd8746547a60a36b03cd1b1258601172a9c5b76f255756183a6c76",
+      "surface": "more",
+      "title": "FinAutoRubric: Expert-Guided Automatic Rubric Generation for Evaluating Financial Research Agents",
+      "url": "https://arxiv.org/abs/2609.35744",
+      "score": 5.0,
+      "summary": "FinAutoRubric는 금융 연구 에이전트 평가를 위해 전문가의 지침을 기반으로 쿼리별 평가 기준을 자동 생성하는 시스템이다. 전문가가 재사용 가능한 평가 지침을 정의하면, 에이전트가 조사와 검증을 수행하고 실패 시 인간이 개입하는 구조로, 세 개의 금융 벤치마크에서 전문가 채점과 유사한 성능을 보였으며 맹검 검토에서 분석가들의 선호도를 얻었다. 78개 작업과 8개 자산 클래스를 포함한 100개 쿼리 벤치마크를 공개했으나, 평가가 내부 벤치마크에 한정되고 방법론적 혁신보다는 응용 측면의 기여가 주요 특징이다.",
+      "tags": [
+        "financial-ai",
+        "evaluation-methodology",
+        "agent-systems",
+        "benchmark-dataset",
+        "rubric-generation"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Hoyoung Lee, Suyeol Yun, Jack Haverty, Yunju Cho, Meesong Kim",
+      "published_at": "2026-09-28T17:55:06+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:1a67cacba1c3c6fc",
+      "content_key": "da1149ea8723f1eecd44a8eb58dc8626f3d68ba09b393a8a99bcd57676ec1f25",
+      "surface": "more",
+      "title": "Florida seeks a ban on ChatGPT acting like a person",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+      "score": 5.0,
+      "summary": "플로리다 주 법무장관이 OpenAI를 상대로 ChatGPT가 \"거짓 인간 속성\"을 부여하는 것을 금지해달라고 법원에 요청했다. 주장은 1인칭 대명사 사용 등 ChatGPT의 언어 사용이 사용자에게 거짓 안전감을 주고 있다는 것이다. 이는 AI 시스템의 의인화와 사용자 신뢰 문제에 대한 규제 관심을 보여주는 사례다.",
+      "tags": [
+        "ai-regulation",
+        "chatgpt",
+        "trust-and-verification",
+        "ai-safety",
+        "policy"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Stevie Bonifield",
+      "published_at": "2026-09-28T17:00:23+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35770",
+      "content_key": "6d4389e097d81eb49b7ff251024073a23acd6366d21db8b491c113599bd4fc72",
+      "surface": "more",
+      "title": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+      "url": "https://arxiv.org/abs/2609.35770",
+      "score": 5.0,
+      "summary": "FurE는 동물 모피 데이터셋 부재 문제를 해결하기 위해 인간 머리카락 데이터로 학습한 PCA 기반 디코더를 활용하여 다중 뷰 이미지에서 동물 모피를 효율적으로 재구성하는 방법을 제시합니다. 가닥 기반 최적화에서 10배 속도 향상을 달성하면서도 재구성 품질을 유지하고 합성 및 실제 영상에 걸쳐 일반화됩니다. 이는 3D 재구성 분야에서 데이터 부족 문제를 창의적으로 해결한 사례이지만, 응용 범위가 동물 모피 편집에 제한적입니다.",
+      "tags": [
+        "3d-reconstruction",
+        "computer-vision",
+        "generative-modeling",
+        "efficiency"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Srinjay Sarkar, Prakhar Kaushik, Soumava Paul, Alan Yuille",
+      "published_at": "2026-09-28T17:59:58+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35734",
+      "content_key": "3cc13a3ba3fcbe3d6c58270b64ad4a030091a71e1dfb2cf9e6f137b120d645c0",
+      "surface": "more",
+      "title": "GeoVerse: World-Consistent Novel View Synthesis in Geometric Latent Space",
+      "url": "https://arxiv.org/abs/2609.35734",
+      "score": 5.0,
+      "summary": "GeoVerse는 기하학적 잠재 공간에서 새로운 뷰를 합성하는 프레임워크로, 3D 기초 모델의 기하학적 특성과 비디오 생성 모델의 외형 사전을 결합합니다. 관찰된 영역의 충실한 재구성과 보이지 않는 영역의 그럴듯한 완성을 동시에 달성하면서 뷰포인트 간 일관성을 유지하는 것이 핵심 과제인데, 제안된 방법은 전역 공간 메모리를 통해 교차 뷰 일관성을 강제합니다. DL3DV에서 2.23 dB 높은 PSNR과 Mip-NeRF360에서 32.4% 낮은 ATE를 달성했으나, 단일 기준선과의 비교만 제시되어 있습니다.",
+      "tags": [
+        "novel-view-synthesis",
+        "3d-reconstruction",
+        "geometric-consistency",
+        "generative-models",
+        "world-modeling"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Kerui Ren, Tao Lu, Linning Xu, Changjian Jiang, Mu Huang",
+      "published_at": "2026-09-28T17:51:48+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:bee38e44eaf222cd",
+      "content_key": "ab95dff2b094b51a116e91fb55f0ec38d55aa3c9244cd6dcb13b0fc0c5684413",
+      "surface": "more",
+      "title": "Google is killing off Gemini’s Gems in favor of ‘skills’",
+      "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+      "score": 5.0,
+      "summary": "Google이 Gemini의 작업별 에이전트를 구축하던 'Gems' 기능을 중단하고 'skills'로 전환하고 있습니다. Meta의 Muse와 Instinct 같은 통합 AI 에이전트의 성장에 대응하는 움직임으로 보이지만, 새로운 'skills' 기능의 구체적인 기술적 차이와 사용자 영향에 대한 상세 정보는 제시되지 않았습니다.",
+      "tags": [
+        "gemini",
+        "generative-ai",
+        "google-ai",
+        "model-updates",
+        "ai-agents"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "published_at": "2026-09-28T17:29:50+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:2cb65c9aef7d810c",
+      "content_key": "bf9142a753884ce5c43a5e82ce5470f949b6874422317f9d63f886e3b8f7e599",
+      "surface": "more",
+      "title": "Grok 4.7 is now available on Amazon Bedrock - Amazon Web Services (AWS)",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdXRnOWtrWnZLZnlGQ0t1MlVSYzc5VzlBcGg2UGR1anFwZWRFelFYb2VrZE5WQ1pPVVZYdnBBa2hqRGppUGVXSlZ2djR5SHE3ZVNBclFTSnFQYzBDT2huUUF3Z1h4Y3I5YlZid3IzMFpZSGRObG9oc3lsYzR4ZGVuUTNDTEdtZXZPUW9GbFhWeU5KNm9u?oc=5",
+      "score": 5.0,
+      "summary": "xAI의 Grok 4.7 모델이 Amazon Bedrock에서 이용 가능해졌다. 이는 개발자들이 AWS 플랫폼을 통해 Grok에 접근할 수 있게 해주는 통합으로, 대규모 언어 모델 배포 옵션을 확대하는 것이지만 구체적인 기능 개선이나 성능 변화에 대한 정보는 제공되지 않는다.",
+      "tags": [
+        "large-language-models",
+        "model-updates",
+        "aws",
+        "llm-deployment"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Amazon Web Services (AWS)",
+      "author": "Amazon Web Services (AWS)",
+      "published_at": "2026-09-28T22:13:16+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35726",
+      "content_key": "955d5564ab3c7783b1b72640098a1e72bbed9d9982f656c77b01c966081c69eb",
+      "surface": "more",
+      "title": "Impact of Patient Orientation in Single- and Multi-View Camera Environments for AI-based Rehabilitation Monitoring",
+      "url": "https://arxiv.org/abs/2609.35726",
+      "score": 5.0,
+      "summary": "재활 운동 모니터링을 위한 카메라 배치의 영향을 체계적으로 분석한 연구로, REHAB26-ViewAngles 데이터셋과 새로운 분리성 지표를 제시합니다. 최적으로 배치된 단일 2D 카메라가 정면 뷰 대비 16.9% 성능 향상을 보였으며, 두 개의 직교 뷰 조합은 추가로 13.1% 개선을 달성했습니다. 임상 및 가정용 재활 모니터링 시스템 배포에 실질적인 지침을 제공합니다.",
+      "tags": [
+        "pose-estimation",
+        "computer-vision",
+        "rehabilitation-monitoring",
+        "dataset",
+        "multi-view-analysis"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Miriama Jánošová, Andreas Lang, Petra Budikova, Jan Sedmidubsky",
+      "published_at": "2026-09-28T17:50:26+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "github:release:398611908",
+      "content_key": "d22e1a2319ccd9329b6707fd7220cde00d5f4e0331e73b632e057a1f20701713",
+      "surface": "more",
+      "title": "langchain-ai/langchain released langchain-fireworks==1.7.0",
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.7.0",
+      "score": 5.0,
+      "summary": "langchain-fireworks 1.7.0이 릴리스되었으며, prompt caching middleware 추가, mid-stream read timeout 분류 개선, 모델 프로필 데이터 갱신 등의 변경사항을 포함합니다. Fireworks AI와의 통합을 개선하는 점진적 업데이트로, LangChain 사용자에게 유용하지만 주요 기능 변화는 아닙니다.",
+      "tags": [
+        "langchain",
+        "open-source",
+        "library-updates",
+        "ai-infrastructure"
+      ],
+      "source_type": "github",
+      "sub_source": "langchain-ai/langchain",
+      "author": "github-actions[bot]",
+      "published_at": "2026-09-28T20:46:50+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35665",
+      "content_key": "1d8b09ea3b40d0303bd1341e7a9e6b0ba318a563fc810921334d50f3e2158171",
+      "surface": "more",
+      "title": "Learned Preconditioning for a Primal-Dual Interior-Point Method",
+      "url": "https://arxiv.org/abs/2609.35665",
+      "score": 5.0,
+      "summary": "pdLIP는 학습된 전조건화(learned preconditioning)를 내부점 방법(interior-point method)과 결합하여 Newton 시스템 풀이를 피하고 GPU 병렬화가 가능한 좌표별 연산만 사용합니다. 자기지도 학습으로 훈련되며, 200차원 제약 최적화 문제에서 따뜻한 시작(warm start) 시 반복 횟수를 63-67% 감소시킵니다. 기술적으로 견고하지만 평가가 작은 규모 문제에 제한되고 실제 벽시계 시간 개선이 보고되지 않아 실무 영향은 제한적입니다.",
+      "tags": [
+        "optimization",
+        "interior-point-methods",
+        "learned-optimization",
+        "preconditioning",
+        "constrained-optimization"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv math.OC",
+      "author": "Abhinav Madabhushi, Jialin Liu, Minxin Zhang",
+      "published_at": "2026-09-28T17:24:54+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35701",
+      "content_key": "21da164ea5de646fd5cf84eeae050d9702604d01a6f7784d5bac058fb6f0b429",
+      "surface": "more",
+      "title": "MeqMuon: Matrix-Equilibrating Muon for LLM Pretraining",
+      "url": "https://arxiv.org/abs/2609.35701",
+      "score": 5.0,
+      "summary": "MeqMuon는 LLM 사전학습용 Muon 옵티마이저를 개선한 방법으로, 행과 열 방향 정규화를 통해 업데이트 행렬의 불균형을 자동으로 조정한다. AdamW의 이차 모멘트 저장을 제거하여 옵티마이저 상태 메모리를 줄이면서 AdamW와 Muon보다 나은 수렴 성능을 달성한다고 주장하지만, 추상에서는 구체적인 수치나 상세한 비교가 제시되지 않는다.",
+      "tags": [
+        "optimizer",
+        "llm-training",
+        "pretraining-efficiency",
+        "muon"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Chang-Wei Shi, Xu Wang, Wu-Jun Li",
+      "published_at": "2026-09-28T17:41:34+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35685",
+      "content_key": "39d7d1e9f783f3764da97802835fbed48d05594db290185e3e0d3116c02f549e",
+      "surface": "more",
+      "title": "QuanReview: Offline, Auditable Reconciliation of Human and LLM Span Annotations",
+      "url": "https://arxiv.org/abs/2609.35685",
+      "score": 5.0,
+      "summary": "QuanReview는 인간 주석과 LLM 생성 주석 간의 불일치를 감지하고 해결하기 위한 오프라인 감사 시스템이다. 문자 수준 정렬, 명시적 정책 기반 자동 해결, 브라우저 기반 중재 인터페이스를 제공하며, 4,457개 레코드 데이터셋에서 8%는 자동 병합, 1,513개는 정책 적용, 3,131개는 인간 검토로 처리했다. 구조화된 주석(수량, 단위, 불확실성 수정자 등)의 신뢰성을 유지하는 실용적인 도구이지만, 평가 범위가 제한적이다.",
+      "tags": [
+        "annotation-tools",
+        "data-quality",
+        "llm-evaluation",
+        "content-authenticity"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CL",
+      "author": "Matteo Musacchio, Juan Cruz Giner Pulero, Isabel Castañeda, Naomi Couriel, Yelena Mejova",
+      "published_at": "2026-09-28T17:33:14+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35764",
+      "content_key": "dbe468ad2f8a3bffae6930c3ceb6aadf8428390c58d34d20811fe1d323c5acd3",
+      "surface": "more",
+      "title": "Reliability-Gated Fusion of Consumer Head and Foot IMUs for Lower-Body 3D Pose",
+      "url": "https://arxiv.org/abs/2609.35764",
+      "score": 5.0,
+      "summary": "소비자 IMU 센서의 신뢰성 문제를 해결하기 위해 채널별 신뢰도 게이팅을 제안합니다. 머리와 발 IMU 데이터를 융합할 때 펌웨어 기반 방향 추정이 편향되고 드리프트되는 문제를 식별하고, 각 채널의 신뢰도를 학습하는 시간적 게이트를 도입했습니다. 합성 손상 데이터로 사전학습한 보조 목적함수를 통해 드롭아웃, 편향, 드리프트 등 여러 결함 상황에서 안정적인 성능을 보였으나, 평가가 단일 피험자 35개 테이크로 제한되어 일반화 가능성이 불명확합니다.",
+      "tags": [
+        "pose-estimation",
+        "sensor-fusion",
+        "inertial-measurement",
+        "robustness",
+        "motion-capture"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.CV",
+      "author": "Zhilin Guo, Boqiao Zhang, Oszkár Urbán, Josef Bengtson, Hakan Aktas",
+      "published_at": "2026-09-28T17:59:22+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35692",
+      "content_key": "99f9848e71c6a01f8d8518f54342453691f1206adadfdb65deb8f02d4600e283",
+      "surface": "more",
+      "title": "Report: Progressive Disclosure of Agent Skills",
+      "url": "https://arxiv.org/abs/2609.35692",
+      "score": 5.0,
+      "summary": "Workday의 LLM 기반 에이전트에서 스킬 라이브러리가 커질수록 운영 비용이 증가하는 문제를 다룬다. 필요할 때만 스킬을 로드하는 progressive disclosure 방식을 실험한 결과, 스킬 검색 품질은 개선되지만 전체 지연 시간은 약간 악화되는 것으로 나타났다. 에이전트 시스템 설계에서 비용과 성능 간의 실질적인 트레이드오프를 보여주는 결과다.",
+      "tags": [
+        "llm-agents",
+        "skill-management",
+        "latency-optimization",
+        "empirical-study"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Guilin Zhang, Kai Zhao, Priyanka Mudgal, Waleed Ammar, Xiquan Cui",
+      "published_at": "2026-09-28T17:38:37+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35623",
+      "content_key": "3a2d384cf629685159ae86276338c8c38c474d2385e7a1f527fe2a829e11a170",
+      "surface": "more",
+      "title": "RIDE: Reference-Anchored Inference-Time Diffusion Editing for Scaffold Hopping",
+      "url": "https://arxiv.org/abs/2609.35623",
+      "score": 5.0,
+      "summary": "RIDE는 확산 모델을 이용한 약물 발견의 스캐폴드 호핑 문제를 해결하는 추론 시간 편집 프레임워크다. 참조 리간드의 3D 형태를 보존하면서 2D 구조적 신규성을 강제하기 위해 노이즈 궤적 복구와 값 기반 샘플링을 결합한다. 기존 방법 대비 2D 유사성은 11.7%, 3D 유사성은 7.3% 개선되었으며, 다양한 보상 함수를 수용할 수 있다.",
+      "tags": [
+        "drug-discovery",
+        "diffusion-models",
+        "molecular-generation",
+        "scaffold-hopping",
+        "inference-time-editing"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.AI",
+      "author": "Ruoxi Gao, Frazier N. Baker, Trieu Nguyen, Xia Ning",
+      "published_at": "2026-09-28T16:58:52+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:9892ccb364eaafa2",
+      "content_key": "8dfae19f11de23ec19fca65e9ddbfc79c6e99e1d07f99034ab214969cc1943c7",
+      "surface": "more",
+      "title": "Shopify opens checkout to browser-based AI agents",
+      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "score": 5.0,
+      "summary": "Shopify가 WebMCP 지원을 결제 시스템으로 확대하여 브라우저 기반 AI 에이전트가 구매자의 승인 하에 주문 세부사항을 업데이트하고 구매를 완료할 수 있도록 했다. 이는 AI 에이전트의 실제 전자상거래 통합을 진전시키는 실질적인 발전이다.",
+      "tags": [
+        "ai-agents",
+        "e-commerce",
+        "browser-automation",
+        "generative-ai",
+        "api-integration"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "published_at": "2026-09-28T19:33:57+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "arxiv:paper:2609.35649",
+      "content_key": "b5f7e18f0076430d7df543875a4e47dd22b91b39bcf5f07bc09aa8a75d36b1f5",
+      "surface": "more",
+      "title": "Transferable Mass Spectrum Prediction via Reference-Guided Test-time Specialization",
+      "url": "https://arxiv.org/abs/2609.35649",
+      "score": 5.0,
+      "summary": "SPARC는 사전학습된 탠덤 질량 분석 예측기를 테스트 시점에 적응시키는 프레임워크로, 참조 스펙트럼 라이브러리를 사용하여 화학 공간과 획득 조건의 변화에 대응한다. 검색된 화학적으로 유사한 참조 스펙트럼을 통해 단편 강도를 재보정하고, 신뢰성 인식 일관성을 결합하여 지속적 특화 중 신뢰할 수 있는 예측을 선택적으로 보존한다. 대사체학, 천연물 발견, 환경 분석 등 여러 도메인에서 스펙트럼 예측을 개선하며, 테스트 시점 훈련을 통해 배포 중 추가 개선을 제공한다.",
+      "tags": [
+        "mass-spectrometry",
+        "domain-adaptation",
+        "test-time-specialization",
+        "transfer-learning",
+        "chemistry"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Yunhua Zhong, Runting Li, Yifan Li, Pan Liu, Zhiwen Yang",
+      "published_at": "2026-09-28T17:17:45+00:00",
+      "profile": "ai-paper"
+    },
+    {
+      "id": "arxiv:paper:2609.35609",
+      "content_key": "5cd60f7e35444829e0b35d77b2168f960373ad725adcd226e4c637c2ba6dad11",
+      "surface": "more",
+      "title": "Twist, Don't Tilt: Trajectory-Exact Constrained Decoding for Masked Diffusion Models",
+      "url": "https://arxiv.org/abs/2609.35609",
+      "score": 5.0,
+      "summary": "이 논문은 마스크된 확산 언어 모델(MDLM)의 제약 조건부 디코딩에서 발생하는 궤적 편향(trajectory bias) 문제를 다룬다. 기존 방법들이 각 단계에서는 정확하지만 전체 생성 과정에서 모델의 확률 분포를 왜곡시킨다는 것을 증명하고, TWISTER라는 Sequential Monte Carlo 기반 디코더를 제안하여 이를 보정한다. 이론적으로는 엄밀하지만 실험 결과가 추상에 제시되지 않아 실제 성능 개선 정도를 평가하기 어렵다.",
+      "tags": [
+        "diffusion-models",
+        "constrained-decoding",
+        "language-models",
+        "sequential-monte-carlo",
+        "theoretical-analysis"
+      ],
+      "source_type": "arxiv",
+      "sub_source": "arXiv cs.LG",
+      "author": "Aditya Thimmaiah, Lara Marinov, Jayanth Srinivasa, Haris Vikalo, Junyi Jessy Li",
+      "published_at": "2026-09-28T16:54:51+00:00",
+      "profile": "ai-paper"
+    }
+  ],
+  "manifest_id": "a0cc460da539a6fda5c7ee384a5aebc9e65678228d1a392857dc4835945166a1"
+}
