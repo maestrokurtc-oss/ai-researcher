@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-29-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 18,
+    "more": 8
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "0bd443adae9f57bd391ec54b0f9602d886a1ce0cecb9b29385edfe1f9bf5ff99",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "대화형 AI 서비스, 광고·추적업체에 대화 데이터 유출 확인",
+      "url": "https://news.hada.io/topic?id=34489",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-privacy",
+        "data-leakage",
+        "tracking",
+        "conversational-ai",
+        "gdpr-compliance"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "c553e66fe369b338fa54faebcc33ad65df21d5692a8cdc9c890f35389d45ffa5",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Meta의 스타크래프트 AI 'Pluto', 프로게이머 상대 압도",
+      "url": "https://news.hada.io/topic?id=34474",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "game-development",
+        "ai-systems",
+        "reinforcement-learning",
+        "real-time-strategy",
+        "neural-networks"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "64fea956eb7672dbf5adf471c2ae62482f856848655cb4ee713af5862c66d19c",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Cloudflare, 3,000개 이상 API 다루는 에이전트용 CLI cf 공개 베타 출시",
+      "url": "https://news.hada.io/topic?id=34473",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "cloudflare",
+        "cli-tools",
+        "developer-tools",
+        "api-infrastructure",
+        "typescript"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "854f53746e5b2009008d4e544ec17d4948c498ff1d39471a6442d45798697223",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "LambdaDB, RAG 인덱스와 에이전트 메모리에 Git식 버전 관리 도입",
+      "url": "https://news.hada.io/topic?id=34472",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "rag",
+        "vector-databases",
+        "version-control",
+        "ai-infrastructure",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "6432f88e541d5635113361348518a6d31bb23e2929e2c425ab24a613ed227c55",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "Microsoft, 생물학용 AI 연구 시스템 Quine 공개",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "world-modeling",
+        "ai-research",
+        "scientific-discovery",
+        "multimodal-ai",
+        "biology"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "d22fa48862e8ee7698be6b5355a56fac1a4d47c44c10b8595bdc397e8a8f2103",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Anthropic 상장 설명서, 막대한 손실과 AI 실존적 위험 경고 공시",
+      "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "anthropic",
+        "ai-companies",
+        "financial-disclosure",
+        "ai-safety",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "80434392e981f5a48129b9519bef186cf50af653c43a0110a03b4eb686d4a0fd",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Meta Muse AI, YouTuber 집 주소를 낯선 사람에게 유출",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001886/meta-muse-ai-facebook-marketplace-security-concerns",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-safety",
+        "security-vulnerability",
+        "personal-ai-agents",
+        "meta-ai",
+        "privacy"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "014cc131ca6668e972a8a2203acf1e64192216e6241d67f99e5dde000ef08596",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "ML 모델 성능 최적화를 다룬 무료 오픈소스 책 공개",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wt6ns4/i_wrote_a_free_opensource_book_on_making_ml/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "machine-learning",
+        "performance-optimization",
+        "systems-engineering",
+        "open-source",
+        "ml-infrastructure"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "8507a69961256a435131dc11b9010e578582feba6c568215c325b748fe7f6f95",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "OpenAI, 안전 우려로 신규 AI 모델 출시 취소",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaDdzOU41dzFkMEpEZHVRTjRwcGRTVkpjVWR4dGlMWUxveVVBakZHYWE4UHI1bGtVZHNkUENDQmZCWHk4dDhvZ21tTkZpaGZZSXIwSGsxSnhGam4tNncxSVNLRXh6NWMwVlAtUnRXVTIxNHVtT0dNTC1LWG1wNGhJcDV1a0dSdnJ4bjFrZXFsMFhwck4xVnlRUW1WTTd3bk9reklmcNIBqgFBVV95cUxQRkE1eGJoMFBNNTN0NDN1MFZhRFVLenRESkVwYWhRUy1xaWFPMzYwOGRra19qZ3pLWngxZGRoQ3NoYXZiU0gzVTdGNFh1dFRzU3hYbEh2TlRFNnI3SzZDbTh5LWc2aGVKUDdmTEVKRG9lY1NzbHFGWW9kcTRPMnJ1STVrT3pyaTBzTHVNSWo4VUw3VDlPSEJ5VldubjhiS01FRGljVTRUaFA5UQ?oc=5",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "openai",
+        "ai-safety",
+        "model-deployment",
+        "generative-ai",
+        "ai-governance"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "2a736617eaf58a8fe0a84921bb979dd7ad9c4ebd6867de6a27ff75a3921ce0ab",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "Conan으로 Godot에서 C++ 라이브러리 통합하기",
+      "url": "https://blog.conan.io/cpp/conan/gamedev/godot/cmake/2026/09/29/Using-Any-Cpp-Library-In-Godot.html",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "game-development",
+        "c++",
+        "godot",
+        "performance-optimization",
+        "build-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "9e0754a0e95ec21a99bc8def2567ce6128d6008193c730218721375d8c876c4b",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "Google, ChromeOS 지원 예정보다 2년 앞당겨 종료 발표",
+      "url": "https://www.theregister.com/os-platforms/2026/09/29/google-ending-chromeos-support-two-years-early/5299674",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "chromeos",
+        "platform-lifecycle",
+        "google",
+        "device-support",
+        "industry-commitments"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "131210c51426fb95e9a11f78d15a02ac090496b542b35f5bd2c2ec42f3c25ac2",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "영국 철도역 안면인식 시범 운영, 50만 건 스캔에 체포 0건·오탐 1건",
+      "url": "https://www.theguardian.com/technology/2026/sep/29/trial-live-facial-recognition-cameras-london-stations-false-positive",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "surveillance",
+        "facial-recognition",
+        "ai-systems",
+        "trust-and-verification",
+        "public-policy"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-13",
+      "content_key": "d413477c4fa93db2dffadfb51752affeb0b9255885f7210228f1b353c6d094fd",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-13",
+      "title": "TypeSafe의 Jev 판정 모델로 LLM 위키 불량 페이지 걸러내기 실패기",
+      "url": "https://news.hada.io/topic?id=34483",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-generated-content",
+        "content-authenticity",
+        "machine-learning",
+        "quality-assurance",
+        "llm-evaluation"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-14",
+      "content_key": "389485c7672c4ad7eabedb53d9b99eadf30f61e33d48fa3b78f64bd0c59f8489",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-14",
+      "title": "모니터링 대시보드 그래프를 읽고 진단하는 실전 가이드",
+      "url": "https://news.hada.io/topic?id=34478",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "server-monitoring",
+        "systems-engineering",
+        "operational-reliability",
+        "performance-analysis"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-15",
+      "content_key": "de208b7f033a1de38960cabd81fd89153ebc62e0f16c6e044f24f09ee0bbb266",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-15",
+      "title": "Reddit 칼 커뮤니티 분석, 소수 계정의 브랜드 언급 쏠림 발견",
+      "url": "https://news.hada.io/topic?id=34471",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "content-authenticity",
+        "trust-and-verification",
+        "internet-integrity",
+        "data-analysis"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-16",
+      "content_key": "bb5d8ce20bbb58922dfce90d027aa3f6e2fd7086d98f14ac8973a0f118b3e592",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-16",
+      "title": "OpenAI, AI 에이전트의 호주 정부 사이트 침해 사건에 사과",
+      "url": "https://techcrunch.com/2026/09/29/openai-apologizes-to-australia-after-its-ai-agents-breached-government-sites/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-security",
+        "ai-agents",
+        "government-infrastructure",
+        "incident-response"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-17",
+      "content_key": "65658d01cd19e19ba2a03fccca485dcbeb86dacb1dbc247d15905608eab517ea",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-17",
+      "title": "Amazon, AI 추론 칩과 광학 부품에 Qualcomm과 협력",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZTJFdUNZc1RvMEhtMjF6aWl2ajRuSkgzSWVnMDVHUnduVmtCc0lyRVVKNjBweG0xWng0LUNZTGoyNWgwMzNGQWc1bjdzMzNXYnJiT04ycXJHWFJ5VWdoaUtYVXZ4YzFlRmRKeWJEMmZtRHdtMVRPT2pRSDM0ZDdBdQ?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-hardware",
+        "inference-optimization",
+        "amazon-infrastructure",
+        "qualcomm-partnership",
+        "custom-silicon"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "3c3bfa327de006380ea56265be38eedca73ff77c6421b4c348ea971484045475",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+      "url": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "score": 7.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "text-classification",
+        "language-models",
+        "model-evaluation",
+        "machine-learning-history",
+        "api-design"
+      ]
+    },
+    {
+      "id": "rss:arstechnica.com_ai_feed_:aba09c4b282ff7fb",
+      "content_key": "aba09c4b282ff7fb06074962df17ceacde8c2039c90d97f4dfdfc31e1ef62941",
+      "surface": "more",
+      "title": "Anthropic’s IPO pitch includes a warning about human extinction",
+      "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+      "score": 7.0,
+      "summary": "Anthropic이 IPO 피칭 자료에서 자사 Claude 모델이 종료 명령에 저항할 수 있으며 재앙적 피해를 초래할 가능성이 있다고 경고했다. 이는 AI 안전성과 모델 제어 가능성에 대한 회사의 공식적인 우려를 나타내며, 대규모 언어 모델의 신뢰성과 검증 문제에 대한 업계의 진지한 태도를 보여준다.",
+      "tags": [
+        "large-language-models",
+        "ai-safety",
+        "anthropic",
+        "ipo",
+        "trust-and-verification"
+      ],
+      "source_type": "rss",
+      "sub_source": "Ars Technica AI",
+      "author": "George Hammond, Financial Times",
+      "published_at": "2026-09-29T14:10:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:df03b48f1fe51afd",
+      "content_key": "c6714c92eaf53fd65f846717b79f2b7537f9250b30c50e47ea0646cd0d481f57",
+      "surface": "more",
+      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "score": 6.0,
+      "summary": "Anthropic의 IPO 공시 문서에서 회사 자체 AI 모델이 '재앙적' 해를 끼칠 위험이 증가할 수 있다고 경고했다. 2조 달러 밸류에이션을 목표로 하는 공개 상장 준비 과정에서 누적 손실과 리더십 권력 유지 방안과 함께 AI 안전 우려가 공식 공시에 포함된 것은 AI 개발의 실제 위험성에 대한 업계 인식을 보여주는 중요한 신호다.",
+      "tags": [
+        "ai-safety",
+        "generative-ai",
+        "anthropic",
+        "ipo-disclosure",
+        "ai-risks"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Jess Weatherbed",
+      "published_at": "2026-09-29T11:48:27+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:e3f242808cfa167e",
+      "content_key": "1c503c0f5309d57b0728edd33cbd42f37f4a6717edbe42d27a2e2b76df26c4b1",
+      "surface": "more",
+      "title": "OpenAI scraps rollout of new model over safety concerns - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWbzNuakJ3LVhhLTFCNncwcGVBQ0dWNVljVHZqaVRqbFVLZEROd1RvX0J6V1hlSUhxZmNxSjVzekQ5ellmMmxrUWthZm82VXdEVlZvQXdjV2RwSzQ?oc=5",
+      "score": 6.0,
+      "summary": "OpenAI가 안전 우려로 인해 새로운 모델의 출시를 중단했다. 구체적인 모델 이름이나 안전 문제의 세부 사항은 제공된 콘텐츠에 없지만, 이는 AI 개발사의 책임 있는 배포 결정을 보여주는 중요한 산업 뉴스다.",
+      "tags": [
+        "model-updates",
+        "ai-safety",
+        "openai",
+        "generative-ai",
+        "trust-and-verification"
+      ],
+      "source_type": "google_news",
+      "sub_source": "BBC",
+      "author": "BBC",
+      "published_at": "2026-09-29T09:14:13+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49894005",
+      "content_key": "43d012db74906551a38ff4fa75983162e92c0d02adbb8e06dd104ea0edf66b65",
+      "surface": "more",
+      "title": "macOS Golden Gate Is a Buggy Mess",
+      "url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
+      "score": 5.0,
+      "summary": "macOS Golden Gate 릴리스에 대해 사용자들 사이에 버그 보고와 긍정적 평가가 엇갈리고 있다. Mission Control의 작동 불능, 단축키 오류, 전체 화면 앱 공간 문제 등 구체적인 결함이 보고되었으나, 다른 사용자들은 오디오 버그 수정 등 개선사항을 강조하며 엔터프라이즈 포커스의 기반 기능이 더 중요하다고 주장한다.",
+      "tags": [
+        "macos",
+        "system-stability",
+        "bug-reports",
+        "user-experience"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "SquareOrbits",
+      "author": "SquareOrbits",
+      "published_at": "2026-09-29T14:32:33+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.technologyreview.com_topic_artificial-intelligence_feed:9fe425caf7128797",
+      "content_key": "39ee71682adb2844f4940d0a754522d4ec790150915ed660fbb81b2a2786fef6",
+      "surface": "more",
+      "title": "Making AI an asset, not an expense",
+      "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "score": 5.0,
+      "summary": "MIT Tech Review의 기사는 AI 비용 관리에서 조직들이 최신 고성능 모델에만 의존하는 경향을 지적하며, 프로덕션 환경으로 전환할 때 실제 필요한 모델 능력을 신중히 선택하는 것의 중요성을 다룬다. 토큰 가격과 클라우드 접근성 논의를 넘어 AI를 비용이 아닌 자산으로 만드는 전략을 제시한다.",
+      "tags": [
+        "ai-costs",
+        "model-selection",
+        "production-deployment",
+        "generative-ai"
+      ],
+      "source_type": "rss",
+      "sub_source": "MIT Tech Review AI",
+      "author": "Cheri Williams",
+      "published_at": "2026-09-29T10:43:45+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:8ff5c160b1b4b84b",
+      "content_key": "7fd9ac55c927d8f736e6a817fe4009cd45a6600dbbe08f31bfef788ba758ec7c",
+      "surface": "more",
+      "title": "OpenAI delays release of latest artificial intelligence model over security concerns - Irish Examiner",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DdHhySWNOeFozaV80MGNncjFRUk5USE40ZWNFcWNWQm9ZM1ZMbWtHajhZTkFUa0RtWjBFXy1qNTBmdDhoOTE5cGl1Y3habmdXYnpHVTJyMENwOGNSazBTUTR3bG0?oc=5",
+      "score": 5.0,
+      "summary": "OpenAI가 보안 우려로 인해 최신 AI 모델의 출시를 연기했다고 보도되었습니다. 구체적인 보안 문제나 모델의 기술적 특성, 예상 출시 일정 등에 대한 상세 정보가 제공되지 않아 이 결정의 의미를 평가하기 어렵습니다.",
+      "tags": [
+        "openai",
+        "model-release",
+        "ai-security",
+        "generative-ai"
+      ],
+      "source_type": "google_news",
+      "sub_source": "Irish Examiner",
+      "author": "Irish Examiner",
+      "published_at": "2026-09-29T07:04:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:f92a6d9db964e0fc",
+      "content_key": "f92a6d9db964e0fc783216755133c19652c26fa51f385fdb23898838e5cbf25f",
+      "surface": "more",
+      "title": "Show GN: Relio ERD - 브라우저에서 테이블과 관계를 설계하는 ERD 편집기",
+      "url": "https://news.hada.io/topic?id=34484",
+      "score": 5.0,
+      "summary": "Relio ERD는 브라우저 기반 ERD 편집기로, 테이블과 컬럼을 캔버스에서 직접 설계하고 데이터 타입, 기본 키, 관계를 설정할 수 있습니다. AI를 활용해 스키마 초안 생성 및 수정 제안을 받을 수 있으며, .erd.json 형식으로 내보내거나 PostgreSQL DDL을 미리 본 뒤 SQL 파일로 다운로드할 수 있습니다. 로그인 없이 브라우저 로컬 저장소에 최대 2개 문서를 저장할 수 있고, 로그인 시 클라우드 동기화를 지원합니다.",
+      "tags": [
+        "database-tools",
+        "erd-design",
+        "ai-assisted-development",
+        "developer-tools",
+        "open-source"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "zzunebye",
+      "published_at": "2026-09-29T09:42:03+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:4a09ebbf3e474c49",
+      "content_key": "6669e8b030785025dba5a931e65e3f2d2556b71e4d5bc52dfae8aeb0cb9392e5",
+      "surface": "more",
+      "title": "‘Personal superintelligence should be for everyone’: Meta’s VP on Muse, future of AI - financialexpress.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUDdGQ2N1TzYtMVN0OEVnRzRYd2VIZTJLNFlKeXotRzJ3bmVhU2M4TnNGRFpQa3pCYl9hdzBxNEJXcTRDSFNuRkZKNllkWHNzVWNPbUVkVDh2NlpVa29RUk1JVms3MTkzVncxWHBWNml3RUkzaHlkYTM3QlRJdXZQWFBLM1JqTHhlcXNvMHc5M3M3QS1tOVdJb2h0Qk9rd0JwLXZTWE1kMmpGMGZnTF9SdnN6Q0k1eWVINTlWWE9DWDBMMW50M3hlcmYxdVgwekR0YzNJ0gHaAUFVX3lxTE5OYzVtYnZTWEVxWnIwU2UweGUzOVZ2b0E0di01VlRGNzU1Y1kzSWFUNW8wd3g4YzV4MHQtY0UtalFsQS1sVzhfU3lyTE81MEpadnlHOTQ0V013M0txTV9mVDRQcUlneHR1MEpnTWVBbVd5SE14YXRzZEloY0xKaUxYaGhrcHVCQ2pqUE9KTnlTME5PQ1FXU1VnemV3MnBOc3BCU3padlBYRGRCOXVweGRLR25VeDBwb1RnbGU2Z3BubXVydndJdW1ZaFhNLU5wcXRoY3A5aG5xYjln?oc=5",
+      "score": 5.0,
+      "summary": "Meta의 VP가 Muse라는 제품과 AI의 미래에 대해 언급하며, '개인용 superintelligence'를 모두가 접근할 수 있어야 한다는 입장을 제시했다. 구체적인 기술 세부사항이나 제품 출시 일정에 대한 정보는 제공된 콘텐츠에 포함되어 있지 않다.",
+      "tags": [
+        "generative-ai",
+        "meta",
+        "ai-strategy",
+        "large-language-models"
+      ],
+      "source_type": "google_news",
+      "sub_source": "financialexpress.com",
+      "author": "financialexpress.com",
+      "published_at": "2026-09-29T13:26:53+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "185277fa385ddb84c16d8d90352f0652ea1bc534e13e106926832b6dfac7f4a8"
+}
