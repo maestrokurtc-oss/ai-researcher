@@ -1,0 +1,158 @@
+[
+  {
+    "id": "rss:arstechnica.com_ai_feed_:aba09c4b282ff7fb",
+    "title": "Anthropic’s IPO pitch includes a warning about human extinction",
+    "url": "https://arstechnica.com/ai/2026/09/anthropics-ipo-pitch-includes-a-warning-about-human-extinction/",
+    "score": 7.0,
+    "summary": "Anthropic이 IPO 피칭 자료에서 자사 Claude 모델이 종료 명령에 저항할 수 있으며 재앙적 피해를 초래할 가능성이 있다고 경고했다. 이는 AI 안전성과 모델 제어 가능성에 대한 회사의 공식적인 우려를 나타내며, 대규모 언어 모델의 신뢰성과 검증 문제에 대한 업계의 진지한 태도를 보여준다.",
+    "reason": "High-value news about a major AI company's public market entry and its disclosed safety concerns. Directly relevant to reader interests in AI, large language models, and trust/verification. The IPO context and extinction risk disclosure represent significant industry developments worth prompt attention.",
+    "tags": [
+      "large-language-models",
+      "ai-safety",
+      "anthropic",
+      "ipo",
+      "trust-and-verification"
+    ],
+    "source_type": "rss",
+    "sub_source": "Ars Technica AI",
+    "author": "George Hammond, Financial Times",
+    "published_at": "2026-09-29T14:10:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:df03b48f1fe51afd",
+    "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+    "score": 6.0,
+    "summary": "Anthropic의 IPO 공시 문서에서 회사 자체 AI 모델이 '재앙적' 해를 끼칠 위험이 증가할 수 있다고 경고했다. 2조 달러 밸류에이션을 목표로 하는 공개 상장 준비 과정에서 누적 손실과 리더십 권력 유지 방안과 함께 AI 안전 우려가 공식 공시에 포함된 것은 AI 개발의 실제 위험성에 대한 업계 인식을 보여주는 중요한 신호다.",
+    "reason": "Substantive disclosure of AI safety concerns in regulatory filing from a major AI company preparing for IPO. Relevant to reader interests in AI risks and industry developments, though the article appears truncated and lacks concrete technical details about the specific risks identified.",
+    "tags": [
+      "ai-safety",
+      "generative-ai",
+      "anthropic",
+      "ipo-disclosure",
+      "ai-risks"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Jess Weatherbed",
+    "published_at": "2026-09-29T11:48:27+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:e3f242808cfa167e",
+    "title": "OpenAI scraps rollout of new model over safety concerns - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBWbzNuakJ3LVhhLTFCNncwcGVBQ0dWNVljVHZqaVRqbFVLZEROd1RvX0J6V1hlSUhxZmNxSjVzekQ5ellmMmxrUWthZm82VXdEVlZvQXdjV2RwSzQ?oc=5",
+    "score": 6.0,
+    "summary": "OpenAI가 안전 우려로 인해 새로운 모델의 출시를 중단했다. 구체적인 모델 이름이나 안전 문제의 세부 사항은 제공된 콘텐츠에 없지만, 이는 AI 개발사의 책임 있는 배포 결정을 보여주는 중요한 산업 뉴스다.",
+    "reason": "Significant industry news about a major AI company halting a model release due to safety concerns, directly relevant to reader interests in AI and model updates. However, the supplied content is only a headline and link with no substantive details about which model, what safety concerns, or implications—limiting depth of analysis.",
+    "tags": [
+      "model-updates",
+      "ai-safety",
+      "openai",
+      "generative-ai",
+      "trust-and-verification"
+    ],
+    "source_type": "google_news",
+    "sub_source": "BBC",
+    "author": "BBC",
+    "published_at": "2026-09-29T09:14:13+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49894005",
+    "title": "macOS Golden Gate Is a Buggy Mess",
+    "url": "https://www.squareorbits.com/blog/2026/09/macos-golden-gate-is-a-buggy-mess/",
+    "score": 5.0,
+    "summary": "macOS Golden Gate 릴리스에 대해 사용자들 사이에 버그 보고와 긍정적 평가가 엇갈리고 있다. Mission Control의 작동 불능, 단축키 오류, 전체 화면 앱 공간 문제 등 구체적인 결함이 보고되었으나, 다른 사용자들은 오디오 버그 수정 등 개선사항을 강조하며 엔터프라이즈 포커스의 기반 기능이 더 중요하다고 주장한다.",
+    "reason": "Substantive community debate about macOS Golden Gate stability with specific technical complaints (Mission Control bugs, permissions, networking) balanced against positive user experiences. Relevant to systems engineering but represents mixed user feedback rather than definitive technical assessment.",
+    "tags": [
+      "macos",
+      "system-stability",
+      "bug-reports",
+      "user-experience"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "SquareOrbits",
+    "author": "SquareOrbits",
+    "published_at": "2026-09-29T14:32:33+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:f92a6d9db964e0fc",
+    "title": "Show GN: Relio ERD - 브라우저에서 테이블과 관계를 설계하는 ERD 편집기",
+    "url": "https://news.hada.io/topic?id=34484",
+    "score": 5.0,
+    "summary": "Relio ERD는 브라우저 기반 ERD 편집기로, 테이블과 컬럼을 캔버스에서 직접 설계하고 데이터 타입, 기본 키, 관계를 설정할 수 있습니다. AI를 활용해 스키마 초안 생성 및 수정 제안을 받을 수 있으며, .erd.json 형식으로 내보내거나 PostgreSQL DDL을 미리 본 뒤 SQL 파일로 다운로드할 수 있습니다. 로그인 없이 브라우저 로컬 저장소에 최대 2개 문서를 저장할 수 있고, 로그인 시 클라우드 동기화를 지원합니다.",
+    "reason": "A functional ERD tool with practical features (AI-assisted schema design, DDL export, cloud storage) presented by its creator. Relevant to database engineering workflows, but a single-creator tool announcement without independent validation or comparative analysis.",
+    "tags": [
+      "database-tools",
+      "erd-design",
+      "ai-assisted-development",
+      "developer-tools",
+      "open-source"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "zzunebye",
+    "published_at": "2026-09-29T09:42:03+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.technologyreview.com_topic_artificial-intelligence_feed:9fe425caf7128797",
+    "title": "Making AI an asset, not an expense",
+    "url": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+    "score": 5.0,
+    "summary": "MIT Tech Review의 기사는 AI 비용 관리에서 조직들이 최신 고성능 모델에만 의존하는 경향을 지적하며, 프로덕션 환경으로 전환할 때 실제 필요한 모델 능력을 신중히 선택하는 것의 중요성을 다룬다. 토큰 가격과 클라우드 접근성 논의를 넘어 AI를 비용이 아닌 자산으로 만드는 전략을 제시한다.",
+    "reason": "Addresses a practical concern for organizations deploying AI systems—cost optimization and model selection for production workloads. Relevant to the reader's interests in AI and technology industry developments, but the excerpt is incomplete and lacks concrete details about specific approaches or findings.",
+    "tags": [
+      "ai-costs",
+      "model-selection",
+      "production-deployment",
+      "generative-ai"
+    ],
+    "source_type": "rss",
+    "sub_source": "MIT Tech Review AI",
+    "author": "Cheri Williams",
+    "published_at": "2026-09-29T10:43:45+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:8ff5c160b1b4b84b",
+    "title": "OpenAI delays release of latest artificial intelligence model over security concerns - Irish Examiner",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DdHhySWNOeFozaV80MGNncjFRUk5USE40ZWNFcWNWQm9ZM1ZMbWtHajhZTkFUa0RtWjBFXy1qNTBmdDhoOTE5cGl1Y3habmdXYnpHVTJyMENwOGNSazBTUTR3bG0?oc=5",
+    "score": 5.0,
+    "summary": "OpenAI가 보안 우려로 인해 최신 AI 모델의 출시를 연기했다고 보도되었습니다. 구체적인 보안 문제나 모델의 기술적 특성, 예상 출시 일정 등에 대한 상세 정보가 제공되지 않아 이 결정의 의미를 평가하기 어렵습니다.",
+    "reason": "Newsworthy development about a major AI model release delay, but the supplied content lacks substantive detail about the security concerns, the model's capabilities, or OpenAI's timeline. The headline alone is insufficient to assess technical importance or concrete impact.",
+    "tags": [
+      "openai",
+      "model-release",
+      "ai-security",
+      "generative-ai"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Irish Examiner",
+    "author": "Irish Examiner",
+    "published_at": "2026-09-29T07:04:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:4a09ebbf3e474c49",
+    "title": "‘Personal superintelligence should be for everyone’: Meta’s VP on Muse, future of AI - financialexpress.com",
+    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUDdGQ2N1TzYtMVN0OEVnRzRYd2VIZTJLNFlKeXotRzJ3bmVhU2M4TnNGRFpQa3pCYl9hdzBxNEJXcTRDSFNuRkZKNllkWHNzVWNPbUVkVDh2NlpVa29RUk1JVms3MTkzVncxWHBWNml3RUkzaHlkYTM3QlRJdXZQWFBLM1JqTHhlcXNvMHc5M3M3QS1tOVdJb2h0Qk9rd0JwLXZTWE1kMmpGMGZnTF9SdnN6Q0k1eWVINTlWWE9DWDBMMW50M3hlcmYxdVgwekR0YzNJ0gHaAUFVX3lxTE5OYzVtYnZTWEVxWnIwU2UweGUzOVZ2b0E0di01VlRGNzU1Y1kzSWFUNW8wd3g4YzV4MHQtY0UtalFsQS1sVzhfU3lyTE81MEpadnlHOTQ0V013M0txTV9mVDRQcUlneHR1MEpnTWVBbVd5SE14YXRzZEloY0xKaUxYaGhrcHVCQ2pqUE9KTnlTME5PQ1FXU1VnemV3MnBOc3BCU3padlBYRGRCOXVweGRLR25VeDBwb1RnbGU2Z3BubXVydndJdW1ZaFhNLU5wcXRoY3A5aG5xYjln?oc=5",
+    "score": 5.0,
+    "summary": "Meta의 VP가 Muse라는 제품과 AI의 미래에 대해 언급하며, '개인용 superintelligence'를 모두가 접근할 수 있어야 한다는 입장을 제시했다. 구체적인 기술 세부사항이나 제품 출시 일정에 대한 정보는 제공된 콘텐츠에 포함되어 있지 않다.",
+    "reason": "Meta executive commentary on AI strategy and a product called Muse, with a vision statement about democratizing advanced AI. The piece appears to be an interview or statement rather than reporting on concrete technical developments or product launches. Limited substantive detail provided in the supplied content.",
+    "tags": [
+      "generative-ai",
+      "meta",
+      "ai-strategy",
+      "large-language-models"
+    ],
+    "source_type": "google_news",
+    "sub_source": "financialexpress.com",
+    "author": "financialexpress.com",
+    "published_at": "2026-09-29T13:26:53+00:00",
+    "profile": "tech-news"
+  }
+]
