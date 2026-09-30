@@ -1,0 +1,97 @@
+[
+  {
+    "id": "hackernews:story:49896712",
+    "title": "Tcl/Tk 9.1",
+    "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+    "score": 5.0,
+    "summary": "Tcl/Tk 9.1이 릴리스되었습니다. Tcl은 동적 문자열 처리와 독특한 언어 특성으로 알려진 니치 언어이며, Tk GUI 프레임워크와 함께 역사적으로 Unix/X Window System 환경에서 GUI 개발의 접근성을 높였습니다. SQLite와의 자연스러운 통합 등 특정 도메인에서 실용적 가치를 유지하고 있으나, 이번 버전의 구체적 개선 사항은 제시된 내용에서 명확하지 않습니다.",
+    "reason": "Tcl/Tk 9.1 is a routine version release of a mature, niche language with established community appreciation. The release itself lacks announced major features or breaking changes in the provided content. Community engagement reflects nostalgic interest and practical use cases (GUI development, SQLite integration) rather than evidence of significant technical advancement. Matches reader interest in open source and development tools, but represents incremental progress rather than important news.",
+    "tags": [
+      "open-source",
+      "programming-languages",
+      "gui-development",
+      "version-release"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "dmux",
+    "author": "dmux",
+    "published_at": "2026-09-29T17:13:38+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:b3cb2e7819df1927",
+    "title": "Tcl/Tk 9.1",
+    "url": "https://news.hada.io/topic?id=34506",
+    "score": 5.0,
+    "summary": "Tcl/Tk 9.1.0은 9.0 기반으로 Unicode 정규화, 마이크로초 해상도 타이머, 리스트 필터링(lfilter), 자식 인터프리터 변수 접근(interp set) 등의 기능을 추가했습니다. Tk 측면에서는 스크린 리더 지원과 양방향 텍스트/RTL 언어 초기 지원, 새로운 ttk::toggleswitch 위젯이 도입되었으며, C API 변경으로 Tcl_FindExecutable 호출이 필수화되고 새로운 시간 API가 추가되었습니다.",
+    "reason": "Incremental release of a niche but established language with useful improvements to Unicode handling, timers, list processing, and accessibility features. Relevant to systems programming and scripting communities, but not a major breakthrough.",
+    "tags": [
+      "tcl-tk",
+      "language-release",
+      "systems-programming",
+      "accessibility"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-09-29T21:40:36+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:6b0c561238990894",
+    "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+    "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+    "score": 5.0,
+    "summary": "OpenAI가 ChatGPT 기반의 오피스 스위트 기능을 출시하여 Microsoft 같은 전통 소프트웨어 회사와의 직접 경쟁에 진입했다. 구체적인 기능이나 가격 정보는 제시되지 않았으나, 이는 OpenAI의 사업 확장과 AI 기반 생산성 도구 시장에서의 입지 강화를 의미한다.",
+    "reason": "Incremental but notable product expansion. OpenAI launching office suite features represents a meaningful business development and competitive shift, but the article provides minimal technical depth or concrete details about capabilities, pricing, or implementation. The headline suggests significant news but the supplied content is too thin to assess actual importance.",
+    "tags": [
+      "openai",
+      "generative-ai",
+      "product-launch",
+      "competitive-landscape"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Lucas Ropek",
+    "published_at": "2026-09-29T17:45:51+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:11b1b6e95cf1d0eb",
+    "title": "OpenAI launches Dots, its bubbly agentic avatar",
+    "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+    "score": 5.0,
+    "summary": "OpenAI가 Dots라는 에이전트 아바타를 출시했으며, 이는 특정 하드웨어나 인터페이스에 제약받지 않고 사용자가 정의한 목표를 백그라운드에서 지속적으로 추구하도록 설계되었다. 에이전트 기술의 실용화 사례지만, 제공된 콘텐츠에는 기술적 깊이나 구체적인 성능 지표가 부족하다.",
+    "reason": "Incremental product launch with agent capability claims, but limited technical depth and concrete details in the supplied content. Relevant to reader's AI interests but lacks substantive analysis or performance evidence.",
+    "tags": [
+      "generative-ai",
+      "ai-agents",
+      "openai",
+      "product-launch"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Lucas Ropek",
+    "published_at": "2026-09-29T17:17:15+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:c0924cc256dcf5a2",
+    "title": "WATCH: Trump announces accord signed by top AI companies to 'self-police' development - PBS",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT2FiTFl5M2Z2WUZrckd2QmlfSEI3TVY5b183TjhQLVV1aG5fUnJyNXctLXJVNEtldGtiYlpfeURrLVc0cHN1UVREMzEzcFA1M2I1WkVGQ3Q1VUQ3eVhTWFd2Z09sOV9BQ2pFelM3MlNrNURFZXl2ZF9taTNwQlBhN1hRQlZLNlMteF9oTjhfVXlCdnVfUnRzR2JNTGF3X3ZBLThhbTZmWi1hRVRDWU9YRFdRb3hJNm0yb0p0aA?oc=5",
+    "score": 5.0,
+    "summary": "트럼프 대통령이 주요 AI 기업들이 서명한 자율 규제 협약을 발표했다. 구체적인 협약 내용, 참여 기업, 또는 집행 메커니즘에 대한 세부 사항은 제공되지 않았으나, AI 산업의 규제 방향과 기업 책임성 논의에 영향을 미칠 수 있는 정책 발전이다.",
+    "reason": "Policy development with potential industry impact, but the item lacks substantive technical details about the accord's terms, enforcement mechanisms, or which companies signed. The announcement itself is newsworthy for readers tracking AI governance, but the content provided is minimal and promotional in framing.",
+    "tags": [
+      "ai-governance",
+      "policy",
+      "industry-regulation",
+      "generative-ai"
+    ],
+    "source_type": "google_news",
+    "sub_source": "PBS",
+    "author": "PBS",
+    "published_at": "2026-09-29T20:55:48+00:00",
+    "profile": "tech-news"
+  }
+]

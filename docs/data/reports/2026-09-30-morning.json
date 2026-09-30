@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-09-30-morning",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 18,
+    "more": 5
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "7624a1a381fee6ab96a3b8541d40fe5eccac69eb03c085017e2b4e26645f97d8",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "OpenAI, GPT-6.1 Sol 공개",
+      "url": "https://news.hada.io/topic?id=34500",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "large-language-models",
+        "model-updates",
+        "pricing",
+        "openai",
+        "ai-performance"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "2833bea77aa426fd3895597d0fb7572150999872a5a4c3271e23f066a51d4580",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "AMD acquires World Labs AI startup, upping the ante against Nvidia",
+      "url": "https://arstechnica.com/ai/2026/09/amd-acquires-world-labs-ai-pioneer-fei-fei-lis-world-models-startup/",
+      "score": 8.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "ai-acquisitions",
+        "world-models",
+        "amd",
+        "nvidia-competition",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "fe5dbb54cb0e3b38e62b9460ac29d7dc780a1d4ffac84fd17c8488381cb92545",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "Vermont replacing power plants with home batteries",
+      "url": "https://www.bbc.com/future/article/20260928-a-virtual-power-plant-hidden-in-vermont-homes-is-keeping-the-lights-on-during-storms",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "energy-infrastructure",
+        "distributed-systems",
+        "battery-storage",
+        "grid-management",
+        "hardware-deployment"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "c4479fafdff7b0f4fd61d4b2d9fb497f282abda1cac80fe4dfa8956af3873d48",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Show HN: Real-time Solar System with 526k asteroids and all tracked satellites",
+      "url": "https://space.bl2.net/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "visualization",
+        "webgl",
+        "space-systems",
+        "real-time-data",
+        "open-source"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "27866a5aa5d26da1236f0292fcec561fd7f7bb1e2ecaf3f4808d41a4dbbec8be",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "LatticeDB - 그래프, 벡터, 전문 검색을 한 파일에 담는 임베디드 DB",
+      "url": "https://news.hada.io/topic?id=34517",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "embedded-database",
+        "vector-search",
+        "graph-database",
+        "open-source",
+        "rag"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "24416896fd5caeaaee2d413c60b5d4132f83fe180e64b8efeb194267c685aed0",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "OpenAI DevDay 2026 주요 발표 총정리",
+      "url": "https://news.hada.io/topic?id=34505",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "model-updates",
+        "ai-agents",
+        "openai",
+        "generative-ai",
+        "pricing"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "352a298aea68a14197fd7f0dd1cdb5ab86de1b7641eaccb3471c640f677345ec",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "OpenAI’s latest features take direct aim at the app store model",
+      "url": "https://techcrunch.com/2026/09/29/openais-latest-features-take-direct-aim-at-the-app-store-model/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "openai",
+        "ai-agents",
+        "platform-strategy",
+        "software-distribution",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "032218cff42a1f4022f6446f4482207592ff8b2944805d29c006d95174bb734d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "OpenAI launches Dots, its Muse competitor",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002033/openai-dots-launch-muse-competitor",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "model-updates",
+        "ai-agents",
+        "openai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "9ee133e6f5024f08c80af91c432ff32d93361f41fda5a0390f7f814b47cf3b57",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "Livenerf: Has Opus 5.5 been nerfed yet?",
+      "url": "https://github.com/ninjahawk/livenerf",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "model-updates",
+        "llm-performance",
+        "benchmarking",
+        "ai-reliability",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "a191ed12052a36977f8c52f5238a5c8a6fc8b6d2c0df005608abfa94de3d0136",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "Show GN: Conn - AI와 함께 쓰고, 언제든 내가 끼어드는 터미널",
+      "url": "https://news.hada.io/topic?id=34530",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "open-source",
+        "ai-tools",
+        "terminal",
+        "human-ai-collaboration",
+        "safety"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-11",
+      "content_key": "caa8c8aaf44d84744acf5a36ce6e2e717a34f9897b7b98fbac5c8540e007e051",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-11",
+      "title": "SPA 자동화 테스트를 작성한 경험",
+      "url": "https://news.hada.io/topic?id=34516",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "testing",
+        "playwright",
+        "react",
+        "end-to-end-testing",
+        "spa"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-12",
+      "content_key": "33de0d7a7dac2aed6da19cccb7bfeecef7f4c2d7a200c4855472083125b7d5f6",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-12",
+      "title": "America.gov - 미국 정부의 29,000개 웹사이트를 연결하는 AI 안내 서비스",
+      "url": "https://news.hada.io/topic?id=34511",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "generative-ai",
+        "government-services",
+        "llm-applications",
+        "public-sector-ai",
+        "information-access"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-13",
+      "content_key": "0e5c51300664c8a2d23b7126d04323d95968727121181306175cbe9a25dae5c6",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-13",
+      "title": "OpenAI gives Codex reusable cloud environments that work across devices",
+      "url": "https://techcrunch.com/2026/09/29/openai-gives-codex-reusable-cloud-environments-that-work-across-devices/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "developer-tools",
+        "code-generation",
+        "ai-development-tools",
+        "security-scanning",
+        "productivity"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-14",
+      "content_key": "65ca132dae7de507d3de33a77a6973af387623e7ee389cc6833e216fd0e697fb",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-14",
+      "title": "OpenAI expands ChatGPT’s plug-ins with app-like interfaces and automations",
+      "url": "https://techcrunch.com/2026/09/29/openai-expands-chatgpts-plugins-with-app-like-interfaces-and-automations/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "chatgpt",
+        "generative-ai",
+        "product-updates",
+        "ai-tools"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-15",
+      "content_key": "d6b003b6ebfae6b242c374fc4f8170d2a3b05d2f8921996a7ef30c609a24c47d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-15",
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "openai",
+        "ipo-strategy",
+        "ai-safety",
+        "model-safety",
+        "corporate-governance"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-16",
+      "content_key": "7e62df2683d08c91a66cec3886b3640ef147fe382469c336af25ff94876a686d",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-16",
+      "title": "Here's what actually happened in OpenAI's Australian gov't server hack",
+      "url": "https://arstechnica.com/ai/2026/09/heres-what-actually-happened-in-openais-australian-govt-server-hack/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "security",
+        "openai",
+        "ai-systems",
+        "incident-analysis",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-17",
+      "content_key": "ba5ddd4b6ca22a3dba53730bdc40c3aa216df59133624ea67072a04467343048",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-17",
+      "title": "I cut cost and latency on my search engine with Jev \\[D\\]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wtsn3s/i_cut_cost_and_latency_on_my_search_engine_with/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "llm-optimization",
+        "model-selection",
+        "search-systems",
+        "performance-engineering",
+        "cost-reduction"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-18",
+      "content_key": "cf5cbf3a4ce338ccdcdc7f572bd99735723d9ede71db68ff4a59e1e27bf4fba7",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-18",
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT's own office suite - TechCrunch",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMThVYXNHdk44dXhHc1F0NHZ5SzJYd2FBN3BWSHJ3R1pXMjMySWlfbTQwaVRxc2l3QkFGUDJLamZ2Yk1zVlBFekl6SVRlbF9kc0lpWEdjQVBHUzhETUNMQm0waVdPSmlOLTh6MlhNZ2pmbFZBR0hpQnYtQUhVX2tiTzBtbEp0YkRuQjViX0Z2eGFpTzVwMFlOd010STAyeVRKVHhlWVNnZ0xpYTcxVDlxM3dha2tjbXp3SE9QRGhfTkdNNlJLQm9sOTh4dHdpQQ?oc=5",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "generative-ai",
+        "openai",
+        "product-strategy",
+        "enterprise-software",
+        "ai-competition"
+      ]
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:11b1b6e95cf1d0eb",
+      "content_key": "4695af4a940dce0e3684eeac04d8146a7cbb4545a7f104220354c542565e48a3",
+      "surface": "more",
+      "title": "OpenAI launches Dots, its bubbly agentic avatar",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar/",
+      "score": 5.0,
+      "summary": "OpenAI가 Dots라는 에이전트 아바타를 출시했으며, 이는 특정 하드웨어나 인터페이스에 제약받지 않고 사용자가 정의한 목표를 백그라운드에서 지속적으로 추구하도록 설계되었다. 에이전트 기술의 실용화 사례지만, 제공된 콘텐츠에는 기술적 깊이나 구체적인 성능 지표가 부족하다.",
+      "tags": [
+        "generative-ai",
+        "ai-agents",
+        "openai",
+        "product-launch"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "published_at": "2026-09-29T17:17:15+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:6b0c561238990894",
+      "content_key": "2688204fcb281ea3948c40061c0946d4a977a4536aaf885a9d2ad4a96e5ca041",
+      "surface": "more",
+      "title": "OpenAI takes on Microsoft with the launch of what feels a whole lot like ChatGPT’s own office suite",
+      "url": "https://techcrunch.com/2026/09/29/openai-takes-on-microsoft-with-the-launch-of-what-feels-a-whole-lot-like-chatgpts-own-office-suite/",
+      "score": 5.0,
+      "summary": "OpenAI가 ChatGPT 기반의 오피스 스위트 기능을 출시하여 Microsoft 같은 전통 소프트웨어 회사와의 직접 경쟁에 진입했다. 구체적인 기능이나 가격 정보는 제시되지 않았으나, 이는 OpenAI의 사업 확장과 AI 기반 생산성 도구 시장에서의 입지 강화를 의미한다.",
+      "tags": [
+        "openai",
+        "generative-ai",
+        "product-launch",
+        "competitive-landscape"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Lucas Ropek",
+      "published_at": "2026-09-29T17:45:51+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "hackernews:story:49896712",
+      "content_key": "7111adc7355e98148d1380e189713218e84b69ffb7eefae4100614f7b32367e7",
+      "surface": "more",
+      "title": "Tcl/Tk 9.1",
+      "url": "https://www.tcl-lang.org/software/tcltk/9.1.html",
+      "score": 5.0,
+      "summary": "Tcl/Tk 9.1이 릴리스되었습니다. Tcl은 동적 문자열 처리와 독특한 언어 특성으로 알려진 니치 언어이며, Tk GUI 프레임워크와 함께 역사적으로 Unix/X Window System 환경에서 GUI 개발의 접근성을 높였습니다. SQLite와의 자연스러운 통합 등 특정 도메인에서 실용적 가치를 유지하고 있으나, 이번 버전의 구체적 개선 사항은 제시된 내용에서 명확하지 않습니다.",
+      "tags": [
+        "open-source",
+        "programming-languages",
+        "gui-development",
+        "version-release"
+      ],
+      "source_type": "hackernews",
+      "sub_source": "dmux",
+      "author": "dmux",
+      "published_at": "2026-09-29T17:13:38+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:b3cb2e7819df1927",
+      "content_key": "b3cb2e7819df192716f70a5455e6849c6be52d057bfddfd0b5b1bffb9757ab04",
+      "surface": "more",
+      "title": "Tcl/Tk 9.1",
+      "url": "https://news.hada.io/topic?id=34506",
+      "score": 5.0,
+      "summary": "Tcl/Tk 9.1.0은 9.0 기반으로 Unicode 정규화, 마이크로초 해상도 타이머, 리스트 필터링(lfilter), 자식 인터프리터 변수 접근(interp set) 등의 기능을 추가했습니다. Tk 측면에서는 스크린 리더 지원과 양방향 텍스트/RTL 언어 초기 지원, 새로운 ttk::toggleswitch 위젯이 도입되었으며, C API 변경으로 Tcl_FindExecutable 호출이 필수화되고 새로운 시간 API가 추가되었습니다.",
+      "tags": [
+        "tcl-tk",
+        "language-release",
+        "systems-programming",
+        "accessibility"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-09-29T21:40:36+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "google_news:article:c0924cc256dcf5a2",
+      "content_key": "76725e5b3f7c3395f68319b1f5adb475387f05a8f3f9aff14db357bc85e4cbef",
+      "surface": "more",
+      "title": "WATCH: Trump announces accord signed by top AI companies to 'self-police' development - PBS",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT2FiTFl5M2Z2WUZrckd2QmlfSEI3TVY5b183TjhQLVV1aG5fUnJyNXctLXJVNEtldGtiYlpfeURrLVc0cHN1UVREMzEzcFA1M2I1WkVGQ3Q1VUQ3eVhTWFd2Z09sOV9BQ2pFelM3MlNrNURFZXl2ZF9taTNwQlBhN1hRQlZLNlMteF9oTjhfVXlCdnVfUnRzR2JNTGF3X3ZBLThhbTZmWi1hRVRDWU9YRFdRb3hJNm0yb0p0aA?oc=5",
+      "score": 5.0,
+      "summary": "트럼프 대통령이 주요 AI 기업들이 서명한 자율 규제 협약을 발표했다. 구체적인 협약 내용, 참여 기업, 또는 집행 메커니즘에 대한 세부 사항은 제공되지 않았으나, AI 산업의 규제 방향과 기업 책임성 논의에 영향을 미칠 수 있는 정책 발전이다.",
+      "tags": [
+        "ai-governance",
+        "policy",
+        "industry-regulation",
+        "generative-ai"
+      ],
+      "source_type": "google_news",
+      "sub_source": "PBS",
+      "author": "PBS",
+      "published_at": "2026-09-29T20:55:48+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "bac55a0fd2f8c0e46ffdf872b8d05071ec375c9f2e0a234f5ca7caddb87715e1"
+}
