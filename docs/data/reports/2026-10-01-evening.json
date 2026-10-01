@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "report_id": "2026-10-01-evening",
+  "minimum_score": 5.0,
+  "counts": {
+    "selected": 12,
+    "more": 9
+  },
+  "items": [
+    {
+      "id": "selected:item-tech-news-1",
+      "content_key": "8fac3ce4d39c6ea954ace788aa96ef7cb14d50048fb8978eddddab730ef17df3",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-1",
+      "title": "OpenAI-Synopsys, 칩 설계 자동화할 GPT-Synopsys 발표",
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "chip-design",
+        "ai-automation",
+        "eda-tools",
+        "openai",
+        "semiconductor-manufacturing"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-2",
+      "content_key": "8c190d22ec8c06a518e45452ebe2dbbfb340343be3878a0af0e8e1637aa69d9b",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-2",
+      "title": "Three Slicer: 브라우저 WASM 슬라이서 최적화로 91초를 10초로 단축",
+      "url": "https://news.hada.io/topic?id=34598",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "wasm",
+        "performance-optimization",
+        "browser-computing",
+        "v8-runtime",
+        "webgpu"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-3",
+      "content_key": "028c2b548a76771d82cef8b32dbfc7a1a4a1f71d89379959528e6dbe14ed0607",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-3",
+      "title": "LLMs that push back on a wrong user still accept the same wrong answer from a \"verified source\" - NeurIPS 2026 \\[R\\]",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wv1c2e/llms_that_push_back_on_a_wrong_user_still_accept/",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": "reddit",
+      "tags": [
+        "llm-robustness",
+        "ai-safety",
+        "authority-bias",
+        "evaluation-methods",
+        "agentic-systems"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-4",
+      "content_key": "af6b85da9a55e4b2c553370c9b496f81d0dfd2ffb6d825de1098397128fdc5c6",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-4",
+      "title": "Huawei, AI 프로세서 100만 개 연결하는 컴퓨팅 시스템 설계",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbW9FdjE5OU1PU25yNUdHS1ZwLVFVc2QtT05ncl9lZW1BaXg0NWV1RDJMUHEzU3M2RXl3amtUaGNPOHJWbWxQT1ZFSG1iNGZUZVBoWE5xWF85aTN4c2ZjNWo4RXlwQWlHSjk3Q2VCeVBibUF0dnRTQmhWSXEtTVBwSktzNnNoOURGTFpScmpHaXBBMHdoNk5iMU5abUEtdEJmTUo0aENlb0dwMjByb0Z2WVZHYmVSQTBR?oc=5",
+      "score": 7.0,
+      "profile": "tech-news",
+      "source_type": null,
+      "tags": [
+        "ai-hardware",
+        "distributed-computing",
+        "large-scale-systems",
+        "huawei"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-5",
+      "content_key": "812e03c1711e8c6b73592e58215cab9c7234b81c0099a568f70d55ff3f8bfb8a",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-5",
+      "title": "StreetComplete, iOS 공개 베타 출시",
+      "url": "https://github.com/streetcomplete/StreetComplete/issues/5421",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "open-source",
+        "openstreetmap",
+        "mobile-development",
+        "community-mapping"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-6",
+      "content_key": "35399abaec91ebda31c750c931b5b2c317691faf4b82467f331070de96b38162",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-6",
+      "title": "Figma, 원격 MCP 서버 접근을 화이트리스트 클라이언트로 제한",
+      "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "hackernews",
+      "tags": [
+        "mcp-protocol",
+        "ai-agents",
+        "platform-integration",
+        "developer-experience",
+        "api-access-control"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-7",
+      "content_key": "d1091d35ac8aca9a98dc7e25014736b092fe5848446a81e527b3f99632490855",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-7",
+      "title": "Google, Chromebook 10년 업데이트 약속 어기고 2034년으로 제한",
+      "url": "https://news.hada.io/topic?id=34608",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "chromebook",
+        "google-hardware",
+        "product-strategy",
+        "enterprise-policy"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-8",
+      "content_key": "14911b06761547352be8d31794f6fe0370399eab2ca154a1c256a531e1e5e667",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-8",
+      "title": "Ledge.sh, Markdown 노트에서 코드를 직접 실행하는 개발자 도구",
+      "url": "https://news.hada.io/topic?id=34601",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "developer-tools",
+        "open-source",
+        "markdown",
+        "devops",
+        "executable-notebooks"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-9",
+      "content_key": "bc7d6781aedd09af210dcd356eac0f148f07a5008f678d81ac9985f9d32f9a3b",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-9",
+      "title": "PostgreSQL JSONB 조회·수정·인덱싱 실무 가이드",
+      "url": "https://news.hada.io/topic?id=34597",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "postgresql",
+        "jsonb",
+        "database-indexing",
+        "performance-tuning",
+        "sql"
+      ]
+    },
+    {
+      "id": "selected:item-tech-news-10",
+      "content_key": "a116d3c3932159702ff7f679fec072141dd3c47c14d782a4087e2d2316ef6caf",
+      "surface": "selected",
+      "anchor_id": "item-tech-news-10",
+      "title": "전 Google·SpaceX 출신, 위성용 AI 플랫폼 Satlyt에 800만 달러 투자",
+      "url": "https://techcrunch.com/2026/10/01/satlyt-founded-by-a-former-google-and-spacex-product-manager-raises-8m-to-run-ai-on-satellites/",
+      "score": 6.0,
+      "profile": "tech-news",
+      "source_type": "rss",
+      "tags": [
+        "satellite-computing",
+        "edge-ai",
+        "open-source",
+        "funding",
+        "systems-architecture"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-1",
+      "content_key": "249d6601b3fbb8a4b895fbdb80d0a14284c4f27a6445e7ecce71755c1b467ed7",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-1",
+      "title": "에이전트 조직화는 생각보다 쉬웠다: Bitter Lesson과 조직도",
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm",
+      "score": 7.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "ai-agents",
+        "organizational-design",
+        "large-language-models",
+        "ai-coordination",
+        "alignment-safety"
+      ]
+    },
+    {
+      "id": "selected:item-tech-blog-2",
+      "content_key": "015ccf980c076bf61e279865e5e50a34bafc53c1556ee6f3f3aeea57f2a0a37f",
+      "surface": "selected",
+      "anchor_id": "item-tech-blog-2",
+      "title": "Gemini 4 Argon: 1M 토큰 출력과 벤치마크 1위, 그러나 엇갈린 평가",
+      "url": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "score": 6.0,
+      "profile": "tech-blog",
+      "source_type": "rss",
+      "tags": [
+        "large-language-models",
+        "model-updates",
+        "pricing",
+        "benchmarking",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:cd457a2c5f29e1f0",
+      "content_key": "cd457a2c5f29e1f06321aba3323ff792c770e0801914b8733c0aef0c06091831",
+      "surface": "more",
+      "title": "56k.rip - 1996년 전화 접속 인터넷 체험",
+      "url": "https://news.hada.io/topic?id=34593",
+      "score": 5.0,
+      "summary": "56k.rip는 1996년 전화 접속 인터넷 경험을 브라우저에서 재현하는 프로젝트로, 선택한 모뎀 속도(14.4/28.8/56k)에 따라 실제로 페이지 전송을 제한하고 이미지가 한 줄씩 로드되며 연결이 끊기는 상황까지 시뮬레이션한다. 모뎀 핸드셰이크 녹음, 브라우저 기반 음성 합성, 절차적 그래픽 생성 등 기술적 구현이 돋보이며, 당시 온라인 서비스(메일, 채팅, 게임, 그림판)를 함께 제공한다.",
+      "tags": [
+        "nostalgia",
+        "web-history",
+        "browser-simulation",
+        "retro-tech",
+        "interactive-project"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-10-01T07:36:39+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:049c596e33657670",
+      "content_key": "049c596e33657670ce4eceb90259a56ecad6c071a5a342b2773c4b05cfba1359",
+      "surface": "more",
+      "title": "F/OSS Comics #11: BSD 유닉스 1화 – UC 버클리로 간 유닉스 코드",
+      "url": "https://news.hada.io/topic?id=34589",
+      "score": 5.0,
+      "summary": "F/OSS Comics 시리즈의 11번째 에피소드로 BSD 유닉스의 역사를 다루기 시작합니다. UC 버클리로 전해진 유닉스 코드의 이야기를 웹툰에서 만화책 스타일로 변경하여 표현하고 있으며, 독자 피드백을 수집 중입니다. 오픈소스 역사와 컴퓨터 과학의 기초를 이해하는 데 유용한 교육 콘텐츠입니다.",
+      "tags": [
+        "open-source",
+        "unix-history",
+        "bsd",
+        "educational-content"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "joone",
+      "published_at": "2026-10-01T06:19:57+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:e19e952a1d37d4d0",
+      "content_key": "e52668df7bb2e8337172a2dc03385356ea8a3509ecbdcbcbfe574110211dd3fd",
+      "surface": "more",
+      "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+      "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+      "score": 5.0,
+      "summary": "The Verge가 Kevin O'Leary의 유타 데이터센터 프로젝트에 대한 수개월 조사를 공개했다. 이 프로젝트는 40,000에이커 규모의 AI 캠퍼스에 9기가와트 이상의 전력을 공급하려는 계획이었다. AI 인프라 개발의 현실적 제약과 산업 동향을 이해하는 데 관련성이 있다.",
+      "tags": [
+        "ai-infrastructure",
+        "data-centers",
+        "investigative-journalism",
+        "ai-industry"
+      ],
+      "source_type": "rss",
+      "sub_source": "The Verge AI",
+      "author": "Nilay Patel",
+      "published_at": "2026-10-01T14:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:b6631c767e4dbef3",
+      "content_key": "b6631c767e4dbef317d8f21db5378398b79b68c55bda6c7e5a0e807d7be3a2e5",
+      "surface": "more",
+      "title": "Last.fm용 RSS 피드",
+      "url": "https://news.hada.io/topic?id=34612",
+      "score": 5.0,
+      "summary": "Last.fm이 2016년 사이트 개편 후 RSS 피드 기능을 제거한 것에 대응하여, 사용자 이름으로 최근 재생곡, 좋아요 곡, 상위곡, 상위 아티스트를 별도 RSS 피드로 제공하는 서비스입니다. 상위곡과 아티스트는 7일부터 전체 기간까지 선택 가능하며, 2025년에는 추천곡 지원과 Soundixx 호환 JSON 형식도 추가되었습니다. Last.fm의 장기간 미복구된 기능을 사용자가 직접 스크래핑으로 해결한 사례로, 개방형 데이터 접근의 중요성을 보여줍니다.",
+      "tags": [
+        "rss-feeds",
+        "open-source-tools",
+        "music-data",
+        "web-scraping"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-10-01T15:47:18+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:8615bc7aa7f8f1c3",
+      "content_key": "8615bc7aa7f8f1c36886463e8a9b5b40e9e94c531473136fc5181f257832574b",
+      "surface": "more",
+      "title": "Micron CEO, 2027년과 2028년 메모리 공급이 2026년보다 훨씬 더 빠듯해질 것으로 전망",
+      "url": "https://news.hada.io/topic?id=34610",
+      "score": 5.0,
+      "summary": "Micron CEO가 2027~2028년 메모리 공급이 2026년보다 훨씬 더 빠듯할 것으로 전망했습니다. Hacker News 논의에서는 높은 가격 유지가 경쟁사 진입을 억제할 수 있다는 우려와 함께, 모든 DRAM 제조사가 공장을 신설·증설 중이라는 점이 지속적인 수요 증가를 반영한다는 의견이 대립합니다. 이는 AI와 고성능 컴퓨팅 수요 증가 속에서 반도체 공급망의 병목 현상이 계속될 가능성을 시사합니다.",
+      "tags": [
+        "memory-supply",
+        "semiconductor-industry",
+        "hardware",
+        "market-dynamics",
+        "capacity-planning"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-10-01T15:41:17+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:e5862c40430ed3ac",
+      "content_key": "199e9ff185705c785baa569db2c30e78714157b7dbe4c2dcf15ab936555f04fd",
+      "surface": "more",
+      "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+      "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+      "score": 5.0,
+      "summary": "Photon은 iMessage, SMS/RCS, 이메일 등 메시징 플랫폼을 통해 작동하는 AI 에이전트를 구축하도록 돕는 스타트업으로, $4.5M 펀딩을 확보했다. 모바일 앱 다운로드 대신 메시징 기반 에이전트를 사용하는 소비자 행동 변화에 베팅하는 것으로, 에이전트 기반 상호작용이 실제로 앱을 대체할 수 있는지 보여주는 초기 사례다.",
+      "tags": [
+        "ai-agents",
+        "generative-ai",
+        "mobile-development",
+        "startup-funding"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "published_at": "2026-10-01T14:00:00+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:4b76bf63d6a2c863",
+      "content_key": "2d92623ab273d0c2db417d2836540226d279f37274ad652f0d374746c54519f2",
+      "surface": "more",
+      "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "score": 5.0,
+      "summary": "Shopify가 Canvas라는 새로운 사이트 빌더를 출시했으며, 이를 통해 판매자들이 AI 에이전트 Sidekick과 대화하면서 온라인 스토어를 실시간으로 만들고 커스터마이징할 수 있다. 이는 생성형 AI를 전자상거래 플랫폼에 통합하는 실질적인 사례로, 대화형 인터페이스가 복잡한 웹 구축 작업을 단순화할 수 있음을 보여준다.",
+      "tags": [
+        "generative-ai",
+        "ai-agents",
+        "e-commerce",
+        "product-launch"
+      ],
+      "source_type": "rss",
+      "sub_source": "TechCrunch AI",
+      "author": "Sarah Perez",
+      "published_at": "2026-10-01T16:44:35+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:30378af9122d75d8",
+      "content_key": "30378af9122d75d8fe71ccb3f60fdf6bf20e002a5dd942b479c6be123b7a45b0",
+      "surface": "more",
+      "title": "Show GN: 믹스독 — 같은 구독으로 더 많이 쓰는 오픈소스 코딩 에이전트",
+      "url": "https://news.hada.io/topic?id=34591",
+      "score": 5.0,
+      "summary": "Mixdog는 여러 AI 모델 제공사의 구독과 API를 한 곳에서 관리하고 비용을 절감하는 오픈소스 코딩 에이전트입니다. 도구 설계와 캐시 관리를 통해 불필요한 API 사용량을 줄이며, 현재 Windows 버전만 지원하고 있습니다. 개발자들이 여러 AI 서비스를 효율적으로 활용하려는 실제 필요를 해결하는 실용적인 솔루션입니다.",
+      "tags": [
+        "open-source",
+        "ai-tooling",
+        "api-management",
+        "cost-optimization",
+        "developer-tools"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "tempest1033",
+      "published_at": "2026-10-01T06:52:11+00:00",
+      "profile": "tech-news"
+    },
+    {
+      "id": "rss:news.hada.io_rss_news:6b139dd3630ada6a",
+      "content_key": "6b139dd3630ada6a3fc944ff37b472e747471e6a56bbccbe8821f9e47a11a08d",
+      "surface": "more",
+      "title": "StreetComplete iOS 버전, 공개 베타 시작",
+      "url": "https://news.hada.io/topic?id=34603",
+      "score": 5.0,
+      "summary": "StreetComplete의 iOS 버전이 TestFlight 공개 베타에 진입했습니다. 개발팀은 기존 Kotlin 코드베이스를 최대한 유지하면서 Kotlin Multiplatform과 Compose Multiplatform을 활용해 앱 로직과 UI를 공유하는 방식으로 이식했으며, 지도 렌더러를 tangram-es에서 MapLibre-native로 교체했습니다. 현재 iOS 15.x에서 지도가 작동하지 않는 등 알려진 제약이 있으며, 첫 정식 공개까지 개발 조율 이슈를 유지할 예정입니다.",
+      "tags": [
+        "open-source",
+        "cross-platform",
+        "kotlin-multiplatform",
+        "ios-development",
+        "software-engineering"
+      ],
+      "source_type": "rss",
+      "sub_source": "GeekNews",
+      "author": "neo",
+      "published_at": "2026-10-01T13:36:58+00:00",
+      "profile": "tech-news"
+    }
+  ],
+  "manifest_id": "746499eb3277187166f8aaea663443687600afb8beb75b2ba8ee62c80c9d1e69"
+}

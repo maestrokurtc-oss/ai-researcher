@@ -1,0 +1,177 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:b6631c767e4dbef3",
+    "title": "Last.fm용 RSS 피드",
+    "url": "https://news.hada.io/topic?id=34612",
+    "score": 5.0,
+    "summary": "Last.fm이 2016년 사이트 개편 후 RSS 피드 기능을 제거한 것에 대응하여, 사용자 이름으로 최근 재생곡, 좋아요 곡, 상위곡, 상위 아티스트를 별도 RSS 피드로 제공하는 서비스입니다. 상위곡과 아티스트는 7일부터 전체 기간까지 선택 가능하며, 2025년에는 추천곡 지원과 Soundixx 호환 JSON 형식도 추가되었습니다. Last.fm의 장기간 미복구된 기능을 사용자가 직접 스크래핑으로 해결한 사례로, 개방형 데이터 접근의 중요성을 보여줍니다.",
+    "reason": "Incremental utility tool addressing a real user need (Last.fm RSS feed restoration), with concrete technical features and clear use cases. Relevant to reader's interest in open source and tools, but limited technical depth and niche audience impact.",
+    "tags": [
+      "rss-feeds",
+      "open-source-tools",
+      "music-data",
+      "web-scraping"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-10-01T15:47:18+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:8615bc7aa7f8f1c3",
+    "title": "Micron CEO, 2027년과 2028년 메모리 공급이 2026년보다 훨씬 더 빠듯해질 것으로 전망",
+    "url": "https://news.hada.io/topic?id=34610",
+    "score": 5.0,
+    "summary": "Micron CEO가 2027~2028년 메모리 공급이 2026년보다 훨씬 더 빠듯할 것으로 전망했습니다. Hacker News 논의에서는 높은 가격 유지가 경쟁사 진입을 억제할 수 있다는 우려와 함께, 모든 DRAM 제조사가 공장을 신설·증설 중이라는 점이 지속적인 수요 증가를 반영한다는 의견이 대립합니다. 이는 AI와 고성능 컴퓨팅 수요 증가 속에서 반도체 공급망의 병목 현상이 계속될 가능성을 시사합니다.",
+    "reason": "Incremental industry news about memory supply forecasts with substantive community debate on market dynamics, competitive implications, and capacity expansion. Relevant to hardware and systems, but lacks novel technical insights or groundbreaking developments.",
+    "tags": [
+      "memory-supply",
+      "semiconductor-industry",
+      "hardware",
+      "market-dynamics",
+      "capacity-planning"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-10-01T15:41:17+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:6b139dd3630ada6a",
+    "title": "StreetComplete iOS 버전, 공개 베타 시작",
+    "url": "https://news.hada.io/topic?id=34603",
+    "score": 5.0,
+    "summary": "StreetComplete의 iOS 버전이 TestFlight 공개 베타에 진입했습니다. 개발팀은 기존 Kotlin 코드베이스를 최대한 유지하면서 Kotlin Multiplatform과 Compose Multiplatform을 활용해 앱 로직과 UI를 공유하는 방식으로 이식했으며, 지도 렌더러를 tangram-es에서 MapLibre-native로 교체했습니다. 현재 iOS 15.x에서 지도가 작동하지 않는 등 알려진 제약이 있으며, 첫 정식 공개까지 개발 조율 이슈를 유지할 예정입니다.",
+    "reason": "Incremental but technically interesting development: StreetComplete's iOS port using Kotlin Multiplatform and Compose Multiplatform represents a notable cross-platform engineering approach, though the public beta is early-stage with known limitations. Relevant to reader interests in open source and software engineering, but not groundbreaking.",
+    "tags": [
+      "open-source",
+      "cross-platform",
+      "kotlin-multiplatform",
+      "ios-development",
+      "software-engineering"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-10-01T13:36:58+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:cd457a2c5f29e1f0",
+    "title": "56k.rip - 1996년 전화 접속 인터넷 체험",
+    "url": "https://news.hada.io/topic?id=34593",
+    "score": 5.0,
+    "summary": "56k.rip는 1996년 전화 접속 인터넷 경험을 브라우저에서 재현하는 프로젝트로, 선택한 모뎀 속도(14.4/28.8/56k)에 따라 실제로 페이지 전송을 제한하고 이미지가 한 줄씩 로드되며 연결이 끊기는 상황까지 시뮬레이션한다. 모뎀 핸드셰이크 녹음, 브라우저 기반 음성 합성, 절차적 그래픽 생성 등 기술적 구현이 돋보이며, 당시 온라인 서비스(메일, 채팅, 게임, 그림판)를 함께 제공한다.",
+    "reason": "Nostalgic recreation project with technical merit in simulating dial-up constraints and 1990s web experience. Demonstrates solid engineering (bandwidth throttling, procedural graphics, browser-based synthesis) but is primarily a novelty/entertainment tool rather than substantive technical news.",
+    "tags": [
+      "nostalgia",
+      "web-history",
+      "browser-simulation",
+      "retro-tech",
+      "interactive-project"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-10-01T07:36:39+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:30378af9122d75d8",
+    "title": "Show GN: 믹스독 — 같은 구독으로 더 많이 쓰는 오픈소스 코딩 에이전트",
+    "url": "https://news.hada.io/topic?id=34591",
+    "score": 5.0,
+    "summary": "Mixdog는 여러 AI 모델 제공사의 구독과 API를 한 곳에서 관리하고 비용을 절감하는 오픈소스 코딩 에이전트입니다. 도구 설계와 캐시 관리를 통해 불필요한 API 사용량을 줄이며, 현재 Windows 버전만 지원하고 있습니다. 개발자들이 여러 AI 서비스를 효율적으로 활용하려는 실제 필요를 해결하는 실용적인 솔루션입니다.",
+    "reason": "A practical open-source tool for managing multiple AI model subscriptions and APIs with cost optimization features. Matches reader interests in open source and AI tooling, but limited by narrow platform support (Windows-only currently) and lack of independent verification of claims.",
+    "tags": [
+      "open-source",
+      "ai-tooling",
+      "api-management",
+      "cost-optimization",
+      "developer-tools"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "tempest1033",
+    "published_at": "2026-10-01T06:52:11+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:049c596e33657670",
+    "title": "F/OSS Comics #11: BSD 유닉스 1화 – UC 버클리로 간 유닉스 코드",
+    "url": "https://news.hada.io/topic?id=34589",
+    "score": 5.0,
+    "summary": "F/OSS Comics 시리즈의 11번째 에피소드로 BSD 유닉스의 역사를 다루기 시작합니다. UC 버클리로 전해진 유닉스 코드의 이야기를 웹툰에서 만화책 스타일로 변경하여 표현하고 있으며, 독자 피드백을 수집 중입니다. 오픈소스 역사와 컴퓨터 과학의 기초를 이해하는 데 유용한 교육 콘텐츠입니다.",
+    "reason": "Educational comic series on BSD Unix history with established audience interest in open source history. Matches reader's interest in open source and technical history, but is primarily entertainment/educational rather than news of technical developments or breakthroughs.",
+    "tags": [
+      "open-source",
+      "unix-history",
+      "bsd",
+      "educational-content"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "joone",
+    "published_at": "2026-10-01T06:19:57+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:4b76bf63d6a2c863",
+    "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+    "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+    "score": 5.0,
+    "summary": "Shopify가 Canvas라는 새로운 사이트 빌더를 출시했으며, 이를 통해 판매자들이 AI 에이전트 Sidekick과 대화하면서 온라인 스토어를 실시간으로 만들고 커스터마이징할 수 있다. 이는 생성형 AI를 전자상거래 플랫폼에 통합하는 실질적인 사례로, 대화형 인터페이스가 복잡한 웹 구축 작업을 단순화할 수 있음을 보여준다.",
+    "reason": "Incremental but meaningful application of conversational AI to e-commerce tooling. Canvas represents a practical use case for LLM-based interfaces in a widely-used platform, but lacks the technical depth or novelty for higher scoring. The real-time visual feedback mechanism is a useful UX pattern worth noting.",
+    "tags": [
+      "generative-ai",
+      "ai-agents",
+      "e-commerce",
+      "product-launch"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Sarah Perez",
+    "published_at": "2026-10-01T16:44:35+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:e5862c40430ed3ac",
+    "title": "Photon held a funeral for mobile apps. Now it has $4.5M to help replace them with agents.",
+    "url": "https://techcrunch.com/2026/10/01/photon-held-a-funeral-for-mobile-apps-now-it-has-4-5m-to-help-replace-them-with-agents/",
+    "score": 5.0,
+    "summary": "Photon은 iMessage, SMS/RCS, 이메일 등 메시징 플랫폼을 통해 작동하는 AI 에이전트를 구축하도록 돕는 스타트업으로, $4.5M 펀딩을 확보했다. 모바일 앱 다운로드 대신 메시징 기반 에이전트를 사용하는 소비자 행동 변화에 베팅하는 것으로, 에이전트 기반 상호작용이 실제로 앱을 대체할 수 있는지 보여주는 초기 사례다.",
+    "reason": "Incremental but notable development in AI agent infrastructure. Funding announcement with a clear technical premise (agents replacing apps via messaging platforms), but lacks concrete evidence of traction, technical depth, or market validation. The 'funeral' framing is promotional.",
+    "tags": [
+      "ai-agents",
+      "generative-ai",
+      "mobile-development",
+      "startup-funding"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Sarah Perez",
+    "published_at": "2026-10-01T14:00:00+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:e19e952a1d37d4d0",
+    "title": "Inside our months-long investigation into Kevin O’Leary’s Utah data center debacle",
+    "url": "https://www.theverge.com/podcast/1002851/utah-ai-data-center-stratos-kevin-oleary-investigation-backlash",
+    "score": 5.0,
+    "summary": "The Verge가 Kevin O'Leary의 유타 데이터센터 프로젝트에 대한 수개월 조사를 공개했다. 이 프로젝트는 40,000에이커 규모의 AI 캠퍼스에 9기가와트 이상의 전력을 공급하려는 계획이었다. AI 인프라 개발의 현실적 제약과 산업 동향을 이해하는 데 관련성이 있다.",
+    "reason": "Investigative journalism on a significant AI infrastructure project with potential industry implications, though the content preview is limited and doesn't reveal specific findings or technical details that would elevate it higher.",
+    "tags": [
+      "ai-infrastructure",
+      "data-centers",
+      "investigative-journalism",
+      "ai-industry"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Nilay Patel",
+    "published_at": "2026-10-01T14:00:00+00:00",
+    "profile": "tech-news"
+  }
+]
