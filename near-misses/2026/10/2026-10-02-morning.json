@@ -1,0 +1,650 @@
+[
+  {
+    "id": "rss:news.hada.io_rss_news:5046a2af69b593f7",
+    "title": "SvelteKit 3",
+    "url": "https://news.hada.io/topic?id=34650",
+    "score": 7.0,
+    "summary": "Svelte 공식 프레임워크인 SvelteKit 3.0이 출시되었으며, 기존 구조를 유지하면서 타입 안전성과 완성도를 높였다. sv migrate 도구로 자동 마이그레이션이 가능하고, 설정이 vite.config.ts로 이동하며, 환경 변수 기능과 오류 처리가 개선되었다. 호환성 파괴 변경이 있으므로 마이그레이션 가이드 확인이 필요하다.",
+    "reason": "SvelteKit 3.0 is a major version release of a widely-used web framework with significant improvements to type safety, developer experience, and migration tooling. The release includes breaking changes, improved error handling, and enhanced environment variable support. This is important for developers using SvelteKit and represents a meaningful evolution of the framework.",
+    "tags": [
+      "sveltekit",
+      "web-framework",
+      "major-release",
+      "developer-tools",
+      "typescript"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-10-02T02:32:29+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2610.02200",
+    "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+    "url": "https://arxiv.org/abs/2610.02200",
+    "score": 7.0,
+    "summary": "VISTA는 멀티모달 모델에 장기 시각 추론 능력을 부여하는 시각 인터페이스로, 과거 관찰을 손실 없이 유지하고 능동적으로 검색할 수 있게 한다. Claude Opus 5.0의 ARC-AGI-3 성능을 40.68에서 완벽한 100.00으로 개선했으며, 인간 참가자보다 57.4% 적은 행동으로 모든 25개 공개 게임을 완료했다. 세 가지 추가 벤치마크에서도 기저 모델을 사용한 다른 방법들을 크게 능가하며, 최소한의 적응으로 다양한 시각 환경으로 확장 가능한 범용 시각 에이전트 설계를 제시한다.",
+    "reason": "Solid empirical contribution showing a practical method to unlock multimodal model reasoning in interactive visual environments. Perfect score on ARC-AGI-3 with substantial efficiency gains is well-evidenced. The approach is simple, generalizable across benchmarks, and directly useful for practitioners building visual agents. However, limited to evaluation on existing benchmarks without evidence of deployment impact or comparison to other recent visual reasoning methods.",
+    "tags": [
+      "multimodal-models",
+      "visual-reasoning",
+      "interactive-environments",
+      "agent-architecture",
+      "benchmark-evaluation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.AI",
+    "author": "Qiushi Han, Keya Hu, Linlu Qiu, Cathy Wu, Kaiming He",
+    "published_at": "2026-10-01T17:59:45+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02148",
+    "title": "Omni-Embed-Mini: Binding Modalities Without Forgetting via Dense Distillation",
+    "url": "https://arxiv.org/abs/2610.02148",
+    "score": 7.0,
+    "summary": "Omni-Embed-Mini는 0.9B 파라미터로 텍스트, 음성, 오디오, 이미지, 비디오, 문서를 단일 임베딩 공간에 매핑하면서 텍스트 검색 성능을 유지한다. 핵심은 밀집 캡션을 통한 자체 증류(dense distillation)로, 교사 모델 없이 동일한 백본 가중치를 공유하여 텍스트 성능 저하를 방지한다. 기존 omni-modal 임베더보다 2.7~9.5배 작으면서 Gemini Embedding 2와 경쟁력 있는 성능을 달성하며, 코드와 모델을 공개한다.",
+    "reason": "Solid contribution with a clever technical insight (dense distillation without separate teacher model) and strong empirical results. The method achieves competitive performance on multi-modal embedding while maintaining text retrieval quality and being significantly smaller than existing omni-modal models. Full reproducibility promised (code, weights, data). Narrow scope limits it from being must-read, but the efficiency-performance tradeoff and technical approach are valuable for practitioners building multi-modal systems.",
+    "tags": [
+      "multi-modal-embeddings",
+      "knowledge-distillation",
+      "model-efficiency",
+      "embedding-models",
+      "vision-language"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Mohammed Irfan Kurpath, Jaseel Muhammad Kaithakkodan, Sahal Shaji Mullappilly, Ivan Laptev, Hisham Cholakkal",
+    "published_at": "2026-10-01T17:49:40+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02123",
+    "title": "Harnessing Domain Specialists in Multimodal Mixture-of-Experts for Efficient Adaptation",
+    "url": "https://arxiv.org/abs/2610.02123",
+    "score": 7.0,
+    "summary": "ExpertLens는 사전학습된 multimodal MoE 모델의 라우터 가중치를 분석하여 도메인 특화 전문가를 자동으로 식별하는 데이터 무료 방법을 제시한다. 수학, 의료, 원격 감지 작업에서 전체 파인튜닝과 동등하거나 우수한 성능을 달성하면서 모델 파라미터의 21.7-47.0%만 업데이트하고 4.0배의 학습 속도 향상을 실현했으며, LoRA보다 적응 성능과 학습 효율 모두에서 우수하다. 이는 효율성을 위해 도입된 희소성이 효율적 적응에 직접 유용한 의미론적 모듈성을 자연스럽게 만들어낸다는 것을 보여준다.",
+    "reason": "Solid empirical contribution with a useful practical method. The paper identifies emergent semantic specialization in multimodal MoEs and proposes ExpertLens, a data-free approach for efficient domain adaptation. The evaluation across three diverse domains (math, medical, remote sensing) with concrete efficiency gains (4.0x speedup, 21.7-47.0% parameter updates) and comparisons to LoRA provides good evidence. The work addresses a real practitioner concern—efficient adaptation of large models—and the method is straightforward to apply. However, the scope is somewhat narrow (focused on MoE adaptation), and the abstract does not indicate whether code or weights are released, which limits reproducibility claims.",
+    "tags": [
+      "mixture-of-experts",
+      "multimodal-learning",
+      "efficient-adaptation",
+      "parameter-efficient-fine-tuning",
+      "domain-specialization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Damiano Marsili, Raphi Kang, Aditya Mehta, Pietro Perona, Georgia Gkioxari",
+    "published_at": "2026-10-01T17:37:13+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "rss:news.hada.io_rss_news:851c0cf3c781364d",
+    "title": "Pi 1.0 출시 - 미니멀한 터미널 코딩 에이전트",
+    "url": "https://news.hada.io/topic?id=34632",
+    "score": 6.0,
+    "summary": "터미널 코딩 에이전트 Pi가 1.0을 출시했으며, 매주 수십만 명이 사용하고 있습니다. 주요 추가 기능으로는 JavaScript 기반 Codemode(도구 호출 조합), 여러 모델을 하나처럼 사용하는 가상 모델, 도구 지연 로딩, Anthropic 모델 캐시 워밍 등이 있습니다. 최소주의 설계 원칙을 유지하면서 실제 가치가 입증된 기능만 채택했으며, MIT 라이선스 오픈소스로 높은 확장성을 지향합니다.",
+    "reason": "Pi 1.0 represents a solid incremental release of a practical developer tool with meaningful features (Codemode, virtual models, lazy loading, cache warming) and demonstrated real-world adoption (hundreds of thousands weekly users). The minimalist design philosophy and multi-model support align with reader interests in AI tooling and open source. However, this is a routine tool update rather than a breakthrough, and the content lacks technical depth or novel insights that would elevate it to high-value territory.",
+    "tags": [
+      "coding-agents",
+      "ai-tooling",
+      "open-source",
+      "developer-tools",
+      "multi-model-support"
+    ],
+    "source_type": "rss",
+    "sub_source": "GeekNews",
+    "author": "neo",
+    "published_at": "2026-10-01T20:38:34+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "reddit:subreddit-rss:t3_1wvg7yc",
+    "title": "arXiv now limits submitters to up to two submissions per calendar month [N]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wvg7yc/arxiv_now_limits_submitters_to_up_to_two/",
+    "score": 6.0,
+    "summary": "arXiv가 제출자당 월 2건으로 제출 제한을 시행하기 시작했다. 이는 연구 공개 및 배포 방식에 영향을 미치는 정책 변화이며, 특히 머신러닝과 AI 커뮤니티에서 논문 공개 속도와 접근성에 직접적인 영향을 줄 수 있다.",
+    "reason": "Moderately important policy change affecting research dissemination in ML/AI. arXiv submission limits directly impact how researchers share work, though the Reddit post itself provides minimal detail about rationale, implementation, or exceptions.",
+    "tags": [
+      "arxiv",
+      "research-publishing",
+      "machine-learning",
+      "policy-change",
+      "open-science"
+    ],
+    "source_type": "reddit",
+    "sub_source": "r/MachineLearning",
+    "author": "/u/Nunki08",
+    "published_at": "2026-10-02T00:47:10+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2610.02207",
+    "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+    "url": "https://arxiv.org/abs/2610.02207",
+    "score": 6.0,
+    "summary": "GALA는 3D Gaussian 아바타의 실시간 애니메이션을 가속화하는 증류 방법으로, 무거운 신경망 디코딩을 얕은 MLP와 선형 블렌드셰이프 조합으로 대체합니다. 렌더링 인식 메트릭을 사용한 블록 로컬 PCA로 기저를 구성하여 메모리 효율성을 개선하고, CPU 애니메이션 비용을 최대 1000배 감소시키면서 모바일 기기에서 60fps 달성합니다. 이 방법은 원본 모델을 재학습하지 않고도 다양한 애니메이션 아키텍처에 적용되며 미학습 신원으로도 일반화됩니다.",
+    "reason": "Solid technical contribution with practical impact: a distillation method that accelerates 3D Gaussian avatar animation by 1000x through linear approximation, validated across multiple models with real-time mobile performance. The core insight (linear blendshape approximation) is straightforward but the execution with rendering-aware PCA and generalization to held-out identities shows careful engineering. However, the work is narrowly scoped to a specific animation architecture and the evaluation, while thorough for its domain, does not address broader questions about avatar quality trade-offs or comparison to other acceleration approaches.",
+    "tags": [
+      "3d-graphics",
+      "avatar-animation",
+      "model-distillation",
+      "real-time-rendering",
+      "mobile-optimization"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
+    "published_at": "2026-10-01T17:59:58+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02205",
+    "title": "ROWBench: Do Video Models Render What the Program Specifies?",
+    "url": "https://arxiv.org/abs/2610.02205",
+    "score": 6.0,
+    "summary": "ROWBench는 프로그래밍 가능한 월드 모델이 명시된 규칙과 상호작용을 얼마나 잘 따르는지 평가하는 새로운 벤치마크다. 170개의 프로그래밍된 에피소드와 600개의 프록시 비디오로 구성되며, 엔티티 상태와 타임스탬프된 이벤트를 기록하여 생성된 비디오가 프로그램 실행의 결과와 일치하는지 검증한다. Logic-Render Alignment와 Interaction Success Rate 같은 VLM 기반 메트릭으로 장기 메모리와 타임라인 준수를 평가하며, 게임 엔진 개발자와 월드 모델 연구자에게 유용한 평가 도구를 제공한다.",
+    "reason": "A solid benchmark contribution addressing a real gap in evaluating programmable world models' fidelity to specified dynamics. The benchmark design is thoughtful with programmatic ground truth and multiple evaluation perspectives, but the scope is narrow (170 episodes) and the work is primarily an evaluation tool rather than a method advance. Useful for practitioners building world models but not a capability breakthrough.",
+    "tags": [
+      "world-modeling",
+      "benchmark",
+      "video-generation",
+      "game-development",
+      "evaluation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Zheng-Hui Huang, Guixu Lin, Yu-Ju Tsai, Jian-Kai Zhu, Fengbo Lan",
+    "published_at": "2026-10-01T17:59:53+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02201",
+    "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
+    "url": "https://arxiv.org/abs/2610.02201",
+    "score": 6.0,
+    "summary": "SILSA는 3D 생성을 위해 고정된 슬라이싱 윈도우 기반 잠재 표현을 제안하여, 복셀 기반 방식의 비용과 토폴로지 일관성 문제를 해결한다. Slice VAE와 Volumetric Anchor Lattice를 통해 단일 단계 생성을 지원하며, 지속성 다이어그램 기반 토폴로지 감독으로 구조적 정확성을 보장한다. 실험 결과 PSNR 8.7%, coverage 5.96포인트 개선, 토큰 70% 감소, 추론 시간 58.5% 단축을 달성했으나, 평가 범위가 표준 벤치마크에 제한되어 있다.",
+    "reason": "Solid technical contribution with novel representation and convincing empirical gains on a narrow problem. The sliding-window slice latent approach is a reasonable alternative to voxel-based methods, and the reported improvements in efficiency (70% fewer tokens, 58.5% faster inference) and quality metrics are substantial. However, the work addresses a specific sub-problem in 3D generation rather than a foundational capability shift, and the evaluation appears limited to standard benchmarks without evidence of broader impact on downstream applications. The topology-aware design is thoughtful but incremental relative to existing multi-stage pipelines.",
+    "tags": [
+      "3d-generation",
+      "latent-representations",
+      "topology-preservation",
+      "efficient-inference"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Tianjiao Yu, Xinzhuo Li, Yifan Shen, Ying Shen, Kiet A. Nguyen",
+    "published_at": "2026-10-01T17:59:46+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02197",
+    "title": "HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation",
+    "url": "https://arxiv.org/abs/2610.02197",
+    "score": 6.0,
+    "summary": "HiPhy는 비디오 생성 모델이 여러 물리 원리를 동시에 따르도록 강화학습 프레임워크를 제안한다. 기존 방법들이 단일 물리 원리만 다루는 반면, 이 연구는 개별 원리의 시간 역학을 지역적으로 강제하고 장면 전체의 물리·의미론적 일관성을 전역적으로 보장하는 이중 목표를 사용한다. 50K 프롬프트 데이터셋과 MultiPhyBench 벤치마크를 구축했으며, 특히 여러 물리 현상이 동시에 일어나는 장면에서 기존 방법보다 크게 개선되었다고 보고한다.",
+    "reason": "Solid contribution addressing a real gap in video generation (multi-principle physics coherence), with a new dataset and RL framework. The evaluation appears thorough across multiple benchmarks, and the problem is well-motivated. However, the abstract does not provide concrete performance numbers, comparison baselines, or evidence of reproducibility (code/weights release), limiting confidence in the magnitude of improvement. The work is incremental in scope—applying RL to an existing problem rather than introducing a fundamentally new capability—but meaningfully advances an important direction for world modeling.",
+    "tags": [
+      "video-generation",
+      "physics-simulation",
+      "world-modeling",
+      "reinforcement-learning",
+      "multi-task-learning"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Tahira Kazimi, Shubhankar Borse, Munawar Hayat, Fatih Porikli, Pinar Yanardag",
+    "published_at": "2026-10-01T17:59:41+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02188",
+    "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+    "url": "https://arxiv.org/abs/2610.02188",
+    "score": 6.0,
+    "summary": "DMAD는 확산 모델 증류(distillation)에서 보조 점수 모델의 비용을 제거하기 위해 분포 매칭을 적대적 분류 문제로 재구성합니다. 공유 백본의 두 판별자 헤드가 실제 데이터와 교사 샘플을 학생 샘플과 구분하며, 로짓의 선형 손실로 학생을 훈련합니다. ImageNet-64x64에서 한 단계 생성으로 FID 1.04, COCO-10K에서 네 단계 SDXL로 14.47을 달성하며, 비교 대상 방법들을 능가합니다. 코드와 모델이 공개되어 있어 재현성이 좋습니다.",
+    "reason": "Solid technical contribution with convincing results on a practical problem (fast diffusion distillation), but narrow scope and incremental framing limit impact. The core insight—recasting distribution matching as adversarial classification to avoid auxiliary model costs—is sound and well-motivated. Strong empirical results across multiple domains (image, video, audio-video generation) with released code. However, the advance is primarily engineering-focused rather than conceptually novel, and the paper's significance depends on whether practitioners care about the specific efficiency gains over DMD.",
+    "tags": [
+      "diffusion-models",
+      "model-distillation",
+      "fast-generation",
+      "adversarial-training",
+      "image-video-generation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Zhengming Yu, Junkun Yuan, Haotian Yang, Gordon Guocheng Qian, Yizhi Wang",
+    "published_at": "2026-10-01T17:59:01+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02181",
+    "title": "OmniSeek: Native Tool Integration for Multi-turn Audio-Visual Reasoning",
+    "url": "https://arxiv.org/abs/2610.02181",
+    "score": 6.0,
+    "summary": "OmniSeek는 Omni LLM을 멀티턴 추론 에이전트로 변환하여 긴 오디오-비주얼 시퀀스에서 동적으로 증거를 검색하는 프레임워크다. 합성 데이터셋 OmniTraj-170K로 감독 학습한 후 검증 가능한 보상으로 강화학습을 수행하며, Audio-Visual Necessity 목표를 통해 양쪽 모달리티를 모두 활용하도록 유도한다. 여러 벤치마크에서 적응형 크로스모달 증거 탐색과 성능 개선을 보여주지만, 구체적인 수치 비교가 추상에 제시되지 않았다.",
+    "reason": "A solid contribution on multi-modal reasoning with native tool use. The paper presents a clear technical approach (iterative evidence retrieval, synthetic data generation, RL optimization) and claims consistent improvements across benchmarks. However, the abstract does not provide concrete performance numbers, baseline comparisons, or evidence of how substantial the gains are. The work is well-motivated and addresses a real problem (efficient reasoning over long audio-visual sequences), but without specific quantitative results or comparison to strong baselines, it remains in the 'interesting but not yet proven to be high-impact' category. The synthetic data engine and multi-stage training approach show methodological rigor, but reproducibility details are unclear from the abstract alone.",
+    "tags": [
+      "multimodal-reasoning",
+      "audio-visual-understanding",
+      "tool-use",
+      "reinforcement-learning",
+      "long-context"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Haibo Wang, Jiteng Mu, Jialu Li, Jingru Yi, Yuanjun Xiong",
+    "published_at": "2026-10-01T17:58:16+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02180",
+    "title": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
+    "url": "https://arxiv.org/abs/2610.02180",
+    "score": 6.0,
+    "summary": "GenCine는 단일 이미지를 편집 가능한 3D 장면으로 변환하여 카메라와 객체 움직임을 동시에 제어하는 비디오 생성 시스템입니다. 2D 궤적의 모호성을 해결하기 위해 3D 모션 핸들을 사용하고, 이를 guidance map으로 변환하여 사전학습된 비디오 모델에 전달합니다. 실제 비디오와 합성 비디오 데이터로 학습한 결과 카메라 상대 움직임의 일관성과 기하학적 안정성이 개선되었으나, 정량적 평가 결과는 제시되지 않았습니다.",
+    "reason": "Solid technical contribution with a clear problem (ambiguity in 2D motion controls for video generation) and a reasonable solution (3D scene scaffolds with projected guidance maps). The approach shows practical value for video generation control, but the evaluation appears limited to qualitative results and the novelty is incremental—combining existing techniques (3D lifting, guidance maps, LoRA adaptation) rather than introducing fundamentally new capabilities. The work would be useful for practitioners building video generation systems, but lacks the breadth of evaluation or magnitude of improvement needed for higher scoring.",
+    "tags": [
+      "video-generation",
+      "3d-control",
+      "camera-motion",
+      "generative-models",
+      "motion-control"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Jiahan Zhang, Chaohao Yang, Namitha Guruprasad, Vivekjyoti Banerjee, Trong-Tung Nguyen",
+    "published_at": "2026-10-01T17:58:09+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02136",
+    "title": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
+    "url": "https://arxiv.org/abs/2610.02136",
+    "score": 6.0,
+    "summary": "MIRTO는 뇌 MRI 비지도 이상 탐지 방법의 평가에서 자주 보고되지 않는 선택들(정렬 방식, 임계값 설정, 거짓양성 예산 등)을 명시적으로 드러내고 그 영향을 측정하는 평가 프로토콜이다. 등록 확인으로 기하학적 비교를 검증하고 15,552개의 방어 가능한 평가 파이프라인에서 반복 실험하며 부트스트랩 신뢰구간을 제공한다. BraTS 2020 데이터셋의 312명 대상으로 네 가지 방법을 평가한 결과, 축 순서 불일치가 복셀 수준 AUROC를 0.873에서 0.583으로 크게 낮추는 등 평가 선택의 중대한 영향을 입증했다. 의료 AI 평가의 재현성과 투명성을 크게 개선하지만, 프로토콜 채택에 따른 실제 영향은 아직 불명확하다.",
+    "reason": "Solid methodological contribution addressing a real problem in medical AI evaluation. MIRTO presents a comprehensive protocol that makes evaluation choices explicit and measures their effects systematically. The multiverse testing approach (15,552 pipelines) and registration-gated validation are rigorous. However, the scope is narrow (brain MRI anomaly detection), the evaluation is exploratory rather than confirmatory, and the practical impact on practitioners depends on adoption of the protocol. The work is well-executed but incremental in nature—improving evaluation rigor rather than advancing detection methods themselves.",
+    "tags": [
+      "medical-imaging",
+      "anomaly-detection",
+      "evaluation-methodology",
+      "brain-mri",
+      "reproducibility"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Negin Kafee Hernashki, Soumick Chatterjee",
+    "published_at": "2026-10-01T17:44:22+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02117",
+    "title": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+    "url": "https://arxiv.org/abs/2610.02117",
+    "score": 6.0,
+    "summary": "Where-OPD는 합성 장면에서 자동으로 생성된 공간 좌표를 활용하여 MLLM(multimodal large language model)을 자기 증류하는 방법을 제안한다. 교사 모델이 공간 정보를 통해 관련 이미지 영역을 찾아 통합하면, 학생 모델이 이 동작을 모방하도록 학습된다. 합성 데이터만으로 학습했음에도 실제 데이터에서 평균 3.23점의 성능 향상을 달성하며, 계산, 문서, 차트 이해 등 여러 벤치마크에서 일관된 개선을 보인다.",
+    "reason": "A solid empirical contribution with a clear method (spatial grounding for MLLM self-distillation) and convincing transfer results from synthetic to real data. The approach is novel in its application domain and shows consistent gains across multiple benchmarks. However, the scope is somewhat narrow—focused on a specific distillation technique for MLLMs—and the abstract does not provide enough detail to assess the magnitude of improvements or whether baselines are truly strong. The synthetic-to-real transfer is noteworthy but the evaluation, while broad in benchmark coverage, lacks depth in ablation details visible in the abstract.",
+    "tags": [
+      "multimodal-llms",
+      "self-distillation",
+      "synthetic-data",
+      "vision-language",
+      "knowledge-distillation"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Sophia Sirko-Galouchenko, Monika Wysoczanska, Andrei Bursuc, Nicolas Thome, Spyros Gidaris",
+    "published_at": "2026-10-01T17:34:10+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02081",
+    "title": "Wasserstein Gradient Flows and Forward-Only Diffusion Are Not Enough for Multimodal Sampling",
+    "url": "https://arxiv.org/abs/2610.02081",
+    "score": 6.0,
+    "summary": "이 논문은 Wasserstein gradient flows와 forward-only diffusion 기반 샘플링 알고리즘들이 다중 모드 분포에서 지수적으로 느린 혼합 시간을 가진다는 것을 이론적으로 증명합니다. JKO 스킴과 Otto 미적분학을 사용한 스펙트럼 분석과 평균 첫 통과 시간 분석을 통해, 잘 분리된 모드들 사이의 확률 질량 이동이 본질적으로 지역적 그래디언트 기반 메커니즘으로는 지수 시간이 필요함을 보입니다. 이는 널리 채택된 이 방법들의 기본적인 한계를 드러내며, 효율적인 다중 모드 샘플링을 위해 비지역적 메커니즘 개발의 필요성을 제시합니다.",
+    "reason": "Solid theoretical contribution identifying a fundamental limitation in popular sampling methods. The paper uses rigorous mathematical tools (JKO scheme, spectral analysis, MFPT) to show that Wasserstein gradient flows and forward-only diffusion suffer from exponentially slow mixing times on multimodal distributions—a negative result that challenges common interpretations of convergence guarantees. The analysis is careful and the conclusion is well-supported, but the contribution is primarily theoretical with limited practical guidance on alternatives, and the scope is narrow (specific class of methods under log-linear annealing).",
+    "tags": [
+      "diffusion-models",
+      "sampling-algorithms",
+      "theoretical-analysis",
+      "multimodal-distributions",
+      "convergence-analysis"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv stat.ML",
+    "author": "Daniel McBride, Pratik Khandagale, Cristina Garcia-Cardona, Yen Ting Lin",
+    "published_at": "2026-10-01T17:16:47+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "hackernews:story:49928121",
+    "title": "Several vulnerabilities have been discovered in the Linux kernel",
+    "url": "https://lwn.net/Articles/1097401/",
+    "score": 5.0,
+    "summary": "Linux 커널에서 여러 취약점이 발견되었다는 뉴스로, LWN 기사를 통해 보도되었습니다. 커뮤니티 논의에서는 CVE 번호 할당의 인플레이션 문제(모든 버그 수정이 CVE로 등록됨), AI가 코드 작성 시 인간 수준의 취약점 도입률을 보이면서 보안 연구 속도가 가속화되는 문제, 그리고 마이크로커널 아키텍처로의 전환 필요성 등이 논의되고 있습니다. 기술 인프라의 보안 취약성과 AI의 영향에 관심 있는 독자에게 관련성이 있습니다.",
+    "reason": "Routine security news with moderate community engagement. The headline is generic (vulnerabilities in Linux kernel are frequent), but the discussion reveals substantive debate about CVE inflation metrics, AI-assisted code generation's security implications, and kernel architecture—topics relevant to the reader's interests in system security and AI impact. The source (LWN via HN) is reliable, but the item itself lacks concrete vulnerability details or technical depth.",
+    "tags": [
+      "linux-kernel",
+      "security-vulnerabilities",
+      "ai-code-generation",
+      "system-architecture"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "luispa",
+    "author": "luispa",
+    "published_at": "2026-10-01T23:10:44+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "hackernews:story:49927760",
+    "title": "Frog and Toad and the Increasingly Capable Machines",
+    "url": "https://www.frogandtoad.ai/",
+    "score": 5.0,
+    "summary": "Arnold Lobel의 '개구리와 두꺼비' 책 스타일을 모방한 AI 생성 창작물로, 증가하는 AI 능력을 주제로 다룬다. 커뮤니티에서는 글쓰기와 미술 스타일의 완성도를 높이 평가했으며, 일부 독자는 저작권 보상 문제를 제기했다. 생성형 AI가 기존 창작물의 스타일을 얼마나 효과적으로 재현할 수 있는지 보여주는 사례이지만, 기술적 분석보다는 창작물 자체에 초점이 맞춰져 있다.",
+    "reason": "Creative AI-generated content styled as children's literature that explores themes relevant to reader interests (generative AI, content authenticity, AI capabilities). Community engagement is positive and substantive, though the piece is primarily creative rather than technical analysis. The work demonstrates current AI capabilities in narrative and artistic style imitation, which has some relevance to understanding generative AI systems, but lacks technical depth or novel insights about the technology itself.",
+    "tags": [
+      "generative-ai",
+      "ai-generated-content",
+      "content-authenticity",
+      "creative-writing"
+    ],
+    "source_type": "hackernews",
+    "sub_source": "supermdguy",
+    "author": "supermdguy",
+    "published_at": "2026-10-01T22:23:38+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:8427fc6093c0dadd",
+    "title": "Opus 5.5 loves to tell you ‘this matters’ (and other AI writing tells)",
+    "url": "https://techcrunch.com/2026/10/01/opus-5-5-loves-to-tell-you-this-matters-and-other-ai-writing-tells/",
+    "score": 5.0,
+    "summary": "Russell Brandom이 Anthropic의 Opus 5.5 모델이 인간 샘플 대비 'dependable'이라는 단어를 23배 더 자주 사용하는 등 특정 언어 패턴을 드러낸다고 분석했다. AI 생성 콘텐츠의 식별 가능한 특징을 파악하는 것은 콘텐츠 진위성과 인터넷 무결성 문제와 관련이 있다.",
+    "reason": "Incremental analysis of AI model writing patterns with concrete linguistic evidence. Relevant to reader interests in generative AI and content authenticity, but limited scope and depth.",
+    "tags": [
+      "generative-ai",
+      "content-authenticity",
+      "large-language-models",
+      "ai-writing-patterns"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Russell Brandom",
+    "published_at": "2026-10-01T17:50:19+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:techcrunch.com_category_artificial-intelligence_feed_:4b76bf63d6a2c863",
+    "title": "Shopify debuts Canvas, a way to build online stores by chatting with AI",
+    "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+    "score": 5.0,
+    "summary": "Shopify가 Canvas라는 새로운 사이트 빌더를 출시했으며, 이를 통해 상인들이 AI 에이전트 Sidekick과 대화하면서 온라인 스토어를 실시간으로 생성하고 커스터마이징할 수 있다. 이는 생성형 AI를 전자상거래 플랫폼에 통합하는 실질적인 사례이지만, 기술적 깊이나 혁신성은 제한적이다.",
+    "reason": "Incremental but notable application of conversational AI to e-commerce tooling. Canvas represents a practical use case for AI agents in a mainstream commercial context, but lacks technical depth or paradigm-shifting innovation. The real-time visual feedback is a useful UX pattern rather than a breakthrough.",
+    "tags": [
+      "generative-ai",
+      "ai-agents",
+      "e-commerce",
+      "product-launch"
+    ],
+    "source_type": "rss",
+    "sub_source": "TechCrunch AI",
+    "author": "Sarah Perez",
+    "published_at": "2026-10-01T16:44:35+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:a841038fec186edf",
+    "title": "Google’s new Guided Vision feature can help you read the fine print",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+    "score": 5.0,
+    "summary": "Google이 Gemini Live에 Guided Vision 기능을 출시했으며, 이는 스마트폰 카메라를 통해 실시간 음성 설명을 제공한다. 작은 글씨 읽기, 주변 환경 설명, 물체 식별 등 다양한 용도로 사용할 수 있으며, 호환되는 Android 기기에서 오늘부터 이용 가능하다. 접근성 개선과 실용적 가치는 있지만 기술적으로는 기존 멀티모달 AI 기능의 응용 수준이다.",
+    "reason": "Incremental feature addition to Gemini with practical accessibility value. Guided Vision is a useful real-world application of multimodal AI, but represents routine product development rather than a breakthrough. The feature itself is straightforward—real-time audio descriptions via camera—without novel technical depth or industry-shifting implications.",
+    "tags": [
+      "google-ai",
+      "generative-ai",
+      "accessibility",
+      "mobile-ai"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Stevie Bonifield",
+    "published_at": "2026-10-01T19:47:51+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:www.theverge.com_rss_ai-artificial-intelligence_index.xml:491883052b125d52",
+    "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+    "url": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+    "score": 5.0,
+    "summary": "연방 판사가 Google의 AI Overviews 기능이 웹 트래픽을 감소시킨다고 주장한 Chegg와 Penske Media의 독점금지 소송을 기각했다. 이 판결은 AI 검색 기능을 둘러싼 규제 논쟁이 계속되는 가운데 Google에 유리한 결과로, AI 생성 콘텐츠가 기존 출판사에 미치는 영향에 대한 산업 내 우려를 반영한다.",
+    "reason": "Incremental legal development with moderate industry relevance. The dismissal of antitrust suits against Google's AI Overviews is newsworthy for those tracking AI regulation and tech industry competition, but represents a single procedural ruling rather than a substantive legal or technical breakthrough. The content is substantive but incomplete in the provided excerpt.",
+    "tags": [
+      "google-ai",
+      "antitrust",
+      "ai-overviews",
+      "content-authenticity",
+      "generative-ai"
+    ],
+    "source_type": "rss",
+    "sub_source": "The Verge AI",
+    "author": "Emma Roth",
+    "published_at": "2026-10-01T17:12:21+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "rss:arstechnica.com_ai_feed_:e5cbd7a6508b3373",
+    "title": "Judge dismisses Chegg and Penske antitrust lawsuits targeting Google AI search",
+    "url": "https://arstechnica.com/google/2026/10/antitrust-lawsuits-targeting-google-ai-search-dismissed-by-federal-judge/",
+    "score": 5.0,
+    "summary": "연방 판사가 Google의 AI 검색 기능을 표적으로 한 Chegg와 Penske의 독점금지법 소송을 기각했다. 법원은 AI 검색이 결과를 초래한다는 점을 인정했지만 이것이 독점금지법 위반이 아니라고 판단했다. 이 판결은 AI 검색이 기존 검색 생태계와 콘텐츠 제작자에게 미치는 영향에 대한 법적 책임 문제를 남긴다.",
+    "reason": "Moderately interesting legal development regarding AI search and antitrust concerns. Relevant to reader's interest in AI and internet integrity, but the dismissal itself is a routine court outcome rather than a technical breakthrough or major industry shift. The substantive question of AI search's competitive impact remains unresolved.",
+    "tags": [
+      "antitrust",
+      "google-ai",
+      "ai-search",
+      "legal"
+    ],
+    "source_type": "rss",
+    "sub_source": "Ars Technica AI",
+    "author": "Ryan Whitwam",
+    "published_at": "2026-10-01T20:11:55+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "reddit:subreddit-rss:t3_1wvk3cw",
+    "title": "A video about Adversarial Objectives [P]",
+    "url": "https://www.reddit.com/r/MachineLearning/comments/1wvk3cw/a_video_about_adversarial_objectives_p/",
+    "score": 5.0,
+    "summary": "기계학습 연구자가 adversarial objectives에 대한 비디오를 공유했으며, GANs와 self-play를 넘어 현대 기술에서의 adversarial 접근법의 광범위한 응용을 탐색한다고 설명했다. 구체적인 내용은 링크된 비디오에 있으며, 이 주제는 생성형 AI와 강화학습 분야에서 중요한 기초 개념이다.",
+    "reason": "Educational content on adversarial objectives with potential technical depth, but limited concrete details in the submission itself. The topic is relevant to ML/AI interests, though the value depends on video quality and depth not evident from this post.",
+    "tags": [
+      "adversarial-objectives",
+      "machine-learning",
+      "generative-ai",
+      "self-play"
+    ],
+    "source_type": "reddit",
+    "sub_source": "r/MachineLearning",
+    "author": "/u/manicman1999",
+    "published_at": "2026-10-02T04:02:56+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "google_news:article:6304799bd78a9df7",
+    "title": "‘The whole writing department was laid off’: Workers share real cases of jobs lost or not replaced after AI entered the workplace - Indiatimes",
+    "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPUDBpUkIyUktoR2ZQenA0THVGdlZKR0l3SXM1ZGU0dnFDSEZNb2ZzZTBrblNNODlyMWs5d0VHNmNBNUoyUWd6OTFnSFJSZlUxdFg3dGdRWGxjeEFLczJ3TlpKdDZWeFhqeHlDX2xUNmpueGptWE4wZk95NjFpeWxlSlVqS3Nmdk9XRlFGdl8yaWVqTUhNUTZWdGo2d2NTTkFfMzZ6dmFHZU5OU3pEQU9DYjktT3FFNC0ycDlVZkdaWktqWlczMC1CLTlhRHlncldQX1BPellJRk4zN3hoTVpmYzBocWJJbm5DVzhITjRnVVdFUnlzQ1h4SFFoOThMUTYyWGEtRHkzem9YNTJqZEo0WWxCeERkQkhl0gGeAkFVX3lxTFBjMHMwdXhacXhzN3ZHTUJEV3pROXhCbWlVbGdfZmdjVWlGV0gzdzd2cWJydExZQ0tIZjkzTDFfS2NyQkY2NVlQemkyWHFaTlFadmFRTHY4cHg5UWlkbDdyWVdYLWdlMXJ0Zk1GdkVRUFRTQVhrZlFrX083ZmxPNUtrQ1EyTC1udnFIcFBJZVNmZ2ttMTBPV3dyVFVEbl9DalcwNHprTTA5YU40RkZ6REF3WWJzYU0zRUx0OUp3LVdDcjhQUkZPVC1VaXpCdVdHTmZmTWJfSzBsdkFXTlhWMkNuRFBFRVpFZGFCMW5YSnpsbXdqZVBER1ZvZEd3Y3JqSF92MEhSb2stYURHdExFakp3NnJEZXl1eDUxM2pNTHc?oc=5",
+    "score": 5.0,
+    "summary": "인도 매체가 AI 도입 이후 일자리 감소 사례들을 보도하고 있으며, 특히 글쓰기 부서 전체 해고 등 구체적인 사례를 다루고 있다. 생성형 AI의 노동 시장 영향에 대한 실제 사례 증거를 제시하지만, 체계적 분석보다는 개별 증언에 의존하고 있다.",
+    "reason": "Timely coverage of AI's workplace impact with concrete worker accounts, relevant to reader interests in AI and industry effects, but lacks technical depth and relies on anecdotal evidence rather than systematic analysis.",
+    "tags": [
+      "generative-ai",
+      "ai-impact",
+      "labor-market",
+      "workplace-automation"
+    ],
+    "source_type": "google_news",
+    "sub_source": "Indiatimes",
+    "author": "Indiatimes",
+    "published_at": "2026-10-02T04:34:24+00:00",
+    "profile": "tech-news"
+  },
+  {
+    "id": "arxiv:paper:2610.02208",
+    "title": "Sphere Encoder 2",
+    "url": "https://arxiv.org/abs/2610.02208",
+    "score": 5.0,
+    "summary": "Sphere Encoder 2는 고차원 잠재 구(latent sphere)에서 무작위 점을 디코딩하여 이미지를 생성하는 오토인코더의 개선 버전이다. 원본의 두 가지 제한을 해결한다: 인코딩된 잠재에서 무작위 점이 극점보다 적도 근처에 집중되는 문제와 픽셀 단위 재구성 손실이 흐릿한 이미지를 생성하는 문제. 저자들은 생성 품질을 크게 향상시키면서 오토인코더의 속도와 단순성을 유지한다고 주장하며 코드를 공개했다.",
+    "reason": "Sphere Encoder 2 addresses specific technical limitations in the original method with concrete solutions (equator concentration, pixel-wise loss issues), but the contribution is incremental improvement to an existing autoencoder approach. The work shows engineering competence and releases code, but lacks evidence of breakthrough performance gains or fundamental insights that would change practitioner decisions. Evaluation details are absent from the abstract.",
+    "tags": [
+      "image-generation",
+      "autoencoder",
+      "latent-space",
+      "generative-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Kaiyu Yue, Sean McLeish, Ruchit Rawal, Brian Bartoldson, Menglin Jia",
+    "published_at": "2026-10-01T17:59:58+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02203",
+    "title": "Embedding Prediction Helps Image Generation",
+    "url": "https://arxiv.org/abs/2610.02203",
+    "score": 5.0,
+    "summary": "NEPA는 diffusion transformer에서 조건 임베딩을 생성 과정 중 동적으로 예측하는 방식을 제안한다. 기존의 고정된 클래스/텍스트 임베딩 대신, 현재 노이즈 상태에 맞춰 재계산된 임베딩으로 조건화하면 FID 1.32를 달성하며 학습 계산량을 약 3분의 1로 줄일 수 있다. 다만 평가가 ImageNet 256×256 클래스 조건 생성에만 제한되어 있고, 매 스텝마다 추가 네트워크를 실행하는 오버헤드의 실제 영향은 불명확하다.",
+    "reason": "A reasonable contribution with a novel conditioning approach for diffusion transformers. The core idea—predicting embeddings adaptively during denoising rather than reusing static embeddings—is sensible and shows modest empirical gains (FID 1.32 with reduced compute). However, evaluation is limited to ImageNet 256×256 class-conditional generation, ablations are not detailed in the abstract, and the practical impact for practitioners is unclear given the added computational cost of running a second network at every step.",
+    "tags": [
+      "diffusion-models",
+      "image-generation",
+      "conditional-generation",
+      "transformer-architecture",
+      "embedding-prediction"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Sihan Xu, Ji Xie, Zilin Wang, Hui Shen, Stella X. Yu",
+    "published_at": "2026-10-01T17:59:49+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02114",
+    "title": "Surface-volume self-supervised representation learning of brain MRI for genetic discovery",
+    "url": "https://arxiv.org/abs/2610.02114",
+    "score": 5.0,
+    "summary": "MEVA는 뇌 MRI의 부피 데이터와 피질 표면 메시 기하학(곡률, 피질 두께)을 단일 자기지도 학습 프레임워크로 통합하는 방법을 제시한다. UK Biobank에서 GWAS 표현형으로 사용했을 때, 두 입력 중 하나만 사용한 모델보다 더 많은 유전체 유의 위치를 발견했으며, 이는 표면 기하학 정보가 뇌 해부학의 유전 가능 변이를 추가로 포착함을 시사한다.",
+    "reason": "A methodologically sound contribution combining two complementary brain imaging modalities (volumetric and surface mesh) for self-supervised learning, with validation on a large-scale genetic study. The work is narrow in scope—specific to brain MRI phenotyping—and the performance gains are described as 'modest,' but the GWAS validation on UK Biobank data provides real-world evidence of utility. The idea of joint representation learning across modalities is not novel, but its application to capture heritable variation in brain anatomy is reasonably executed. Lacks code/reproducibility statements in the abstract.",
+    "tags": [
+      "brain-imaging",
+      "self-supervised-learning",
+      "genetic-discovery",
+      "multimodal-learning",
+      "gwas"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Tian Xia, Nuo Chen, Zihao Zhu, Huiwen Han, Ziqian Xie",
+    "published_at": "2026-10-01T17:32:52+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02051",
+    "title": "Learning from Failure: Leveraging Unreliable Predictions in Semi-Supervised Real-World Adverse Weather Removal",
+    "url": "https://arxiv.org/abs/2610.02051",
+    "score": 5.0,
+    "summary": "이 논문은 비와 안개, 눈 등으로 손상된 이미지를 복원하는 작업에서 신뢰할 수 있는 예측과 신뢰할 수 없는 예측을 모두 활용하는 반지도 학습 프레임워크를 제안합니다. 실패한 교사 모델의 예측을 대조 학습의 음성 샘플로 보존하고, 고품질 예측을 양성 샘플로 저장하여 모델이 바람직한 복원 특성을 학습하면서 일반적인 실패를 피하도록 합니다. 위상 스펙트럼 기반 의미론적 제약을 도입하여 텍스트 기반 감독의 계산 비용을 줄이고, 실제 환경에서의 일반화 성능을 개선합니다.",
+    "reason": "A solid contribution to adverse weather image restoration with a reasonable semi-supervised approach using reliable and unreliable predictions. The method shows consistent improvements on real-world benchmarks, but the scope is narrow (weather restoration) and the novelty is incremental—combining existing ideas (student-teacher frameworks, contrastive learning, pseudo-labeling) rather than introducing fundamentally new concepts. The phase spectrum semantic constraint is a practical efficiency improvement but not a major conceptual advance. Evaluation appears thorough on stated benchmarks, but without access to the full paper, claims of outperforming state-of-the-art cannot be independently verified from the abstract alone.",
+    "tags": [
+      "image-restoration",
+      "semi-supervised-learning",
+      "adverse-weather",
+      "computer-vision",
+      "pseudo-labeling"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Cap Dang Xuan Kiet, Tat-Jen Cham",
+    "published_at": "2026-10-01T17:00:17+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02044",
+    "title": "DiDE:Direct Injection with Color-Texture DEcoupling for 3D Stylization",
+    "url": "https://arxiv.org/abs/2610.02044",
+    "score": 5.0,
+    "summary": "DiDE는 이미지-3D 생성 모델의 잠재 공간에서 색상과 텍스처 정보가 분리 가능하다는 관찰을 바탕으로, 참조 이미지에서 색상과 텍스처를 독립적으로 제어하여 3D 자산에 적용하는 훈련 불필요 프레임워크를 제안한다. 채널 분할 메커니즘을 통해 자기 주의 계층에서 두 스타일 신호를 간섭 없이 합성하며, 새로운 벤치마크에서 기존 방법들을 능가한다.",
+    "reason": "A focused contribution to 3D stylization with a clear technical insight (channel partitioning in latent space) and new benchmark, but narrow scope and limited evidence of broad impact on practitioner workflows.",
+    "tags": [
+      "3d-generation",
+      "neural-stylization",
+      "generative-models",
+      "latent-space-analysis"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Tao Wu, Alexandra Gomez-Villa, Senmao Li, Yaxing Wang, Joost van de Weijer",
+    "published_at": "2026-10-01T16:55:19+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02021",
+    "title": "Task-Adaptive Grounded 3D-Programmers Using 2D VLMs",
+    "url": "https://arxiv.org/abs/2610.02021",
+    "score": 5.0,
+    "summary": "논문은 2D VLM을 3D 작업에 활용하기 위해 Canonical Coordinate Framing(CCF)과 Task-Adaptive Feedback(TAF)이라는 두 가지 개념을 도입한다. CCF는 3D 입력과 출력을 공유 좌표계에 고정하여 축 모호성과 스케일 불일치 문제를 해결하고, TAF는 동적 피드백을 통해 VLM이 다양한 3D 작업을 수행하도록 한다. 재학습 없이 객체 및 장면 수준의 3D 이해, 조작, 생성 작업을 수행하는 3D-Prog 프레임워크를 제시하지만, 구체적인 정량적 평가와 기존 방법과의 비교가 추상에 제시되지 않아 실제 성능 향상의 규모를 판단하기 어렵다.",
+    "reason": "A reasonable contribution with solid technical ideas (CCF and TAF) that enable 2D VLMs to handle 3D tasks without retraining. The approach is sensible and addresses real grounding challenges, but the abstract does not provide sufficient evidence of empirical validation, baseline comparisons, or quantitative results to assess the magnitude of improvement. Evaluation details are absent, making it difficult to judge whether this represents a meaningful advance over existing 3D grounding methods.",
+    "tags": [
+      "3d-vision",
+      "vision-language-models",
+      "3d-understanding",
+      "grounding",
+      "open-vocabulary"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CV",
+    "author": "Arman Raayatsanati, Sombit Dey, Anna-Maria Halacheva, Jan-Nico Zaech, Luc Van Gool",
+    "published_at": "2026-10-01T16:43:17+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02019",
+    "title": "Controllable Multi-label Video Safety Detection via Adaptive Tversky Policy Optimization",
+    "url": "https://arxiv.org/abs/2610.02019",
+    "score": 5.0,
+    "summary": "비디오 안전 감지를 위해 강화학습 기반의 Adaptive Tversky Policy Optimization (ATPO)을 제안하는 논문입니다. 기존 이진 분류 방식을 벗어나 다중 레이블 안전 위험을 감지하고, Adaptive Tversky Reward를 통해 정밀도-재현율 트레이드오프를 동적으로 조절할 수 있습니다. SafeWatch-Bench에서 Jaccard Index를 40.66에서 75.44로 크게 향상시켰으며, 코드와 체크포인트를 공개했습니다.",
+    "reason": "A focused contribution addressing a real problem (multi-label video safety detection) with a reasonable technical approach (RL-based reward shaping via Adaptive Tversky metric). The claimed improvements are substantial (40.66→75.44 Jaccard Index), but evaluation is limited to two benchmarks and the work is narrow in scope—incremental application of existing RL techniques to a specific safety task. Code release supports reproducibility. Does not match reader's core interests in model capabilities, pricing, or world modeling.",
+    "tags": [
+      "video-safety",
+      "multi-label-classification",
+      "reinforcement-learning",
+      "content-moderation",
+      "vision-language-models"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.CL",
+    "author": "Guangyu Yang, Jingbiao Mei, Mingsheng Sun, Jinghong Chen, Yingtong Bu",
+    "published_at": "2026-10-01T16:42:30+00:00",
+    "profile": "ai-paper"
+  },
+  {
+    "id": "arxiv:paper:2610.02198",
+    "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
+    "url": "https://arxiv.org/abs/2610.02198",
+    "score": 5.0,
+    "summary": "FERPO는 critic의 action 미분을 피하고 대신 forward-KL 목적함수와 자기정규화 중요도 샘플링을 사용하여 정책을 개선하는 on-policy 강화학습 알고리즘을 제안합니다. 엔트로피와 KL 정규화를 통해 목표 행동 분포를 도출하고, 이는 reverse-KL 대비 다중 모드 탐색을 더 잘 촉진합니다. MuJoCo와 ManiSkill에서 경쟁력 있는 성능을 보이고 REPPO보다 빠른 actor 업데이트를 달성했으나, 평가 범위가 제한적입니다.",
+    "reason": "A reasonable contribution to on-policy RL with a novel approach to policy improvement, but limited scope and evaluation. The core idea—using forward-KL with importance sampling instead of critic gradients—is sound and addresses a real problem (critic value accuracy vs. action derivative accuracy). However, the evaluation is narrow (MuJoCo and ManiSkill only), and the claimed advantages over REPPO are modest. No code or reproducibility details are mentioned. The work is technically competent but incremental within the continuous control RL space.",
+    "tags": [
+      "reinforcement-learning",
+      "policy-optimization",
+      "continuous-control",
+      "maximum-entropy-rl"
+    ],
+    "source_type": "arxiv",
+    "sub_source": "arXiv cs.LG",
+    "author": "Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv",
+    "published_at": "2026-10-01T17:59:41+00:00",
+    "profile": "ai-paper"
+  }
+]
